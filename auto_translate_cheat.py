@@ -7,13 +7,20 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 DICT_FOLDER = os.path.join(ROOT_DIR, "dict")
 DICT_IFO = os.path.join(DICT_FOLDER, "stardict‑ec‑2.4.2/stardict‑ec‑2.4.2.ifo")
 CUSTOM_DICT_PATH = os.path.join(ROOT_DIR, "custom_dict.json")
+MISS_LOG_PATH = os.path.join(ROOT_DIR, "translate_miss.log")
 SEPARATOR = "｜"
 
-custom_dict = {}
+# 加载自定义词典，构建小写key用于忽略大小写匹配
+custom_dict_raw = {}
+custom_dict_lower = {}
 if os.path.exists(CUSTOM_DICT_PATH):
-    with open(CUSTOM_DICT_PATH, "r", encoding="utf‑8") as f:
-        custom_dict = json.load(f)
+    with open(CUSTOM_DICT_PATH, "r", encoding="utf-8") as f:
+        custom_dict_raw = json.load(f)
+    # 构建小写映射: key(小写) -> 译文
+    for orig, trans in custom_dict_raw.items():
+        custom_dict_lower[orig.lower()] = trans
 
+# 加载Stardict离线词典
 stardict_cache = {}
 if os.path.exists(DICT_IFO):
     glos = Glossary()
@@ -23,15 +30,22 @@ if os.path.exists(DICT_IFO):
         defi = entry.defi.strip()
         stardict_cache[word] = defi
 
+miss_set = set()
+
 def offline_translate(text: str) -> str:
     raw = text.strip()
     if not raw:
         return raw
-    if raw in custom_dict:
-        return f"{raw}{SEPARATOR}{custom_dict[raw]}"
-    low_text = raw.lower()
-    if low_text in stardict_cache:
-        return f"{raw}{SEPARATOR}{stardict_cache[low_text]}"
+
+    raw_low = raw.lower()
+    # 1.优先自定义词典（忽略大小写）
+    if raw_low in custom_dict_lower:
+        return f"{raw}{SEPARATOR}{custom_dict_lower[raw_low]}"
+    # 2.离线stardict词典
+    if raw_low in stardict_cache:
+        return f"{raw}{SEPARATOR}{stardict_cache[raw_low]}"
+    # 3.全部未命中，记入日志，返回原文
+    miss_set.add(raw)
     return raw
 
 pattern_shn = re.compile(r'(Cheat Text=")(.*?)(")', re.MULTILINE | re.DOTALL)
@@ -78,6 +92,14 @@ def scan_all(root):
                 print(f"Processing JSON: {full_path}")
                 process_json(full_path)
 
+def write_miss_log():
+    """输出未命中词条日志，方便补充custom_dict.json"""
+    with open(MISS_LOG_PATH, "w", encoding="utf‑8") as f:
+        for item in sorted(miss_set):
+            f.write(f"{item}\n")
+    print(f"✅ Miss log wrote: {MISS_LOG_PATH}, total miss: {len(miss_set)}")
+
 if __name__ == "__main__":
     scan_all(ROOT_DIR)
+    write_miss_log()
     print("✅ Translation finished")
