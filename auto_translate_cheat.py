@@ -1,5 +1,6 @@
 import os
 import json
+import re
 
 # 读取环境变量DICT_PATH，yml传入conf目录
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
@@ -15,6 +16,10 @@ except Exception as e:
 miss_log_path = "translate_miss.log"
 miss_set = set()
 
+# 正则匹配 Cheat Text="xxxx"
+PAT_CHEAT_TEXT = re.compile(r'(Cheat Text=")(.*?)(")')
+
+
 def translate_text(text: str):
     if not text:
         return text
@@ -25,6 +30,7 @@ def translate_text(text: str):
         if eng in text:
             text = text.replace(eng, chn)
     return text
+
 
 def process_json_file(filepath):
     try:
@@ -64,6 +70,47 @@ def process_json_file(filepath):
     except Exception as e:
         print(f"[PROCESS ERROR] {filepath} | {e}")
 
+
+def process_shn_file(filepath):
+    """处理 .shn 文件，翻译 Cheat Text="xxx" """
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"[SKIP BAD SHN READ] {filepath} | {e}")
+        return
+
+    changed = False
+    out_lines = []
+    for line in lines:
+        match = PAT_CHEAT_TEXT.match(line.strip())
+        if match:
+            prefix = match.group(1)
+            raw_text = match.group(2)
+            suffix = match.group(3)
+            trans = translate_text(raw_text)
+            if trans != raw_text:
+                new_content = f"{raw_text}｜{trans}"
+                new_line = f'{prefix}{new_content}{suffix}\n'
+                out_lines.append(new_line)
+                changed = True
+            else:
+                val_strip = raw_text.strip()
+                if val_strip and val_strip not in translate_dict.values():
+                    miss_set.add(val_strip)
+                out_lines.append(line)
+        else:
+            out_lines.append(line)
+
+    if changed:
+        try:
+            with open(filepath, "w", encoding="utf-8") as fw:
+                fw.writelines(out_lines)
+            print(f"[SHN MODIFIED] {filepath}")
+        except Exception as e:
+            print(f"[SHN WRITE ERROR] {filepath} | {e}")
+
+
 def scan_all_files(root_dir):
     for dirpath, dirnames, filenames in os.walk(root_dir):
         if "conf" in dirnames:
@@ -76,8 +123,10 @@ def scan_all_files(root_dir):
                     process_json_file(fullpath)
                 elif fname.lower().endswith(".shn"):
                     print(f"Processing SHN: {fullpath}")
+                    process_shn_file(fullpath)
             except Exception as e:
                 print(f"[SCAN FILE SKIP] {fullpath} | {e}")
+
 
 def main():
     ROOT_DIR = os.getcwd()
@@ -93,6 +142,7 @@ def main():
         print(f"\nMiss words saved to {miss_log_path}, total miss:{len(miss_set)}")
     except Exception as e:
         print(f"[WRITE LOG ERROR] {e}")
+
 
 if __name__ == "__main__":
     # 顶层捕获全部异常，脚本绝不整体崩溃退出
