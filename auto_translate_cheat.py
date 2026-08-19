@@ -1,34 +1,19 @@
 import os
 import re
 import json
-from pyglossary import Glossary
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-DICT_FOLDER = os.path.join(ROOT_DIR, "dict")
-DICT_IFO = os.path.join(DICT_FOLDER, "stardict‑ec‑2.4.2/stardict‑ec‑2.4.2.ifo")
 CUSTOM_DICT_PATH = os.path.join(ROOT_DIR, "custom_dict.json")
 MISS_LOG_PATH = os.path.join(ROOT_DIR, "translate_miss.log")
 SEPARATOR = "｜"
 
-# 加载自定义词典，构建小写key用于忽略大小写匹配
-custom_dict_raw = {}
+# 加载自定义词典，构建小写key，忽略大小写匹配
 custom_dict_lower = {}
 if os.path.exists(CUSTOM_DICT_PATH):
     with open(CUSTOM_DICT_PATH, "r", encoding="utf-8") as f:
-        custom_dict_raw = json.load(f)
-    # 构建小写映射: key(小写) -> 译文
-    for orig, trans in custom_dict_raw.items():
-        custom_dict_lower[orig.lower()] = trans
-
-# 加载Stardict离线词典
-stardict_cache = {}
-if os.path.exists(DICT_IFO):
-    glos = Glossary()
-    glos.read(DICT_IFO, format="Stardict")
-    for entry in glos:
-        word = entry.word.strip().lower()
-        defi = entry.defi.strip()
-        stardict_cache[word] = defi
+        raw_dict = json.load(f)
+    for orig_text, trans_text in raw_dict.items():
+        custom_dict_lower[orig_text.lower()] = trans_text
 
 miss_set = set()
 
@@ -36,70 +21,65 @@ def offline_translate(text: str) -> str:
     raw = text.strip()
     if not raw:
         return raw
-
     raw_low = raw.lower()
-    # 1.优先自定义词典（忽略大小写）
     if raw_low in custom_dict_lower:
         return f"{raw}{SEPARATOR}{custom_dict_lower[raw_low]}"
-    # 2.离线stardict词典
-    if raw_low in stardict_cache:
-        return f"{raw}{SEPARATOR}{stardict_cache[raw_low]}"
-    # 3.全部未命中，记入日志，返回原文
+    # 没有命中词典，记入miss日志，原样返回原文
     miss_set.add(raw)
     return raw
 
+# 匹配Cheat Text="xxx"
 pattern_shn = re.compile(r'(Cheat Text=")(.*?)(")', re.MULTILINE | re.DOTALL)
 
-def process_shn(filepath):
-    with open(filepath, "r", encoding="utf‑8", errors="ignore") as f:
+def process_shn_file(filepath):
+    with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
         content = f.read()
-    def replace_cb(match):
-        pre = match.group(1)
-        txt = match.group(2)
-        suf = match.group(3)
-        return pre + offline_translate(txt) + suf
-    new_content = pattern_shn.sub(replace_cb, content)
-    with open(filepath, "w", encoding="utf‑8") as f:
+    def replace_func(match):
+        prefix = match.group(1)
+        origin_txt = match.group(2)
+        suffix = match.group(3)
+        return prefix + offline_translate(origin_txt) + suffix
+    new_content = pattern_shn.sub(replace_func, content)
+    with open(filepath, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-def walk_json(obj):
+def walk_json_node(obj):
     if isinstance(obj, dict):
         for k, v in obj.items():
             if k == "name" and isinstance(v, str):
                 obj[k] = offline_translate(v)
             else:
-                walk_json(v)
+                walk_json_node(v)
     elif isinstance(obj, list):
         for item in obj:
-            walk_json(item)
+            walk_json_node(item)
 
-def process_json(filepath):
-    with open(filepath, "r", encoding="utf‑8", errors="ignore") as f:
+def process_json_file(filepath):
+    with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
         data = json.load(f)
-    walk_json(data)
-    with open(filepath, "w", encoding="utf‑8") as f:
+    walk_json_node(data)
+    with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def scan_all(root):
-    for dirpath, _, filenames in os.walk(root):
+def scan_all_files(root_path):
+    for dirpath, _, filenames in os.walk(root_path):
         for fname in filenames:
-            full_path = os.path.join(dirpath, fname)
-            fl = fname.lower()
-            if fl.endswith(".shn"):
-                print(f"Processing SHN: {full_path}")
-                process_shn(full_path)
-            elif fl.endswith(".json"):
-                print(f"Processing JSON: {full_path}")
-                process_json(full_path)
+            fullpath = os.path.join(dirpath, fname)
+            fname_low = fname.lower()
+            if fname_low.endswith(".shn"):
+                print(f"Processing SHN: {fullpath}")
+                process_shn_file(fullpath)
+            elif fname_low.endswith(".json"):
+                print(f"Processing JSON: {fullpath}")
+                process_json_file(fullpath)
 
 def write_miss_log():
-    """输出未命中词条日志，方便补充custom_dict.json"""
-    with open(MISS_LOG_PATH, "w", encoding="utf‑8") as f:
-        for item in sorted(miss_set):
-            f.write(f"{item}\n")
-    print(f"✅ Miss log wrote: {MISS_LOG_PATH}, total miss: {len(miss_set)}")
+    with open(MISS_LOG_PATH, "w", encoding="utf-8") as fp:
+        for entry in sorted(miss_set):
+            fp.write(f"{entry}\n")
+    print(f"Miss log saved, total untranslated items: {len(miss_set)}")
 
 if __name__ == "__main__":
-    scan_all(ROOT_DIR)
+    scan_all_files(ROOT_DIR)
     write_miss_log()
-    print("✅ Translation finished")
+    print("✅ Translation work complete")
