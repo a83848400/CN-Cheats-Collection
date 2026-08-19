@@ -1,0 +1,19 @@
+name: 仓库保活（防止定时任务被禁用）
+permissions:
+  contents: write
+on:
+  schedule:
+    - cron: '0 2 1,5,10,15,20,25 * *'
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 生成无实际修改的空提交，重置仓库不活跃计时器
+        run: |
+          git config user.name "Bot‑KeepAlive"
+          git config user.email "bot‑keepalive@example.org"
+          git commit --allow-empty -m "🤖 Keepalive commit, prevent schedule workflow disable"
+          git push
