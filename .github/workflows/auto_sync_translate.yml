@@ -29,15 +29,14 @@ jobs:
           git config --global user.name "Cheat-Translate-Bot"
           git config --global user.email "bot@example.org"
 
-      - name: 添加上游只读仓库 TeeKay87/HEN-Cheats-Collection
+      - name: 添加上游仓库 TeeKay87/HEN-Cheats-Collection
         run: |
           git remote add upstream https://github.com/TeeKay87/HEN-Cheats-Collection.git
-          git fetch upstream
+          git fetch upstream --prune --unshallow
 
-      - name: 准备 chinese-build 输出分支
+      - name: 新建/重置 chinese-build，完全对齐上游main
         run: |
-          git checkout -B chinese-build origin/chinese-build || git checkout -B chinese-build
-          git merge upstream/main --no-edit
+          git checkout -B chinese-build upstream/main
 
       - name: 复制翻译脚本与词典配置（main分支源文件）
         run: |
@@ -50,4 +49,4 @@ jobs:
         run: |
           git add .
           git commit -m "🤖 CI: sync upstream + offline translate cheats" || echo "ℹ️ No file changes, skip commit"
-          git push origin chinese-build
+          git push --force origin chinese-build
