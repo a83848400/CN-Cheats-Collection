@@ -7,7 +7,6 @@ CUSTOM_DICT_PATH = os.path.join(ROOT_DIR, "custom_dict.json")
 MISS_LOG_PATH = os.path.join(ROOT_DIR, "translate_miss.log")
 SEPARATOR = "｜"
 
-# 加载自定义词典，构建小写key，忽略大小写匹配
 custom_dict_lower = {}
 if os.path.exists(CUSTOM_DICT_PATH):
     with open(CUSTOM_DICT_PATH, "r", encoding="utf-8") as f:
@@ -24,11 +23,9 @@ def offline_translate(text: str) -> str:
     raw_low = raw.lower()
     if raw_low in custom_dict_lower:
         return f"{raw}{SEPARATOR}{custom_dict_lower[raw_low]}"
-    # 没有命中词典，记入miss日志，原样返回原文
     miss_set.add(raw)
     return raw
 
-# 匹配Cheat Text="xxx"
 pattern_shn = re.compile(r'(Cheat Text=")(.*?)(")', re.MULTILINE | re.DOTALL)
 
 def process_shn_file(filepath):
