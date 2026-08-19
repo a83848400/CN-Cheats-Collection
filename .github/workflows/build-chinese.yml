@@ -1,12 +1,9 @@
 name: 同步上游并构建汉化金手指
 on:
   schedule:
-    # UTC时间，每天凌晨4点执行自动同步（对应国内中午12点），可自行修改
     - cron: "0 4 * * *"
-  # 允许网页上手动点击按钮运行工作流
   workflow_dispatch:
 
-# 允许actions bot读写你的仓库代码，否则无法提交推送
 permissions:
   contents: write
 
@@ -14,43 +11,43 @@ jobs:
   sync_and_build_cn:
     runs-on: ubuntu-latest
     steps:
-      - name: 检出本仓库master分支完整代码
+      - name: 检出master完整代码
         uses: actions/checkout@v4
         with:
           ref: master
           fetch-depth: 0
 
-      - name: 添加上游远程仓库源
+      - name: 添加上游仓库
         run: |
           git remote add upstream https://github.com/TeeKay87/HEN-Cheats-Collection.git
           git fetch upstream master
 
-      - name: 配置git提交者信息
+      - name: Git配置提交身份
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: 将上游最新master合并到本地master
-        run: |
-          git merge upstream/master --no-edit
+      - name: 上游最新合并到本地master
+        run: git merge upstream/master --no-edit
 
-      - name: 创建/切换到汉化输出分支 chinese-build
+      # 关键修复：先删除本地旧的chinese-build，再从【刚刚更新完的master】新建chinese-build
+      - name: 重建chinese-build分支（从最新master）
         run: |
-          git checkout -B chinese-build
+          git branch -D chinese-build || true
+          git checkout -b chinese-build
 
-      - name: 设置Python3环境
+      - name: 设置Python环境
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: 运行汉化脚本 translate_cheats.py
+      - name: 运行汉化脚本
         run: python3 ./translate_cheats.py
 
-      - name: 提交汉化后的全部文件
+      - name: 提交汉化变更
         run: |
           git add cheats/ hencc-website/
-          git commit -m "自动构建：同步上游+汉化 $(date '+%Y-%m-%d %H:%M')" || echo "没有变更，跳过本次提交"
+          git commit -m "自动构建：同步上游+汉化 $(date '+%Y-%m-%d %H:%M')" || echo "无变更，跳过提交"
 
-      - name: 推送汉化分支 chinese-build 回自己仓库
-        run: |
-          git push origin chinese-build --force
+      - name: 推送分支
+        run: git push -f origin chinese-build
