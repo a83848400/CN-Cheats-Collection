@@ -1,4 +1,4 @@
-name: Sync Upstream & Translate -> chinese-build
+name: 同步上游并翻译 -> chinese-build
 on:
   schedule:
     - cron: '0 3 * * *'
@@ -8,48 +8,45 @@ jobs:
   sync_and_build_cn:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout fork repo main branch
+      - name: Checkout main分支（翻译脚本、custom_dict.json）
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Python 3.11
+      - name: Setup Python3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install python dependencies
+      - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install pyglossary json5
+          pip install json5
 
-      - name: Download stardict offline dictionary
-        run: |
-          mkdir -p dict
-          cd dict
-          wget -q https://github.com/zhelihu/stardict-ec/raw/main/stardict-ec-2.4.2.tar.gz
-          tar -xf stardict-ec-2.4.2.tar.gz
-
-      - name: Configure git bot user
+      - name: Git机器人配置
         run: |
           git config --global user.name "Cheat-Translate-Bot"
           git config --global user.email "bot@example.org"
 
-      - name: Add upstream remote(read‑only)
+      - name: 添加上游只读仓库 TeeKay87/HEN-Cheats-Collection
         run: |
           git remote add upstream https://github.com/TeeKay87/HEN-Cheats-Collection.git
           git fetch upstream
 
-      - name: Prepare chinese‑build branch
+      - name: 准备 chinese-build 输出分支
         run: |
           git checkout -B chinese-build origin/chinese-build || git checkout -B chinese-build
           git merge upstream/main --no-edit
 
-      - name: Run translate script auto_translate_cheat.py
+      - name: 复制翻译脚本与词典配置（main分支源文件）
+        run: |
+          git checkout main -- auto_translate_cheat.py custom_dict.json
+
+      - name: 执行翻译脚本
         run: python auto_translate_cheat.py
 
-      - name: Commit & push to chinese‑build
+      - name: 提交推送 chinese-build
         run: |
           git add .
           git commit -m "🤖 CI: sync upstream + offline translate cheats" || echo "ℹ️ No file changes, skip commit"
