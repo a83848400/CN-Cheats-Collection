@@ -32,9 +32,9 @@ jobs:
       - name: 添加上游仓库 TeeKay87/HEN-Cheats-Collection
         run: |
           git remote add upstream https://github.com/TeeKay87/HEN-Cheats-Collection.git
-          git fetch upstream --prune --unshallow
+          git fetch upstream --prune
 
-      - name: 新建/重置 chinese-build，完全对齐上游main
+      - name: 新建/重置 chinese‑build，完全对齐上游main
         run: |
           git checkout -B chinese-build upstream/main
 
@@ -45,7 +45,7 @@ jobs:
       - name: 执行翻译脚本
         run: python auto_translate_cheat.py
 
-      - name: 提交推送 chinese-build
+      - name: 提交推送 chinese‑build
         run: |
           git add .
           git commit -m "🤖 CI: sync upstream + offline translate cheats" || echo "ℹ️ No file changes, skip commit"
