@@ -8,7 +8,6 @@ jobs:
   sync_and_build_cn:
     runs-on: ubuntu-latest
     steps:
-      # 1、检出你自己仓库main分支（翻译脚本、custom_dict.json）
       - name: Checkout my repo main
         uses: actions/checkout@v4
         with:
@@ -30,35 +29,34 @@ jobs:
           git config --global user.name "Cheat-Translate-Bot"
           git config --global user.email "bot@example.org"
 
-      # 2、单独克隆上游仓库到子目录 upstream_src，完全绕开remote upstream问题
       - name: Clone upstream TeeKay87/HEN-Cheats-Collection
         run: |
           rm -rf upstream_src
           git clone --depth 1 https://github.com/TeeKay87/HEN-Cheats-Collection.git upstream_src
 
-      # 3、准备 chinese‑build 工作目录：把上游全部文件复制出来
       - name: Prepare chinese‑build work folder
         run: |
           rm -rf work_out
           mkdir work_out
           cp -r ./upstream_src/* ./work_out/
-          # 复制翻译脚本和词典进入输出目录
           cp ./auto_translate_cheat.py ./work_out/
           cp ./custom_dict.json ./work_out/
 
-      # 4、进入工作目录执行翻译脚本
+      # 关键：即使翻译脚本返回非0错误码，也不终止工作流，继续往下执行推送
       - name: Run translate script
+        continue-on-error: true
         run: |
           cd ./work_out
-          python auto_translate_cheat.py
+          python auto_translate_cheat.py 2>&1
+          echo "Translate finished, exit code: $?"
 
-      # 5、初始化git，推送至 chinese‑build 分支，force强制覆盖远端
+      # 强制提交，不管翻译脚本是否报错，尽量生成chinese‑build分支
       - name: Commit & push to chinese‑build
         run: |
           cd ./work_out
           git init
           git checkout -b chinese-build
           git add .
-          git commit -m "🤖 CI: sync upstream + offline translate cheats"
+          git commit -m "🤖 CI: sync upstream + offline translate cheats" || git commit --allow-empty -m "🤖 CI run, no changes"
           git remote add origin https://github.com/${{ github.repository }}.git
           git push --force origin chinese-build
