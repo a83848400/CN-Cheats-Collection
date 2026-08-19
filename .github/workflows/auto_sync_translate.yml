@@ -1,4 +1,7 @@
 name: 同步上游并翻译 -> chinese-build
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 3 * * *'
@@ -59,3 +62,10 @@ jobs:
           git commit -m "🤖 CI sync upstream + offline translate cheats" || git commit --allow-empty -m "🤖 CI run, no file changes"
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push --force origin chinese-build
+
+      # 兜底：就算push失败，也可以下载打包产物，避免白跑
+      - name: Upload translated zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: translated-cheats-output
+          path: work_out/
