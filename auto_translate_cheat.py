@@ -1,61 +1,95 @@
-name: 同步上游并翻译 -> chinese-build
-on:
-  schedule:
-    - cron: '0 3 * * *'
-  workflow_dispatch:
+import os
+import json
 
-jobs:
-  sync_and_build_cn:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout my repo main
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+# 读取词典环境变量，yml传入 DICT_PATH
+DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
 
-      - name: Setup Python3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+# 加载翻译词典
+with open(DICT_PATH, "r", encoding="utf-8") as f:
+    translate_dict = json.load(f)
 
-      - name: Install python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install json5
+miss_log_path = "translate_miss.log"
+miss_set = set()
 
-      - name: Git bot identity config
-        run: |
-          git config --global user.name "Cheat-Translate-Bot"
-          git config --global user.email "bot@example.org"
 
-      - name: Clone upstream TeeKay87/HEN-Cheats-Collection
-        run: |
-          rm -rf upstream_src
-          git clone --depth 1 https://github.com/TeeKay87/HEN-Cheats-Collection.git upstream_src
+def translate_text(text: str):
+    if not text:
+        return text
+    src = text.strip()
+    if src in translate_dict:
+        return translate_dict[src]
+    # 子串替换
+    for eng, chn in translate_dict.items():
+        if eng in text:
+            text = text.replace(eng, chn)
+    return text
 
-      - name: Prepare work directory
-        run: |
-          rm -rf work_out
-          mkdir work_out
-          cp -r ./upstream_src/* ./work_out/
-          cp ./auto_translate_cheat.py ./work_out/
-          mkdir -p ./work_out/conf
-          cp ./custom_dict.json ./work_out/conf/custom_dict.json
 
-      - name: Run translate script
-        continue-on-error: true
-        run: |
-          cd ./work_out
-          export DICT_PATH="./conf/custom_dict.json"
-          python auto_translate_cheat.py 2>&1
-          echo "Translate job finished, exit code: $?"
+def process_json_file(filepath):
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"[SKIP BAD JSON] {filepath} | error: {e}")
+        return
 
-      - name: Commit & push chinese‑build branch
-        run: |
-          cd ./work_out
-          git init
-          git checkout -b chinese-build
-          git add .
-          git commit -m "🤖 CI sync upstream + offline translate cheats" || git commit --allow-empty -m "🤖 CI run, no file changes"
-          git remote add origin https://github.com/${{ github.repository }}.git
-          git push --force origin chinese-build
+    modified = False
+
+    def walk(obj):
+        nonlocal modified
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if isinstance(v, str):
+                    original = v
+                    newv = translate_text(v)
+                    if newv != original:
+                        obj[k] = newv
+                        modified = True
+                    else:
+                        val_strip = v.strip()
+                        if val_strip and val_strip not in translate_dict.values():
+                            miss_set.add(val_strip)
+                elif isinstance(v, (dict, list)):
+                    walk(v)
+        elif isinstance(obj, list):
+            for item in obj:
+                walk(item)
+
+    walk(data)
+
+    if modified:
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def scan_all_files(root_dir):
+    for dirpath, dirnames, filenames in os.walk(root_dir):
+        # 排除conf目录，不会读取词典json
+        if "conf" in dirnames:
+            dirnames.remove("conf")
+
+        for fname in filenames:
+            fullpath = os.path.join(dirpath, fname)
+            if fname.lower().endswith(".json"):
+                print(f"Processing JSON: {fullpath}")
+                try:
+                    process_json_file(fullpath)
+                except Exception as e:
+                    print(f"[FILE EXCEPTION] {fullpath} : {str(e)}")
+            elif fname.lower().endswith(".shn"):
+                print(f"Processing SHN: {fullpath}")
+
+
+def main():
+    ROOT_DIR = os.getcwd()
+    scan_all_files(ROOT_DIR)
+
+    # 输出未匹配词条
+    with open(miss_log_path, "w", encoding="utf-8") as f:
+        for word in sorted(miss_set):
+            f.write(word + "\n")
+    print(f"\nMiss words saved -> {miss_log_path}, total miss:{len(miss_set)}")
+
+
+if __name__ == "__main__":
+    main()
