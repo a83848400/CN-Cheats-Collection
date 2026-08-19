@@ -95,11 +95,10 @@ def main():
         print(f"[WRITE LOG ERROR] {e}")
 
 if __name__ == "__main__":
-    # 顶层捕获全部异常，脚本绝不整体崩溃退出，保证走到CI后续git步骤
+    # 顶层捕获全部异常，脚本绝不整体崩溃退出
     try:
         main()
     except Exception as top_err:
         print(f"[TOP LEVEL CRASH] {top_err}")
-        # 强制返回0，不让CI把job标记为失败，继续执行后面push
         import sys
         sys.exit(0)
