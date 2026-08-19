@@ -33,13 +33,12 @@ jobs:
           rm -rf upstream_src
           git clone --depth 1 https://github.com/TeeKay87/HEN-Cheats-Collection.git upstream_src
 
-      - name: Prepare chinese‑build work folder
+      - name: Prepare work directory
         run: |
           rm -rf work_out
           mkdir work_out
           cp -r ./upstream_src/* ./work_out/
           cp ./auto_translate_cheat.py ./work_out/
-          # ✅词典放到独立conf子文件夹，不会被扫描遍历
           mkdir -p ./work_out/conf
           cp ./custom_dict.json ./work_out/conf/custom_dict.json
 
@@ -47,17 +46,16 @@ jobs:
         continue-on-error: true
         run: |
           cd ./work_out
-          # 环境变量告诉py脚本词典路径在 conf/ 下面
           export DICT_PATH="./conf/custom_dict.json"
           python auto_translate_cheat.py 2>&1
-          echo "Translate finished, exit code: $?"
+          echo "Translate job finished, exit code: $?"
 
-      - name: Commit & push to chinese‑build
+      - name: Commit & push chinese‑build branch
         run: |
           cd ./work_out
           git init
           git checkout -b chinese-build
           git add .
-          git commit -m "🤖 CI: sync upstream + offline translate cheats" || git commit --allow-empty -m "🤖 CI run, no changes"
-          git remote add origin https://github.com/${{ github.repository }}.git
+          git commit -m "🤖 CI sync upstream + offline translate cheats" || git commit --allow-empty -m "🤖 CI run, no file changes"
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push --force origin chinese-build
