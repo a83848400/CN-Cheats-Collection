@@ -19,20 +19,46 @@ miss_set = set()
 # 捕获整行 Cheat Text="内容"，允许前面空格/tab
 PAT_CHEAT_TEXT = re.compile(r'Cheat Text="(.*?)"', re.IGNORECASE)
 
+# 构建大小写不敏感正则模式，长关键词优先，避免短key优先抢占匹配
+def build_case_insensitive_pattern(d):
+    keys = sorted(d.keys(), key=len, reverse=True)
+    escaped_keys = [re.escape(k) for k in keys]
+    pattern = re.compile("|".join(escaped_keys), flags=re.IGNORECASE)
+    return pattern
+
+# 全局预编译正则
+re_pattern = build_case_insensitive_pattern(translate_dict)
 
 def translate_text(text: str):
-    """翻译函数：优先完全匹配，再子串替换，支持局部翻译"""
+    """
+    翻译函数：
+    1. 优先去除首尾空格后，大小写不敏感完整匹配
+    2. 完整匹配失败，则执行大小写不敏感局部子串替换，支持片段局部翻译
+    3. 完全匹配 > 局部片段替换；无法翻译返回原文本
+    """
     if not text:
         return text
     src_strip = text.strip()
-    # 1.完整完全匹配优先
-    if src_strip in translate_dict:
-        return translate_dict[src_strip]
-    result = text
-    # 2.子串循环替换，做局部翻译
-    for eng, chn in translate_dict.items():
-        if eng in result:
-            result = result.replace(eng, chn)
+
+    # ----------第一步：大小写不敏感完整匹配优先----------
+    match_full = None
+    for eng_key, chn_val in translate_dict.items():
+        if eng_key.lower() == src_strip.lower():
+            match_full = chn_val
+            break
+    if match_full is not None:
+        return match_full
+
+    # ----------第二步：局部子串大小写不敏感替换（局部片段翻译）----------
+    def sub_callback(match_obj):
+        hit_raw = match_obj.group(0)
+        hit_lower = hit_raw.lower()
+        for eng_key, chn_val in translate_dict.items():
+            if eng_key.lower() == hit_lower:
+                return chn_val
+        return hit_raw
+
+    result = re_pattern.sub(sub_callback, text)
     return result
 
 
@@ -43,7 +69,6 @@ def process_json_file(filepath):
     except Exception as e:
         print(f"[SKIP BAD JSON] {filepath} | error: {e}")
         return
-
     modified = False
 
     def walk(obj):
@@ -58,7 +83,7 @@ def process_json_file(filepath):
                         modified = True
                     else:
                         val_strip = v.strip()
-                        if val_strip and val_strip not in translate_dict.values():
+                        if val_strip:
                             miss_set.add(val_strip)
                 elif isinstance(v, (dict, list)):
                     walk(v)
@@ -76,14 +101,13 @@ def process_json_file(filepath):
 
 
 def process_shn_file(filepath):
-    """处理shn，兼容行前空格、tab；完整匹配+局部子串替换"""
+    """处理shn，兼容行前空格、tab；完整匹配+局部子串替换，输出格式 Cheat Text="原文｜译文" """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
     except Exception as e:
         print(f"[SKIP BAD SHN READ] {filepath} | {e}")
         return
-
     changed = False
     out_lines = []
     for line in lines:
@@ -94,9 +118,8 @@ def process_shn_file(filepath):
             translated_inner = translate_text(raw_inner)
             # 收集未命中文本到miss日志
             strip_raw = raw_inner.strip()
-            if strip_raw and strip_raw not in translate_dict.values():
+            if strip_raw:
                 miss_set.add(strip_raw)
-
             if raw_inner != translated_inner:
                 # 发生翻译：格式 Cheat Text="原文｜译文"
                 new_text_in_quotes = f"{raw_inner}｜{translated_inner}"
@@ -109,7 +132,6 @@ def process_shn_file(filepath):
                 out_lines.append(line)
         else:
             out_lines.append(line)
-
     if changed:
         try:
             with open(filepath, "w", encoding="utf-8") as fw:
@@ -117,6 +139,8 @@ def process_shn_file(filepath):
             print(f"[SHN MODIFIED] {filepath}")
         except Exception as e:
             print(f"[SHN WRITE ERROR] {filepath} | {e}")
+    else:
+        out_lines.append(line)
 
 
 def scan_all_files(root_dir):
