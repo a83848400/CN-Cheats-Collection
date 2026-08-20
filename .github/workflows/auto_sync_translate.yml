@@ -3,17 +3,16 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
   sync_and_build_cn:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout my repo main
+      - name: Checkout master
         uses: actions/checkout@v4
         with:
+          ref: master
           fetch-depth: 0
 
       - name: Setup Python3.11
@@ -63,7 +62,6 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push --force origin chinese-build
 
-      # 兜底：就算push失败，也可以下载打包产物，避免白跑
       - name: Upload translated zip artifact
         uses: actions/upload-artifact@v4
         with:
