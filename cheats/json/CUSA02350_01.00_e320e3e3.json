@@ -1,0 +1,22 @@
+{
+  "name": "Until Dawn: Rush of Blood",
+  "id": "CUSA02350",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BC9CD2",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Cissa"
+  ]
+}

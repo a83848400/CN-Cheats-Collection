@@ -1,0 +1,55 @@
+{
+  "name": "Metal Gear Solid V: The Phantom Pain",
+  "id": "CUSA01154",
+  "version": "01.12",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "上帝模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10F2EFF",
+          "on": "90909090",
+          "off": "C5FA1108"
+        }
+      ]
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "29C0759",
+          "on": "90909090",
+          "off": "66893442"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Suppressor",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "29C0407",
+          "on": "90909090",
+          "off": "884C4204"
+        }
+      ]
+    },
+    {
+      "name": "金钱最大",
+      "type": "button",
+      "memory": [
+        {
+          "offset": "273A050",
+          "on": "41891E",
+          "off": "41891E"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Weysincha"
+  ]
+}

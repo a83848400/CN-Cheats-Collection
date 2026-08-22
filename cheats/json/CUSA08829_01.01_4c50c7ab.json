@@ -1,0 +1,66 @@
+{
+  "name": "Call of Duty: Modern Warfare",
+  "id": "CUSA08829",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "无需换弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E967F",
+          "on": "90909090",
+          "off": "894C9050"
+        }
+      ]
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "816C7A",
+          "on": "9090",
+          "off": "8908"
+        }
+      ]
+    },
+    {
+      "name": "消除后坐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "800D00",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "105A9BF",
+          "on": "C5FA2CC1",
+          "off": "C5FA2CC0"
+        }
+      ]
+    },
+    {
+      "name": "手雷无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7E4D79",
+          "on": "9090",
+          "off": "FFC9"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "sili"
+  ]
+}
