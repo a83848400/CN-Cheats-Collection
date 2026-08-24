@@ -4,6 +4,8 @@ https://space.bilibili.com/3109248
 
 The most complete cheats collection for the PS4 and PS5 with interactive cheats index in Chinese
 
+everyday will git github master to branches chinese-build with cheats in in Chinese
+
 thanks TeeKay87 and kylinCore
 
 fork from 
