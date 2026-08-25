@@ -18,86 +18,105 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 现在已经可以做到每天凌晨在github会获取上游金手指的内容进行翻译，如果有更新金手指就会自动同步翻译输出到chinese-build分支中。
 如果暂时没有翻译成功，就会记录到日志里，产生翻译词典，在下一次以后有相同的翻译就会自动调用词典补充翻译。
 
-
-## 工作简述
-
-该 CI 工作流自动同步上游英文金手指，完成 JSON 金手指自动汉化；自动识别未翻译词条调用 DeepL 扩充词典，**同一轮任务即可生效新翻译结果**；SHN 格式金手指做安全保护，不调用在线翻译，避免文件损坏。
-
-## 执行流程
-
-1. **拉取上游源码**
-从上游仓库拉取原版英文金手指，全部处理在临时工作目录执行，不直接修改仓库原始源码。
-2. **第一轮扫描文件**
-
-- JSON 金手指：使用本地词典进行翻译，词典无法识别的英文词条统一收集。
-- SHN 金手指：仅使用本地现有词典翻译，**不调用在线翻译接口，仅执行一次处理**，防止格式破坏。
-
-3. **自动扩充翻译词典**
-将第一轮收集的未识别英文词条批量提交 DeepL 翻译，翻译成功的词条追加至内存词典。
-4. **重刷 JSON 输出最终产物**
-使用刚刚扩充完成的词典，重新扫描全部 JSON 金手指文件生成翻译结果，**本轮 CI 输出直接生效新增翻译，无需等待下一次定时运行**；SHN 文件不再二次处理。
-5. **产物与词典持久化**
-6. 翻译完成的金手指推送至 `chinese‑build` 分支，作为对外使用的成品；
-7. 扩充更新后的词典提交回`master`分支永久保存，后续任务可直接复用；
-8. 输出未匹配词条日志，方便人工核查。
-
-## 降级说明
-
-若 DeepL 接口网络异常或配额耗尽，则跳过新词扩充，仅使用已有本地词典完成翻译，任务不会中断失败。
-
-## 运行行为
-
- **每天 0 点定时**
-   - ✅ 同步上游金手指
-   - ✅ 完整翻译、自动扩充词典、推送 `chinese‑build`
-   - ✅ 上传 Artifacts 下载包
-   - ⚠️ **只有每月 1 号才自动新建 GitHub Release，其余日期跳过 Release 步骤**
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-# Cheat‑Code Auto‑Translation CI Workflow
+# CN‑Cheats‑Collection
 
 > 
-> GitHub‑Actions automated workflow. Automatically sync upstream English cheat‑codes and localize JSON cheat‑codes. Unknown terms are collected and translated via DeepL to extend the dictionary. **New translations take effect within the same CI run**. SHN files are protected: no online translation is applied to avoid file‑format corruption.
+> 中文 HEN 游戏金手指自动翻译同步项目 | Automatic Chinese HEN Cheat Collection Sync Project
 
-## Workflow
+---
 
-1. **Fetch upstream source**
-Pull original English cheat‑codes from the upstream repository. All translation operations run inside an isolated temporary directory; original repository source files remain untouched.
-2. **First‑pass file scan**
+## 📖 中文说明
 
-- **JSON cheat‑codes**: Translate using the local dictionary. English terms unknown to the dictionary are collected.
-- **SHN cheat‑codes**: Translate only with the existing local dictionary. **No online translation API is called and only processed once** to prevent format damage.
+### 项目简介
 
-3. **Auto‑expand translation dictionary**
-Collected unknown English terms are sent in batches to DeepL for translation. Successfully translated entries are appended to the in‑memory dictionary.
-4. **Rescan JSON to generate final output**
-Rescan all JSON cheat‑codes with the newly‑extended dictionary.
+本项目自动同步上游 HEN 金手指仓库，通过 DeepL API 将游戏金手指注释翻译成中文；自动扩充本地词典，持续优化翻译质量；自动推送翻译结果至 `chinese‑build` 分支，每月生成 Release 压缩包，同时把新增翻译词条回写至主分支词典文件。
+
+### 主要功能
+
+1. 自动拉取上游最新金手指源码
+2. 调用 DeepL API 批量翻译游戏注释
+3. 自动收集新词汇，扩充 `custom_dict.json` 用户词典
+4. 输出翻译完成金手指到 `chinese‑build` 分支
+5. 定时 / 手动打包生成 Release 下载包
+6. 将新增翻译词条自动提交回 master 主分支
+
+### 使用方式
+
+#### 1. 下载使用
+
+前往 [Releases](../../releases) 页面，下载最新 `translated‑cheats‑*.zip`，解压后放到 PSV / PS3 对应金手指目录直接使用。
+
+#### 2. Github Action 配置
+
+- 仓库 Secrets 需要配置：`DEEPL_API_KEY`，填入你的 DeepL API Key
+- 两种运行模式：
+  - **手动触发**：点击 `Run workflow`，执行完整流程并生成 Release
+  - **定时自动**：每日自动执行，**仅每月 1 号生成 Release**；其余日期只做翻译、更新词典、推送分支
+
+### 文件说明
+
+- `auto_translate_cheat.py`：翻译主脚本
+- `custom_dict.json`：自定义翻译词典，AI 翻译新增词汇会自动写入此文件
+- `.github/workflows/auto_sync_translate.yml`：自动化工作流配置
+
+### 注意事项
+
+1. DeepL API 需要自行申请，注意配额消耗
+2. 词典会自动更新，请勿随意手动删除 `custom_dict.json`
+3. `chinese‑build` 为翻译输出分支，**不要直接在此分支修改文件，会被流水线覆盖**
+
+---
+
+## 📖 English Introduction
+
+### Project Overview
+
+This repository automatically syncs upstream HEN cheat sources, translates game cheat comments to Chinese via DeepL API, and continuously expands custom dictionary for better translation quality.
+Translated cheats are pushed to branch `chinese‑build`. Release archive will be generated monthly, and newly‑learned translation entries will be committed back to `master` branch.
+
+### Features
+
+1. Auto‑fetch latest upstream cheat files
+2. Batch‑translate game comments with DeepL API
+3. Collect new vocabulary and auto‑update `custom_dict.json` dictionary
+4. Output fully translated cheats to `chinese‑build` branch
+5. Generate downloadable Release archive by manual trigger or schedule
+6. Commit new dictionary entries back to master branch automatically
+
+### How To Use
+
+#### 1. Download cheats
+
+Go to [Releases](../../releases), download latest `translated‑cheats‑*.zip`. Extract and place files to your PSV / PS3 cheat folder.
+
+#### 2. GitHub Actions setup
+
+- Add secret `DEEPL_API_KEY` with your own DeepL API key in repository secrets.
+- Two workflow modes:
+  - **Manual run**: Click `Run workflow` to run full pipeline and create Release.
+  - **Scheduled run**: Run daily automatically. Release will **only be created on the 1st day of each month**. Other days perform translation, dictionary update and branch push only.
+
+### File List
+
+- `auto_translate_cheat.py`: Main translation script
+- `custom_dict.json`: Custom translation dictionary, auto‑updated by workflow
+- `.github/workflows/auto_sync_translate.yml`: CI/CD workflow definition
+
+### Notes
+
+1. You need to apply your own DeepL API key and watch your API usage quota.
+2. Do NOT delete `custom_dict.json`, it stores accumulated translation entries.
+3. `chinese‑build` is output branch. **Do NOT edit files directly on this branch, changes will be overwritten by CI workflow.**
+
+---
+
+## License | 许可
 
 > 
-> ✨ New translations become effective immediately in this CI run, no need to wait for the next scheduled job.
-> SHN files are skipped in this second pass.
+> Original cheat files belong to respective upstream authors.
+> Translated scripts in this project are for personal offline use only.
 
-5. **Export artifacts & persist dictionary**
-
-- Fully‑translated cheats are pushed to branch `chinese‑build` as public release artifacts.
-- The updated dictionary is committed back to the `master` branch for permanent storage and reused in future runs.
-- An unmatched‑terms log is generated for manual review and correction.
-
-## Fallback behaviour
-
-If DeepL encounters network errors or quota exhaustion, new‑term expansion will be skipped. Translation continues using only the existing local dictionary and the CI job will not fail.
-
-
-## GitHub Release
-- **Scheduled job**: Translate & sync runs daily. Auto‑create GitHub Release **only on the 1st day of each month**.
-- **Manual trigger**: Run workflow manually to generate a new Release at any time.
-- Tag format: `cheats‑YYYYMMDD‑HHMM`
-- Zip asset contains clean cheat files (scripts, configs and logs excluded).
-
-### Manual fallback
-1. Download artifact `translated‑cheats‑output` from Actions page.
-2. Remove scripts, `conf` folder and log files, re‑zip cheats.
-3. Draft new release manually and upload your zip.
-
+> 
+> 原始金手指版权归上游原作者所有。本项目翻译文件仅供个人离线学习使用。
+>
+> 
