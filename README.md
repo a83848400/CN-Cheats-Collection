@@ -44,11 +44,11 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 
 ### 使用方式
 
-#### 1. 下载使用
+下载使用
 
-前往 [Releases](../../releases) 页面，下载最新 `translated‑cheats‑*.zip`，解压后放到对应金手指目录直接使用。
+前往 [Releases](../../releases) 页面，下载最新 `translated‑cheats‑*.zip`，解压后将金手指文件放到对应金手指目录直接使用。
 
-#### 2. Github Action 配置
+Github Action 配置说明
 
 - 仓库 Secrets 需要配置：`DEEPL_API_KEY`，填入你的 DeepL API Key
 - 两种运行模式：
@@ -60,6 +60,23 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 - `auto_translate_cheat.py`：翻译主脚本
 - `custom_dict.json`：自定义翻译词典，AI 翻译新增词汇会自动写入此文件
 - `.github/workflows/auto_sync_translate.yml`：自动化工作流配置
+
+逻辑说明
+
+原始文本
+    ↓
+1. 【最高优先级】整句忽略大小写完全匹配 → 命中直接返回译文，不走子串、不走API
+    ↓（整句未命中）
+2. 缩写归一化：inf → Infinite 等金手指常用缩写替换
+    ↓
+3. 子串短语替换：长key优先，忽略大小写做短语替换（只做局部替换，不写词典）
+    ↓
+4. 判断：文本还含有英文，则送入DeepL批量翻译；全部中文就直接输出
+    ↓
+5. DeepL返回有效完整句子才写入词典；子串替换得到的内容**不新增词典条目**
+    ↓
+输出译文
+
 
 ### 注意事项
 
@@ -87,11 +104,11 @@ Translated cheats are pushed to branch `chinese‑build`. Release archive will b
 
 ### How To Use
 
-#### 1. Download cheats
+Download cheats zip
 
 Go to [Releases](../../releases), download latest `translated‑cheats‑*.zip`. Extract and place files to your cheat folder.
 
-#### 2. GitHub Actions setup
+GitHub Actions setup 
 
 - Add secret `DEEPL_API_KEY` with your own DeepL API key in repository secrets.
 - Two workflow modes:
