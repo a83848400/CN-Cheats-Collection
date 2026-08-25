@@ -111,8 +111,8 @@ jobs:
             exit 0
           fi
 
-          RELEASE_TAG="cheats-$(date +%Y%m%d-%H%M)"
-          RELEASE_NAME="Auto Translated Cheats $(date +%Y-%m-%d %H:%M)"
+          RELEASE_TAG="cheats-$(date +%Y%m%d-%H-%M)"
+          RELEASE_NAME="Auto Translated Cheats $(date +%Y-%m-%d %H-%M)"
 
           cd work_out
           zip -r ../translated-cheats-${RELEASE_TAG}.zip . \
