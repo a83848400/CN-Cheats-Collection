@@ -44,6 +44,14 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 
 若 DeepL 接口网络异常或配额耗尽，则跳过新词扩充，仅使用已有本地词典完成翻译，任务不会中断失败。
 
+## 运行行为
+
+ **每天 0 点定时**
+   - ✅ 同步上游金手指
+   - ✅ 完整翻译、自动扩充词典、推送 `chinese‑build`
+   - ✅ 上传 Artifacts 下载包
+   - ⚠️ **只有每月 1 号才自动新建 GitHub Release，其余日期跳过 Release 步骤**
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -79,3 +87,16 @@ Rescan all JSON cheat‑codes with the newly‑extended dictionary.
 ## Fallback behaviour
 
 If DeepL encounters network errors or quota exhaustion, new‑term expansion will be skipped. Translation continues using only the existing local dictionary and the CI job will not fail.
+
+
+## GitHub Release
+- **Scheduled job**: Translate & sync runs daily. Auto‑create GitHub Release **only on the 1st day of each month**.
+- **Manual trigger**: Run workflow manually to generate a new Release at any time.
+- Tag format: `cheats‑YYYYMMDD‑HHMM`
+- Zip asset contains clean cheat files (scripts, configs and logs excluded).
+
+### Manual fallback
+1. Download artifact `translated‑cheats‑output` from Actions page.
+2. Remove scripts, `conf` folder and log files, re‑zip cheats.
+3. Draft new release manually and upload your zip.
+
