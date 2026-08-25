@@ -1,10 +1,10 @@
-name: 同步上游并翻译 DeepL‑Free全自动 -> chinese‑build
+name: 同步上游并翻译 DeepL‑Free批量优化版 -> chinese‑build
 permissions:
   contents: write
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # UTC0点 = 北京时间早上8点，每日自动运行
+    - cron: '0 0 * * *'
 jobs:
   sync_and_build_cn:
     runs-on: ubuntu-latest
@@ -46,6 +46,7 @@ jobs:
           cp ./custom_dict.json ./work_out/conf/custom_dict.json
 
       - name: Run translate script
+        timeout-minutes: 12
         env:
           DICT_PATH: "./conf/custom_dict.json"
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
@@ -60,7 +61,7 @@ jobs:
           git init
           git checkout -b chinese-build
           git add .
-          git commit -m "🤖 CI sync upstream + local dict + DeepL‑Free auto translate cheats" || git commit --allow-empty -m "🤖 CI run, no file changes"
+          git commit -m "🤖 CI sync upstream + local dict + DeepL‑Batch auto translate cheats" || git commit --allow-empty -m "🤖 CI run, no file changes"
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push --force origin chinese-build
 
