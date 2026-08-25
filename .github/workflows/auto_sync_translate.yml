@@ -113,7 +113,7 @@ jobs:
           fi
 
           RELEASE_TAG="cheats-$(date +%Y%m%d-%H%M)"
-          RELEASE_NAME="Auto Translated Cheats $(date +%Y‑%m‑%d %H:%M)"
+          RELEASE_NAME="Auto Translated Cheats $(date +%Y-%m-%d %H:%M)"
           RELEASE_BODY="Automatically synced & translated cheats from upstream.
 - JSON: auto‑translate + auto dictionary expand
 - SHN: local‑dict only, safe mode
