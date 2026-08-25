@@ -16,6 +16,8 @@ except Exception as e:
 
 miss_log_path = "translate_miss.log"
 miss_set = set()
+json_miss_english_set = set()
+
 batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
@@ -36,6 +38,7 @@ def build_case_insensitive_pattern(d):
     pattern = re.compile("|".join(escaped_keys), flags=re.IGNORECASE)
     return pattern
 
+# 全局正则对象，词典更新后需要重新赋值
 re_pattern = build_case_insensitive_pattern(translate_dict)
 
 deepl_translator = None
@@ -47,7 +50,7 @@ if DEEPL_API_KEY:
             server_url="https://api-free.deepl.com",
             timeout=10
         )
-        print("[INFO] ✅ DeepL Free API 已启用；新词翻译后自动扩充词典")
+        print("[INFO] ✅ DeepL Free API 已启用；新词翻译后自动扩充词典，同一轮CI重刷JSON")
     except ImportError:
         print("[WARN] ❗ deepl python SDK未安装，关闭API翻译，仅使用现有词典")
         deepl_translator = None
@@ -56,20 +59,16 @@ if DEEPL_API_KEY:
         deepl_translator = None
 
 
-def flush_batch_translate() -> dict:
-    global batch_translate_queue
+def flush_batch_translate(text_list) -> dict:
     result_map = {}
-    if not deepl_translator or len(batch_translate_queue) == 0:
-        batch_translate_queue.clear()
+    if not deepl_translator or len(text_list) == 0:
         return result_map
-    texts = batch_translate_queue[:]
-    batch_translate_queue.clear()
+    texts = text_list[:]
     try:
         print(f"[DEEPL BATCH] 批量翻译 {len(texts)} 条文本 ...")
         res_list = deepl_translator.translate_text(texts, target_lang="ZH")
         for ori, obj in zip(texts, res_list):
             result_map[ori] = obj.text
-            # ✅重点：翻译成功，自动写入内存词典
             if ori not in translate_dict:
                 translate_dict[ori] = obj.text
                 print(f"[DICT AUTO ADD] 自动扩充词典：`{ori}` -> `{obj.text}`")
@@ -78,7 +77,7 @@ def flush_batch_translate() -> dict:
         print("[DEEPL] ⚠️本月免费字符配额用尽，停用API")
         deepl_translator = None
     except deepl.exceptions.TooManyRequestsException:
-        print("[DEEPL] ⚠️批量请求限流，丢弃本批次")
+        print("[DEEPL] ⚠️批量请求限流，本批次跳过")
     except Exception as e:
         print(f"[DEEPL BATCH WARN] {repr(e)}")
     return result_map
@@ -89,6 +88,7 @@ def translate_text_prepare(text: str):
     返回 (is_local_ok:bool, result_text:str, need_api:bool)
     shn只走到本地词典，不会送入API队列
     """
+    global re_pattern
     if not text:
         return True, text, False
     src_strip = text.strip()
@@ -114,6 +114,10 @@ def translate_text_prepare(text: str):
     if local_result != text:
         return True, local_result, False
 
+    # 词典完全未命中：判断是英文，加入待二次翻译集合
+    if is_maybe_english(text) and 0 < len(text) <= MAX_TEXT_LEN:
+        json_miss_english_set.add(text.strip())
+
     #3 JSON才允许送入API队列；shn不会走到这里
     if is_maybe_english(text) and 0 < len(text) <= MAX_TEXT_LEN and deepl_translator is not None:
         return False, text, True
@@ -123,6 +127,7 @@ def translate_text_prepare(text: str):
 need_api_store = []
 
 def process_json_file(filepath):
+    global re_pattern
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -168,7 +173,7 @@ def process_json_file(filepath):
 
 
 def process_shn_file(filepath):
-    """SHN：只使用本地词典，**绝不调用API，不自动扩充词典**，保证文件正确性"""
+    """SHN：只使用本地词典，**绝不调用API，不自动扩充词典**，保证文件正确性，只执行一轮"""
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -205,7 +210,10 @@ def process_shn_file(filepath):
         print(f"[SHN WRITE ERROR] {filepath} | {e}")
 
 
-def scan_all_files(root_dir):
+def scan_all_files(root_dir, run_shn:bool=True):
+    """
+    run_shn=True：处理json+shn；run_shn=False：仅重扫json，跳过shn
+    """
     file_counter = 0
     for dirpath, dirnames, filenames in os.walk(root_dir):
         if "conf" in dirnames:
@@ -219,13 +227,14 @@ def scan_all_files(root_dir):
                 if fname.lower().endswith(".json"):
                     print(f"Processing JSON: {fullpath}")
                     process_json_file(fullpath)
-                elif fname.lower().endswith(".shn"):
+                elif fname.lower().endswith(".shn") and run_shn:
                     print(f"Processing SHN: {fullpath}")
                     process_shn_file(fullpath)
             except Exception as e:
                 print(f"[SCAN FILE SKIP] {fullpath} | {e}")
             if len(batch_translate_queue) >= BATCH_MAX_SIZE:
-                flush_batch_translate()
+                flush_batch_translate(batch_translate_queue)
+                batch_translate_queue.clear()
 
 
 def apply_batch_result(trans_map:dict):
@@ -253,15 +262,37 @@ def save_updated_dict():
 
 
 def main():
-    global need_api_store
+    global need_api_store,batch_translate_queue,re_pattern
     ROOT_DIR = os.getcwd()
     try:
-        scan_all_files(ROOT_DIR)
-        print("[SCAN DONE] 全部文件扫描完成，执行剩余批量翻译")
-        trans_result = flush_batch_translate()
+        # ----------------第一轮：完整扫描json+shn----------------
+        print("===== STAGE 1: 第一轮扫描全部文件(json+shn) =====")
+        scan_all_files(ROOT_DIR, run_shn=True)
+        print("[STAGE1 DONE] 第一阶段文件扫描完成，执行剩余批量翻译")
+        trans_result = flush_batch_translate(batch_translate_queue)
         apply_batch_result(trans_result)
+
+        # ==========二次处理所有JSON收集漏网未命中英文词条============
+        if len(json_miss_english_set) >0:
+            print(f"\n===== STAGE 2: 二次批量翻译JSON漏网英文，共 {len(json_miss_english_set)} 条 =====")
+            all_miss_list = list(json_miss_english_set)
+            for i in range(0, len(all_miss_list), BATCH_MAX_SIZE):
+                slice_list = all_miss_list[i:i+BATCH_MAX_SIZE]
+                flush_batch_translate(slice_list)
+            # ⚠️词典已经扩充完成，**必须重新生成大小写不敏感正则pattern**
+            re_pattern = build_case_insensitive_pattern(translate_dict)
+            print("\n===== STAGE3: 使用扩充完成的新词典，重新扫描全部JSON文件（shn不再处理） =====")
+            # 清空旧的api存储队列，不需要再次api调用，只走本地新词典
+            need_api_store.clear()
+            batch_translate_queue.clear()
+            # 只重新扫描JSON，run_shn=False，shn不再碰
+            scan_all_files(ROOT_DIR, run_shn=False)
+        else:
+            print("[STAGE2‑3] 没有漏网英文词条，跳过二次翻译&重扫JSON")
+
         # 将扩充完毕的词典写入work_out/conf/custom_dict.json产物
         save_updated_dict()
+
     except Exception as e:
         print(f"[SCAN FATAL ERROR] {e}")
 
