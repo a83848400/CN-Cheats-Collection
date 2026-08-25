@@ -1,4 +1,4 @@
-name: 同步上游翻译｜新词自动扩充词典并回写master -> chinese‑build
+name: 同步上游翻译｜新词自动扩充词典回写master -> chinese‑build
 permissions:
   contents: write
 on:
@@ -8,7 +8,7 @@ on:
 jobs:
   sync_and_build_cn:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Checkout master
         uses: actions/checkout@v4
@@ -46,7 +46,7 @@ jobs:
           cp ./custom_dict.json ./work_out/conf/custom_dict.json
 
       - name: Run translate script
-        timeout-minutes: 12
+        timeout-minutes: 18
         env:
           DICT_PATH: "./conf/custom_dict.json"
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
@@ -55,9 +55,6 @@ jobs:
           python auto_translate_cheat.py 2>&1
           echo "Translate job finished, exit code: $?"
 
-      ###########################
-      # ① 推送翻译产物到 chinese‑build 分支
-      ###########################
       - name: Commit & push chinese‑build branch
         run: |
           cd ./work_out
@@ -68,27 +65,18 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push --force origin chinese-build
 
-      ###########################
-      # ✅修复：翻译完成，先把词典保存到系统临时目录 /tmp，checkout不会删除/tmp
-      ###########################
       - name: Save expanded dict to temp dir before checkout
         run: |
           mkdir -p /tmp/auto_dict_temp
           cp ./work_out/conf/custom_dict.json /tmp/auto_dict_temp/custom_dict.json
           echo "[INFO] 已将扩充词典备份至 /tmp/auto_dict_temp/custom_dict.json"
 
-      ###########################
-      # ② 重新checkout master（此时work_out会被清空，但/tmp文件保留）
-      ###########################
       - name: Checkout master for dict commit
         uses: actions/checkout@v4
         with:
           ref: master
           fetch-depth: 0
 
-      ###########################
-      # 从/tmp临时目录恢复词典文件
-      ###########################
       - name: Copy auto‑expanded dict from temp dir back to master workspace
         run: |
           cp /tmp/auto_dict_temp/custom_dict.json ./custom_dict.json
@@ -96,7 +84,6 @@ jobs:
 
       - name: Commit updated custom_dict.json back to master
         run: |
-          # 检测词典是否真正变更；无变更跳过提交
           if git diff --cached --quiet; then
             echo "[INFO] custom_dict.json没有新增词条，跳过提交回master"
           else
@@ -105,9 +92,6 @@ jobs:
             echo "[INFO] ✅ 已将扩充后的词典提交回master分支"
           fi
 
-      ###########################
-      # ③ 上传全部产物包
-      ###########################
       - name: Upload translated zip artifact
         uses: actions/upload-artifact@v4
         with:
