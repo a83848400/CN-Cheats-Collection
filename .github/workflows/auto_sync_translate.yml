@@ -1,4 +1,4 @@
-name: 同步上游并翻译 DeepL‑Free批量优化版 -> chinese‑build
+name: 同步上游翻译｜新词自动扩充词典并回写master -> chinese‑build
 permissions:
   contents: write
 on:
@@ -55,16 +55,45 @@ jobs:
           python auto_translate_cheat.py 2>&1
           echo "Translate job finished, exit code: $?"
 
+      ###########################
+      # ① 推送翻译产物到 chinese‑build 分支
+      ###########################
       - name: Commit & push chinese‑build branch
         run: |
           cd ./work_out
           git init
           git checkout -b chinese-build
           git add .
-          git commit -m "🤖 CI sync upstream + local dict + DeepL‑Batch auto translate cheats" || git commit --allow-empty -m "🤖 CI run, no file changes"
+          git commit -m "🤖 CI sync upstream + local dict + DeepL auto‑expand dict" || git commit --allow-empty -m "🤖 CI run, no file changes"
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push --force origin chinese-build
 
+      ###########################
+      # ② 将自动扩充后的词典回写到master主分支（仅更新custom_dict.json）
+      ###########################
+      - name: Checkout master for dict commit
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+      - name: Copy auto‑expanded dict back to master workspace
+        run: |
+          cp ./work_out/conf/custom_dict.json ./custom_dict.json
+          git add ./custom_dict.json
+      - name: Commit updated custom_dict.json back to master
+        run: |
+          # 检测词典是否真正变更；无变更跳过提交
+          if git diff --cached --quiet; then
+            echo "[INFO] custom_dict.json没有新增词条，跳过提交回master"
+          else
+            git commit -m "🤖 Bot: auto expand custom_dict.json from DeepL translate result"
+            git push origin master
+            echo "[INFO] ✅ 已将扩充后的词典提交回master分支"
+          fi
+
+      ###########################
+      # ③ 上传全部产物包
+      ###########################
       - name: Upload translated zip artifact
         uses: actions/upload-artifact@v4
         with:
