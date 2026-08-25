@@ -69,17 +69,31 @@ jobs:
           git push --force origin chinese-build
 
       ###########################
-      # ② 将自动扩充后的词典回写到master主分支（仅更新custom_dict.json）
+      # ✅修复：翻译完成，先把词典保存到系统临时目录 /tmp，checkout不会删除/tmp
+      ###########################
+      - name: Save expanded dict to temp dir before checkout
+        run: |
+          mkdir -p /tmp/auto_dict_temp
+          cp ./work_out/conf/custom_dict.json /tmp/auto_dict_temp/custom_dict.json
+          echo "[INFO] 已将扩充词典备份至 /tmp/auto_dict_temp/custom_dict.json"
+
+      ###########################
+      # ② 重新checkout master（此时work_out会被清空，但/tmp文件保留）
       ###########################
       - name: Checkout master for dict commit
         uses: actions/checkout@v4
         with:
           ref: master
           fetch-depth: 0
-      - name: Copy auto‑expanded dict back to master workspace
+
+      ###########################
+      # 从/tmp临时目录恢复词典文件
+      ###########################
+      - name: Copy auto‑expanded dict from temp dir back to master workspace
         run: |
-          cp ./work_out/conf/custom_dict.json ./custom_dict.json
+          cp /tmp/auto_dict_temp/custom_dict.json ./custom_dict.json
           git add ./custom_dict.json
+
       - name: Commit updated custom_dict.json back to master
         run: |
           # 检测词典是否真正变更；无变更跳过提交
