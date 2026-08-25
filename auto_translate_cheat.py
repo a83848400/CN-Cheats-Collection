@@ -2,14 +2,12 @@ import os
 import json
 import re
 import time
-import requests
 
-# 环境变量读取词典路径
+# 环境变量
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
-# LibreTranslate公共演示服务，无需API密钥
-LIBRE_API_URL = "https://translate.argosopentech.com/translate"
+DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 
-# 加载自定义翻译词典
+# 加载本地自定义词典
 try:
     with open(DICT_PATH, "r", encoding="utf-8") as f:
         translate_dict = json.load(f)
@@ -20,9 +18,7 @@ except Exception as e:
 miss_log_path = "translate_miss.log"
 miss_set = set()
 
-
 def is_maybe_english(s: str) -> bool:
-    """判断文本是否疑似英文，过滤纯中文、数字、符号，减少无效接口调用"""
     s_strip = s.strip()
     if not s_strip:
         return False
@@ -30,56 +26,54 @@ def is_maybe_english(s: str) -> bool:
     total = len(s_strip)
     return cnt_en / total > 0.2
 
-
-# 匹配shn文件 Cheat Text="xxx"
 PAT_CHEAT_TEXT = re.compile(r'Cheat Text="(.*?)"', re.IGNORECASE)
 
-
 def build_case_insensitive_pattern(d):
-    """构建大小写不敏感正则，长词条优先匹配，避免短词抢占"""
     keys = sorted(d.keys(), key=len, reverse=True)
     escaped_keys = [re.escape(k) for k in keys]
     pattern = re.compile("|".join(escaped_keys), flags=re.IGNORECASE)
     return pattern
-
-
 re_pattern = build_case_insensitive_pattern(translate_dict)
 
-
-def libre_translate(text: str):
-    """调用公共LibreTranslate接口；失败/超时返回None，不会抛出异常"""
-    if not text or len(text.strip()) == 0:
-        return None
-    payload = {
-        "q": text,
-        "source": "en",
-        "target": "zh",
-        "format": "text"
-    }
+deepl_translator = None
+if DEEPL_API_KEY:
     try:
-        time.sleep(0.4)  # 请求间隔，防止公共接口限流429
-        resp = requests.post(LIBRE_API_URL, data=payload, timeout=12)
-        resp.raise_for_status()
-        json_resp = resp.json()
-        return json_resp["translatedText"]
+        import deepl
+        deepl_translator = deepl.Translator(DEEPL_API_KEY, server_url="https://api-free.deepl.com")
+        print("[INFO] DeepL Free API 已启用，全自动翻译，无需人工填写词典")
+    except ImportError:
+        print("[WARN] deepl SDK未安装，关闭API翻译")
+        deepl_translator = None
     except Exception as e:
-        print(f"[LibreTranslate WARN] 公共接口请求失败: {repr(e)}")
-        return None
+        print(f"[WARN] DeepL初始化失败: {e}")
+        deepl_translator = None
 
+def call_deepl_translate(text: str):
+    if not deepl_translator or not text.strip():
+        return None
+    try:
+        time.sleep(0.25)
+        result = deepl_translator.translate_text(text, target_lang="ZH")
+        return result.text
+    except deepl.exceptions.QuotaExceededException:
+        print("[DEEPL] ⚠️本月免费字符配额用尽，关闭API翻译")
+        return None
+    except deepl.exceptions.TooManyRequestsException:
+        print("[DEEPL] ⚠️请求限流，跳过本条")
+        return None
+    except Exception as e:
+        print(f"[DEEPL] 请求异常 {repr(e)}")
+        return None
 
 def translate_text(text: str):
     """
-    翻译优先级：
-    1.本地词典完整大小写不敏感匹配
-    2.本地词典局部片段子串替换
-    3.公共LibreTranslate接口兜底翻译
-    全部失败返回原始文本
+    翻译优先级：本地词典完整匹配 > 本地词典局部替换 > DeepL API全自动翻译
+    全部失败返回原文；**不会自动往词典新增待填词条，免除人工操作**
     """
     if not text:
         return text
     src_strip = text.strip()
 
-    # 第一步：完整词条匹配
     match_full = None
     for eng_key, chn_val in translate_dict.items():
         if eng_key.lower() == src_strip.lower():
@@ -88,7 +82,6 @@ def translate_text(text: str):
     if match_full is not None:
         return match_full
 
-    # 第二步：局部片段替换
     def sub_callback(match_obj):
         hit_raw = match_obj.group(0)
         hit_lower = hit_raw.lower()
@@ -96,17 +89,14 @@ def translate_text(text: str):
             if eng_key.lower() == hit_lower:
                 return chn_val
         return hit_raw
-
     local_result = re_pattern.sub(sub_callback, text)
     if local_result != text:
         return local_result
 
-    # 第三步：词典完全无命中，疑似英文调用公共翻译接口
     if is_maybe_english(text):
-        api_result = libre_translate(text)
+        api_result = call_deepl_translate(text)
         if api_result:
             return f"{text}｜{api_result}"
-
     return text
 
 
@@ -119,7 +109,6 @@ def process_json_file(filepath):
         return
 
     modified = False
-
     def walk(obj):
         nonlocal modified
         if isinstance(obj, dict):
@@ -139,10 +128,8 @@ def process_json_file(filepath):
         elif isinstance(obj, list):
             for item in obj:
                 walk(item)
-
     try:
         walk(data)
-        # BUG修复：无论是否修改强制写回磁盘，保证json文件不会丢失
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         if modified:
@@ -181,7 +168,6 @@ def process_shn_file(filepath):
                 out_lines.append(line)
         else:
             out_lines.append(line)
-    # BUG修复：无论有无改动强制写入，修复丢失最后一行问题
     try:
         with open(filepath, "w", encoding="utf-8") as fw:
             fw.writelines(out_lines)
@@ -209,14 +195,12 @@ def scan_all_files(root_dir):
             except Exception as e:
                 print(f"[SCAN FILE SKIP] {fullpath} | {e}")
 
-
 def main():
     ROOT_DIR = os.getcwd()
     try:
         scan_all_files(ROOT_DIR)
     except Exception as e:
         print(f"[SCAN FATAL ERROR] {e}")
-    # 输出未命中词条日志
     try:
         with open(miss_log_path, "w", encoding="utf-8") as f:
             for word in sorted(miss_set):
@@ -224,7 +208,6 @@ def main():
         print(f"\nMiss words saved to {miss_log_path}, total miss:{len(miss_set)}")
     except Exception as e:
         print(f"[WRITE LOG ERROR] {e}")
-
 
 if __name__ == "__main__":
     main()
