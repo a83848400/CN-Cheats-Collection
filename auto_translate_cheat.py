@@ -6,21 +6,64 @@ import time
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
 DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 
-# 加载本地自定义词典
-try:
-    with open(DICT_PATH, "r", encoding="utf-8") as f:
-        translate_dict = json.load(f)
-except Exception as e:
-    print(f"[WARN] 读取词典失败 {DICT_PATH} : {e}")
-    translate_dict = {}
+# 金手指常用缩写映射，可自行扩充 key:缩写, value:完整英文
+ABBREV_MAP = {
+    "inf": "Infinite",
+    "infi": "Infinite",
+    "max": "Max",
+    "min": "Min"
+}
+
+translate_dict = {}
+lower_full_index = {}
+subst_pattern_list = []
 
 miss_log_path = "translate_miss.log"
 miss_set = set()
 json_miss_english_set = set()
-
 batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
+
+
+def rebuild_indexes():
+    global lower_full_index, subst_pattern_list
+    lower_full_index.clear()
+    for orig_key in translate_dict:
+        k_low = orig_key.lower().strip()
+        lower_full_index[k_low] = orig_key
+    keys_sorted = sorted(translate_dict.keys(), key=lambda x: len(x), reverse=True)
+    subst_pattern_list.clear()
+    for k in keys_sorted:
+        v = translate_dict[k]
+        pat = re.compile(rf"\b{re.escape(k)}\b", re.IGNORECASE)
+        subst_pattern_list.append((pat, v))
+
+
+try:
+    with open(DICT_PATH, "r", encoding="utf-8") as f:
+        translate_dict = json.load(f)
+    rebuild_indexes()
+except Exception as e:
+    print(f"[WARN] 读取词典失败 {DICT_PATH} : {e}")
+    translate_dict = {}
+    rebuild_indexes()
+
+
+def expand_abbreviation(text: str) -> str:
+    t = text
+    for abbr, full_txt in ABBREV_MAP.items():
+        pat = re.compile(rf"\b{re.escape(abbr)}\b", re.IGNORECASE)
+        t = pat.sub(full_txt, t)
+    return t
+
+
+def do_substitute(text: str) -> str:
+    res = text
+    for pat, repl in subst_pattern_list:
+        res = pat.sub(repl, res)
+    return res
+
 
 def is_maybe_english(s: str) -> bool:
     s_strip = s.strip()
@@ -30,15 +73,8 @@ def is_maybe_english(s: str) -> bool:
     total = len(s_strip)
     return cnt_en / total > 0.2
 
+
 PAT_CHEAT_TEXT = re.compile(r'Cheat Text="(.*?)"', re.IGNORECASE)
-
-def build_case_insensitive_pattern(d):
-    keys = sorted(d.keys(), key=len, reverse=True)
-    escaped_keys = [re.escape(k) for k in keys]
-    pattern = re.compile("|".join(escaped_keys), flags=re.IGNORECASE)
-    return pattern
-
-re_pattern = build_case_insensitive_pattern(translate_dict)
 
 deepl_translator = None
 if DEEPL_API_KEY:
@@ -67,10 +103,16 @@ def flush_batch_translate(text_list) -> dict:
         print(f"[DEEPL BATCH] 批量翻译 {len(texts)} 条文本 ...")
         res_list = deepl_translator.translate_text(texts, target_lang="ZH")
         for ori, obj in zip(texts, res_list):
-            result_map[ori] = obj.text
+            ori_strip = ori.strip()
+            trans_result = obj.text.strip()
+            if trans_result == "" or trans_result.lower() == ori_strip.lower():
+                result_map[ori] = ori
+                continue
+            result_map[ori] = trans_result
             if ori not in translate_dict:
-                translate_dict[ori] = obj.text
-                print(f"[DICT AUTO ADD] 自动扩充词典：`{ori}` -> `{obj.text}`")
+                translate_dict[ori] = trans_result
+                rebuild_indexes()
+                print(f"[DICT AUTO ADD] 自动扩充词典：`{ori}` -> `{trans_result}`")
         time.sleep(0.3)
     except deepl.exceptions.QuotaExceededException:
         print("[DEEPL] ⚠️本月免费字符配额用尽，停用API")
@@ -83,42 +125,25 @@ def flush_batch_translate(text_list) -> dict:
 
 
 def translate_text_prepare(text: str):
-    global re_pattern
     if not text:
         return True, text, False
     src_strip = text.strip()
-
-    match_full = None
-    for eng_key, chn_val in translate_dict.items():
-        if eng_key.lower() == src_strip.lower():
-            match_full = chn_val
-            break
-    if match_full is not None:
-        return True, match_full, False
-
-    def sub_callback(match_obj):
-        hit_raw = match_obj.group(0)
-        hit_lower = hit_raw.lower()
-        for eng_key, chn_val in translate_dict.items():
-            if eng_key.lower() == hit_lower:
-                return chn_val
-        return hit_raw
-    local_result = re_pattern.sub(sub_callback, text)
-    if local_result != text:
-        return True, local_result, False
-
-    if is_maybe_english(text) and 0 < len(text) <= MAX_TEXT_LEN:
-        json_miss_english_set.add(text.strip())
-
-    if is_maybe_english(text) and 0 < len(text) <= MAX_TEXT_LEN and deepl_translator is not None:
-        return False, text, True
-    return True, text, False
+    src_low = src_strip.lower()
+    if src_low in lower_full_index:
+        orig_dict_key = lower_full_index[src_low]
+        return True, translate_dict[orig_dict_key], False
+    step1 = expand_abbreviation(text)
+    step2 = do_substitute(step1)
+    if is_maybe_english(step2) and 0 < len(step2) <= MAX_TEXT_LEN and deepl_translator is not None:
+        return False, step2, True
+    else:
+        return True, step2, False
 
 
 need_api_store = []
 
+
 def process_json_file(filepath):
-    global re_pattern
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -143,8 +168,8 @@ def process_json_file(filepath):
                             if val_strip and is_maybe_english(val_strip):
                                 miss_set.add(val_strip)
                     else:
-                        need_api_store.append({"type":"json","obj":obj,"key":k,"text":original})
-                        batch_translate_queue.append(original)
+                        need_api_store.append({"type": "json", "obj": obj, "key": k, "text": res})
+                        batch_translate_queue.append(res)
                         miss_set.add(original.strip())
                 elif isinstance(v, (dict, list)):
                     walk(v)
@@ -155,10 +180,7 @@ def process_json_file(filepath):
         walk(data)
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        if modified:
-            print(f"[JSON MODIFIED] {filepath}")
-        else:
-            print(f"[JSON NO CHANGE, FORCE SAVE] {filepath}")
+        print(f"[JSON {'MODIFIED' if modified else 'NO CHANGE, FORCE SAVE'}] {filepath}")
     except Exception as e:
         print(f"[PROCESS ERROR] {filepath} | {e}")
 
@@ -176,31 +198,32 @@ def process_shn_file(filepath):
         match = PAT_CHEAT_TEXT.search(line)
         if match:
             raw_inner = match.group(1)
-            is_ok, res, _ = translate_text_prepare(raw_inner)
+            is_ok, res, need_api = translate_text_prepare(raw_inner)
             strip_raw = raw_inner.strip()
             if strip_raw and is_maybe_english(strip_raw):
                 miss_set.add(strip_raw)
-            if raw_inner != res:
-                new_text_in_quotes = res
-                new_line = line[:match.start(1)] + new_text_in_quotes + line[match.end(1):]
-                out_lines.append(new_line)
-                changed = True
-            else:
+            if need_api:
+                need_api_store.append({"type": "shn", "line": line, "match": match, "text": res})
+                batch_translate_queue.append(res)
                 out_lines.append(line)
+            else:
+                if raw_inner != res:
+                    new_line = line[:match.start(1)] + res + line[match.end(1):]
+                    out_lines.append(new_line)
+                    changed = True
+                else:
+                    out_lines.append(line)
         else:
             out_lines.append(line)
     try:
         with open(filepath, "w", encoding="utf-8") as fw:
             fw.writelines(out_lines)
-        if changed:
-            print(f"[SHN MODIFIED] {filepath}")
-        else:
-            print(f"[SHN NO CHANGE, FORCE SAVE] {filepath}")
+        print(f"[SHN {'MODIFIED' if changed else 'NO CHANGE, FORCE SAVE'}] {filepath}")
     except Exception as e:
         print(f"[SHN WRITE ERROR] {filepath} | {e}")
 
 
-def scan_all_files(root_dir, run_shn:bool=True):
+def scan_all_files(root_dir, run_shn: bool = True):
     file_counter = 0
     for dirpath, dirnames, filenames in os.walk(root_dir):
         if "conf" in dirnames:
@@ -211,10 +234,11 @@ def scan_all_files(root_dir, run_shn:bool=True):
             if file_counter % 20 == 0:
                 print(f"[SCAN PROGRESS] 已扫描 {file_counter} 文件")
             try:
-                if fname.lower().endswith(".json"):
+                ext = fname.lower()
+                if ext.endswith(".json"):
                     print(f"Processing JSON: {fullpath}")
                     process_json_file(fullpath)
-                elif fname.lower().endswith(".shn") and run_shn:
+                elif ext.endswith(".shn") and run_shn:
                     print(f"Processing SHN: {fullpath}")
                     process_shn_file(fullpath)
             except Exception as e:
@@ -224,30 +248,33 @@ def scan_all_files(root_dir, run_shn:bool=True):
                 batch_translate_queue.clear()
 
 
-def apply_batch_result(trans_map:dict):
+def apply_batch_result(trans_map: dict):
     for item in need_api_store:
         ori_txt = item["text"]
-        if ori_txt in trans_map:
-            final = f"{ori_txt}｜{trans_map[ori_txt]}"
-        else:
-            final = ori_txt
+        final = trans_map.get(ori_txt, ori_txt)
         if item["type"] == "json":
             obj = item["obj"]
             k = item["key"]
             obj[k] = final
+        elif item["type"] == "shn":
+            m = item["match"]
+            new_line = item["line"][:m.start(1)] + final + item["line"][m.end(1):]
+            idx = out_lines.index(item["line"])
+            out_lines[idx] = new_line
 
 
 def save_updated_dict():
     try:
+        sorted_dict = dict(sorted(translate_dict.items(), key=lambda x: x[0].lower()))
         with open(DICT_PATH, "w", encoding="utf-8") as fw:
-            json.dump(translate_dict, fw, ensure_ascii=False, indent=2)
+            json.dump(sorted_dict, fw, ensure_ascii=False, indent=2)
         print(f"[DICT SAVE] 已保存自动扩充后的词典到 {DICT_PATH}")
     except Exception as e:
         print(f"[DICT SAVE ERROR] {e}")
 
 
 def main():
-    global need_api_store,batch_translate_queue,re_pattern
+    global need_api_store, batch_translate_queue
     ROOT_DIR = os.getcwd()
     try:
         print("===== STAGE 1: 第一轮扫描全部文件(json+shn) =====")
@@ -256,25 +283,22 @@ def main():
         trans_result = flush_batch_translate(batch_translate_queue)
         apply_batch_result(trans_result)
 
-        if len(json_miss_english_set) >0:
+        if len(json_miss_english_set) > 0:
             print(f"\n===== STAGE 2: 二次批量翻译JSON漏网英文，共 {len(json_miss_english_set)} 条 =====")
             all_miss_list = list(json_miss_english_set)
             for i in range(0, len(all_miss_list), BATCH_MAX_SIZE):
                 slice_list = all_miss_list[i:i+BATCH_MAX_SIZE]
                 flush_batch_translate(slice_list)
-
-            re_pattern = build_case_insensitive_pattern(translate_dict)
+            rebuild_indexes()
             print("\n===== STAGE3: 使用扩充完成的新词典，重新扫描全部JSON文件（shn不再处理） =====")
             need_api_store.clear()
             batch_translate_queue.clear()
             scan_all_files(ROOT_DIR, run_shn=False)
         else:
             print("[STAGE2‑3] 没有漏网英文词条，跳过二次翻译&重扫JSON")
-
         save_updated_dict()
     except Exception as e:
         print(f"[SCAN FATAL ERROR] {e}")
-
     try:
         with open(miss_log_path, "w", encoding="utf-8") as f:
             for word in sorted(miss_set):
