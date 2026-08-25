@@ -44,7 +44,7 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 
 #### 1. 下载使用
 
-前往 [Releases](../../releases) 页面，下载最新 `translated‑cheats‑*.zip`，解压后放到 PSV / PS3 对应金手指目录直接使用。
+前往 [Releases](../../releases) 页面，下载最新 `translated‑cheats‑*.zip`，解压后放到对应金手指目录直接使用。
 
 #### 2. Github Action 配置
 
@@ -87,7 +87,7 @@ Translated cheats are pushed to branch `chinese‑build`. Release archive will b
 
 #### 1. Download cheats
 
-Go to [Releases](../../releases), download latest `translated‑cheats‑*.zip`. Extract and place files to your PSV / PS3 cheat folder.
+Go to [Releases](../../releases), download latest `translated‑cheats‑*.zip`. Extract and place files to your cheat folder.
 
 #### 2. GitHub Actions setup
 
