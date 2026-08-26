@@ -42,18 +42,20 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 5. 定时 / 手动打包生成 Release 下载包
 6. 将新增翻译词条自动提交回 master 主分支
 
-### 使用方式
-
-下载使用
-
-前往 [Releases](../../releases) 页面，下载最新 `translated‑cheats‑*.zip`，解压后将金手指文件放到对应金手指目录直接使用。
-
 Github Action 配置说明
 
 - 仓库 Secrets 需要配置：`DEEPL_API_KEY`，填入你的 DeepL API Key
 - 两种运行模式：
   - **手动触发**：点击 `Run workflow`，执行完整流程并生成 Release
   - **定时自动**：每日自动执行，**仅每月 1 号生成 Release**；其余日期只做翻译、更新词典、推送分支
+
+### 使用方式
+
+下载使用
+
+前往 [Releases](../../releases) 页面，下载最新 `translated‑cheats‑*.zip`，解压后将金手指文件放到对应金手指目录直接使用。
+
+
 
 ### 文件说明
 
@@ -102,18 +104,19 @@ Translated cheats are pushed to branch `chinese‑build`. Release archive will b
 5. Generate downloadable Release archive by manual trigger or schedule
 6. Commit new dictionary entries back to master branch automatically
 
-### How To Use
-
-Download cheats zip
-
-Go to [Releases](../../releases), download latest `translated‑cheats‑*.zip`. Extract and place files to your cheat folder.
-
 GitHub Actions setup 
 
 - Add secret `DEEPL_API_KEY` with your own DeepL API key in repository secrets.
 - Two workflow modes:
   - **Manual run**: Click `Run workflow` to run full pipeline and create Release.
   - **Scheduled run**: Run daily automatically. Release will **only be created on the 1st day of each month**. Other days perform translation, dictionary update and branch push only.
+
+### How To Use
+
+Download cheats zip
+
+Go to [Releases](../../releases), download latest `translated‑cheats‑*.zip`. Extract and place files to your cheat folder.
+
 
 ### File List
 
