@@ -16,21 +16,46 @@ TARGET_LANG = "ZH"
 MC4_TOOL = "./ps4_ps5_mc4_tool.py"
 
 translator = None
+deepl_ok = False
 if DEEPL_API_KEY:
     translator = deepl.Translator(DEEPL_API_KEY)
+    try:
+        usage = translator.get_usage()
+        print(f"[DEEPL] 已使用字符: {usage.character.count}, 上限:{usage.character.limit}")
+        if usage.character.limit_reached:
+            print("[DEEPL] ⚠️ 配额耗尽")
+        else:
+            deepl_ok = True
+            print("[DEEPL] ✅ API正常")
+    except Exception as e:
+        print(f"[DEEPL] ❌ API异常: {str(e)}")
+        translator = None
 
-# 加载自定义词典
+# 加载词典
 custom_dict = {}
+dict_file_loaded_ok = False
 if os.path.exists(DICT_PATH):
-    with open(DICT_PATH, "r", encoding="utf-8") as f:
-        custom_dict = json.load(f)
+    try:
+        with open(DICT_PATH, "r", encoding="utf-8") as f:
+            loaded = json.load(f)
+        if isinstance(loaded, dict):
+            custom_dict = loaded
+            dict_file_loaded_ok = True
+            print(f"[DICT] 加载词典，词条数:{len(custom_dict)}")
+    except Exception as e:
+        print(f"[DICT] 词典读取异常:{str(e)}")
 
+# !!!!重要：加载完词典之后再构建小写映射表，修复词典完全失效bug
 lower_key_map = {k.lower(): k for k in custom_dict.keys()}
+print(f"[DICT] 小写映射表条目:{len(lower_key_map)}")
 
 prev_state = {}
 if os.path.exists(STATE_PATH):
-    with open(STATE_PATH, "r", encoding="utf-8") as f:
-        prev_state = json.load(f)
+    try:
+        with open(STATE_PATH, "r", encoding="utf-8") as f:
+            prev_state = json.load(f)
+    except Exception:
+        pass
 
 new_state = dict()
 miss_entries = []
@@ -45,35 +70,35 @@ def get_file_sha256(filepath: str) -> str:
 
 
 def translate_text(text: str) -> str:
-    """词典优先；词典命中直接返回，不消耗DeepL；新词调用API，成功自动加入词典"""
+    """词典优先，词典命中直接返回；词典无匹配调用deepl；成功自动扩充词典"""
     if not text or not text.strip():
         return text
     text_strip = text.strip()
     text_lower = text_strip.lower()
 
-    # 本地词典优先，不调用网络
+    # 本地词典优先
     if text_lower in lower_key_map:
         origin_key = lower_key_map[text_lower]
         return custom_dict[origin_key]
 
-    # 没有API key，无法翻译，记录缺失
-    if not translator:
-        miss_entries.append(text_strip)
+    # 无API，直接返回原文
+    if not translator or not deepl_ok:
+        miss_entries.append(f"[API_OFF] {text_strip}")
         return text
 
     try:
         result = translator.translate_text(text_strip, target_lang=TARGET_LANG)
         translated = result.text
         if translated and translated.strip():
-            # 新翻译写入词典，自动扩展
             custom_dict[text_strip] = translated
             lower_key_map[text_strip.lower()] = text_strip
             return translated
         else:
-            miss_entries.append(text_strip)
+            miss_entries.append(f"[EMPTY_RET] {text_strip}")
             return text
-    except Exception:
-        miss_entries.append(text_strip)
+    except Exception as e:
+        err_msg = str(e).replace("\n", " ")
+        miss_entries.append(f"[API_ERR:{err_msg}] {text_strip}")
         return text
 
 
@@ -84,15 +109,15 @@ def process_json_file(filepath: str):
     if isinstance(data, list):
         for item in data:
             if "name" in item and isinstance(item["name"], str):
-                origin = item["name"]
-                tr = translate_text(origin)
-                if tr != origin:
+                orig = item["name"]
+                tr = translate_text(orig)
+                if tr != orig:
                     item["name"] = tr
                     modified = True
             if "Cheat Text" in item and isinstance(item["Cheat Text"], str):
-                origin = item["Cheat Text"]
-                tr = translate_text(origin)
-                if tr != origin:
+                orig = item["Cheat Text"]
+                tr = translate_text(orig)
+                if tr != orig:
                     item["Cheat Text"] = tr
                     modified = True
     if modified:
@@ -117,7 +142,7 @@ def process_shn_file(filepath: str):
 
 
 def process_mc4_file(filepath: str):
-    """mc4解密失败直接跳过，不中断整体脚本"""
+    """mc4解密→翻译→重加密；解密失败直接跳过该文件，不中断流水线"""
     base = os.path.splitext(filepath)[0]
     decrypted_json = base + ".dec.json"
     try:
@@ -140,15 +165,15 @@ def process_mc4_file(filepath: str):
         if isinstance(data, list):
             for item in data:
                 if "name" in item and isinstance(item["name"], str):
-                    origin = item["name"]
-                    tr = translate_text(origin)
-                    if tr != origin:
+                    orig = item["name"]
+                    tr = translate_text(orig)
+                    if tr != orig:
                         item["name"] = tr
                         modified = True
                 if "Cheat Text" in item and isinstance(item["Cheat Text"], str):
-                    origin = item["Cheat Text"]
-                    tr = translate_text(origin)
-                    if tr != origin:
+                    orig = item["Cheat Text"]
+                    tr = translate_text(orig)
+                    if tr != orig:
                         item["Cheat Text"] = tr
                         modified = True
         if modified:
@@ -168,6 +193,7 @@ def process_mc4_file(filepath: str):
 
 
 def main():
+    print(f"[MAIN] 开始处理全部金手指文件")
     for root, dirs, files in os.walk(CHEAT_ROOT):
         for fname in files:
             full_path = os.path.join(root, fname)
@@ -175,8 +201,7 @@ def main():
             rel_path = os.path.relpath(full_path, CHEAT_ROOT)
             new_state[rel_path] = sha
 
-            # ！！！删除旧的continue，无论上游sha是否变化，全部文件执行处理，应用最新词典
-            ext = os.path.splitext(fname)[1].lower()
+            ext = os.path.splitext(fname).lower()
             try:
                 if ext == ".json":
                     process_json_file(full_path)
@@ -187,18 +212,21 @@ def main():
             except Exception:
                 traceback.print_exc()
 
-    # 保存更新后的词典（自动迭代扩展）
-    with open(DICT_PATH, "w", encoding="utf-8") as f:
-        json.dump(custom_dict, f, ensure_ascii=False, indent=2)
+    # 只有词典正常加载，才写回磁盘，防止空词典覆盖
+    if dict_file_loaded_ok and len(custom_dict) > 0:
+        with open(DICT_PATH, "w", encoding="utf-8") as f:
+            json.dump(custom_dict, f, ensure_ascii=False, indent=2)
+        print(f"[DICT] 保存词典完成，总词条:{len(custom_dict)}")
+    else:
+        print("[DICT] 跳过保存词典，加载异常或为空")
 
-    # 保存上游源文件哈希快照，仅用于记录上游变更，不再用于跳过文件
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(new_state, f, ensure_ascii=False, indent=2)
 
-    # 输出翻译缺失词条日志
     with open(MISS_LOG_PATH, "w", encoding="utf-8") as f:
         for entry in miss_entries:
             f.write(entry + "\n")
+    print(f"[MAIN] miss_log记录 {len(miss_entries)} 条未处理词条")
 
 
 if __name__ == "__main__":
