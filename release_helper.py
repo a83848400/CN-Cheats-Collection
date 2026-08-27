@@ -17,10 +17,11 @@ try:
     print(f"Release {tag} already exists, skip create.")
 except Exception:
     print(f"Start create new release tag:{tag}")
+    # create_git_release(tag, name, body, draft, prerelease) 没有 tag_name=
     new_release = repo.create_git_release(
-        tag_name=tag,
+        tag,
         name=title,
-        body=body_text,
+        message=body_text,
         draft=False,
         prerelease=False
     )
