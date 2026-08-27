@@ -66,7 +66,6 @@ jobs:
             cat translate_miss.log
           fi
 
-      # 推送翻译产物到 chinese‑build
       - name: Commit chinese‑build branch
         run: |
           rm -rf cheats custom_dict.json file_state.json translate_miss.log
@@ -83,7 +82,6 @@ jobs:
           git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed for chinese‑build"
           git push -f origin chinese-build
 
-      # =========词典自动回写master（放在打包之前）=========
       - name: Auto commit updated custom_dict.json back to master
         run: |
           git checkout master
@@ -92,7 +90,6 @@ jobs:
           git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
           git push origin master
 
-      # 打包Release来源 chinese‑build，README取自master
       - name: Checkout chinese‑build for zip build
         uses: actions/checkout@v4
         with:
@@ -119,7 +116,6 @@ jobs:
           name: cn-cheats-package
           path: CN-Cheats-Collection.zip
 
-      # 修复gh release create引号问题
       - name: Create Github Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -135,10 +131,11 @@ jobs:
           fi
           if [ "$DO_RELEASE" -eq 1 ]; then
             TAG="v$(date +%Y-%m-%d)"
-            gh release create "${TAG}" \
-              --title "CN‑Cheats‑Collection ${TAG}" \
-              --notes "Auto‑translated cheats from chinese‑build branch" \
-              ./CN-Cheats-Collection.zip
+            gh release create "${TAG}" ./CN-Cheats-Collection.zip \
+            --title "CN‑Cheats‑Collection ${TAG}" \
+            --notes-file - <<EOF
+Auto‑translated cheats from chinese‑build branch
+EOF
             echo "✅ Release created ${TAG}"
           else
             echo "⏭ Skip release"
