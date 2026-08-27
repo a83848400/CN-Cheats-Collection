@@ -58,6 +58,11 @@ jobs:
           cp ../auto_translate_cheat.py ./
           cp ../ps4_ps5_mc4_tool.py ./
           python3 auto_translate_cheat.py
+          # 控制台打印miss日志，方便直接看CI运行结果
+          if [ -f translate_miss.log ]; then
+            echo "================ translate_miss.log ================"
+            cat translate_miss.log
+          fi
 
       - name: Commit and push chinese-build branch
         run: |
@@ -65,9 +70,9 @@ jobs:
           rm -rf cheats
           mv work_out/* ./
           git add cheats custom_dict.json
-          # 仅当文件真实存在才加入git，避免不存在文件导致git add报错128
           [ -f file_state.json ] && git add file_state.json
-          [ -f translate_miss.log ] && git add translate_miss.log
+          # -f强制add日志文件，规避*.log gitignore通配符拦截
+          [ -f translate_miss.log ] && git add -f translate_miss.log
           git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed, skip commit"
           git push -f origin chinese-build
 
@@ -105,12 +110,10 @@ jobs:
           MANUAL_RELEASE=${{ github.event.inputs.create_manual_release }}
           DO_RELEASE=0
 
-          # 条件1：定时调度并且是每月1号 → 自动发版
           if [[ "${{ github.event_name }}" == "schedule" && "$DAY" == "01" ]]; then
             DO_RELEASE=1
           fi
 
-          # 条件2：手动运行，并且勾选了创建Release
           if [[ "${{ github.event_name }}" == "workflow_dispatch" && "$MANUAL_RELEASE" == "true" ]]; then
             DO_RELEASE=1
           fi
