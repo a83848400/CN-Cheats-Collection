@@ -45,7 +45,7 @@ if os.path.exists(DICT_PATH):
     except Exception as e:
         print(f"[DICT] 词典读取异常:{str(e)}")
 
-# !!!!重要：加载完词典之后再构建小写映射表，修复词典完全失效bug
+# 加载完词典之后再构建小写映射表
 lower_key_map = {k.lower(): k for k in custom_dict.keys()}
 print(f"[DICT] 小写映射表条目:{len(lower_key_map)}")
 
@@ -201,7 +201,8 @@ def main():
             rel_path = os.path.relpath(full_path, CHEAT_ROOT)
             new_state[rel_path] = sha
 
-            ext = os.path.splitext(fname).lower()
+            # =========修复点=========
+            ext = os.path.splitext(fname)[1].lower()
             try:
                 if ext == ".json":
                     process_json_file(full_path)
