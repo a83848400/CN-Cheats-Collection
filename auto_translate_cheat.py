@@ -2,14 +2,15 @@ import os
 import json
 import re
 import time
+import xml.etree.ElementTree as ET
+from ps4_ps5_mc4_tool import decode_mc4, encode_mc4
 
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
 DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 
-# 金手指常用缩写映射，可自行扩充 key:缩写, value:完整英文
 ABBREV_MAP = {
     "inf": "Infinite",
-    "infi": "Infinite",
+    "INF": "Infinite",
     "max": "Max",
     "min": "Min"
 }
@@ -141,6 +142,7 @@ def translate_text_prepare(text: str):
 
 
 need_api_store = []
+out_lines = []
 
 
 def process_json_file(filepath):
@@ -186,6 +188,7 @@ def process_json_file(filepath):
 
 
 def process_shn_file(filepath):
+    global out_lines
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -223,6 +226,46 @@ def process_shn_file(filepath):
         print(f"[SHN WRITE ERROR] {filepath} | {e}")
 
 
+def process_mc4_file(filepath):
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            mc4_raw_text = f.read()
+    except Exception as e:
+        print(f"[MC4 SKIP READ] {filepath} | {e}")
+        return
+
+    info = decode_mc4(mc4_raw_text)
+    if info["status"] not in ("decrypted", "plaintext"):
+        print(f"[MC4 SKIP DECRYPT] {filepath} status={info['status']} reason={info.get('reason','')}")
+        return
+
+    inner_xml = info["inner"]
+    try:
+        root = ET.fromstring(inner_xml)
+    except Exception as e:
+        print(f"[MC4 XML PARSE FAIL] {filepath} | {e}, skip")
+        return
+
+    for cheat_node in root.findall(".//Cheat"):
+        desc_elem = cheat_node.find("Description")
+        if desc_elem is not None and desc_elem.text is not None:
+            orig_text = desc_elem.text
+            is_ok, res_txt, need_api = translate_text_prepare(orig_text)
+            if need_api:
+                need_api_store.append({"type":"mc4xml","node":desc_elem,"text":res_txt})
+                batch_translate_queue.append(res_txt)
+                miss_set.add(orig_text.strip())
+            else:
+                if res_txt != orig_text:
+                    desc_elem.text = res_txt
+
+    new_inner_xml = ET.tostring(root, encoding="unicode")
+    new_mc4_b64 = encode_mc4(new_inner_xml, info)
+    with open(filepath, "w", encoding="utf-8") as fw:
+        fw.write(new_mc4_b64)
+    print(f"[MC4 PROCESSED] {filepath}")
+
+
 def scan_all_files(root_dir, run_shn: bool = True):
     file_counter = 0
     for dirpath, dirnames, filenames in os.walk(root_dir):
@@ -241,6 +284,9 @@ def scan_all_files(root_dir, run_shn: bool = True):
                 elif ext.endswith(".shn") and run_shn:
                     print(f"Processing SHN: {fullpath}")
                     process_shn_file(fullpath)
+                elif ext.endswith(".mc4"):
+                    print(f"Processing MC4: {fullpath}")
+                    process_mc4_file(fullpath)
             except Exception as e:
                 print(f"[SCAN FILE SKIP] {fullpath} | {e}")
             if len(batch_translate_queue) >= BATCH_MAX_SIZE:
@@ -249,6 +295,7 @@ def scan_all_files(root_dir, run_shn: bool = True):
 
 
 def apply_batch_result(trans_map: dict):
+    global out_lines
     for item in need_api_store:
         ori_txt = item["text"]
         final = trans_map.get(ori_txt, ori_txt)
@@ -259,8 +306,14 @@ def apply_batch_result(trans_map: dict):
         elif item["type"] == "shn":
             m = item["match"]
             new_line = item["line"][:m.start(1)] + final + item["line"][m.end(1):]
-            idx = out_lines.index(item["line"])
-            out_lines[idx] = new_line
+            try:
+                idx = out_lines.index(item["line"])
+                out_lines[idx] = new_line
+            except ValueError:
+                pass
+        elif item["type"] == "mc4xml":
+            node = item["node"]
+            node.text = final
 
 
 def save_updated_dict():
@@ -277,7 +330,7 @@ def main():
     global need_api_store, batch_translate_queue
     ROOT_DIR = os.getcwd()
     try:
-        print("===== STAGE 1: 第一轮扫描全部文件(json+shn) =====")
+        print("===== STAGE 1: 第一轮扫描全部文件(json+shn+mc4) =====")
         scan_all_files(ROOT_DIR, run_shn=True)
         print("[STAGE1 DONE] 第一阶段文件扫描完成，执行剩余批量翻译")
         trans_result = flush_batch_translate(batch_translate_queue)
@@ -290,7 +343,7 @@ def main():
                 slice_list = all_miss_list[i:i+BATCH_MAX_SIZE]
                 flush_batch_translate(slice_list)
             rebuild_indexes()
-            print("\n===== STAGE3: 使用扩充完成的新词典，重新扫描全部JSON文件（shn不再处理） =====")
+            print("\n===== STAGE3: 使用扩充完成的新词典，重新扫描全部JSON文件（shn/mc4不再处理） =====")
             need_api_store.clear()
             batch_translate_queue.clear()
             scan_all_files(ROOT_DIR, run_shn=False)
