@@ -1,218 +1,207 @@
+#!/usr/bin/env python3
 import os
 import json
+import hashlib
+import deepl
 import traceback
 import subprocess
-import hashlib
 
-try:
-    import deepl
-except ImportError:
-    deepl = None
-
-# ===================== 配置常量 =====================
 CHEAT_ROOT = "./cheats"
 DICT_PATH = "./custom_dict.json"
 STATE_PATH = "./file_state.json"
 MISS_LOG_PATH = "./translate_miss.log"
+DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "")
 MC4_TOOL = "./ps4_ps5_mc4_tool.py"
 
 custom_dict = {}
-new_state = {}
 miss_entries = []
+new_state = dict()
 
-DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "")
 translator = None
-if DEEPL_API_KEY and deepl:
+if DEEPL_API_KEY:
     try:
         translator = deepl.Translator(DEEPL_API_KEY)
     except Exception:
         translator = None
 
-# 加载本地词典
+# 加载词典
 if os.path.exists(DICT_PATH):
-    with open(DICT_PATH, "r", encoding="utf-8") as f:
-        custom_dict = json.load(f)
+    try:
+        with open(DICT_PATH, "r", encoding="utf-8") as f:
+            custom_dict = json.load(f)
+    except Exception:
+        custom_dict = {}
 if not isinstance(custom_dict, dict):
     custom_dict = {}
 
+# 按短语长度倒序：长的优先替换，避免短词先破坏长短语
+key_list = list(custom_dict.keys())
+key_list.sort(key=lambda k: len(k), reverse=True)
 
-def get_file_sha256(filepath: str) -> str:
+
+def get_file_sha256(filepath):
     h = hashlib.sha256()
     with open(filepath, "rb") as f:
-        while chunk := f.read(65536):
+        for chunk in iter(lambda: f.read(8192), b""):
             h.update(chunk)
     return h.hexdigest()
+
+
+def local_dict_replace(text: str) -> str:
+    """【核心，短语子串忽略大小写替换，旧版原本能力，不能删除】"""
+    res = text
+    for orig_key in key_list:
+        trans_val = custom_dict[orig_key]
+        lo_orig = orig_key.lower()
+        start = 0
+        while True:
+            pos = res.lower().find(lo_orig, start)
+            if pos == -1:
+                break
+            res = res[:pos] + trans_val + res[pos + len(orig_key):]
+            start = pos + len(trans_val)
+    return res
 
 
 def translate_text(text: str) -> str:
     if not text or not text.strip():
         return text
-    text_origin = text.strip()
-
-    lower_key_map = {k.lower(): k for k in custom_dict.keys()}
-    text_low = text_origin.lower()
-    if text_low in lower_key_map:
-        real_original_key = lower_key_map[text_low]
-        return custom_dict[real_original_key]
-
+    src_text = text.strip()
+    # 第一步：本地词典短语替换
+    out = local_dict_replace(src_text)
+    if out != src_text:
+        return out
+    # 短语没有替换到，调用DeepL
     if not translator:
-        miss_entries.append(text_origin)
-        return text_origin
-
+        miss_entries.append(src_text)
+        return src_text
     try:
-        resp = translator.translate_text(text_origin, target_lang="zh")
-        trans_result = resp.text.strip()
-        if not trans_result or trans_result == text_origin:
-            miss_entries.append(text_origin)
-            return text_origin
-
-        if text_origin not in custom_dict:
-            custom_dict[text_origin] = trans_result
-        return trans_result
-
-    except Exception:
-        miss_entries.append(f"API_ERR|{text_origin}")
-        return text_origin
+        result = translator.translate_text(src_text, target_lang="ZH")
+        tr_result = result.text.strip()
+        if tr_result and tr_result != src_text:
+            # DeepL翻译成功，加入内存词典，下一轮本地直接替换
+            custom_dict[src_text] = tr_result
+            key_list.append(src_text)
+            key_list.sort(key=lambda k: len(k), reverse=True)
+            return tr_result
+        else:
+            miss_entries.append(src_text)
+            return src_text
+    except Exception as e:
+        miss_entries.append(f"API_ERR:{str(e)}|{src_text}")
+        return src_text
 
 
 def process_json_file(filepath):
-    print(f"[PROCESS_JSON] {filepath}")
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"[JSON_READ_ERR] {filepath} | {str(e)}")
-        return
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
     modified = False
     if isinstance(data, list):
         for item in data:
             if not isinstance(item, dict):
                 continue
-            keys_lower = {k.lower(): k for k in item.keys()}
-            if "name" in keys_lower:
-                real_key = keys_lower["name"]
-                src = item[real_key]
-                if isinstance(src, str):
-                    dst = translate_text(src)
-                    if dst != src:
-                        item[real_key] = dst
+            keymap_low = {k.lower(): k for k in item.keys()}
+            if "name" in keymap_low:
+                real_k = keymap_low["name"]
+                orig = item[real_k]
+                if isinstance(orig, str):
+                    new_val = translate_text(orig)
+                    if new_val != orig:
+                        item[real_k] = new_val
                         modified = True
-            if "cheat text" in keys_lower:
-                real_key = keys_lower["cheat text"]
-                src = item[real_key]
-                if isinstance(src, str):
-                    dst = translate_text(src)
-                    if dst != src:
-                        item[real_key] = dst
+            if "cheat text" in keymap_low:
+                real_k = keymap_low["cheat text"]
+                orig = item[real_k]
+                if isinstance(orig, str):
+                    new_val = translate_text(orig)
+                    if new_val != orig:
+                        item[real_k] = new_val
                         modified = True
     if modified:
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"[JSON_MODIFIED] {filepath}")
-    else:
-        print(f"[JSON_SKIP_NO_CHANGE] {filepath}")
 
 
 def process_shn_file(filepath):
-    print(f"[PROCESS_SHN] {filepath}")
-    try:
-        out_lines = []
-        with open(filepath, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-        modified = False
-        for line in lines:
-            stripped_line = line.lstrip()
-            if stripped_line.lower().startswith("cheat text="):
-                idx_eq = line.find("=")
-                pre = line[:idx_eq+1]
-                raw = line[idx_eq+1:].rstrip("\r\n")
-                tr = translate_text(raw)
-                out_lines.append(f"{pre}{tr}\n")
-                if tr != raw:
-                    modified = True
-            else:
-                out_lines.append(line)
-        if modified:
-            with open(filepath, "w", encoding="utf-8") as f:
-                f.writelines(out_lines)
-            print(f"[SHN_MODIFIED] {filepath}")
+    out_lines = []
+    with open(filepath, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    modified = False
+    for line in lines:
+        s_line = line.lstrip()
+        if s_line.lower().startswith("cheat text="):
+            eq_idx = line.find("=")
+            prefix = line[:eq_idx + 1]
+            raw = line[eq_idx+1:].rstrip("\r\n")
+            new_text = translate_text(raw)
+            out_lines.append(f"{prefix}{new_text}\n")
+            if new_text != raw:
+                modified = True
         else:
-            print(f"[SHN_SKIP_NO_CHANGE] {filepath}")
-    except Exception as e:
-        print(f"[SHN_ERR] {filepath} | {str(e)}")
+            out_lines.append(line)
+    if modified:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.writelines(out_lines)
 
 
 def process_mc4_file(filepath):
     import shutil
-    base_no_ext = os.path.splitext(filepath)[0]
-    temp_decrypt_json = base_no_ext + ".tmp.dec.json"
-    bak_original = filepath + ".orig.bak"
-
+    base = os.path.splitext(filepath)[0]
+    dec_json = base + ".tmp.dec.json"
+    bak_file = filepath + ".tmp.orig.bak"
     try:
-        shutil.copy2(filepath, bak_original)
+        shutil.copy2(filepath, bak_file)
     except Exception:
         return
-
     try:
         dec_ret = subprocess.run(
-            ["python3", MC4_TOOL, "decrypt", filepath, temp_decrypt_json],
-            capture_output=True,
-            text=True,
-            check=False
+            ["python3", MC4_TOOL, "decrypt", filepath, dec_json],
+            capture_output=True, text=True, check=False
         )
-        if dec_ret.returncode != 0 or not os.path.exists(temp_decrypt_json):
+        if dec_ret.returncode != 0 or not os.path.exists(dec_json):
             return
-
-        with open(temp_decrypt_json, "r", encoding="utf-8") as f:
-            mc4_data = json.load(f)
-        is_modified = False
-
-        if isinstance(mc4_data, list):
-            for entry in mc4_data:
-                if not isinstance(entry, dict):
+        with open(dec_json, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        modified = False
+        if isinstance(data, list):
+            for item in data:
+                if not isinstance(item, dict):
                     continue
-                keymap_lower = {k.lower(): k for k in entry.keys()}
-                if "name" in keymap_lower:
-                    real_k = keymap_lower["name"]
-                    src_txt = entry[real_k]
-                    if isinstance(src_txt, str):
-                        out = translate_text(src_txt)
-                        if out != src_txt:
-                            entry[real_k] = out
-                            is_modified = True
-                if "cheat text" in keymap_lower:
-                    real_k = keymap_lower["cheat text"]
-                    src_txt = entry[real_k]
-                    if isinstance(src_txt, str):
-                        out = translate_text(src_txt)
-                        if out != src_txt:
-                            entry[real_k] = out
-                            is_modified = True
-
-        if not is_modified:
-            return
-
-        with open(temp_decrypt_json, "w", encoding="utf-8") as f:
-            json.dump(mc4_data, f, ensure_ascii=False, indent=2)
-
-        enc_ret = subprocess.run(
-            ["python3", MC4_TOOL, "encrypt", temp_decrypt_json, filepath],
-            capture_output=True,
-            text=True,
-            check=False
-        )
-        if enc_ret.returncode != 0:
-            if os.path.exists(bak_original):
-                shutil.copy2(bak_original, filepath)
-
+                keymap_low = {k.lower(): k for k in item.keys()}
+                if "name" in keymap_low:
+                    real_k = keymap_low["name"]
+                    orig = item[real_k]
+                    if isinstance(orig, str):
+                        new_val = translate_text(orig)
+                        if new_val != orig:
+                            item[real_k] = new_val
+                            modified = True
+                if "cheat text" in keymap_low:
+                    real_k = keymap_low["cheat text"]
+                    orig = item[real_k]
+                    if isinstance(orig, str):
+                        new_val = translate_text(orig)
+                        if new_val != orig:
+                            item[real_k] = new_val
+                            modified = True
+        if modified:
+            with open(dec_json, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            enc_ret = subprocess.run(
+                ["python3", MC4_TOOL, "encrypt", dec_json, filepath],
+                capture_output=True, text=True, check=False
+            )
+            if enc_ret.returncode != 0:
+                if os.path.exists(bak_file):
+                    shutil.copy2(bak_file, filepath)
     except Exception:
-        if os.path.exists(bak_original):
-            shutil.copy2(bak_original, filepath)
+        if os.path.exists(bak_file):
+            shutil.copy2(bak_file, filepath)
     finally:
-        if os.path.exists(temp_decrypt_json):
-            os.unlink(temp_decrypt_json)
-        if os.path.exists(bak_original):
-            os.unlink(bak_original)
+        if os.path.exists(dec_json):
+            os.unlink(dec_json)
+        if os.path.exists(bak_file):
+            os.unlink(bak_file)
 
 
 def main():
@@ -222,7 +211,6 @@ def main():
             sha = get_file_sha256(fp)
             rel = os.path.relpath(fp, CHEAT_ROOT)
             new_state[rel] = sha
-
             ext = os.path.splitext(fname)[1].lower()
             try:
                 if ext == ".json":
@@ -234,20 +222,14 @@ def main():
             except Exception:
                 traceback.print_exc()
 
-    print(f"[MAIN_DONE] miss_entries count:{len(miss_entries)}")
+    # 写回词典，状态，miss日志
     with open(DICT_PATH, "w", encoding="utf-8") as f:
         json.dump(custom_dict, f, ensure_ascii=False, indent=2)
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(new_state, f, ensure_ascii=False, indent=2)
-
     with open(MISS_LOG_PATH, "w", encoding="utf-8") as f:
-        for item in miss_entries:
-            f.write(item + "\n")
-
-    added_log_name = "new_dict_added.log"
-    with open(added_log_name, "w", encoding="utf-8") as fw:
-        for eng_key, cn_val in custom_dict.items():
-            fw.write(f"{eng_key} ===> {cn_val}\n")
+        for entry in miss_entries:
+            f.write(entry + "\n")
 
 
 if __name__ == "__main__":
