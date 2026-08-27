@@ -52,6 +52,7 @@ jobs:
           cp -r ./upstream_repo/cheats/* ./work_out/
           cd work_out
           cp ../auto_translate_cheat.py ./
+          cp ../ps4_ps5_mc4_tool.py ./
           python3 auto_translate_cheat.py
 
       - name: Commit and push chinese-build branch
