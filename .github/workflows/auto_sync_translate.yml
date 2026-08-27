@@ -90,7 +90,7 @@ jobs:
           git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
           git push origin master
 
-      - name: Checkout chinese‑build to build_pkg
+      - name: Checkout chinese‑build for zip build
         uses: actions/checkout@v4
         with:
           ref: chinese-build
@@ -109,13 +109,11 @@ jobs:
           cp ./tmp_master/README.md ./build_pkg/README.md
           ls -la ./build_pkg
 
-      - name: Judge whether create Release & set file names
+      - name: Judge whether create Release
         id: judge_release
         run: |
           DAY=$(date +%d)
           MANUAL_RELEASE=${{ github.event.inputs.create_manual_release }}
-          TAG="v$(date +%Y-%m-%d)"
-          ZIP_FILENAME="CN-Cheats-Collection-${TAG}.zip"
           DO_RELEASE=0
           if [[ "${{ github.event_name }}" == "schedule" && "$DAY" == "01" ]]; then
             DO_RELEASE=1
@@ -123,11 +121,18 @@ jobs:
           if [[ "${{ github.event_name }}" == "workflow_dispatch" && "$MANUAL_RELEASE" == "true" ]]; then
             DO_RELEASE=1
           fi
-          echo "TAG=${TAG}" >> $GITHUB_OUTPUT
-          echo "ZIP_FILENAME=${ZIP_FILENAME}" >> $GITHUB_OUTPUT
-          echo "DO_RELEASE=${DO_RELEASE}" >> $GITHUB_OUTPUT
+          if [ "$DO_RELEASE" -eq 1 ]; then
+            TAG="v$(date +%Y-%m-%d)"
+            ZIP_FILENAME="CN-Cheats-Collection-${TAG}.zip"
+            echo "DO_RELEASE=1" >> $GITHUB_OUTPUT
+            echo "TAG=$TAG" >> $GITHUB_OUTPUT
+            echo "ZIP_FILENAME=$ZIP_FILENAME" >> $GITHUB_OUTPUT
+          else
+            echo "DO_RELEASE=0" >> $GITHUB_OUTPUT
+            echo "⏭ Skip release"
+          fi
 
-      - name: Build zip archive (文件名带日期tag)
+      - name: Build zip archive
         run: |
           cd build_pkg
           zip -r ../${{ steps.judge_release.outputs.ZIP_FILENAME }} README.md cheats/
