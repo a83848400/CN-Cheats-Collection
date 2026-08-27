@@ -34,8 +34,8 @@ jobs:
 
       - name: Configure git bot identity
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github‑actions[bot]"
+          git config --global user.email "github‑actions[bot]@users.noreply.github.com"
 
       - name: Clone upstream repo
         run: |
@@ -57,23 +57,20 @@ jobs:
         run: |
           cd work_out
           python3 auto_translate_cheat.py
-          echo "===== work_out 目录 ====="
+          echo "===== work_out dir list ====="
           ls -la
-          echo "===== work_out/cheats 目录 ====="
+          echo "===== work_out/cheats dir list ====="
           ls -la cheats || true
-          echo "===== cheats子目录 ====="
-          ls -la cheats/json cheats/shn cheats/mc4 2>/dev/null || true
           if [ -f translate_miss.log ]; then
             echo "==== translate_miss.log ===="
             cat translate_miss.log
           fi
 
-      - name: Commit chinese‑build
+      # 推送翻译产物到 chinese‑build
+      - name: Commit chinese‑build branch
         run: |
-          # 【修复】先把磁盘全部残留删除干净，再checkout分支，消除not uptodate警告
           rm -rf cheats custom_dict.json file_state.json translate_miss.log
           git checkout -B chinese-build
-          # 完整复制全部翻译产物 json/shn/mc4
           cp -r work_out/cheats ./
           cp work_out/custom_dict.json ./
           [ -f work_out/file_state.json ] && cp work_out/file_state.json ./
@@ -83,17 +80,27 @@ jobs:
           [ -f file_state.json ] && git add file_state.json
           [ -f translate_miss.log ] && git add -f translate_miss.log
 
-          git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed, skip commit"
+          git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed for chinese‑build"
           git push -f origin chinese-build
 
-      - name: Checkout chinese‑build for zip
+      # =========词典自动回写master（放在打包之前）=========
+      - name: Auto commit updated custom_dict.json back to master
+        run: |
+          git checkout master
+          cp work_out/custom_dict.json ./custom_dict.json
+          git add custom_dict.json
+          git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
+          git push origin master
+
+      # 打包Release来源 chinese‑build，README取自master
+      - name: Checkout chinese‑build for zip build
         uses: actions/checkout@v4
         with:
           ref: chinese-build
           fetch-depth: 1
           path: build_pkg
 
-      - name: Get README.md from master
+      - name: Fetch README.md from master
         uses: actions/checkout@v4
         with:
           ref: master
@@ -101,18 +108,19 @@ jobs:
           sparse-checkout-cone-mode: false
           path: build_pkg
 
-      - name: Build zip
+      - name: Build zip archive
         run: |
           cd build_pkg
           zip -r ../CN-Cheats-Collection.zip README.md cheats/
 
-      - name: Upload artifact
+      - name: Upload workflow artifact
         uses: actions/upload-artifact@v4
         with:
           name: cn-cheats-package
           path: CN-Cheats-Collection.zip
 
-      - name: Create Release
+      # 修复gh release create引号问题
+      - name: Create Github Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -127,11 +135,11 @@ jobs:
           fi
           if [ "$DO_RELEASE" -eq 1 ]; then
             TAG="v$(date +%Y-%m-%d)"
-            gh release create "$TAG" \
-              --title "CN‑Cheats‑Collection $TAG" \
+            gh release create "${TAG}" \
+              --title "CN‑Cheats‑Collection ${TAG}" \
               --notes "Auto‑translated cheats from chinese‑build branch" \
               ./CN-Cheats-Collection.zip
-            echo "✅ Release created $TAG"
+            echo "✅ Release created ${TAG}"
           else
             echo "⏭ Skip release"
           fi
