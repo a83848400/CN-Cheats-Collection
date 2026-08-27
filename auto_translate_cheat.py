@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import json
 import hashlib
@@ -34,6 +35,7 @@ if os.path.exists(STATE_PATH):
 new_state = dict()
 miss_entries = []
 
+
 def get_file_sha256(filepath: str) -> str:
     h = hashlib.sha256()
     with open(filepath, "rb") as f:
@@ -41,17 +43,20 @@ def get_file_sha256(filepath: str) -> str:
             h.update(chunk)
     return h.hexdigest()
 
+
 def translate_text(text: str) -> str:
-    """词典优先，忽略大小写匹配；API失败返回原文，记入miss日志"""
+    """词典优先；词典命中直接返回，不消耗DeepL；新词调用API，成功自动加入词典"""
     if not text or not text.strip():
         return text
     text_strip = text.strip()
     text_lower = text_strip.lower()
 
+    # 本地词典优先，不调用网络
     if text_lower in lower_key_map:
         origin_key = lower_key_map[text_lower]
         return custom_dict[origin_key]
 
+    # 没有API key，无法翻译，记录缺失
     if not translator:
         miss_entries.append(text_strip)
         return text
@@ -60,6 +65,7 @@ def translate_text(text: str) -> str:
         result = translator.translate_text(text_strip, target_lang=TARGET_LANG)
         translated = result.text
         if translated and translated.strip():
+            # 新翻译写入词典，自动扩展
             custom_dict[text_strip] = translated
             lower_key_map[text_strip.lower()] = text_strip
             return translated
@@ -69,6 +75,7 @@ def translate_text(text: str) -> str:
     except Exception:
         miss_entries.append(text_strip)
         return text
+
 
 def process_json_file(filepath: str):
     with open(filepath, "r", encoding="utf-8") as f:
@@ -92,6 +99,7 @@ def process_json_file(filepath: str):
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
+
 def process_shn_file(filepath: str):
     out_lines = []
     with open(filepath, "r", encoding="utf-8") as f:
@@ -107,12 +115,12 @@ def process_shn_file(filepath: str):
     with open(filepath, "w", encoding="utf-8") as f:
         f.writelines(out_lines)
 
+
 def process_mc4_file(filepath: str):
-    """mc4解密翻译，解密失败直接跳过该mc4，不抛出异常中断整体脚本"""
+    """mc4解密失败直接跳过，不中断整体脚本"""
     base = os.path.splitext(filepath)[0]
     decrypted_json = base + ".dec.json"
     try:
-        # check=False：不因为工具非0退出直接抛异常
         ret = subprocess.run(
             ["python3", MC4_TOOL, "decrypt", filepath, decrypted_json],
             check=False,
@@ -120,7 +128,6 @@ def process_mc4_file(filepath: str):
             text=True
         )
         if ret.returncode != 0:
-            # 解密失败，直接返回，保留原始mc4不改动
             if os.path.exists(decrypted_json):
                 os.unlink(decrypted_json)
             return
@@ -156,9 +163,9 @@ def process_mc4_file(filepath: str):
         if os.path.exists(decrypted_json):
             os.unlink(decrypted_json)
     except Exception:
-        # 任何mc4处理异常，静默跳过该mc4，不打断整体脚本
         if os.path.exists(decrypted_json):
             os.unlink(decrypted_json)
+
 
 def main():
     for root, dirs, files in os.walk(CHEAT_ROOT):
@@ -168,9 +175,7 @@ def main():
             rel_path = os.path.relpath(full_path, CHEAT_ROOT)
             new_state[rel_path] = sha
 
-            if rel_path in prev_state and prev_state[rel_path] == sha:
-                continue
-
+            # ！！！删除旧的continue，无论上游sha是否变化，全部文件执行处理，应用最新词典
             ext = os.path.splitext(fname)[1].lower()
             try:
                 if ext == ".json":
@@ -182,18 +187,19 @@ def main():
             except Exception:
                 traceback.print_exc()
 
-    # 输出更新后的词典
+    # 保存更新后的词典（自动迭代扩展）
     with open(DICT_PATH, "w", encoding="utf-8") as f:
         json.dump(custom_dict, f, ensure_ascii=False, indent=2)
 
-    # 输出文件状态快照
+    # 保存上游源文件哈希快照，仅用于记录上游变更，不再用于跳过文件
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(new_state, f, ensure_ascii=False, indent=2)
 
-    # 输出miss日志
+    # 输出翻译缺失词条日志
     with open(MISS_LOG_PATH, "w", encoding="utf-8") as f:
         for entry in miss_entries:
             f.write(entry + "\n")
+
 
 if __name__ == "__main__":
     main()
