@@ -57,6 +57,14 @@ jobs:
         run: |
           cd work_out
           python3 auto_translate_cheat.py
+          echo "===== work_out dir list ====="
+          ls -la
+          echo "===== work_out/cheats dir list ====="
+          ls -la cheats || true
+          if [ -f translate_miss.log ]; then
+            echo "==== translate_miss.log ===="
+            cat translate_miss.log
+          fi
 
       - name: Commit chinese‑build branch
         run: |
