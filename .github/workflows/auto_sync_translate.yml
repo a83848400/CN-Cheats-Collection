@@ -34,8 +34,8 @@ jobs:
 
       - name: Configure git bot identity
         run: |
-          git config --global user.name "github‑actions[bot]"
-          git config --global user.email "github‑actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Clone upstream repo
         run: |
@@ -87,7 +87,7 @@ jobs:
           git checkout master
           cp work_out/custom_dict.json ./custom_dict.json
           git add custom_dict.json
-          git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
+          git commit -m "CI auto update custom_dict.json $(date '+%Y-%m-%d %H:%M')" || echo "No new dict entries, skip master commit"
           git push origin master
 
       - name: Checkout chinese‑build for zip build
@@ -131,8 +131,8 @@ jobs:
           fi
           if [ "$DO_RELEASE" -eq 1 ]; then
             TAG="v$(date +%Y-%m-%d)"
-            RELEASE_NOTES="Auto‑translated cheats from chinese‑build branch"
-            gh release create "${TAG}" ./CN-Cheats-Collection.zip --title "CN‑Cheats‑Collection ${TAG}" --notes "${RELEASE_NOTES}"
+            echo "Auto-translated cheats from chinese-build branch" > release_note.txt
+            gh release create "${TAG}" ./CN-Cheats-Collection.zip --title "CN-Cheats-Collection ${TAG}" --notes-file release_note.txt
             echo "✅ Release created ${TAG}"
           else
             echo "⏭ Skip release"
