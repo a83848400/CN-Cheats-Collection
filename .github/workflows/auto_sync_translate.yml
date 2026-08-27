@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       create_manual_release:
-        description: "手动运行时，是否自动生成Release发布包"
+        description: "手动运行，是否生成Release发布包"
         type: boolean
         default: false
 
@@ -45,8 +45,8 @@ jobs:
         run: |
           rm -rf work_out
           mkdir -p work_out
-          if [ -f ./custom_dict.json ]; then cp ./custom_dict.json work_out/; fi
-          if [ -f ./file_state.json ]; then cp ./file_state.json work_out/; fi
+          [ -f ./custom_dict.json ] && cp ./custom_dict.json work_out/
+          [ -f ./file_state.json ] && cp ./file_state.json work_out/
           cp auto_translate_cheat.py work_out/
           cp ps4_ps5_mc4_tool.py work_out/
           cp -r ./upstream_repo/cheats work_out/
