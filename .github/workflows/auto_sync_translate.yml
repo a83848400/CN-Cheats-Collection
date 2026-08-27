@@ -57,29 +57,19 @@ jobs:
         run: |
           cd work_out
           python3 auto_translate_cheat.py
-          echo "===== work_out dir list ====="
-          ls -la
-          echo "===== work_out/cheats dir list ====="
-          ls -la cheats || true
-          if [ -f translate_miss.log ]; then
-            echo "==== translate_miss.log ===="
-            cat translate_miss.log
-          fi
 
       - name: Commit chinese‑build branch
         run: |
-          rm -rf cheats custom_dict.json file_state.json translate_miss.log new_dict_added.log
+          rm -rf cheats custom_dict.json file_state.json translate_miss.log
           git checkout -B chinese-build
           cp -r work_out/cheats ./
           cp work_out/custom_dict.json ./
           [ -f work_out/file_state.json ] && cp work_out/file_state.json ./
           [ -f work_out/translate_miss.log ] && cp work_out/translate_miss.log ./
-          [ -f work_out/new_dict_added.log ] && cp work_out/new_dict_added.log ./
 
           git add cheats custom_dict.json
           [ -f file_state.json ] && git add file_state.json
           [ -f translate_miss.log ] && git add -f translate_miss.log
-          [ -f new_dict_added.log ] && git add -f new_dict_added.log
 
           git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed for chinese‑build"
           git push -f origin chinese-build
