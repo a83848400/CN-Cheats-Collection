@@ -70,8 +70,9 @@ jobs:
 
       - name: Commit chinese‑build
         run: |
-          git checkout -B chinese-build
+          # 【修复】先把磁盘全部残留删除干净，再checkout分支，消除not uptodate警告
           rm -rf cheats custom_dict.json file_state.json translate_miss.log
+          git checkout -B chinese-build
           # 完整复制全部翻译产物 json/shn/mc4
           cp -r work_out/cheats ./
           cp work_out/custom_dict.json ./
