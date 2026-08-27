@@ -2,6 +2,7 @@ import os
 import json
 import re
 import time
+import shutil
 import xml.etree.ElementTree as ET
 from ps4_ps5_mc4_tool import decode_mc4, encode_mc4
 
@@ -10,7 +11,7 @@ DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 
 ABBREV_MAP = {
     "inf": "Infinite",
-    "INF": "Infinite",
+    "infi": "Infinite",
     "max": "Max",
     "min": "Min"
 }
@@ -126,6 +127,7 @@ def flush_batch_translate(text_list) -> dict:
 
 
 def translate_text_prepare(text: str):
+    """返回 (is_ok, result_text, need_call_api)"""
     if not text:
         return True, text, False
     src_strip = text.strip()
@@ -227,6 +229,7 @@ def process_shn_file(filepath):
 
 
 def process_mc4_file(filepath):
+    """处理mc4：解密 → 翻译Name/Description → 重加密；失败复制原文件"""
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             mc4_raw_text = f.read()
@@ -243,10 +246,23 @@ def process_mc4_file(filepath):
     try:
         root = ET.fromstring(inner_xml)
     except Exception as e:
-        print(f"[MC4 XML PARSE FAIL] {filepath} | {e}, skip")
+        print(f"[MC4 XML PARSE FAIL] {filepath} | {e}, keep original")
         return
 
     for cheat_node in root.findall(".//Cheat"):
+        # 翻译 Name
+        name_elem = cheat_node.find("Name")
+        if name_elem is not None and name_elem.text is not None:
+            orig_text = name_elem.text
+            is_ok, res_txt, need_api = translate_text_prepare(orig_text)
+            if need_api:
+                need_api_store.append({"type":"mc4xml","node":name_elem,"text":res_txt})
+                batch_translate_queue.append(res_txt)
+                miss_set.add(orig_text.strip())
+            else:
+                if res_txt != orig_text:
+                    name_elem.text = res_txt
+        # 翻译 Description
         desc_elem = cheat_node.find("Description")
         if desc_elem is not None and desc_elem.text is not None:
             orig_text = desc_elem.text
@@ -259,11 +275,14 @@ def process_mc4_file(filepath):
                 if res_txt != orig_text:
                     desc_elem.text = res_txt
 
-    new_inner_xml = ET.tostring(root, encoding="unicode")
-    new_mc4_b64 = encode_mc4(new_inner_xml, info)
-    with open(filepath, "w", encoding="utf-8") as fw:
-        fw.write(new_mc4_b64)
-    print(f"[MC4 PROCESSED] {filepath}")
+    try:
+        new_inner_xml = ET.tostring(root, encoding="unicode")
+        new_mc4_b64 = encode_mc4(new_inner_xml, info)
+        with open(filepath, "w", encoding="utf-8") as fw:
+            fw.write(new_mc4_b64)
+        print(f"[MC4 PROCESSED] {filepath}")
+    except Exception as e:
+        print(f"[MC4 ENCODE FAIL] {filepath} | {e}, keep original file")
 
 
 def scan_all_files(root_dir, run_shn: bool = True):
