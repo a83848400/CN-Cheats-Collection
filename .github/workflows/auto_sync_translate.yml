@@ -85,10 +85,15 @@ jobs:
       - name: Auto commit updated custom_dict.json back to master
         run: |
           git checkout master
-          cp work_out/custom_dict.json ./custom_dict.json
-          git add custom_dict.json
-          git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
-          git push origin master
+          DICT_SRC=work_out/custom_dict.json
+          if [ ! -s "${DICT_SRC}" ]; then
+            echo "!!!警告：work_out词典为空，放弃回写master！"
+          else
+            cp "${DICT_SRC}" ./custom_dict.json
+            git add custom_dict.json
+            git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
+            git push origin master
+          fi
 
       - name: Checkout chinese‑build for zip build
         uses: actions/checkout@v4
@@ -107,7 +112,6 @@ jobs:
       - name: Copy master README.md into build_pkg
         run: |
           cp ./tmp_master/README.md ./build_pkg/README.md
-          ls -la ./build_pkg
 
       - name: Judge whether create Release
         id: judge_release
@@ -129,7 +133,6 @@ jobs:
             echo "ZIP_FILENAME=$ZIP_FILENAME" >> $GITHUB_OUTPUT
           else
             echo "DO_RELEASE=0" >> $GITHUB_OUTPUT
-            echo "⏭ Skip release"
           fi
 
       - name: Build zip archive
