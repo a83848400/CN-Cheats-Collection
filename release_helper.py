@@ -5,18 +5,19 @@ from github import Github
 token = os.environ["GITHUB_TOKEN"]
 repo_name = os.environ["GITHUB_REPOSITORY"]
 tag = os.environ["TAG_NAME"]
-zip_path = "CN-Cheats-Collection.zip"
+zip_filename = os.environ["ZIP_FILENAME"]
+zip_path = zip_filename
 
 g = Github(token)
 repo = g.get_repo(repo_name)
 title = f"CN‑Cheats‑Collection {tag}"
 body_text = "Auto‑translated cheats from chinese‑build branch\nREADME from master branch.\nContains translated json/shn cheats, mc4 files are untouched."
 
-print(f"zip文件路径: {zip_path}")
+print(f"zip文件名: {zip_path}")
 print(f"文件是否存在: {os.path.exists(zip_path)}")
 if os.path.exists(zip_path):
     stat_info = os.stat(zip_path)
-    print(f"zip大小(bytes): {stat_info.st_size}")
+    print(f"zip文件大小(bytes): {stat_info.st_size}")
 
 try:
     existing_release = repo.get_release(tag)
