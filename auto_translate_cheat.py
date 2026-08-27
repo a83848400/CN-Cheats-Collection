@@ -108,18 +108,25 @@ def process_shn_file(filepath: str):
         f.writelines(out_lines)
 
 def process_mc4_file(filepath: str):
-    """调用mc4工具：解密 ->翻译 ->重加密"""
+    """mc4解密翻译，解密失败直接跳过该mc4，不抛出异常中断整体脚本"""
     base = os.path.splitext(filepath)[0]
     decrypted_json = base + ".dec.json"
     try:
-        # 解密
-        subprocess.run(
+        # check=False：不因为工具非0退出直接抛异常
+        ret = subprocess.run(
             ["python3", MC4_TOOL, "decrypt", filepath, decrypted_json],
-            check=True, capture_output=True, text=True
+            check=False,
+            capture_output=True,
+            text=True
         )
+        if ret.returncode != 0:
+            # 解密失败，直接返回，保留原始mc4不改动
+            if os.path.exists(decrypted_json):
+                os.unlink(decrypted_json)
+            return
         if not os.path.exists(decrypted_json):
             return
-        # 翻译解密后的json
+
         with open(decrypted_json, "r", encoding="utf-8") as f:
             data = json.load(f)
         modified = False
@@ -140,14 +147,16 @@ def process_mc4_file(filepath: str):
         if modified:
             with open(decrypted_json, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
-            # 重加密回mc4
             subprocess.run(
                 ["python3", MC4_TOOL, "encrypt", decrypted_json, filepath],
-                check=True, capture_output=True, text=True
+                check=False,
+                capture_output=True,
+                text=True
             )
-        os.unlink(decrypted_json)
-    except Exception as e:
-        traceback.print_exc()
+        if os.path.exists(decrypted_json):
+            os.unlink(decrypted_json)
+    except Exception:
+        # 任何mc4处理异常，静默跳过该mc4，不打断整体脚本
         if os.path.exists(decrypted_json):
             os.unlink(decrypted_json)
 
@@ -173,12 +182,15 @@ def main():
             except Exception:
                 traceback.print_exc()
 
+    # 输出更新后的词典
     with open(DICT_PATH, "w", encoding="utf-8") as f:
         json.dump(custom_dict, f, ensure_ascii=False, indent=2)
 
+    # 输出文件状态快照
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(new_state, f, ensure_ascii=False, indent=2)
 
+    # 输出miss日志
     with open(MISS_LOG_PATH, "w", encoding="utf-8") as f:
         for entry in miss_entries:
             f.write(entry + "\n")
