@@ -3,17 +3,50 @@ import json
 import re
 import time
 import shutil
+import hashlib
 import xml.etree.ElementTree as ET
 from ps4_ps5_mc4_tool import decode_mc4, encode_mc4
 
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
+STATE_FILE = "file_state.json"
 DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 
+# 【专属游戏大写缩写优先｜最全金手指缩写库】
 ABBREV_MAP = {
+    "INF": "Infinite",
     "inf": "Infinite",
-    "infi": "Infinite",
+    "MAX": "Max",
     "max": "Max",
-    "min": "Min"
+    "MIN": "Min",
+    "min": "Min",
+    "HP": "Health Points",
+    "hp": "Health Points",
+    "MP": "Mana Points",
+    "mp": "Mana Points",
+    "SP": "Stamina Points",
+    "sp": "Stamina Points",
+    "ATK": "Attack",
+    "atk": "Attack",
+    "DEF": "Defense",
+    "def": "Defense",
+    "VIT": "Vitality",
+    "vit": "Vitality",
+    "STA": "Stamina",
+    "sta": "Stamina",
+    "AMMO": "Ammunition",
+    "ammo": "Ammunition",
+    "SEC": "Second",
+    "sec": "Second",
+    "SECS": "Seconds",
+    "secs": "Seconds",
+    "PTS": "Points",
+    "pts": "Points",
+    "LVL": "Level",
+    "lvl": "Level",
+    "EXP": "Experience",
+    "exp": "Experience",
+    "GOLD": "Gold",
+    "gold": "Gold"
 }
 
 translate_dict = {}
@@ -26,6 +59,42 @@ json_miss_english_set = set()
 batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
+
+prev_file_state = {}
+current_file_state = {}
+
+
+def get_file_hash(filepath: str) -> str:
+    h = hashlib.sha256()
+    try:
+        with open(filepath, "rb") as f:
+            for chunk in iter(lambda: f.read(8192), b""):
+                h.update(chunk)
+        return h.hexdigest()
+    except Exception:
+        return ""
+
+
+def load_file_state():
+    global prev_file_state
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                prev_file_state = json.load(f)
+        except Exception as e:
+            print(f"[STATE WARN]读取状态文件失败:{e}，全部文件将执行全量翻译")
+            prev_file_state = {}
+    else:
+        prev_file_state = {}
+
+
+def save_file_state():
+    try:
+        with open(STATE_FILE, "w", encoding="utf-8") as fw:
+            json.dump(current_file_state, fw, ensure_ascii=False, indent=2)
+        print(f"[STATE SAVE]已保存本轮文件哈希快照到 {STATE_FILE}")
+    except Exception as e:
+        print(f"[STATE SAVE ERROR] {e}")
 
 
 def rebuild_indexes():
@@ -54,8 +123,9 @@ except Exception as e:
 
 def expand_abbreviation(text: str) -> str:
     t = text
+    # 优先替换大写缩写，精准单词边界匹配
     for abbr, full_txt in ABBREV_MAP.items():
-        pat = re.compile(rf"\b{re.escape(abbr)}\b", re.IGNORECASE)
+        pat = re.compile(rf"\b{re.escape(abbr)}\b")
         t = pat.sub(full_txt, t)
     return t
 
@@ -85,9 +155,9 @@ if DEEPL_API_KEY:
         deepl_translator = deepl.Translator(
             DEEPL_API_KEY,
             server_url="https://api-free.deepl.com",
-            timeout=10
+            timeout=12
         )
-        print("[INFO] ✅ DeepL Free API 已启用；新词翻译后自动扩充词典，同一轮CI重刷JSON")
+        print("[INFO] ✅ DeepL Free API 已启用；词典优先翻译，仅新词调用API，翻译成功自动扩充词典")
     except ImportError:
         print("[WARN] ❗ deepl python SDK未安装，关闭API翻译，仅使用现有词典")
         deepl_translator = None
@@ -102,7 +172,7 @@ def flush_batch_translate(text_list) -> dict:
         return result_map
     texts = text_list[:]
     try:
-        print(f"[DEEPL BATCH] 批量翻译 {len(texts)} 条文本 ...")
+        print(f"[DEEPL BATCH] 批量翻译 {len(texts)} 条新词条 ...")
         res_list = deepl_translator.translate_text(texts, target_lang="ZH")
         for ori, obj in zip(texts, res_list):
             ori_strip = ori.strip()
@@ -115,19 +185,21 @@ def flush_batch_translate(text_list) -> dict:
                 translate_dict[ori] = trans_result
                 rebuild_indexes()
                 print(f"[DICT AUTO ADD] 自动扩充词典：`{ori}` -> `{trans_result}`")
-        time.sleep(0.3)
+        time.sleep(0.4)
     except deepl.exceptions.QuotaExceededException:
-        print("[DEEPL] ⚠️本月免费字符配额用尽，停用API")
+        print("[DEEPL] ⚠️本月免费字符配额用尽，停用API，后续全部仅用本地词典")
         deepl_translator = None
     except deepl.exceptions.TooManyRequestsException:
-        print("[DEEPL] ⚠️批量请求限流，本批次跳过")
+        print("[DEEPL] ⚠️API限流，本批次全部保留原始英文")
     except Exception as e:
         print(f"[DEEPL BATCH WARN] {repr(e)}")
     return result_map
 
 
 def translate_text_prepare(text: str):
-    """返回 (is_ok, result_text, need_call_api)"""
+    """
+    优先级：本地词典完整匹配 → 大写缩写精准展开 → 自定义子串替换 → DeepL翻译
+    """
     if not text:
         return True, text, False
     src_strip = text.strip()
@@ -184,7 +256,7 @@ def process_json_file(filepath):
         walk(data)
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"[JSON {'MODIFIED' if modified else 'NO CHANGE, FORCE SAVE'}] {filepath}")
+        print(f"[JSON {'MODIFIED' if modified else 'NO CHANGE'}] {filepath}")
     except Exception as e:
         print(f"[PROCESS ERROR] {filepath} | {e}")
 
@@ -223,7 +295,7 @@ def process_shn_file(filepath):
     try:
         with open(filepath, "w", encoding="utf-8") as fw:
             fw.writelines(out_lines)
-        print(f"[SHN {'MODIFIED' if changed else 'NO CHANGE, FORCE SAVE'}] {filepath}")
+        print(f"[SHN {'MODIFIED' if changed else 'NO CHANGE'}] {filepath}")
     except Exception as e:
         print(f"[SHN WRITE ERROR] {filepath} | {e}")
 
@@ -249,11 +321,6 @@ def _translate_xml_attr(node, attr_name: str):
 
 
 def process_mc4_file(filepath):
-    """
-    适配截图内全部MC4 XML格式
-    处理标签：<Cheat> 与 <StartUP>；属性 Text / Description
-    支持：格式化换行XML + 单行压缩XML
-    """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             mc4_raw_text = f.read()
@@ -273,14 +340,12 @@ def process_mc4_file(filepath):
         print(f"[MC4 XML PARSE FAIL] {filepath} | {e}, keep original")
         return
 
-    # 同时处理 Cheat 和 StartUP 两个标签
     for tag_name in ("Cheat", "StartUP"):
         for elem in root.findall(f".//{tag_name}"):
             _translate_xml_attr(elem, "Text")
             _translate_xml_attr(elem, "Description")
 
     try:
-        # 禁止输出xml声明头，兼容mc4解析器
         new_inner_xml = ET.tostring(root, encoding="unicode", xml_declaration=False)
         new_mc4_b64 = encode_mc4(new_inner_xml, info)
         with open(filepath, "w", encoding="utf-8") as fw:
@@ -297,22 +362,33 @@ def scan_all_files(root_dir, run_shn: bool = True):
             dirnames.remove("conf")
         for fname in filenames:
             fullpath = os.path.join(dirpath, fname)
+            rel_path = os.path.relpath(fullpath, root_dir).replace("\\","/")
             file_counter += 1
             if file_counter % 20 == 0:
                 print(f"[SCAN PROGRESS] 已扫描 {file_counter} 文件")
+
+            current_hash = get_file_hash(fullpath)
+            current_file_state[rel_path] = current_hash
+            if rel_path in prev_file_state and prev_file_state[rel_path] == current_hash:
+                ext = fname.lower()
+                if ext.endswith((".json",".shn",".mc4")):
+                    print(f"[SKIP UNCHANGED] {rel_path} 文件无变更，跳过翻译")
+                continue
+
             try:
                 ext = fname.lower()
                 if ext.endswith(".json"):
-                    print(f"Processing JSON: {fullpath}")
+                    print(f"Processing JSON(changed): {fullpath}")
                     process_json_file(fullpath)
                 elif ext.endswith(".shn") and run_shn:
-                    print(f"Processing SHN: {fullpath}")
+                    print(f"Processing SHN(changed): {fullpath}")
                     process_shn_file(fullpath)
                 elif ext.endswith(".mc4"):
-                    print(f"Processing MC4: {fullpath}")
+                    print(f"Processing MC4(changed): {fullpath}")
                     process_mc4_file(fullpath)
             except Exception as e:
                 print(f"[SCAN FILE SKIP] {fullpath} | {e}")
+
             if len(batch_translate_queue) >= BATCH_MAX_SIZE:
                 flush_batch_translate(batch_translate_queue)
                 batch_translate_queue.clear()
@@ -354,15 +430,16 @@ def save_updated_dict():
 def main():
     global need_api_store, batch_translate_queue
     ROOT_DIR = os.getcwd()
+    load_file_state()
     try:
-        print("===== STAGE 1: 第一轮扫描全部文件(json+shn+mc4) =====")
+        print("===== STAGE 1: 增量扫描全部文件，仅处理变更的json+shn+mc4 =====")
         scan_all_files(ROOT_DIR, run_shn=True)
         print("[STAGE1 DONE] 第一阶段文件扫描完成，执行剩余批量翻译")
         trans_result = flush_batch_translate(batch_translate_queue)
         apply_batch_result(trans_result)
 
         if len(json_miss_english_set) > 0:
-            print(f"\n===== STAGE 2: 二次批量翻译JSON漏网英文，共 {len(json_miss_english_set)} 条 =====")
+            print(f"\n===== STAGE 2: 二次批量翻译JSON漏网英文 =====")
             all_miss_list = list(json_miss_english_set)
             for i in range(0, len(all_miss_list), BATCH_MAX_SIZE):
                 slice_list = all_miss_list[i:i+BATCH_MAX_SIZE]
@@ -375,6 +452,7 @@ def main():
         else:
             print("[STAGE2‑3] 没有漏网英文词条，跳过二次翻译&重扫JSON")
         save_updated_dict()
+        save_file_state()
     except Exception as e:
         print(f"[SCAN FATAL ERROR] {e}")
     try:
