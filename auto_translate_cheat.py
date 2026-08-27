@@ -228,8 +228,32 @@ def process_shn_file(filepath):
         print(f"[SHN WRITE ERROR] {filepath} | {e}")
 
 
+def _translate_xml_attr(node, attr_name: str):
+    val = node.get(attr_name)
+    if val is None or not val.strip():
+        return
+    orig = val.strip()
+    is_ok, res_txt, need_api = translate_text_prepare(orig)
+    if need_api:
+        need_api_store.append({
+            "type": "mc4xml_attr",
+            "node": node,
+            "attr": attr_name,
+            "text": res_txt
+        })
+        batch_translate_queue.append(res_txt)
+        miss_set.add(orig)
+    else:
+        if res_txt != orig:
+            node.set(attr_name, res_txt)
+
+
 def process_mc4_file(filepath):
-    """处理mc4：解密 → 翻译Name/Description → 重加密；失败复制原文件"""
+    """
+    适配截图内全部MC4 XML格式
+    处理标签：<Cheat> 与 <StartUP>；属性 Text / Description
+    支持：格式化换行XML + 单行压缩XML
+    """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             mc4_raw_text = f.read()
@@ -249,34 +273,15 @@ def process_mc4_file(filepath):
         print(f"[MC4 XML PARSE FAIL] {filepath} | {e}, keep original")
         return
 
-    for cheat_node in root.findall(".//Cheat"):
-        # 翻译 Name
-        name_elem = cheat_node.find("Name")
-        if name_elem is not None and name_elem.text is not None:
-            orig_text = name_elem.text
-            is_ok, res_txt, need_api = translate_text_prepare(orig_text)
-            if need_api:
-                need_api_store.append({"type":"mc4xml","node":name_elem,"text":res_txt})
-                batch_translate_queue.append(res_txt)
-                miss_set.add(orig_text.strip())
-            else:
-                if res_txt != orig_text:
-                    name_elem.text = res_txt
-        # 翻译 Description
-        desc_elem = cheat_node.find("Description")
-        if desc_elem is not None and desc_elem.text is not None:
-            orig_text = desc_elem.text
-            is_ok, res_txt, need_api = translate_text_prepare(orig_text)
-            if need_api:
-                need_api_store.append({"type":"mc4xml","node":desc_elem,"text":res_txt})
-                batch_translate_queue.append(res_txt)
-                miss_set.add(orig_text.strip())
-            else:
-                if res_txt != orig_text:
-                    desc_elem.text = res_txt
+    # 同时处理 Cheat 和 StartUP 两个标签
+    for tag_name in ("Cheat", "StartUP"):
+        for elem in root.findall(f".//{tag_name}"):
+            _translate_xml_attr(elem, "Text")
+            _translate_xml_attr(elem, "Description")
 
     try:
-        new_inner_xml = ET.tostring(root, encoding="unicode")
+        # 禁止输出xml声明头，兼容mc4解析器
+        new_inner_xml = ET.tostring(root, encoding="unicode", xml_declaration=False)
         new_mc4_b64 = encode_mc4(new_inner_xml, info)
         with open(filepath, "w", encoding="utf-8") as fw:
             fw.write(new_mc4_b64)
@@ -330,9 +335,10 @@ def apply_batch_result(trans_map: dict):
                 out_lines[idx] = new_line
             except ValueError:
                 pass
-        elif item["type"] == "mc4xml":
+        elif item["type"] == "mc4xml_attr":
             node = item["node"]
-            node.text = final
+            attr_name = item["attr"]
+            node.set(attr_name, final)
 
 
 def save_updated_dict():
