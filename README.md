@@ -6,7 +6,8 @@ The most complete cheats collection for the PS4 and PS5 with interactive cheats 
 
 everyday will git github master to branches chinese-build with cheats in in Chinese
 
-thanks TeeKay87 and kylinCore
+thank you 
+TeeKay87、kylinCore、mygocatter
 
 fork from 
 
@@ -15,7 +16,7 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 
 谢锡榆-PS4与PS5金手指自动翻译功能简单解析说明
 
-感谢TeeKay87 and kylinCore 的贡献，我本人谢锡榆也想为金手指出一份力
+感谢TeeKay87 、 kylinCore 、mygocatter 等朋友们的贡献，我本人谢锡榆也想为金手指出一份力
 
 现在已经可以做到每天凌晨在github会获取上游金手指的内容进行翻译，如果有更新金手指就会自动同步翻译输出到chinese-build分支中，并打包发布
 如果暂时没有翻译成功，就会记录到日志里，产生翻译词典，在下一次以后有相同的翻译就会自动调用词典补充翻译。凑合用用吧
