@@ -131,11 +131,8 @@ jobs:
           fi
           if [ "$DO_RELEASE" -eq 1 ]; then
             TAG="v$(date +%Y-%m-%d)"
-            gh release create "${TAG}" ./CN-Cheats-Collection.zip \
-            --title "CN‑Cheats‑Collection ${TAG}" \
-            --notes-file - <<EOF
-Auto‑translated cheats from chinese‑build branch
-EOF
+            RELEASE_NOTES="Auto‑translated cheats from chinese‑build branch"
+            gh release create "${TAG}" ./CN-Cheats-Collection.zip --title "CN‑Cheats‑Collection ${TAG}" --notes "${RELEASE_NOTES}"
             echo "✅ Release created ${TAG}"
           else
             echo "⏭ Skip release"
