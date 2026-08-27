@@ -47,6 +47,7 @@ jobs:
           cp -r ./upstream_src/* ./work_out/
           cp ./auto_translate_cheat.py ./work_out/
           cp ./ps4_ps5_mc4_tool.py ./work_out/
+          cp ./file_state.json ./work_out/
           mkdir -p ./work_out/conf
           cp ./custom_dict.json ./work_out/conf/custom_dict.json
           echo "==== work_out 目录内容 ===="
@@ -138,7 +139,8 @@ jobs:
         run: |
           mkdir -p /tmp/auto_dict_temp
           cp ./work_out/conf/custom_dict.json /tmp/auto_dict_temp/custom_dict.json
-          echo "[INFO] Dictionary saved to temp"
+          cp ./work_out/file_state.json /tmp/auto_dict_temp/file_state.json
+          echo "[INFO] Dictionary & file_state saved to temp"
         shell: bash
 
       - name: Checkout master for dict commit
@@ -150,16 +152,17 @@ jobs:
       - name: Copy updated dict back to master workspace
         run: |
           cp /tmp/auto_dict_temp/custom_dict.json ./custom_dict.json
-          git add ./custom_dict.json
+          cp /tmp/auto_dict_temp/file_state.json ./file_state.json
+          git add ./custom_dict.json ./file_state.json
         shell: bash
 
       - name: Commit updated custom_dict.json back to master
         run: |
           if git diff --cached --quiet; then
-            echo "[INFO] No new dict entries, skip commit"
+            echo "[INFO] No new dict/file‑state entries, skip commit"
           else
-            git commit -m "🤖 Bot: auto expand custom_dict.json from DeepL translate result"
+            git commit -m "🤖 Bot: auto expand custom_dict + update file_state.json incremental hash"
             git push origin master
-            echo "[INFO] Dictionary pushed to master"
+            echo "[INFO: Pushed custom_dict & file_state to master]"
           fi
         shell: bash
