@@ -10,14 +10,19 @@ zip_path = "CN-Cheats-Collection.zip"
 g = Github(token)
 repo = g.get_repo(repo_name)
 title = f"CN‑Cheats‑Collection {tag}"
-body_text = "Auto‑translated cheats from chinese‑build branch"
+body_text = "Auto‑translated cheats from chinese‑build branch\nREADME from master branch.\nContains translated json/shn cheats, mc4 files are untouched."
+
+print(f"zip文件路径: {zip_path}")
+print(f"文件是否存在: {os.path.exists(zip_path)}")
+if os.path.exists(zip_path):
+    stat_info = os.stat(zip_path)
+    print(f"zip大小(bytes): {stat_info.st_size}")
 
 try:
     existing_release = repo.get_release(tag)
     print(f"Release {tag} already exists, skip create.")
 except Exception:
-    print(f"Start create new release tag:{tag}")
-    # create_git_release(tag, name, body, draft, prerelease) 没有 tag_name=
+    print(f"Creating new release tag:{tag}")
     new_release = repo.create_git_release(
         tag,
         name=title,
