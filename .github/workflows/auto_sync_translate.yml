@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      create_manual_release:
+        description: "手动运行时，是否生成Release发布包"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,7 +46,6 @@ jobs:
         run: |
           rm -rf work_out
           mkdir -p work_out
-          # 文件存在才复制，首次运行无状态文件不会报错
           if [ -f ./file_state.json ]; then cp ./file_state.json work_out/; fi
           if [ -f ./custom_dict.json ]; then cp ./custom_dict.json work_out/; fi
 
@@ -60,7 +64,10 @@ jobs:
           git checkout -B chinese-build
           rm -rf cheats
           mv work_out/* ./
-          git add cheats custom_dict.json file_state.json translate_miss.log
+          git add cheats custom_dict.json
+          # 仅当文件真实存在才加入git，避免不存在文件导致git add报错128
+          [ -f file_state.json ] && git add file_state.json
+          [ -f translate_miss.log ] && git add translate_miss.log
           git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed, skip commit"
           git push -f origin chinese-build
 
@@ -90,18 +97,31 @@ jobs:
           name: cn-cheats-package
           path: CN-Cheats-Collection.zip
 
-      - name: Monthly Release (Only schedule run on day‑01)
-        if: github.event_name == 'schedule'
+      - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DAY=$(date +%d)
-          if [ "$DAY" = "01" ]; then
-            TAG="v$(date +%Y-%m-01)"
+          MANUAL_RELEASE=${{ github.event.inputs.create_manual_release }}
+          DO_RELEASE=0
+
+          # 条件1：定时调度并且是每月1号 → 自动发版
+          if [[ "${{ github.event_name }}" == "schedule" && "$DAY" == "01" ]]; then
+            DO_RELEASE=1
+          fi
+
+          # 条件2：手动运行，并且勾选了创建Release
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "$MANUAL_RELEASE" == "true" ]]; then
+            DO_RELEASE=1
+          fi
+
+          if [ "$DO_RELEASE" -eq 1 ]; then
+            TAG="v$(date +%Y-%m-%d)"
             gh release create "$TAG" \
-              --title "CN‑Cheats‑Collection Monthly $(date +%Y‑%m)" \
+              --title "CN‑Cheats‑Collection $TAG" \
               --notes "Auto‑translated cheats from chinese‑build branch" \
               ./CN-Cheats-Collection.zip
+            echo "✅ Release created $TAG"
           else
-            echo "Not month first day, skip release creation."
+            echo "⏭ 不执行Release发布"
           fi
