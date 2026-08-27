@@ -23,7 +23,7 @@ if DEEPL_API_KEY:
 custom_dict = {}
 if os.path.exists(DICT_PATH):
     try:
-        with open(DICT_PATH, "r", encoding="utf‑8") as f:
+        with open(DICT_PATH, "r", encoding="utf-8") as f:
             custom_dict = json.load(f)
     except Exception:
         custom_dict = {}
@@ -93,7 +93,7 @@ def translate_text(text: str) -> str:
 
 
 def process_json_file(filepath):
-    with open(filepath, "r", encoding="utf‑8") as f:
+    with open(filepath, "r", encoding="utf-8") as f:
         data = json.load(f)
     modified = False
     if isinstance(data, list):
@@ -111,13 +111,13 @@ def process_json_file(filepath):
                     item["Cheat Text"] = dst
                     modified = True
     if modified:
-        with open(filepath, "w", encoding="utf‑8") as f:
+        with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def process_shn_file(filepath):
     out_lines = []
-    with open(filepath, "r", encoding="utf‑8") as f:
+    with open(filepath, "r", encoding="utf-8") as f:
         lines = f.readlines()
     for line in lines:
         if line.startswith("Cheat Text="):
@@ -127,7 +127,7 @@ def process_shn_file(filepath):
             out_lines.append(f"{prefix}{tr}\n")
         else:
             out_lines.append(line)
-    with open(filepath, "w", encoding="utf‑8") as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         f.writelines(out_lines)
 
 
@@ -149,7 +149,7 @@ def process_mc4_file(filepath):
         if not os.path.exists(decrypted_json):
             return
 
-        with open(decrypted_json, "r", encoding="utf‑8") as f:
+        with open(decrypted_json, "r", encoding="utf-8") as f:
             data = json.load(f)
         modified = False
         if isinstance(data, list):
@@ -167,7 +167,7 @@ def process_mc4_file(filepath):
                         item["Cheat Text"] = dst
                         modified = True
         if modified:
-            with open(decrypted_json, "w", encoding="utf‑8") as f:
+            with open(decrypted_json, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             subprocess.run(
                 ["python3", MC4_TOOL, "encrypt", decrypted_json, filepath],
@@ -199,19 +199,21 @@ def main():
                     process_shn_file(full_path)
                 elif ext == ".mc4":
                     process_mc4_file(full_path)
-            except Exception:
+            except Exception as err:
+                print(f"[FILE_ERROR] {full_path} | {str(err)}")
                 traceback.print_exc()
 
     # 保存更新后的词典
-    with open(DICT_PATH, "w", encoding="utf‑8") as f:
+    with open(DICT_PATH, "w", encoding="utf-8") as f:
         json.dump(custom_dict, f, ensure_ascii=False, indent=2)
     # 保存上游文件状态快照
-    with open(STATE_PATH, "w", encoding="utf‑8") as f:
+    with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(new_state, f, ensure_ascii=False, indent=2)
     # 保存未翻译日志
-    with open(MISS_LOG_PATH, "w", encoding="utf‑8") as f:
+    with open(MISS_LOG_PATH, "w", encoding="utf-8") as f:
         for entry in miss_entries:
             f.write(entry + "\n")
+    print(f"[MAIN-DONE] miss count={len(miss_entries)} dict keys={len(custom_dict)}")
 
 
 if __name__ == "__main__":
