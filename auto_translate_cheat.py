@@ -26,17 +26,25 @@ batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
 
-# 匹配十六进制ID串：数字+ABCDEF，常见作弊ID，例如 1E29C55、8054BB7A
+# PS4 / PS5游戏ID、十六进制作弊内存ID正则
 RE_HEX_ID = re.compile(r'^[0-9A-Fa-f]{5,}$')
+RE_HEX_WITH_DASH = re.compile(r"^[0-9A-Fa-f\-]{6,}$")
+# CUSA PS4, PPSA PS5, BCUS/PCSA PS4光盘ID
+RE_PS_ID = re.compile(r'^(CUSA|PPSA|BCUS|PCSA)[0-9]{5}$', re.IGNORECASE)
 
 
-def is_hex_id(s: str) -> bool:
-    """判断是否为十六进制作弊ID，这类字符串禁止翻译"""
+def is_skip_translate_id(s: str) -> bool:
+    """
+    ID类字符串直接放行，**不查词典、不送入DeepL翻译**
+    - 十六进制作弊内存ID
+    - PS4/PS5游戏ID(CUSA/PPSA/BCUS/PCSA)
+    """
     s = s.strip()
     if RE_HEX_ID.fullmatch(s):
         return True
-    # 带分隔符的ID，例如 805‑CD‑1‑E‑9
-    if re.fullmatch(r"[0-9A-Fa-f\-]{6,}", s):
+    if RE_HEX_WITH_DASH.fullmatch(s):
+        return True
+    if RE_PS_ID.fullmatch(s):
         return True
     return False
 
@@ -55,10 +63,12 @@ def rebuild_indexes():
         subst_pattern_list.append((pat, v))
 
 
+# 加载master分支的custom_dict.json，构建本地词典（最高优先级）
 try:
     with open(DICT_PATH, "r", encoding="utf-8") as f:
         translate_dict = json.load(f)
     rebuild_indexes()
+    print(f"[INFO] 本地词典加载完成，词条总数: {len(translate_dict)}")
 except Exception as e:
     print(f"[WARN] 读取词典失败 {DICT_PATH} : {e}")
     translate_dict = {}
@@ -95,13 +105,13 @@ deepl_translator = None
 if DEEPL_API_KEY:
     try:
         import deepl
-        # 新版deepl SDK timeout移至全局http_client配置
+        # deepl 1.32 新版SDK超时配置
         deepl.http_client.min_connection_timeout = 10
         deepl_translator = deepl.Translator(
             DEEPL_API_KEY,
             server_url="https://api-free.deepl.com"
         )
-        print("[INFO] ✅ DeepL Free API 已启用；新词翻译后自动扩充词典，同一轮CI重刷JSON")
+        print("[INFO] ✅ DeepL Free API 已启用；词典未命中的新词将调用DeepL兜底翻译")
     except ImportError:
         print("[WARN] ❗ deepl python SDK未安装，关闭API翻译，仅使用现有词典")
         deepl_translator = None
@@ -117,7 +127,7 @@ def flush_batch_translate(text_list) -> dict:
         return result_map
     texts = text_list[:]
     try:
-        print(f"[DEEPL BATCH] 批量翻译 {len(texts)} 条文本 ...")
+        print(f"[DEEPL BATCH] 词典未命中，批量翻译 {len(texts)} 条文本 ...")
         res_list = deepl_translator.translate_text(texts, target_lang="ZH")
         for ori, obj in zip(texts, res_list):
             ori_strip = ori.strip()
@@ -129,7 +139,7 @@ def flush_batch_translate(text_list) -> dict:
             if ori not in translate_dict:
                 translate_dict[ori] = trans_result
                 rebuild_indexes()
-                print(f"[DICT AUTO ADD] 自动扩充词典：`{ori}` -> `{trans_result}`")
+                print(f"[DICT AUTO ADD] 兜底翻译新增词条：`{ori}` -> `{trans_result}`")
         time.sleep(0.3)
     except deepl.exceptions.QuotaExceededException:
         print("[DEEPL] ⚠️本月免费字符配额用尽，停用API")
@@ -142,21 +152,33 @@ def flush_batch_translate(text_list) -> dict:
 
 
 def translate_text_prepare(text: str):
-    """返回 (is_ok, result_text, need_call_api)"""
+    """
+    翻译优先级逻辑：
+    1. ID类直接原样返回，不翻译
+    2. 【最高优先级】本地custom_dict.json词典匹配，命中直接返回词典译文
+    3. 词典未命中，缩写、子串替换
+    4. 符合英文条件，送入DeepL兜底翻译；否则返回处理后原文
+    返回 (is_ok, result_text, need_call_api)
+    """
     if not text:
         return True, text, False
     src_strip = text.strip()
 
-    # 【新增】过滤十六进制ID，作弊ID直接原样返回，禁止翻译
-    if is_hex_id(src_strip):
+    # ID过滤：游戏ID、内存ID，直接原样返回，不走词典不走deepl
+    if is_skip_translate_id(src_strip):
         return True, text, False
 
+    # ========== 优先本地词典匹配（最高优先级） ==========
     src_low = src_strip.lower()
     if src_low in lower_full_index:
         orig_dict_key = lower_full_index[src_low]
         return True, translate_dict[orig_dict_key], False
+
+    # 词典没有该词条，执行缩写和子串替换
     step1 = expand_abbreviation(text)
     step2 = do_substitute(step1)
+
+    # 满足条件才交给DeepL兜底翻译
     if is_maybe_english(step2) and 0 < len(step2) <= MAX_TEXT_LEN and deepl_translator is not None:
         return False, step2, True
     else:
@@ -189,8 +211,7 @@ def process_json_file(filepath):
                             modified = True
                         else:
                             val_strip = v.strip()
-                            # ID字符串不要加入miss_set
-                            if val_strip and is_maybe_english(val_strip) and not is_hex_id(val_strip):
+                            if val_strip and is_maybe_english(val_strip) and not is_skip_translate_id(val_strip):
                                 miss_set.add(val_strip)
                     else:
                         need_api_store.append({"type": "json", "obj": obj, "key": k, "text": res})
@@ -227,7 +248,7 @@ def process_shn_file(filepath):
             raw_inner = match.group(1)
             is_ok, res, need_api = translate_text_prepare(raw_inner)
             strip_raw = raw_inner.strip()
-            if strip_raw and is_maybe_english(strip_raw) and not is_hex_id(strip_raw):
+            if strip_raw and is_maybe_english(strip_raw) and not is_skip_translate_id(strip_raw):
                 miss_set.add(strip_raw)
             if need_api:
                 need_api_store.append({"type": "shn", "line": line, "match": match, "text": res})
@@ -272,9 +293,7 @@ def _translate_xml_attr(node, attr_name: str):
 
 def process_mc4_file(filepath):
     """
-    适配截图内全部MC4 XML格式
-    处理标签：<Cheat> 与 <StartUP>；属性 Text / Description
-    支持：格式化换行XML + 单行压缩XML
+    处理MC4 XML格式：<Cheat> / <StartUP> 标签，Text / Description属性
     """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
@@ -292,13 +311,11 @@ def process_mc4_file(filepath):
     except Exception as e:
         print(f"[MC4 XML PARSE FAIL] {filepath} | {e}, keep original")
         return
-    # 同时处理 Cheat 和 StartUP 两个标签
     for tag_name in ("Cheat", "StartUP"):
         for elem in root.findall(f".//{tag_name}"):
             _translate_xml_attr(elem, "Text")
             _translate_xml_attr(elem, "Description")
     try:
-        # 禁止输出xml声明头，兼容mc4解析器
         new_inner_xml = ET.tostring(root, encoding="unicode", xml_declaration=False)
         new_mc4_b64 = encode_mc4(new_inner_xml, info)
         with open(filepath, "w", encoding="utf-8") as fw:
@@ -365,7 +382,7 @@ def save_updated_dict():
         sorted_dict = dict(sorted(translate_dict.items(), key=lambda x: x[0].lower()))
         with open(DICT_PATH, "w", encoding="utf-8") as fw:
             json.dump(sorted_dict, fw, ensure_ascii=False, indent=2)
-        print(f"[DICT SAVE] 已保存自动扩充后的词典到 {DICT_PATH}")
+        print(f"[DICT SAVE] 已保存（含DeepL兜底新增词条）到 {DICT_PATH}")
     except Exception as e:
         print(f"[DICT SAVE ERROR] {e}")
 
@@ -386,7 +403,7 @@ def main():
                 slice_list = all_miss_list[i:i+BATCH_MAX_SIZE]
                 flush_batch_translate(slice_list)
             rebuild_indexes()
-            print("\n===== STAGE3: 使用扩充完成的新词典，重新扫描全部JSON文件（shn/mc4不再处理） =====")
+            print("\n===== STAGE3: 使用更新后的词典，重新扫描全部JSON文件（shn/mc4不再处理） =====")
             need_api_store.clear()
             batch_translate_queue.clear()
             scan_all_files(ROOT_DIR, run_shn=False)
