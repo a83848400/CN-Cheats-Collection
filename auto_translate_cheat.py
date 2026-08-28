@@ -8,6 +8,8 @@ from ps4_ps5_mc4_tool import decode_mc4, encode_mc4
 
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
 DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
+# 分隔符，可以自己改，例如改成 "/" "|"
+SEPARATOR = "｜"
 
 ABBREV_MAP = {
     "inf": "Infinite",
@@ -26,10 +28,8 @@ batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
 
-# ----------更新正则：支持 3~8位短十六进制ID，兼容4位内存ID(89C8 EB1A)----------
-# 纯十六进制串 3‑8位，匹配4位短内存ID
+# 3‑8位短十六进制ID，拦截4位内存ID
 RE_HEX_SHORT = re.compile(r'^[0-9A-Fa-f]{3,8}$')
-# 带横杠十六进制
 RE_HEX_WITH_DASH = re.compile(r"^[0-9A-Fa-f\-]{6,}$")
 # PS游戏ID CUSA/PPSA/BCUS/PCSA
 RE_PS_ID = re.compile(r'^(CUSA|PPSA|BCUS|PCSA)[0-9]{5}$', re.IGNORECASE)
@@ -37,11 +37,10 @@ RE_PS_ID = re.compile(r'^(CUSA|PPSA|BCUS|PCSA)[0-9]{5}$', re.IGNORECASE)
 
 def is_skip_translate_id(s: str) -> bool:
     """
-    所有不需要翻译的标识全部拦截，直接返回原文
-    - 3‑8位十六进制短内存ID(4位ID 89C8 / EB1A 等)
+    ID类直接原样返回，不走词典不走deepl，不做双语拼接
+    - 3‑8位十六进制短内存ID
     - 带横杠十六进制ID
-    - PS4/PS5游戏ID(CUSA/PPSA/BCUS/PCSA)
-    命中后：不走词典，不走DeepL，不写入miss日志
+    - PS4/PS5游戏ID
     """
     s = s.strip()
     if RE_HEX_SHORT.fullmatch(s):
@@ -114,7 +113,7 @@ if DEEPL_API_KEY:
             DEEPL_API_KEY,
             server_url="https://api-free.deepl.com"
         )
-        print("[INFO] ✅ DeepL Free API 已启用；词典未命中的新词将调用DeepL兜底翻译")
+        print("[INFO] ✅ DeepL Free API 已启用；词典未命中的新词将调用DeepL兜底翻译，输出格式：原文｜译文")
     except ImportError:
         print("[WARN] ❗ deepl python SDK未安装，关闭API翻译，仅使用现有词典")
         deepl_translator = None
@@ -136,16 +135,13 @@ def flush_batch_translate(text_list) -> dict:
             ori_strip = ori.strip()
             trans_result = obj.text.strip()
 
-            # =========【安全保护】翻译异常就直接回退原文，防止乱翻译破坏金手指 =========
-            # 条件1 返回为空
+            # 安全保护：乱翻译直接回退原文
             if not trans_result:
                 result_map[ori] = ori
                 continue
-            # 条件2 翻译后和原文几乎一样
             if trans_result.lower() == ori_strip.lower():
                 result_map[ori] = ori
                 continue
-            # 条件3：原文短，翻译后长度暴涨，判定乱翻译，回退原文
             len_ori = len(ori_strip)
             len_tr = len(trans_result)
             if len_ori <= 12 and len_tr > len_ori * 3:
@@ -153,11 +149,13 @@ def flush_batch_translate(text_list) -> dict:
                 result_map[ori] = ori
                 continue
 
-            result_map[ori] = trans_result
+            # 词典内存保存纯译文，**词典不保存拼接字符串**
+            pure_trans = trans_result
+            result_map[ori] = (ori, pure_trans)
             if ori not in translate_dict:
-                translate_dict[ori] = trans_result
+                translate_dict[ori] = pure_trans
                 rebuild_indexes()
-                print(f"[DICT AUTO ADD] 兜底翻译新增词条：`{ori}` -> `{trans_result}`")
+                print(f"[DICT AUTO ADD] 兜底翻译新增词条：`{ori}` -> `{pure_trans}`")
         time.sleep(0.3)
     except deepl.exceptions.QuotaExceededException:
         print("[DEEPL] ⚠️本月免费字符配额用尽，停用API")
@@ -166,7 +164,6 @@ def flush_batch_translate(text_list) -> dict:
         print("[DEEPL] ⚠️批量请求限流，本批次跳过")
     except Exception as e:
         print(f"[DEEPL BATCH WARN] {repr(e)}")
-        # 异常全部回退原文
         for t in texts:
             result_map[t] = t
     return result_map
@@ -174,34 +171,34 @@ def flush_batch_translate(text_list) -> dict:
 
 def translate_text_prepare(text: str):
     """
-    翻译优先级：
-    1.ID/十六进制内存标识 →原样返回，不走词典不走deepl
-    2.master本地custom_dict.json词典命中 →直接返回词典译文
-    3.词典缺失，缩写替换
-    4.判定为英文，送入DeepL兜底；否则返回原文
-    返回 (is_ok, result_text, need_call_api)
+    返回元组 (is_ok, final_text, need_call_api, original_raw, pure_translate)
+    is_ok:True直接输出；need_call_api:False代表送入deepl队列
+    original_raw:原始文本；pure_translate:纯译文，None=无译文
     """
     if not text:
-        return True, text, False
+        return True, text, False, text, None
     src_strip = text.strip()
 
-    # ID过滤（包含4位短十六进制内存ID）
+    # ID过滤，直接原样返回，不做双语拼接
     if is_skip_translate_id(src_strip):
-        return True, text, False
+        return True, text, False, text, None
 
-    # 最高优先级：本地词典
     src_low = src_strip.lower()
     if src_low in lower_full_index:
         orig_dict_key = lower_full_index[src_low]
-        return True, translate_dict[orig_dict_key], False
+        dict_trans = translate_dict[orig_dict_key]
+        # ✅词典命中：拼接 原文｜译文
+        combined = f"{text}{SEPARATOR}{dict_trans}"
+        return True, combined, False, text, dict_trans
 
     step1 = expand_abbreviation(text)
     step2 = do_substitute(step1)
 
     if is_maybe_english(step2) and 0 < len(step2) <= MAX_TEXT_LEN and deepl_translator is not None:
-        return False, step2, True
+        return False, step2, True, text, None
     else:
-        return True, step2, False
+        # 不是英文，无法翻译，只返回原文
+        return True, step2, False, text, None
 
 
 need_api_store = []
@@ -223,7 +220,7 @@ def process_json_file(filepath):
             for k, v in obj.items():
                 if isinstance(v, str):
                     original = v
-                    is_ok, res, need_api = translate_text_prepare(v)
+                    is_ok, res, need_api, raw_src, pure_trans = translate_text_prepare(v)
                     if is_ok:
                         if res != original:
                             obj[k] = res
@@ -233,7 +230,7 @@ def process_json_file(filepath):
                             if val_strip and is_maybe_english(val_strip) and not is_skip_translate_id(val_strip):
                                 miss_set.add(val_strip)
                     else:
-                        need_api_store.append({"type": "json", "obj": obj, "key": k, "text": res})
+                        need_api_store.append({"type": "json", "obj": obj, "key": k, "text": res, "raw": raw_src})
                         batch_translate_queue.append(res)
                         miss_set.add(original.strip())
                 elif isinstance(v, (dict, list)):
@@ -265,12 +262,12 @@ def process_shn_file(filepath):
         match = PAT_CHEAT_TEXT.search(line)
         if match:
             raw_inner = match.group(1)
-            is_ok, res, need_api = translate_text_prepare(raw_inner)
+            is_ok, res, need_api, raw_src, pure_trans = translate_text_prepare(raw_inner)
             strip_raw = raw_inner.strip()
             if strip_raw and is_maybe_english(strip_raw) and not is_skip_translate_id(strip_raw):
                 miss_set.add(strip_raw)
             if need_api:
-                need_api_store.append({"type": "shn", "line": line, "match": match, "text": res})
+                need_api_store.append({"type": "shn", "line": line, "match": match, "text": res, "raw": raw_src})
                 batch_translate_queue.append(res)
                 out_lines.append(line)
             else:
@@ -295,13 +292,14 @@ def _translate_xml_attr(node, attr_name: str):
     if val is None or not val.strip():
         return
     orig = val.strip()
-    is_ok, res_txt, need_api = translate_text_prepare(orig)
+    is_ok, res_txt, need_api, raw_src, pure_trans = translate_text_prepare(orig)
     if need_api:
         need_api_store.append({
             "type": "mc4xml_attr",
             "node": node,
             "attr": attr_name,
-            "text": res_txt
+            "text": res_txt,
+            "raw": orig
         })
         batch_translate_queue.append(res_txt)
         miss_set.add(orig)
@@ -374,7 +372,16 @@ def apply_batch_result(trans_map: dict):
     global out_lines
     for item in need_api_store:
         ori_txt = item["text"]
-        final = trans_map.get(ori_txt, ori_txt)
+        raw_source = item["raw"]
+        res_data = trans_map.get(ori_txt, ori_txt)
+        if isinstance(res_data, tuple):
+            # DeepL翻译成功：拼接原文｜译文
+            src_raw, pure_tr = res_data
+            final = f"{src_raw}{SEPARATOR}{pure_tr}"
+        else:
+            # 翻译失败/安全拦截，直接原文
+            final = res_data
+
         if item["type"] == "json":
             obj = item["obj"]
             k = item["key"]
@@ -398,7 +405,7 @@ def save_updated_dict():
         sorted_dict = dict(sorted(translate_dict.items(), key=lambda x: x[0].lower()))
         with open(DICT_PATH, "w", encoding="utf-8") as fw:
             json.dump(sorted_dict, fw, ensure_ascii=False, indent=2)
-        print(f"[DICT SAVE] 已保存（含DeepL兜底新增词条）到 {DICT_PATH}")
+        print(f"[DICT SAVE] 已保存（仅纯译文，词典不保存双语拼接字符串）到 {DICT_PATH}")
     except Exception as e:
         print(f"[DICT SAVE ERROR] {e}")
 
