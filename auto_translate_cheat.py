@@ -19,7 +19,6 @@ ABBREV_MAP = {
 translate_dict = {}
 lower_full_index = {}
 subst_pattern_list = []
-
 miss_log_path = "translate_miss.log"
 miss_set = set()
 json_miss_english_set = set()
@@ -82,10 +81,11 @@ deepl_translator = None
 if DEEPL_API_KEY:
     try:
         import deepl
+        # 新版deepl SDK timeout参数移至http_client全局配置，不再放入Translator构造参数
+        deepl.http_client.min_connection_timeout = 10
         deepl_translator = deepl.Translator(
             DEEPL_API_KEY,
-            server_url="https://api-free.deepl.com",
-            timeout=10
+            server_url="https://api-free.deepl.com"
         )
         print("[INFO] ✅ DeepL Free API 已启用；新词翻译后自动扩充词典，同一轮CI重刷JSON")
     except ImportError:
@@ -180,6 +180,7 @@ def process_json_file(filepath):
         elif isinstance(obj, list):
             for item in obj:
                 walk(item)
+
     try:
         walk(data)
         with open(filepath, "w", encoding="utf-8") as f:
@@ -260,25 +261,21 @@ def process_mc4_file(filepath):
     except Exception as e:
         print(f"[MC4 SKIP READ] {filepath} | {e}")
         return
-
     info = decode_mc4(mc4_raw_text)
     if info["status"] not in ("decrypted", "plaintext"):
         print(f"[MC4 SKIP DECRYPT] {filepath} status={info['status']} reason={info.get('reason','')}")
         return
-
     inner_xml = info["inner"]
     try:
         root = ET.fromstring(inner_xml)
     except Exception as e:
         print(f"[MC4 XML PARSE FAIL] {filepath} | {e}, keep original")
         return
-
     # 同时处理 Cheat 和 StartUP 两个标签
     for tag_name in ("Cheat", "StartUP"):
         for elem in root.findall(f".//{tag_name}"):
             _translate_xml_attr(elem, "Text")
             _translate_xml_attr(elem, "Description")
-
     try:
         # 禁止输出xml声明头，兼容mc4解析器
         new_inner_xml = ET.tostring(root, encoding="unicode", xml_declaration=False)
@@ -360,7 +357,6 @@ def main():
         print("[STAGE1 DONE] 第一阶段文件扫描完成，执行剩余批量翻译")
         trans_result = flush_batch_translate(batch_translate_queue)
         apply_batch_result(trans_result)
-
         if len(json_miss_english_set) > 0:
             print(f"\n===== STAGE 2: 二次批量翻译JSON漏网英文，共 {len(json_miss_english_set)} 条 =====")
             all_miss_list = list(json_miss_english_set)
