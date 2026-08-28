@@ -26,21 +26,25 @@ batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
 
-# PS4 / PS5游戏ID、十六进制作弊内存ID正则
-RE_HEX_ID = re.compile(r'^[0-9A-Fa-f]{5,}$')
+# ----------更新正则：支持 3~8位短十六进制ID，兼容4位内存ID(89C8 EB1A)----------
+# 纯十六进制串 3‑8位，匹配4位短内存ID
+RE_HEX_SHORT = re.compile(r'^[0-9A-Fa-f]{3,8}$')
+# 带横杠十六进制
 RE_HEX_WITH_DASH = re.compile(r"^[0-9A-Fa-f\-]{6,}$")
-# CUSA PS4, PPSA PS5, BCUS/PCSA PS4光盘ID
+# PS游戏ID CUSA/PPSA/BCUS/PCSA
 RE_PS_ID = re.compile(r'^(CUSA|PPSA|BCUS|PCSA)[0-9]{5}$', re.IGNORECASE)
 
 
 def is_skip_translate_id(s: str) -> bool:
     """
-    ID类字符串直接放行，**不查词典、不送入DeepL翻译**
-    - 十六进制作弊内存ID
+    所有不需要翻译的标识全部拦截，直接返回原文
+    - 3‑8位十六进制短内存ID(4位ID 89C8 / EB1A 等)
+    - 带横杠十六进制ID
     - PS4/PS5游戏ID(CUSA/PPSA/BCUS/PCSA)
+    命中后：不走词典，不走DeepL，不写入miss日志
     """
     s = s.strip()
-    if RE_HEX_ID.fullmatch(s):
+    if RE_HEX_SHORT.fullmatch(s):
         return True
     if RE_HEX_WITH_DASH.fullmatch(s):
         return True
@@ -63,7 +67,7 @@ def rebuild_indexes():
         subst_pattern_list.append((pat, v))
 
 
-# 加载master分支的custom_dict.json，构建本地词典（最高优先级）
+# 加载master分支词典，最高优先级
 try:
     with open(DICT_PATH, "r", encoding="utf-8") as f:
         translate_dict = json.load(f)
@@ -105,7 +109,6 @@ deepl_translator = None
 if DEEPL_API_KEY:
     try:
         import deepl
-        # deepl 1.32 新版SDK超时配置
         deepl.http_client.min_connection_timeout = 10
         deepl_translator = deepl.Translator(
             DEEPL_API_KEY,
@@ -132,9 +135,24 @@ def flush_batch_translate(text_list) -> dict:
         for ori, obj in zip(texts, res_list):
             ori_strip = ori.strip()
             trans_result = obj.text.strip()
-            if trans_result == "" or trans_result.lower() == ori_strip.lower():
+
+            # =========【安全保护】翻译异常就直接回退原文，防止乱翻译破坏金手指 =========
+            # 条件1 返回为空
+            if not trans_result:
                 result_map[ori] = ori
                 continue
+            # 条件2 翻译后和原文几乎一样
+            if trans_result.lower() == ori_strip.lower():
+                result_map[ori] = ori
+                continue
+            # 条件3：原文短，翻译后长度暴涨，判定乱翻译，回退原文
+            len_ori = len(ori_strip)
+            len_tr = len(trans_result)
+            if len_ori <= 12 and len_tr > len_ori * 3:
+                print(f"[DEEPL SAFE SKIP]疑似乱翻译，放弃结果，保留原文：`{ori}`")
+                result_map[ori] = ori
+                continue
+
             result_map[ori] = trans_result
             if ori not in translate_dict:
                 translate_dict[ori] = trans_result
@@ -148,37 +166,38 @@ def flush_batch_translate(text_list) -> dict:
         print("[DEEPL] ⚠️批量请求限流，本批次跳过")
     except Exception as e:
         print(f"[DEEPL BATCH WARN] {repr(e)}")
+        # 异常全部回退原文
+        for t in texts:
+            result_map[t] = t
     return result_map
 
 
 def translate_text_prepare(text: str):
     """
-    翻译优先级逻辑：
-    1. ID类直接原样返回，不翻译
-    2. 【最高优先级】本地custom_dict.json词典匹配，命中直接返回词典译文
-    3. 词典未命中，缩写、子串替换
-    4. 符合英文条件，送入DeepL兜底翻译；否则返回处理后原文
+    翻译优先级：
+    1.ID/十六进制内存标识 →原样返回，不走词典不走deepl
+    2.master本地custom_dict.json词典命中 →直接返回词典译文
+    3.词典缺失，缩写替换
+    4.判定为英文，送入DeepL兜底；否则返回原文
     返回 (is_ok, result_text, need_call_api)
     """
     if not text:
         return True, text, False
     src_strip = text.strip()
 
-    # ID过滤：游戏ID、内存ID，直接原样返回，不走词典不走deepl
+    # ID过滤（包含4位短十六进制内存ID）
     if is_skip_translate_id(src_strip):
         return True, text, False
 
-    # ========== 优先本地词典匹配（最高优先级） ==========
+    # 最高优先级：本地词典
     src_low = src_strip.lower()
     if src_low in lower_full_index:
         orig_dict_key = lower_full_index[src_low]
         return True, translate_dict[orig_dict_key], False
 
-    # 词典没有该词条，执行缩写和子串替换
     step1 = expand_abbreviation(text)
     step2 = do_substitute(step1)
 
-    # 满足条件才交给DeepL兜底翻译
     if is_maybe_english(step2) and 0 < len(step2) <= MAX_TEXT_LEN and deepl_translator is not None:
         return False, step2, True
     else:
@@ -292,9 +311,6 @@ def _translate_xml_attr(node, attr_name: str):
 
 
 def process_mc4_file(filepath):
-    """
-    处理MC4 XML格式：<Cheat> / <StartUP> 标签，Text / Description属性
-    """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             mc4_raw_text = f.read()
