@@ -81,7 +81,7 @@ deepl_translator = None
 if DEEPL_API_KEY:
     try:
         import deepl
-        # 新版deepl SDK timeout参数移至http_client全局配置，不再放入Translator构造参数
+        # 新版deepl SDK timeout移至全局http_client配置
         deepl.http_client.min_connection_timeout = 10
         deepl_translator = deepl.Translator(
             DEEPL_API_KEY,
@@ -97,6 +97,8 @@ if DEEPL_API_KEY:
 
 
 def flush_batch_translate(text_list) -> dict:
+    # 修复：显式声明使用全局变量，避免local variable报错
+    global deepl_translator
     result_map = {}
     if not deepl_translator or len(text_list) == 0:
         return result_map
@@ -288,6 +290,7 @@ def process_mc4_file(filepath):
 
 
 def scan_all_files(root_dir, run_shn: bool = True):
+    global batch_translate_queue
     file_counter = 0
     for dirpath, dirnames, filenames in os.walk(root_dir):
         if "conf" in dirnames:
