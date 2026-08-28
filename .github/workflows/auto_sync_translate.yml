@@ -8,10 +8,8 @@ on:
         description: "手动运行，是否生成Release发布包"
         type: boolean
         default: false
-
 permissions:
   contents: write
-
 jobs:
   sync_and_build_cn:
     runs-on: ubuntu-latest
@@ -66,6 +64,14 @@ jobs:
             cat translate_miss.log
           fi
 
+      # 【调试用：始终上传翻译输出目录work_out，不管发不发Release】
+      - name: Upload translate work_out artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: translate-work-out
+          path: ./work_out
+          if-no-files-found: warn
+
       - name: Commit chinese‑build branch
         run: |
           rm -rf cheats custom_dict.json file_state.json translate_miss.log
@@ -74,11 +80,9 @@ jobs:
           cp work_out/custom_dict.json ./
           [ -f work_out/file_state.json ] && cp work_out/file_state.json ./
           [ -f work_out/translate_miss.log ] && cp work_out/translate_miss.log ./
-
           git add cheats custom_dict.json
           [ -f file_state.json ] && git add file_state.json
           [ -f translate_miss.log ] && git add -f translate_miss.log
-
           git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed for chinese‑build"
           git push -f origin chinese-build
 
@@ -136,15 +140,19 @@ jobs:
           fi
 
       - name: Build zip archive
+        if: steps.judge_release.outputs.DO_RELEASE == 1
         run: |
           cd build_pkg
           zip -r ../${{ steps.judge_release.outputs.ZIP_FILENAME }} README.md cheats/
 
+      # 【关键修复：只有DO_RELEASE=1才上传zip包，避免path为空报错】
       - name: Upload workflow artifact
+        if: steps.judge_release.outputs.DO_RELEASE == 1
         uses: actions/upload-artifact@v4
         with:
           name: cn-cheats-package
           path: ${{ steps.judge_release.outputs.ZIP_FILENAME }}
+          if-no-files-found: warn
 
       - name: Run release helper script
         if: steps.judge_release.outputs.DO_RELEASE == 1
