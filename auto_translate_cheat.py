@@ -26,6 +26,20 @@ batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
 
+# 匹配十六进制ID串：数字+ABCDEF，常见作弊ID，例如 1E29C55、8054BB7A
+RE_HEX_ID = re.compile(r'^[0-9A-Fa-f]{5,}$')
+
+
+def is_hex_id(s: str) -> bool:
+    """判断是否为十六进制作弊ID，这类字符串禁止翻译"""
+    s = s.strip()
+    if RE_HEX_ID.fullmatch(s):
+        return True
+    # 带分隔符的ID，例如 805‑CD‑1‑E‑9
+    if re.fullmatch(r"[0-9A-Fa-f\-]{6,}", s):
+        return True
+    return False
+
 
 def rebuild_indexes():
     global lower_full_index, subst_pattern_list
@@ -97,7 +111,6 @@ if DEEPL_API_KEY:
 
 
 def flush_batch_translate(text_list) -> dict:
-    # 修复：显式声明使用全局变量，避免local variable报错
     global deepl_translator
     result_map = {}
     if not deepl_translator or len(text_list) == 0:
@@ -133,6 +146,11 @@ def translate_text_prepare(text: str):
     if not text:
         return True, text, False
     src_strip = text.strip()
+
+    # 【新增】过滤十六进制ID，作弊ID直接原样返回，禁止翻译
+    if is_hex_id(src_strip):
+        return True, text, False
+
     src_low = src_strip.lower()
     if src_low in lower_full_index:
         orig_dict_key = lower_full_index[src_low]
@@ -171,7 +189,8 @@ def process_json_file(filepath):
                             modified = True
                         else:
                             val_strip = v.strip()
-                            if val_strip and is_maybe_english(val_strip):
+                            # ID字符串不要加入miss_set
+                            if val_strip and is_maybe_english(val_strip) and not is_hex_id(val_strip):
                                 miss_set.add(val_strip)
                     else:
                         need_api_store.append({"type": "json", "obj": obj, "key": k, "text": res})
@@ -208,7 +227,7 @@ def process_shn_file(filepath):
             raw_inner = match.group(1)
             is_ok, res, need_api = translate_text_prepare(raw_inner)
             strip_raw = raw_inner.strip()
-            if strip_raw and is_maybe_english(strip_raw):
+            if strip_raw and is_maybe_english(strip_raw) and not is_hex_id(strip_raw):
                 miss_set.add(strip_raw)
             if need_api:
                 need_api_store.append({"type": "shn", "line": line, "match": match, "text": res})
