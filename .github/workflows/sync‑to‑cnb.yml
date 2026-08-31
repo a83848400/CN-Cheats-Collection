@@ -6,7 +6,7 @@ on:
     tags: [ '*' ]
   workflow_dispatch:
 
-# 并发控制：同分支/ref新任务自动取消正在执行的旧任务，避免重复镜像推送浪费资源
+# 并发控制：同一分支新触发任务，自动取消正在运行的旧任务，防止重复镜像
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -20,15 +20,17 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
+
       - name: Mirror push to cnb.cool
         env:
           CNB_TOKEN: ${{ secrets.CNB_MIRROR_TOKEN }}
         run: |
-          git config --global user.name "github‑actions[bot]"
-          git config --global user.email "github‑actions[bot]@users.noreply.github.com"
-          # cnb.cool https鉴权格式 https://cnb:token@cnb.cool/用户名/仓库.git
-          MIRROR_URL="https://cnb:${CNB_TOKEN}@cnb.cool/PS5‑xiexiyu/CN‑Cheats‑Collection.git"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          MIRROR_URL="https://cnb:${CNB_TOKEN}@cnb.cool/PS5-xiexiyu/CN-Cheats-Collection.git"
+          # 如果已经存在cnb_mirror，先删除，避免remote add报错
+          git remote remove cnb_mirror 2>/dev/null || true
           git remote add cnb_mirror "${MIRROR_URL}"
-          # --mirror：完整镜像，推送所有分支、tag；--prune：CNB侧删除GitHub已经删掉的分支
+          # --mirror完整镜像，--prune删除cnb侧已经在github删掉的分支/tag
           git push --mirror --prune cnb_mirror
-          echo "✅镜像同步完成到 cnb.cool/PS5‑xiexiyu/CN‑Cheats‑Collection"
+          echo "✅镜像同步完成到 cnb.cool/PS5-xiexiyu/CN-Cheats-Collection"
