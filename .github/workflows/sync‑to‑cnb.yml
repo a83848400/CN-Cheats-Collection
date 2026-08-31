@@ -1,12 +1,13 @@
 name: Sync mirror to cnb.cool
-# 触发条件：推送代码、推送tag标签；也可以网页手动运行
 on:
   push:
     branches: [ master, chinese-build ]
     tags: [ '*' ]
   workflow_dispatch:
+  # 每日 UTC 0点 = 北京时间早上8点，执行一次全量兜底镜像同步
+  schedule:
+    - cron: '0 0 * * *'
 
-# 并发控制：同一分支新触发任务，自动取消正在运行的旧任务，防止重复镜像
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -15,22 +16,24 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout full git history(all branch & tags)
+      - name: Checkout full repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           fetch-tags: true
 
+      - name: Fetch all remote refs completely
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin '+refs/*:refs/*' --prune
+
       - name: Mirror push to cnb.cool
         env:
           CNB_TOKEN: ${{ secrets.CNB_MIRROR_TOKEN }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           MIRROR_URL="https://cnb:${CNB_TOKEN}@cnb.cool/PS5-xiexiyu/CN-Cheats-Collection.git"
-          # 如果已经存在cnb_mirror，先删除，避免remote add报错
           git remote remove cnb_mirror 2>/dev/null || true
           git remote add cnb_mirror "${MIRROR_URL}"
-          # --mirror完整镜像，--prune删除cnb侧已经在github删掉的分支/tag
           git push --mirror --prune cnb_mirror
           echo "✅镜像同步完成到 cnb.cool/PS5-xiexiyu/CN-Cheats-Collection"
