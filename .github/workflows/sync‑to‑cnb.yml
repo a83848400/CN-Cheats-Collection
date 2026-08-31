@@ -6,16 +6,20 @@ on:
     tags: [ '*' ]
   workflow_dispatch:
 
+# 并发控制：同分支/ref新任务自动取消正在执行的旧任务，避免重复镜像推送浪费资源
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   mirror:
-    runs-on: ubuntu‑latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout full git history(all branch & tags)
         uses: actions/checkout@v4
         with:
-          fetch‑depth: 0
-          fetch‑tags: true
-
+          fetch-depth: 0
+          fetch-tags: true
       - name: Mirror push to cnb.cool
         env:
           CNB_TOKEN: ${{ secrets.CNB_MIRROR_TOKEN }}
