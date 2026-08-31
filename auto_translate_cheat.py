@@ -6,24 +6,28 @@ import shutil
 import xml.etree.ElementTree as ET
 from ps4_ps5_mc4_tool import decode_mc4, encode_mc4
 
+# ====================== 【配置区域】 ======================
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
 DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 SEPARATOR = "｜"
-# 【新增】署名配置，仅JSON/SHN输出生效
+# 金手指头部署名，仅 JSON / SHN 生效；MC4二进制不处理
 SIGN_TITLE = "————翻译：B站谢锡榆————"
 
 ABBREV_MAP = {
     "inf": "Infinite",
-    "INF": "Infinite",
+    "infi": "Infinite",
     "max": "Max",
     "min": "Min"
 }
+# =========================================================
+
 translate_dict = {}
 lower_full_index = {}
 subst_pattern_list = []
 miss_log_path = "translate_miss.log"
 miss_set = set()
 json_miss_english_set = set()
+
 batch_translate_queue = []
 BATCH_MAX_SIZE = 45
 MAX_TEXT_LEN = 400
@@ -31,6 +35,8 @@ MAX_TEXT_LEN = 400
 RE_HEX_SHORT = re.compile(r'^[0-9A-Fa-f]{3,8}$')
 RE_HEX_WITH_DASH = re.compile(r"^[0-9A-Fa-f\-]{6,}$")
 RE_PS_ID = re.compile(r'^(CUSA|PPSA|BCUS|PCSA)[0-9]{5}$', re.IGNORECASE)
+
+deepl_translator = None
 
 
 def is_skip_translate_id(s: str) -> bool:
@@ -58,6 +64,7 @@ def rebuild_indexes():
         subst_pattern_list.append((pat, v))
 
 
+# 加载本地词典
 try:
     with open(DICT_PATH, "r", encoding="utf-8") as f:
         translate_dict = json.load(f)
@@ -95,7 +102,7 @@ def is_maybe_english(s: str) -> bool:
 
 PAT_CHEAT_TEXT = re.compile(r'Cheat Text="(.*?)"', re.IGNORECASE)
 
-deepl_translator = None
+# 初始化DeepL
 if DEEPL_API_KEY:
     try:
         import deepl
@@ -113,24 +120,32 @@ if DEEPL_API_KEY:
         deepl_translator = None
 
 
-# ==========【新增 署名工具函数，仅此4个，无其他改动】==========
+# ====================== 署名工具函数（带完整防护） ======================
 def json_has_signature(obj: dict) -> bool:
+    """检测JSON是否已经存在署名；缺少cheats直接返回False"""
     if "cheats" not in obj or not isinstance(obj["cheats"], list):
         return False
-    for item in obj["cheats"]:
+    cheats = obj.get("cheats", [])
+    for item in cheats:
         if isinstance(item, dict) and item.get("title", "") == SIGN_TITLE:
             return True
     return False
 
 
 def json_insert_signature(obj: dict):
+    """JSON头部插入署名，多重防护，杜绝KeyError"""
+    if "cheats" not in obj or not isinstance(obj["cheats"], list):
+        return
     if json_has_signature(obj):
         return
-    sig_entry = {"title": SIGN_TITLE, "code": []}
+    sig_entry = {
+        "title": SIGN_TITLE,
+        "code": []
+    }
     obj["cheats"].insert(0, sig_entry)
 
 
-def shn_has_signature(lines: list) -> bool:
+def shn_xml_has_signature(lines: list) -> bool:
     pat = re.compile(r'Cheat Text="' + re.escape(SIGN_TITLE) + r'"')
     for line in lines:
         if pat.search(line):
@@ -139,7 +154,7 @@ def shn_has_signature(lines: list) -> bool:
 
 
 def shn_insert_signature(lines: list) -> list:
-    if shn_has_signature(lines):
+    if shn_xml_has_signature(lines):
         return lines
     new_lines = []
     inserted = False
@@ -149,14 +164,18 @@ def shn_insert_signature(lines: list) -> list:
             new_lines.append(f'  <Cheat Text="{SIGN_TITLE}">\n')
             inserted = True
     return new_lines
-# =========================================================
+# ======================================================================
 
 
 def flush_batch_translate(text_list) -> dict:
+    """批量翻译，所有异常分支全部兜底返回原文，保护内存对象"""
     global deepl_translator
     result_map = {}
     if not deepl_translator or len(text_list) == 0:
+        for t in text_list:
+            result_map[t] = t
         return result_map
+
     texts = text_list[:]
     try:
         print(f"[DEEPL BATCH] 词典未命中，批量翻译 {len(texts)} 条文本 ...")
@@ -186,8 +205,13 @@ def flush_batch_translate(text_list) -> dict:
     except deepl.exceptions.QuotaExceededException:
         print("[DEEPL] ⚠️本月免费字符配额用尽，停用API")
         deepl_translator = None
+        # 配额耗尽，全部待翻译文本强制兜底原文，防止内存对象损坏
+        for t in texts:
+            result_map[t] = t
     except deepl.exceptions.TooManyRequestsException:
-        print("[DEEPL] ⚠️批量请求限流，本批次跳过")
+        print("[DEEPL] ⚠️批量请求限流，本批次全部保留原文")
+        for t in texts:
+            result_map[t] = t
     except Exception as e:
         print(f"[DEEPL BATCH WARN] {repr(e)}")
         for t in texts:
@@ -255,8 +279,12 @@ def process_json_file(filepath):
 
     try:
         walk(data)
-        # 【新增】JSON写入前插入署名
-        json_insert_signature(data)
+        # 独立捕获署名插入异常：插入失败也保证把翻译结果写入文件
+        try:
+            json_insert_signature(data)
+        except Exception as e_sig:
+            print(f"[SIGN WARN] skip insert signature for {filepath}: {e_sig}")
+
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         print(f"[JSON {'MODIFIED' if modified else 'NO CHANGE, FORCE SAVE'}] {filepath}")
@@ -284,8 +312,8 @@ def process_shn_file(filepath):
                 miss_set.add(strip_raw)
             if need_api:
                 need_api_store.append({"type": "shn", "line": line, "match": match, "text": res, "raw": raw_src})
-                batch_translate_queue.append(res)
                 out_lines.append(line)
+                batch_translate_queue.append(res)
             else:
                 if raw_inner != res:
                     new_line = line[:match.start(1)] + res + line[match.end(1):]
@@ -296,8 +324,12 @@ def process_shn_file(filepath):
         else:
             out_lines.append(line)
     try:
-        # 【新增】SHN写入前插入署名
-        out_lines = shn_insert_signature(out_lines)
+        # SHN署名同样增加异常捕获
+        try:
+            out_lines = shn_insert_signature(out_lines)
+        except Exception as e_sig:
+            print(f"[SIGN WARN] skip insert signature for {filepath}: {e_sig}")
+
         with open(filepath, "w", encoding="utf-8") as fw:
             fw.writelines(out_lines)
         print(f"[SHN {'MODIFIED' if changed else 'NO CHANGE, FORCE SAVE'}] {filepath}")
@@ -382,7 +414,8 @@ def scan_all_files(root_dir, run_shn: bool = True):
             except Exception as e:
                 print(f"[SCAN FILE SKIP] {fullpath} | {e}")
             if len(batch_translate_queue) >= BATCH_MAX_SIZE:
-                flush_batch_translate(batch_translate_queue)
+                trans_result = flush_batch_translate(batch_translate_queue)
+                apply_batch_result(trans_result)
                 batch_translate_queue.clear()
 
 
@@ -397,6 +430,7 @@ def apply_batch_result(trans_map: dict):
             final = f"{src_raw}{SEPARATOR}{pure_tr}"
         else:
             final = res_data
+
         if item["type"] == "json":
             obj = item["obj"]
             k = item["key"]
@@ -434,6 +468,7 @@ def main():
         print("[STAGE1 DONE] 第一阶段文件扫描完成，执行剩余批量翻译")
         trans_result = flush_batch_translate(batch_translate_queue)
         apply_batch_result(trans_result)
+
         if len(json_miss_english_set) > 0:
             print(f"\n===== STAGE 2: 二次批量翻译JSON漏网英文，共 {len(json_miss_english_set)} 条 =====")
             all_miss_list = list(json_miss_english_set)
@@ -447,9 +482,11 @@ def main():
             scan_all_files(ROOT_DIR, run_shn=False)
         else:
             print("[STAGE2‑3] 没有漏网英文词条，跳过二次翻译&重扫JSON")
+
         save_updated_dict()
     except Exception as e:
         print(f"[SCAN FATAL ERROR] {e}")
+
     try:
         with open(miss_log_path, "w", encoding="utf-8") as f:
             for word in sorted(miss_set):
