@@ -120,33 +120,32 @@ if DEEPL_API_KEY:
         deepl_translator = None
 
 
-# ====================== 署名工具函数（带完整防护） ======================
+# ====================== JSON署名函数（适配mods / name格式） ======================
 def json_has_signature(obj: dict) -> bool:
-    """检测JSON是否已经存在署名；缺少cheats直接返回False"""
-    if "cheats" not in obj or not isinstance(obj["cheats"], list):
+    if "mods" not in obj or not isinstance(obj["mods"], list):
         return False
-    cheats = obj.get("cheats", [])
-    for item in cheats:
-        if isinstance(item, dict) and item.get("title", "") == SIGN_TITLE:
-            return True
+    mods = obj["mods"]
+    if len(mods) >= 1 and isinstance(mods[0], dict) and mods[0].get("name", "") == SIGN_TITLE:
+        return True
     return False
 
 
 def json_insert_signature(obj: dict):
-    """JSON头部插入署名，多重防护，杜绝KeyError"""
-    if "cheats" not in obj or not isinstance(obj["cheats"], list):
+    if "mods" not in obj or not isinstance(obj["mods"], list):
         return
     if json_has_signature(obj):
         return
     sig_entry = {
-        "title": SIGN_TITLE,
-        "code": []
+        "name": SIGN_TITLE,
+        "type": "checkbox",
+        "memory": []
     }
-    obj["cheats"].insert(0, sig_entry)
+    obj["mods"].insert(0, sig_entry)
 
 
+# ====================== SHN署名函数（适配Trainer根节点，无<Cheats>标签） ======================
 def shn_xml_has_signature(lines: list) -> bool:
-    pat = re.compile(r'Cheat Text="' + re.escape(SIGN_TITLE) + r'"')
+    pat = re.compile(r'Cheat Text="' + re.escape(SIGN_TITLE) + r'"', re.IGNORECASE)
     for line in lines:
         if pat.search(line):
             return True
@@ -157,12 +156,18 @@ def shn_insert_signature(lines: list) -> list:
     if shn_xml_has_signature(lines):
         return lines
     new_lines = []
-    inserted = False
-    for ln in lines:
-        new_lines.append(ln)
-        if not inserted and "<Cheats>" in ln:
-            new_lines.append(f'  <Cheat Text="{SIGN_TITLE}">\n')
-            inserted = True
+    insert_pos = None
+    # 找到第一个<Cheat>所在的下标，插入到它前面
+    for idx, ln in enumerate(lines):
+        strip_line = ln.strip().lower()
+        if strip_line.startswith("<cheat "):
+            insert_pos = idx
+            break
+    if insert_pos is not None:
+        insert_text = f'  <Cheat Text="{SIGN_TITLE}">\n  <Cheatline>\n    <Offset>000000</Offset>\n    <Section>0</Section>\n    <ValueOn>00</ValueOn>\n    <ValueOff>00</ValueOff>\n  </Cheatline>\n</Cheat>\n'
+        new_lines = lines[:insert_pos] + [insert_text] + lines[insert_pos:]
+    else:
+        new_lines = lines
     return new_lines
 # ======================================================================
 
@@ -205,7 +210,6 @@ def flush_batch_translate(text_list) -> dict:
     except deepl.exceptions.QuotaExceededException:
         print("[DEEPL] ⚠️本月免费字符配额用尽，停用API")
         deepl_translator = None
-        # 配额耗尽，全部待翻译文本强制兜底原文，防止内存对象损坏
         for t in texts:
             result_map[t] = t
     except deepl.exceptions.TooManyRequestsException:
@@ -279,7 +283,6 @@ def process_json_file(filepath):
 
     try:
         walk(data)
-        # 独立捕获署名插入异常：插入失败也保证把翻译结果写入文件
         try:
             json_insert_signature(data)
         except Exception as e_sig:
@@ -324,7 +327,6 @@ def process_shn_file(filepath):
         else:
             out_lines.append(line)
     try:
-        # SHN署名同样增加异常捕获
         try:
             out_lines = shn_insert_signature(out_lines)
         except Exception as e_sig:
