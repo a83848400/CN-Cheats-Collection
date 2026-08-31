@@ -6,55 +6,34 @@ import shutil
 import xml.etree.ElementTree as ET
 from ps4_ps5_mc4_tool import decode_mc4, encode_mc4
 
-# ====================== 【配置区域，在这里改参数】 ======================
-# 词典文件路径，可通过环境变量DICT_PATH覆盖
 DICT_PATH = os.environ.get("DICT_PATH", "custom_dict.json")
-# DeepL API密钥，从GitHub Actions Secrets读取
 DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
-
-# 双语输出分隔符：输出格式 原文｜译文
 SEPARATOR = "｜"
-
-# 金手指头部署名，仅 JSON / SHN 生效；MC4二进制不处理
-# 会在每个游戏金手指文件顶部生成一条无实际效果的作弊项
+# 【新增】署名配置，仅JSON/SHN输出生效
 SIGN_TITLE = "————翻译：B站谢锡榆————"
 
-# 金手指常见缩写替换字典，翻译前先做文本归一化
 ABBREV_MAP = {
     "inf": "Infinite",
     "INF": "Infinite",
     "max": "Max",
     "min": "Min"
 }
-# ======================================================================
+translate_dict = {}
+lower_full_index = {}
+subst_pattern_list = []
+miss_log_path = "translate_miss.log"
+miss_set = set()
+json_miss_english_set = set()
+batch_translate_queue = []
+BATCH_MAX_SIZE = 45
+MAX_TEXT_LEN = 400
 
-# -------------------------- 全局变量 --------------------------
-translate_dict = {}             # 主翻译词典：key原始文本，value纯中文译文
-lower_full_index = {}           # 小写key索引，用于忽略大小写匹配词典
-subst_pattern_list = []         # 缩写/短语替换正则列表
-miss_log_path = "translate_miss.log" # 漏译日志文件路径
-miss_set = set()                # 收集漏译的文本集合
-json_miss_english_set = set()   # JSON漏译英文，用于第二轮补充翻译
-
-batch_translate_queue = []      # 批量翻译队列，攒够BATCH_MAX_SIZE条再调用API
-BATCH_MAX_SIZE = 45             # 每一批次最多多少条文本去调用DeepL
-MAX_TEXT_LEN = 400              # 送入翻译API单条文本最大长度
-
-# 正则：匹配3‑8位十六进制内存ID，这类ID不翻译
 RE_HEX_SHORT = re.compile(r'^[0-9A-Fa-f]{3,8}$')
-# 正则：带横杠的十六进制ID，不翻译
 RE_HEX_WITH_DASH = re.compile(r"^[0-9A-Fa-f\-]{6,}$")
-# 正则：PS游戏ID，CUSA/PPSA/BCUS/PCSA开头，不翻译
 RE_PS_ID = re.compile(r'^(CUSA|PPSA|BCUS|PCSA)[0-9]{5}$', re.IGNORECASE)
-
-deepl_translator = None         # DeepL翻译器实例
 
 
 def is_skip_translate_id(s: str) -> bool:
-    """
-    判断文本是否为ID类，ID类直接原样返回，不走词典、不走API，不做双语拼接
-    返回 True=需要跳过翻译；False=正常参与翻译流程
-    """
     s = s.strip()
     if RE_HEX_SHORT.fullmatch(s):
         return True
@@ -66,19 +45,11 @@ def is_skip_translate_id(s: str) -> bool:
 
 
 def rebuild_indexes():
-    """
-    重建词典索引
-    1. lower_full_index：原始key小写映射，实现忽略大小写查询词典
-    2. subst_pattern_list：生成短语替换正则，长词条优先替换
-    每次词典发生变更后，都需要调用此函数刷新索引
-    """
     global lower_full_index, subst_pattern_list
     lower_full_index.clear()
     for orig_key in translate_dict:
         k_low = orig_key.lower().strip()
         lower_full_index[k_low] = orig_key
-
-    # 按key字符串长度倒序排序，长短语优先匹配，避免短词先替换干扰长文本
     keys_sorted = sorted(translate_dict.keys(), key=lambda x: len(x), reverse=True)
     subst_pattern_list.clear()
     for k in keys_sorted:
@@ -87,7 +58,6 @@ def rebuild_indexes():
         subst_pattern_list.append((pat, v))
 
 
-# -------------------------- 加载本地翻译词典 --------------------------
 try:
     with open(DICT_PATH, "r", encoding="utf-8") as f:
         translate_dict = json.load(f)
@@ -100,7 +70,6 @@ except Exception as e:
 
 
 def expand_abbreviation(text: str) -> str:
-    """翻译前预处理：把金手指缩写展开，inf → Infinite"""
     t = text
     for abbr, full_txt in ABBREV_MAP.items():
         pat = re.compile(rf"\b{re.escape(abbr)}\b", re.IGNORECASE)
@@ -109,7 +78,6 @@ def expand_abbreviation(text: str) -> str:
 
 
 def do_substitute(text: str) -> str:
-    """短语局部替换，使用subst_pattern_list做文本替换"""
     res = text
     for pat, repl in subst_pattern_list:
         res = pat.sub(repl, res)
@@ -117,7 +85,6 @@ def do_substitute(text: str) -> str:
 
 
 def is_maybe_english(s: str) -> bool:
-    """粗略判断文本是否包含英文：英文字母占比大于20%视为英文，才送入翻译API"""
     s_strip = s.strip()
     if not s_strip:
         return False
@@ -126,10 +93,9 @@ def is_maybe_english(s: str) -> bool:
     return cnt_en / total > 0.2
 
 
-# SHN文件正则，捕获 Cheat Text="xxx" 里面的文本
 PAT_CHEAT_TEXT = re.compile(r'Cheat Text="(.*?)"', re.IGNORECASE)
 
-# -------------------------- 初始化DeepL翻译客户端 --------------------------
+deepl_translator = None
 if DEEPL_API_KEY:
     try:
         import deepl
@@ -147,36 +113,24 @@ if DEEPL_API_KEY:
         deepl_translator = None
 
 
-# ====================== 【署名插入相关函数，JSON/SHN专用】 ======================
+# ==========【新增 署名工具函数，仅此4个，无其他改动】==========
 def json_has_signature(obj: dict) -> bool:
-    """
-    检测JSON金手指是否已经存在署名条目
-    返回 True=已经存在，不再重复插入；False=不存在需要插入
-    """
-    cheats = obj.get("cheats", [])
-    for item in cheats:
+    if "cheats" not in obj or not isinstance(obj["cheats"], list):
+        return False
+    for item in obj["cheats"]:
         if isinstance(item, dict) and item.get("title", "") == SIGN_TITLE:
             return True
     return False
 
 
 def json_insert_signature(obj: dict):
-    """
-    JSON金手指文件头部插入署名条目
-    插入一条code为空数组的金手指，主机端可见，但勾选无任何修改效果
-    内部会调用json_has_signature做防重复判断
-    """
     if json_has_signature(obj):
         return
-    sig_entry = {
-        "title": SIGN_TITLE,
-        "code": []
-    }
+    sig_entry = {"title": SIGN_TITLE, "code": []}
     obj["cheats"].insert(0, sig_entry)
 
 
-def shn_xml_has_signature(lines: list) -> bool:
-    """检测SHN文本行列表是否已经存在署名字符串，防止重复插入"""
+def shn_has_signature(lines: list) -> bool:
     pat = re.compile(r'Cheat Text="' + re.escape(SIGN_TITLE) + r'"')
     for line in lines:
         if pat.search(line):
@@ -185,37 +139,24 @@ def shn_xml_has_signature(lines: list) -> bool:
 
 
 def shn_insert_signature(lines: list) -> list:
-    """
-    SHN文件：在<Cheats>标签之后插入署名Cheat条目
-    参数lines：shn全部文本行列表
-    返回处理完成新行列表；已经存在署名直接原样返回
-    """
-    if shn_xml_has_signature(lines):
+    if shn_has_signature(lines):
         return lines
     new_lines = []
     inserted = False
-    for line in lines:
-        new_lines.append(line)
-        # 找到<Cheats>标签，下一行插入署名
-        if not inserted and "<Cheats>" in line:
+    for ln in lines:
+        new_lines.append(ln)
+        if not inserted and "<Cheats>" in ln:
             new_lines.append(f'  <Cheat Text="{SIGN_TITLE}">\n')
             inserted = True
     return new_lines
-# ============================================================================
+# =========================================================
 
 
 def flush_batch_translate(text_list) -> dict:
-    """
-    执行一批次DeepL批量翻译
-    输入：待翻译文本列表
-    返回字典 {原始文本: (原始文本,纯中文译文)}；翻译失败则 {原始文本:原始文本}
-    翻译成功新词自动加入translate_dict词典，并刷新索引
-    """
     global deepl_translator
     result_map = {}
     if not deepl_translator or len(text_list) == 0:
         return result_map
-
     texts = text_list[:]
     try:
         print(f"[DEEPL BATCH] 词典未命中，批量翻译 {len(texts)} 条文本 ...")
@@ -223,26 +164,20 @@ def flush_batch_translate(text_list) -> dict:
         for ori, obj in zip(texts, res_list):
             ori_strip = ori.strip()
             trans_result = obj.text.strip()
-
-            # 安全校验1：返回为空，放弃译文
             if not trans_result:
                 result_map[ori] = ori
                 continue
-            # 安全校验2：译文和原文几乎一样，视为没翻译
             if trans_result.lower() == ori_strip.lower():
                 result_map[ori] = ori
                 continue
-            # 安全校验3：短原文生成超长译文，判定疑似乱翻译，丢弃结果
             len_ori = len(ori_strip)
             len_tr = len(trans_result)
             if len_ori <= 12 and len_tr > len_ori * 3:
                 print(f"[DEEPL SAFE SKIP]疑似乱翻译，放弃结果，保留原文：`{ori}`")
                 result_map[ori] = ori
                 continue
-
             pure_trans = trans_result
             result_map[ori] = (ori, pure_trans)
-            # 新词自动加入词典，刷新索引
             if ori not in translate_dict:
                 translate_dict[ori] = pure_trans
                 rebuild_indexes()
@@ -261,49 +196,30 @@ def flush_batch_translate(text_list) -> dict:
 
 
 def translate_text_prepare(text: str):
-    """
-    文本翻译预处理，判断走词典，还是送入API队列
-    返回元组 (is_ok, final_text, need_call_api, original_raw, pure_translate)
-        is_ok: True=已经处理完毕，不需要调用API；False=需要加入翻译队列
-        final_text：处理后文本
-        need_call_api：True 需要入队调用API翻译
-        original_raw：原始未处理文本
-        pure_translate：词典命中时返回纯译文；无译文则为None
-    """
     if not text:
         return True, text, False, text, None
     src_strip = text.strip()
-
-    # ID直接跳过翻译
     if is_skip_translate_id(src_strip):
         return True, text, False, text, None
-
-    # 词典忽略大小写命中，直接输出 原文｜译文
     src_low = src_strip.lower()
     if src_low in lower_full_index:
         orig_dict_key = lower_full_index[src_low]
         dict_trans = translate_dict[orig_dict_key]
         combined = f"{text}{SEPARATOR}{dict_trans}"
         return True, combined, False, text, dict_trans
-
-    # 没有命中词典，执行缩写、短语替换预处理
     step1 = expand_abbreviation(text)
     step2 = do_substitute(step1)
-
-    # 判断是英文，并且API可用，则标记送入翻译队列
     if is_maybe_english(step2) and 0 < len(step2) <= MAX_TEXT_LEN and deepl_translator is not None:
         return False, step2, True, text, None
     else:
-        # 不是英文，不翻译，直接返回文本
         return True, step2, False, text, None
 
 
-need_api_store = []  # 保存待回填的对象信息，批量翻译完成后回填结果
-out_lines = []       # SHN文件处理时内存保存全部行
+need_api_store = []
+out_lines = []
 
 
 def process_json_file(filepath):
-    """处理单个 .json 金手指文件"""
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -313,7 +229,6 @@ def process_json_file(filepath):
     modified = False
 
     def walk(obj):
-        """递归遍历json对象，遍历所有字符串值，做翻译预处理"""
         nonlocal modified
         if isinstance(obj, dict):
             for k, v in obj.items():
@@ -321,7 +236,6 @@ def process_json_file(filepath):
                     original = v
                     is_ok, res, need_api, raw_src, pure_trans = translate_text_prepare(v)
                     if is_ok:
-                        # 已经处理完成，直接修改值
                         if res != original:
                             obj[k] = res
                             modified = True
@@ -330,7 +244,6 @@ def process_json_file(filepath):
                             if val_strip and is_maybe_english(val_strip) and not is_skip_translate_id(val_strip):
                                 miss_set.add(val_strip)
                     else:
-                        # 需要调用API翻译：记录对象位置，加入翻译队列
                         need_api_store.append({"type": "json", "obj": obj, "key": k, "text": res, "raw": raw_src})
                         batch_translate_queue.append(res)
                         miss_set.add(original.strip())
@@ -342,7 +255,7 @@ def process_json_file(filepath):
 
     try:
         walk(data)
-        # JSON写入磁盘之前，插入头部署名条目（带防重复）
+        # 【新增】JSON写入前插入署名
         json_insert_signature(data)
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
@@ -352,7 +265,6 @@ def process_json_file(filepath):
 
 
 def process_shn_file(filepath):
-    """处理单个 .shn 金手指文本文件"""
     global out_lines
     try:
         with open(filepath, "r", encoding="utf-8") as f:
@@ -362,7 +274,6 @@ def process_shn_file(filepath):
         return
     changed = False
     out_lines = []
-
     for line in lines:
         match = PAT_CHEAT_TEXT.search(line)
         if match:
@@ -372,12 +283,10 @@ def process_shn_file(filepath):
             if strip_raw and is_maybe_english(strip_raw) and not is_skip_translate_id(strip_raw):
                 miss_set.add(strip_raw)
             if need_api:
-                # 需要API翻译，记录位置，入队列
                 need_api_store.append({"type": "shn", "line": line, "match": match, "text": res, "raw": raw_src})
                 batch_translate_queue.append(res)
                 out_lines.append(line)
             else:
-                # 已经处理完成，直接替换文本
                 if raw_inner != res:
                     new_line = line[:match.start(1)] + res + line[match.end(1):]
                     out_lines.append(new_line)
@@ -386,9 +295,8 @@ def process_shn_file(filepath):
                     out_lines.append(line)
         else:
             out_lines.append(line)
-
     try:
-        # SHN写入磁盘前，插入头部署名（带防重复）
+        # 【新增】SHN写入前插入署名
         out_lines = shn_insert_signature(out_lines)
         with open(filepath, "w", encoding="utf-8") as fw:
             fw.writelines(out_lines)
@@ -398,10 +306,6 @@ def process_shn_file(filepath):
 
 
 def _translate_xml_attr(node, attr_name: str):
-    """
-    MC4内部XML翻译辅助函数：翻译Cheat节点Text、Description属性
-    mc4二进制不做署名插入，只翻译文本
-    """
     val = node.get(attr_name)
     if val is None or not val.strip():
         return
@@ -423,11 +327,6 @@ def _translate_xml_attr(node, attr_name: str):
 
 
 def process_mc4_file(filepath):
-    """
-    处理mc4二进制金手指文件
-    逻辑：base64解码 → 获取内部xml → 翻译xml属性 → 重新编码写回
-    ⚠️注意：mc4不插入署名，避免破坏二进制封装文件
-    """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             mc4_raw_text = f.read()
@@ -459,12 +358,6 @@ def process_mc4_file(filepath):
 
 
 def scan_all_files(root_dir, run_shn: bool = True):
-    """
-    递归扫描整个目录所有金手指文件
-    root_dir：扫描根目录
-    run_shn：True处理shn文件；False跳过shn（Stage3二次扫描使用，只重扫json）
-    队列达到BATCH_MAX_SIZE，就立刻执行一次批量翻译
-    """
     global batch_translate_queue
     file_counter = 0
     for dirpath, dirnames, filenames in os.walk(root_dir):
@@ -488,17 +381,12 @@ def scan_all_files(root_dir, run_shn: bool = True):
                     process_mc4_file(fullpath)
             except Exception as e:
                 print(f"[SCAN FILE SKIP] {fullpath} | {e}")
-            # 队列攒够数量，执行翻译
             if len(batch_translate_queue) >= BATCH_MAX_SIZE:
                 flush_batch_translate(batch_translate_queue)
                 batch_translate_queue.clear()
 
 
 def apply_batch_result(trans_map: dict):
-    """
-    将批量API翻译返回的结果回填到各个json/shn/mc4对象中
-    need_api_store记录了每个待回填对象的位置信息
-    """
     global out_lines
     for item in need_api_store:
         ori_txt = item["text"]
@@ -509,7 +397,6 @@ def apply_batch_result(trans_map: dict):
             final = f"{src_raw}{SEPARATOR}{pure_tr}"
         else:
             final = res_data
-
         if item["type"] == "json":
             obj = item["obj"]
             k = item["key"]
@@ -529,7 +416,6 @@ def apply_batch_result(trans_map: dict):
 
 
 def save_updated_dict():
-    """把内存更新后的词典写回磁盘custom_dict.json，key按字母排序"""
     try:
         sorted_dict = dict(sorted(translate_dict.items(), key=lambda x: x[0].lower()))
         with open(DICT_PATH, "w", encoding="utf-8") as fw:
@@ -540,13 +426,6 @@ def save_updated_dict():
 
 
 def main():
-    """
-    程序主入口，执行分为3个阶段
-    Stage1：扫描全部json/shn/mc4，收集待翻译文本入队列，分批调用API翻译
-    Stage2：处理漏网英文，做第二轮补充翻译
-    Stage3：使用更新后的词典，只重新扫描JSON（shn/mc4不再处理）
-    最后保存词典、输出漏译日志
-    """
     global need_api_store, batch_translate_queue
     ROOT_DIR = os.getcwd()
     try:
@@ -555,7 +434,6 @@ def main():
         print("[STAGE1 DONE] 第一阶段文件扫描完成，执行剩余批量翻译")
         trans_result = flush_batch_translate(batch_translate_queue)
         apply_batch_result(trans_result)
-
         if len(json_miss_english_set) > 0:
             print(f"\n===== STAGE 2: 二次批量翻译JSON漏网英文，共 {len(json_miss_english_set)} 条 =====")
             all_miss_list = list(json_miss_english_set)
@@ -569,12 +447,9 @@ def main():
             scan_all_files(ROOT_DIR, run_shn=False)
         else:
             print("[STAGE2‑3] 没有漏网英文词条，跳过二次翻译&重扫JSON")
-
         save_updated_dict()
     except Exception as e:
         print(f"[SCAN FATAL ERROR] {e}")
-
-    # 写出漏译单词日志
     try:
         with open(miss_log_path, "w", encoding="utf-8") as f:
             for word in sorted(miss_set):
