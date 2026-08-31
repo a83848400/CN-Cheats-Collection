@@ -15,19 +15,15 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Mirror push to cnb.cool
-        env:
-          CNB_TOKEN: ${{ secrets.CNB_MIRROR_TOKEN }}
+      - name: Bare clone full repository for mirror
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          MIRROR_URL="https://cnb:${CNB_TOKEN}@cnb.cool/PS5-xiexiyu/CN-Cheats-Collection.git"
-          git remote remove cnb_mirror 2>/dev/null || true
+          git clone --bare https://github.com/${{ github.repository }} repo.git
+          cd repo.git
+          MIRROR_URL="https://cnb:${{ secrets.CNB_MIRROR_TOKEN }}@cnb.cool/PS5-xiexiyu/CN-Cheats-Collection.git"
           git remote add cnb_mirror "${MIRROR_URL}"
           git push --mirror --prune cnb_mirror
-          echo "✅镜像同步完成"
+          echo "✅完整全仓库镜像同步完成"
+        env:
+          CNB_TOKEN: ${{ secrets.CNB_MIRROR_TOKEN }}
