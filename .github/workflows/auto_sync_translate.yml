@@ -19,26 +19,21 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
-
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install deepl PyGitHub
-
       - name: Configure git bot identity
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Clone upstream repo
         run: |
           git clone --depth 1 https://github.com/TeeKay87/HEN-Cheats-Collection.git upstream_repo
-
       - name: Prepare work dir
         run: |
           rm -rf work_out
@@ -48,7 +43,6 @@ jobs:
           cp auto_translate_cheat.py work_out/
           cp ps4_ps5_mc4_tool.py work_out/
           cp -r ./upstream_repo/cheats work_out/
-
       - name: Run translate script
         env:
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
@@ -63,7 +57,6 @@ jobs:
             echo "==== translate_miss.log ===="
             cat translate_miss.log
           fi
-
       # 【调试用：始终上传翻译输出目录work_out，不管发不发Release】
       - name: Upload translate work_out artifact
         uses: actions/upload-artifact@v4
@@ -71,7 +64,6 @@ jobs:
           name: translate-work-out
           path: ./work_out
           if-no-files-found: warn
-
       - name: Commit chinese‑build branch
         run: |
           rm -rf cheats custom_dict.json file_state.json translate_miss.log
@@ -85,7 +77,6 @@ jobs:
           [ -f translate_miss.log ] && git add -f translate_miss.log
           git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed for chinese‑build"
           git push -f origin chinese-build
-
       - name: Auto commit updated custom_dict.json back to master
         run: |
           git checkout master
@@ -98,25 +89,21 @@ jobs:
             git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
             git push origin master
           fi
-
       - name: Checkout chinese‑build for zip build
         uses: actions/checkout@v4
         with:
           ref: chinese-build
           fetch-depth: 1
           path: build_pkg
-
       - name: Checkout master to tmp_master (只拿README.md)
         uses: actions/checkout@v4
         with:
           ref: master
           fetch-depth: 1
           path: tmp_master
-
       - name: Copy master README.md into build_pkg
         run: |
           cp ./tmp_master/README.md ./build_pkg/README.md
-
       - name: Judge whether create Release
         id: judge_release
         run: |
@@ -138,13 +125,11 @@ jobs:
           else
             echo "DO_RELEASE=0" >> $GITHUB_OUTPUT
           fi
-
       - name: Build zip archive
         if: steps.judge_release.outputs.DO_RELEASE == 1
         run: |
           cd build_pkg
           zip -r ../${{ steps.judge_release.outputs.ZIP_FILENAME }} README.md cheats/
-
       # 【关键修复：只有DO_RELEASE=1才上传zip包，避免path为空报错】
       - name: Upload workflow artifact
         if: steps.judge_release.outputs.DO_RELEASE == 1
@@ -153,7 +138,6 @@ jobs:
           name: cn-cheats-package
           path: ${{ steps.judge_release.outputs.ZIP_FILENAME }}
           if-no-files-found: warn
-
       - name: Run release helper script
         if: steps.judge_release.outputs.DO_RELEASE == 1
         env:
@@ -163,3 +147,20 @@ jobs:
           ZIP_FILENAME: ${{ steps.judge_release.outputs.ZIP_FILENAME }}
         continue-on-error: true
         run: python3 release_helper.py
+
+      # ============【新增：翻译流程结束立刻执行cnb全量镜像】============
+      - name: Mirror full repo to cnb.cool
+        continue-on-error: true
+        env:
+          CNB_TOKEN: ${{ secrets.CNB_MIRROR_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          rm -rf repo.git
+          git clone --bare https://github.com/${{ github.repository }} repo.git
+          cd repo.git
+          MIRROR_URL="https://cnb:${CNB_TOKEN}@cnb.cool/PS5-xiexiyu/CN-Cheats-Collection.git"
+          git remote remove cnb_mirror 2>/dev/null || true
+          git remote add cnb_mirror "${MIRROR_URL}"
+          git push --mirror --prune cnb_mirror
+          echo "✅翻译流程完成，已执行全仓库镜像同步到 cnb.cool"
