@@ -1,12 +1,17 @@
 {
-  "name": "SaGa Frontier Remastered",
+  "name": "沙加开拓者 Remastered",
   "id": "CUSA26054",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "823E72A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite LP",
-      "type": "checkbox",
+      "name": "Infinite 生命值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "823E7890",
@@ -38,7 +43,7 @@
     },
     {
       "name": "Infinite WP",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "823E7930",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite JP",
-      "type": "checkbox",
+      "name": "Infinite 职业点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "823E79D0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Credits (on buy)",
-      "type": "checkbox",
+      "name": "最大 Credits (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "823E7A10",

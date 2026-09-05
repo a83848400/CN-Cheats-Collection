@@ -5,7 +5,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>4F3F800</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>C5-FA-11-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Battery">
+  <Cheat Text="Infinite 电池">
     <Cheatline>
       <Offset>1D77B53</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C4-C1-7A-11-86-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Offset>208EFA1</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>C5-FA-11-83-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>1FD5916</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>41-FF-8C-24-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints/Money">
+  <Cheat Text="无限技能点/金钱">
     <Cheatline>
       <Offset>1B2B4A0</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>47-29-AC-A7-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Money/Skillpoints on Get">
+  <Cheat Text="最大 XP/金钱/技能点 on Get">
     <Cheatline>
       <Offset>1B43F09</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>0F-42-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resources/Gadgets">
+  <Cheat Text="资源无限/Gadgets">
     <Cheatline>
       <Offset>1F7E67F</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>2B-85-70-FF-FF-FF-0F-46-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Resources">
+  <Cheat Text="最大 Resources">
     <Cheatline>
       <Offset>4F3F81C</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>8B-52-0C-49-89-DF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wanted Level doesnt Increase">
+  <Cheat Text="Wanted 等级 doesnt Increase">
     <Cheatline>
       <Offset>4F3F82E</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>44-0F-B7-7A-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alignment: Good">
+  <Cheat Text="Alignment: Good｜阵营：善良">
     <Cheatline>
       <Offset>4F3F83E</Offset>
       <Section>0</Section>

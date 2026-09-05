@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Opponents don't move",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Opponents don'恐怖分子 招式",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AFE1C4",

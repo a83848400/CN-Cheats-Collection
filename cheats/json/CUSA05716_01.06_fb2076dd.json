@@ -1,12 +1,17 @@
 {
-  "name": "Rise of the Tomb Raider: 20 Year Celebration",
+  "name": "Rise of the 古墓丽影: 20 Year Celebration",
   "id": "CUSA05716",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / 1 Hit Kill Mastercode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 一击必杀 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF811",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF811",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF812",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8EB24D",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Resources",
-      "type": "checkbox",
+      "name": "无限弹药/Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88742A",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max XP on Get",
-      "type": "checkbox",
+      "name": "最大 XP on Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF800",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE0F7F",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Expedition Mode: Infinite Time-Bonus",
-      "type": "checkbox",
+      "name": "探索 Mode: 无限时间-Bonus",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90B8D5",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Expedition Mode: Instant Max Score",
-      "type": "checkbox",
+      "name": "探索 Mode: Instant 最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90AB15",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "Expedition Mode: Infinite Multiplier Time",
-      "type": "checkbox",
+      "name": "探索 Mode: Infinite Multiplier Time",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "908E2A",

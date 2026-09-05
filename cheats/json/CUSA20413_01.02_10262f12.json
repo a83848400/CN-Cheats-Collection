@@ -1,12 +1,17 @@
 {
-  "name": "Ys IX: Monstrum Nox",
+  "name": "Ys IX: Monstrum Nox｜《伊苏IX：Monstrum Nox》",
   "id": "CUSA20413",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money (on gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "All Items x99(on use/sell)",
-      "type": "checkbox",
+      "name": "所有商品 x99(on use/sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F5F0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Usage",
-      "type": "checkbox",
+      "name": "Infinite Skill Usage｜无限技能使用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FED0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EDB0",

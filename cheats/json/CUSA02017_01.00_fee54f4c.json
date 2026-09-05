@@ -1,12 +1,17 @@
 {
-  "name": "Risen 3: Titan Lords - Enhanced Edition",
+  "name": "Risen 3: 泰坦 Lords - Enhanced Edition",
   "id": "CUSA02017",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Glory",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/荣耀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1097E30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "99 Ammo/Item",
-      "type": "checkbox",
+      "name": "99 但是/物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1097DB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "99999 Gold (only activate when grabiing gold affect items)",
-      "type": "checkbox",
+      "name": "99999 金币 (only activate when grabiing 金币 affect items)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1097E90",

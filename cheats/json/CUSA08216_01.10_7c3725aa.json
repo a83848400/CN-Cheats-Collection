@@ -1,12 +1,17 @@
 {
-  "name": "Devil May Cry 5",
+  "name": "Devil May Cry 5｜鬼泣5",
   "id": "CUSA08216",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "(Virgil) Infinite Health/1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "(Virgil) Infinite Health/1 Hit Kill (Master Code)｜(维吉尔)无限生命/一击必杀(主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47E70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "(Virgil) Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "(Virgil) Infinite Health (Enable MC)｜(维吉尔)无限生命(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47E78",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "(Virgil) 1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "(Virgil) 1 Hit Kill (Enable MC)｜(维吉尔)一击必杀(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47E76",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "(Virgil) Max/Infinite Devil Triger",
-      "type": "checkbox",
+      "name": "(Virgil) Max/Infinite Devil Triger｜(维吉尔)最大/无限魔人槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8C0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "(Virgil) Max/Infinite Virgil's Concentration",
-      "type": "checkbox",
+      "name": "(Virgil) Max/Infinite Virgil's Concentration｜(维吉尔)最大/无限维吉尔专注槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E0E0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "(Nero) Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
+      "name": "(Nero) Infinite Health/1 Hit Kill (Master Code)｜(尼禄)无限生命/一击必杀(主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47E70",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "(Nero) Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "(Nero) Infinite Health (Enable MC)｜(尼禄)无限生命(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47E78",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "(Nero) 1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "(Nero) 1 Hit Kill (Enable MC)｜(尼禄)一击必杀(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47E76",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "(Nero) Devil Breakers Equipment x999 (Buy In Shop)",
-      "type": "checkbox",
+      "name": "(Nero) Devil Breakers Equipment x999 (Buy In Shop)｜(尼禄)义手装备×999(商店购买生效)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB90",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "(Nero) Infinite Devil Breakers",
-      "type": "checkbox",
+      "name": "(Nero) Infinite Devil Breakers｜(尼禄)无限义手",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5CB80",
@@ -145,8 +150,8 @@
       ]
     },
     {
-      "name": "(Nero) Infinite Exceed",
-      "type": "checkbox",
+      "name": "(Nero) Infinite Exceed｜(尼禄)蓄力无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAA0",
@@ -161,8 +166,8 @@
       ]
     },
     {
-      "name": "(Nero) Instant Fill Exceed",
-      "type": "checkbox",
+      "name": "(Nero) Instant Fill Exceed｜(尼禄)蓄力瞬间蓄满",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB90",
@@ -177,8 +182,8 @@
       ]
     },
     {
-      "name": "(Nero) Infinite Bullets",
-      "type": "checkbox",
+      "name": "(Nero) Infinite Bullets｜(尼禄)无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EDB0",
@@ -193,8 +198,8 @@
       ]
     },
     {
-      "name": "(V) Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
+      "name": "(V) Infinite Health/1 Hit Kill (Master Code)｜(V)无限生命/一击必杀(主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47BA0",
@@ -209,8 +214,8 @@
       ]
     },
     {
-      "name": "(V) Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "(V) Infinite Health (Enable MC)｜(V)无限生命(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47BA8",
@@ -220,8 +225,8 @@
       ]
     },
     {
-      "name": "(V) 1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "(V) 1 Hit Kill (Enable MC)｜(V)一击必杀(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47BA6",
@@ -231,8 +236,8 @@
       ]
     },
     {
-      "name": "(Dante) Infinite Health/1 Hit Kill (Master Code)",
-      "type": "checkbox",
+      "name": "(Dante) Infinite Health/1 Hit Kill (Master Code)｜(但丁)无限生命/一击必杀(主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47F40",
@@ -247,8 +252,8 @@
       ]
     },
     {
-      "name": "(Dante) Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "(Dante) Infinite Health (Enable MC)｜(但丁)无限生命(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47F48",
@@ -258,8 +263,8 @@
       ]
     },
     {
-      "name": "(Dante) 1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "(Dante) 1 Hit Kill (Enable MC)｜(但丁)一击必杀(开启主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A47F46",
@@ -269,8 +274,8 @@
       ]
     },
     {
-      "name": "(Dante) Infinite Royal Revenge",
-      "type": "checkbox",
+      "name": "(Dante) Infinite Royal Revenge｜(但丁)无限皇家复仇",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DE10",
@@ -285,8 +290,8 @@
       ]
     },
     {
-      "name": "(Dante) Instant Fill Royal Guard",
-      "type": "checkbox",
+      "name": "(Dante) Instant Fill Royal Guard｜(但丁)皇家守卫瞬间蓄满",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D5D0",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "(Dante) Infinite Royal Release",
-      "type": "checkbox",
+      "name": "(Dante) Infinite Royal Release｜(但丁)无限皇家释放",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB70",
@@ -317,8 +322,8 @@
       ]
     },
     {
-      "name": "(Dante) Max/Infinite Devil Triger",
-      "type": "checkbox",
+      "name": "(Dante) Max/Infinite Devil Triger｜(但丁)最大/无限魔人槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E7B0",
@@ -333,8 +338,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Devil Triger Bar",
-      "type": "checkbox",
+      "name": "最大/Infinite Devil Triger Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DE20",
@@ -349,8 +354,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Red Orbs On Gain/Buy/Use",
-      "type": "checkbox",
+      "name": "最大/无限红球 On Gain/Buy/Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C180",
@@ -385,8 +390,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Gold Orbs On Gain Or Buy",
-      "type": "checkbox",
+      "name": "最大/无限金币 Orbs On Gain Or Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FB00",
@@ -401,8 +406,8 @@
       ]
     },
     {
-      "name": "Stop Time In The Bloody Palace",
-      "type": "checkbox",
+      "name": "停止 Time In The Bloody 殿堂",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DEA0",

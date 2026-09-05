@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Evil West" Moder="Celogamez" Cusa="CUSA25569" Version="01.06" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>6B9FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>6B9FE30</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>149AF6F</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>E8-4C-D9-2B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Levels/Perks (Enable After Level 3)">
+  <Cheat Text="最大 XP/Levels/Perks (Enable After 等级 3)">
     <Cheatline>
       <Offset>16C0F26</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>44-01-B3-7C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money (On Pick)">
+  <Cheat Text="金钱最大 (On Pick)">
     <Cheatline>
       <Offset>6B9F7E0</Offset>
       <Section>0</Section>

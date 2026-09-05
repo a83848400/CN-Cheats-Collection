@@ -1,12 +1,17 @@
 {
-  "name": "The Legend of Heroes: Trails of Cold Steel III",
+  "name": "The 传奇 of Heroes: Trails of Cold Steel III",
   "id": "CUSA15119",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite EP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite EP｜《Infinite》EP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12DF50",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite CP",
-      "type": "checkbox",
+      "name": "Infinite CP｜无限CP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12F15B",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Item",
-      "type": "checkbox",
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29B823",

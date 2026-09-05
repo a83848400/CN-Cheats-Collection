@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Aliens: Dark Descent" Moder="Evil Goku" Cusa="CUSA34370" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP Shield _One Hit Kill ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 盾牌 _One 命中击杀 ">
    <Cheatline>
       <Section>0</Section>
       <Offset>83A788D</Offset>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-11-83-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Section>0</Section>
       <Offset>83A7857</Offset>
@@ -42,7 +50,7 @@
       <ValueOff>41-89-86-D8-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Medic Use ">
+  <Cheat Text="Infinite 医疗兵 Use ">
     <Cheatline>
       <Section>0</Section>
       <Offset>23181F8</Offset>
@@ -50,7 +58,7 @@
       <ValueOff>FF-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items use on Mission">
+  <Cheat Text="道具无限 use on Mission">
     <Cheatline>
       <Section>0</Section>
       <Offset>83A7869</Offset>
@@ -64,7 +72,7 @@
       <ValueOff>89-74-F0-08-74-27</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Materials _ Xenosample on spend">
+  <Cheat Text="材料最大 _ Xenosample on spend">
     <Cheatline>
       <Section>0</Section>
       <Offset>83A787E</Offset>

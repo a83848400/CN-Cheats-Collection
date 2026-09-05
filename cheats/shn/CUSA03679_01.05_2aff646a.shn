@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mortal Kombat XL" Moder="sjdo" Cusa="CUSA03679" Version="01.05" Process="eboot.bin">
   <Genres Name="Puzzele" />
   <Items />
-  <Cheat Text="Kampf skip Punkte">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Kampf skip Punkte｜战斗跳过积分">
     <Cheatline>
       <Offset>7FC4BEC0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-8C-98-F4-87-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fataly Punkte">
+  <Cheat Text="Fataly Punkte｜法塔利积分">
     <Cheatline>
       <Offset>7FC4BEF0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-8C-98-F4-87-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Geld">
+  <Cheat Text="Geld｜金钱">
     <Cheatline>
       <Offset>7FC4BED0</Offset>
       <Section>0</Section>

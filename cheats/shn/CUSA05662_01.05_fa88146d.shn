@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metal Gear Solid V: The Definitive Experience" Moder="cjwine" Cusa="CUSA05662" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="INF AMMO">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>D22DA2</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>03-87-8C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="grand inf">
+  <Cheat Text="宏大的无限">
     <Cheatline>
       <Offset>25D3800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>E8-FB-11-00-00-8B-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="GOD MODE">
+  <Cheat Text="GOD MODE｜神模式">
     <Cheatline>
       <Offset>C34950</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="reload inf">
+  <Cheat Text="重新加载《Infinite》">
     <Cheatline>
       <Offset>25D380D</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>0F-42-F9-89-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="enemy you can not reach">
+  <Cheat Text="enemy you can not reach｜无法触及的敌人">
     <Cheatline>
       <Offset>136EE20</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="frezz enemy">
+  <Cheat Text="frezz enemy｜冻结敌人">
     <Cheatline>
       <Offset>40CC00</Offset>
       <Section>0</Section>

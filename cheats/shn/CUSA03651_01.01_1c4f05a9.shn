@@ -20,7 +20,15 @@
       <ValueOff>41-89-86-90-00-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>7B7800</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>7B7801</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gauge" Description="">
+  <Cheat Text="Infinite Gauge｜无限量规" Description="">
     <Cheatline>
       <Offset>1A0694</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>0F-4E-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Support Usage" Description="">
+  <Cheat Text="Infinite 辅助 Usage" Description="">
     <Cheatline>
       <Offset>1D488C</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>66-FF-4B-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown" Description="">
+  <Cheat Text="No Cooldown｜无冷却" Description="">
     <Cheatline>
       <Offset>1D5CC6</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>66-41-0F-4E-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Partner Gauge" Description="">
+  <Cheat Text="Infinite Partner Gauge｜无限伙伴量表" Description="">
     <Cheatline>
       <Offset>7B783C</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C4-C1-7A-11-4E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="">
+  <Cheat Text="Infinite Money｜金钱无限" Description="">
     <Cheatline>
       <Offset>22D7C8</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>29-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Get" Description="">
+  <Cheat Text="金钱最大 on Get" Description="">
     <Cheatline>
       <Offset>1362C8</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>0F-4C-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max XP" Description="">
+  <Cheat Text="Instant 最大 XP" Description="">
     <Cheatline>
       <Offset>1366EE</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Long Dark" Moder="LMN" Cusa="CUSA08624" Version="02.16" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="0-GO to  t.ly/Q9ogg  for the full tutorial on how to use">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="0-GO to  恐怖分子.ly/Q9ogg  for the full tutorial on how to use">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1-ENABLE ALL A/C OPIONS (recommended) OR">
+  <Cheat Text="1-ENABLE ALL A/C OPIONS (recommended) OR｜1-启用所有空调选项（推荐）或">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -265,7 +273,7 @@
       <ValueOff>C5-FA-11-43-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2-ENABLE ALL B/C OPIONS (too easy=Boring)">
+  <Cheat Text="2-ENABLE ALL B/C OPIONS (too 简单=Boring)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -701,7 +709,7 @@
       <ValueOff>C4-C1-7A-10-46-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="3-INF Health W B">
+  <Cheat Text="3-无限生命 W B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -717,7 +725,7 @@
       <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="4-INF Weight W C">
+  <Cheat Text="4-Infinite 重量 W C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -747,7 +755,7 @@
       <ValueOff>C5-FA-11-83-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="5-INF Stamina N C">
+  <Cheat Text="5-无限耐力 N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -763,7 +771,7 @@
       <ValueOff>C4-C1-7A-11-46-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="6-Durablity never decreases N A OR">
+  <Cheat Text="6-Durablity never decreases N A OR｜6-耐久度永不降低 N A 或">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -786,7 +794,7 @@
       <ValueOff>C5-FA-11-83-04-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="7-Durablity is always MAX  W R B">
+  <Cheat Text="7-Durablity is always 最大  W R B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -830,7 +838,7 @@
       <ValueOff>C4-C1-7A-10-85-04-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="8-INF Crafting  N C">
+  <Cheat Text="8-无限制作  N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -839,7 +847,7 @@
       <ValueOff>41-89-4F-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="9-INF Fire time N C">
+  <Cheat Text="9-Infinite 火 time N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -855,7 +863,7 @@
       <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="10-INF torch fire N C">
+  <Cheat Text="10-Infinite 火把 火 N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -864,7 +872,7 @@
       <ValueOff>C5-FA-11-83-BC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="11-Fire Temp always Max W B">
+  <Cheat Text="11-火 Temp always 最大 W B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -880,7 +888,7 @@
       <ValueOff>C5-FA-10-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="12-FIRE pit immune to wind N C">
+  <Cheat Text="12-火 pit immune to wind N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -889,7 +897,7 @@
       <ValueOff>C4-C1-7A-11-86-BC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="13-water never decreases N C">
+  <Cheat Text="13-水 never decreases N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -905,7 +913,7 @@
       <ValueOff>C5-FA-11-40-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="14-Charcoal never decreases N C">
+  <Cheat Text="14-木炭 never decreases N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -914,7 +922,7 @@
       <ValueOff>FF-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="15-Firewood never decreases N C">
+  <Cheat Text="15-Firewood never decreases N C｜15-柴火的数量永远不会减少 N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -923,7 +931,7 @@
       <ValueOff>89-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="16-Spray paint never decreases N C">
+  <Cheat Text="16-喷漆 喷漆 never decreases N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -939,7 +947,7 @@
       <ValueOff>C5-FA-11-80-04-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="17-Medications never decreases N C">
+  <Cheat Text="17-Medications never decreases N C｜17-药物绝不会降低N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -948,7 +956,7 @@
       <ValueOff>41-89-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="18-Oil/Antiseptic never decreases  N C">
+  <Cheat Text="18-油/Antiseptic never decreases  N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -957,7 +965,7 @@
       <ValueOff>C4-C1-7A-11-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="19-Lantern Oil never decreases N A OR">
+  <Cheat Text="19-灯笼 油 never decreases N A OR">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -966,7 +974,7 @@
       <ValueOff>C5-FA-11-43-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="20-Lantern Oil always full on ignition W B">
+  <Cheat Text="20-灯笼 油 always full on ignition W B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -982,7 +990,7 @@
       <ValueOff>C5-FA-11-43-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="21-INF Climbing N C">
+  <Cheat Text="21-无限攀登 N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -998,7 +1006,7 @@
       <ValueOff>C5-FA-11-43-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="22-NO Reload N B">
+  <Cheat Text="22-无需换弹 N B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1007,7 +1015,7 @@
       <ValueOff>44-89-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="23-INF Aim Time N C">
+  <Cheat Text="23-无限瞄准时间 N C简体中文（大陆）">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1016,7 +1024,7 @@
       <ValueOff>E8-B2-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="24-Ammo never decreases N C">
+  <Cheat Text="24-但是 never decreases N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1025,7 +1033,7 @@
       <ValueOff>FF-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="25-Arrows never decrease N C">
+  <Cheat Text="25-Arrows never decrease N C｜25-箭头数量永不减少 N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1034,7 +1042,7 @@
       <ValueOff>FF-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="26-Rocks never decreases N C">
+  <Cheat Text="26-Rocks never decreases N C｜26-Rocks 的 N C 值从未降低">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1043,7 +1051,7 @@
       <ValueOff>FF-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="27-cat tail never decreases N A">
+  <Cheat Text="27-cat tail never decreases N A｜27-猫尾永远不会减少 N A（简体中文（大陆））">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1052,7 +1060,7 @@
       <ValueOff>FF-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="28-ALL FOODs/DRINKs never decreases N B">
+  <Cheat Text="28-ALL FOODs/DRINKs never decreases N B｜28-所有食物/饮料绝不会减少 N B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1061,7 +1069,7 @@
       <ValueOff>C5-FA-11-48-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="29-99 items on get W B">
+  <Cheat Text="29-99 件商品 on get W B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1077,7 +1085,7 @@
       <ValueOff>C5-FB-10-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="30-NO More Thirst N B">
+  <Cheat Text="30-NO More 口渴 N B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1086,7 +1094,7 @@
       <ValueOff>C5-FA-11-43-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="31-NO More Hunger N B">
+  <Cheat Text="31-NO More 饥饿 N B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1095,7 +1103,7 @@
       <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="32-Never get tired or sleepy N B">
+  <Cheat Text="32-Never get tired or sleepy N B｜32-永远不要感到疲倦或困倦 N B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1120,7 +1128,7 @@
       <ValueOff>C5-FA-11-4C-82-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="34-NO More wet clothes R B">
+  <Cheat Text="34-NO More wet clothes R B｜34-再也不用穿湿衣服了 R B简体中文（大陆）">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1136,7 +1144,7 @@
       <ValueOff>C5-FA-10-6B-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="35-NO More frozen clothes R B">
+  <Cheat Text="35-NO More 冰冻 clothes R B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1152,7 +1160,7 @@
       <ValueOff>C5-FA-10-43-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="36-NO More Hypothermia RISK N B">
+  <Cheat Text="36-NO More Hypothermia RISK N B｜36-不再有低体温风险 N B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1175,7 +1183,7 @@
       <ValueOff>C4-C1-7A-10-46-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="37-NO More Cold/Hypothermia Risk W B">
+  <Cheat Text="37-NO More Cold/Hypothermia Risk W B｜37-不再有受寒/体温过低风险 W B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1191,7 +1199,7 @@
       <ValueOff>C4-C1-7A-11-46-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="38-Duplicate any Item !!! (read guide on how to use) N">
+  <Cheat Text="38-Duplicate any 物品 !!! (read guide on how to use) N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1200,7 +1208,7 @@
       <ValueOff>E8-22-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="39-Droped items do not decreases (require 2 or more) N A">
+  <Cheat Text="39-Droped items do not decreases (require 2 or more) N A｜39-掉落的物品数量不会减少（需2个或以上） N A">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1209,7 +1217,7 @@
       <ValueOff>44-29-68-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="40-Make the selected item in inventory X16 (require 1 item or more)W">
+  <Cheat Text="40-Make the selected 物品 in 背包 X16 (require 1 物品 or more)W">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1225,7 +1233,7 @@
       <ValueOff>83-7F-18-02-0F-8D-BE-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="41-INF well fed effect (from eating anything) N C">
+  <Cheat Text="41-Infinite well fed 效果 (from eating anything) N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1248,7 +1256,7 @@
       <ValueOff>C5-FA-11-43-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="42-INF Warm effect (from HOT FOODs/DRINKs) N">
+  <Cheat Text="42-Infinite Warm 效果 (from 持续治疗 FOODs/DRINKs) N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1257,7 +1265,7 @@
       <ValueOff>C5-FA-11-43-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="43-INF Improved rest effect (from HERBAL TEA) N">
+  <Cheat Text="43-Infinite Improved 休息 效果 (from HERBAL TEA) N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1266,7 +1274,7 @@
       <ValueOff>C5-FA-11-4B-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="44-INF Restore condition effect (from BIRCH BARK TEA) N">
+  <Cheat Text="44-Infinite Restore 状态 效果 (from BIRCH BARK TEA) N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1275,7 +1283,7 @@
       <ValueOff>C5-FA-11-4B-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="45-INF Fatigue reduced effect  ( from CUPS OF CUFFEE )  N C">
+  <Cheat Text="45-Infinite 疲劳 reduced 效果  ( from CUPS OF CUFFEE )  N C">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1284,7 +1292,7 @@
       <ValueOff>C5-FA-11-43-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="46-FOODs/Drinks stay hot (after cooking or heating) N C OR">
+  <Cheat Text="46-FOODs/Drinks stay 持续治疗 (after cooking or heating) N C OR">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1293,7 +1301,7 @@
       <ValueOff>C5-FA-11-83-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="47-FOODs/Drinks always hot (no need for heating cans or drinks) W B">
+  <Cheat Text="47-FOODs/Drinks always 持续治疗 (no need for heating cans or drinks) W B">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1309,7 +1317,7 @@
       <ValueOff>C5-FA-11-83-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="48-Rest/Sleep Start at 24 HRs (use with caution cz hunger will kill you) (read guide on how to use) N">
+  <Cheat Text="48-休息/睡眠 Start at 24 HRs (use with 警戒 cz 饥饿 意志 kill you) (read guide on how to use) N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1318,7 +1326,7 @@
       <ValueOff>41-8B-44-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="49-Rest/Sleep Start at 48 HRs (use with caution cz hunger will kill you) (read guide on how to use)  N">
+  <Cheat Text="49-休息/睡眠 Start at 48 HRs (use with 警戒 cz 饥饿 意志 kill you) (read guide on how to use)  N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1327,7 +1335,7 @@
       <ValueOff>41-8B-44-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="50-Rest/Sleep Start at 7 Days (use with caution cz hunger will kill you) (read guide on how to use)  N">
+  <Cheat Text="50-休息/睡眠 Start at 7 Days (use with 警戒 cz 饥饿 意志 kill you) (read guide on how to use)  N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -1336,7 +1344,7 @@
       <ValueOff>41-8B-44-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="51-Rest/Sleep Start at 100 Days (use with caution cz hunger will kill you/Max sleep time is 7 days) (read guide on how to use)  N">
+  <Cheat Text="51-休息/睡眠 Start at 100 Days (use with 警戒 cz 饥饿 意志 kill you/最大 睡眠 time is 7 days) (read guide on how to use)  N">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

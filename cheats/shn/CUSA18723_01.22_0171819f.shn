@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Elden Ring" Moder="Super Death" Cusa="CUSA18723" Version="01.22" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="God Mode ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode ｜神模式">
     <Cheatline>
       <PS5Offset>7F8-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode + OHK " Description="NPCs that attack eachother will still kill eachother">
+  <Cheat Text="神模式 + OHK " Description="NPCs that attack eachother will still kill eachother">
     <Cheatline>
       <PS5Offset>781-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode + OHK 2" Description="NPCs that attack eachother will still kill eachother. Sets All HP to 0">
+  <Cheat Text="神模式 + OHK 2" Description="NPCs that attack eachother will still kill eachother. Sets All HP to 0">
     <Cheatline>
       <PS5Offset>77D-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <PS5Offset>7DD-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite FP">
+  <Cheat Text="Infinite 专注值">
     <Cheatline>
       <PS5Offset>7C6-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Runes">
+  <Cheat Text="Infinite Runes｜符文无限">
     <Cheatline>
       <PS5Offset>7AF-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Consumables" Description="use or obtain an item">
+  <Cheat Text="Infinite Consumables｜无限消耗品" Description="use or obtain an item">
     <Cheatline>
       <PS5Offset>79A-executable[0]-5</PS5Offset>
       <Section>0</Section>

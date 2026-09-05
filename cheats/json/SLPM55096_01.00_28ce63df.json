@@ -1,12 +1,17 @@
 {
-  "name": "Thunder Force VI",
-  "id": "SLPM55096",
+  "name": "Thunder 原力 VI",
+  "id": "SLPM55096｜小型、低功耗、多协议5G",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Special ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Special ｜《无限特辑》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF2B668",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Invincibility",
-      "type": "checkbox",
+      "name": "Invincibility｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF2B6B8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF2B62C",

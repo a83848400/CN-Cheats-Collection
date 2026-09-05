@@ -6,7 +6,15 @@
   <Genres Name="Platformer" />
   <Genres Name="Puzzele" />
   <Items />
-  <Cheat Text="INF HEALTH" Description="INF HEALTH">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命" Description="INF HEALTH">
     <Cheatline>
       <Offset>36C6C9</Offset>
       <Section>14</Section>
@@ -20,7 +28,7 @@
       <ValueOff>66-89-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF INK" Description="INF INK">
+  <Cheat Text="Infinite 墨水" Description="INF INK">
     <Cheatline>
       <Offset>3DD1A0</Offset>
       <Section>14</Section>
@@ -28,7 +36,7 @@
       <ValueOff>89-50-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="NEVER LOSE INK POWER" Description="NEVER LOSE INK POWER">
+  <Cheat Text="NEVER LOSE 墨水 电力" Description="NEVER LOSE INK POWER">
     <Cheatline>
       <Offset>3DD17A</Offset>
       <Section>14</Section>
@@ -36,7 +44,7 @@
       <ValueOff>89-48-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF UPGRADE POINTS" Description="INF UPGRADE POINTS">
+  <Cheat Text="Infinite UPGRADE 得分" Description="INF UPGRADE POINTS">
     <Cheatline>
       <Offset>366B67</Offset>
       <Section>14</Section>
@@ -50,7 +58,7 @@
       <ValueOff>41-29-DA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX COINS ON PICKUP / SHOP" Description="MAX COINS ON PICKUP / SHOP">
+  <Cheat Text="最大 角落 ON PICKUP / SHOP" Description="MAX COINS ON PICKUP / SHOP">
     <Cheatline>
       <Offset>3DCA21</Offset>
       <Section>14</Section>
@@ -58,7 +66,7 @@
       <ValueOff>39-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX DEMON FANGS ON PICK UP" Description="MAX DEMON FANGS ON PICK UP">
+  <Cheat Text="最大 妖魔 FANGS ON 拾取" Description="MAX DEMON FANGS ON PICK UP">
     <Cheatline>
       <Offset>3DC8E7</Offset>
       <Section>14</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 4",
+  "name": "生化危机 4",
   "id": "CUSA33388",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite ammo item usage & crafting",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 物品 usage & crafting",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321F16A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inf cash usage",
-      "type": "checkbox",
+      "name": "无限现金的使用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34E7171",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "inf spinel when trading",
-      "type": "checkbox",
+      "name": "无限尖晶石 when 交易",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC238B5",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Relod",
-      "type": "checkbox",
+      "name": "No Relod｜非雷洛德",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3625264",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "inf gems when combining",
-      "type": "checkbox",
+      "name": "宝石无限 when combining",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC2388A",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "inf gems when remving",
-      "type": "checkbox",
+      "name": "宝石无限 when remving",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC2389D",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "save counter always 1",
-      "type": "checkbox",
+      "name": "保存 计数器 always 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC23876",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "inf key usage (trainning area and looked drawers) disable after using",
-      "type": "checkbox",
+      "name": "Infinite 钥匙 usage (trainning area and looked drawers) disable after using",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50A31CA",

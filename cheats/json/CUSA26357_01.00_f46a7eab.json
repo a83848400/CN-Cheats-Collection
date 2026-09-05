@@ -1,12 +1,17 @@
 {
-  "name": "Shadow Warrior 3",
+  "name": "暗影 战士 3",
   "id": "CUSA26357",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health / Ammo / 1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 但是 / 一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63DB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63DB831",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Ammo / No Reload (MC)",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63DB807",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Inf Finisher Gauge / Max Orbs (Master Code)",
-      "type": "checkbox",
+      "name": "Infinite 终结技 Gauge / 最大 Orbs (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63DB8B3",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Orbs (999) On Spend",
-      "type": "checkbox",
+      "name": "最大 Orbs (999) On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63DB8BA",

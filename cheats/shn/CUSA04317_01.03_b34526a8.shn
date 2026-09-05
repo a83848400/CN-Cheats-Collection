@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Elex" Moder="GamerX2" Cusa="CUSA04317" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Items">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>4BC8CA</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-4C-24-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Use Attribute/Learning Point for Max Skill and Ability">
+  <Cheat Text="Use 属性/Learning Point for 最大 Skill and 特性">
     <Cheatline>
       <Offset>1867800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>43-89-5C-AE-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items and Money On Use/Sell/Buy">
+  <Cheat Text="最大 Items and 金钱 On Use/Sell/Buy">
     <Cheatline>
       <Offset>1867800</Offset>
       <Section>0</Section>

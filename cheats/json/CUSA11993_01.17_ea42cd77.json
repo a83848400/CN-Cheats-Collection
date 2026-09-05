@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Spider-Man",
+  "name": "Marvel's 蜘蛛侠",
   "id": "CUSA11993",
   "version": "01.17",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Focus",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEF800",

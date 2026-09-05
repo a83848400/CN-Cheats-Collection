@@ -6,7 +6,15 @@
   <Genres Name="Horror" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health/Shield" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/盾牌" Description="">
     <Cheatline>
       <Offset>7562E6</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>C4-C3-79-17-5D-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>E0CBD8</Offset>
       <Section>0</Section>

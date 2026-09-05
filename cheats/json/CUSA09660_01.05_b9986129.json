@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza 6: The Song of Life",
+  "name": "如龙 6: The Song of 生活",
   "id": "CUSA09660",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AC236B",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Gauge",
-      "type": "checkbox",
+      "name": "Infinite Gauge｜无限量规",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB2D00",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DAA1C3",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Money / Skillpoints",
-      "type": "checkbox",
+      "name": "金钱最大 / 技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DA8F1E",

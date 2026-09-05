@@ -1,12 +1,17 @@
 {
-  "name": "Extinction",
+  "name": "Extinction｜灭绝",
   "id": "CUSA11687",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46D7813",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Earn SP on Spend",
-      "type": "checkbox",
+      "name": "Earn 精神值 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DF13E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max SP (999,999)",
-      "type": "checkbox",
+      "name": "最大 精神值 (999,999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46D7800",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Infinite Rune Energy",
-      "type": "checkbox",
+      "name": "最大 Infinite Rune 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46D782E",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Infinite Mission Timer (100 Mins)",
-      "type": "checkbox",
+      "name": "最大 Infinite Mission 计时器 (100 Mins)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46D7849",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Increasing Mission Timer",
-      "type": "checkbox",
+      "name": "Increasing Mission 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "281DDB",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Freeze Mission Timer",
-      "type": "checkbox",
+      "name": "Freeze Mission Timer｜冻结任务计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "281DE3",

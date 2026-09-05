@@ -1,12 +1,17 @@
 {
-  "name": "The Incredible Adventures of Van Helsing: Extended Edition",
+  "name": "The Incredible Adventures of Van Helsing: Extended Edition｜《范海辛的不可思议冒险：加长版》",
   "id": "CUSA04303",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E77A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E7A90",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stats skill points (player/Companion)",
-      "type": "checkbox",
+      "name": "Infinite 属性 skill 得分 (player/Companion)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E77D0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Special Attacks skill Points",
-      "type": "checkbox",
+      "name": "《无限特辑》 Attacks skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E7A30",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Coins (on get)",
-      "type": "checkbox",
+      "name": "最大 角落 (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E7770",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E7A60",

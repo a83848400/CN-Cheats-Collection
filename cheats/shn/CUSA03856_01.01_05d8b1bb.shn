@@ -7,7 +7,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>71240B</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>66-89-8B-68-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina/Air" Description="">
+  <Cheat Text="无限耐力/Air" Description="">
     <Cheatline>
       <Offset>712A03</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>76-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/Items" Description="">
+  <Cheat Text="无限弹药/Items" Description="">
     <Cheatline>
       <Offset>B324C4</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>0F-BF-44-47-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints" Description="">
+  <Cheat Text="最大 技能点" Description="">
     <Cheatline>
       <Offset>6A67EF</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>8B-94-08-20-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy QTE" Description="">
+  <Cheat Text="简单 快速反应事件" Description="">
     <Cheatline>
       <Offset>17CB800</Offset>
       <Section>0</Section>
@@ -77,7 +85,7 @@
       <ValueOff>C5-FA-58-4B-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Time" Description="">
+  <Cheat Text="Infinite Time｜无限时间" Description="">
     <Cheatline>
       <Offset>14A506</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>C5-FA-5C-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score" Description="">
+  <Cheat Text="最大 比分" Description="">
     <Cheatline>
       <Offset>153335</Offset>
       <Section>0</Section>
@@ -93,7 +101,7 @@
       <ValueOff>0F-46-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Combo" Description="">
+  <Cheat Text="最大 Combo" Description="">
     <Cheatline>
       <Offset>153379</Offset>
       <Section>0</Section>
@@ -107,7 +115,7 @@
       <ValueOff>41-0F-46-CC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Abilitypoints" Description="">
+  <Cheat Text="Infinite Abilitypoints｜无限能力点" Description="">
     <Cheatline>
       <Offset>6A771C</Offset>
       <Section>0</Section>

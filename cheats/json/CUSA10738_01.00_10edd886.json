@@ -1,12 +1,17 @@
 {
-  "name": "Mega Man 11",
+  "name": "洛克人 11",
   "id": "CUSA10738",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincibility ( THX to d01v )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 ( THX to d01v )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2263CB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6FBA8",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6FBB9",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Bolts",
-      "type": "checkbox",
+      "name": "Infinite Bolts｜无限螺栓",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20C2F6",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5BE9",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Rush Energy",
-      "type": "checkbox",
+      "name": "Infinite 快攻 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6FBBB",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Energy",
-      "type": "checkbox",
+      "name": "Infinite Weapon Energy｜无限武器能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A05BF",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Unlimited Gear Power",
-      "type": "checkbox",
+      "name": "Unlimited 挡位 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9F5A0",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Super Jump ( THX to d01v )",
-      "type": "checkbox",
+      "name": "超级跳跃 ( THX to d01v )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22CBE1",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Stop Timer in Challenge",
-      "type": "checkbox",
+      "name": "停止 计时器 in Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "917D0",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Max Points in Challenge",
-      "type": "checkbox",
+      "name": "最大 得分 in Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D425",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "Pacifist 0 Points Challenge",
-      "type": "checkbox",
+      "name": "Pacifist 0 得分 Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6FBA8",

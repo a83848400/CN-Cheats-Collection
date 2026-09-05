@@ -1,12 +1,17 @@
 {
-  "name": "Miraculous: Rise of the Sphinx",
+  "name": "Miraculous: Rise of the Sphinx｜《奇迹：斯芬克斯的崛起》",
   "id": "CUSA29735",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One Hit Kill ( Dont use on Boss and Item )",
-      "type": "checkbox",
+      "name": "一击必杀 ( Dont use on Boss and 物品 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BDDB",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BDE8",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Blue Orbs ( Shop - on buy )",
-      "type": "checkbox",
+      "name": "最大 Blue Orbs ( Shop - on buy )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BDFD",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Macrons ( Shop - on buy )",
-      "type": "checkbox",
+      "name": "最大 Macrons ( Shop - on buy )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BE0D",

@@ -1,12 +1,17 @@
 {
-  "name": "Baldo: The Guardian Owls",
+  "name": "Baldo: The 守护者 Owls",
   "id": "CUSA27312",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Infinite Run",
-      "type": "checkbox",
+      "name": "Infinite Run｜无限奔跑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Items Multiplier on use (dont go over 9000)",
-      "type": "checkbox",
+      "name": "物品倍率 on use (dont go over 9000)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "9999 items on sell in shop (turn off Multiplier)",
-      "type": "checkbox",
+      "name": "9999 items on sell in shop (回合 off Multiplier)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D6C50",

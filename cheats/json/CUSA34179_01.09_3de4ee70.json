@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP (CHEATS DON'T WORK ON MY RISE MODE BUT LAST ONE)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 (CHEATS DON'恐怖分子 WORK ON MY RISE MODE BUT LAST ONE)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Recovery Bar (On Gain, the bar is invisible, restart match to make it appear otherwise ignore)",
-      "type": "checkbox",
+      "name": "Infinite 后摇 Bar (On Gain, the bar is 不可见, restart 对局 to make it appear otherwise ignore)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B819",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Finisher (On Gain)",
-      "type": "checkbox",
+      "name": "Infinite 终结技 (On Gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B888",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B852",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Stun (On Gain)",
-      "type": "checkbox",
+      "name": "No Stun (On Gain)｜无眩晕（开启增益）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B86D",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Inf Out of Ring Timer",
-      "type": "checkbox",
+      "name": "Infinite Out of 戒指 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B8A3",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Inf Pin Timer",
-      "type": "checkbox",
+      "name": "Infinite Pin 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B8B6",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Inf Superstar Attribute Points (On Use)",
-      "type": "checkbox",
+      "name": "Infinite Superstar 属性 得分 (On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "397B8C7",

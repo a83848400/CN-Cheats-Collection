@@ -1,12 +1,17 @@
 {
-  "name": "Metro Exodus",
+  "name": "Metro Exodus｜《地铁：离去》",
   "id": "CUSA11407",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EF60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (-Bosses)",
-      "type": "checkbox",
+      "name": "一击必杀 (-Bosses)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EFE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Mask Filter",
-      "type": "checkbox",
+      "name": "Infinite 面具 Filter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EEA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EF90",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Infinite Pressure (Air Gun / Flamethrower)",
-      "type": "checkbox",
+      "name": "Infinite Pressure (Air Gun / 火焰喷射器)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171F040",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "No Weapon Jam",
-      "type": "checkbox",
+      "name": "No Weapon Jam｜无卡弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "578AF3",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "Infinite Bombs",
-      "type": "checkbox",
+      "name": "Infinite Bombs｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171F080",
@@ -122,8 +127,8 @@
       ]
     },
     {
-      "name": "Infinite Molotovs",
-      "type": "checkbox",
+      "name": "Infinite Molotovs｜无限莫洛托夫",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171F0B0",
@@ -138,8 +143,8 @@
       ]
     },
     {
-      "name": "Infinite Knives",
-      "type": "checkbox",
+      "name": "Infinite Knives｜无限之刃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171F110",
@@ -154,8 +159,8 @@
       ]
     },
     {
-      "name": "Infinite Cans",
-      "type": "checkbox",
+      "name": "Infinite Cans｜无限罐头",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171F0E0",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Infinite Resources (Pick Up)",
-      "type": "checkbox",
+      "name": "资源无限 (拾取)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EEC0",
@@ -186,8 +191,8 @@
       ]
     },
     {
-      "name": "No Decrease: Medkits",
-      "type": "checkbox",
+      "name": "No Decrease: Medkits｜不减少：急救包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5ED8EF",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x1 (Goggles, Torch)",
-      "type": "checkbox",
+      "name": "Infinite 电池 x1 (Goggles, 火把)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EFB0",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x2 Intensity",
-      "type": "checkbox",
+      "name": "Infinite 电池 x2 Intensity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EFB0",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x4 Intensity",
-      "type": "checkbox",
+      "name": "Infinite 电池 x4 Intensity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EFB0",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x8 Intensity",
-      "type": "checkbox",
+      "name": "Infinite 电池 x8 Intensity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171EFB0",

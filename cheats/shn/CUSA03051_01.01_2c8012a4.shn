@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Guns, Gore &amp; Cannoli" Moder="Ali-mk" Cusa="CUSA03051" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>76C-executable[0]-5</PS5Offset>
@@ -20,7 +28,7 @@
       <ValueOff>F3-45-0F-11-BE-18-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Health-One-Hit-Kill-(MC)">
+    <Cheat Text="Infinite-生命-一击必杀-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>6E1-executable[0]-5</PS5Offset>
@@ -38,7 +46,7 @@
       <ValueOff>E9-57-2C-4E-01</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Weapon">
+    <Cheat Text="Infinite-All-Weapon｜无限全武器">
     <Cheatline>
       <Offset>9DD06F</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>41-89-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="one-Hit-Kill">
+    <Cheat Text="one-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>998C89</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Remnant: From the Ashes",
+  "name": "Remnant: From the Ashes｜《余烬：浴火重生》",
   "id": "CUSA13830",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP 1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C07800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite HP 2 (Only Enable If 1 Not Work)",
-      "type": "checkbox",
+      "name": "无限血量 2 (Only Enable If 1 Not Work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C07800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83BF77",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo+No Reload",
-      "type": "checkbox",
+      "name": "无限弹药+无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B54D90",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Money+Items",
-      "type": "checkbox",
+      "name": "金钱无限+Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "94D64B",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Consumable Items",
-      "type": "checkbox",
+      "name": "Infinite Consumable Items｜无限消耗品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "941662",

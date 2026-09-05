@@ -5,7 +5,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>11FFE53</Offset>
       <Section>0</Section>
@@ -13,7 +21,7 @@
       <ValueOff>66-89-88-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP">
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>3B8F800</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C4-C1-7A-11-44-24-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Credits / Money (On buy)">
+  <Cheat Text="无限积分 / 金钱 (On buy)">
     <Cheatline>
       <Offset>3B8F82B</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>85-C9-74-1C-29-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Skillpoints">
+  <Cheat Text="无限技能点">
     <Cheatline>
       <Offset>3B8F83F</Offset>
       <Section>0</Section>

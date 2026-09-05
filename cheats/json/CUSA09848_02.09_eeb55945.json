@@ -1,12 +1,17 @@
 {
-  "name": "Biomutant",
+  "name": "Biomutant｜《Biomutant》",
   "id": "CUSA09848",
   "version": "02.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "stats points active after getting points ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "属性 得分 active after getting 得分 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34A172",

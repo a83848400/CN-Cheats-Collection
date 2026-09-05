@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ghost of Tsushima" Moder="Celogamez" Cusa="CUSA13323" Version="02.24" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>148BDB0</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <Section>0</Section>
       <ValueOn>E9-38-5F-E6-00-90-90-90</ValueOn>
       <ValueOff>C5-F8-2E-87-34-19-00-00</ValueOff>
-    </Cheatline>  </Cheat>  <Cheat Text="1 Hit Kill">
+    </Cheatline>  </Cheat>  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>148BDE6</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>C5-F8-2E-87-34-19-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ghost stance">
+  <Cheat Text="Infinite 暗影架势">
     <Cheatline>
       <Offset>148AF00</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>48-0F-44-C8-89-39</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resolve">
+  <Cheat Text="Infinite 决意">
     <Cheatline>
       <Offset>148BB40</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <Section>0</Section>
       <ValueOn>E9-A0-CF-CD-00-90-90-90</ValueOn>
       <ValueOff>C5-FA-11-87-54-43-00-00</ValueOff>
-    </Cheatline>  </Cheat>  <Cheat Text="Infinite Resources (On Pick Up)">
+    </Cheatline>  </Cheat>  <Cheat Text="资源无限 (On 拾取)">
     <Cheatline>
       <Offset>148BAA0</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>42-89-5C-A8-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Technique Points">
+  <Cheat Text="Infinite Technique 得分">
     <Cheatline>
       <Offset>148BBE0</Offset>
       <Section>0</Section>

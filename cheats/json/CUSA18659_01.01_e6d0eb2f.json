@@ -1,12 +1,17 @@
 {
-  "name": "Crysis Remastered",
+  "name": "Crysis Remastered｜《孤岛危机 重制版》",
   "id": "CUSA18659",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infi ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "176C606",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1ACAED9",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "infi health",
-      "type": "checkbox",
+      "name": "infi health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18789A2",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "infi stamina",
-      "type": "checkbox",
+      "name": "infi stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19B3E33",

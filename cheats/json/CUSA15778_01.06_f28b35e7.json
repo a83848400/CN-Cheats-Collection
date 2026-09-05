@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 6",
+  "name": "孤岛惊魂 6",
   "id": "CUSA15778",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo+No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药+无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BDE163",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C53822",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Items Never Decrease ",
-      "type": "checkbox",
+      "name": "Items Never Decrease ｜物品数量永不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F333",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F2B9",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Money Never Decrease",
-      "type": "checkbox",
+      "name": "Money Never Decrease｜金钱不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F336",

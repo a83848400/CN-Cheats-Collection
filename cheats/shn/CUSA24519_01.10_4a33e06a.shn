@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Legend of Mana" Moder="Reddevil82 - FW 9.00" Cusa="CUSA24519" Version="01.10" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Max Lucre">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Lucre">
     <Cheatline>
       <Offset>41FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>4C-89-C3-8B-79-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ( after buy )">
+  <Cheat Text="最大 Items ( after buy )">
     <Cheatline>
       <Offset>41FDD6</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>40-88-B4-01-E0-35-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Character Level">
+  <Cheat Text="最大 Character 等级">
     <Cheatline>
       <Offset>41FDE3</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>0F-B6-BC-08-50-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max HP">
+  <Cheat Text="Max HP｜生命值最大">
     <Cheatline>
       <Offset>41FDF8</Offset>
       <Section>0</Section>

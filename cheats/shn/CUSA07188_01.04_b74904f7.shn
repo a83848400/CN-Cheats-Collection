@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health/Max SP On Spend (Mastercode/Must Be On)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/最大 精神值 On Spend (主代码/Must Be On)">
     <Cheatline>
       <Offset>1C4FDB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>2B-45-C8-41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1C4FDBA</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite SP On Spend">
+  <Cheat Text="最大/Infinite 精神值 On Spend">
     <Cheatline>
       <Offset>1C4FDD2</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>16BF3B9</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>29-94-8B-E0-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>16BF3B2</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>29-94-8B-E8-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Thumper">
+  <Cheat Text="Infinite Thumper｜无限跳跳球">
     <Cheatline>
       <Offset>1C4FC00</Offset>
       <Section>0</Section>
@@ -63,7 +71,7 @@
       <ValueOff>8D-48-FF-89-0B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Damage To The Train">
+  <Cheat Text="不受伤害 To The 训练">
     <Cheatline>
       <Offset>99A0AA</Offset>
       <Section>0</Section>

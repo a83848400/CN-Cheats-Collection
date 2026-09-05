@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="United Assault: Normandy '44" Moder="Saso_9.00" Cusa="CUSA29456" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health / Stamina /Ammo (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 / 体力 /但是 (Master 密码)">
     <Cheatline>
       <Offset>56FB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-03-49-83-C3-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ammo(No reload) / Grenades / Explosive (MC)">
+  <Cheat Text="但是(无需换弹) / 手榴弹 / Explosive (MC)">
     <Cheatline>
       <Offset>56FB82D</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>EB-EB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Speed (Master Code)">
+  <Cheat Text="Player 速度 (Master 密码)">
     <Cheatline>
       <Offset>56FB83F</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>40-08-F1-41-88-0C-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Speed (MC)">
+  <Cheat Text="速度×2 (MC)">
     <Cheatline>
       <Offset>56FB85B</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>41-C6-47-06-43</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Normal Speed (MC)">
+  <Cheat Text="普通 速度 (MC)">
     <Cheatline>
       <Offset>56FB85B</Offset>
       <Section>1</Section>

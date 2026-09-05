@@ -1,13 +1,18 @@
 {
-  "name": "Marvel's Spider-Man: Miles Morales",
+  "name": "Marvel's 蜘蛛侠: 迈尔斯·莫拉莱斯",
   "id": "PPSA01461",
   "version": "01.013.002",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F0D437",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB048",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Hab Points",
+      "name": "无限家园 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB07D",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Easy Combo",
+      "name": "简单 Combo",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB0AC",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F1BD61",
@@ -107,9 +112,9 @@
       ]
     },
     {
-      "name": "Inf Venon",
+      "name": "无限胜利",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E0F0A",
@@ -119,9 +124,9 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "God Mode｜神模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1EE4810",

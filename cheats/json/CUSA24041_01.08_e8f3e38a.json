@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Vanguard",
+  "name": "使命召唤: 先锋",
   "id": "CUSA24041",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1125167",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Zombie Mode)",
-      "type": "checkbox",
+      "name": "无限生命 (僵尸 Mode)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "159A96A",

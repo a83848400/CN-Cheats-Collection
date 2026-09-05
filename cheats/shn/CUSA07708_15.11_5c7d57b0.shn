@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Monster Hunter: World" Moder="d01v" Cusa="CUSA07708" Version="15.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="HP + Invincible (pick ancient potion)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="手机 + 无敌 (pick 远古秘药)">
     <Cheatline>
       <Offset>438580A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-5D-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina">
+  <Cheat Text="Stamina｜体力">
     <Cheatline>
       <Offset>4386BC0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-5D-40-6C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Summon Next Matz / Jewel">
+  <Cheat Text="Summon Next Matz / 珠宝">
     <Cheatline>
       <Offset>61D0530</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-8B-76-08-48-89-DF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x30 Matz">
+  <Cheat Text="x30 Matz｜三十块马茨">
     <Cheatline>
       <Offset>61D05E0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>44-89-FE-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x5 Item Pouch">
+  <Cheat Text="x5 物品 皮袋">
     <Cheatline>
       <Offset>61D0570</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>48-8D-9C-01-60-80-03-00-8B-4B-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sharpness">
+  <Cheat Text="Sharpness｜斩味">
     <Cheatline>
       <Offset>494B8A4</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>0F-4E-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Capture">
+  <Cheat Text="简单 捕获">
     <Cheatline>
       <Offset>61D07D0</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>C5-FA-11-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>61D0600</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>C5-FA-10-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill All Instantly (all area)">
+  <Cheat Text="杀光所有 Instantly (all area)">
     <Cheatline>
       <Offset>61D0620</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>C5-FA-11-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Extract Effect (Insect Glaive)">
+  <Cheat Text="Extract 效果 (操虫棍)">
     <Cheatline>
       <Offset>61D0590</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>C4-C1-7A-10-84-84-A8-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Insect Glave Stamina">
+  <Cheat Text="Insect Glave 体力">
     <Cheatline>
       <Offset>61D05C0</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C5-F8-55-C1-C5-FA-11-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Phial + Max (Charge Blade)">
+  <Cheat Text="Infinite Phial + 最大 (盾斧)">
     <Cheatline>
       <Offset>61D0640</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>41-8B-84-24-B4-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Over Heat (Switch Axe)">
+  <Cheat Text="No Over 热 (斩击斧)">
     <Cheatline>
       <Offset>61D0670</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>C5-F0-57-C9-C5-F8-2E-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite + Max Element Charge (Switch Axe)">
+  <Cheat Text="Infinite + 最大 Element 冲锋 (斩击斧)">
     <Cheatline>
       <Offset>61D06A0</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>C4-C1-7A-58-8E-9C-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite + Max Shell (Gunlance)">
+  <Cheat Text="Infinite + 最大 贝壳 (铳枪)">
     <Cheatline>
       <Offset>61D06D0</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>41-89-86-AC-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wyrmstake Cannon No Over Heat (Gunlance)">
+  <Cheat Text="Wyrmstake Cannon No Over 热 (铳枪)">
     <Cheatline>
       <Offset>392B418</Offset>
       <Section>0</Section>
@@ -202,7 +210,7 @@
       <ValueOff>41-FF-8E-B8-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wyrmstake Blast (w/o stone / Gunlance)">
+  <Cheat Text="Wyrmstake Blast (w/o stone / 铳枪)">
     <Cheatline>
       <Offset>61D06F0</Offset>
       <Section>0</Section>
@@ -216,7 +224,7 @@
       <ValueOff>C5-FA-10-83-68-24-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Spirit Blade (Long Sword)">
+  <Cheat Text="最大 精魄 异刃 (太刀)">
     <Cheatline>
       <Offset>61D0720</Offset>
       <Section>0</Section>
@@ -230,7 +238,7 @@
       <ValueOff>41-8B-82-B0-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite + Max Spirit Blade Gauge (Long Sword)">
+  <Cheat Text="Infinite + 最大 精魄 异刃 Gauge (太刀)">
     <Cheatline>
       <Offset>61D0750</Offset>
       <Section>0</Section>
@@ -244,7 +252,7 @@
       <ValueOff>C4-C1-7A-10-8A-A8-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Natural Fuel x400 (Steam Works)">
+  <Cheat Text="Natural Fuel x400 (Steam Works)｜天然燃料 x400（蒸汽工坊）">
     <Cheatline>
       <Offset>61D0780</Offset>
       <Section>0</Section>
@@ -258,7 +266,7 @@
       <ValueOff>8B-94-08-BC-2F-10-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stored Fuel 9999 (Steamworks)">
+  <Cheat Text="Stored Fuel 9999 (Steamworks)｜储存的燃料 9999（Steamworks）">
     <Cheatline>
       <Offset>61D07A0</Offset>
       <Section>0</Section>

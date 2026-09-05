@@ -1,12 +1,17 @@
 {
-  "name": "The Suffering",
+  "name": "The Suffering｜《苦难》",
   "id": "SLUS20636",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Health-Kits+Flashlight",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命-Kits+手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE839C0",
@@ -15,8 +20,8 @@
         },
         {
           "offset": "80807AE348",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "80807AE349",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Inf-Ammo-No-Reload",
-      "type": "checkbox",
+      "name": "无限弹药-无需装弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80807AE348",

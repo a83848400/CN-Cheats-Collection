@@ -1,12 +1,17 @@
 {
-  "name": "Ghost Song",
+  "name": "幽灵 Song",
   "id": "CUSA33533",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BDE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BE40",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BE70",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Nanogel",
-      "type": "checkbox",
+      "name": "最大/Infinite Nanogel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BB50",

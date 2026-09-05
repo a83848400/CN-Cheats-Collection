@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil Village" Moder="LMN" Cusa="CUSA18017" Version="01.11" Process="eboot.bin">
   <Genres Name="Action" />
-  <Cheat Text="Inf ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Section>1</Section>
       <Offset>3124CF6</Offset>
@@ -9,7 +17,7 @@
       <ValueOff>E8-45-80-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf crafting matirials">
+  <Cheat Text="无限制作 matirials">
     <Cheatline>
       <Section>1</Section>
       <Offset>54AB9F1</Offset>
@@ -17,7 +25,7 @@
       <ValueOff>E8-4A-13-C7-FD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf white flower and First Aid Med usage ">
+  <Cheat Text="Infinite white flower and First Aid Med usage ">
     <Cheatline>
       <Section>1</Section>
       <Offset>62C04DA</Offset>
@@ -25,7 +33,7 @@
       <ValueOff>FF-90-70-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Pipe Bombs">
+  <Cheat Text="无限管道炸弹">
     <Cheatline>
       <Section>1</Section>
       <Offset>3110583</Offset>

@@ -1,12 +1,17 @@
 {
-  "name": "Dynasty Warriors 9",
+  "name": "真三国无双 9",
   "id": "CUSA10421",
   "version": "01.32",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money (On Spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1647DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Items And Arrows (On Use and Sell)",
-      "type": "checkbox",
+      "name": "最大 Items And Arrows (On Use and Sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1647F50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Upgrade points (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Upgrade 得分 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1647F20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Player and Horse Stamina",
-      "type": "checkbox",
+      "name": "Infinite Player and Horse 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20ECF1",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Musou",
-      "type": "checkbox",
+      "name": "Infinite 无双",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

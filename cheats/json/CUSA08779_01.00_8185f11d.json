@@ -1,12 +1,17 @@
 {
-  "name": "Dishonored: Death of the Outsider",
+  "name": "Dishonored: 死亡 of the Outsider",
   "id": "CUSA08779",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32EE820",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18675A2",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C1A966",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Items/Ammo",
-      "type": "checkbox",
+      "name": "道具无限/但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "891C3120",

@@ -1,12 +1,17 @@
 {
-  "name": "Tesla Force",
+  "name": "Tesla 原力",
   "id": "CUSA25372",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3E00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3D30",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Nova",
-      "type": "checkbox",
+      "name": "Infinite Nova｜无限新",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3CF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Alot of Crystals (on gain)",
-      "type": "checkbox",
+      "name": "Alot of Crystals (on gain)｜大量水晶（增益效果）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3E30",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Alot of Energy Cells (on gain)",
-      "type": "checkbox",
+      "name": "Alot of 能量电池 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3E70",

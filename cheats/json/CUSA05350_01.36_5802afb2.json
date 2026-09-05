@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball: Xenoverse 2",
+  "name": "龙珠: Xenoverse 2",
   "id": "CUSA05350",
   "version": "01.36",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AE3DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AE3DB5",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Stamina",
-      "type": "checkbox",
+      "name": "最大/无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AE3850",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ki",
-      "type": "checkbox",
+      "name": "最大/无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AE3800",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Zeni",
-      "type": "checkbox",
+      "name": "最大/无限泽尼",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "872FFF",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max/Infinite TP On Activation",
-      "type": "checkbox",
+      "name": "最大/无限TP On Activation",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AE38B0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Attribute Points (Activate/Exit/Enter)",
-      "type": "checkbox",
+      "name": "最大/Infinite 属性 得分 (Activate/退出/Enter)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AE30F0",

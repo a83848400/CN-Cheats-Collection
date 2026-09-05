@@ -1,12 +1,17 @@
 {
-  "name": "Bloodstained: Ritual of the Night",
+  "name": "Bloodstained: 仪式 of the 夜晚",
   "id": "CUSA07953",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite MP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Gold On Gain",
-      "type": "checkbox",
+      "name": "金币最大 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A09C",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Gold On Spend",
-      "type": "checkbox",
+      "name": "金币最大 On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A104",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Items On Buy/Gain",
-      "type": "checkbox",
+      "name": "最大 Items On Buy/Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "253F30",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Items And Materials",
-      "type": "checkbox",
+      "name": "道具无限 And Materials",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25799D",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Items And Materials On Use/Sell",
-      "type": "checkbox",
+      "name": "最大 Items And Materials On Use/Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A0AF",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Freeze PlayTime",
-      "type": "checkbox",
+      "name": "Freeze PlayTime｜暂停“PlayTime”",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A0D0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Rest PlayTime",
-      "type": "checkbox",
+      "name": "休息 PlayTime",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A0E9",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Boost EXP",
-      "type": "checkbox",
+      "name": "Boost 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A037",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Extra EXP",
-      "type": "checkbox",
+      "name": "Extra 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A046",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Even More EXP",
-      "type": "checkbox",
+      "name": "Even More 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A055",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Lots Of EXP",
-      "type": "checkbox",
+      "name": "Lots Of 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A067",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Hella EXP",
-      "type": "checkbox",
+      "name": "Hella 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A079",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "EXP OVERLORD | MAX LEVEL",
-      "type": "checkbox",
+      "name": "经验 OVERLORD | 等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "701A08B",

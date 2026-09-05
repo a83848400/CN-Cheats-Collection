@@ -1,12 +1,17 @@
 {
-  "name": "Star Wars Jedi: Fallen Order",
+  "name": "星球大战绝地: Fallen Order",
   "id": "CUSA12529",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "616B000",

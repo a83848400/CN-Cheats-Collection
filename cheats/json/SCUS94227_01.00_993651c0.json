@@ -1,12 +1,17 @@
 {
-  "name": "MediEvil",
-  "id": "SCUS94227",
+  "name": "MediEvil｜《MediEvil》",
+  "id": "SCUS94227｜打扰一下，对不起",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "130F25",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-Weapon｜无限武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1493E1",

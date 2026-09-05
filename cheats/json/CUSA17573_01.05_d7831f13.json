@@ -1,12 +1,17 @@
 {
-  "name": "Fairy Tail",
+  "name": "妖精 Tail",
   "id": "CUSA17573",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP / MP/1Hit",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 / MP/1Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A19EB",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Max Money (on gain)",
-      "type": "checkbox",
+      "name": "金钱最大 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F040",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "All Item x999 (on gain have 1 at least)",
-      "type": "checkbox",
+      "name": "All 物品 x999 (on gain have 1 at least)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F060",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Max Rank points (on spend)",
-      "type": "checkbox",
+      "name": "最大 阶级 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F090",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EBF0",

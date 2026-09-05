@@ -1,12 +1,17 @@
 {
-  "name": "Kingdoms of Amalur: Re-Reckoning",
+  "name": "Kingdoms of Amalur: Re-Reckoning｜《阿玛鲁尔王国：再战》",
   "id": "CUSA17245",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (deactivate to destroy boxes)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (deactivate to 拆除 boxes)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EE30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max coins(on gain deactivate health first)",
-      "type": "checkbox",
+      "name": "最大 角落(on gain deactivate 生命 first)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E830",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "10 items (on sell)",
-      "type": "checkbox",
+      "name": "10 items (on sell)｜10件商品（正在促销）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EA30",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Equipment Max Durability",
-      "type": "checkbox",
+      "name": "装备 最大 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F980",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A52E6C",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "max Items (on use)",
-      "type": "checkbox",
+      "name": "最大 Items (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F9C0",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Instant Fate recharge (after being all used)",
-      "type": "checkbox",
+      "name": "Instant Fate recharge (after being all used)｜“即时命运”能量恢复（用完后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA4020",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Fate Instant Recharge (on killing enemies)",
-      "type": "checkbox",
+      "name": "Fate 瞬间冷却 (on killing enemies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA4070",

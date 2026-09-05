@@ -19,7 +19,15 @@
       <ValueOff>C4-C1-7A-5C-0F</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1D1781F</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic" Description="">
+  <Cheat Text="Infinite 魔法" Description="">
     <Cheatline>
       <Offset>1D17820</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>1D17821</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Infinite Health" Description="">
+  <Cheat Text="Enemy Infinite Health｜敌人无限生命" Description="">
     <Cheatline>
       <Offset>1D17822</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>1D17822</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Enemy Magic" Description="">
+  <Cheat Text="No Enemy 魔法" Description="">
     <Cheatline>
       <Offset>1D17823</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Enemy Stamina" Description="">
+  <Cheat Text="No Enemy 体力" Description="">
     <Cheatline>
       <Offset>1D17824</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>13EB9F</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>41-29-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Move" Description="">
+  <Cheat Text="最大 Items on 招式" Description="">
     <Cheatline>
       <Offset>1D17800</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>41-89-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Talentpoints" Description="">
+  <Cheat Text="Infinite Talentpoints｜无限天赋点" Description="">
     <Cheatline>
       <Offset>A6DA3B</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>88-88-31-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Talentpoints" Description="">
+  <Cheat Text="最大 Talentpoints" Description="">
     <Cheatline>
       <Offset>1D1790F</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>0F-B6-98-31-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items" Description="">
+  <Cheat Text="最大 Items" Description="">
     <Cheatline>
       <Offset>1D1780F</Offset>
       <Section>0</Section>
@@ -133,7 +141,7 @@
       <ValueOff>41-8B-46-10-85-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Legendary" Description="">
+  <Cheat Text="最大 传说宝可梦" Description="">
     <Cheatline>
       <Offset>1D178D0</Offset>
       <Section>0</Section>
@@ -147,7 +155,7 @@
       <ValueOff>8B-84-B0-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level" Description="">
+  <Cheat Text="Max Level｜等级最大" Description="">
     <Cheatline>
       <Offset>1D178E5</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>0F-B7-47-10-F6-47-08-80</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats" Description="">
+  <Cheat Text="最大 属性" Description="">
     <Cheatline>
       <Offset>1D178F8</Offset>
       <Section>0</Section>

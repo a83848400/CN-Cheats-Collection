@@ -1,13 +1,18 @@
 {
-  "name": "Dying Light: The Following: Enhanced Edition",
+  "name": "Dying Light: The Following: Enhanced Edition｜《消逝的光芒：追随者：增强版》",
   "id": "CUSA03991",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E659DE",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F87602",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9FCB31",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9FCF76",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Infinite Grappling Hook Stamina",
+      "name": "Infinite 抓钩 体力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1036FD8",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Freeze Part / Item Count",
-      "hint": "This option can be used to duplicate items by enabling it and, dropping items, disabling it and picking the items back up.",
-      "type": "checkbox",
+      "name": "Freeze Part / 物品 Count",
+      "hint": "This option can be used to duplicate items by enabling it and, dropping items, disabling it and picking the items back up.｜启用此选项后，将物品拖放至指定位置，然后禁用该选项并重新拾起物品，即可复制这些物品。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9FCB3B",
@@ -77,9 +82,9 @@
       ]
     },
     {
-      "name": "Max Money",
-      "hint": "Pickup money to max it out.",
-      "type": "button",
+      "name": "Max Money｜金钱最大",
+      "hint": "Pickup 金钱 to 最大 it out.",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "F86B8F",
@@ -89,9 +94,9 @@
       ]
     },
     {
-      "name": "Max XP",
-      "hint": "Earn xp for each category once to max it out.",
-      "type": "button",
+      "name": "最大 XP",
+      "hint": "Earn xp for each category once to 最大 it out.",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "EE36BA",

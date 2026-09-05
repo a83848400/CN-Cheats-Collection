@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Asterix &amp; Obelix XXL: Romastered" Moder="fbin" Cusa="CUSA19541" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>8B251A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>88-48-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Elixir Magico Infinito">
+  <Cheat Text="灵药 Magico Infinito">
     <Cheatline>
       <Offset>1007E60</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-80-AC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Capacetes Infinito">
+  <Cheat Text="Capacetes Infinito｜Infinito头盔">
     <Cheatline>
       <Offset>1044CA0</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-83-AC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Coroa Romana Infinita">
+  <Cheat Text="Coroa Romana Infinita｜无尽的罗马王冠">
     <Cheatline>
       <Offset>1019AB0</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>0F-B6-C8-FE-44-0A-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tocha de Fogo Infinita">
+  <Cheat Text="Tocha de Fogo Infinita｜无限之火火炬">
     <Cheatline>
       <Offset>679958</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Prey",
+  "name": "Prey｜猎物",
   "id": "CUSA06560",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A34B01",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B94599",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1418970",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "2x Duplicate Items After Use",
-      "type": "checkbox",
+      "name": "2x Duplicate Items After Use｜使用后出现2个重复项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1418970",

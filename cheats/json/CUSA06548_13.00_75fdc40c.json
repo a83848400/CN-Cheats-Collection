@@ -1,12 +1,17 @@
 {
-  "name": "Cities: Skylines: PlayStation 4 Edition",
+  "name": "Cities: Skylines: PlayStation 4 Edition｜《城市：天际线》PlayStation 4 版",
   "id": "CUSA06548",
   "version": "13.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Money (Unlock Loans Before)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/金钱无限 (解锁 Loans Before)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F800",

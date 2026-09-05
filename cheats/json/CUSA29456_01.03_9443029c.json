@@ -1,12 +1,17 @@
 {
-  "name": "United Assault: Normandy '44",
+  "name": "United Assault: 诺曼底号 '44",
   "id": "CUSA29456",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health / Stamina /Ammo (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 体力 /但是 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56FB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Ammo(No reload) / Grenades / Explosive (MC)",
-      "type": "checkbox",
+      "name": "但是(无需换弹) / 手榴弹 / Explosive (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56FB82D",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Player Speed (Master Code)",
-      "type": "checkbox",
+      "name": "Player 速度 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56FB83F",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "x2 Speed (MC)",
-      "type": "checkbox",
+      "name": "速度×2 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56FB85B",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Rabbit Speed (MC)",
-      "type": "checkbox",
+      "name": "Rabbit 速度 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56FB85B",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Normal Speed (MC)",
-      "type": "checkbox",
+      "name": "普通 速度 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

@@ -1,12 +1,17 @@
 {
-  "name": "Minecraft: PlayStation 4 Edition",
+  "name": "我的世界: PlayStation 4 Edition",
   "id": "CUSA00283",
   "version": "02.64",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "\uD83D\uDD1DMultijump\uD83D\uDD1D",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "🔝Multijump🔝｜🔝多跳🔝",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "177AE50",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "➡️Jump Foward x4➡️",
-      "type": "checkbox",
+      "name": "➡️Jump Foward x4➡️｜➡️向前跳过4次➡️",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85013C4",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "➡️Jump Foward x2➡️",
-      "type": "checkbox",
+      "name": "➡️Jump Foward x2➡️｜➡️向前跳过 x2➡️",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85013C4",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "⚔️Unfair Attack⚔️",
-      "type": "checkbox",
+      "name": "⚔️Unfair 攻击⚔️",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8500E43",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "⚔️Antiknockback⚔️",
-      "type": "checkbox",
+      "name": "⚔️Antiknockback⚔️｜⚔️防后坐⚔️",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4532D10",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "❤️Godmode❤️",
-      "type": "checkbox",
+      "name": "❤️上帝模式❤️",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB9614F",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "\uD83C\uDF56Infinite Food\uD83C\uDF56",
-      "type": "checkbox",
+      "name": "🍖食物无限🍖",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB96166",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "\uD83D\uDE24Infinite Oxygen\uD83D\uDE24",
-      "type": "checkbox",
+      "name": "😤无限氧气😤",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B8E55",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "♾️Infinite Max Items♾️",
-      "type": "checkbox",
+      "name": "♾️Infinite 最大 Items♾️",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB9617F",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "♾️Infinite Items♾️",
-      "type": "checkbox",
+      "name": "♾️道具无限♾️",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB96196",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "\uD83D\uDD34Change Specified Colour To Red\uD83D\uDD34",
-      "type": "checkbox",
+      "name": "🔴Change Specified Colour To Red🔴｜🔴将指定颜色更改为红色🔴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B351D20",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "\uD83D\uDFE2Change Specified Colour To Green\uD83D\uDFE2",
-      "type": "checkbox",
+      "name": "🟢Change Specified Colour To Green🟢｜🟢将指定颜色更改为绿色🟢",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B351D24",
@@ -157,8 +162,8 @@
       ]
     },
     {
-      "name": "\uD83D\uDD35Change Specified Colour To Blue\uD83D\uDD35",
-      "type": "checkbox",
+      "name": "🔵Change Specified Colour To Blue🔵｜🔵将指定颜色改为蓝色🔵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B351D28",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "\uD83D\uDD35Set Entity Colour Aqua\uD83D\uDD35",
-      "type": "checkbox",
+      "name": "🔵Set Entity Colour Aqua🔵｜🔵将实体颜色设为水蓝色🔵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B351DB0",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "\uD83D\uDFE2Set Entity Colour Green\uD83D\uDFE2",
-      "type": "checkbox",
+      "name": "🟢Set Entity Colour Green🟢｜🟢将实体颜色设为绿色🟢",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B351DB0",
@@ -190,8 +195,8 @@
       ]
     },
     {
-      "name": "⚫Set Entity Colour Black⚫",
-      "type": "checkbox",
+      "name": "⚫Set Entity Colour 黑色⚫",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B351DB0",
@@ -202,6 +207,6 @@
     }
   ],
   "credits": [
-    "\uD83D\uDD25MELTED NINJA\uD83D\uDD25"
+    "🔥MELTED NINJA🔥"
   ]
 }

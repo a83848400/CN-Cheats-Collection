@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball: Xenoverse",
+  "name": "龙珠: Xenoverse",
   "id": "CUSA01341",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Zeni on Buy/Sell",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Zeni on Buy/Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Points on Spend",
-      "type": "checkbox",
+      "name": "最大 得分 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "439380F",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max LVL/EXP on Gain",
-      "type": "checkbox",
+      "name": "最大 LVL/经验 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "439381E",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Items on Buy When Refreshed",
-      "type": "checkbox",
+      "name": "最大 Items on Buy When Refreshed",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393870",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "439387F",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Ki",
-      "type": "checkbox",
+      "name": "Infinite Ki｜无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393842",
@@ -121,8 +126,8 @@
       ]
     },
     {
-      "name": "Max Stamina When Gained",
-      "type": "checkbox",
+      "name": "体力最大 When Gained",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393894",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21B1BE",

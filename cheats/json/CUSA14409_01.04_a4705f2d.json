@@ -1,12 +1,17 @@
 {
-  "name": "Castle Crashers Remastered",
+  "name": "城堡 Crashers Remastered",
   "id": "CUSA14409",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Experience/Coins (kill an enemy go to map activate cheat restart game)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Experience/角落 (kill an enemy go to 地图 activate cheat restart game)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183980",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Skill points(turn on in stats upgrade turn off and repeat)",
-      "type": "checkbox",
+      "name": "最大 Skill 得分(回合 on in 属性 upgrade 回合 off and repeat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1839C0",

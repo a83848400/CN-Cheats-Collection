@@ -1,12 +1,17 @@
 {
-  "name": "Pillars of Eternity: Complete Edition",
+  "name": "Pillars of Eternity: Complete Edition｜《永恒之柱：完全版》",
   "id": "CUSA06880",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health and Endurance",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 and 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11CD223",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11CD266",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Duplicate Item by 5 (move item to item / split / stash)",
-      "type": "checkbox",
+      "name": "Duplicate 物品 by 5 (招式 物品 to 物品 / split / stash)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11CD279",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Gold (buy)",
-      "type": "checkbox",
+      "name": "金币最大 (buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11CD28E",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Attributes 950 (hero creation / Shop Re Train hero)",
-      "type": "checkbox",
+      "name": "Attributes 950 (英雄 creation / Shop Re 训练 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11CD29C",

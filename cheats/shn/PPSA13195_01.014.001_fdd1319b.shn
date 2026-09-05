@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Stellar Blade" Moder="Yharnam &amp; baobao8888汉化" Cusa="PPSA13195" Version="01.014.001" Process="eboot.bin">
   <Genres Name="Action" />
   <Items /> 
-  <Cheat Text="1 Hit Kill - 一击秒杀">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="一击必杀 - 一击秒杀">
     <Cheatline>      
       <Section>0</Section>
       <Offset>57F0600</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-DA-58-8D-8C-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Untouchable - 无敌状态">
+  <Cheat Text="刀枪不入 - 无敌状态">
     <Cheatline>      
       <Section>0</Section>
       <Offset>57F0500</Offset>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-10-88-38-01-00-00-48-8B-50-60</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Infi Health - 无限生命值">
+  <Cheat Text="无限生命 - 无限生命值">
     <Cheatline>      
       <Section>0</Section>
       <Offset>57F0400</Offset>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-11-83-1C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>    
-  <Cheat Text="Infi Beta Energy - 无限贝塔能量">
+  <Cheat Text="Infinite Beta 能量 - 无限贝塔能量">
     <Cheatline>      
       <Section>0</Section>
       <Offset>2DE3A2B</Offset>
@@ -64,7 +72,7 @@
       <ValueOff>0F-4C-C8</ValueOff>
     </Cheatline>  			
   </Cheat>  
-  <Cheat Text="Infi Shield - 无限护盾">
+  <Cheat Text="无限护盾 - 无限护盾">
     <Cheatline>      
       <Section>0</Section>
       <Offset>2DE373D</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>C5-FA-11-83-34-01-00-00</ValueOff>
     </Cheatline>  			
   </Cheat>  
-  <Cheat Text="Infi Combat Consumables - 无限战斗消耗品">
+  <Cheat Text="《无限战斗》消耗品 - 无限战斗消耗品">
     <Cheatline>      
       <Section>0</Section>
       <Offset>DD79A6</Offset>
@@ -80,7 +88,7 @@
       <ValueOff>44-89-F3-44-29-F0</ValueOff>
     </Cheatline>  			
   </Cheat>
-  <Cheat Text="Max Money - 金钱最大">
+  <Cheat Text="金钱最大 - 金钱最大">
     <Cheatline>      
       <Section>0</Section>
       <Offset>2EEACF5</Offset>
@@ -88,7 +96,7 @@
       <ValueOff>41-8B-4D-64-8B-95-40-FF-FF-FF-01-D1-41-89-4D-64-41-8B-75-68-01-D6-41-89-75-68</ValueOff>
     </Cheatline>  			
   </Cheat>
-  <Cheat Text="Max Skill Points (on use) - 使用后技能点拉满">
+  <Cheat Text="最大 Skill 得分 (on use) - 使用后技能点拉满">
     <Cheatline>      
       <Section>0</Section>
       <Offset>B1AC8B</Offset>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil: Code: Veronica X" Moder="Saso_9.00" Cusa="CUSA07104" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health/ Timer/Save / No Retries (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/ 计时器/保存 / No Retries (Master 密码)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>8A-04-18-0F-B6-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="( Magnum Cheat Will Remove Slot1 Item) ">
+  <Cheat Text="( Magnum Cheat Will Remove Slot1 Item) ｜(马格南作弊会清空一号槽位物品)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Clear (Sart With Magnum)+ Inf Ammo">
+  <Cheat Text="Clear (Sart With Magnum)+ 无限弹药">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Chris (Sart With Magnum)+ Inf Ammo">
+  <Cheat Text="Chris (Sart With Magnum)+ 无限弹药">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Steve (Sart With Magnum)+ Inf Ammo">
+  <Cheat Text="史蒂夫 (Sart With Magnum)+ 无限弹药">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wesker (Sart With Magnum)+ Inf Ammo">
+  <Cheat Text="威斯克 (Sart With Magnum)+ 无限弹药">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -63,7 +71,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Items In Chest + (Inf Ammo)">
+  <Cheat Text="所有商品 In 宝箱 + (无限弹药)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Extras">
+  <Cheat Text="解锁 All Extras">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have No More Than 10% Health (MC)">
+  <Cheat Text="Have No More Than 10% 生命 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>C6-00-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have No More Than 28% Health (MC)">
+  <Cheat Text="Have No More Than 28% 生命 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>C6-00-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have No More Than 50% Health (MC)">
+  <Cheat Text="Have No More Than 50% 生命 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>C6-00-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have No More Than 75% Health (MC)">
+  <Cheat Text="Have No More Than 75% 生命 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>C6-00-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have A Low Game Timer (MC)">
+  <Cheat Text="Have A Low Game 计时器 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>90-90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always 1st Save (MC)">
+  <Cheat Text="永远第一名 保存 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -135,7 +143,7 @@
       <ValueOff>90-90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Retries (MC)">
+  <Cheat Text="No Retries (MC)｜不允许重试（MC）">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Power Rangers: Battle for the Grid",
+  "name": "电力 Rangers: 战斗 for the Grid",
   "id": "CUSA15145",
   "version": "01.22",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / Super / Easy Win (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / Super / 简单 Win (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18ECC00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Easy Win (MC)",
-      "type": "checkbox",
+      "name": "简单 Win (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18ECC18",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Super On Use (MC)-1",
-      "type": "checkbox",
+      "name": "最大 Super On Use (MC)-1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18ECC09",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Enemy Super 0 On Use (MC)-2",
-      "type": "checkbox",
+      "name": "Enemy Super 0 On Use (MC)-2｜敌人超级技能 0 激活时 (MC)-2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18ECC78",

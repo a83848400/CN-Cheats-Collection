@@ -1,12 +1,17 @@
 {
-  "name": "MOBILE SUIT GUNDAM EXTREME VS. MAXIBOOST ON",
+  "name": "机动战士 高达 EXTREME VS. MAXIBOOST ON",
   "id": "CUSA18683",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111FC90",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Boost",
-      "type": "checkbox",
+      "name": "Infinite Boost｜无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111F5E0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max EX Filll (on hit)",
-      "type": "checkbox",
+      "name": "最大 EX Filll (on hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111F360",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max GP (on spend)",
-      "type": "checkbox",
+      "name": "最大 GP金币 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111FAE0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Ranged attack 1 (might not work for certain Gundams)",
-      "type": "checkbox",
+      "name": "Infinite 远程 攻击 1 (might not work for certain Gundams)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111F8A0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Ranged attack 2 (might not work for certain Gundams)",
-      "type": "checkbox",
+      "name": "Infinite 远程 攻击 2 (might not work for certain Gundams)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111F8D0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Ranged attack 3 (might not work for certain Gundams)",
-      "type": "checkbox",
+      "name": "Infinite 远程 攻击 3 (might not work for certain Gundams)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111F900",

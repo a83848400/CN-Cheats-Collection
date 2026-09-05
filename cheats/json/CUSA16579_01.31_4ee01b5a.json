@@ -1,12 +1,17 @@
 {
-  "name": "Cyberpunk 2077",
+  "name": "Cyberpunk 2077｜赛博朋克2077",
   "id": "CUSA16579",
   "version": "01.31",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B475A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money/Ammo/Med Kit/Craft Res",
-      "type": "checkbox",
+      "name": "金钱最大/但是/Med Kit/Craft Res",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B473C0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B47370",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Attribute / Perks Points / CB-Points (On Spend)",
-      "type": "checkbox",
+      "name": "最大 属性 / Perks 得分 / CB-得分 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B47400",

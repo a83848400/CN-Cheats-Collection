@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Grand Theft Auto III - The Definitive Edition" Moder="2pt" Cusa="CUSA26613" Version="01.06" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>1193EDF</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-4D-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>1193EC5</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-45-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Vehicle Collision Damage">
+  <Cheat Text="No Vehicle Collision 输出">
     <Cheatline>
       <Offset>1161BA6</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-83-28-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health (player and npc)">
+  <Cheat Text="无限生命 (player and 非玩家角色)">
     <Cheatline>
       <Offset>10EAF95</Offset>
       <Section>0</Section>

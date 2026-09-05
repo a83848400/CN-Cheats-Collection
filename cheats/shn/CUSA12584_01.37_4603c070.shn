@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light 2: Stay Human" Moder="Celogamez" Cusa="CUSA12584" Version="01.37" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>61FBDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina/Breath">
+  <Cheat Text="无限耐力/Breath">
     <Cheatline>
       <Offset>3237D80</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C4-C1-7A-11-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Arrows/Craft On Use (Need 2 To work)">
+  <Cheat Text="道具无限/Arrows/Craft On Use (Need 2 To work)">
     <Cheatline>
       <Offset>314BAD8</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E8-53-F2-AC-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables">
+  <Cheat Text="Infinite Throwables｜投掷物无限">
     <Cheatline>
       <Offset>314BDE0</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>E8-4B-EF-AC-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload Crossbow/Boomstick">
+  <Cheat Text="无需换弹 弩/Boomstick">
     <Cheatline>
       <Offset>338DAB4</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>E8-77-D2-88-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapons Durability">
+  <Cheat Text="Infinite 武器 耐用性">
     <Cheatline>
       <Offset>61FB8D0</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>C5-FA-11-83-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Immunity/Chemical Area">
+  <Cheat Text="无限免疫力/Chemical Area">
     <Cheatline>
       <Offset>61FB650</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>C4-C1-7A-11-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite UV Flashlight">
+  <Cheat Text="Infinite UV 手电筒">
     <Cheatline>
       <Offset>61FB760</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>C4-C1-7A-11-84-24-80-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Money">
+  <Cheat Text="最大/金钱无限">
     <Cheatline>
       <Offset>61FB900</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>29-D8-89-47-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Time Missions (Disable B4 Finishing)">
+  <Cheat Text="冻结时间 Missions (Disable B4 Finishing)">
     <Cheatline>
       <Offset>3711758</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>C5-FA-11-43-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Level/Inhibitors (Use After Escaping Waltz)">
+  <Cheat Text="最大 XP/等级/Inhibitors (Use After Escaping Waltz)">
     <Cheatline>
       <Offset>33BC470</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>49-89-44-24-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Time For Parkour And Fighting Challenge">
+  <Cheat Text="冻结时间 For Parkour And Fighting Challenge">
     <Cheatline>
       <Offset>61FB270</Offset>
       <Section>0</Section>

@@ -1,13 +1,18 @@
 {
-  "name": "Alisa",
+  "name": "Alisa｜阿丽莎",
   "id": "CUSA41744",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808B0F29",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Money When You Save",
+      "name": "金钱无限 When You 保存",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "No Pistol Reload",
+      "name": "No 手枪 Reload",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80622F74",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Inf Pistol Ammo",
+      "name": "Infinite 手枪 但是",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80623D49",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Inf Ammo Shotgun",
+      "name": "无限弹药 霰弹枪",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808AEA3C",

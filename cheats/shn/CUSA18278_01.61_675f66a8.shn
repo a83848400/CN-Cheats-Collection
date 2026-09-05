@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Cyberpunk 2077" Moder="Pharaoh2k" Cusa="CUSA18278" Version="01.61" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="This trainer is inspired by the excellent FLiNG trainer for the PC version of Cyberpunk 2077. Made and tested on Firmware 9.00. BE SURE TO READ ALL the comments where available. It`s recommended to enable cheats such as Stats, Money, Inventory quantities, on demand and disable them when not needed. Most of them are needed to modify stats only once or a few times at most. Enjoy! ;-)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="This trainer is inspired by the excellent FLiNG trainer for the PC version of Cyberpunk 2077. Made and tested on Firmware 9.00. BE SURE TO READ ALL the comments where available. It`s recommended to enable cheats such as Stats, Money, Inventory quantities, on demand and disable them when not needed. Most of them are needed to modify stats only once or a few times at most. Enjoy! ;-)">
     <Cheatline>
       <Offset>4AF77FF</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Switch (Must be enabled first)" Description="">
+  <Cheat Text="总开关 (Must be enabled first)" Description="">
     <Cheatline>
       <Offset>4AF7800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-87-90-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite Health (Req. MS)" Description="">
+  <Cheat Text="--无限生命 (Req. MS)" Description="">
     <Cheatline>
       <Offset>4AF7947</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite Stamina (Req. MS)" Description="">
+  <Cheat Text="--无限耐力 (Req. MS)" Description="">
     <Cheatline>
       <Offset>4AF7948</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite RAM (Req. MS)" Description="">
+  <Cheat Text="--Infinite RAM (Req. MS)｜--无限内存（需MS）" Description="">
     <Cheatline>
       <Offset>4AF7949</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Instant Hack Upload (Req. MS)" Description="">
+  <Cheat Text="--Instant Hack Upload (Req. MS)｜--即时上传修改（需MS）" Description="">
     <Cheatline>
       <Offset>4AF794A</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--One Hit Kills Enemy (Req. MS)" Description="This affects also hacks such as Short Circuit, Contagion etc., so will kill enemies instantly. Note that this cheat may cause progression issues in some rare situations, such as the drone attack on Panam`s car or whenever using the car turret gun! If and when this happens, be sure to disable the cheat and reload your last save/checkpoint to be able to complete the mission.">
+  <Cheat Text="--One Hit Kills Enemy (Req. MS)｜--一击必杀敌人（需MS）" Description="This affects also hacks such as Short Circuit, Contagion etc., so will kill enemies instantly. Note that this cheat may cause progression issues in some rare situations, such as the drone attack on Panam`s car or whenever using the car turret gun! If and when this happens, be sure to disable the cheat and reload your last save/checkpoint to be able to complete the mission.">
     <Cheatline>
       <Offset>4AF794B</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--One Hit Destroys Vehicles (Req. MS)" Description="Do NOT enable this cheat while you are using any kind of vehicle!">
+  <Cheat Text="--One Hit Destroys Vehicles (Req. MS)｜--一击摧毁载具（需MS）" Description="Do NOT enable this cheat while you are using any kind of vehicle!">
     <Cheatline>
       <Offset>4AF794C</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Skills and Hacks Instant Cooldown" Description="">
+  <Cheat Text="Skills and Hacks 技能冷却清零" Description="">
     <Cheatline>
       <Offset>4AF7A00</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C4-E1-FB-2A-82-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Stealth" Description="Enemies will be able to hear you, but won`t see you and won`t notice that you killed anyone. Be sure to have the cheat enabled before and not after entering hostile area for it to work properly.">
+  <Cheat Text="Super 潜行" Description="Enemies will be able to hear you, but won`t see you and won`t notice that you killed anyone. Be sure to have the cheat enabled before and not after entering hostile area for it to work properly.">
     <Cheatline>
       <Offset>195A950</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>55-48-89-E5</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>4AF7A50</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>41-89-4E-78-5B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Accuracy" Description="">
+  <Cheat Text="Super Accuracy｜超级精准度" Description="">
     <Cheatline>
       <Offset>4AF7B00</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C4-C1-7A-10-8F-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil" Description="">
+  <Cheat Text="No Recoil｜消除后坐力" Description="">
     <Cheatline>
       <Offset>1E4D6F4</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>74-2A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload (reloaded)" Description="">
+  <Cheat Text="无需换弹 (reloaded)" Description="">
     <Cheatline>
       <Offset>4AF7C00</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>66-44-39-E8-44-0F-46-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades" Description="">
+  <Cheat Text="Infinite Grenades｜手雷无限" Description="">
     <Cheatline>
       <Offset>4AF7C50</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>41-89-8E-E8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Double Jump" Description="Requires `reinforced tendons` Cyberware">
+  <Cheat Text="Infinite Double Jump｜无限二段跳" Description="Requires `reinforced tendons` Cyberware">
     <Cheatline>
       <Offset>4AF7D00</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>48-8B-49-08-48-89-48-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="Pick only one multiplier below. Note that if the multiplier is high, you must enable infinite life cheat or you may crash and die when reaching the ground.">
+  <Cheat Text="Super Jump｜超级跳跃" Description="Pick only one multiplier below. Note that if the multiplier is high, you must enable infinite life cheat or you may crash and die when reaching the ground.">
     <Cheatline>
       <Offset>4AF7D50</Offset>
       <Section>0</Section>
@@ -198,7 +206,7 @@
       <ValueOff>C4-C1-79-6E-C4-C5-FA-5E-EC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x3 Multiplier" Description="">
+  <Cheat Text="--倍率×3" Description="">
     <Cheatline>
       <Offset>4AF7D94</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x5 Multiplier" Description="">
+  <Cheat Text="--倍率×5" Description="">
     <Cheatline>
       <Offset>4AF7D94</Offset>
       <Section>0</Section>
@@ -214,7 +222,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x10 Multiplier" Description="">
+  <Cheat Text="--倍率×10" Description="">
     <Cheatline>
       <Offset>4AF7D94</Offset>
       <Section>0</Section>
@@ -222,7 +230,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x15 Multiplier" Description="">
+  <Cheat Text="--倍率×15" Description="">
     <Cheatline>
       <Offset>4AF7D94</Offset>
       <Section>0</Section>
@@ -230,7 +238,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x20 Multiplier" Description="">
+  <Cheat Text="--倍率×20" Description="">
     <Cheatline>
       <Offset>4AF7D94</Offset>
       <Section>0</Section>
@@ -238,7 +246,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x30 Multiplier" Description="">
+  <Cheat Text="--倍率×30" Description="">
     <Cheatline>
       <Offset>4AF7D94</Offset>
       <Section>0</Section>
@@ -246,7 +254,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x40 Multiplier" Description="">
+  <Cheat Text="--倍率×40" Description="">
     <Cheatline>
       <Offset>4AF7D94</Offset>
       <Section>0</Section>
@@ -254,7 +262,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="9876 pc. Inventory and Quickhack Components" Description="Auto updates the quantity when loading a save or when accessing the backpack in your inventory.">
+  <Cheat Text="9876 pc. 背包 and Quickhack Components" Description="Auto updates the quantity when loading a save or when accessing the backpack in your inventory.">
     <Cheatline>
       <Offset>4AF7E00</Offset>
       <Section>0</Section>
@@ -268,7 +276,7 @@
       <ValueOff>8B-47-78-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="9900 pc. Inventory Items Quantity" Description="Auto updates the quantity of possible items when accessing the backpack. Note that you may need to access it twice to view the updated quantities. Some items may require hovering over with the cursor and waiting for the pop-up to show for the quantity to update. Some items quantity can not be updated (such as most weapons), that`s intentional.">
+  <Cheat Text="9900 pc. 背包 Items Quantity" Description="Auto updates the quantity of possible items when accessing the backpack. Note that you may need to access it twice to view the updated quantities. Some items may require hovering over with the cursor and waiting for the pop-up to show for the quantity to update. Some items quantity can not be updated (such as most weapons), that`s intentional.">
     <Cheatline>
       <Offset>4AF7E50</Offset>
       <Section>0</Section>
@@ -282,7 +290,7 @@
       <ValueOff>8B-02-89-06-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="9999999 Money" Description="After enabling the cheat and setting the value, open the player menu to get the money value updated.">
+  <Cheat Text="9999999 金钱" Description="After enabling the cheat and setting the value, open the player menu to get the money value updated.">
     <Cheatline>
       <Offset>4AF7F00</Offset>
       <Section>0</Section>
@@ -296,7 +304,7 @@
       <ValueOff>8B-47-78-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Breach Protocol Timer" Description="">
+  <Cheat Text="Freeze 入侵协议 计时器" Description="">
     <Cheatline>
       <Offset>2B6BDC1</Offset>
       <Section>0</Section>
@@ -304,7 +312,7 @@
       <ValueOff>C5-FA-11-83-D8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game Speed (must enable first)" Description="Strongly recommended to set multiplier up to 3 to prevent any possible playthrough and save bugs.">
+  <Cheat Text="Game 速度 (must enable first)" Description="Strongly recommended to set multiplier up to 3 to prevent any possible playthrough and save bugs.">
     <Cheatline>
       <Offset>4AF7F50</Offset>
       <Section>0</Section>
@@ -330,7 +338,7 @@
       <ValueOff>C5-FA-59-01-48-83-E9-80</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x0.1 Speed" Description="">
+  <Cheat Text="--速度×0.1" Description="">
     <Cheatline>
       <Offset>4AF7F7D</Offset>
       <Section>0</Section>
@@ -338,7 +346,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x0.5 Speed" Description="">
+  <Cheat Text="--速度×0.5" Description="">
     <Cheatline>
       <Offset>4AF7F7D</Offset>
       <Section>0</Section>
@@ -346,7 +354,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x1.5 Speed" Description="">
+  <Cheat Text="--速度×1.5" Description="">
     <Cheatline>
       <Offset>4AF7F7D</Offset>
       <Section>0</Section>
@@ -354,7 +362,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x2 Speed" Description="">
+  <Cheat Text="--速度×2" Description="">
     <Cheatline>
       <Offset>4AF7F7D</Offset>
       <Section>0</Section>
@@ -362,7 +370,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x2.5 Speed" Description="">
+  <Cheat Text="--速度×2.5" Description="">
     <Cheatline>
       <Offset>4AF7F7D</Offset>
       <Section>0</Section>
@@ -370,7 +378,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--x3 Speed" Description="">
+  <Cheat Text="--速度×3" Description="">
     <Cheatline>
       <Offset>4AF7F7D</Offset>
       <Section>0</Section>
@@ -378,7 +386,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Level, Street Credits, Skills XP (Must be enabled first)" Description="After enabling this cheat, open your player menu (touchpad) TWICE (enter and exit it) to see the new numbers. After setting this you must save and reload the game for all the matching stats to update properly. Disable the cheat when all stats are updated.">
+  <Cheat Text="等级, Street Credits, Skills XP (Must be enabled first)" Description="After enabling this cheat, open your player menu (touchpad) TWICE (enter and exit it) to see the new numbers. After setting this you must save and reload the game for all the matching stats to update properly. Disable the cheat when all stats are updated.">
     <Cheatline>
       <Offset>4AF7B90</Offset>
       <Section>0</Section>
@@ -392,7 +400,7 @@
       <ValueOff>8B-02-89-06-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Level 10" Description="">
+  <Cheat Text="--等级10" Description="">
     <Cheatline>
       <Offset>4AF7BEC</Offset>
       <Section>0</Section>
@@ -400,7 +408,7 @@
       <ValueOff>0A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Level 20" Description="">
+  <Cheat Text="--等级20" Description="">
     <Cheatline>
       <Offset>4AF7BEC</Offset>
       <Section>0</Section>
@@ -408,7 +416,7 @@
       <ValueOff>14-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Level 30" Description="">
+  <Cheat Text="--等级30" Description="">
     <Cheatline>
       <Offset>4AF7BEC</Offset>
       <Section>0</Section>
@@ -416,7 +424,7 @@
       <ValueOff>1E-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Level 40" Description="">
+  <Cheat Text="--等级40" Description="">
     <Cheatline>
       <Offset>4AF7BEC</Offset>
       <Section>0</Section>
@@ -424,7 +432,7 @@
       <ValueOff>28-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Level 50" Description="">
+  <Cheat Text="--等级50" Description="">
     <Cheatline>
       <Offset>4AF7BEC</Offset>
       <Section>0</Section>
@@ -432,7 +440,7 @@
       <ValueOff>32-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Street Credits 10" Description="">
+  <Cheat Text="--街头货币10" Description="">
     <Cheatline>
       <Offset>4AF7BE8</Offset>
       <Section>0</Section>
@@ -440,7 +448,7 @@
       <ValueOff>0A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Street Credits 20" Description="">
+  <Cheat Text="--街头货币20" Description="">
     <Cheatline>
       <Offset>4AF7BE8</Offset>
       <Section>0</Section>
@@ -448,7 +456,7 @@
       <ValueOff>14-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Street Credits 30" Description="">
+  <Cheat Text="--街头货币30" Description="">
     <Cheatline>
       <Offset>4AF7BE8</Offset>
       <Section>0</Section>
@@ -456,7 +464,7 @@
       <ValueOff>1E-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Street Credits 40" Description="">
+  <Cheat Text="--街头货币40" Description="">
     <Cheatline>
       <Offset>4AF7BE8</Offset>
       <Section>0</Section>
@@ -464,7 +472,7 @@
       <ValueOff>28-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Street Credits 50" Description="">
+  <Cheat Text="--街头货币50" Description="">
     <Cheatline>
       <Offset>4AF7BE8</Offset>
       <Section>0</Section>
@@ -472,7 +480,7 @@
       <ValueOff>32-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Skills XP 10,000" Description="">
+  <Cheat Text="--技能经验10000" Description="">
     <Cheatline>
       <Offset>4AF7BE4</Offset>
       <Section>0</Section>
@@ -480,7 +488,7 @@
       <ValueOff>10-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Skills XP 20,000" Description="">
+  <Cheat Text="--技能经验20000" Description="">
     <Cheatline>
       <Offset>4AF7BE4</Offset>
       <Section>0</Section>
@@ -488,7 +496,7 @@
       <ValueOff>20-4E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Skills XP 30,000" Description="">
+  <Cheat Text="--技能经验30000" Description="">
     <Cheatline>
       <Offset>4AF7BE4</Offset>
       <Section>0</Section>
@@ -496,7 +504,7 @@
       <ValueOff>30-75-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Skills XP 40,000" Description="">
+  <Cheat Text="--技能经验40000" Description="">
     <Cheatline>
       <Offset>4AF7BE4</Offset>
       <Section>0</Section>
@@ -504,7 +512,7 @@
       <ValueOff>40-9C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Skills XP 50,000" Description="">
+  <Cheat Text="--技能经验50000" Description="">
     <Cheatline>
       <Offset>4AF7BE4</Offset>
       <Section>0</Section>
@@ -512,7 +520,7 @@
       <ValueOff>50-C3-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Skills XP 60,000" Description="">
+  <Cheat Text="--技能经验60000" Description="">
     <Cheatline>
       <Offset>4AF7BE4</Offset>
       <Section>0</Section>
@@ -520,7 +528,7 @@
       <ValueOff>60-EA-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Skill XP Multiplier" Description="">
+  <Cheat Text="Skill 经验值倍率" Description="">
     <Cheatline>
       <Offset>4AF7CA0</Offset>
       <Section>0</Section>
@@ -534,7 +542,7 @@
       <ValueOff>41-8B-04-24-03-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Multiplier x2" Description="">
+  <Cheat Text="--倍率×2" Description="">
     <Cheatline>
       <Offset>4AF7CC9</Offset>
       <Section>0</Section>
@@ -542,7 +550,7 @@
       <ValueOff>02-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Multiplier x4" Description="">
+  <Cheat Text="--倍率×4" Description="">
     <Cheatline>
       <Offset>4AF7CC9</Offset>
       <Section>0</Section>
@@ -550,7 +558,7 @@
       <ValueOff>04-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Multiplier x6" Description="">
+  <Cheat Text="--倍率×6" Description="">
     <Cheatline>
       <Offset>4AF7CC9</Offset>
       <Section>0</Section>
@@ -558,7 +566,7 @@
       <ValueOff>06-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Multiplier x8" Description="">
+  <Cheat Text="--倍率×8" Description="">
     <Cheatline>
       <Offset>4AF7CC9</Offset>
       <Section>0</Section>
@@ -566,7 +574,7 @@
       <ValueOff>08-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Multiplier x10" Description="">
+  <Cheat Text="--倍率×10" Description="">
     <Cheatline>
       <Offset>4AF7CC9</Offset>
       <Section>0</Section>
@@ -574,7 +582,7 @@
       <ValueOff>0A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999 Attribute Points (on use)" Description="">
+  <Cheat Text="999 属性 得分 (on use)" Description="">
     <Cheatline>
       <Offset>4AF7DA0</Offset>
       <Section>0</Section>
@@ -588,7 +596,7 @@
       <ValueOff>4D-85-F6-41-89-04-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999 Perk Points (on use)" Description="">
+  <Cheat Text="999 技能 得分 (on use)" Description="">
     <Cheatline>
       <Offset>4AF7EA0</Offset>
       <Section>0</Section>

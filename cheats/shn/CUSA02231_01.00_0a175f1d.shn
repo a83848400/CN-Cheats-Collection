@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dishonored: Definitive Edition" Moder="TLH" Cusa="CUSA02231" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>16B18C</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>44-89-B3-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>88C205</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>89-14-CB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>8CC0DA</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>89-8B-B4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>88C076</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>41-FF-8C-85-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mana">
+  <Cheat Text="Infinite Mana｜无限法力">
     <Cheatline>
       <Offset>6D7ADB</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>89-8B-68-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>88CE85</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>89-74-02-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Runes Code">
+  <Cheat Text="铭文 密码">
     <Cheatline>
       <Offset>1CB0730</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Immortals Fenyx Rising",
+  "name": "Immortals Fenyx Rising｜渡神纪",
   "id": "CUSA16345",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A300",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A3A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Resources On Use",
-      "type": "checkbox",
+      "name": "资源无限 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A400",

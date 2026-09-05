@@ -1,12 +1,17 @@
 {
-  "name": "Generation Zero",
+  "name": "Generation 杰洛",
   "id": "CUSA14212",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Bottomless Clip",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "249B800",

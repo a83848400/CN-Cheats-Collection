@@ -1,12 +1,17 @@
 {
-  "name": "Battlefield 4",
+  "name": "战地 4",
   "id": "CUSA00049",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134c17e",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "c289a4",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Recoil / Spread",
-      "type": "checkbox",
+      "name": "消除后坐力 / Spread",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2c6e10",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Wire Frame Rendering",
-      "type": "checkbox",
+      "name": "Wire Frame Rendering｜线框渲染",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "146ef10",
@@ -70,7 +75,7 @@
     },
     {
       "name": "Freeze FX",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1f50110",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Draw Debug Strings",
-      "type": "checkbox",
+      "name": "抽牌 Debug Strings",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "104cb50",
@@ -92,7 +97,7 @@
     },
     {
       "name": "Small Hud",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8031b6",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Teleport Climb",
-      "type": "checkbox",
+      "name": "传送 Climb",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2387b94",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Always Able To Climb",
-      "type": "checkbox",
+      "name": "Always Able To Climb｜永远能够攀登",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593b9d",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Teleport Patch V1",
-      "type": "checkbox",
+      "name": "传送 Patch V1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593a81",
@@ -190,8 +195,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 1",
-      "type": "checkbox",
+      "name": "传送 Patch 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593a81",
@@ -201,8 +206,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 2",
-      "type": "checkbox",
+      "name": "传送 Patch 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593a5b",
@@ -212,8 +217,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 3",
-      "type": "checkbox",
+      "name": "传送 Patch 3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593a51",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 4",
-      "type": "checkbox",
+      "name": "传送 Patch 4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593a2b",
@@ -234,8 +239,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 5",
-      "type": "checkbox",
+      "name": "传送 Patch 5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593f68",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 6",
-      "type": "checkbox",
+      "name": "传送 Patch 6",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593e71",
@@ -256,8 +261,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 7",
-      "type": "checkbox",
+      "name": "传送 Patch 7",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593ba6",
@@ -267,8 +272,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 8",
-      "type": "checkbox",
+      "name": "传送 Patch 8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593a05",
@@ -278,8 +283,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 9 (Get Stuck)",
-      "type": "checkbox",
+      "name": "传送 Patch 9 (Get Stuck)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5939fa",
@@ -289,8 +294,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 10",
-      "type": "checkbox",
+      "name": "传送 Patch 10",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5939df",
@@ -300,8 +305,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 11",
-      "type": "checkbox",
+      "name": "传送 Patch 11",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "593890",
@@ -311,8 +316,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 12 (Inside Trace Function)",
-      "type": "checkbox",
+      "name": "传送 Patch 12 (Inside Trace Function)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "595142",
@@ -322,8 +327,8 @@
       ]
     },
     {
-      "name": "Teleport Patch 13 (Change 4 to 8)",
-      "type": "checkbox",
+      "name": "传送 Patch 13 (Change 4 to 8)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5962b2",

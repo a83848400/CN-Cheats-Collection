@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hot Wheels Unleashed" Moder="Reddevil82 - FW 9.00" Cusa="CUSA25502" Version="01.19" Process="eboot.bin">
   <Genres Name="Racing" />
   <Items />
-  <Cheat Text="Max Coins ( on buy / sell )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 角落 ( on buy / sell )">
     <Cheatline>
       <Offset>7B8BDD4</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>C4-E2-78-F2-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gears ( on buy / dissamble )">
+  <Cheat Text="最大 战争机器 ( on buy / dissamble )">
     <Cheatline>
       <Offset>7B8BDE4</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C4-E2-78-F2-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Blind Boxes ( on use )">
+  <Cheat Text="最大 Blind Boxes ( on use )">
     <Cheatline>
       <Offset>7B8BDB0</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>48-85-C0-41-89-4E-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Boost">
+  <Cheat Text="Infinite Boost｜无限加速">
     <Cheatline>
       <Offset>7B8BDF3</Offset>
       <Section>0</Section>

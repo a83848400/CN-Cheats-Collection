@@ -1,12 +1,17 @@
 {
-  "name": "Samurai Shodown",
+  "name": "武士 Shodown",
   "id": "CUSA15915",
   "version": "02.42",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52E97C0",

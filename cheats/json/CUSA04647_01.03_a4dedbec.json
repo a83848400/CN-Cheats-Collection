@@ -1,12 +1,17 @@
 {
-  "name": "World of Final Fantasy",
+  "name": "World of 最终幻想",
   "id": "CUSA04647",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F44D8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Money on Buy/Sell",
-      "type": "checkbox",
+      "name": "金钱最大 on Buy/Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "233F800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "31942A",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Items on Use/Sell| Turn Off When Done ",
-      "type": "checkbox",
+      "name": "最大 Items on Use/Sell| 回合 Off When Done ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "233F800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Items | Battle ",
-      "type": "checkbox",
+      "name": "道具无限 | 战斗 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C3F7",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max SP On Spend",
-      "type": "checkbox",
+      "name": "最大 精神值 On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "233F800",

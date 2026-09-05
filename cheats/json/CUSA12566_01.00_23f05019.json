@@ -1,12 +1,17 @@
 {
-  "name": "The Legend of Heroes: Trails of Cold Steel II",
+  "name": "The 传奇 of Heroes: Trails of Cold Steel II",
   "id": "CUSA12566",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite CP | In Battle",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限CP | In 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65344",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max CP In Battle | Don't Use With Max EP",
-      "type": "checkbox",
+      "name": "最大 CP In 战斗 | Don'恐怖分子 Use With 最大 EP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5F800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite EP In Battle",
-      "type": "checkbox",
+      "name": "《Infinite》EP In 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69044",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max EP On Use | Don't Use With Max CP",
-      "type": "checkbox",
+      "name": "最大 EP On Use | Don'恐怖分子 Use With 最大 CP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5F800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Items | Inventory",
-      "type": "checkbox",
+      "name": "道具无限 | 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "206423",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max Items/Quratz/Event/Ingredients On Use or Sell",
-      "type": "checkbox",
+      "name": "最大 Items/Quratz/Event/Ingredients On 使用或出售",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5F800",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Items | Battle",
-      "type": "checkbox",
+      "name": "道具无限 | 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "206381",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Max Items | Battle",
-      "type": "checkbox",
+      "name": "最大 Items | 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5F800",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20B63E",

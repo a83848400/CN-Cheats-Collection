@@ -1,12 +1,17 @@
 {
-  "name": "Wo Long: Fallen Dynasty",
+  "name": "Wo Long: Fallen Dynasty｜卧龙：苍天陨落",
   "id": "CUSA36986",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Invisible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/不可见",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32EE170",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Buff duration ",
-      "type": "checkbox",
+      "name": "Infinite 增益 duration ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357AA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "NoStun/infinite spell(reach max lvl in morals and character)",
-      "type": "checkbox",
+      "name": "NoStun/infinite 法术(reach 最大 lvl in morals and character)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32EF930",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Morals (on losing 1 moral)",
-      "type": "checkbox",
+      "name": "最大 Morals (on losing 1 moral)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32E82F0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Accolades (on buy)",
-      "type": "checkbox",
+      "name": "最大 Accolades (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357870",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "99 Dragon cure potion(on use)",
-      "type": "checkbox",
+      "name": "99 小龙 cure 药水(on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357A20",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Genuine Qi (on get)",
-      "type": "checkbox",
+      "name": "最大 Genuine Qi (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357980",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Coppers (on get)",
-      "type": "checkbox",
+      "name": "最大 Coppers (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32EB210",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "99 Wizardy spell (on spend)",
-      "type": "checkbox",
+      "name": "99 Wizardy 法术 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "331E990",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "99 Throwables/items (on use/spend)",
-      "type": "checkbox",
+      "name": "99 Throwables/items (on use/spend)｜99 件可投掷物品（使用/消耗型）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357A50",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Instant Beast power charge (after1 hit done to enemies)",
-      "type": "checkbox",
+      "name": "Instant 野兽 电力 冲锋 (after1 hit done to enemies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357B40",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Infinite Tiger Beast duration",
-      "type": "checkbox",
+      "name": "Infinite Tiger 野兽 duration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32E3E30",

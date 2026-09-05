@@ -1,12 +1,17 @@
 {
-  "name": "Project Warlock",
+  "name": "Project 术士",
   "id": "CUSA19361",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F5D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Infinite Lightning Staff",
-      "type": "checkbox",
+      "name": "最大 Infinite 闪电 法杖",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E580",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Infinite Pistol Ammo",
-      "type": "checkbox",
+      "name": "最大 Infinite 手枪 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F600",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Infinite Crossbow Arrows",
-      "type": "checkbox",
+      "name": "最大 Infinite 弩 Arrows",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E820",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Infinite Shotgun Ammo",
-      "type": "checkbox",
+      "name": "最大 霰弹枪弹药无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E5B0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Infinite Dynamites/Granades",
-      "type": "checkbox",
+      "name": "最大 Infinite Dynamites/Granades",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F2B0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Infinite Submachine/Mini Gun Ammo",
-      "type": "checkbox",
+      "name": "最大 Infinite Submachine/Mini Gun 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F300",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Infinite FlameThrower Fuel",
-      "type": "checkbox",
+      "name": "最大 Infinite 火焰喷射器 Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Infinite Rocket Launcher Ammo",
-      "type": "checkbox",
+      "name": "最大 火箭筒弹药无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E840",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max Infinite Laser Gun Ammo",
-      "type": "checkbox",
+      "name": "最大 Infinite 激光枪 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Max Infinite Chain Reactor Ammo",
-      "type": "checkbox",
+      "name": "最大 Infinite Chain Reactor 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDF0",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Max Perk Points (Buy On Treasure Hunter)",
-      "type": "checkbox",
+      "name": "最大 技能 得分 (Buy On 宝藏 猎人)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F550",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "Max Infinite Stats Points (Buy On Strength)",
-      "type": "checkbox",
+      "name": "最大 Infinite 属性 得分 (Buy On 力量)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE40",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Max Upgrades Points (Buy On Magic Light Or Magnum) ",
-      "type": "checkbox",
+      "name": "最大 Upgrades 得分 (Buy On 魔法 Light Or Magnum) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAA0",

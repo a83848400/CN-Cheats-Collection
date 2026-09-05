@@ -1,12 +1,17 @@
 {
-  "name": "Ashen",
+  "name": "Ashen｜Ash",
   "id": "CUSA14332",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Damage",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Damage｜不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B3000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Damage for companion",
-      "type": "checkbox",
+      "name": "不受伤害 for companion",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B3070",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (also companion)",
-      "type": "checkbox",
+      "name": "无限耐力 (also companion)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B30E0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B3130",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Keep items (on use | craft)",
-      "type": "checkbox",
+      "name": "Keep items (on use | craft)｜保留物品（使用时 | 合成时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A62AC",
@@ -90,8 +95,8 @@
       ]
     },
     {
-      "name": "Keep spear count",
-      "type": "checkbox",
+      "name": "Keep 长矛 count",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "93A6BA",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Scoria Multiplier (default 5x)",
-      "type": "checkbox",
+      "name": "Scoria Multiplier (默认 五次)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B3190",
@@ -122,8 +127,8 @@
       ]
     },
     {
-      "name": "10x Scoria",
-      "type": "checkbox",
+      "name": "十倍 Scoria",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B3500",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "25x Scoria",
-      "type": "checkbox",
+      "name": "25倍 Scoria",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B3500",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "100x Scoria",
-      "type": "checkbox",
+      "name": "100x Scoria｜100x 火山渣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59B3500",

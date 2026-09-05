@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Fantasy VII Rebirth" Moder="Super Death" Cusa="PPSA08666" Version="01.040.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <PS5Offset>460FBEE-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>45-89-B4-1D-30-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>89-77-0C-5D-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP">
+  <Cheat Text="Infinite MP｜无限魔力">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max ATB Gauge">
+  <Cheat Text="最大 ATB槽">
     <Cheatline>
       <PS5Offset>7EA-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Stagger">
+  <Cheat Text="Instant 硬直">
     <Cheatline>
       <PS5Offset>7CD-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Full Limit ">
+  <Cheat Text="Instant Full Limit ｜即时全额限额">
     <Cheatline>
       <PS5Offset>7B4-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -147,7 +155,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Summon ">
+  <Cheat Text="Instant Summon ｜瞬时召唤">
     <Cheatline>
       <PS5Offset>720-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -177,7 +185,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nanaki Instant Vengance Mode" Description="Gain some vengance">
+  <Cheat Text="Nanaki Instant Vengance Mode｜Nanaki 即时复仇模式" Description="Gain some vengance">
     <Cheatline>
       <PS5Offset>6A2-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -221,7 +229,7 @@
       <ValueOff>C5-FA-11-53-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Barret Instant Overcharge">
+  <Cheat Text="巴雷特 Instant Overcharge">
     <Cheatline>
       <PS5Offset>672-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -251,7 +259,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max All Character Levels">
+  <Cheat Text="最大 All Character Levels">
     <Cheatline>
       <PS5Offset>797-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -281,7 +289,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max All Equipped Materias Levels">
+  <Cheat Text="最大 All Equipped Materias Levels">
     <Cheatline>
       <PS5Offset>77B-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -311,7 +319,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Party Level " Description="Complete a World Intel Event or gain party exp">
+  <Cheat Text="最大 队伍 等级 " Description="Complete a World Intel Event or gain party exp">
     <Cheatline>
       <PS5Offset>762-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -341,7 +349,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item Transumter Max Level" Description="Craft 2 items">
+  <Cheat Text="物品 Transumter 等级最大" Description="Craft 2 items">
     <Cheatline>
       <PS5Offset>74B-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -371,7 +379,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Currencies (Read Description)" Description="Money, Chadley Points, Items, Moggle Medals, Golden Plumes. I do NOT recommend you leave this on. Turn it on for what you want, then turn it off. i recommend you save your game and restart the app. ">
+  <Cheat Text="最大 Currencies (Read Description)" Description="Money, Chadley Points, Items, Moggle Medals, Golden Plumes. I do NOT recommend you leave this on. Turn it on for what you want, then turn it off. i recommend you save your game and restart the app. ">
     <Cheatline>
       <PS5Offset>735-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -401,7 +409,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gold Saucer Points (Read Description)" Description="Do not use this with Max Currencies. Only activate when you gain/spend points. Max sure when this is active that you ONLY gain gold saucer points and not items">
+  <Cheat Text="金碟游乐场 得分 (Read Description)" Description="Do not use this with Max Currencies. Only activate when you gain/spend points. Max sure when this is active that you ONLY gain gold saucer points and not items">
     <Cheatline>
       <PS5Offset>6A6-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -431,7 +439,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{MINI GAMES HELPER}" Description="MINI GAMES HELPER PAST THIS POINT. DO NOT ENABLE THIS.">
+  <Cheat Text="{MINI GAMES HELPER}｜{迷你游戏助手}" Description="MINI GAMES HELPER PAST THIS POINT. DO NOT ENABLE THIS.">
     <Cheatline>
       <PS5Offset>CC2-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -440,7 +448,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fort Condor Mini Game - Max ATB">
+  <Cheat Text="Fort Condor Mini Game - 最大 主动时间战斗">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -456,7 +464,7 @@
       <ValueOff>C5-FA-11-48-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Costa Del Sol: Pirate Rampage" Description="100k Points">
+  <Cheat Text="Costa Del Sol: Pirate Rampage｜太阳海岸：海盗大暴走" Description="100k Points">
     <Cheatline>
       <PS5Offset>70A-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -486,7 +494,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Crunch Off Winner" Description="Wait for your opponent to make a mistake, then turn on this cheat, do 1 rep, then quickly turn it off">
+  <Cheat Text="Crunch Off Winner｜“Crunch Off”大赛冠军" Description="Wait for your opponent to make a mistake, then turn on this cheat, do 1 rep, then quickly turn it off">
     <Cheatline>
       <PS5Offset>6F3-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -516,7 +524,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[GALACTIC SAVIORS] 1 Million Points">
+  <Cheat Text="[GALACTIC SAVIORS] 1 Million 得分">
     <Cheatline>
       <PS5Offset>6DD-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -546,7 +554,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[GALACTIC SAVIORS] Infinite Ship Health">
+  <Cheat Text="[GALACTIC SAVIORS] Infinite Ship 生命">
     <Cheatline>
       <PS5Offset>6D0E522-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -555,7 +563,7 @@
       <ValueOff>89-83-CC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[GALACTIC SAVIORS] Infinite Proton Bomb">
+  <Cheat Text="[GALACTIC SAVIORS] Infinite Proton Bomb｜[银河救世主] 无限质子炸弹">
     <Cheatline>
       <PS5Offset>6CE3E18-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -564,7 +572,7 @@
       <ValueOff>C4-C1-7A-11-86-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[3D BRAWLER] Max ATB Gauge">
+  <Cheat Text="[3D BRAWLER] 最大 ATB槽">
     <Cheatline>
       <PS5Offset>6C7-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -594,7 +602,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[3D BRAWLER] Instant Full Limit" Description="You must land 1 hit for full limit">
+  <Cheat Text="[3D BRAWLER] Instant Full Limit｜[3D 格斗游戏] 瞬间全开" Description="You must land 1 hit for full limit">
     <Cheatline>
       <PS5Offset>6AA-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -624,7 +632,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Desert Rush] 1 Million Points">
+  <Cheat Text="[沙漠 快攻] 1 Million 得分">
     <Cheatline>
       <PS5Offset>659-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -654,7 +662,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Glide De Chocobo] 1 Million Points">
+  <Cheat Text="[Glide De 陆行鸟] 1 Million 得分">
     <Cheatline>
       <PS5Offset>641-executable[0]-5</PS5Offset>
       <Section>0</Section>

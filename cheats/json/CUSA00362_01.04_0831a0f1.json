@@ -1,12 +1,17 @@
 {
-  "name": "Alien: Isolation",
+  "name": "异形: Isolation",
   "id": "CUSA00362",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "182250",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Crafting Materials",
-      "type": "checkbox",
+      "name": "无限制作 Materials",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AE72E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E8B4",

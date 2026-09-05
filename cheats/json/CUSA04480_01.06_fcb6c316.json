@@ -1,12 +1,17 @@
 {
-  "name": "Nier: Automata",
+  "name": "Nier: Automata｜尼尔：机械纪元",
   "id": "CUSA04480",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E430B",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Funds ( On Spend )",
-      "type": "checkbox",
+      "name": "资金最大 ( On Spend )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1389670",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Instant Lvl 99",
-      "type": "checkbox",
+      "name": "Instant Lvl 99｜瞬间99级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B4772",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Items (On Pick)",
-      "type": "checkbox",
+      "name": "最大 Items (On Pick)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13896B0",

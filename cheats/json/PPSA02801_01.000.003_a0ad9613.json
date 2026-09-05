@@ -1,13 +1,18 @@
 {
-  "name": "New Joe & Mac: Caveman Ninja",
+  "name": "New Joe & Mac: Caveman Ninja｜《新乔与麦克：穴居忍者》",
   "id": "PPSA02801",
   "version": "01.000.003",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Score",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "简单 比分",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Hp",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB030",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Lives",
+      "name": "无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80CD40F7",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Time Energy",
+      "name": "无限时间 能量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB05F",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Fantasy VII" Moder="Molly" Cusa="CUSA01875" Version="01.01" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>138B814</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C7-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ap ~After Battle~">
+  <Cheat Text="能力点最大 ~After 战斗~">
     <Cheatline>
       <Offset>138B826</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C7-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money ~After Buy or Sell~">
+  <Cheat Text="金钱最大 ~After Buy or Sell~">
     <Cheatline>
       <Offset>138B831</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>89-18-41-8B-7D-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items/Accessories ~Buy 1 Potion~ ~Do Not Use With Have All Weapons~">
+  <Cheat Text="最大 Items/Accessories ~Buy 1 药水~ ~Do Not Use With Have All 武器~">
     <Cheatline>
       <Offset>138B861</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>66-89-18-41-8B-7E-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Anytime ~Leave Any Area~">
+  <Cheat Text="保存 Anytime ~Leave Any Area~">
     <Cheatline>
       <Offset>138BA9B</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>E8-B7-FD-85-00-88-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Sephiroth In Slot 3 ~Swap Character From Slot 2 To Slot 3~">
+  <Cheat Text="Have 萨菲罗斯 In Slot 3 ~Swap Character From Slot 2 To Slot 3~">
     <Cheatline>
       <Offset>138BAA4</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>E8-0A-26-42-00-88-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats ~After Level Up~">
+  <Cheat Text="最大 属性 ~After 升级~">
     <Cheatline>
       <Offset>138BAB1</Offset>
       <Section>0</Section>
@@ -148,7 +156,7 @@
       <ValueOff>88-18-41-8B-7E-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Hp//MP ~After Level Up~">
+  <Cheat Text="生命值最大//MP ~After 升级~">
     <Cheatline>
       <Offset>138BAD5</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>66-89-18-41-8B-7E-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Limit Breaks ~Select Limit Level Go Into Battle To Unlock~ ~2 battles~">
+  <Cheat Text="解锁 Limit Breaks ~Select Limit 等级 Go Into 战斗 To 解锁~ ~2 battles~">
     <Cheatline>
       <Offset>138BAE9</Offset>
       <Section>0</Section>
@@ -176,7 +184,7 @@
       <ValueOff>66-89-18-41-8B-7F-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always Have Limit break ~In Battle~">
+  <Cheat Text="Always Have 极限技 ~In 战斗~">
     <Cheatline>
       <Offset>138BAFF</Offset>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>66-89-18-41-8B-7D-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Materia ~Buy One Materia~">
+  <Cheat Text="Have All 魔晶石 ~Buy One 魔晶石~">
     <Cheatline>
       <Offset>138BB0C</Offset>
       <Section>0</Section>

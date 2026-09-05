@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>1B13DB0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>45-29-7C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dogmas Infinito">
+  <Cheat Text="Dogmas Infinito｜《无限教条》">
     <Cheatline>
       <Offset>1B13DE0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>01-88-E4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nivel Max - Mate 3 a 5 Inimigos">
+  <Cheat Text="Nivel 最大 - Mate 3 a 5 Inimigos">
     <Cheatline>
       <Offset>1B13E20</Offset>
       <Section>0</Section>

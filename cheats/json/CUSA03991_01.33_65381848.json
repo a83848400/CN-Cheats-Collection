@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light: The Following: Enhanced Edition",
+  "name": "Dying Light: The Following: Enhanced Edition｜《消逝的光芒：追随者：增强版》",
   "id": "CUSA03991",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C55D9F",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75F888",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Bolt / Arrows",
-      "type": "checkbox",
+      "name": "无限之雷 / Arrows",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D72866",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Item",
-      "type": "checkbox",
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75F888",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "ADD Item",
-      "type": "checkbox",
+      "name": "ADD 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75F888",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "ADD Cash",
-      "type": "checkbox",
+      "name": "ADD Cash｜添加现金",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D71BFE",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Durability/No Buggy Damage",
-      "type": "checkbox",
+      "name": "装备耐久无限/No Buggy 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75FCAB",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina ",
-      "type": "checkbox",
+      "name": "Infinite Stamina ｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D9192F",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "STOP Timer : Main Game",
-      "type": "checkbox",
+      "name": "停止 计时器 : Main Game",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D46D29",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "STOP Timer : Bozak DLC",
-      "type": "checkbox",
+      "name": "停止 计时器 : Bozak DLC",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B4467",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "114E671",

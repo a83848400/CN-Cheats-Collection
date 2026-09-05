@@ -1,12 +1,17 @@
 {
-  "name": "Ghoulboy: Dark Sword of Goblin",
+  "name": "Ghoulboy: Dark 剑 of Goblin",
   "id": "CUSA14000",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153FDD0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Lives",
-      "type": "checkbox",
+      "name": "最大 Lives",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153FE00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153FDB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153FDBD",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "One Hit Kill ( Deactivate before open chests )",
-      "type": "checkbox",
+      "name": "一击必杀 ( Deactivate before open chests )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153FE0D",

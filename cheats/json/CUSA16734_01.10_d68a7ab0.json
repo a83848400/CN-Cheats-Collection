@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza: Like a Dragon",
+  "name": "如龙: Like a 小龙",
   "id": "CUSA16734",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Yen",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Yen｜无限日元",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CBCD0D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CD9D66",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Job Exp",
-      "type": "checkbox",
+      "name": "最大 Job 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CDA9F6",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "101533",

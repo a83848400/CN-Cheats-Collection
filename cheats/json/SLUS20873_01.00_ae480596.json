@@ -1,12 +1,17 @@
 {
-  "name": "Silent Hill 4: The Room",
+  "name": "寂静岭 4: The Room",
   "id": "SLUS20873",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808005A548",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Invincible-From-Some-Attacks",
-      "type": "checkbox",
+      "name": "无敌-From-Some-Attacks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808005A564",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Invincible-From-Misc-Attacks",
-      "type": "checkbox",
+      "name": "无敌-From-Misc-Attacks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDDC62A",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max-Inf-Ammo",
-      "type": "checkbox",
+      "name": "最大-无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDB1984",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Never-Reload",
-      "type": "checkbox",
+      "name": "Never-Reload｜无需重新加载",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FED1B38",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Invincible From Normal Enemy2",
-      "type": "checkbox",
+      "name": "无敌 From 普通 Enemy2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDE96D0",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "P1-Press-L1+Right-Richards-Revolver",
-      "type": "checkbox",
+      "name": "P1-Press-L1+Right-Richards-左轮手枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FC2FBDF",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Have-Max-Item",
-      "type": "checkbox",
+      "name": "Have-最大-物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801D1030",

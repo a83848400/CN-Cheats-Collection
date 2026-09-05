@@ -1,13 +1,18 @@
 {
-  "name": "How to Survive 2",
+  "name": "How to Survive 2｜《如何生存2》",
   "id": "CUSA07006",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7468D7",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76879D",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "No Hunger",
+      "name": "No Hunger｜不会饥饿",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7624DD",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "No Thirst",
+      "name": "No Thirst｜不会口渴",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "762550",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Infinite Backpack Space (Weight)",
+      "name": "Infinite 背包 Space (重量)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B6414",
@@ -80,9 +85,9 @@
       ]
     },
     {
-      "name": "XP Multiplier x999.999.999",
+      "name": "经验倍率×999.999.999",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "73FC56",
@@ -102,9 +107,9 @@
       ]
     },
     {
-      "name": "Infinite Items/Ammo",
-      "hint": "Crafting or upgrading does not use items.",
-      "type": "checkbox",
+      "name": "道具无限/但是",
+      "hint": "Crafting or upgrading does not use items.｜制作或升级不会消耗物品。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B63DB",
@@ -114,9 +119,9 @@
       ]
     },
     {
-      "name": "Infinite Building Durability",
-      "hint": "Buildings also repair themselves when damaged.",
-      "type": "checkbox",
+      "name": "Infinite 建造 耐用性",
+      "hint": "Buildings also repair themselves when damaged.｜建筑物在受损时也会自行修复。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EAD97",
@@ -136,9 +141,9 @@
       ]
     },
     {
-      "name": "Instant Target Lockon",
-      "hint": "You do not have to wait for bows and guns to focus.",
-      "type": "checkbox",
+      "name": "Instant Target Lockon｜即时锁定目标",
+      "hint": "You do not have to 待机 for bows and guns to 棍势.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76034B",

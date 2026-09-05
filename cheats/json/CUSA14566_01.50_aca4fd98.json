@@ -1,12 +1,17 @@
 {
-  "name": "PC Building Simulator",
+  "name": "PC 建造 Simulator",
   "id": "CUSA14566",
   "version": "01.50",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max XP Level",
-      "type": "checkbox",
+      "name": "最大 XP 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FDD7",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Costs in Shop ( only Delivery )",
-      "type": "checkbox",
+      "name": "No Costs in Shop ( only Delivery )｜店内免收费用（仅收取配送费）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FDF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Delivery Cost",
-      "type": "checkbox",
+      "name": "No Delivery Cost｜免运费",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FE21",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Star Rating",
-      "type": "checkbox",
+      "name": "最大 Star 评分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FE10",

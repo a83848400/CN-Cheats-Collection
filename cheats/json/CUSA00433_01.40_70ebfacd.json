@@ -1,12 +1,17 @@
 {
-  "name": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
+  "name": "暗黑破坏神 III: 死神 of 结界突破: 必杀技 Evil Edition",
   "id": "CUSA00433",
   "version": "01.40",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Mana",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "753A59",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max gold on buy",
-      "type": "checkbox",
+      "name": "金币最大 on buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1352070",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Item / Kill Multiplier",
-      "type": "checkbox",
+      "name": "物品 / Kill Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "916C58",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C871",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Fury",
-      "type": "checkbox",
+      "name": "Infinite Fury｜无尽之怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C89F",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Wrath",
-      "type": "checkbox",
+      "name": "Infinite Wrath｜无尽之怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C89F",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (Wizard)",
-      "type": "checkbox",
+      "name": "无限法力 (Wizard)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C89F",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (Necro Mancer)",
-      "type": "checkbox",
+      "name": "无限法力 (Necro Mancer)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C89F",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Infinite Hatred and Discipline",
-      "type": "checkbox",
+      "name": "Infinite Hatred and Discipline｜无尽的仇恨与纪律",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C89F",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Infinite Spirit",
-      "type": "checkbox",
+      "name": "Infinite Spirit｜无限灵力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C89F",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Magic Find (equip any item / single cheat turn off after)",
-      "type": "checkbox",
+      "name": "魔法 Find (equip any 物品 / single cheat 回合 off after)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C8CD",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "1M Gold (Buy / Sell)",
-      "type": "checkbox",
+      "name": "1M 金币 (Buy / Sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134C8F8",

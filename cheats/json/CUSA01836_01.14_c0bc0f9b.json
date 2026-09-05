@@ -1,12 +1,17 @@
 {
-  "name": "Deus Ex: Mankind Divided",
+  "name": "杀出重围: Mankind Divided",
   "id": "CUSA01836",
   "version": "01.14",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37EFA00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37EFAA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Grenades/Typhoon/Parts",
-      "type": "checkbox",
+      "name": "无限弹药/手榴弹/Typhoon/Parts",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37EFB00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Fast XP Gain",
-      "type": "checkbox",
+      "name": "Fast XP Gain｜快速获取XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37EFB50",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Praxis",
-      "type": "checkbox",
+      "name": "Infinite 实践经验点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1731EED",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "999999 Credits",
-      "type": "checkbox",
+      "name": "999999 Credits｜999999 积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37EFBA0",

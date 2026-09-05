@@ -1,12 +1,17 @@
 {
-  "name": "DOOM Eternal",
+  "name": "毁灭战士 Eternal",
   "id": "CUSA13275",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Slayer+Revenant) + Shield",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Slayer+Revenant) + 盾牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330DF70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo + Fuel",
-      "type": "checkbox",
+      "name": "无限弹药 + Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330E031",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Crucible Sword",
-      "type": "checkbox",
+      "name": "Infinite Crucible 剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330DFA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Jump",
-      "type": "checkbox",
+      "name": "Infinite Jump｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330E150",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Jumping Dash",
-      "type": "checkbox",
+      "name": "Infinite Jumping Dash｜无限跳跃冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330E135",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330E0CD",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Infinite Radiation/Dive Suit",
-      "type": "checkbox",
+      "name": "Infinite Radiation/潜水 战衣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330DFD0",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "666 Keys + 6 Empyrean Keys",
-      "type": "checkbox",
+      "name": "666 Keys + 6 Empyrean Keys｜666把钥匙 + 6把天界钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330E058",
@@ -183,8 +188,8 @@
       ]
     },
     {
-      "name": "Show The Complete Menu",
-      "type": "checkbox",
+      "name": "Show The Complete 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "330E000",

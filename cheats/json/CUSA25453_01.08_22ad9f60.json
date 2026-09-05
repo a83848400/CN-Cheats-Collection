@@ -1,12 +1,17 @@
 {
-  "name": "Necromunda: Hired Gun",
+  "name": "Necromunda: Hired Gun｜《内克罗蒙达：雇佣兵》",
   "id": "CUSA25453",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Stimms On Use (You Can't Die)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Infinite Stimms On Use (You Can'恐怖分子 Die)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB90",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Infinite Medkit On Use ",
-      "type": "checkbox",
+      "name": "最大 Infinite 医疗包 On Use ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D080",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Infinite Ammo/No Reload/Infinite Grenades On Use",
-      "type": "checkbox",
+      "name": "最大 无限弹药/无需换弹/手雷无限 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAC0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Infinite Money On Gain [999999999]",
-      "type": "checkbox",
+      "name": "最大 金钱无限 On Gain [999999999]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDA0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Infinite Money On Use [999999999]",
-      "type": "checkbox",
+      "name": "最大 金钱无限 On Use [999999999]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D860",

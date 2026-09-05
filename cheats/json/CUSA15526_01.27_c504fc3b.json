@@ -1,12 +1,17 @@
 {
-  "name": "Nioh 2",
+  "name": "Nioh 2｜仁王2",
   "id": "CUSA15526",
   "version": "01.27",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "INF Amirta",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限阿米尔塔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D35267",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "INF Gold",
-      "type": "checkbox",
+      "name": "无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D35267",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "INF KI",
-      "type": "checkbox",
+      "name": "无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A677E4",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Anima",
-      "type": "checkbox",
+      "name": "Infinite Anima｜无限之魂",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6B57E",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Shortcut Items",
-      "type": "checkbox",
+      "name": "Infinite Shortcut Items｜无限快捷方式项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D586B9",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D586B9",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Yokai Shift Duration",
-      "type": "checkbox",
+      "name": "Infinite 妖怪化 Duration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B18740",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Infinite Talisman",
-      "type": "checkbox",
+      "name": "Infinite Talisman｜无限符箓",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33512",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Max Yokai Shift Gauge",
-      "type": "checkbox",
+      "name": "最大 妖怪化 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A9C732",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Infinite Arrow-Bullet-Divine Rice ",
-      "type": "checkbox",
+      "name": "无限之箭-Bullet-超凡入圣 米 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D586B9",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Max Weapon Proficiency",
-      "type": "checkbox",
+      "name": "最大 Weapon 熟练",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D36077",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Max Level",
-      "type": "checkbox",
+      "name": "Max Level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D356E7",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Infinite Sentience",
-      "type": "checkbox",
+      "name": "Infinite Sentience｜无限感知",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A88C7B",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Max Weapon Familiarity",
-      "type": "checkbox",
+      "name": "最大 Weapon Familiarity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1175649",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Infinite Glory",
-      "type": "checkbox",
+      "name": "Infinite Glory｜无尽的荣耀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E23A01",

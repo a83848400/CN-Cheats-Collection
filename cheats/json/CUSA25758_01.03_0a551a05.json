@@ -1,13 +1,18 @@
 {
-  "name": "Curse of the Sea Rats",
+  "name": "紧箍咒 of the Sea Rats",
   "id": "CUSA25758",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Exp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限经验",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Gold At Shop",
+      "name": "无限金币 At Shop",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F032",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Gold",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F064",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F096",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Life",
+      "name": "无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0C7",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Inf Magic",
+      "name": "Infinite 魔法",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80ABF693",

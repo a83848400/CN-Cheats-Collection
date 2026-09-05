@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Inf Lives ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 ">
     <Cheatline>
       <Offset>C43800</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>FF-C8-0F-48-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Bombs">
+  <Cheat Text="无限炸弹">
     <Cheatline>
       <Offset>C4380F</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>B9-00-00-00-00-0F-48-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Boost">
+  <Cheat Text="无限加速">
     <Cheatline>
       <Offset>244E9E</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C4-C1-7A-11-46-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant laser by using">
+  <Cheat Text="Instant 激光瞄准器 by using">
     <Cheatline>
       <Offset>254063</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full laser bar by 1 point">
+  <Cheat Text="Full 激光瞄准器 bar by 1 point">
     <Cheatline>
       <Offset>253F28</Offset>
       <Section>0</Section>

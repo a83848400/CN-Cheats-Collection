@@ -1,12 +1,17 @@
 {
-  "name": "Detroit: Become Human",
+  "name": "Detroit: Become Human｜底特律：化身为人",
   "id": "CUSA00717",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Bonuspoints ( Unlock all Extras )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Bonuspoints ( 解锁 all Extras )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B33800",

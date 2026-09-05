@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Two Point Campus" Moder="Reddevil82 - FW 9.00" Cusa="CUSA24605" Version="01.12" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Max Money ( on gain )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱最大 ( on gain )">
     <Cheatline>
       <Offset>197FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>4D-01-67-18-44-89-F6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Kudosh ( on gain )">
+  <Cheat Text="最大 Kudosh ( on gain )">
     <Cheatline>
       <Offset>197FE06</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>45-29-A5-40-01-00-00-4C-89-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Career Points">
+  <Cheat Text="最大 职业 得分">
     <Cheatline>
       <Offset>197FDED</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>49-8B-85-10-01-00-00-4C-89-EF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Room Prestige">
+  <Cheat Text="最大 Room 转生">
     <Cheatline>
       <Offset>197FE20</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "#Killallzombies",
+  "name": "#Killallzombies｜#消灭所有僵尸",
   "id": "CUSA00849",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Armor / Ammo (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / Armor / 但是 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D2000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Armor",
-      "type": "checkbox",
+      "name": "Infinite Armor｜护甲无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D2007",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D201D",

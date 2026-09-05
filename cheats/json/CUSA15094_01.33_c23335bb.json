@@ -1,12 +1,17 @@
 {
-  "name": "Deep Rock Galactic",
+  "name": "Deep Rock Galactic｜《深岩银河》",
   "id": "CUSA15094",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Oxygen",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Bosco Revives",
-      "type": "checkbox",
+      "name": "最大 Bosco Revives",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F826",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Overheat",
-      "type": "checkbox",
+      "name": "No Overheat｜不会过热",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F83D",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Overheat Drill",
-      "type": "checkbox",
+      "name": "不会过热 Drill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F856",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Drill Fuel",
-      "type": "checkbox",
+      "name": "Infinite Drill Fuel｜无限钻探燃料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F868",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Flares",
-      "type": "checkbox",
+      "name": "Infinite Flares｜无尽的火光",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623FDC7",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Ammo ( Primary )",
-      "type": "checkbox",
+      "name": "弹药最大化 ( Primary )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F88D",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Ammo ( Secondary )",
-      "type": "checkbox",
+      "name": "弹药最大化 ( Secondary )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F8A4",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Shield Generator",
-      "type": "checkbox",
+      "name": "最大 盾牌 Generator",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F8B5",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max Grenades ( on use )",
-      "type": "checkbox",
+      "name": "最大 手榴弹 ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F8CC",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CB33C8",
@@ -176,8 +181,8 @@
       ]
     },
     {
-      "name": "Max Clip Ammo",
-      "type": "checkbox",
+      "name": "最大 Clip 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F8DD",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "Max Bosco Rockets",
-      "type": "checkbox",
+      "name": "最大 Bosco Rockets",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F8F4",
@@ -208,8 +213,8 @@
       ]
     },
     {
-      "name": "Max Credits",
-      "type": "checkbox",
+      "name": "最大 Credits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623FDB0",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Max Scrip",
-      "type": "checkbox",
+      "name": "最大 Scrip",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F90B",
@@ -240,8 +245,8 @@
       ]
     },
     {
-      "name": "Max Ressources",
-      "type": "checkbox",
+      "name": "最大 Ressources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F920",
@@ -256,8 +261,8 @@
       ]
     },
     {
-      "name": "Max Perks ( on use )",
-      "type": "checkbox",
+      "name": "最大 Perks ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F935",
@@ -272,8 +277,8 @@
       ]
     },
     {
-      "name": "Max Performance",
-      "type": "checkbox",
+      "name": "最大 Performance",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623F94C",
@@ -288,8 +293,8 @@
       ]
     },
     {
-      "name": "Freeze Timer ( Mission )",
-      "type": "checkbox",
+      "name": "Freeze 计时器 ( Mission )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB431B",

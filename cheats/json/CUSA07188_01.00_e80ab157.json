@@ -1,23 +1,28 @@
 {
-  "name": "Bulletstorm: Full Clip Edition",
+  "name": "Bulletstorm: Full Clip Edition｜《子弹风暴：全弹匣版》",
   "id": "CUSA07188",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "2x Exp After Use",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "2x 经验 After Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1834",
           "on": "03",
-          "off": "2B"
+          "off": "2B｜2B"
         }
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A4382",

@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>13C7812</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>85-F6-0F-49-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf SG">
+  <Cheat Text="Infinite SG">
     <Cheatline>
       <Offset>15C378</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf  Money on buy">
+  <Cheat Text="Infinite  金钱 on buy">
     <Cheatline>
       <Offset>13C7800</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-0F-48-DF-8B-08-89-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Get MAX Level (200) after two battles">
+  <Cheat Text="Get 等级最大 (200) after two battles">
     <Cheatline>
       <Offset>13C7829</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>41-89-4D-00-89-50-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Essence">
+  <Cheat Text="精华无限">
     <Cheatline>
       <Offset>13C783A</Offset>
       <Section>0</Section>

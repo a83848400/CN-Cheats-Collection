@@ -1,49 +1,54 @@
 {
-  "name": "Shikigami no Shiro",
+  "name": "式神 no Shiro",
   "id": "SLPM62165",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEC9A48",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "807FEC9A49",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-Energy",
-      "type": "checkbox",
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEC99FC",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "807FEC99FD",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEC9A66",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     }

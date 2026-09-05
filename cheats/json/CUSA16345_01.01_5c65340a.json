@@ -1,12 +1,17 @@
 {
-  "name": "Immortals Fenyx Rising",
+  "name": "Immortals Fenyx Rising｜渡神纪",
   "id": "CUSA16345",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max + Inf HP | On Hit",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 + 无限血量 | On Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32045E2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A490",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Items |Consumables",
-      "type": "checkbox",
+      "name": "道具无限 |Consumables",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37CAABE",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max+ Inf Shards/Items/Arrow On Spend",
-      "type": "checkbox",
+      "name": "最大+ Infinite Shards/Items/Arrow On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A400",

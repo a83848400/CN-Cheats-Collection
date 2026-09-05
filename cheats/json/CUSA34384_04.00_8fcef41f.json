@@ -1,12 +1,17 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34384",
   "version": "04.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777980",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A65F32",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "HS/XP Multiplier x10",
-      "type": "checkbox",
+      "name": "HS/经验倍率×10",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777B00",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "HS/XP Multiplier x5",
-      "type": "checkbox",
+      "name": "HS/经验倍率×5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777E20",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "HS/XP Multiplier x2",
-      "type": "checkbox",
+      "name": "高速 / XP，2倍放大倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777E90",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "HS/XP/Ressources Multiplier x100",
-      "type": "checkbox",
+      "name": "HS/XP/Ressources 倍率×100",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777EF0",

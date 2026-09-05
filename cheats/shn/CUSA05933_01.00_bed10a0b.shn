@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Kingdom Hearts: HD 1.5 + 2.5 ReMIX" Moder="Molly" Cusa="CUSA05933" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Have All Cards ~Press Start~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Have All Cards ~Press Start~｜集齐所有卡片后，请按“开始”键">
     <Cheatline>
       <Offset>59F800</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>0F-BE-84-01-90-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>59F863</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>8B-91-58-04-00-00-89-50-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Cards/Story/Chars Entries">
+  <Cheat Text="Have All Cards/Story/Chars Entries｜包含所有卡牌/剧情/角色条目">
     <Cheatline>
       <Offset>59F8DE</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>F6-84-08-A4-28-00-00-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Moogle Points ~Sell 1 Card~">
+  <Cheat Text="最大 莫古力 得分 ~Sell 1 卡牌~">
     <Cheatline>
       <Offset>59F8F3</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>EB-08-89-58-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Items ~Buy 1 Potion~">
+  <Cheat Text="Have 所有商品 ~Buy 1 药水~">
     <Cheatline>
       <Offset>3CB800</Offset>
       <Section>0</Section>
@@ -120,7 +128,7 @@
       <ValueOff>40-88-B4-0B-99-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Gummi ~Go To Gummi Garage~">
+  <Cheat Text="Have All Gummi ~Go To Gummi Garage~｜《Have All Gummi》~前往Gummi车库~">
     <Cheatline>
       <Offset>3CBBF7</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>0F-B6-84-08-78-9A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Summons~Leave Area~">
+  <Cheat Text="Have All Summons~Leave Area~｜拥有所有传送令~离开该区域~">
     <Cheatline>
       <Offset>3CBC2E</Offset>
       <Section>0</Section>
@@ -148,7 +156,7 @@
       <ValueOff>0F-BE-B8-D0-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Trinities~Walk To trinity Location~">
+  <Cheat Text="Have All Trinities~Walk To trinity Location~｜收集所有三位一体~前往三位一体地点~">
     <Cheatline>
       <Offset>3CBC9C</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>0F-B6-BC-10-C0-F2-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money ~Pick up/Sell~">
+  <Cheat Text="金钱最大 ~拾取/Sell~">
     <Cheatline>
       <Offset>3CBBD8</Offset>
       <Section>0</Section>
@@ -188,7 +196,7 @@
       <ValueOff>29-F9-89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump~Just Jump~">
+  <Cheat Text="超级跳跃~Just Jump~">
     <Cheatline>
       <Offset>3CBC0C</Offset>
       <Section>0</Section>
@@ -202,7 +210,7 @@
       <ValueOff>C5-FA-10-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>3CBC1D</Offset>
       <Section>0</Section>
@@ -216,7 +224,7 @@
       <ValueOff>45-89-74-05-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats ~Leave Area~">
+  <Cheat Text="最大 属性 ~Leave Area~">
     <Cheatline>
       <Offset>3CBCB4</Offset>
       <Section>0</Section>
@@ -230,7 +238,7 @@
       <ValueOff>0F-B6-74-1A-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Gummi Score">
+  <Cheat Text="High Gummi 比分">
     <Cheatline>
       <Offset>3CBCFF</Offset>
       <Section>0</Section>
@@ -244,7 +252,7 @@
       <ValueOff>03-47-14-03-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Accessories~Buy 1 Potion~">
+  <Cheat Text="Have 所有配件~Buy 1 药水~">
     <Cheatline>
       <Offset>5E7800</Offset>
       <Section>0</Section>
@@ -258,7 +266,7 @@
       <ValueOff>88-9C-08-80-35-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats~Press Start~">
+  <Cheat Text="最大 属性~Press Start~">
     <Cheatline>
       <Offset>5E78FC</Offset>
       <Section>0</Section>
@@ -272,7 +280,7 @@
       <ValueOff>41-0F-B6-57-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>5E795B</Offset>
       <Section>0</Section>
@@ -286,7 +294,7 @@
       <ValueOff>89-88-E0-36-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Munny~Buy Anything~">
+  <Cheat Text="最大 Munny~购买任何商品~">
     <Cheatline>
       <Offset>5E796C</Offset>
       <Section>0</Section>
@@ -312,7 +320,7 @@
       <ValueOff>89-88-40-24-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Gummi Parts/BluePrints~Select Gummi Editor~">
+  <Cheat Text="Have All Gummi Parts/BluePrints~Select Gummi Editor~｜已拥有所有Gummi部件/蓝图~选择Gummi编辑器~">
     <Cheatline>
       <Offset>5E798C</Offset>
       <Section>0</Section>
@@ -350,7 +358,7 @@
       <ValueOff>0F-B6-84-01-60-0E-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Drive Gauge Level 9~Press Start~">
+  <Cheat Text="Have 驱动槽 等级 9~Press Start~">
     <Cheatline>
       <Offset>5E79CB</Offset>
       <Section>0</Section>
@@ -364,7 +372,7 @@
       <ValueOff>8B-88-38-10-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy S Rank~Finish GUmmi Level~">
+  <Cheat Text="简单 S 阶级~Finish GUmmi 等级~">
     <Cheatline>
       <Offset>5E79E0</Offset>
       <Section>0</Section>
@@ -402,7 +410,7 @@
       <ValueOff>83-C8-02-89-4B-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up Summons">
+  <Cheat Text="Quick 升级 Summons">
     <Cheatline>
       <Offset>5E7A10</Offset>
       <Section>0</Section>
@@ -416,7 +424,7 @@
       <ValueOff>44-01-B3-E4-36-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up Forms">
+  <Cheat Text="Quick 升级 Forms">
     <Cheatline>
       <Offset>5E7A22</Offset>
       <Section>0</Section>
@@ -430,7 +438,7 @@
       <ValueOff>49-89-C5-45-01-75-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score ~GrandStander~">
+  <Cheat Text="最大 比分 ~GrandStander~">
     <Cheatline>
       <Offset>5E7A45</Offset>
       <Section>0</Section>
@@ -444,7 +452,7 @@
       <ValueOff>0F-4E-F1-89-73-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Valor Form~Remove Armor~">
+  <Cheat Text="解锁 勇猛形态~Remove Armor~">
     <Cheatline>
       <Offset>5E7A55</Offset>
       <Section>0</Section>
@@ -458,7 +466,7 @@
       <ValueOff>66-45-89-74-5C-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Moogle">
+  <Cheat Text="Quick 等级 莫古力">
     <Cheatline>
       <Offset>5E7A65</Offset>
       <Section>0</Section>
@@ -472,7 +480,7 @@
       <ValueOff>89-90-30-4A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Underworld Coliseum Cups Score">
+  <Cheat Text="最大 Underworld Coliseum Cups 比分">
     <Cheatline>
       <Offset>5E7A73</Offset>
       <Section>0</Section>
@@ -498,7 +506,7 @@
       <ValueOff>44-89-73-38-5B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Peter Pan~Remove Armor~">
+  <Cheat Text="解锁 Peter Pan~Remove Armor~">
     <Cheatline>
       <Offset>5E7A94</Offset>
       <Section>0</Section>
@@ -512,7 +520,7 @@
       <ValueOff>66-45-89-74-5C-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Munny">
+  <Cheat Text="最大 Munny">
     <Cheatline>
       <Offset>69F800</Offset>
       <Section>0</Section>
@@ -526,7 +534,7 @@
       <ValueOff>89-88-3C-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Item Commands">
+  <Cheat Text="Have All 物品 指令">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>
@@ -540,7 +548,7 @@
       <ValueOff>88-C3-88-5C-51-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>69F93C</Offset>
       <Section>0</Section>
@@ -554,7 +562,7 @@
       <ValueOff>89-88-38-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mirage Medals">
+  <Cheat Text="最大 Mirage Medals">
     <Cheatline>
       <Offset>69F94C</Offset>
       <Section>0</Section>
@@ -568,7 +576,7 @@
       <ValueOff>89-88-40-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up Commands/Shotlock">
+  <Cheat Text="Quick 升级 指令/Shotlock">
     <Cheatline>
       <Offset>69F95C</Offset>
       <Section>0</Section>

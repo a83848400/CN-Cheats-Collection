@@ -1,12 +1,17 @@
 {
-  "name": "Baldo: The Guardian Owls",
+  "name": "Baldo: The 守护者 Owls",
   "id": "CUSA27312",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81BE2F69",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81ACDA0F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Dindi (999)",
-      "type": "checkbox",
+      "name": "最大 Dindi (999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81BC3B32",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Freez Timer",
-      "type": "checkbox",
+      "name": "Freez 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81B2F533",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Inf Consumables",
-      "type": "checkbox",
+      "name": "无限消耗品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "823AB800",

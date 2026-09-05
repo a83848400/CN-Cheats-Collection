@@ -1,12 +1,17 @@
 {
-  "name": "Phantom Brave: The Lost Hero",
+  "name": "灵体 勇气: The Lost 英雄",
   "id": "CUSA47244",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F045",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Money And Mana",
-      "type": "checkbox",
+      "name": "金钱无限 And 法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F072",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Spirits",
-      "type": "checkbox",
+      "name": "无限之灵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0AC",

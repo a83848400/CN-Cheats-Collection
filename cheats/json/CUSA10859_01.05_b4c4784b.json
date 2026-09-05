@@ -1,12 +1,17 @@
 {
-  "name": "Adventure Time: Pirates of the Enchiridion",
+  "name": "冒险模式 Time: Pirates of the Enchiridion",
   "id": "CUSA10859",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Money (On Gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 金钱无限 (On Gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "155BDB0",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Stamina Player Left",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限耐力 Player Left",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24E7000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Stamina Player Right",
-      "type": "checkbox",
+      "name": "无限耐力 Player Right",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24E7000",

@@ -1,12 +1,17 @@
 {
-  "name": "DOOM Eternal",
+  "name": "毁灭战士 Eternal",
   "id": "CUSA13275",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf. Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite. 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D91B1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf. Health + Shield",
-      "type": "checkbox",
+      "name": "Infinite. 生命 + 盾牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D91B1",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf. Health + Shield + Keys, etc.",
-      "type": "checkbox",
+      "name": "Infinite. 生命 + 盾牌 + Keys, etc.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D91B1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo + Fuel",
-      "type": "checkbox",
+      "name": "无限弹药 + Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1392706",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Jumping Dash",
-      "type": "checkbox",
+      "name": "Infinite Jumping Dash｜无限跳跃冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E8BEB1",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Health zero = no die",
-      "type": "checkbox",
+      "name": "生命 杰洛 = no die",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D2FFA",

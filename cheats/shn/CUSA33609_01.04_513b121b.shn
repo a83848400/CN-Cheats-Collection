@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="WRC Generations" Moder="Reddevil82 - FW 9.00" Cusa="CUSA33609" Version="01.04" Process="eboot.bin">
   <Genres Name="Racing" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>2207DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>45-8B-B6-18-B1-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max F&amp;E Skills Points">
+  <Cheat Text="最大 F&amp;E Skills 得分">
     <Cheatline>
       <Offset>2207DDB</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>44-8B-B0-28-B1-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Reputation Level">
+  <Cheat Text="声望拉满 等级">
     <Cheatline>
       <Offset>2207DF1</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-10-04-98</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Moral">
+  <Cheat Text="最大 Moral">
     <Cheatline>
       <Offset>2207E02</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-10-87-1C-B1-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP ( on gain )">
+  <Cheat Text="最大 XP ( on gain )">
     <Cheatline>
       <Offset>2207E19</Offset>
       <Section>0</Section>

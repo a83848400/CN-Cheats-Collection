@@ -1,12 +1,17 @@
 {
-  "name": "Sniper Elite 5",
+  "name": "Sniper 精英 5",
   "id": "CUSA16164",
   "version": "01.23",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Shot Kills (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/1 Shot Kills (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B9E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Health (Need MC)",
-      "type": "checkbox",
+      "name": "最大/无限生命 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B9E9",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Shot Kills (Need MC)",
-      "type": "checkbox",
+      "name": "1 Shot Kills (Need MC)｜一击毙命（需MC）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B9E7",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (For Running)",
-      "type": "checkbox",
+      "name": "无限耐力 (For Running)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B5D0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/Items",
-      "type": "checkbox",
+      "name": "最大/无限弹药/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127A2F0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B630",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max XP/Levels/Skill Points On Gain (Disable/Restart The Game)",
-      "type": "checkbox",
+      "name": "最大 XP/Levels/Skill 得分 On Gain (Disable/Restart The Game)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B760",

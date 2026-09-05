@@ -1,13 +1,18 @@
 {
-  "name": "7 Days to Die",
+  "name": "7 Days to Die｜《7天求生》",
   "id": "CUSA03455",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808901B6",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Get Skillpoints For Spending Them",
+      "name": "Get Skillpoints For Spending Them｜花技能点，赚技能点",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80B5ACA9",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite Health / Stamina",
-      "hint": "This will affect all creatures aswell. If a new zombie spawns it, will instantly die.",
-      "type": "checkbox",
+      "name": "无限生命 / 体力",
+      "hint": "This 意志 affect all creatures aswell. If a new 僵尸 spawns it, 意志 instantly die.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808901BB",

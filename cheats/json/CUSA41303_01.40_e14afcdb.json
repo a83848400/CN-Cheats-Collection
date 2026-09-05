@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid: Master Collection Vol. 1",
+  "name": "合金装备/潜龙谍影: Master Collection Vol. 1",
   "id": "CUSA41303",
   "version": "01.40",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Rations",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 口粮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "101318",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1012EC",

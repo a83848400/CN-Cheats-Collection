@@ -1,13 +1,18 @@
 {
-  "name": "Superbeat: Xonic",
+  "name": "Superbeat: Xonic｜《Superbeat: Xonic》",
   "id": "CUSA06894",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Auto play with Superbeat",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Auto play with Superbeat｜使用 Superbeat 自动播放",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80616BA1",

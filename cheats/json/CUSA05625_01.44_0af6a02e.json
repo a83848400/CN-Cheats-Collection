@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Origins",
+  "name": "刺客信条 Origins",
   "id": "CUSA05625",
   "version": "01.44",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3558223",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "663A230",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "663A2A0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "663A250",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Res (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Res (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "663A2D0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Abilities Points (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Abilities 得分 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "663A300",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Fast Lvl Up / XP",
-      "type": "checkbox",
+      "name": "Fast Lvl Up / XP｜快速升级 / 经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "663A340",

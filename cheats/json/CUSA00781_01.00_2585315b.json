@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max SP (on slide to the left in Attribute)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 精神值 (on slide to the left in 属性)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC497B0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max VC (on spent)",
-      "type": "checkbox",
+      "name": "最大 虚拟货币 (已用)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC49880",

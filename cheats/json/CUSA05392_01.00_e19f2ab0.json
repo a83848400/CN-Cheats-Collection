@@ -1,12 +1,17 @@
 {
-  "name": "Digimon World: Next Order",
+  "name": "Digimon World: Next Order｜数码宝贝世界：新秩序",
   "id": "CUSA05392",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Time",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Freeze Time｜冻结时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1107800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Gym HP result x2",
-      "type": "checkbox",
+      "name": "道馆 手机 result x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1107807",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Gym MP result x2",
-      "type": "checkbox",
+      "name": "道馆 MP result x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110781A",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Gym STR result x4",
-      "type": "checkbox",
+      "name": "道馆 STR result x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110782D",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Gym STA result x4",
-      "type": "checkbox",
+      "name": "道馆 STA result x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1107840",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Gym WIS result x4",
-      "type": "checkbox",
+      "name": "道馆 WIS result x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1107853",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Gym SPD result x4",
-      "type": "checkbox",
+      "name": "道馆 SPD result x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1107866",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Mood / Discipline / Curse / Fatigue 0",
-      "type": "checkbox",
+      "name": "Mood / Discipline / 紧箍咒 / 疲劳 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1107879",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Mood, Discipline (Praise) / Curse, Fatigue (Eat) Full",
-      "type": "checkbox",
+      "name": "Mood, Discipline (信仰) / 紧箍咒, 疲劳 (Eat) Full",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110788D",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Order Power Battle Start 999",
-      "type": "checkbox",
+      "name": "Order 电力 战斗开始 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11078A1",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Bits",
-      "type": "checkbox",
+      "name": "Bits｜比特",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11078B3",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Max lvl (town / battle)",
-      "type": "checkbox",
+      "name": "最大 lvl (town / 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11078C1",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "TP",
-      "type": "checkbox",
+      "name": "TP｜轮胎气压",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11078D3",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Warehouse items 999",
-      "type": "checkbox",
+      "name": "仓库 items 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11078E2",

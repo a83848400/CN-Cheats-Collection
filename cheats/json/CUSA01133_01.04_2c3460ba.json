@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Revelations 2",
+  "name": "生化危机: Revelations 2",
   "id": "CUSA01133",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Bottomless Clip",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "407358",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D9558",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Money (Raid)",
-      "type": "checkbox",
+      "name": "金钱无限 (团本)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153F800",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite BP",
-      "type": "checkbox",
+      "name": "Infinite 战斗点数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153F813",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153F823",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "410210",

@@ -1,12 +1,17 @@
 {
-  "name": "Battlefield 1",
+  "name": "战地 1",
   "id": "CUSA02387",
   "version": "01.27",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enemies AFK",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Enemies AFK｜敌人离线",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B4C00",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22B7695",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Weapon Overheat",
-      "type": "checkbox",
+      "name": "No Weapon Overheat｜无武器过热",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22B6860",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Better Aiming",
-      "type": "checkbox",
+      "name": "Better Aiming｜更精准的瞄准",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17DB640",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22A456A",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Vsync off for more fps 120+ laggy on PS4",
-      "type": "checkbox",
+      "name": "Vsync off for more fps 120+ laggy on PS4｜关闭垂直同步以获得更高帧率，但在PS4上帧率超过120时会出现卡顿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1347BA7",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Speed Hack x2",
-      "type": "checkbox",
+      "name": "速度 Hack x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "308E7F0",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Player isGrounded",
-      "type": "checkbox",
+      "name": "Player isGrounded｜球员被禁赛",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19F6AC0",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Fire rate 60 / 2",
-      "type": "checkbox",
+      "name": "射速 60 / 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32C1098",

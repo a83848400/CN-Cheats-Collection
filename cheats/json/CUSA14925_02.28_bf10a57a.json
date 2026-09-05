@@ -1,12 +1,17 @@
 {
-  "name": "Bus Simulator 21",
+  "name": "Bus Simulator 21｜《巴士模拟器21》",
   "id": "CUSA14925",
   "version": "02.28",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D57DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "102AE47",

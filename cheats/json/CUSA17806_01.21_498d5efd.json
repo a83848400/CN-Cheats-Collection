@@ -1,12 +1,17 @@
 {
-  "name": "Hellpoint",
+  "name": "Hellpoint｜《地狱之点》",
   "id": "CUSA17806",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18FDF00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18FDF04",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18FD600",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18FDFA0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Axions (On Get)",
-      "type": "checkbox",
+      "name": "最大 Axions (On Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18FE000",

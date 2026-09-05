@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 3",
+  "name": "生化危机 3",
   "id": "CUSA14168",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Speed Master Code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "速度 Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DFFF5D",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Health Player",
-      "type": "checkbox",
+      "name": "生命最大 Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68FDB0D",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf. Health Player+ No Bleeding",
-      "type": "checkbox",
+      "name": "Infinite. 生命 Player+ No 流血",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3140F0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D00002",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
+      "name": "Infinite Clip Ammo｜弹夹子弹无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E3203A",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "20 Inventory Slot",
-      "type": "checkbox",
+      "name": "20 背包 Slot",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DFFE35",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Inc. Speed [x2.0]",
-      "type": "checkbox",
+      "name": "Inc. 速度 [x2.0]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DFFF67",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Inc. Speed [x2.7]",
-      "type": "checkbox",
+      "name": "Inc. 速度 [x2.7]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DFFF67",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Inc. Speed [x1.5]",
-      "type": "checkbox",
+      "name": "Inc. 速度 [x1.5]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DFFF67",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Fire Resistance",
-      "type": "checkbox",
+      "name": "Fire Resistance｜火焰抗性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "325260",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Swap HandGun Ammo To:",
-      "type": "checkbox",
+      "name": "Swap 手枪 但是 To:",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E139",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "44 AE Lightning Hawk",
-      "type": "checkbox",
+      "name": "44 AE 闪电 Hawk",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "Infinite MUP Handgun",
-      "type": "checkbox",
+      "name": "Infinite MUP 手枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -173,8 +178,8 @@
       ]
     },
     {
-      "name": "Shotgun",
-      "type": "checkbox",
+      "name": "Shotgun｜霰弹枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "Infinite CQBR Assault Rifle",
-      "type": "checkbox",
+      "name": "Infinite CQBR 突击步枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -196,7 +201,7 @@
     },
     {
       "name": "RAI-DEN",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -206,8 +211,8 @@
       ]
     },
     {
-      "name": "Grenade Launcher",
-      "type": "checkbox",
+      "name": "Grenade Launcher｜榴弹发射器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -217,8 +222,8 @@
       ]
     },
     {
-      "name": "HOT DOGGER",
-      "type": "checkbox",
+      "name": "持续治疗 DOGGER",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -228,8 +233,8 @@
       ]
     },
     {
-      "name": "Infinite Rocket Launcher",
-      "type": "checkbox",
+      "name": "Infinite Rocket Launcher｜无限火箭筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -239,8 +244,8 @@
       ]
     },
     {
-      "name": "Lock_Pick",
-      "type": "checkbox",
+      "name": "Lock_Pick｜开锁",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -250,8 +255,8 @@
       ]
     },
     {
-      "name": "Bolt_Cutters",
-      "type": "checkbox",
+      "name": "Bolt_Cutters｜断线钳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E13D",
@@ -261,8 +266,8 @@
       ]
     },
     {
-      "name": "Reset Gameplay Timer [Dont Freez It]",
-      "type": "checkbox",
+      "name": "Reset Gameplay 计时器 [Dont Freez It]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E1F8",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "Prevent Zombie To Grab Player",
-      "type": "checkbox",
+      "name": "Prevent 僵尸 To Grab Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "314310",

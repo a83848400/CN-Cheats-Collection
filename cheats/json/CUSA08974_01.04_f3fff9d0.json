@@ -1,12 +1,17 @@
 {
-  "name": "The Evil Within 2",
+  "name": "《恶灵附身》 2",
   "id": "CUSA08974",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F284F6",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Resistance",
-      "type": "checkbox",
+      "name": "Infinite Resistance｜无限抵抗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10648DA",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "All Items To The Max",
-      "type": "checkbox",
+      "name": "所有商品 To The 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "119F72D",

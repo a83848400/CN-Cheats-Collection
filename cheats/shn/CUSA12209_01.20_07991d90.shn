@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Truck Driver" Moder="Reddevil82 - FW 9.00" Cusa="CUSA12209" Version="01.20" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>82B33800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-0D-1E-9B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP">
+  <Cheat Text="最大 XP">
     <Cheatline>
       <Offset>82B33813</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>E8-53-27-9B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Tiredness">
+  <Cheat Text="No Tiredness｜不感到疲劳">
     <Cheatline>
       <Offset>82B33826</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-10-40-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fuel">
+  <Cheat Text="Infinite Fuel｜燃料无限">
     <Cheatline>
       <Offset>82B3383E</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C4-C1-7A-11-47-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Damage">
+  <Cheat Text="No Damage｜不受伤害">
     <Cheatline>
       <Offset>82B33851</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C4-A1-7A-11-44-F0-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Passive Level">
+  <Cheat Text="最大 Passive 等级">
     <Cheatline>
       <Offset>82B3385F</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>48-89-43-48-41-8B-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock all Passive Level">
+  <Cheat Text="解锁 all Passive 等级">
     <Cheatline>
       <Offset>82B33876</Offset>
       <Section>0</Section>

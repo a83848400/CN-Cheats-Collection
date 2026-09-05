@@ -1,12 +1,17 @@
 {
-  "name": "Star Wars: Squadrons",
+  "name": "Star Wars: Squadrons｜《星球大战：中队》",
   "id": "CUSA15089",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46CFDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Energy / Ammo",
-      "type": "checkbox",
+      "name": "无限能量 / 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46CFDD0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Missiles / Warheads ( you need 1 )",
-      "type": "checkbox",
+      "name": "最大 Missiles / Warheads ( you need 1 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46CFDE1",

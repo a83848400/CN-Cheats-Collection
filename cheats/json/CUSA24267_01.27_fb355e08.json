@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops Cold War",
+  "name": "使命召唤: 黑色 Ops Cold War",
   "id": "CUSA24267",
   "version": "01.27",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money after Buy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱无限 after Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12E4387",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F0346E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1254BB5",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "God Mode (Campaign)",
-      "type": "checkbox",
+      "name": "神模式 (战役)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1254BA8",

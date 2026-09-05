@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Valfaris" Moder="Ali-mk" Cusa="CUSA17672" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无敌-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -20,7 +28,7 @@
       <ValueOff>E8-2F-1A-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>80A75A06</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>41-0F-4F-DE</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Stamina-Weapon">
+    <Cheat Text="Infinite-体力-Weapon">
     <Cheatline>
       <Offset>80B4C4D8</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>E8-3C-ED-FA-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="one-Hit-Kill">
+    <Cheat Text="one-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>80BE7ED8</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>E8-1B-7B-1E-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-All-items-(9999)">
+    <Cheat Text="最大-所有商品-(9999)">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>

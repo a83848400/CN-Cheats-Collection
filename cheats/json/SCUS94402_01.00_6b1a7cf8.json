@@ -1,70 +1,75 @@
 {
-  "name": "The Raiden Project",
-  "id": "SCUS94402",
+  "name": "The 雷电 Project",
+  "id": "SCUS94402｜打扰一下，对不起。",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Raiden=1-Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "雷电=1-无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FE688",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "FE689",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Raiden=1-Infinite-Bomb",
-      "type": "checkbox",
+      "name": "雷电=1-无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10BFD8",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "10BFD9",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Raiden=2-Infinite-lives",
-      "type": "checkbox",
+      "name": "雷电=2-无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FE814",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "FE815",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Raiden=2-Infinite-Bomb",
-      "type": "checkbox",
+      "name": "雷电=2-无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14625C",
           "on": "03",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "14625D",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

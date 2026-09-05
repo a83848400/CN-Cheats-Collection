@@ -1,13 +1,18 @@
 {
-  "name": "Watch Dogs",
+  "name": "Watch Dogs｜看门狗",
   "id": "CUSA00016",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7B3C06",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Battery",
+      "name": "Infinite 电池",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BFF82",

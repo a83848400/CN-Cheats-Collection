@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Avengers",
+  "name": "Marvel's Avengers｜漫威复仇者联盟",
   "id": "CUSA14026",
   "version": "01.78",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A50920",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "All resources/Units 9999",
-      "type": "checkbox",
+      "name": "All resources/Units 9999｜所有资源/单元 9999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A53910",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience (activate on first mission as a hero)",
-      "type": "checkbox",
+      "name": "最大 Experience (activate on first mission as a 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A53AC0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Skill Points/Champion Points x99 (have at least 2 skill points)",
-      "type": "checkbox",
+      "name": "Skill 得分/冠军级 得分 x99 (have 至少2 skill 得分)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A53B30",

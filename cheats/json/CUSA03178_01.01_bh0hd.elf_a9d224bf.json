@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Origins Collection",
+  "name": "生化危机: Origins Collection",
   "id": "CUSA03178",
   "version": "01.01",
   "process": "bh0hd.elf",
   "mods": [
     {
-      "name": "Infinite Health/1hit kill (resident evil 0)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (生化危机 0)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B03840",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo(Resident evil 0)",
-      "type": "checkbox",
+      "name": "无限弹药(生化危机 0)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B03940",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ink (Resident evil 0)",
-      "type": "checkbox",
+      "name": "Infinite 墨水 (生化危机 0)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110A77",

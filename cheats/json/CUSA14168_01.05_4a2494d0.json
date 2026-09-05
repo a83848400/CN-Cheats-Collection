@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 3",
+  "name": "生化危机 3",
   "id": "CUSA14168",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Easy Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 轻松击杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Easy Kill (MC)",
-      "type": "checkbox",
+      "name": "轻松击杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713B80A",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload / Infinite Throwables",
-      "type": "checkbox",
+      "name": "无需换弹 / 投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E3EBAA",

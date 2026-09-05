@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 7: Biohazard" Moder="Rizla" Cusa="CUSA03842" Version="01.06" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>AE4F866</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-40-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>B9D76E</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dupe Items on Use">
+  <Cheat Text="Dupe Items on Use｜使用时的重复物品">
     <Cheatline>
       <Offset>B9D770</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>89-86-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>F47046</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-FF-CF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>AE4F820</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C5-FA-10-41-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Down Boss">
+  <Cheat Text="One Hit Down Boss｜一击必杀的BOSS">
     <Cheatline>
       <Offset>AE4F831</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C4-C1-7A-11-5D-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Scrap on Spend (Nightmare)">
+  <Cheat Text="废料最大 on Spend (Nightmare)">
     <Cheatline>
       <Offset>AE4F844</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>44-89-63-6C-31-D2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Total Score After All Waves (Nightmare)">
+  <Cheat Text="最大 Total 比分 After All Waves (Nightmare)">
     <Cheatline>
       <Offset>AE4F855</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>89-53-24-80-7B-22-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Compactor Always Drops Max Scraps (Nightmare)">
+  <Cheat Text="Compactor Always Drops 最大 Scraps (Nightmare)">
     <Cheatline>
       <Offset>AE4F875</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>41-8B-86-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer (Bedroom)">
+  <Cheat Text="Freeze 计时器 (Bedroom)">
     <Cheatline>
       <Offset>10696CB</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FA-11-40-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables (Not a Hero) ">
+  <Cheat Text="投掷物无限 (Not a 英雄) ">
     <Cheatline>
       <Offset>36A5A77</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>41-FF-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen (Not a Hero)">
+  <Cheat Text="无限氧气 (Not a 英雄)">
     <Cheatline>
       <Offset>AE4F886</Offset>
       <Section>0</Section>

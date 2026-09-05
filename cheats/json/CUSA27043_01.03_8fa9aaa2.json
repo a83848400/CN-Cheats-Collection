@@ -1,12 +1,17 @@
 {
-  "name": "Dead Island 2",
+  "name": "Dead 岛屿 2",
   "id": "CUSA27043",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "900D590",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "900D510",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9008810",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9015450",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Fury",
-      "type": "checkbox",
+      "name": "Infinite Fury｜无尽之怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "900F5F0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Cash (on get turn off items cheat first)",
-      "type": "checkbox",
+      "name": "最大 Cash (on get 回合 off items cheat first)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "900C260",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Experience (on 2nd kill)",
-      "type": "checkbox",
+      "name": "最大 Experience (on 2nd kill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "900D1E0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "sell 999 items (on the store if items cheat bugged out)",
-      "type": "checkbox",
+      "name": "sell 999 items (on the store if items cheat bugged out)｜出售999件商品（如果商品作弊功能出现故障，则在商店中出售）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "900D400",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "x60 Items (on get turn off the cash cheat and have 2 items)",
-      "type": "checkbox",
+      "name": "x60 Items (on get 回合 off the cash cheat and have 2 items)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "900D4A0",

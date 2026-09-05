@@ -1,12 +1,17 @@
 {
-  "name": "Death's Door",
+  "name": "死亡's Door",
   "id": "CUSA30423",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Power (arrows use/spells etc..)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 电力 (arrows use/spells etc..)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (turn off when breaking Obstacles)",
-      "type": "checkbox",
+      "name": "无限生命 (回合 off when breaking Obstacles)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E160",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max souls (on kill)",
-      "type": "checkbox",
+      "name": "灵魂最大 (on kill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E1A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "99 Flower (on planting)",
-      "type": "checkbox",
+      "name": "99 Flower (on planting)｜99 种花（种植篇）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D790",

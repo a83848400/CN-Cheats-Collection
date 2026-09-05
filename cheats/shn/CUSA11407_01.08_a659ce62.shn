@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>171EF60</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-F2-5C-46-14-C5-FA-11-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (-Bosses)">
+  <Cheat Text="一击必杀 (-Bosses)">
     <Cheatline>
       <Offset>171EFE0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>48-8B-87-90-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mask Filter">
+  <Cheat Text="Infinite 面具 Filter">
     <Cheatline>
       <Offset>171EEA0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-11-83-E8-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>171EF90</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>39-C3-0F-42-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Pressure (Air Gun / Flamethrower)">
+  <Cheat Text="Infinite Pressure (Air Gun / 火焰喷射器)">
     <Cheatline>
       <Offset>171F040</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C5-FA-11-83-D0-1A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Weapon Jam">
+  <Cheat Text="No Weapon Jam｜无卡弹">
     <Cheatline>
       <Offset>578AF3</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>41-0F-92-86-30-19-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bombs">
+  <Cheat Text="Infinite Bombs｜无限炸弹">
     <Cheatline>
       <Offset>171F080</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>42-89-5C-28-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Molotovs">
+  <Cheat Text="Infinite Molotovs｜无限莫洛托夫">
     <Cheatline>
       <Offset>171F0B0</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>42-89-5C-28-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Knives">
+  <Cheat Text="Infinite Knives｜无限之刃">
     <Cheatline>
       <Offset>171F110</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>42-89-5C-28-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Cans">
+  <Cheat Text="Infinite Cans｜无限罐头">
     <Cheatline>
       <Offset>171F0E0</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>42-89-5C-28-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resources (Pick Up)">
+  <Cheat Text="资源无限 (拾取)">
     <Cheatline>
       <Offset>171EEC0</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>66-89-B3-02-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Decrease: Medkits">
+  <Cheat Text="No Decrease: Medkits｜不减少：急救包">
     <Cheatline>
       <Offset>5ED8EF</Offset>
       <Section>0</Section>
@@ -172,7 +180,7 @@
       <ValueOff>FF-8B-5C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Batteries x1 (Goggles, Torch)">
+  <Cheat Text="Infinite 电池 x1 (Goggles, 火把)">
     <Cheatline>
       <Offset>171EFB0</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "No Man's Sky",
+  "name": "No Man's 光·遇",
   "id": "CUSA04841",
   "version": "03.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Units For BUY ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限单位 For BUY ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63C69C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Item Inventory ",
-      "type": "checkbox",
+      "name": "Infinite 物品 背包 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35662E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Items For Sell",
-      "type": "checkbox",
+      "name": "道具无限 For Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3570F8",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Nanites For BUY",
-      "type": "checkbox",
+      "name": "Infinite Nanites For BUY｜无限纳米机器人 购买",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63C795",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite HP",
-      "type": "checkbox",
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F6E12D",

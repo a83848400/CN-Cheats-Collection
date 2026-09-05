@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Arcadegeddon" Moder="Celogamez" Cusa="CUSA29785" Version="01.21" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>8133DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-82-40-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Enable Master Code)">
+  <Cheat Text="一击必杀 (Enable Master 密码)">
     <Cheatline>
       <Offset>8133DB6</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-13</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>81336B0</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>89-87-C4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>8133D10</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>89-87-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield">
+  <Cheat Text="Infinite Shield｜无限护盾">
     <Cheatline>
       <Offset>8133BA0</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>89-82-48-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite GillyCoins">
+  <Cheat Text="Infinite GillyCoins｜无限吉利币">
     <Cheatline>
       <Offset>81336B0</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>49-8B-87-98-05-00-00-8B-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tickets (Disable After Use)">
+  <Cheat Text="无限门票 (使用后禁用)">
     <Cheatline>
       <Offset>8133460</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>89-87-E8-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Surge Gauntlet">
+  <Cheat Text="Infinite Surge Gauntlet｜无限冲击护手">
     <Cheatline>
       <Offset>8133860</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>41-C7-84-24-98-01-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score">
+  <Cheat Text="最大 比分">
     <Cheatline>
       <Offset>8133540</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>41-8B-8F-CC-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Time">
+  <Cheat Text="Reset Time｜重置时间">
     <Cheatline>
       <Offset>8133870</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>C4-C1-7A-11-86-7C-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time">
+  <Cheat Text="停止 Time">
     <Cheatline>
       <Offset>8133230</Offset>
       <Section>0</Section>
@@ -198,7 +206,7 @@
       <ValueOff>C4-C1-7A-11-86-7C-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Power Tokens On Buy (Enable To Work/Disable After Use)">
+  <Cheat Text="Infinite 电力 Tokens On Buy (Enable To Work/使用后禁用)">
     <Cheatline>
       <Offset>8133330</Offset>
       <Section>0</Section>
@@ -212,7 +220,7 @@
       <ValueOff>89-81-F0-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapons Level Up (Pick Up The Weapon/Activate)">
+  <Cheat Text="武器 升级 (拾取 The Weapon/Activate)">
     <Cheatline>
       <Offset>81332D0</Offset>
       <Section>0</Section>

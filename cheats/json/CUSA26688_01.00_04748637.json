@@ -1,12 +1,17 @@
 {
-  "name": "Road Fury",
+  "name": "Road Fury｜《公路狂怒》",
   "id": "CUSA26688",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One Hit Kill ( Boss )",
-      "type": "checkbox",
+      "name": "一击必杀 ( Boss )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DD3",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DE1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Level",
-      "type": "checkbox",
+      "name": "Max Level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DF5",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max driving Distance",
-      "type": "checkbox",
+      "name": "最大 driving Distance",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7E09",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Damage Cars",
-      "type": "checkbox",
+      "name": "最大 输出 Cars",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7E44",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Booster",
-      "type": "checkbox",
+      "name": "最大 Booster",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7E30",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Damage ( Police Cars )",
-      "type": "checkbox",
+      "name": "最大 输出 ( Police Cars )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7E1A",

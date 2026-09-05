@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Deathwish Enforcers" Moder="Ali-mk" Cusa="CUSA37615" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="max-money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大-金钱">
     <Cheatline>
       <Offset>8056F11A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>8B-80-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-lives">
+    <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>805EC822</Offset>
       <Section>0</Section>

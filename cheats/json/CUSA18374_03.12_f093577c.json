@@ -1,12 +1,17 @@
 {
-  "name": "Sword Art Online: Alicization Lycoris",
+  "name": "刀剑神域: Alicization Lycoris",
   "id": "CUSA18374",
   "version": "03.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22FF8F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22FF720",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Skill points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22F8EA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Money (on buy)",
-      "type": "checkbox",
+      "name": "金钱最大 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22FFB20",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "999 items (on use)",
-      "type": "checkbox",
+      "name": "999 items (on use)｜999 件（正在使用中）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22FF7D0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Health/1Hit (turn off before jumping from high place)",
-      "type": "checkbox",
+      "name": "无限生命/1Hit (回合 off before jumping from high place)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22F8E30",

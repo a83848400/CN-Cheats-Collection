@@ -5,7 +5,15 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Genres Name="Simulation" />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>5543800</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>8B-87-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>1175A7D</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>0F-44-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>1ABF9D5</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>44-0F-42-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money, Items" Description="">
+  <Cheat Text="金钱无限, Items" Description="">
     <Cheatline>
       <Offset>1AB59AA</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>44-29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Items on Pick" Description="">
+  <Cheat Text="金钱最大/Items on Pick" Description="">
     <Cheatline>
       <Offset>1AB4F5B</Offset>
       <Section>0</Section>

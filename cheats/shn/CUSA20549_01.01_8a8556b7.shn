@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bite the Bullet" Moder="Reddevil82 - FW 9.00" Cusa="CUSA20549" Version="01.01" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>183FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-46-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health" Description="Max Health">
+  <Cheat Text="Max Health｜生命最大" Description="Max Health">
     <Cheatline>
       <Offset>183FDD5</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-10-47-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Special" Description="Infinite Special">
+  <Cheat Text="Infinite Special｜《无限特辑》" Description="Infinite Special">
     <Cheatline>
       <Offset>183FDE8</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-43-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Special" Description="Max Special">
+  <Cheat Text="最大 Special" Description="Max Special">
     <Cheatline>
       <Offset>183FDF7</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-10-48-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Lives ( after Die )" Description="Max Lives ( after Die )">
+  <Cheat Text="最大 Lives ( after Die )" Description="Max Lives ( after Die )">
     <Cheatline>
       <Offset>183FE08</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C5-FA-2C-C0-89-43-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo - Grenades" Description="Infinite Ammo - Grenades">
+  <Cheat Text="无限弹药 - 手榴弹" Description="Infinite Ammo - Grenades">
     <Cheatline>
       <Offset>183FE18</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>85-C0-7E-06-FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo" Description="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化" Description="Max Ammo">
     <Cheatline>
       <Offset>183FE2B</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>49-8B-9F-50-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Grenades" Description="Max Grenades">
+  <Cheat Text="最大 手榴弹" Description="Max Grenades">
     <Cheatline>
       <Offset>183FE40</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>45-8B-64-24-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Protein" Description="Max Protein">
+  <Cheat Text="最大 Protein" Description="Max Protein">
     <Cheatline>
       <Offset>183FE53</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>C5-FA-58-43-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Zero Fat" Description="Zero Fat">
+  <Cheat Text="杰洛 Fat" Description="Zero Fat">
     <Cheatline>
       <Offset>183FE64</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>C5-FA-58-43-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP ( on gain )" Description="Max XP ( on gain )">
+  <Cheat Text="最大 XP ( on gain )" Description="Max XP ( on gain )">
     <Cheatline>
       <Offset>183FE75</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>C4-C1-7A-11-44-24-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level ( on gain )" Description="Max Level ( on gain )">
+  <Cheat Text="等级最大 ( on gain )" Description="Max Level ( on gain )">
     <Cheatline>
       <Offset>183FE83</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>45-8B-74-24-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints" Description="Max Skillpoints">
+  <Cheat Text="最大 技能点" Description="Max Skillpoints">
     <Cheatline>
       <Offset>183FE96</Offset>
       <Section>0</Section>

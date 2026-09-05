@@ -1,12 +1,17 @@
 {
-  "name": "Naruto Shippuden: Ultimate Ninja Storm 4: Road to Boruto",
+  "name": "火影忍者 Shippuden: 必杀技 Ninja 风暴圈 4: Road to Boruto",
   "id": "CUSA06381",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode Left Player",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "上帝模式 Left Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20BF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Chakra Left Player",
-      "type": "checkbox",
+      "name": "Infinite 查克拉 Left Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20BF820",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Money / Ryo",
-      "type": "checkbox",
+      "name": "金钱无限 / Ryo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20BF840",

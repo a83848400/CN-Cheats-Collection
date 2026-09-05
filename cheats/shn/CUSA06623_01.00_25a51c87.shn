@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Outlast 2" Moder="cjwine" Cusa="CUSA06623" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text=" bandage  inf">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text=" 绷带  Infinite">
     <Cheatline>
       <Offset>1A8C16B</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>89-90-E0-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Battery time inf">
+  <Cheat Text="电池 time Infinite">
     <Cheatline>
       <Offset>1ABB4F8</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C4-C1-7A-11-8F-1C-83-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="god mode(not close)">
+  <Cheat Text="神模式(not close)">
     <Cheatline>
       <Offset>1A8C0A8</Offset>
       <Section>0</Section>

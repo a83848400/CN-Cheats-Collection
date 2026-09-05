@@ -1,13 +1,18 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA13801",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "MasterCode",
-      "description": "Only activate one switch",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "MasterCode｜主代码",
+      "description": "Only activate one 开关",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AD3000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "--Infinite_Life",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AD309D",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "--Infinite_Life_One_Hit_Kill",
+      "name": "--无限生命+一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AD30AD",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AD30A5",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "God Mode｜神模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "177F2AA",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "Inf items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11AE81E",
@@ -82,9 +87,9 @@
       ]
     },
     {
-      "name": "Level 99 After first kill",
+      "name": "等级99 After first kill",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11CD215",
@@ -94,9 +99,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AD30D5",

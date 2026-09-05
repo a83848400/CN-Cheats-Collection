@@ -1,13 +1,18 @@
 {
-  "name": "Bulletstorm: Full Clip Edition",
+  "name": "Bulletstorm: Full Clip Edition｜《子弹风暴：全弹匣版》",
   "id": "CUSA07188",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life And Exp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 And 经验",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE2A4",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BF3B2",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BF3B9",

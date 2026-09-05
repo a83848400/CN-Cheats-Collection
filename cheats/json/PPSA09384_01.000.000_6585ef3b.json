@@ -1,19 +1,24 @@
 {
-  "name": "The Caligula Effect: Overdose",
+  "name": "The Caligula 效果: Overdose",
   "id": "PPSA09384",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C7F00",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "4D7F00",
           "section": 6,
@@ -23,7 +28,7 @@
           "offset": "80C7F01",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "4D7F01",
           "section": 6,
@@ -42,15 +47,15 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C7F00",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "4D7F00",
           "section": 6,
@@ -61,13 +66,13 @@
     {
       "name": "--Auto_Win",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C7F01",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "4D7F01",
           "section": 6,
@@ -76,9 +81,9 @@
       ]
     },
     {
-      "name": "Inf Mp",
+      "name": "无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "580B079",
@@ -93,9 +98,9 @@
       ]
     },
     {
-      "name": "Inf Skill Points",
+      "name": "Infinite Skill 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "580B0AC",

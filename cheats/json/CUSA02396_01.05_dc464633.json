@@ -1,13 +1,18 @@
 {
-  "name": "Frozen Free Fall: Snowball Fight",
+  "name": "冰冻 Free Fall: Snowball Fight",
   "id": "CUSA02396",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Hearts",
-      "description": "To activate this cheat you need to be on the level selection map. If you activate it before, the cheat will not work and will set your lives to 0 (Para activar este cheat debes de estar en el mapa de selección de niveles, si lo activas antes el cheat no funcionará y pondrá tus vidas en 0)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 心",
+      "description": "To activate this cheat you need to be on the 等级 selection 地图. If you activate it before, the cheat 意志 not work and 意志 set your lives to 0 (Para activar este cheat debes de estar en el mapa de selección de niveles, si lo activas antes el cheat no funcionará y pondrá tus vidas en 0)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A786C5",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Moves",
-      "description": "You can activate it at any time in the game (Puedes activarlo en cualquier momento del juego)",
-      "type": "checkbox",
+      "name": "Infinite Moves｜无限招式",
+      "description": "You can activate it at any time in the game (Puedes activarlo en cualquier momento del juego)｜你可以在游戏中的任何时候激活它（Puedes activarlo en cualquier momento del juego）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9E6230",

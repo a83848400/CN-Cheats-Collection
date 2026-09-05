@@ -1,12 +1,17 @@
 {
-  "name": "How to Survive: Storm Warning Edition",
+  "name": "How to Survive: 风暴圈 Warning Edition",
   "id": "CUSA00706",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2b2562",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Hunger",
-      "type": "checkbox",
+      "name": "No Hunger｜不会饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2a74d1",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Thirst",
-      "type": "checkbox",
+      "name": "No Thirst｜不会口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2a7525",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Never Tired",
-      "type": "checkbox",
+      "name": "Never Tired｜永不疲劳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2a7575",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2bafd6",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ca1a1",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Firesticks",
-      "type": "checkbox",
+      "name": "Infinite Firesticks｜无限火棒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2b4e4d",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1b115a",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1b98b1",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1deb5b",

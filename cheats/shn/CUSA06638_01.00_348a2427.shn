@@ -5,7 +5,15 @@
   <Genres Name="Music and Rhythm" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Inf Health(Main Character)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命(Main Character)">
     <Cheatline>
       <Offset>1283800</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>39-C3-0F-4F-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Money">
+  <Cheat Text="金钱无限">
     <Cheatline>
       <Offset>886A3A</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>0F-4E-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Exp/ Max Lvl (Main Character)">
+  <Cheat Text="无限经验/ 最大 Lvl (Main Character)">
     <Cheatline>
       <Offset>1283819</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>89-58-1C-48-83-C4-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf SP">
+  <Cheat Text="Infinite 精神值">
     <Cheatline>
       <Offset>8A15AF</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>41-89-5E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Bullets">
+  <Cheat Text="无限子弹">
     <Cheatline>
       <Offset>8A3C2F</Offset>
       <Section>0</Section>

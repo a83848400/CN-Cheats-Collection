@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Legend of Heroes: Trails of Cold Steel II" Moder="GamerX2 - DanteClaus" Cusa="CUSA12566" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite CP | In Battle">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限CP | In 战斗">
     <Cheatline>
       <Offset>65344</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>66-89-83-40-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max CP In Battle | Don't Use With Max EP">
+  <Cheat Text="最大 CP In 战斗 | Don'恐怖分子 Use With 最大 EP">
     <Cheatline>
       <Offset>A5F800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>66-89-83-40-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite EP In Battle">
+  <Cheat Text="《Infinite》EP In 战斗">
     <Cheatline>
       <Offset>69044</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>66-89-83-3C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max EP On Use | Don't Use With Max CP">
+  <Cheat Text="最大 EP On Use | Don'恐怖分子 Use With 最大 CP">
     <Cheatline>
       <Offset>A5F800</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>66-89-83-3C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items | Inventory">
+  <Cheat Text="道具无限 | 背包">
     <Cheatline>
       <Offset>206423</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>66-89-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items/Quratz/Event/Ingredients On Use or Sell">
+  <Cheat Text="最大 Items/Quratz/Event/Ingredients On 使用或出售">
     <Cheatline>
       <Offset>A5F800</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>66-0F-4F-F9-66-89-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items | Battle">
+  <Cheat Text="道具无限 | 战斗">
     <Cheatline>
       <Offset>206381</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>66-89-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items | Battle">
+  <Cheat Text="最大 Items | 战斗">
     <Cheatline>
       <Offset>A5F800</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>66-0F-4F-F1-66-89-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>20B63E</Offset>
       <Section>0</Section>

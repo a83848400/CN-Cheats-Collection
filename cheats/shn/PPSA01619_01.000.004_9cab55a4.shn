@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mortal Kombat 11" Moder="hejran7" Cusa="PPSA01619" Version="01.000.004" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infinity HP" Description="P1">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinity 手机" Description="P1">
     <Cheatline>
       <Offset>37F7800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-5D-9B-2C-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Untouchable" Description="P1">
+  <Cheat Text="Untouchable｜刀枪不入" Description="P1">
     <Cheatline>
       <Offset>37F7820</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>4C-89-FA-4C-89-E9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer" Description="">
+  <Cheat Text="Freeze 计时器" Description="">
     <Cheatline>
       <Offset>1C41EBC</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>89-15-16-01-07-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Defensive\Offensive Meter" Description="P1">
+  <Cheat Text="Full Defensive\Offensive Meter｜全防/攻计量表" Description="P1">
     <Cheatline>
       <Offset>37F7835</Offset>
       <Section>0</Section>

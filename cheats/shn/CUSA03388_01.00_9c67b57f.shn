@@ -30,7 +30,15 @@
       <ValueOff>39-D8-0F-4E-D8</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Inf HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量" Description="">
     <Cheatline>
       <Offset>57FB807</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>39-C1-0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>57FB836</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>E9-0C-8D-8A-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Magic" Description="">
+  <Cheat Text="Infinite 魔法" Description="">
     <Cheatline>
       <Offset>10F8C6E</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>44-0F-4E-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player inf Stamina" Description="">
+  <Cheat Text="Player 无限耐力" Description="">
     <Cheatline>
       <Offset>57FB84E</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>E9-C2-21-8F-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy 0 Stamina" Description="">
+  <Cheat Text="Enemy 0 体力" Description="">
     <Cheatline>
       <Offset>57FB853</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>39-D8-0F-4E-D8</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Pause The Game" Description="">
+  <Cheat Text="暂停 The Game" Description="">
     <Cheatline>
       <Offset>278FFF7</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>41-89-85-1C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Souls on Spend" Description="">
+  <Cheat Text="灵魂无限 on Spend" Description="">
     <Cheatline>
       <Offset>1303F31</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>0F-4E-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Lose Souls" Description="">
+  <Cheat Text="Never Lose 结界突破" Description="">
     <Cheatline>
       <Offset>EC6976</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>41-C7-45-74-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Use..Pick..Move" Description="">
+  <Cheat Text="最大 Items On Use..Pick..招式" Description="">
     <Cheatline>
       <Offset>9C1FD2</Offset>
       <Section>0</Section>
@@ -120,7 +128,7 @@
       <ValueOff>89-4B-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dupe Anything In Storage Box" Description="">
+  <Cheat Text="Dupe Anything In 存储 Box" Description="">
     <Cheatline>
       <Offset>9C1FC3</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>41-39-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Weapon Durability" Description="">
+  <Cheat Text="武器耐久无限" Description="">
     <Cheatline>
       <Offset>116EBD0</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>89-77-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Armour Durability" Description="">
+  <Cheat Text="无限护甲 耐用性" Description="">
     <Cheatline>
       <Offset>116DCE0</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>89-77-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reduce Fall Damage" Description="">
+  <Cheat Text="Reduce Fall 输出" Description="">
     <Cheatline>
       <Offset>57FB85D</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>44-29-F0-78-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Resistances Effects" Description="Posion-Toxic-Bleed-Curse-Frost">
+  <Cheat Text="Resistances Effects｜电阻的影响" Description="Posion-Toxic-Bleed-Curse-Frost">
     <Cheatline>
       <Offset>E7DBCF</Offset>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>89-42-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP Player + Enemy" Description="">
+  <Cheat Text="无限血量 Player + Enemy" Description="">
     <Cheatline>
       <Offset>10A4547</Offset>
       <Section>0</Section>

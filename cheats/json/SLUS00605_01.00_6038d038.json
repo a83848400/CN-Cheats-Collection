@@ -1,16 +1,21 @@
 {
-  "name": "Mortal Kombat 4",
+  "name": "Mortal Kombat 4｜《真人快打4》",
   "id": "SLUS00605",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14D394",
-          "on": "AC",
+          "on": "AC｜而且",
           "off": "60"
         }
       ]

@@ -1,12 +1,17 @@
 {
-  "name": "Weird West",
+  "name": "Weird West｜奇幻西部",
   "id": "CUSA17598",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Reload (nop)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无需换弹 (nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134E51D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite AP (nop)",
-      "type": "checkbox",
+      "name": "无限能力点 (nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10F4D28",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite HP (nop) might affect enemies",
-      "type": "checkbox",
+      "name": "无限血量 (nop) might affect enemies",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10CF935",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Durability",
-      "type": "checkbox",
+      "name": "Infinite Durability｜装备耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "112E893",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Item (nop)",
-      "type": "checkbox",
+      "name": "Infinite 物品 (nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "112646A",

@@ -1,12 +1,17 @@
 {
-  "name": "Alan Wake Remastered",
+  "name": "Alan Wake Remastered｜《艾伦·韦克 重制版》",
   "id": "CUSA24653",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F01800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F01880",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight Energy",
-      "type": "checkbox",
+      "name": "Infinite 手电筒 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1609F4",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B841E",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B846E",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries",
-      "type": "checkbox",
+      "name": "Infinite 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16311C",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Flare",
-      "type": "checkbox",
+      "name": "Infinite Flare｜无限火花",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F018F0",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Infinite Car Battery",
-      "type": "checkbox",
+      "name": "Infinite Car 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F019C0",

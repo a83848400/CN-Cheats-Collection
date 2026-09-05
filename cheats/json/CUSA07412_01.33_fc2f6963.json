@@ -1,12 +1,17 @@
 {
-  "name": "God of War (2018)",
+  "name": "战神 (2018)",
   "id": "CUSA07412",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (use only either this or infinite rage)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (use only either this or 怒气无限)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Rage (Does not work with infinite health",
-      "type": "checkbox",
+      "name": "怒气无限 (Does not work with 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF860",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max and Infinite XP,HS,Crafting Materials When Get (Do not use before realm change to alfheim)",
-      "type": "checkbox",
+      "name": "最大 and 无限经验值,HS,Crafting Materials When Get (Do not use before 境界 change to alfheim)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF842",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF87E",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF8AE",

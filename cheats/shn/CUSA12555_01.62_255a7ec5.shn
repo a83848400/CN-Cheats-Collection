@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light 2: Stay Human" Moder="Celogamez" Cusa="CUSA12555" Version="01.62" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>6E13DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>6E13DB7</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>6E13DCC</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>EB-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina/Oxygen">
+  <Cheat Text="无限耐力/Oxygen">
     <Cheatline>
       <Offset>34E5CC9</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-FA-11-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Throwables (Need 2 To Work)">
+  <Cheat Text="道具无限/可投掷物品 (Need 2 To Work)">
     <Cheatline>
       <Offset>3459154</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>E8-27-33-AB-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows/Craft On Use">
+  <Cheat Text="箭矢无限/Craft On Use">
     <Cheatline>
       <Offset>3458E8C</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>E8-EF-35-AB-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload Crossbow/Boomstick">
+  <Cheat Text="无需换弹 弩/Boomstick">
     <Cheatline>
       <Offset>36A1052</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>E8-29-B4-86-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapons Durability">
+  <Cheat Text="Infinite 武器 耐用性">
     <Cheatline>
       <Offset>6E13A50</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>C5-FA-11-83-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Immunity/Chemical Area">
+  <Cheat Text="无限免疫力/Chemical Area">
     <Cheatline>
       <Offset>34BE62E</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C5-FA-11-43-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite UV Flashlight">
+  <Cheat Text="Infinite UV 手电筒">
     <Cheatline>
       <Offset>6E13E40</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C5-FA-11-83-A0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Money">
+  <Cheat Text="最大/金钱无限">
     <Cheatline>
       <Offset>6E13690</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>29-D8-89-47-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time Missions (Disable B4 Finishing)">
+  <Cheat Text="停止 Time Missions (Disable B4 Finishing)">
     <Cheatline>
       <Offset>3A23BB2</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C5-FA-11-43-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Level/Inhibitors (Use After Escaping Waltz)">
+  <Cheat Text="最大 XP/等级/Inhibitors (Use After Escaping Waltz)">
     <Cheatline>
       <Offset>36D180A</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>48-89-7B-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time For Parkour And Fighting Challenge">
+  <Cheat Text="停止 Time For Parkour And Fighting Challenge">
     <Cheatline>
       <Offset>2914926</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>C5-FA-11-83-48-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Jump (Hold R1)">
+  <Cheat Text="跳高 (领地 R1)">
     <Cheatline>
       <Offset>6E12FA0</Offset>
       <Section>0</Section>

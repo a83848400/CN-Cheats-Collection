@@ -1,12 +1,17 @@
 {
-  "name": "Sword Art Online: Alicization Lycoris",
+  "name": "刀剑神域: Alicization Lycoris",
   "id": "CUSA18374",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Don't Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Don'恐怖分子 Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21D0BA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1 Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21D0BA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21D0C00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1678797",

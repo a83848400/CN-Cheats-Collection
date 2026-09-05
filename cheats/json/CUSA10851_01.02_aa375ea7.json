@@ -1,12 +1,17 @@
 {
-  "name": "Burnout Paradise Remastered",
+  "name": "Burnout Paradise Remastered｜《Burnout Paradise 重制版》",
   "id": "CUSA10851",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Boost + Endless Burnout Chain",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限加速 + Endless Burnout Chain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25CB52",

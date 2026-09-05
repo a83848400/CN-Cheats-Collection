@@ -1,12 +1,17 @@
 {
-  "name": "SpongeBob SquarePants: Battle for Bikini Bottom: Rehydrated",
+  "name": "SpongeBob SquarePants: 战斗 for Bikini Bottom: Rehydrated",
   "id": "CUSA14898",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CADFC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "47,000 Flowers on Gain",
-      "type": "checkbox",
+      "name": "47,000 Flowers on Gain｜《Gain》中的47,000朵花",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C9DF10",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "+2 Flowers on Gain",
-      "type": "checkbox",
+      "name": "+2 Flowers on Gain｜获取时+2花朵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C9DF80",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "+4 Flowers on Gain",
-      "type": "checkbox",
+      "name": "+4 Flowers on Gain｜获取时+4花朵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C9DF80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "+50 Flowers on Gain",
-      "type": "checkbox",
+      "name": "+50 Flowers on Gain｜获取时+50花朵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C9DF80",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "+500 Flowers on Gain",
-      "type": "checkbox",
+      "name": "+500 Flowers on Gain｜获取时+500花朵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C9DFF0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "12345 Spatulas on Gain",
-      "type": "checkbox",
+      "name": "12345 Spatulas on Gain｜12345 铲子在Gain上",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CAE020",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "47,000 Spatulas on Gain",
-      "type": "checkbox",
+      "name": "47,000 Spatulas on Gain｜《Gain》节目中出现了47,000把锅铲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CAE020",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "47,000 Socks on Gain",
-      "type": "checkbox",
+      "name": "47,000 Socks on Gain｜Gain上的47,000双袜子",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CAE1D0",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Infinite Jumps",
-      "type": "checkbox",
+      "name": "Infinite Jumps｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CD4A40",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "x4 Running Speed",
-      "type": "button",
+      "name": "x4 Running 速度",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "5CD4B40",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "x8 Running Speed",
-      "type": "button",
+      "name": "x8 Running 速度",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "5CD4B40",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "Reset Running Speed to Default",
-      "type": "button",
+      "name": "Reset Running 速度 to 默认",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "5CD4B40",

@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Forbidden West",
+  "name": "地平线 Forbidden West",
   "id": "CUSA24705",
   "version": "01.17",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1hit kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9E8F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Focus ",
-      "type": "checkbox",
+      "name": "Infinite Focus ｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18F6DF4",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "All items/shards/Ammo(on use have 2)",
-      "type": "checkbox",
+      "name": "所有商品/shards/但是(on use have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9FE20",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "All Items/shard/ammo (on gain have 2)",
-      "type": "checkbox",
+      "name": "所有商品/碎片/但是 (on gain have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9FE50",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Skill Points increase(have 2 points deactivate after having 600)",
-      "type": "checkbox",
+      "name": "Skill 得分 increase(have 2 得分 deactivate after having 600)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F6A178",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Skill points dont decrease(turn off other skill cheat)",
-      "type": "checkbox",
+      "name": "Skill 得分 dont decrease(回合 off 他 skill cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F6A178",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Boltblaster Infinite Ammo",
-      "type": "checkbox",
+      "name": "Boltblaster 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9FF40",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Instant Valor Surge Fill ",
-      "type": "checkbox",
+      "name": "Instant Valor Surge Fill ｜即时勇气值急速恢复",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9FF70",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Infinite Valor Surge (on activate)",
-      "type": "checkbox",
+      "name": "Infinite Valor Surge (on activate)｜无限勇气之潮（激活时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9FFC0",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Master code",
-      "type": "checkbox",
+      "name": "Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9DA10",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "Infinite Health (activate Master code)",
-      "type": "checkbox",
+      "name": "无限生命 (activate Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "8",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "1Hit Kill (activate Master code)",
-      "type": "checkbox",
+      "name": "一击必杀 (activate Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "8",

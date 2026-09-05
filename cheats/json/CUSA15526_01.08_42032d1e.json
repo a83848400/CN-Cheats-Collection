@@ -1,12 +1,17 @@
 {
-  "name": "Nioh 2",
+  "name": "Nioh 2｜仁王2",
   "id": "CUSA15526",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlimited Items",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlimited Items｜物品数量无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B36311",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Unlimited Anima",
-      "type": "checkbox",
+      "name": "Unlimited Anima｜无限灵力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92C64C",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Unlimited Yokai Shift Duration",
-      "type": "checkbox",
+      "name": "Unlimited 妖怪化 Duration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D801D",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Unlimited Health",
-      "type": "checkbox",
+      "name": "Unlimited 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2289330",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Unlimited Ki",
-      "type": "checkbox",
+      "name": "Unlimited 气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2289348",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Unlimited Sentience",
-      "type": "checkbox",
+      "name": "Unlimited Sentience｜无限的感知力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89D485",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Weapon Proficiency",
-      "type": "checkbox",
+      "name": "最大 Weapon 熟练",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B0DAB7",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": " Max Weapon Familiarity",
-      "type": "checkbox",
+      "name": " 最大 Weapon Familiarity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F23FE9",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "max amrita",
-      "type": "checkbox",
+      "name": "最大 精华",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B0CE17",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "friand never go",
-      "type": "checkbox",
+      "name": "friand never go｜friand 永远不会去",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AEBFB4",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "Unlimited Shortcut Items",
-      "type": "checkbox",
+      "name": "Unlimited Shortcut Items｜无限快捷方式项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BF74DE",
@@ -136,8 +141,8 @@
       ]
     },
     {
-      "name": "frind infinte hp",
-      "type": "checkbox",
+      "name": "frind infinte 手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FBDA16",
@@ -147,8 +152,8 @@
       ]
     },
     {
-      "name": "inc glory",
-      "type": "checkbox",
+      "name": "inc glory｜inc glory简体中文（大陆）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE5F31",
@@ -158,8 +163,8 @@
       ]
     },
     {
-      "name": "Yokai Shift Duration no cooldown",
-      "type": "checkbox",
+      "name": "妖怪化 Duration 无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "924063",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "inc itme",
-      "type": "checkbox",
+      "name": "inc itme｜推入",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B36311",

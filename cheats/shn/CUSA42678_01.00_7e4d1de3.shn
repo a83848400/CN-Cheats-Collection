@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Hearts/Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 心/生命">
     <Cheatline>
       <Offset>898FF640</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>48-8B-85-48-FF-FF-FF-89-48-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Water (while watering)">
+  <Cheat Text="99 水 (while watering)">
     <Cheatline>
       <Offset>898FF970</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>48-8B-45-F8-89-48-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins (On sell)">
+  <Cheat Text="最大 角落 (On sell)">
     <Cheatline>
       <Offset>898FF670</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>48-8B-45-88-89-48-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Skip a day (effect on each time being activated)" Description="will get you sleepy">
+  <Cheat Text="Skip a day (效果 on each time being activated)" Description="will get you sleepy">
     <Cheatline>
       <Offset>898FEA30</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-11-40-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="90 Items (On pick up)">
+  <Cheat Text="90 Items (On 拾取)">
     <Cheatline>
       <Offset>898FF330</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>8B-4D-F0-89-48-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fishing Stamina">
+  <Cheat Text="Infinite 捕鱼 体力">
     <Cheatline>
       <Offset>898FFDC0</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>C5-FA-11-40-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant growth 3 days plants (turn off other ones)">
+  <Cheat Text="Instant growth 3 days plants (回合 off 他 ones)">
     <Cheatline>
       <Offset>898FFCE0</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Dead or Alive Xtreme 3: Fortune",
+  "name": "死或生 Xtreme 3: Fortune",
   "id": "CUSA04555",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AA7CC",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Level",
-      "type": "checkbox",
+      "name": "Max Level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "703800",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The King of Fighters XV" Moder="d01v" Cusa="CUSA25272" Version="01.00" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Refill HP (1P/2P Left Side) Press Evade button / L1 (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Refill 手机 (1P/2P Left Side) Press Evade 按钮 / L1 (Master 密码)">
     <Cheatline>
       <Offset>61317D0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-83-14-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Refill HP (1P/2P Right Side) Press Evade button / L1 (Need MC)">
+  <Cheat Text="Refill 手机 (1P/2P Right Side) Press Evade 按钮 / L1 (这些MC)">
     <Cheatline>
       <Offset>61317D0</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>80-7B-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Power Gauge (1P/2P Left Side) Master Code 1">
+  <Cheat Text="最大 电力 Gauge (1P/2P Left Side) Master 密码 1">
     <Cheatline>
       <Offset>6131830</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>45-89-B4-24-1C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Power Gauge (1P/2P Right Side) Need MC 1">
+  <Cheat Text="最大 电力 Gauge (1P/2P Right Side) 这些MC 1">
     <Cheatline>
       <Offset>6131830</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>41-80-7C-24-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Guard Gauge (1P/2P Left Side) Master Code 2">
+  <Cheat Text="最大 防御 Gauge (1P/2P Left Side) Master 密码 2">
     <Cheatline>
       <Offset>6131880</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>8B-87-48-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Guard Gauge (1P/2P Right Side) Need MC 2">
+  <Cheat Text="最大 防御 Gauge (1P/2P Right Side) 这些MC 2">
     <Cheatline>
       <Offset>6131880</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>80-7F-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Stun Enemy (1P/2P Left Side) Master Code 3">
+  <Cheat Text="简单 Stun Enemy (1P/2P Left Side) Master 密码 3">
     <Cheatline>
       <Offset>61318C0</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>45-29-B7-54-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Stun Enemy (1P/2P Right Side) Need MC 3">
+  <Cheat Text="简单 Stun Enemy (1P/2P Right Side) 这些MC 3">
     <Cheatline>
       <Offset>61318C0</Offset>
       <Section>0</Section>

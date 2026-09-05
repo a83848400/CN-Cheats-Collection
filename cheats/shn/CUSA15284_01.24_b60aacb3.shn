@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Power Rangers: Battle for the Grid" Moder="Saso_900" Cusa="CUSA15284" Version="01.24" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP / Easy Win (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 / 简单 Win (Master 密码)">
     <Cheatline>
       <Offset>1CECC00</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8B-40-08-89-5C-88-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Win (MC)">
+  <Cheat Text="简单 Win (MC)">
     <Cheatline>
       <Offset>1CECC18</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ultra/ Super Instant Refill  (Master Code)">
+  <Cheat Text="Ultra/ Super Instant Refill  (Master 密码)">
     <Cheatline>
       <Offset>1CECCA0</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>44-89-7C-88-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Super 0 (MC)">
+  <Cheat Text="Enemy Super 0 (MC)｜《敌方超级0》（MC）">
     <Cheatline>
       <Offset>1CECCCD</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>75-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Ultra 0 (MC)">
+  <Cheat Text="Enemy Ultra 0 (MC)｜《Enemy Ultra 0》（MC）">
     <Cheatline>
       <Offset>1CECD10</Offset>
       <Section>0</Section>

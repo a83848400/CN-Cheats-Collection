@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="MLB 17: The Show" Moder="nolberto82" Cusa="CUSA06387" Version="01.13" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="Hold R1 To Hit Homerun">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="领地 R1 To Hit Homerun">
     <Cheatline>
       <Offset>18CB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>45-89-B4-24-00-2F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Counts Always On Starts 3 and 0">
+  <Cheat Text="Quick Counts Always On Starts 3 and 0｜快速计数始终从 3 和 0 开始">
     <Cheatline>
       <Offset>293F43</Offset>
       <Section>0</Section>

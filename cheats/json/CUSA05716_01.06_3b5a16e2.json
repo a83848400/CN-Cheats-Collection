@@ -1,13 +1,18 @@
 {
-  "name": "Rise of the Tomb Raider: 20 Year Celebration",
+  "name": "Rise of the 古墓丽影: 20 Year Celebration",
   "id": "CUSA05716",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7A3789",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C8750C",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Get Skillpoints For Spending Them",
+      "name": "Get Skillpoints For Spending Them｜花技能点，赚技能点",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FE0F7F",

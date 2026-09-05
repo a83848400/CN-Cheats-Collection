@@ -1,12 +1,17 @@
 {
-  "name": "Aliens: Fireteam Elite",
+  "name": "Aliens: Fireteam 精英",
   "id": "CUSA27462",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E765ED",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Clip",
-      "type": "checkbox",
+      "name": "Infinite Clip｜无限剪辑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E765A5",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Requisition Credits Multiply",
-      "type": "checkbox",
+      "name": "Requisition Credits Multiply｜征用积分翻倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1CDE0",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Rep Scrip Multiply",
-      "type": "checkbox",
+      "name": "声望 Scrip Multiply",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1CDE0",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite first Aid kit",
-      "type": "checkbox",
+      "name": "Infinite 急救包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BEB1C2",

@@ -1,12 +1,17 @@
 {
-  "name": "Sundered",
+  "name": "Sundered｜《Sundered》",
   "id": "CUSA07282",
   "version": "01.14",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E3804",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Stamina",
-      "type": "checkbox",
+      "name": "Stamina｜体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E381E",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Shield",
-      "type": "checkbox",
+      "name": "Shield｜盾牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E384D",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Finisher (After 1st Use)",
-      "type": "checkbox",
+      "name": "Infinite 终结技 (After 1st Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E382D",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Shard",
-      "type": "checkbox",
+      "name": "最大 碎片",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E383B",

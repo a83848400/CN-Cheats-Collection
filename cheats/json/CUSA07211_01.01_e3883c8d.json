@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy VII Remake",
+  "name": "最终幻想 VII Remake",
   "id": "CUSA07211",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "INF MANA",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321430",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "INF ATB",
-      "type": "checkbox",
+      "name": "Infinite 主动时间战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321440",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "INF LIMIT BREAK",
-      "type": "checkbox",
+      "name": "无限极限 破防",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321450",

@@ -2,7 +2,15 @@
 <Trainer Game="Final Fantasy VII Remake" Moder="Pharaoh2k" Cusa="CUSA07211" Version="01.02" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="Enjoy!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="Enjoy!">
     <Cheatline>
       <Section>0</Section>
       <Offset>60D2FFF</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill" Description="">
+  <Cheat Text="1 Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>60D3000</Offset>
@@ -24,7 +32,7 @@
       <ValueOff>89-77-18-5D-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Existing Inventory Items - 99pcs" Description="">
+  <Cheat Text="All Existing 背包 Items - 99pcs" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>60D302E</Offset>
@@ -38,7 +46,7 @@
       <ValueOff>8B-84-C3-3C-56-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Current BP x2" Description="">
+  <Cheat Text="Current 战斗点数 x2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E717CF</Offset>
@@ -46,7 +54,7 @@
       <ValueOff>41-89-54-30-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Darts - Top Score" Description="">
+  <Cheat Text="Darts - Top 比分" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>10E2F29</Offset>
@@ -54,7 +62,7 @@
       <ValueOff>44-8B-AB-D4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy BP (~L50)" Description="">
+  <Cheat Text="简单 战斗点数 (~L50)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E717CF</Offset>
@@ -62,7 +70,7 @@
       <ValueOff>41-89-54-30-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Complete Quests v102" Description="">
+  <Cheat Text="简单 Complete 任务 v102" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E0D661</Offset>
@@ -70,7 +78,7 @@
       <ValueOff>E8-1A-22-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy FP (Materia)" Description="">
+  <Cheat Text="简单 专注值 (魔晶石)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E74AAF</Offset>
@@ -78,7 +86,7 @@
       <ValueOff>8B-40-04-44-39-E0-0F-8E-3A-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Skillmaster" Description="">
+  <Cheat Text="简单 Skillmaster" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E0D050</Offset>
@@ -86,7 +94,7 @@
       <ValueOff>0F-4E-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze PlayTime" Description="Do Not use together with Null PlayTime cheat!">
+  <Cheat Text="Freeze PlayTime｜暂停“PlayTime”" Description="Do Not use together with Null PlayTime cheat!">
     <Cheatline>
       <Section>0</Section>
       <Offset>E6A045</Offset>
@@ -94,7 +102,7 @@
       <ValueOff>48-01-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="HealthPoisonBikeXIII (Time)XIII (Hit)Bike (Allies)">
+  <Cheat Text="Infinite Health｜无限生命" Description="HealthPoisonBikeXIII (Time)XIII (Hit)Bike (Allies)">
     <Cheatline>
       <Section>0</Section>
       <Offset>BB5EA0</Offset>
@@ -126,7 +134,7 @@
       <ValueOff>C5-FA-5C-45-C4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Limit" Description="">
+  <Cheat Text="Infinite Limit｜无限极限" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>B98C18</Offset>
@@ -152,7 +160,7 @@
       <ValueOff>E8-B0-01-1E-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP" Description="">
+  <Cheat Text="Infinite MP｜无限魔力" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>B8474E</Offset>
@@ -160,7 +168,7 @@
       <ValueOff>E8-4D-9C-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Special Attacks" Description="CloudOthers, Barret">
+  <Cheat Text="《无限特辑》 Attacks" Description="CloudOthers, Barret">
     <Cheatline>
       <Section>0</Section>
       <Offset>1C0BC8D</Offset>
@@ -174,7 +182,7 @@
       <ValueOff>C5-FA-58-45-EC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite StackItems" Description="">
+  <Cheat Text="Infinite StackItems｜无限的 StackItems" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E4D7A0</Offset>
@@ -188,7 +196,7 @@
       <ValueOff>44-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant ButtonHold Actions" Description="">
+  <Cheat Text="Instant ButtonHold Actions｜即时按住按钮操作" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>153ED96</Offset>
@@ -196,7 +204,7 @@
       <ValueOff>C5-FA-58-84-03-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invulnerable Enemys" Description="">
+  <Cheat Text="无敌 Enemys" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>BF15D4</Offset>
@@ -204,7 +212,7 @@
       <ValueOff>89-77-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max ATB Gauge" Description="">
+  <Cheat Text="最大 ATB槽" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>60D3065</Offset>
@@ -218,7 +226,7 @@
       <ValueOff>C4-A1-7A-10-44-30-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gil on Get" Description="">
+  <Cheat Text="金钱最大 on Get" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E560D8</Offset>
@@ -234,7 +242,7 @@
       <ValueOff>48-01-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Luck 9999" Description="">
+  <Cheat Text="属性 - 幸运 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC69B</Offset>
@@ -242,7 +250,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-44-08-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Magic 9999" Description="">
+  <Cheat Text="属性 - 魔法 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC23D</Offset>
@@ -250,7 +258,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-84-08-24-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Magical Damage 9999" Description="">
+  <Cheat Text="属性 - 魔法伤害 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC4BB</Offset>
@@ -258,7 +266,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-44-08-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Magical Defense 9999" Description="">
+  <Cheat Text="属性 - Magical 防御 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC5FB</Offset>
@@ -266,7 +274,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-44-08-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - MP 9999" Description="">
+  <Cheat Text="属性 - MP 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>17B04B1</Offset>
@@ -286,7 +294,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-44-08-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Physical Damage 9999" Description="">
+  <Cheat Text="属性 - 物理伤害 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC41B</Offset>
@@ -294,7 +302,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-44-08-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Physical Defense 9999" Description="">
+  <Cheat Text="属性 - 身体 防御 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC4BB</Offset>
@@ -302,7 +310,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-44-08-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Speed 9999" Description="">
+  <Cheat Text="属性 - 速度 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>E79902</Offset>
@@ -316,7 +324,7 @@
       <ValueOff>0F-B6-44-08-23</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Strength 9999" Description="">
+  <Cheat Text="属性 - 力量 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC19D</Offset>
@@ -324,7 +332,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-84-08-20-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Vitality 9999" Description="">
+  <Cheat Text="属性 - Vitality 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC2DD</Offset>
@@ -332,7 +340,7 @@
       <ValueOff>48-8B-80-A0-3A-00-00-8B-84-08-28-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats - Will 9999" Description="">
+  <Cheat Text="属性 - 意志 9999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>DFC37D</Offset>

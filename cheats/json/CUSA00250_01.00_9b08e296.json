@@ -1,12 +1,17 @@
 {
-  "name": "Thief",
+  "name": "Thief｜盗贼",
   "id": "CUSA00250",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health ｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9CCAF1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC49FF0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max coins (on steal turn off when buying)",
-      "type": "checkbox",
+      "name": "最大 角落 (on 抢断 回合 off when buying)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4B920",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "max Arrows (on use have 2)",
-      "type": "checkbox",
+      "name": "最大 Arrows (on use have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4B950",

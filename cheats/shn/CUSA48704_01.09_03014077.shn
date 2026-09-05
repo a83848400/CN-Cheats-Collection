@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Lollipop Chainsaw RePOP" Moder="Saso" Cusa="CUSA48704" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP (Juliet)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 (Juliet)">
     <Cheatline>
       <Offset>525F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FB-2A-45-DC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP (Allies) / 1HK (Master Code)">
+  <Cheat Text="无限血量 (Allies) / 1港元 (Master 密码)">
     <Cheatline>
       <Offset>525F98A</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>49-8B-06-4C-89-F7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
+  <Cheat Text="一击必杀 (MC)">
     <Cheatline>
       <Offset>525F9D2</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>75-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Star Time  (Unlimited Use) / Bullets">
+  <Cheat Text="Star Time  (Unlimited Use) / 项目符号">
     <Cheatline>
       <Offset>4E5F85B</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>49-63-47-44-48-01-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Platinum Medals (99) / On Spend">
+  <Cheat Text="Platinum Medals (99) / On Spend｜白金奖牌 (99) / 消费金额">
     <Cheatline>
       <Offset>525F970</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C4-62-68-F2-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gold Medals (9999) /On Spend">
+  <Cheat Text="金币 Medals (9999) /On Spend">
     <Cheatline>
       <Offset>525F97D</Offset>
       <Section>0</Section>

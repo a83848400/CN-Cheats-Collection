@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid: Master Collection Vol. 1",
+  "name": "合金装备/潜龙谍影: Master Collection Vol. 1",
   "id": "CUSA41300",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[ENG] Master Code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[ENG] Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885EFF",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "[FRA] Master Code",
-      "type": "checkbox",
+      "name": "[FRA] Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885EFF",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "[DEU] Master Code",
-      "type": "checkbox",
+      "name": "[DEU] Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885EFF",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "[ITA] Master Code",
-      "type": "checkbox",
+      "name": "[ITA] Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885EFF",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "[ESP] Master Code",
-      "type": "checkbox",
+      "name": "[ESP] Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885EFF",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Life",
-      "type": "checkbox",
+      "name": "Life｜生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88608F",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "O2",
-      "type": "checkbox",
+      "name": "O2｜氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88609A",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Weapons",
-      "type": "checkbox",
+      "name": "Weapons｜武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885F0D",
@@ -213,151 +218,151 @@
       ]
     },
     {
-      "name": "Cigs",
-      "type": "checkbox",
+      "name": "Cigs｜香烟",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FC0",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Scope",
-      "type": "checkbox",
+      "name": "Scope｜瞄准镜",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FC7",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
       "name": "Cbox A",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FCE",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
       "name": "Cbox B",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FD5",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
       "name": "Cbox C",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FDC",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
       "name": "NVG",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FE3",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
       "name": "Therm G",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FEA",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "GasMask",
-      "type": "checkbox",
+      "name": "GasMask｜防毒面具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FF1",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Body Armor",
-      "type": "checkbox",
+      "name": "Body Armor｜身体护甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FF8",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Ketchup",
-      "type": "checkbox",
+      "name": "Ketchup｜番茄酱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "885FFF",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Stealth",
-      "type": "checkbox",
+      "name": "Stealth｜潜行",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "886006",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Bandana",
-      "type": "checkbox",
+      "name": "Bandana｜头带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88600D",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Camera",
-      "type": "checkbox",
+      "name": "Camera｜相机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "886014",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Ration",
-      "type": "checkbox",
+      "name": "Ration｜口粮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88601C",
@@ -372,8 +377,8 @@
       ]
     },
     {
-      "name": "Medicine",
-      "type": "checkbox",
+      "name": "Medicine｜医学",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "886025",
@@ -388,8 +393,8 @@
       ]
     },
     {
-      "name": "Diazepam",
-      "type": "checkbox",
+      "name": "Diazepam｜地西泮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88602E",
@@ -404,19 +409,19 @@
       ]
     },
     {
-      "name": "Enable Pal Key (Select One Color At A Time)",
-      "type": "checkbox",
+      "name": "Enable Pal 钥匙 (Select One Color At A Time)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "886036",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Pal Key Yellow",
-      "type": "checkbox",
+      "name": "Pal 钥匙 Yellow",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8860A3",
@@ -426,8 +431,8 @@
       ]
     },
     {
-      "name": "Pal Key Red",
-      "type": "checkbox",
+      "name": "Pal 钥匙 Red",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8860A3",
@@ -437,8 +442,8 @@
       ]
     },
     {
-      "name": "Pal Key Cyan",
-      "type": "checkbox",
+      "name": "Pal 钥匙 Cyan",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8860A3",
@@ -448,8 +453,8 @@
       ]
     },
     {
-      "name": "Card LV.255",
-      "type": "checkbox",
+      "name": "卡牌 LV.255",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88603E",
@@ -459,8 +464,8 @@
       ]
     },
     {
-      "name": "Timer Bomb",
-      "type": "checkbox",
+      "name": "计时器 Bomb",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "886047",
@@ -470,52 +475,52 @@
       ]
     },
     {
-      "name": "Mine D",
-      "type": "checkbox",
+      "name": "Mine D｜前往 D",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88604F",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Disc",
-      "type": "checkbox",
+      "name": "Disc｜光盘",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "886056",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Rope",
-      "type": "checkbox",
+      "name": "Rope｜绳子",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88605D",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
       "name": "Handker",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "886064",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Suppressor Socom",
-      "type": "checkbox",
+      "name": "消音器 Socom",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88606C",

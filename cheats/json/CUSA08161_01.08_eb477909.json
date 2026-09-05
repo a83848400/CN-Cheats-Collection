@@ -1,12 +1,17 @@
 {
-  "name": "Devil May Cry 5",
+  "name": "Devil May Cry 5｜鬼泣5",
   "id": "CUSA08161",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code Speed",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B38F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Lots of Red Orbs",
-      "type": "checkbox",
+      "name": "Lots of Red Orbs｜大量的红色魔珠",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B3D0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Gold Orbs, Blue Fragments, Purple Fragments A lot",
-      "type": "checkbox",
+      "name": "金币 Orbs, Blue Fragments, Purple Fragments A 用地",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B420",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Time In Bloody Palace is Unlimited",
-      "type": "checkbox",
+      "name": "Time In Bloody 殿堂 is Unlimited",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B630",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "( NERO ) All 99 Devil Breakers Equipment ( Activate in Shop only )",
-      "type": "checkbox",
+      "name": "( NERO ) All 99 Devil Breakers Equipment ( Activate in Shop only )｜(尼禄)全部义手数量99(仅商店激活)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B480",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "( NERO ) Unlimited Devil Breakers",
-      "type": "checkbox",
+      "name": "( NERO ) Unlimited Devil Breakers｜(尼禄)无限义手",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B4A0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "( NERO ) Infinite Devil Trigger",
-      "type": "checkbox",
+      "name": "( NERO ) Infinite Devil Trigger｜(尼禄)无限魔人槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B650",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "( NERO ) Exceed Once Filled Direct Full [ Version 1 ]",
-      "type": "checkbox",
+      "name": "( NERO ) Exceed Once Filled Direct Full [ Version 1 ]｜(尼禄)蓄力直接拉满[版本1]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B550",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "( NERO ) Exceed Maksimum [ ver 2]",
-      "type": "checkbox",
+      "name": "( NERO ) Exceed Maksimum [ ver 2]｜(尼禄)蓄力最大化[版本2]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B530",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "( NERO ) Unlimited Bullets",
-      "type": "checkbox",
+      "name": "( NERO ) Unlimited Bullets｜(尼禄)无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0858B37C",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "( V ) Infinite Devil Trigger",
-      "type": "checkbox",
+      "name": "( V ) Infinite Devil Trigger｜(V)无限魔人槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B4C0",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "( V ) Unlimited Power Up Summon Duration",
-      "type": "checkbox",
+      "name": "( V ) Unlimited Power Up Summon Duration｜(V)召唤强化持续时间无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B4E0",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "( DANTE ) Unlimited Sin Devil Gauge Duration",
-      "type": "checkbox",
+      "name": "( DANTE ) Unlimited Sin Devil Gauge Duration｜(但丁)真魔人能量槽持续时间无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B5F0",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "( DANTE ) Infinite Devil Trigger",
-      "type": "checkbox",
+      "name": "( DANTE ) Infinite Devil Trigger｜(但丁)无限魔人槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B570",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "( DANTE ) Unlimited Royal Guard",
-      "type": "checkbox",
+      "name": "( DANTE ) Unlimited Royal Guard｜(但丁)无限皇家守卫",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B5B0",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "( DANTE ) Dr. Fraust No Fee",
-      "type": "checkbox",
+      "name": "( DANTE ) Dr. Fraust No Fee｜(但丁)弗劳斯特博士无消耗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B610",
@@ -261,8 +266,8 @@
       ]
     },
     {
-      "name": "SSS Rating During Battle",
-      "type": "checkbox",
+      "name": "SSS评价 评分 During 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B510",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0858B360",
@@ -293,8 +298,8 @@
       ]
     },
     {
-      "name": "Players Don't Shake ",
-      "type": "checkbox",
+      "name": "Players Don'恐怖分子 Shake ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "034011C0",
@@ -304,8 +309,8 @@
       ]
     },
     {
-      "name": "Easy Enemy to Defeat",
-      "type": "checkbox",
+      "name": "简单 Enemy to 失败",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0858B36F",
@@ -320,8 +325,8 @@
       ]
     },
     {
-      "name": "Jump Higher [ Version 1 ]",
-      "type": "checkbox",
+      "name": "Jump Higher [ Version 1 ]｜跳得更高 [ 版本 1 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858BEF0",
@@ -336,8 +341,8 @@
       ]
     },
     {
-      "name": "Jump Higher [ Version2 ] [Press X twice]",
-      "type": "checkbox",
+      "name": "Jump Higher [ Version2 ] [Press 艾克斯 twice]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02F48821",
@@ -347,8 +352,8 @@
       ]
     },
     {
-      "name": "Speed [x2.0]",
-      "type": "checkbox",
+      "name": "速度 [x2.0]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B3A8",
@@ -363,8 +368,8 @@
       ]
     },
     {
-      "name": "Speed [x3.0]",
-      "type": "checkbox",
+      "name": "速度 [x3.0]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B3A8",

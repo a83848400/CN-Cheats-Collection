@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="[00] MASTER CODE (ALWAYS ON!!!)" Description="This cheat must be ALWAYS on.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[00] MASTER 密码 (ALWAYS ON!!!)" Description="This cheat must be ALWAYS on.">
     <Cheatline>
       <Offset>0BDDA000</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>49-8B-87-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[01a][Special] LEON: Start New Game Carrying Killer" Description="Leon will carry the Killer instead of the SG-09 R. If this cheat is on anytime before loading a save/stage, the weapons will be exchanged anyway.">
+  <Cheat Text="[01a][Special] 里昂: Start 新游戏 Carrying 杀手" Description="Leon will carry the Killer instead of the SG-09 R. If this cheat is on anytime before loading a save/stage, the weapons will be exchanged anyway.">
     <Cheatline>
       <Offset>0BDDAE30</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E8-00-94-35-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02][Special] LEON: 3 Stored Weapons Exchanged" Description="Three stored weapons will be exchanged, when you first open the storage case: Handcannon for Killer 7; Skull Shaker for Stingray; Chicago Sweeper for Rocket Launcher Infinite. In case you just wanted to exchange one or two of them, turn the cheat off, take the weapons you don't want to change, leave the storage/case, turn the cheat on and open the case again.">
+  <Cheat Text="[02][Special] 里昂: 3 Stored 武器 Exchanged" Description="Three stored weapons will be exchanged, when you first open the storage case: Handcannon for Killer 7; Skull Shaker for Stingray; Chicago Sweeper for Rocket Launcher Infinite. In case you just wanted to exchange one or two of them, turn the cheat off, take the weapons you don't want to change, leave the storage/case, turn the cheat on and open the case again.">
     <Cheatline>
       <Offset>0BDDAEE0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>44-8B-68-28-4D-8B-7E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03a][Special] LEON: Store First Aid Spray And Get High-power Scope">
+  <Cheat Text="[03a][Special] 里昂: Store 急救喷雾 And Get High-电力 瞄准镜">
     <Cheatline>
       <Offset>0BDDAF60</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>48-89-F3-8B-72-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04a][Special] LEON: Get Any Weapon [Storing]" Description="Every time Leon stores a weapon, a new one will be there. It will loop through all the possible weapons Leon can use.">
+  <Cheat Text="[04a][Special] 里昂: Get Any Weapon [Storing]" Description="Every time Leon stores a weapon, a new one will be there. It will loop through all the possible weapons Leon can use.">
     <Cheatline>
       <Offset>0BDDB180</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04b][Special] ADA: Get Any Weapon [Storing]" Description="The same as above but for Ada. Ada can get all of the Leon`s weapons plus 5 new ones: Tactical Knife, Blacktail AC, Punisher MC, Sawed-off W-870 and Blast Crossbow. Some same weapons from Leon have another ID. They were updated for Ada.">
+  <Cheat Text="[04b][Special] 艾达: Get Any Weapon [Storing]" Description="The same as above but for Ada. Ada can get all of the Leon`s weapons plus 5 new ones: Tactical Knife, Blacktail AC, Punisher MC, Sawed-off W-870 and Blast Crossbow. Some same weapons from Leon have another ID. They were updated for Ada.">
     <Cheatline>
       <Offset>0BDDB080</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05a][Special] LEON: Change Item In Slot 1" Description="When Leon selects a key item in slot 1 (first one on the left), this one will be changed to a new one. All the possible key items will be looped.">
+  <Cheat Text="[05a][Special] 里昂: Change 物品 In Slot 1" Description="When Leon selects a key item in slot 1 (first one on the left), this one will be changed to a new one. All the possible key items will be looped.">
     <Cheatline>
       <Offset>0BDDA700</Offset>
       <Section>0</Section>
@@ -120,7 +128,7 @@
       <ValueOff>48-8B-06-48-89-DF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05b][Special] ADA: Change Item In Slot 1" Description="The same as above goes for Ada. I have just included the key items she can get, even the ones than can`t actually be examined: Blue Butterfly, etc.">
+  <Cheat Text="[05b][Special] 艾达: Change 物品 In Slot 1" Description="The same as above goes for Ada. I have just included the key items she can get, even the ones than can`t actually be examined: Blue Butterfly, etc.">
     <Cheatline>
       <Offset>0BDDA800</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06][Health] Immunity: Player + AI">
+  <Cheat Text="[06][生命] Immunity: Player + AI">
     <Cheatline>
       <Offset>0BDDA300</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>C5-F2-2A-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07][Health] Infinite Health [10k]">
+  <Cheat Text="[07][生命] 无限生命 [10k]">
     <Cheatline>
       <Offset>0BDDA200</Offset>
       <Section>0</Section>
@@ -198,7 +206,7 @@
       <ValueOff>C5-F8-57-C0-8B-48-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08a][Speed] Player + AI x2" Description="Unselect to have normal speed again, x1.">
+  <Cheat Text="[08a][速度] Player + AI x2" Description="Unselect to have normal speed again, x1.">
     <Cheatline>
       <Offset>0BDDA2B0</Offset>
       <Section>0</Section>
@@ -212,7 +220,7 @@
       <ValueOff>C5-FA-59-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09][Weapon] 1 Hit Kill">
+  <Cheat Text="[09][Weapon] 一击必杀">
     <Cheatline>
       <Offset>0BDDA100</Offset>
       <Section>0</Section>
@@ -226,7 +234,7 @@
       <ValueOff>41-80-BE-CD-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10][Weapon] Rapidfire">
+  <Cheat Text="[10][Weapon] Rapidfire｜[10][武器] 连发">
     <Cheatline>
       <Offset>0BDDA400</Offset>
       <Section>0</Section>
@@ -240,7 +248,7 @@
       <ValueOff>C5-FA-59-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11][Weapon] Infinite Ammo">
+  <Cheat Text="[11][Weapon] 无限弹药">
     <Cheatline>
       <Offset>0BDDA240</Offset>
       <Section>0</Section>
@@ -254,7 +262,7 @@
       <ValueOff>41-89-44-24-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12][Weapon] Infinite Knife/Armour Durability">
+  <Cheat Text="[12][Weapon] 无限小刀/Armour 耐用性">
     <Cheatline>
       <Offset>04347CCB</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>67</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13][Weapon] Infinite Grenades">
+  <Cheat Text="[13][Weapon] 手雷无限">
     <Cheatline>
       <Offset>0BDDA670</Offset>
       <Section>0</Section>
@@ -276,7 +284,7 @@
       <ValueOff>8B-52-14-39-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14][Weapon] Luis Has A Rocket Launcher">
+  <Cheat Text="[14][Weapon] Luis Has A 火箭发射器">
     <Cheatline>
       <Offset>0BDDA870</Offset>
       <Section>0</Section>
@@ -290,7 +298,7 @@
       <ValueOff>C5-FB-59-C1-C5-7B-2C-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[15][Weapon] Cannon: No Reload">
+  <Cheat Text="[15][Weapon] Cannon: 无需换弹">
     <Cheatline>
       <Offset>0BDDA930</Offset>
       <Section>0</Section>
@@ -304,7 +312,7 @@
       <ValueOff>C5-FA-11-80-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[16][Weapon] Anti-Aircraft Gun: Infinite Ammo">
+  <Cheat Text="[16][Weapon] Anti-Aircraft Gun: 无限弹药">
     <Cheatline>
       <Offset>0BDDAC30</Offset>
       <Section>0</Section>
@@ -318,7 +326,7 @@
       <ValueOff>89-8B-80-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17][Weapon] Ashley: Eternal Frozen Knights">
+  <Cheat Text="[17][Weapon] Ashley: Eternal 冰冻 Knights">
     <Cheatline>
       <Offset>05CC20BB</Offset>
       <Section>0</Section>
@@ -326,7 +334,7 @@
       <ValueOff>C5-F3-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18][Weapon] Able To Store Rocket Launcher (Special)" Description="If this cheat is not on, the weapon will dissappear every time it is stored.">
+  <Cheat Text="[18][Weapon] Able To Store 火箭发射器 (Special)" Description="If this cheat is not on, the weapon will dissappear every time it is stored.">
     <Cheatline>
       <Offset>03BCD02E</Offset>
       <Section>0</Section>
@@ -334,7 +342,7 @@
       <ValueOff>81-FE-40-A7-77-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19a][Weapon] Scope: Extra Zoom 2">
+  <Cheat Text="[19a][Weapon] 瞄准镜: Extra 缩放 2">
     <Cheatline>
       <Offset>0BDDAAF0</Offset>
       <Section>0</Section>
@@ -348,7 +356,7 @@
       <ValueOff>C5-FA-11-40-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20][Weapon] High-power Scope: Extra Zoom 3">
+  <Cheat Text="[20][Weapon] High-电力 瞄准镜: Extra 缩放 3">
     <Cheatline>
       <Offset>0BDDAB20</Offset>
       <Section>0</Section>
@@ -362,7 +370,7 @@
       <ValueOff>48-8B-86-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[21][Weapon] Biosensor Scope: Extra Zoom 2">
+  <Cheat Text="[21][Weapon] Biosensor 瞄准镜: Extra 缩放 2">
     <Cheatline>
       <Offset>0BDDAB60</Offset>
       <Section>0</Section>
@@ -376,7 +384,7 @@
       <ValueOff>48-85-C0-74-16</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[22][Item] Infinite Pesetas">
+  <Cheat Text="[22][物品] 无限佩塞塔">
     <Cheatline>
       <Offset>0BDDA460</Offset>
       <Section>0</Section>
@@ -390,7 +398,7 @@
       <ValueOff>41-89-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[23][Item] Infinite Spinels">
+  <Cheat Text="[23][物品] 无限尖晶石">
     <Cheatline>
       <Offset>0BDDA630</Offset>
       <Section>0</Section>
@@ -404,7 +412,7 @@
       <ValueOff>48-8B-40-58-8B-49-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[24][Item] Infinite Keys/Tokens/Treasures">
+  <Cheat Text="[24][物品] 钥匙无限/Tokens/Treasures">
     <Cheatline>
       <Offset>0BDDAA40</Offset>
       <Section>0</Section>
@@ -418,7 +426,7 @@
       <ValueOff>8B-43-34-48-85-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[25][Item] Infinite Completion Points (CP)">
+  <Cheat Text="[25][物品] Infinite Completion 得分 (CP)">
     <Cheatline>
       <Offset>0BDDA280</Offset>
       <Section>0</Section>
@@ -432,7 +440,7 @@
       <ValueOff>44-8B-AB-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[26][Enemy] Bear Traps Don`t Work">
+  <Cheat Text="[26][Enemy] Bear 陷阱 Don`恐怖分子 Work">
     <Cheatline>
       <Offset>0BDDA4A0</Offset>
       <Section>0</Section>
@@ -446,7 +454,7 @@
       <ValueOff>80-BE-88-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[27][Total Play Time] Set To Zero">
+  <Cheat Text="[27][Total Play Time] Set To 杰洛">
     <Cheatline>
       <Offset>0BDDA4D0</Offset>
       <Section>0</Section>
@@ -460,7 +468,7 @@
       <ValueOff>48-01-42-18-80-79-10-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[28][In-Game] Timer Stopped">
+  <Cheat Text="[28][In-Game] 计时器 Stopped">
     <Cheatline>
       <Offset>0BDDA500</Offset>
       <Section>0</Section>
@@ -474,7 +482,7 @@
       <ValueOff>C4-E1-FB-2C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[29][EndOfChapter] Play Time = 0">
+  <Cheat Text="[29][EndOfChapter] Play Time = 0｜[29][章节结束] 游玩时间 = 0">
     <Cheatline>
       <Offset>0BDDA520</Offset>
       <Section>0</Section>
@@ -488,7 +496,7 @@
       <ValueOff>48-89-4E-18-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[30][EndOfChapter] Enemies Killed = 666">
+  <Cheat Text="[30][EndOfChapter] Enemies Killed = 666｜[30][章节结束] 击杀敌人 = 666">
     <Cheatline>
       <Offset>0BDDA550</Offset>
       <Section>0</Section>
@@ -502,7 +510,7 @@
       <ValueOff>39-C1-0F-4F-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[31][EndOfChapter] Deaths = 0">
+  <Cheat Text="[31][EndOfChapter] Deaths = 0｜[31][章节结束] 死亡人数 = 0">
     <Cheatline>
       <Offset>0BDDA580</Offset>
       <Section>0</Section>
@@ -516,7 +524,7 @@
       <ValueOff>39-C1-0F-4F-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[32][EndOfChapter] Times Damaged = 0">
+  <Cheat Text="[32][EndOfChapter] Times Damaged = 0｜[32][章节结束] 受损次数 = 0">
     <Cheatline>
       <Offset>0BDDA5A0</Offset>
       <Section>0</Section>
@@ -530,7 +538,7 @@
       <ValueOff>39-C1-0F-4F-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[33][EndOfChapter] Accuracy = 100/">
+  <Cheat Text="[33][EndOfChapter] Accuracy = 100/｜[33][章节结束] 准确率 = 100/">
     <Cheatline>
       <Offset>0BDDA5C0</Offset>
       <Section>0</Section>
@@ -544,7 +552,7 @@
       <ValueOff>39-C1-0F-4F-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[34][Interaction] `Hold X` Doors Open Instantly">
+  <Cheat Text="[34][Interaction] `领地 艾克斯` Doors Open Instantly">
     <Cheatline>
       <Offset>0BDDA5F0</Offset>
       <Section>0</Section>
@@ -558,7 +566,7 @@
       <ValueOff>C5-FA-11-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[35][Interaction] `Hold X` Doors Stay Open">
+  <Cheat Text="[35][Interaction] `领地 艾克斯` Doors Stay Open">
     <Cheatline>
       <Offset>036070F4</Offset>
       <Section>0</Section>
@@ -566,7 +574,7 @@
       <ValueOff>74-47</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[36][Interaction] Power Puzzles Solved">
+  <Cheat Text="[36][Interaction] 电力 Puzzles Solved">
     <Cheatline>
       <Offset>05EAA555</Offset>
       <Section>0</Section>
@@ -574,7 +582,7 @@
       <ValueOff>0F-84-81-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[37][Vehicle] Boat: Infinite Durability">
+  <Cheat Text="[37][Vehicle] 船: 装备耐久无限">
     <Cheatline>
       <Offset>06095B7F</Offset>
       <Section>0</Section>
@@ -582,7 +590,7 @@
       <ValueOff>41-89-8C-24-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[38][Vehicle] Wagon: Infinite Durability">
+  <Cheat Text="[38][Vehicle] Wagon: 装备耐久无限">
     <Cheatline>
       <Offset>0204A25F</Offset>
       <Section>0</Section>
@@ -590,7 +598,7 @@
       <ValueOff>74-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[39][Vehicle] Crane: Infinite Durability">
+  <Cheat Text="[39][Vehicle] Crane: 装备耐久无限">
     <Cheatline>
       <Offset>03C6BB92</Offset>
       <Section>0</Section>
@@ -598,7 +606,7 @@
       <ValueOff>C4-C1-7A-11-86-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[40][Vehicle] Water Scooter: Infinite Durability">
+  <Cheat Text="[40][Vehicle] 水 Scooter: 装备耐久无限">
     <Cheatline>
       <Offset>06A18020</Offset>
       <Section>0</Section>
@@ -606,7 +614,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[41][SaveGame] Times Saved = 0">
+  <Cheat Text="[41][SaveGame] Times Saved = 0｜[41][存档] 已保存次数 = 0">
     <Cheatline>
       <Offset>0BDDA8C0</Offset>
       <Section>0</Section>
@@ -620,7 +628,7 @@
       <ValueOff>0F-4D-C1-41-89-45-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[42a][SaveGame] Difficuty = Assisted">
+  <Cheat Text="[42a][SaveGame] Difficuty = Assisted｜[42a][存档] 难度 = 辅助">
     <Cheatline>
       <Offset>0BDDA8F0</Offset>
       <Section>0</Section>
@@ -634,7 +642,7 @@
       <ValueOff>41-89-44-24-28-8B-46-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[43][TargetPractice] Timer Frozen">
+  <Cheat Text="[43][TargetPractice] 计时器 冰冻">
     <Cheatline>
       <Offset>0BDDA960</Offset>
       <Section>0</Section>
@@ -648,7 +656,7 @@
       <ValueOff>C4-C1-7A-10-84-24-9C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[44][TargetPractice] All Pirates Killed">
+  <Cheat Text="[44][TargetPractice] All Pirates Killed｜[44][靶场训练] 所有海盗已被击毙">
     <Cheatline>
       <Offset>0BDDA9A0</Offset>
       <Section>0</Section>
@@ -662,7 +670,7 @@
       <ValueOff>45-8B-98-A8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[45][TargetPractice] All Skulls Killed">
+  <Cheat Text="[45][TargetPractice] All Skulls Killed｜[45][靶场练习] 击杀所有骷髅">
     <Cheatline>
       <Offset>0BDDAA00</Offset>
       <Section>0</Section>
@@ -676,7 +684,7 @@
       <ValueOff>41-8B-B0-D8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[46][TargetPractice] +Points">
+  <Cheat Text="[46][TargetPractice] +得分">
     <Cheatline>
       <Offset>0BDDA9E0</Offset>
       <Section>0</Section>
@@ -690,7 +698,7 @@
       <ValueOff>8B-87-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[47][Total Results] Rank S+ / Time = 00:00:00">
+  <Cheat Text="[47][Total Results] 阶级 S+ / Time = 00:00:00">
     <Cheatline>
       <Offset>02ABF098</Offset>
       <Section>0</Section>
@@ -722,7 +730,7 @@
       <ValueOff>48-89-4E-18-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[48][Total Results] Saves = 0">
+  <Cheat Text="[48][Total Results] Saves = 0｜[48][总结果] 保存次数 = 0">
     <Cheatline>
       <Offset>0BDDACD0</Offset>
       <Section>0</Section>
@@ -736,7 +744,7 @@
       <ValueOff>0F-4F-F9-89-7E-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[49][Mercs] Timer Frozen">
+  <Cheat Text="[49][Mercs] 计时器 冰冻">
     <Cheatline>
       <Offset>0BDDAD00</Offset>
       <Section>0</Section>
@@ -750,7 +758,7 @@
       <ValueOff>C4-C1-7A-11-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[50][Mercs] Combo Timer Frozen">
+  <Cheat Text="[50][Mercs] Combo 计时器 冰冻">
     <Cheatline>
       <Offset>04D51C7C</Offset>
       <Section>0</Section>
@@ -758,7 +766,7 @@
       <ValueOff>C4-C1-7A-11-4F-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[51][Mercs] Combo Starts At 666">
+  <Cheat Text="[51][Mercs] Combo Starts At 666｜[51][雇佣兵] 连击从666开始">
     <Cheatline>
       <Offset>0BDDAD40</Offset>
       <Section>0</Section>
@@ -772,7 +780,7 @@
       <ValueOff>39-F1-0F-4F-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[52][Mercs] Mayhem Instant Loading">
+  <Cheat Text="[52][Mercs] 混乱模式 Instant 加载中">
     <Cheatline>
       <Offset>0BDDAD80</Offset>
       <Section>0</Section>
@@ -786,7 +794,7 @@
       <ValueOff>C5-FA-2A-40-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[53][Mercs] Mayhem Yellow Bar Frozen">
+  <Cheat Text="[53][Mercs] 混乱模式 Yellow Bar 冰冻">
     <Cheatline>
       <Offset>04739325</Offset>
       <Section>0</Section>
@@ -794,7 +802,7 @@
       <ValueOff>C4-C1-7A-11-47-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[54][Mercs] Just 1 Kill = S++ (If [49] ON)">
+  <Cheat Text="[54][Mercs] Just 1 Kill = S++ (If [49] ON)｜[54][雇佣兵] 仅需1次击杀 = S++（若[49]开启）">
     <Cheatline>
       <Offset>0BDDADC0</Offset>
       <Section>0</Section>
@@ -808,7 +816,7 @@
       <ValueOff>89-83-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[55][Separate Ways] Hold X Doors Open Instantly">
+  <Cheat Text="[55][Separate Ways] 领地 艾克斯 Doors Open Instantly">
     <Cheatline>
       <Offset>0BDDABB0</Offset>
       <Section>0</Section>
@@ -822,7 +830,7 @@
       <ValueOff>C5-FA-11-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[56][Separate Ways] Hold X Doors Stay Open">
+  <Cheat Text="[56][Separate Ways] 领地 艾克斯 Doors Stay Open">
     <Cheatline>
       <Offset>0426BE1B</Offset>
       <Section>0</Section>
@@ -830,7 +838,7 @@
       <ValueOff>C5-FA-11-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[57a][Speed] Most Enemies x0,2">
+  <Cheat Text="[57a][速度] Most Enemies x0,2">
     <Cheatline>
       <Offset>0BDDAE70</Offset>
       <Section>0</Section>
@@ -844,7 +852,7 @@
       <ValueOff>C5-FA-11-43-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[58a][Size] Player x0,5">
+  <Cheat Text="[58a][Size] Player x0,5｜[58a][大小] 玩家 x0.5">
     <Cheatline>
       <Offset>0BDDAFE0</Offset>
       <Section>0</Section>
@@ -858,7 +866,7 @@
       <ValueOff>C5-FA-10-6B-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[59a][Size] NME x0,5">
+  <Cheat Text="[59a][Size] NME x0,5｜[59a][Size] NME ×0.5">
     <Cheatline>
       <Offset>0BDDB030</Offset>
       <Section>0</Section>
@@ -872,7 +880,7 @@
       <ValueOff>C5-FA-10-73-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[60][Interaction] DANGEROUS 01" Description="This one can open doors that need an item-key to CONTINUE. Which means, if you do not know what you are doing, you will get stuck. JUST FOR EXPERIENCED PLAYERS WHO KNOW WHERE TO AVOID THIS CHEAT.">
+  <Cheat Text="[60][Interaction] DANGEROUS 01｜[60][互动] 危险 01" Description="This one can open doors that need an item-key to CONTINUE. Which means, if you do not know what you are doing, you will get stuck. JUST FOR EXPERIENCED PLAYERS WHO KNOW WHERE TO AVOID THIS CHEAT.">
     <Cheatline>
       <Offset>BF9640</Offset>
       <Section>0</Section>
@@ -880,7 +888,7 @@
       <ValueOff>48-8B-76-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[61][Interaction] DANGEROUS 02" Description="Actually it has a small repercution on the game but it can also get you stuck. That is why the DANGEROUS label. You can open some more (very few) doors that are locked.">
+  <Cheat Text="[61][Interaction] DANGEROUS 02｜[61][互动] 危险 02" Description="Actually it has a small repercution on the game but it can also get you stuck. That is why the DANGEROUS label. You can open some more (very few) doors that are locked.">
     <Cheatline>
       <Offset>BF9670</Offset>
       <Section>0</Section>
@@ -888,7 +896,7 @@
       <ValueOff>48-8B-76-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode">
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>45C7C6D</Offset>
       <Section>0</Section>
@@ -896,7 +904,7 @@
       <ValueOff>FF-13</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/Crafting/Items Usage">
+  <Cheat Text="无限弹药/Crafting/Items Usage">
     <Cheatline>
       <Offset>4040CDA</Offset>
       <Section>0</Section>
@@ -904,7 +912,7 @@
       <ValueOff>89-48-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>4046AB0</Offset>
       <Section>0</Section>
@@ -912,7 +920,7 @@
       <ValueOff>E8-CB-D1-C8-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Perfect Aim">
+  <Cheat Text="Perfect Aim｜精准瞄准">
     <Cheatline>
       <Offset>99FCAB</Offset>
       <Section>0</Section>
@@ -920,7 +928,7 @@
       <ValueOff>C5-FA-5D-D2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades">
+  <Cheat Text="Infinite Grenades｜手雷无限">
     <Cheatline>
       <Offset>4046BEA</Offset>
       <Section>0</Section>
@@ -928,7 +936,7 @@
       <ValueOff>0F-4C-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Knife Durability">
+  <Cheat Text="Infinite Knife Durability｜小刀耐久无限">
     <Cheatline>
       <Offset>4347CC9</Offset>
       <Section>0</Section>
@@ -936,7 +944,7 @@
       <ValueOff>45-89-67-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Damage For The Boat">
+  <Cheat Text="不受伤害 For The 船">
     <Cheatline>
       <Offset>BDDB7B0</Offset>
       <Section>0</Section>
@@ -950,7 +958,7 @@
       <ValueOff>41-89-8C-24-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Spinels On Pick Up">
+  <Cheat Text="最大/无限尖晶石 On 拾取">
     <Cheatline>
       <Offset>BDDB8B0</Offset>
       <Section>0</Section>
@@ -964,7 +972,7 @@
       <ValueOff>0F-4F-C1-89-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Pesetas On Pick Up">
+  <Cheat Text="最大/无限佩塞塔 On 拾取">
     <Cheatline>
       <Offset>BDDBA80</Offset>
       <Section>0</Section>
@@ -978,7 +986,7 @@
       <ValueOff>41-89-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite CP">
+  <Cheat Text="最大/无限CP">
     <Cheatline>
       <Offset>BDDB350</Offset>
       <Section>0</Section>
@@ -992,7 +1000,7 @@
       <ValueOff>44-89-BB-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save always 0">
+  <Cheat Text="保存 always 0">
     <Cheatline>
       <Offset>BDDB660</Offset>
       <Section>0</Section>
@@ -1006,7 +1014,7 @@
       <ValueOff>0F-4D-C1-41-89-45-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Story Time">
+  <Cheat Text="停止 Story Time">
     <Cheatline>
       <Offset>59A4CA1</Offset>
       <Section>0</Section>
@@ -1014,7 +1022,7 @@
       <ValueOff>0F-84-CD-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time (Mercenaries)">
+  <Cheat Text="停止 Time (雇佣兵)">
     <Cheatline>
       <Offset>3D223C2</Offset>
       <Section>0</Section>
@@ -1022,7 +1030,7 @@
       <ValueOff>C4-C1-7A-11-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Mayhen Mode (Mercenaries)">
+  <Cheat Text="Instant 最大 Mayhen Mode (雇佣兵)">
     <Cheatline>
       <Offset>BDDB480</Offset>
       <Section>0</Section>

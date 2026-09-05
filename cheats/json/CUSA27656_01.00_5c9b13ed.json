@@ -1,12 +1,17 @@
 {
-  "name": "Dark Thrones",
+  "name": "Dark Thrones｜黑暗王座",
   "id": "CUSA27656",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9,999,999 Coins on Gain",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "9,999,999 Coins on Gain｜收益为9,999,999枚金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5B40",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5B80",

@@ -1,12 +1,17 @@
 {
-  "name": "Death Stranding",
+  "name": "Death Stranding｜死亡搁浅",
   "id": "CUSA12605",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17986AE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7546ABD2",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Resistance",
-      "type": "checkbox",
+      "name": "Max Resistance｜抗性最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17A1FE6",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Resistance walking wather",
-      "type": "checkbox",
+      "name": "Infinite Resistance walking wather｜无限阻力步行水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17A53FD",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Hold Air",
-      "type": "checkbox",
+      "name": "Infinite 领地 Air",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17A41A4",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite Water",
-      "type": "checkbox",
+      "name": "Infinite Water｜水无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1849599",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Boots durability",
-      "type": "checkbox",
+      "name": "Infinite 靴子 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17A6FE6",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Infinite Resin",
-      "type": "checkbox",
+      "name": "Infinite Resin｜无限树脂",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C6AB78",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Infinite Metal",
-      "type": "checkbox",
+      "name": "Infinite 金属",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C6AB96",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Infinite Crystals",
-      "type": "checkbox",
+      "name": "Infinite Crystals｜水晶无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C6AB5A",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Infinite Energy vehicules",
-      "type": "checkbox",
+      "name": "无限能量 vehicules",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28AB4B3",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Infinite Ceramics",
-      "type": "checkbox",
+      "name": "Infinite Ceramics｜无限陶瓷",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C6ABB4",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Infinite Chemicals",
-      "type": "checkbox",
+      "name": "Infinite Chemicals｜化学品无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7546ABD2",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Infinite Special Alloys",
-      "type": "checkbox",
+      "name": "《无限特辑》 Alloys",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7506ABE7",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Infinite CCP/Repair Spray/Grenades/Ladders/Climbing Anchors",
-      "type": "checkbox",
+      "name": "Infinite CCP/Repair 喷漆/手榴弹/Ladders/Climbing Anchors",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "74046585",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Unlimited Chiral Bandwidth",
-      "type": "checkbox",
+      "name": "Unlimited 开罗尔 Bandwidth",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "74748980",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Infinite all the above Materials",
-      "type": "checkbox",
+      "name": "Infinite all the above Materials｜上述所有材料均无限供应",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7546ABE7",

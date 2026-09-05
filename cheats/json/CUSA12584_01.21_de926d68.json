@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light 2: Stay Human",
+  "name": "《消逝的光芒》 2: Stay 人类",
   "id": "CUSA12584",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FC7040",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FC7090",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED37B9",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Weapon Durability",
-      "type": "checkbox",
+      "name": "Max Weapon Durability｜武器耐久最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B61762",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Keep Items (on use|craft)",
-      "type": "checkbox",
+      "name": "Keep Items (on use|craft)｜保留物品（使用时|制作时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E4ED4C",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Item (on get|buy|craft)",
-      "type": "checkbox",
+      "name": "最大 物品 (on get|buy|craft)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E506FA",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "25x Money Multiplier (on get)",
-      "type": "checkbox",
+      "name": "25倍 金钱倍率 (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FC70E0",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "25x Skill Points Multiplier",
-      "type": "checkbox",
+      "name": "25倍 Skill 得分 Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FC7140",

@@ -1,12 +1,17 @@
 {
-  "name": "Battlefield 4",
+  "name": "战地 4",
   "id": "CUSA00049",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF5AC4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo and Grenade Usage",
-      "type": "checkbox",
+      "name": "无限弹药 and 手榴弹 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF4CD3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Player Health",
-      "type": "checkbox",
+      "name": "Infinite Player 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "142DE2E",

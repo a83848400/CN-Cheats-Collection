@@ -2,7 +2,15 @@
 <Trainer Game="Black Myth: Wukong" Moder="Ps4&amp;Ps5 DarkConsole" Cusa="PPSA23226" Version="01.000.021" Process="eboot.bin">
     <Genres Name="Action" />
     <Items />
-    <Cheat Text="Infinite MP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+    <Cheat Text="Infinite MP｜无限魔力">
         <Cheatline>
             <Section>0</Section>
             <Offset>9B84A0C</Offset>
@@ -10,7 +18,7 @@
             <ValueOff>35-00-00-00-80</ValueOff>
         </Cheatline>
     </Cheat>
-	<Cheat Text="Infinite Stamina">
+	<Cheat Text="Infinite Stamina｜无限耐力">
         <Cheatline>
             <Section>0</Section>
             <Offset>9B84CD5</Offset>
@@ -18,7 +26,7 @@
             <ValueOff>35-00-00-00-80</ValueOff>
         </Cheatline>
     </Cheat>
-    <Cheat Text="Infinite Healing Potion">
+    <Cheat Text="Infinite Healing 药水">
         <Cheatline>
             <Section>0</Section>
             <Offset>9B84FB3</Offset>

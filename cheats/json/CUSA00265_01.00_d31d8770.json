@@ -1,12 +1,17 @@
 {
-  "name": "Minecraft: PlayStation 4 Edition",
+  "name": "我的世界: PlayStation 4 Edition",
   "id": "CUSA00265",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F55FB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No Hunger",
-      "type": "checkbox",
+      "name": "No Hunger｜不会饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34CDA0",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Items Throw",
-      "type": "checkbox",
+      "name": "道具无限 投技",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37688D",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Items Build",
-      "type": "checkbox",
+      "name": "道具无限 构筑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46011B",

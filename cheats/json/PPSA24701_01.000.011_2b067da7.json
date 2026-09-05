@@ -1,13 +1,18 @@
 {
-  "name": "Digimon Story Time Stranger",
+  "name": "Digimon Story Time Stranger｜《数码宝贝物语：陌生人》",
   "id": "PPSA24701",
   "version": "01.000.011",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf MP",
+      "name": "无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9B",

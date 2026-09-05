@@ -1,17 +1,22 @@
 {
-  "name": "Mega Man X8",
+  "name": "洛克人 X8",
   "id": "SLUS20960",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Characters-1-Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Characters-1-无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808024E373",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808024E374",
@@ -21,13 +26,13 @@
       ]
     },
     {
-      "name": "Characters-1-Inf-Health",
-      "type": "checkbox",
+      "name": "Characters-1-Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808024E35C",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808024E35D",
@@ -37,13 +42,13 @@
       ]
     },
     {
-      "name": "Characters-2-Inf-Health",
-      "type": "checkbox",
+      "name": "Characters-2-Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808024E14C",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808024E14D",
@@ -53,13 +58,13 @@
       ]
     },
     {
-      "name": "Characters-2-Invincible",
-      "type": "checkbox",
+      "name": "Characters-2-无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808024E104",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808024E105",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80804B114C",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Shining-Ray",
-      "type": "checkbox",
+      "name": "Shining-Ray｜闪耀之光",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80804B1148",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Shadow-Runner",
-      "type": "checkbox",
+      "name": "暗影-跑者",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80804B1150",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Drift-Diamond",
-      "type": "checkbox",
+      "name": "漂移-Diamond",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80804B1154",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Crystal-Wall",
-      "type": "checkbox",
+      "name": "水晶-Wall",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80804B1154",
@@ -125,7 +130,7 @@
     },
     {
       "name": "Green-Spinner",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80804B1158",

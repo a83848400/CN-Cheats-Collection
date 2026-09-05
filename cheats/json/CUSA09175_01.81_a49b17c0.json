@@ -1,12 +1,17 @@
 {
-  "name": "Days Gone",
+  "name": "Days Gone｜《Days Gone》",
   "id": "CUSA09175",
   "version": "01.81",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Lock Credits/Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Lock Credits/金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1179CCF",

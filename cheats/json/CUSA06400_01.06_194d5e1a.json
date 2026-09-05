@@ -1,12 +1,17 @@
 {
-  "name": "Marvel vs. Capcom: Infinite",
+  "name": "Marvel vs. 卡普空: Infinite",
   "id": "CUSA06400",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Super (On Gain)",
-      "type": "checkbox",
+      "name": "无限超级 (On Gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC3836",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Stone Meter (On Gain)",
-      "type": "checkbox",
+      "name": "石头无限 Meter (On Gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC3849",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Timer",
-      "type": "checkbox",
+      "name": "Infinite 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC3829",

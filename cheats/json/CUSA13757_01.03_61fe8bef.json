@@ -1,12 +1,17 @@
 {
-  "name": "Narcos: Rise of the Cartels",
+  "name": "Narcos: Rise of the Cartels｜《毒枭：贩毒集团的崛起》",
   "id": "CUSA13757",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (DEA) / (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (DEA) / (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A0F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Switch Health For (Narcos) / (MC)",
-      "type": "checkbox",
+      "name": "开关 生命 For (Narcos) / (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A0F807",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "671217",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Reload ( Pistol)",
-      "type": "checkbox",
+      "name": "无需换弹 ( 手枪)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A0F825",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Money (On Spend)",
-      "type": "checkbox",
+      "name": "金钱最大 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A0F833",

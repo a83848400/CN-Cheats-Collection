@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Orcs Must Die! 3" Moder="Reddevil82 - FW 9.00" Cusa="CUSA27274" Version="02.04" Process="eboot.bin">
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>5983DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-84-24-1C-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="Infinite Stamina">
     <Cheatline>
       <Offset>5983DD5</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-10-84-24-B0-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money" Description="Max Money">
+  <Cheat Text="Max Money｜金钱最大" Description="Max Money">
     <Cheatline>
       <Offset>5983E40</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8B-87-44-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score ( on gain )" Description="Max Score ( on gain )">
+  <Cheat Text="最大 比分 ( on gain )" Description="Max Score ( on gain )">
     <Cheatline>
       <Offset>5983E00</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-B7-D8-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Rift Points ( on gain )" Description="Max Rift Points ( on gain )">
+  <Cheat Text="最大 裂隙 得分 ( on gain )" Description="Max Rift Points ( on gain )">
     <Cheatline>
       <Offset>5983E23</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>8B-B3-80-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skulls" Description="Max Skulls">
+  <Cheat Text="最大 Skulls" Description="Max Skulls">
     <Cheatline>
       <Offset>5983E10</Offset>
       <Section>0</Section>

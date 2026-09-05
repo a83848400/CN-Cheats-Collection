@@ -1,13 +1,18 @@
 {
-  "name": "Star Wars Jedi: Fallen Order",
+  "name": "星球大战绝地: Fallen Order",
   "id": "CUSA12529",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "656B000",

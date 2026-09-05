@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="SuperLite 1500 Series: Fantastic Night Dreams: Cotton Original" Moder="Ali-mk" Cusa="SLPM86461" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Lives｜无限生命">
     <Cheatline>
       <Offset>121E4A</Offset>
       <Section>11</Section>
@@ -10,7 +18,7 @@
       <ValueOff>42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-credits">
+  <Cheat Text="Infinite-credits｜无限积分">
     <Cheatline>
       <Offset>12D822</Offset>
       <Section>11</Section>

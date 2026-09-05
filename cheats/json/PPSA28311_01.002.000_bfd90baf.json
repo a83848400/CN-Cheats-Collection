@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp And Money",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 And 金钱",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Combo",
+      "name": "无限连击",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17068",

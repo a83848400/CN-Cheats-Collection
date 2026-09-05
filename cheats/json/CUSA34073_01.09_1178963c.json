@@ -1,12 +1,17 @@
 {
-  "name": "Asterigos: Curse of the Stars",
+  "name": "Asterigos: 紧箍咒 of the Stars",
   "id": "CUSA34073",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C67C10",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite AP use",
-      "type": "checkbox",
+      "name": "无限能力点 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C67990",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "infinite items (use/spend)",
-      "type": "checkbox",
+      "name": "道具无限 (use/spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C677B0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C67820",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Stardust ",
-      "type": "checkbox",
+      "name": "最大 星尘 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C67920",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Ability points",
-      "type": "checkbox",
+      "name": "最大 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C67AA0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max level ",
-      "type": "checkbox",
+      "name": "Max level ｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C67B00",

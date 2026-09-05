@@ -1,12 +1,17 @@
 {
-  "name": "Ni no Kuni II: Revenant Kingdom",
+  "name": "Ni no Kuni II: Revenant Kingdom｜《二之国II：复仇王国》",
   "id": "CUSA09243",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99M exp after lvl up",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "99M 经验 after lvl up",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max HP 9999 (turn off after)",
-      "type": "checkbox",
+      "name": "生命值最大 9999 (回合 off after)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B80F",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "gold",
-      "type": "checkbox",
+      "name": "gold｜金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DC0F92",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "+99 discard item",
-      "type": "checkbox",
+      "name": "+99 discard item｜+99丢弃物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B81B",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "loot 999",
-      "type": "checkbox",
+      "name": "战利品 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "990B46",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max KingsGuilder",
-      "type": "checkbox",
+      "name": "最大 KingsGuilder",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C6B372",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "100m Influence",
-      "type": "checkbox",
+      "name": "100m 影响力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B827",

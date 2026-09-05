@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rage 2" Moder="hejran7" Cusa="CUSA10300" Version="01.10" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Player Infinity HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Player Infinity 手机" Description="">
     <Cheatline>
       <Offset>4EE924A</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-0F-BF-B7-0E-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Infinity Ammo" Description="">
+  <Cheat Text="Player 无限弹药" Description="">
     <Cheatline>
       <Offset>4EE928D</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>8B-41-20-85-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>4EE9224</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>89-B7-08-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vehicle Infinity Ammo" Description="">
+  <Cheat Text="Vehicle 无限弹药" Description="">
     <Cheatline>
       <Offset>4EE929C</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>0F-84-99-FC-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vehicle Infinity HP" Description="">
+  <Cheat Text="Vehicle Infinity 手机" Description="">
     <Cheatline>
       <Offset>4EE9265</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>0F-BF-81-0E-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vehicle Infinity Boost" Description="">
+  <Cheat Text="Vehicle Infinity Boost｜车辆无限加速" Description="">
     <Cheatline>
       <Offset>382E1E2</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vehicle Machine Gun No Overheat" Description="">
+  <Cheat Text="Vehicle 机枪 不会过热" Description="">
     <Cheatline>
       <Offset>2A5E7D0</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C4-C1-7A-58-87-28-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant OverDirve" Description="">
+  <Cheat Text="Instant OverDirve｜即时超驱" Description="">
     <Cheatline>
       <Offset>4EE91FE</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-10-83-70-0F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cash Open Game Menu" Description="">
+  <Cheat Text="最大 Cash Open Game 菜单" Description="">
     <Cheatline>
       <Offset>4EE9215</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>8B-42-20-E9-37-EC-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Vendor Items" Description="">
+  <Cheat Text="Infinity 商人 Items" Description="">
     <Cheatline>
       <Offset>36CC0B5</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>41-8B-46-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Items\Throwables" Description="">
+  <Cheat Text="Infinity Items\Throwables｜无限道具\可投掷物品" Description="">
     <Cheatline>
       <Offset>2698BFF</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>44-89-68-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Upgrade Material" Description=" Open Menu- Infinity Feltrite/Auto Parts">
+  <Cheat Text="Infinity Upgrade Material｜无限升级材料" Description=" Open Menu- Infinity Feltrite/Auto Parts">
     <Cheatline>
       <Offset>4EE9235</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>74-D3-8B-42-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Project Points" Description="">
+  <Cheat Text="Infinity Project 得分" Description="">
     <Cheatline>
       <Offset>4EE927A</Offset>
       <Section>0</Section>

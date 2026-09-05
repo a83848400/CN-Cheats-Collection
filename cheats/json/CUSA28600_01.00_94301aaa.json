@@ -1,12 +1,17 @@
 {
-  "name": "The Cruel King and the Great Hero",
+  "name": "The Cruel 金 and the Great 英雄",
   "id": "CUSA28600",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -22,8 +27,8 @@
       ]
     },
     {
-      "name": "Special Skill Points (on charge)",
-      "type": "checkbox",
+      "name": "Special Skill 得分 (on 冲锋)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -39,8 +44,8 @@
       ]
     },
     {
-      "name": "99 Items (on use)",
-      "type": "checkbox",
+      "name": "99 Items (on use)｜99 件（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -56,8 +61,8 @@
       ]
     },
     {
-      "name": "Max Shells (on gain)",
-      "type": "checkbox",
+      "name": "最大 Shells (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",

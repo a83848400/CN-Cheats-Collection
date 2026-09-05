@@ -1,12 +1,17 @@
 {
-  "name": "Construction Simulator",
+  "name": "建造 Simulator",
   "id": "CUSA19177",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Fuel",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19ABDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Perfect Vehicle Condition",
-      "type": "checkbox",
+      "name": "Perfect Vehicle 状态",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19ABDD0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19ABDDC",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max XP ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19ABDF1",

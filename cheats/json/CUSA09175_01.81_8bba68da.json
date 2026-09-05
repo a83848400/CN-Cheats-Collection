@@ -1,12 +1,17 @@
 {
-  "name": "Days Gone",
+  "name": "Days Gone｜《Days Gone》",
   "id": "CUSA09175",
   "version": "01.81",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FEB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance/Focus",
-      "type": "checkbox",
+      "name": "Infinite 耐力/棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Items (Dont Use Max Items)",
-      "type": "checkbox",
+      "name": "道具无限 (Dont Use 最大 Items)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1275BB0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Items (Get Items First/Reload Game)",
-      "type": "checkbox",
+      "name": "最大 Items (Get Items First/Reload Game)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FD70",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE80",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "Infinite Suppressor",
-      "type": "checkbox",
+      "name": "Infinite 消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE30",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDE0",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "Infinite Bike Durability (Disable On Chase Bike Missions)",
-      "type": "checkbox",
+      "name": "Infinite Bike 耐用性 (Disable On 追击 Bike Missions)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D080",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Infinite Bike Fuel",
-      "type": "checkbox",
+      "name": "Infinite Bike Fuel｜无限自行车燃料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDB0",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "Infinite Nitro Turbo ",
-      "type": "checkbox",
+      "name": "无限氮气 涡轮 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE00",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E76C29",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Max Level Up/XP On Gain",
-      "type": "checkbox",
+      "name": "等级最大 Up/XP On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F6C0",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "Max Infinite Money(Buy Or Sell) Turn Off Before New Camp",
-      "type": "checkbox",
+      "name": "最大 金钱无限(Buy Or Sell) 回合 Off Before New 扎营",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF90",

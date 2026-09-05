@@ -1,12 +1,17 @@
 {
-  "name": "TimeSplitters",
+  "name": "TimeSplitters｜《TimeSplitters》",
   "id": "SLUS20090",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Health-Ninja Gaiden-1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命-忍者龙剑传-1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80800A0605",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Invincible-Ninja Gaiden-1",
-      "type": "checkbox",
+      "name": "无敌-忍者龙剑传-1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80800A0634",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf-lives-Ninja Gaiden-1",
-      "type": "checkbox",
+      "name": "无限生命-忍者龙剑传-1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80800A0616",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "shurikens-Ninja Gaiden-1",
-      "type": "checkbox",
+      "name": "shurikens-忍者龙剑传-1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80800A0604",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Inf-Health-Shinobi-III",
-      "type": "checkbox",
+      "name": "Infinite-生命-忍者-III",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808016D4A8",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Inf-lives-Shinobi-III",
-      "type": "checkbox",
+      "name": "无限生命-忍者-III",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808016D4A1",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "shurikens-Shinobi-III",
-      "type": "checkbox",
+      "name": "shurikens-忍者-III",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808016D4A2",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Inf-MAGIC-Shinobi-III",
-      "type": "checkbox",
+      "name": "Infinite-魔法-忍者-III",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808016D4A2",

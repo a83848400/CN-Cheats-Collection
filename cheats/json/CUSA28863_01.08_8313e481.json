@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA28863",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + Max (master code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 最大 (master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3916201",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite FP + Max (need MC)",
-      "type": "checkbox",
+      "name": "Infinite 专注值 + 最大 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "391622A",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina + Max (need MC)",
-      "type": "checkbox",
+      "name": "无限耐力 + 最大 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3916236",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "99 items",
-      "type": "checkbox",
+      "name": "99 items｜99 件商品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3916280",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "999M Runes",
-      "type": "checkbox",
+      "name": "999M 铭文",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39162A0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "99 Stats",
-      "type": "checkbox",
+      "name": "99 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39162D0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Kill All in Area (includes NPC)",
-      "type": "checkbox",
+      "name": "杀光所有 in Area (includes 非玩家角色)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3916300",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Enemy Health 1",
-      "type": "checkbox",
+      "name": "Enemy 生命 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3916340",

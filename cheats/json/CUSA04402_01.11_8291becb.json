@@ -1,13 +1,18 @@
 {
-  "name": "Middle-Earth: Shadow of War",
+  "name": "Middle-土: 暗影 of War",
   "id": "CUSA04402",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "324700A",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
+      "name": "Infinite Arrows｜箭矢无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "146975F",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite Focus",
+      "name": "Infinite Focus｜无限专注值",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125EC2F",

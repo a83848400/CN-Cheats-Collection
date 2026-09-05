@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Island 2" Moder="Celogamez" Cusa="CUSA27043" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit kill (Master Code/Must Be On)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (Master 密码/Must Be On)">
     <Cheatline>
       <Offset>8CAFDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-85-78-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Activate After Killing The First Zombie)">
+  <Cheat Text="一击必杀 (Activate After Killing The First 僵尸)">
     <Cheatline>
       <Offset>8CAFDB8</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-13</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Medkits Don't Decrease">
+  <Cheat Text="Medkits Don'恐怖分子 Decrease">
     <Cheatline>
       <Offset>66AF318</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E8-63-C5-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>66AB8C3</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-56-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>8CAD480</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-87-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapons Durability">
+  <Cheat Text="Infinite 武器 耐用性">
     <Cheatline>
       <Offset>8CAF940</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C5-FA-11-87-48-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Gain (x2 To Work)">
+  <Cheat Text="最大 Items On Gain (x2 To Work)">
     <Cheatline>
       <Offset>8CAF630</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>41-89-4C-DF-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money On Sell (Sell N Disable)">
+  <Cheat Text="金钱最大 On Sell (Sell N Disable)">
     <Cheatline>
       <Offset>8CAF680</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>41-89-4C-DF-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fury On Kill">
+  <Cheat Text="无尽之怒 On Kill">
     <Cheatline>
       <Offset>8CAFB40</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>C5-FA-11-80-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Levels">
+  <Cheat Text="最大 XP/Levels">
     <Cheatline>
       <Offset>8CAF6C0</Offset>
       <Section>0</Section>

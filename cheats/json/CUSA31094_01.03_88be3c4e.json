@@ -1,12 +1,17 @@
 {
-  "name": "Aeterna Noctis",
+  "name": "Aeterna Noctis｜永恒之夜",
   "id": "CUSA31094",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "843EF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "MAX-GOLD",
-      "type": "checkbox",
+      "name": "最大-金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "843EF81E",

@@ -1,12 +1,17 @@
 {
-  "name": "Persona 3 Reload",
+  "name": "女神异闻录3 Reload",
   "id": "CUSA37521",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinte Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65527C1",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65527F1",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "all consumable misc event items",
-      "type": "checkbox",
+      "name": "all consumable misc event items｜所有消耗型其他活动道具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552821",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "all skill items",
-      "type": "checkbox",
+      "name": "all skill items｜所有技能道具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552851",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "all weapons",
-      "type": "checkbox",
+      "name": "all 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552881",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "all armors",
-      "type": "checkbox",
+      "name": "all armors｜所有护甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65528B1",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "all footwear",
-      "type": "checkbox",
+      "name": "all footwear｜所有鞋类",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65528E1",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "all outfit",
-      "type": "checkbox",
+      "name": "all outfit｜整套穿搭",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552911",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "all accessories",
-      "type": "checkbox",
+      "name": "all accessories｜所有配件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552941",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "yen",
-      "type": "checkbox",
+      "name": "yen｜如果",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552971",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "date (master code)",
-      "type": "checkbox",
+      "name": "date (master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65529A1",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "decrease 1 day (MC / date)",
-      "type": "checkbox",
+      "name": "decrease 1 day (MC / date)｜减少 1 天（MC / 日期）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65529A8",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "increase 1 day (MC / date)",
-      "type": "checkbox",
+      "name": "increase 1 day (MC / date)｜增加 1 天（MC / 日期）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65529A8",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "daytime (master code)",
-      "type": "checkbox",
+      "name": "daytime (master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65529F1",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "early morning (MC / daytime)",
-      "type": "checkbox",
+      "name": "清晨 (MC / daytime)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65529F8",
@@ -230,8 +235,8 @@
       ]
     },
     {
-      "name": "after school (MC / daytime)",
-      "type": "checkbox",
+      "name": "after school (MC / daytime)｜放学后（MC / 白天）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65529F8",
@@ -241,8 +246,8 @@
       ]
     },
     {
-      "name": "evening (MC / daytime)",
-      "type": "checkbox",
+      "name": "傍晚 (MC / daytime)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65529F8",
@@ -252,8 +257,8 @@
       ]
     },
     {
-      "name": "max exp player only",
-      "type": "checkbox",
+      "name": "经验值最大 player only",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552A51",
@@ -268,8 +273,8 @@
       ]
     },
     {
-      "name": "max exp persona and party",
-      "type": "checkbox",
+      "name": "经验值最大 人格面具 and 队伍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552A81",
@@ -284,8 +289,8 @@
       ]
     },
     {
-      "name": "persona id (master code)",
-      "type": "checkbox",
+      "name": "人格面具 id (master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552AB1",
@@ -300,8 +305,8 @@
       ]
     },
     {
-      "name": "increase persona id (MC / id)",
-      "type": "checkbox",
+      "name": "increase 人格面具 id (MC / id)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552AB6",
@@ -311,8 +316,8 @@
       ]
     },
     {
-      "name": "decrease persona id (MC / id)",
-      "type": "checkbox",
+      "name": "decrease 人格面具 id (MC / id)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552AB6",
@@ -322,8 +327,8 @@
       ]
     },
     {
-      "name": "max social stats",
-      "type": "checkbox",
+      "name": "最大 人格指数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552AF1",
@@ -338,8 +343,8 @@
       ]
     },
     {
-      "name": "max social links",
-      "type": "checkbox",
+      "name": "最大 social links",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6552B1F",
@@ -354,8 +359,8 @@
       ]
     },
     {
-      "name": "99999999 Yen (On buying)",
-      "type": "checkbox",
+      "name": "99999999 如果 (On buying)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65539D0",

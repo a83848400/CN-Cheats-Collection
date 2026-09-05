@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Advanced Warfare",
+  "name": "使命召唤: Advanced Warfare",
   "id": "CUSA00803",
   "version": "01.24",
-  "process": "default.elf",
+  "process": "默认.elf",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (Master 密码/Must Be On)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "793FA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "无限生命 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "793FA6",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "793FA4",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC49E90",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "No Reload/Grenades",
-      "type": "checkbox",
+      "name": "无需换弹/手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC49410",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Upgrade Points",
-      "type": "checkbox",
+      "name": "最大/Infinite Upgrade 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4A6D0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodstained: Ritual of the Night" Moder="Ali-mk" Cusa="CUSA07953" Version="01.60" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-Aurora(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-Aurora(MC)">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>D3DF800</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>89-83-40-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health-Zengetsu(MC)">
+    <Cheat Text="Infinite-生命-Zengetsu(MC)">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>D3DF83C</Offset>
@@ -34,7 +42,7 @@
       <ValueOff>E9-86-1E-1B-07</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-MP(Aurora)">
+    <Cheat Text="Infinite-MP(Aurora)｜Infinite-MP（Aurora）">
     <Cheatline>
       <Offset>34C0C55</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-11-93-A4-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-MP(Zengetsu)">
+    <Cheat Text="Infinite-MP(Zengetsu)｜Infinite-MP（Zengetsu）">
     <Cheatline>
       <Offset>5E2DABD</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-8B-44-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-Gold(99999999)">
+    <Cheat Text="最大-金币(99999999)">
     <Cheatline>
       <Offset>CFDF81E</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>89-B7-30-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Health-2">
+    <Cheat Text="Infinite-生命-2">
     <Cheatline>
       <Offset>5E2D93C</Offset>
       <Section>0</Section>

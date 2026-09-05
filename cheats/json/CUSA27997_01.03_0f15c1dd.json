@@ -1,12 +1,17 @@
 {
-  "name": "Baldur's Gate: Dark Alliance",
+  "name": "Baldur's 大门: Dark 联盟",
   "id": "CUSA27997",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFDC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFEF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFDD0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFDF9",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max XP Level ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP 等级 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFEF0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Zero Weight ( must be activated )",
-      "type": "checkbox",
+      "name": "杰洛 重量 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFE36",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Ammo ( on use )",
-      "type": "checkbox",
+      "name": "弹药最大化 ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFED4",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Items ( on gain or use )",
-      "type": "checkbox",
+      "name": "最大 Items ( on gain or use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFE4D",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Max Skills",
-      "type": "checkbox",
+      "name": "最大 Skills",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFE7D",

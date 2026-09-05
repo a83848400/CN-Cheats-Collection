@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Little Dragons Cafe" Moder="Molly" Cusa="CUSA12545" Version="01.02" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Unlock All Ingredients">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Unlock All Ingredients｜解锁所有食材">
     <Cheatline>
       <Offset>12CB811</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>44-8B-60-10-48-8B-5A-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dragons Hp">
+  <Cheat Text="Dragons 手机">
     <Cheatline>
       <Offset>12CB827</Offset>
       <Section>0</Section>

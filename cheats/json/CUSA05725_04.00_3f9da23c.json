@@ -1,12 +1,17 @@
 {
-  "name": "The Witcher 3: Wild Hunt: Complete Edition",
+  "name": "巫师3：狂猎: 狂猎: Complete Edition",
   "id": "CUSA05725",
   "version": "04.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9999 Weight",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "9999 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "253B970",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Coins (on sell) Turn off after use",
-      "type": "checkbox",
+      "name": "最大 角落 (on sell) 回合 off after use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "253BA40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Experience Multiplier ",
-      "type": "checkbox",
+      "name": "Experience Multiplier ｜经验值倍增器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "253BB10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Durability",
-      "type": "checkbox",
+      "name": "Infinite Durability｜装备耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "253BB80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Skill points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "253B610",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Food (on consume equip it first) ",
-      "type": "checkbox",
+      "name": "食物无限 (关于“consume” equip it first) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "253B660",

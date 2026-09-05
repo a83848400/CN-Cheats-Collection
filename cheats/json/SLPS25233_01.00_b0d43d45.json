@@ -1,12 +1,17 @@
 {
-  "name": "DoDonPachi Dai-Ou-Jou",
+  "name": "DoDonPachi Dai-Ou-Jou｜《DoDonPachi 大王城》",
   "id": "SLPS25233",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible-DO NOT-USE-BOMB",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌-DO NOT-USE-BOMB",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD421C4",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Lives P1",
-      "type": "checkbox",
+      "name": "无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE8E8C4",
@@ -32,18 +37,18 @@
       ]
     },
     {
-      "name": "Infinite-bomb P1",
-      "type": "checkbox",
+      "name": "无限炸弹 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD42A5C",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "807FD42A5D",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

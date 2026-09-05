@@ -1,12 +1,17 @@
 {
-  "name": "Aragami 2",
+  "name": "Aragami 2｜《Aragami 2》",
   "id": "CUSA23443",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Stamina ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 体力 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3DDB",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina [MC]",
-      "type": "checkbox",
+      "name": "无限耐力 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3DB9",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "No Stamina Enemies [MC]",
-      "type": "checkbox",
+      "name": "No 体力 Enemies [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3DC6",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3E09",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3E30",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "No Ability Cooldown",
-      "type": "checkbox",
+      "name": "No 技能冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3E16",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Items ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Items ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3E25",

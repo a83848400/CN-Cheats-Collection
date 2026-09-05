@@ -1,12 +1,17 @@
 {
-  "name": "Tokyo Xanadu eX+",
+  "name": "Tokyo Xanadu eX+｜东京Xanadu eX+",
   "id": "CUSA06978",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Yen (on buy)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 如果 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5A900",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Items x99 (on use/sell)",
-      "type": "checkbox",
+      "name": "物品 x99 (on use/sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5A930",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Level",
-      "type": "checkbox",
+      "name": "Max Level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5A1D0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Gems (on collect)",
-      "type": "checkbox",
+      "name": "宝石最大 (on collect)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5A210",

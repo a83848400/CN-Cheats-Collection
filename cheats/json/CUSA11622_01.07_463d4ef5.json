@@ -1,12 +1,17 @@
 {
-  "name": "Agony",
+  "name": "Agony｜痛苦",
   "id": "CUSA11622",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC7DB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC7833",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Astral Timer",
-      "type": "checkbox",
+      "name": "Infinite Astral 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC784A",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Health",
-      "type": "checkbox",
+      "name": "Max Health｜生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC7863",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Stamina",
-      "type": "checkbox",
+      "name": "Max Stamina｜体力最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC787C",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Breath",
-      "type": "checkbox",
+      "name": "最大 Breath",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC7895",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Astral Timer",
-      "type": "checkbox",
+      "name": "最大 Astral 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC78AE",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Skills",
-      "type": "checkbox",
+      "name": "最大 Skills",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC7DC5",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max Knowledge",
-      "type": "checkbox",
+      "name": "最大 Knowledge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CC7DD9",

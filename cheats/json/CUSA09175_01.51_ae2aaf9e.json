@@ -1,12 +1,17 @@
 {
-  "name": "Days Gone",
+  "name": "Days Gone｜《Days Gone》",
   "id": "CUSA09175",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0127DC97",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01270700",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Nitrogen",
-      "type": "checkbox",
+      "name": "Infinite Nitrogen｜无限氮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0151BF56",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Silencer",
-      "type": "checkbox",
+      "name": "Infinite Silencer｜无限消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0160A75E",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "015D9938",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "126C803",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Master Code for Infinite Health and One Hit Kill(MUST ENABLE)",
-      "type": "checkbox",
+      "name": "Master 密码 for 无限生命 and 一击必杀(MUST ENABLE)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "565A100",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Health (NEEDS MASTERCODE)",
-      "type": "checkbox",
+      "name": "无限生命 (需求 主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "565A116",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "One Hit Kill (NEEDS MASTERCODE)",
-      "type": "checkbox",
+      "name": "一击必杀 (需求 主代码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "565A108",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15BE0BF",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Infinite Bandages",
-      "type": "checkbox",
+      "name": "Infinite Bandages｜无限绷带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1270755",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "Infinite Credits",
-      "type": "checkbox",
+      "name": "Infinite Credits｜无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1178296",
@@ -157,8 +162,8 @@
       ]
     },
     {
-      "name": "Instant LevelUp",
-      "type": "checkbox",
+      "name": "Instant LevelUp｜即时升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E75A4F",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "Molotov: Ignore Crafting Limit",
-      "type": "checkbox",
+      "name": "燃烧瓶: Ignore Crafting Limit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "126FDB5",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "Infinite Gas(Fuel)",
-      "type": "checkbox",
+      "name": "Infinite Gas(Fuel)｜无限燃料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14E824D",
@@ -190,8 +195,8 @@
       ]
     },
     {
-      "name": "Infinite Focus and Stamina",
-      "type": "checkbox",
+      "name": "无限专注值 and 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2410928",

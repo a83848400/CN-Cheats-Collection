@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Injustice 2" Moder="Reddevil82 - FW 9.00" Cusa="CUSA10688" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Mastercode ( must be activated )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Mastercode ( must be activated )｜主代码（必须激活）">
     <Cheatline>
       <Offset>3EFBE1E</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-10-83-34-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Player 1 [ MC ]">
+  <Cheat Text="无限生命 Player 1 [ MC ]">
     <Cheatline>
       <Offset>3EFBE24</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>C5-FA-11-83-44-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Player 2 [ MC ]">
+  <Cheat Text="无限生命 Player 2 [ MC ]">
     <Cheatline>
       <Offset>3EFBE3D</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-83-44-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Supermeter Player 1 [ MC ]">
+  <Cheat Text="Infinite Supermeter Player 1 [ MC ]｜《Infinite Supermeter》玩家1 [ MC ]">
     <Cheatline>
       <Offset>3EFBDB6</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-10-83-34-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Supermeter Player 2 [ MC ]">
+  <Cheat Text="Infinite Supermeter Player 2 [ MC ]｜《Infinite Supermeter Player 2》[ MC ]">
     <Cheatline>
       <Offset>3EFBDCC</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-10-83-34-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Timer [ 999 ]">
+  <Cheat Text="Set 计时器 [ 999 ]">
     <Cheatline>
       <Offset>3EFB9E0</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>41-89-97-F4-0F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer">
+  <Cheat Text="Freeze 计时器">
     <Cheatline>
       <Offset>391810</Offset>
       <Section>0</Section>

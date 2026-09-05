@@ -1,12 +1,17 @@
 {
-  "name": "Euro Fishing",
+  "name": "Euro 捕鱼",
   "id": "CUSA06447",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Buy An Item Money Doubles",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Buy An 物品 金钱 双打",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1d1f70",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Click On Gain XP Before Releasing Fish Click Off And On",
-      "type": "checkbox",
+      "name": "Click On Gain XP Before Releasing Fish Click Off And On｜点击“获得经验值”后再放生鱼，先关闭再打开",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21feed",

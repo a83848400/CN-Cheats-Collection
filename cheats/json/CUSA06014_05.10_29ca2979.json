@@ -1,12 +1,17 @@
 {
-  "name": "Tekken 7",
+  "name": "铁拳 7",
   "id": "CUSA06014",
   "version": "05.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Player 1: Max Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Player 1: 生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5447800",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Player 1: Min Health",
-      "type": "checkbox",
+      "name": "Player 1: Min 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5447800",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Player 2: Max Health",
-      "type": "checkbox",
+      "name": "Player 2: 生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5447801",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Player 2: Min Health",
-      "type": "checkbox",
+      "name": "Player 2: Min 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5447801",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Health",
-      "type": "checkbox",
+      "name": "Health｜生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5447800",

@@ -1,12 +1,17 @@
 {
-  "name": "Grime",
+  "name": "Grime｜格莱姆",
   "id": "CUSA27309",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health Master code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "855F7210",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (M)",
-      "type": "checkbox",
+      "name": "无限生命 (M)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "855F7214",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Mass on spend",
-      "type": "checkbox",
+      "name": "Infinite Mass on spend｜消费时获得无限质量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "855F7A90",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Force",
-      "type": "checkbox",
+      "name": "Infinite Force｜无限原力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "855F7A00",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Items ",
-      "type": "checkbox",
+      "name": "Infinite Items ｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "855F7790",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Ardor",
-      "type": "checkbox",
+      "name": "Infinite Ardor｜无尽的热情",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "855F7A90",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Hunt Points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite Hunt 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "855F7900",

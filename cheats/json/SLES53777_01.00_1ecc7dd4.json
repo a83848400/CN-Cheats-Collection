@@ -1,12 +1,17 @@
 {
-  "name": "Prince of Persia: The Two Thrones",
+  "name": "波斯王子: The Two Thrones",
   "id": "SLES53777",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080AAE8F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max+Infinite-Sand",
-      "type": "checkbox",
+      "name": "最大+Infinite-沙子",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080AAF348",

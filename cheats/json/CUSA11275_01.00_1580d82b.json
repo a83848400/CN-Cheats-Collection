@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Chase Turbo",
+  "name": "地平线 追击 涡轮",
   "id": "CUSA11275",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Nitro Boost",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限氮气 Boost",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

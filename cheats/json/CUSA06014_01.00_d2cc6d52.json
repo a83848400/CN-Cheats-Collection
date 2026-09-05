@@ -1,13 +1,18 @@
 {
-  "name": "Tekken 7",
+  "name": "铁拳 7",
   "id": "CUSA06014",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode Player Left",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "上帝模式 Player Left",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5694784",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Godmode Player Right",
+      "name": "上帝模式 Player Right",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5697574",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Player Left  1 hit kill",
+      "name": "Player Left  一击必杀",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5694784",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Player Rigth 1 hit kill",
+      "name": "Player Rigth 一击必杀",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5697574",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Money x2 Each Use",
+      "name": "Money x2 Each Use｜每次使用可获得2倍金钱",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623fb1",

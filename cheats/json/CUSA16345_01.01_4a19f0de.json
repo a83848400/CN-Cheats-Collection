@@ -1,12 +1,17 @@
 {
-  "name": "Immortals Fenyx Rising",
+  "name": "Immortals Fenyx Rising｜渡神纪",
   "id": "CUSA16345",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32045E2",
@@ -36,8 +41,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A330",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill * Basic Damage/Def = 10K",
-      "type": "checkbox",
+      "name": "一击必杀 * Basic 输出/守备力 = 10K",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A500",
@@ -68,8 +73,8 @@
       ]
     },
     {
-      "name": "1 Hit Stun (No Effect If 1HK On)",
-      "type": "checkbox",
+      "name": "1 次击晕 (没有效果 If 1港元 On)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A300",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Infinite Jump (With Wings)",
-      "type": "checkbox",
+      "name": "无限跳跃 (With Wings)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A780",
@@ -120,8 +125,8 @@
       ]
     },
     {
-      "name": "Speed: Fly Turbo x5",
-      "type": "checkbox",
+      "name": "速度: 飞行 涡轮 x5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A600",
@@ -136,8 +141,8 @@
       ]
     },
     {
-      "name": "Speed: Walk / Run x2",
-      "type": "checkbox",
+      "name": "速度: Walk / Run x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A670",
@@ -152,8 +157,8 @@
       ]
     },
     {
-      "name": "Mega Jump: Ares's Wrath (not 100%)",
-      "type": "checkbox",
+      "name": "Mega Jump: Ares's Wrath (not 100%)｜《超级跳跃：阿瑞斯的愤怒》（未通关100%）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A800",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "Invisible To Enemy",
-      "type": "checkbox",
+      "name": "不可见 To Enemy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A790",
@@ -214,8 +219,8 @@
       ]
     },
     {
-      "name": "Enemy Doesn't Move",
-      "type": "checkbox",
+      "name": "Enemy Doesn'恐怖分子 招式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A700",
@@ -230,8 +235,8 @@
       ]
     },
     {
-      "name": "Maxed Sword",
-      "type": "checkbox",
+      "name": "Maxed 剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A580",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "Maxed Axe",
-      "type": "checkbox",
+      "name": "Maxed 斧",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A5A0",
@@ -262,8 +267,8 @@
       ]
     },
     {
-      "name": "Maxed Bow",
-      "type": "checkbox",
+      "name": "Maxed 弓",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A5C0",
@@ -278,8 +283,8 @@
       ]
     },
     {
-      "name": "Bow Instantly Charged + Thunderbolt Upgrade",
-      "type": "checkbox",
+      "name": "弓 Instantly Charged + Thunderbolt Upgrade",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A840",
@@ -294,8 +299,8 @@
       ]
     },
     {
-      "name": "Maxed Armour",
-      "type": "checkbox",
+      "name": "Maxed Armour｜护甲满值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A540",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Maxed Helmet",
-      "type": "checkbox",
+      "name": "Maxed 头盔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A560",
@@ -326,8 +331,8 @@
       ]
     },
     {
-      "name": "Infinite Collectables (Pick Up +3 Times)",
-      "type": "checkbox",
+      "name": "Infinite Collectables (拾取 +3 Times)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A360",
@@ -342,8 +347,8 @@
       ]
     },
     {
-      "name": "Combo 666 + 4th Level (Blue)",
-      "type": "checkbox",
+      "name": "Combo 666 + 4th 等级 (Blue)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1A460",

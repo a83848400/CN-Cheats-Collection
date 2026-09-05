@@ -1,12 +1,17 @@
 {
-  "name": "Sonic Frontiers",
+  "name": "索尼克 Frontiers",
   "id": "CUSA28194",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Rings",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 金环",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBC40",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Boost",
-      "type": "checkbox",
+      "name": "Infinite Boost｜无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBC65",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBC7A",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Fishing Attempts",
-      "type": "checkbox",
+      "name": "最大 捕鱼 Attempts",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD43",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Marks - Fishing Area",
-      "type": "checkbox",
+      "name": "最大 Marks - 捕鱼 Area",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD59",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Gold Cards - Fishing Area",
-      "type": "checkbox",
+      "name": "金币最大 Cards - 捕鱼 Area",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD70",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Vault Keys + Portal Gears ( use it first after Stage 1-2 )",
-      "type": "checkbox",
+      "name": "最大 秘藏 Keys + 传送门 战争机器 ( use it first after Stage 1-2 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBC90",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Heart Token",
-      "type": "checkbox",
+      "name": "最大 Heart 衍生物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD18",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Kocos",
-      "type": "checkbox",
+      "name": "最大 Kocos",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD2D",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max Red Power Seed",
-      "type": "checkbox",
+      "name": "最大 Red 电力 种子",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD87",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Max Blue Power Seed",
-      "type": "checkbox",
+      "name": "最大 Blue 电力 种子",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBCBB",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Max Star Pieces ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Star Pieces ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBCA6",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "Freeze Level Timer",
-      "type": "checkbox",
+      "name": "Freeze 等级 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBC74",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Freeze Challenge 1 Timer",
-      "type": "checkbox",
+      "name": "Freeze Challenge 1 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBDD0",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Freeze Challenge 2 Timer",
-      "type": "checkbox",
+      "name": "Freeze Challenge 2 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBDD6",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "Freeze Timer ( Training Simulator )",
-      "type": "checkbox",
+      "name": "Freeze 计时器 ( 训练 Simulator )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD9C",
@@ -261,8 +266,8 @@
       ]
     },
     {
-      "name": "Max Ring Stats",
-      "type": "checkbox",
+      "name": "最大 戒指 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBCD0",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "Max Attack Stats",
-      "type": "checkbox",
+      "name": "攻击力最大 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBCE2",
@@ -293,8 +298,8 @@
       ]
     },
     {
-      "name": "Max Shield Stats",
-      "type": "checkbox",
+      "name": "最大 盾牌 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBCF4",
@@ -309,8 +314,8 @@
       ]
     },
     {
-      "name": "Max Speed Stats",
-      "type": "checkbox",
+      "name": "最高速度 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21EBD06",

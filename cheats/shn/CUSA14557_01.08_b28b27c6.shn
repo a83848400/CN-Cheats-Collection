@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>83817A80</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-11-4F-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jump power">
+  <Cheat Text="无限跳跃 电力">
     <Cheatline>
       <Offset>83817660</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-C1-7A-11-4E-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite slow time">
+  <Cheat Text="Infinite 时间减慢">
     <Cheatline>
       <Offset>838176B0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-11-4B-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite sword Charge usage">
+  <Cheat Text="Infinite 剑 冲锋 usage">
     <Cheatline>
       <Offset>83817A10</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-11-4B-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Plasma Ammo">
+  <Cheat Text="Infinite 等离子 但是">
     <Cheatline>
       <Offset>83817CD0</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>C4-C1-7A-11-8D-70-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Pistols/SMG/throwable">
+  <Cheat Text="Infinite Pistols/冲锋枪/throwable">
     <Cheatline>
       <Offset>83817DF0</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>C6-05-EB-E9-E0-02-01-41-FF-4E-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows Normal Shots">
+  <Cheat Text="箭矢无限 普通 Shots">
     <Cheatline>
       <Offset>83817E60</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>0F-84-4B-01-00-00-FF-48-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Multi Shot Arrows">
+  <Cheat Text="Infinite Multi Shot Arrows｜无限连射箭">
     <Cheatline>
       <Offset>83817EC0</Offset>
       <Section>0</Section>
@@ -115,7 +123,7 @@
       <ValueOff>0F-84-D5-03-00-00-FF-49-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 skill points (on spent)">
+  <Cheat Text="99 skill 得分 (已用)">
     <Cheatline>
       <Offset>838176F0</Offset>
       <Section>0</Section>
@@ -129,7 +137,7 @@
       <ValueOff>74-21-89-58-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast level up">
+  <Cheat Text="Fast 升级">
     <Cheatline>
       <Offset>838179C0</Offset>
       <Section>0</Section>
@@ -143,7 +151,7 @@
       <ValueOff>74-21-89-58-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ducats (on buy/sell)">
+  <Cheat Text="最大 Ducats (on buy/sell)">
     <Cheatline>
       <Offset>83817950</Offset>
       <Section>0</Section>
@@ -157,7 +165,7 @@
       <ValueOff>74-21-89-58-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No cooldown for automatic SMG">
+  <Cheat Text="无冷却 for 自动挡 冲锋枪">
     <Cheatline>
       <Offset>83817C70</Offset>
       <Section>0</Section>
@@ -171,7 +179,7 @@
       <ValueOff>C4-C1-7A-11-85-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Intel (on spend)">
+  <Cheat Text="最大 Intel (on spend)">
     <Cheatline>
       <Offset>83817F20</Offset>
       <Section>0</Section>
@@ -185,7 +193,7 @@
       <ValueOff>74-21-89-58-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Fabricant (on spend)">
+  <Cheat Text="最大 Fabricant (on spend)">
     <Cheatline>
       <Offset>838177D0</Offset>
       <Section>0</Section>
@@ -199,7 +207,7 @@
       <ValueOff>74-21-89-58-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Beacons (on get)">
+  <Cheat Text="最大 Beacons (on get)">
     <Cheatline>
       <Offset>83817840</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Sniper Elite 5",
+  "name": "Sniper 精英 5",
   "id": "CUSA16164",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Shot Kills (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/1 Shot Kills (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127BDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "最大/无限生命 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127BDB9",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Shot Kills (Enable MC)",
-      "type": "checkbox",
+      "name": "1 Shot Kills (Enable MC)｜一击必杀（启用MC）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127BDB7",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (For Running)",
-      "type": "checkbox",
+      "name": "无限耐力 (For Running)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0DB1E",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127BC20",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/Items",
-      "type": "checkbox",
+      "name": "最大/无限弹药/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1279D80",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1279D30",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max XP/Levels/Skill Points On Gain (Disable/Restart The Game)",
-      "type": "checkbox",
+      "name": "最大 XP/Levels/Skill 得分 On Gain (Disable/Restart The Game)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "127B6D0",

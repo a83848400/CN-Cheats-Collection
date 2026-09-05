@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Modern Warfare II",
+  "name": "使命召唤: Modern Warfare II",
   "id": "CUSA34029",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED3080",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Bullets/Grenades",
-      "type": "checkbox",
+      "name": "无限子弹/手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED3000",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED3190",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Better Accuracy",
-      "type": "checkbox",
+      "name": "Better Accuracy｜更高的准确性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "220BD5D",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Magazine",
-      "type": "checkbox",
+      "name": "Infinite Magazine｜弹匣无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25E49EB",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Godmode for all",
-      "type": "checkbox",
+      "name": "上帝模式 for all",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED3150",

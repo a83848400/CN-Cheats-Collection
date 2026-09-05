@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infinite Health/Special Attack/1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/Special 攻击/一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>34C7E00</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-6C-24-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health/Special Attack (Need MC)">
+  <Cheat Text="无限生命/Special 攻击 (这些MC)">
     <Cheatline>
       <Offset>34C7E08</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>41-89-6C-24-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Need MC)">
+  <Cheat Text="一击必杀 (这些MC)">
     <Cheatline>
       <Offset>34C7E06</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>75-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Lives">
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>34C7AE0</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>0F-83-E9-05-00-00-FF-4C-0B-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Stars">
+  <Cheat Text="最大/无限无敌星">
     <Cheatline>
       <Offset>34C7EE0</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>74-7C-89-69-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score On 1 Hit">
+  <Cheat Text="最大 比分 On 1 Hit">
     <Cheatline>
       <Offset>34C7990</Offset>
       <Section>0</Section>

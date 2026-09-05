@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 2",
+  "name": "生化危机 2",
   "id": "SLUS00748",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B4F2",
@@ -16,12 +21,12 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1547A9",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "00"
         }
       ]

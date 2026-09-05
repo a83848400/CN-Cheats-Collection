@@ -1,12 +1,17 @@
 {
-  "name": "Uncharted: The Lost Legacy",
+  "name": "神秘海域: The Lost Legacy",
   "id": "CUSA09564",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enable Debug Menu",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Enable Debug Menu｜开启调试菜单",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "110471AEF9",

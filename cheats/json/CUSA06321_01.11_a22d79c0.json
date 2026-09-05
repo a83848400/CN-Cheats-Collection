@@ -1,12 +1,17 @@
 {
-  "name": "NBA Live 18",
+  "name": "NBA Live 18｜《NBA Live 18》",
   "id": "CUSA06321",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite REP points (Spend REP points to take effect)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 声望 得分 (Spend 声望 得分 to take 效果)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12D5F5",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Hype Points (Earn Hype points to take effect)",
-      "type": "checkbox",
+      "name": "Infinite Hype 得分 (Earn Hype 得分 to take 效果)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "285880E",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Skillpoints increase by using",
-      "type": "checkbox",
+      "name": "Skillpoints increase by using｜通过使用可增加技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "196770",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Set EXP to 9.999.999 (Earn EXP to take effect)",
-      "type": "button",
+      "name": "Set 经验 to 9.999.999 (Earn 经验 to take 效果)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2488E19AC",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Set Left Team Basket points to 200",
-      "type": "button",
+      "name": "Set Left Team Basket 得分 to 200",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24D4BC628",

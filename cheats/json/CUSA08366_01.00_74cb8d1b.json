@@ -1,13 +1,18 @@
 {
-  "name": "Titan Quest",
+  "name": "泰坦 Quest",
   "id": "CUSA08366",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Doubles Every Time U Spend A Skill Point",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "双打 Every Time U Spend A Skill Point",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92D9D9",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Doubles Every Time U Spend Money",
+      "name": "双打 Every Time U Spend 金钱",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "86747D",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Click On Every Couple Kills Your XP Doubles",
+      "name": "Click On Every Couple Kills Your XP 双打",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92D71D",

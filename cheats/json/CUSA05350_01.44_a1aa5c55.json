@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball: Xenoverse 2",
+  "name": "龙珠: Xenoverse 2",
   "id": "CUSA05350",
   "version": "01.44",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Atribute Points",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Atribute 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CBF000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ki",
-      "type": "checkbox",
+      "name": "无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CBF030",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Life",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CBF067",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CBF0B3",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CBF0DD",

@@ -1,12 +1,17 @@
 {
-  "name": "SINNER: Sacrifice for Redemption",
+  "name": "SINNER: 献祭 for Redemption",
   "id": "CUSA11217",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Health ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 生命 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703E16",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703E1F",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [ MC ]",
-      "type": "checkbox",
+      "name": "一击必杀 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703E31",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703DB0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Resistance ( Ice )",
-      "type": "checkbox",
+      "name": "抗性最大 ( Ice )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703DD3",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Resistance ( Poison )",
-      "type": "checkbox",
+      "name": "抗性最大 ( Poison )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703DE4",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Items ( on use )",
-      "type": "checkbox",
+      "name": "最大 Items ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703DF5",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Set Challenger Timer to 1",
-      "type": "checkbox",
+      "name": "Set Challenger 计时器 to 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4703E05",

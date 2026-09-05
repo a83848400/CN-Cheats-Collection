@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Marvel's Spider-Man" Moder="Reddevil82 - FW 9.00" Cusa="CUSA11993" Version="01.19" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Mastercode ( must be activate for [ MC ] Cheats )" Description="Mastercode ( must be activate for [ MC ] Cheats )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Mastercode ( must be activate for [ MC ] Cheats )｜主代码（必须激活才能使用 [MC] 作弊码）" Description="Mastercode ( must be activate for [ MC ] Cheats )">
     <Cheatline>
       <Offset>3BEBC9C</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-10-4B-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]" Description="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]" Description="Infinite Health [ MC ]">
     <Cheatline>
       <Offset>3FC0021</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health [ MC ]" Description="Max Health [ MC ]">
+  <Cheat Text="生命最大 [ MC ]" Description="Max Health [ MC ]">
     <Cheatline>
       <Offset>3FC0020</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus" Description="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值" Description="Infinite Focus">
     <Cheatline>
       <Offset>3BEBBD0</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-10-84-C7-10-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth Mode" Description="Stealth Mode">
+  <Cheat Text="Stealth Mode｜隐身模式" Description="Stealth Mode">
     <Cheatline>
       <Offset>3BEBC04</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C4-C1-7A-11-44-24-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP ( on gain )" Description="Max XP ( on gain )">
+  <Cheat Text="最大 XP ( on gain )" Description="Max XP ( on gain )">
     <Cheatline>
       <Offset>3BEBC13</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>41-89-9D-48-B8-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints" Description="Max Skillpoints">
+  <Cheat Text="最大 技能点" Description="Max Skillpoints">
     <Cheatline>
       <Offset>3BEBC23</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>83-BB-50-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Combo" Description="Max Combo">
+  <Cheat Text="最大 Combo" Description="Max Combo">
     <Cheatline>
       <Offset>3BEBC39</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>83-F8-22-41-89-4E-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ressources + Shoots" Description="Max Ressources + Shoots">
+  <Cheat Text="最大 Ressources + Shoots" Description="Max Ressources + Shoots">
     <Cheatline>
       <Offset>3BEBC49</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>E8-1B-41-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Position [ MC ]" Description="Save Position [ MC ]">
+  <Cheat Text="保存 Position [ MC ]" Description="Save Position [ MC ]">
     <Cheatline>
       <Offset>3FC0022</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Load Position [ MC ]" Description="Load Position [ MC ]">
+  <Cheat Text="读取 Position [ MC ]" Description="Load Position [ MC ]">
     <Cheatline>
       <Offset>3FC0023</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Benchmarks" Description="Max Benchmarks">
+  <Cheat Text="最大 Benchmarks" Description="Max Benchmarks">
     <Cheatline>
       <Offset>3BEBC5A</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>C5-FA-10-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score ( on gain )" Description="Max Score ( on gain )">
+  <Cheat Text="最大 比分 ( on gain )" Description="Max Score ( on gain )">
     <Cheatline>
       <Offset>3BEBC6B</Offset>
       <Section>0</Section>
@@ -172,7 +180,7 @@
       <ValueOff>C5-FA-11-4F-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Timer" Description="Max Timer">
+  <Cheat Text="最大 计时器" Description="Max Timer">
     <Cheatline>
       <Offset>3BEBC83</Offset>
       <Section>0</Section>

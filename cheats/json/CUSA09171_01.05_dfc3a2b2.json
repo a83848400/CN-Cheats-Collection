@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 2",
+  "name": "生化危机 2",
   "id": "CUSA09171",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Backport 5.05 ver 01.05",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Backport 5.05 ver 01.05｜Backport 5.05 版本 01.05",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E3A520",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "HP",
-      "type": "checkbox",
+      "name": "HP｜手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E3A530",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Zombies x Buddies",
-      "type": "checkbox",
+      "name": "Zombies 艾克斯 Buddies",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FA2C8",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Weapon list on Vault",
-      "type": "checkbox",
+      "name": "Weapon list on 秘藏",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E3A550",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Ammo No Reload",
-      "type": "checkbox",
+      "name": "但是 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831389",

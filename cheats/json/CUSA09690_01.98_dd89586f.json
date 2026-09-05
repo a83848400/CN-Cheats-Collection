@@ -1,12 +1,17 @@
 {
-  "name": "The Long Dark",
+  "name": "The Long Dark｜《漫漫长夜》",
   "id": "CUSA09690",
   "version": "01.98",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1903DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1903DD3",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Backpack Weight ( must be activated )",
-      "type": "checkbox",
+      "name": "Infinite 背包 重量 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1903DDD",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1903DEE",

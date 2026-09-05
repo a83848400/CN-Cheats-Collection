@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza Kiwami",
+  "name": "如龙 Kiwami",
   "id": "CUSA06997",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D7800",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D7801",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Heat Gauge",
-      "type": "checkbox",
+      "name": "无限热血槽 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24E90B",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "754AE5",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Weapon Durability",
-      "type": "checkbox",
+      "name": "Max Weapon Durability｜武器耐久最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "754B04",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "754D35",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Max Ammo",
-      "type": "checkbox",
+      "name": "Max Ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "754D54",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Infinite Money, CP",
-      "type": "checkbox",
+      "name": "金钱无限, CP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7567CC",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "752BF2",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Max Money, CP on Use",
-      "type": "checkbox",
+      "name": "金钱最大, CP on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7567D6",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Max Skillpoints on Use",
-      "type": "checkbox",
+      "name": "最大 技能点 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "752C00",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "753BA6",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Item Storage: Infinite Items",
-      "type": "checkbox",
+      "name": "物品 存储: 道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7535F0",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Item Storage: Max Items",
-      "type": "checkbox",
+      "name": "物品 存储: 最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7536BF",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Bowling: Split-Game Infinite Balls",
-      "type": "checkbox",
+      "name": "Bowling: Split-Game 无限精灵球",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4986C5",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Baseball: Max Score",
-      "type": "checkbox",
+      "name": "Baseball: 最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D7836",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Darts: Easy Win",
-      "type": "checkbox",
+      "name": "Darts: 简单 Win",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4115EE",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "Easy Train",
-      "type": "checkbox",
+      "name": "简单 训练",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B27F6",
@@ -218,8 +223,8 @@
       ]
     },
     {
-      "name": "Max XP on Get",
-      "type": "checkbox",
+      "name": "最大 XP on Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "752C1C",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Pocket Car Circuit: Infinite Stabilize-Gauge",
-      "type": "checkbox",
+      "name": "Pocket Car Circuit: Infinite Stabilize-Gauge｜口袋赛车赛道：无限稳定仪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D1E17D",
@@ -240,8 +245,8 @@
       ]
     },
     {
-      "name": "Pocket Car Circuit: Infinite Boost",
-      "type": "checkbox",
+      "name": "Pocket Car Circuit: 无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D1EEEF",
@@ -251,8 +256,8 @@
       ]
     },
     {
-      "name": "Max Shogi-Points on Get",
-      "type": "checkbox",
+      "name": "最大 Shogi-得分 on Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7567D6",
@@ -262,8 +267,8 @@
       ]
     },
     {
-      "name": "Cee-Loo: Max Points on Win",
-      "type": "checkbox",
+      "name": "Cee-Loo: 最大 得分 on Win",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE81BA6",
@@ -273,8 +278,8 @@
       ]
     },
     {
-      "name": "Casino/Colusseum: Max Chips/Points",
-      "type": "checkbox",
+      "name": "赌场/Colusseum: 最大 Chips/得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7567D6",
@@ -284,8 +289,8 @@
       ]
     },
     {
-      "name": "Colusseum: Max XP",
-      "type": "checkbox",
+      "name": "Colusseum: 最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7568AA",
@@ -295,8 +300,8 @@
       ]
     },
     {
-      "name": "MesuKing: Infinite Health",
-      "type": "checkbox",
+      "name": "MesuKing: 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D7862",
@@ -306,8 +311,8 @@
       ]
     },
     {
-      "name": "MesuKing: 1 Hit Kill",
-      "type": "checkbox",
+      "name": "MesuKing: 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D7863",
@@ -317,8 +322,8 @@
       ]
     },
     {
-      "name": "Hostess: Max Love-Gauge",
-      "type": "checkbox",
+      "name": "陪酒女郎: 最大 爱-Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F0EEE",
@@ -328,8 +333,8 @@
       ]
     },
     {
-      "name": "Easy Majima Rank",
-      "type": "checkbox",
+      "name": "简单 真岛吾朗 阶级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68579C",
@@ -339,8 +344,8 @@
       ]
     },
     {
-      "name": "Alcohol: Sober",
-      "type": "checkbox",
+      "name": "Alcohol: Sober｜酒精：清醒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75276B",
@@ -350,8 +355,8 @@
       ]
     },
     {
-      "name": "Alcohol: Drunk",
-      "type": "checkbox",
+      "name": "Alcohol: Drunk｜酒精：醉酒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "752780",

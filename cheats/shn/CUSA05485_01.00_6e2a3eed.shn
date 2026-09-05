@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="South Park: The Fractured But Whole" Moder="Molly" Cusa="CUSA05485" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Quick Special">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Quick Special｜限时特惠">
     <Cheatline>
       <Offset>3203800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-4F-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money ~Go To Any Shop~">
+  <Cheat Text="金钱最大 ~Go To Any Shop~">
     <Cheatline>
       <Offset>3203815</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>74-06-8B-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ~Go To Any Shop~">
+  <Cheat Text="最大 Items ~Go To Any Shop~">
     <Cheatline>
       <Offset>3203841</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>0F-84-CF-02-00-00-8B-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>3203856</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>44-89-8F-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Level Up Crafting">
+  <Cheat Text="Quickly 升级 Crafting">
     <Cheatline>
       <Offset>3203868</Offset>
       <Section>0</Section>

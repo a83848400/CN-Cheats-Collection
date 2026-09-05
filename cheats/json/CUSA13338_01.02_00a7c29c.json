@@ -1,12 +1,17 @@
 {
-  "name": "DOOM Eternal",
+  "name": "毁灭战士 Eternal",
   "id": "CUSA13338",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo+Fuel",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药+Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13926F5",

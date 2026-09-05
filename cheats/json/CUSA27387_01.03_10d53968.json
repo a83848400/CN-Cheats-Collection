@@ -1,12 +1,17 @@
 {
-  "name": "Hades",
+  "name": "Hades｜哈迪斯",
   "id": "CUSA27387",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code (required by other cheats)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 (required by 他 cheats)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90C600",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Obol (activates on coin loot)",
-      "type": "checkbox",
+      "name": "Infinite Obol (activates on coin 战利品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90C635",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite health",
-      "type": "checkbox",
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90C63E",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodstained: Ritual of the Night" Moder="GamerX2" Cusa="CUSA07953" Version="01.01" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Infinite MP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite MP｜无限魔力">
     <Cheatline>
       <Offset>701A000</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>45-85-F6-89-4B-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold On Gain">
+  <Cheat Text="金币最大 On Gain">
     <Cheatline>
       <Offset>701A09C</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-89-8F-54-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold On Spend">
+  <Cheat Text="金币最大 On Spend">
     <Cheatline>
       <Offset>701A104</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8B-08-01-CE-89-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Buy/Gain">
+  <Cheat Text="最大 Items On Buy/Gain">
     <Cheatline>
       <Offset>253F30</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>44-89-73-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items And Materials">
+  <Cheat Text="道具无限 And Materials">
     <Cheatline>
       <Offset>25799D</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>41-89-47-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items And Materials On Use/Sell">
+  <Cheat Text="最大 Items And Materials On Use/Sell">
     <Cheatline>
       <Offset>701A0AF</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>44-29-E8-41-89-47-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze PlayTime">
+  <Cheat Text="Freeze PlayTime｜暂停“PlayTime”">
     <Cheatline>
       <Offset>701A0D0</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C4-C1-7A-11-8F-68-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rest PlayTime">
+  <Cheat Text="休息 PlayTime">
     <Cheatline>
       <Offset>701A0E9</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C4-C1-7A-11-8F-68-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Boost EXP">
+  <Cheat Text="Boost 经验">
     <Cheatline>
       <Offset>701A037</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>41-89-4C-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Extra EXP">
+  <Cheat Text="Extra 经验">
     <Cheatline>
       <Offset>701A046</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>41-89-4C-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Even More EXP">
+  <Cheat Text="Even More 经验">
     <Cheatline>
       <Offset>701A055</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>41-89-4C-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lots Of EXP">
+  <Cheat Text="Lots Of 经验">
     <Cheatline>
       <Offset>701A067</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>41-89-4C-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hella EXP">
+  <Cheat Text="Hella 经验">
     <Cheatline>
       <Offset>701A079</Offset>
       <Section>0</Section>
@@ -172,7 +180,7 @@
       <ValueOff>41-89-4C-24-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="EXP OVERLORD | MAX LEVEL">
+  <Cheat Text="经验 OVERLORD | 等级最大">
     <Cheatline>
       <Offset>701A08B</Offset>
       <Section>0</Section>

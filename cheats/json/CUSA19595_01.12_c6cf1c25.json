@@ -1,12 +1,17 @@
 {
-  "name": "Shing!",
+  "name": "Shing!｜叮！",
   "id": "CUSA19595",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Health - One Hit Kill ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 生命 - 一击必杀 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3DD5",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3DDB",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [ MC ]",
-      "type": "checkbox",
+      "name": "一击必杀 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3DE6",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Instant Rage",
-      "type": "checkbox",
+      "name": "Instant 怒气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3DB0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Credits",
-      "type": "checkbox",
+      "name": "最大 Credits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3E02",

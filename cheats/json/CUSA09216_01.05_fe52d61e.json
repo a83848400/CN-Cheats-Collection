@@ -1,12 +1,17 @@
 {
-  "name": "The Sims 4",
+  "name": "模拟人生 4",
   "id": "CUSA09216",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Simoleon -Load Your House-",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 模拟币 -读取 Your House-",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2087800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Aspiration Points -Load Your House-",
-      "type": "checkbox",
+      "name": "最大 抱负 得分 -读取 Your House-",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "208781A",

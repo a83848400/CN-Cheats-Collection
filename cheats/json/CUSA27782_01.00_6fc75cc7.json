@@ -1,12 +1,17 @@
 {
-  "name": "Wife Quest",
+  "name": "Wife Quest｜《寻妻记》",
   "id": "CUSA27782",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (5 hearts)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (5 心)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Coins (on gain)",
-      "type": "checkbox",
+      "name": "最大 角落 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB80",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Shield",
-      "type": "checkbox",
+      "name": "Infinite Shield｜无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DBB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Gliding",
-      "type": "checkbox",
+      "name": "Infinite Gliding｜无限滑行",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DBE0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Fall Damage",
-      "type": "checkbox",
+      "name": "No Fall Damage｜无坠落伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Club Smash",
-      "type": "checkbox",
+      "name": "Infinite Club Smash｜《无限俱乐部大乱斗》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Infinite Dash",
-      "type": "checkbox",
+      "name": "Infinite Dash｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -105,8 +110,8 @@
       ]
     },
     {
-      "name": "Infinite Bow shots",
-      "type": "checkbox",
+      "name": "Infinite 弓 shots",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

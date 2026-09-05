@@ -1,12 +1,17 @@
 {
-  "name": "World War Z",
+  "name": "World War Z｜《僵尸世界大战》",
   "id": "CUSA14046",
   "version": "01.31",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health/ Run Stamina/1 Hit  (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命/ Run 体力/1 Hit  (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2775300",
@@ -22,8 +27,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2775343",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Melee Stamina / Money (Master Code)",
-      "type": "checkbox",
+      "name": "近战 体力 / 金钱 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "277B6EE",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Money (MC)",
-      "type": "checkbox",
+      "name": "金钱最大 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "277B6F2",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Ammo / No Reload (Primary/ Secondary)",
-      "type": "checkbox",
+      "name": "但是 / 无需换弹 (Primary/ Secondary)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "277B868",

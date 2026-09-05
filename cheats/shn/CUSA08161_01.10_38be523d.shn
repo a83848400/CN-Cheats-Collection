@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry 5" Moder="Ali-mk" Cusa="CUSA08161" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max-Red-Orbs">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大-Red-Orbs">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>8E47800</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-44-24-60</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-Gold-Orbs">
+    <Cheat Text="最大-金币-Orbs">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>8E47811</Offset>
@@ -34,7 +42,7 @@
       <ValueOff>41-89-87-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Items">
+    <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>3B684CA</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>44-89-B3-CC-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-evil-Trigger-Virgil-(V)">
+    <Cheat Text="Infinite-evil-Trigger-Virgil-(V)">
     <Cheatline>
       <Offset>268A66C</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>C5-FA-5D-83-10-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-evil-Trigger2-Dante">
+    <Cheat Text="无限邪恶-触发器2-但丁">
     <Cheatline>
       <Offset>2B97697</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-83-14-1A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Gun-Blade-Charge-Virgil">
+    <Cheat Text="Infinite-Gun-异刃-冲锋-Virgil">
     <Cheatline>
       <Offset>38A0CDD</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-58-58</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health-(mc)">
+    <Cheat Text="Infinite-生命-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Red-Orbs">
+    <Cheat Text="Infinite-Red-Orbs｜无限红球">
     <Cheatline>
       <Offset>D2FB24</Offset>
       <Section>0</Section>

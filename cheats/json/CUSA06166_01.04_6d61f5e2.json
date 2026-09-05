@@ -1,12 +1,17 @@
 {
-  "name": "The Evil Within 2",
+  "name": "《恶灵附身》 2",
   "id": "CUSA06166",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26C3FE1",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10648D6",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C3A6E",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Bottles (turn off when using Max item cheat",
-      "type": "checkbox",
+      "name": "Infinite 玻璃瓶 (回合 off when using 最大 物品 cheat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C0B19",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Arsenal / Inventory Items (get / spend / open inv)",
-      "type": "checkbox",
+      "name": "最大 Arsenal / 背包 Items (get / spend / open inv)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26C4010",

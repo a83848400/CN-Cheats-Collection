@@ -1,12 +1,17 @@
 {
-  "name": "Dead Rising 2",
+  "name": "丧尸围城 2",
   "id": "CUSA04313",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AEB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Ammo",
-      "type": "checkbox",
+      "name": "Max Ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AEB815",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AEB82D",
@@ -73,8 +78,8 @@
       ]
     },
     {
-      "name": "Quick Level Up",
-      "type": "checkbox",
+      "name": "Quick 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AEB83D",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "1 Hit Attack And 3x Throw &quot;After Level Up&quot;",
-      "type": "checkbox",
+      "name": "1 Hit 攻击 And 3x 投技 &quot;After 升级&quot;",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AEB879",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Fast Zombie Kills",
-      "type": "checkbox",
+      "name": "Fast 僵尸 Kills",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AEB897",

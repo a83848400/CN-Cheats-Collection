@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hunting Simulator 2" Moder="Wander FW9.00" Cusa="CUSA18653" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Section>0</Section>
       <Offset>70335B0</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-85-A0-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite ammo">
+  <Cheat Text="Infinite ammo｜无限弹药">
     <Cheatline>
       <Section>0</Section>
       <Offset>7033640</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>41-FF-8C-24-48-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cash (on spend)">
+  <Cheat Text="最大 Cash (on spend)">
     <Cheatline>
       <Section>0</Section>
       <Offset>70333A0</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>89-87-18-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows clips">
+  <Cheat Text="箭矢无限 clips">
     <Cheatline>
       <Section>0</Section>
       <Offset>704F820</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>89-83-50-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite items use">
+  <Cheat Text="道具无限 use">
     <Cheatline>
       <Section>0</Section>
       <Offset>70973A0</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>44-89-74-81-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items Effect">
+  <Cheat Text="道具无限 效果">
     <Cheatline>
       <Section>0</Section>
       <Offset>7097470</Offset>

@@ -1,13 +1,18 @@
 {
-  "name": "Metaphor: ReFantazio",
+  "name": "Metaphor: ReFantazio｜《隐喻：ReFantazio》",
   "id": "CUSA47038",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Backport by CyB1K 505 - 9",
-      "description": "none",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Backport by CyB1K 505 - 9｜由 CyB1K 505 - 9 进行的向后移植",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298D41",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Walkthrough Walls",
-      "description": "how to turn on quick press L2 + R2, how to turn off quick press L2 + R1 or L2 + down or option button, make sure when turning off you are in floor / not outside of mini map",
-      "type": "checkbox",
+      "name": "攻略 Walls",
+      "description": "how to 回合 on quick press L2 + R2, how to 回合 off quick press L2 + R1 or L2 + down or option 按钮, make sure when turning off you are in floor / not outside of mini 地图",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298D51",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Walkthrough Walls Fixed",
-      "description": "this will fixed your character in some area if your character floating in air",
-      "type": "checkbox",
+      "name": "攻略 Walls Fixed",
+      "description": "this 意志 fixed your character in some area if your character floating in air",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7254BB",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Freeze Enemy from Orignal Posistion",
-      "description": "none",
-      "type": "checkbox",
+      "name": "冻结敌人 from Orignal Posistion",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "727FA5",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Invulnerable",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Invulnerable｜无敌",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EA08C",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "Run Speed",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Run 速度",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9165B0",
@@ -82,9 +87,9 @@
       ]
     },
     {
-      "name": "Master Code Archetype ID Modifier",
-      "description": "need atleast 2 archetype, then go to archetype equipment list, equip the 1st slot archetype, when prompt Yes or No, turn this cheat On then click Yes, it will change your archetype, turn off this cheat and repeat the process, tutorial clip on discord Team Reaper",
-      "type": "checkbox",
+      "name": "Master 密码 Archetype ID Modifier",
+      "description": "need atleast 2 archetype, then go to archetype 装备 list, equip the 1st slot archetype, when prompt 是的 or No, 回合 this cheat On then click 是的, it 意志 change your archetype, 回合 off this cheat and repeat the process, tutorial clip on discord Team 死神",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298DB1",
@@ -99,9 +104,9 @@
       ]
     },
     {
-      "name": "Increase Archetype ID",
-      "description": "must turn on MC Archertype ID Modifier",
-      "type": "checkbox",
+      "name": "Increase Archetype ID｜增加原型 ID",
+      "description": "must 回合 on MC Archertype ID Modifier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298DBD",
@@ -111,9 +116,9 @@
       ]
     },
     {
-      "name": "Decrease Archetype ID",
-      "description": "must turn on MC Archertype ID Modifier",
-      "type": "checkbox",
+      "name": "Decrease Archetype ID｜减少原型 ID",
+      "description": "must 回合 on MC Archertype ID Modifier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298DBD",
@@ -123,9 +128,9 @@
       ]
     },
     {
-      "name": "Infinite HP",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite HP｜无限血量",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298DF1",
@@ -140,9 +145,9 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298E1F",
@@ -157,9 +162,9 @@
       ]
     },
     {
-      "name": "Infinite Turn",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite 回合",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E3AB",
@@ -169,9 +174,9 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "description": "after battle / kill enemy in field",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "description": "after 战斗 / kill enemy in field",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "462C30",
@@ -181,9 +186,9 @@
       ]
     },
     {
-      "name": "Max Exp Rank Archetype",
-      "description": "after battle / kill enemy in field",
-      "type": "checkbox",
+      "name": "经验值最大 阶级 Archetype",
+      "description": "after 战斗 / kill enemy in field",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "425364",
@@ -193,9 +198,9 @@
       ]
     },
     {
-      "name": "Max Archetype Bonus Stats",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 Archetype Bonus 属性",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298E51",
@@ -210,9 +215,9 @@
       ]
     },
     {
-      "name": "Max PlayerStats",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 PlayerStats",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298E71",
@@ -227,9 +232,9 @@
       ]
     },
     {
-      "name": "All Consumable and Exchange Items",
-      "description": "none",
-      "type": "checkbox",
+      "name": "All Consumable and Exchange Items｜所有消耗品和可兑换物品",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298E91",
@@ -244,9 +249,9 @@
       ]
     },
     {
-      "name": "All Key and Information Items",
-      "description": "includes dlc items",
-      "type": "checkbox",
+      "name": "All 钥匙 and Information Items",
+      "description": "includes dlc items｜包含DLC内容",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298EB1",
@@ -271,9 +276,9 @@
       ]
     },
     {
-      "name": "All Weapons",
-      "description": "none",
-      "type": "checkbox",
+      "name": "All 武器",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298EF1",
@@ -288,9 +293,9 @@
       ]
     },
     {
-      "name": "All Armours",
-      "description": "none",
-      "type": "checkbox",
+      "name": "All Armours｜所有护甲",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F11",
@@ -305,9 +310,9 @@
       ]
     },
     {
-      "name": "All Gears",
-      "description": "none",
-      "type": "checkbox",
+      "name": "All 战争机器",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F31",
@@ -322,9 +327,9 @@
       ]
     },
     {
-      "name": "All Accessories",
-      "description": "none",
-      "type": "checkbox",
+      "name": "All Accessories｜所有配件",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F51",
@@ -339,9 +344,9 @@
       ]
     },
     {
-      "name": "Max Money",
-      "description": "after buy in store or sell",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "description": "after buy in store or sell｜在实体店购买或出售后",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43221B",
@@ -351,9 +356,9 @@
       ]
     },
     {
-      "name": "Max MAG",
-      "description": "after battle",
-      "type": "checkbox",
+      "name": "最大 弹匣",
+      "description": "after 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4322F1",
@@ -363,9 +368,9 @@
       ]
     },
     {
-      "name": "Max All Followers",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 All Followers",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F71",
@@ -380,9 +385,9 @@
       ]
     },
     {
-      "name": "Max Royal Virtues",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 Royal Virtues",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "434A80",
@@ -392,9 +397,9 @@
       ]
     },
     {
-      "name": "Master Code Daytime",
-      "description": "turn off if its only loading the screen, means there was an event need to skip",
-      "type": "checkbox",
+      "name": "Master 密码 Daytime",
+      "description": "回合 off if its only 加载中 the screen, means there was an event need to skip",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F91",
@@ -409,9 +414,9 @@
       ]
     },
     {
-      "name": "Early Morning",
-      "description": "must turn on MC Daytime first",
-      "type": "checkbox",
+      "name": "Early Morning｜清晨",
+      "description": "must 回合 on MC Daytime first",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F95",
@@ -421,9 +426,9 @@
       ]
     },
     {
-      "name": "Afternoon",
-      "description": "must turn on MC Daytime first",
-      "type": "checkbox",
+      "name": "Afternoon｜下午",
+      "description": "must 回合 on MC Daytime first",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F95",
@@ -433,9 +438,9 @@
       ]
     },
     {
-      "name": "Night",
-      "description": "must turn on MC Daytime first",
-      "type": "checkbox",
+      "name": "Night｜夜晚",
+      "description": "must 回合 on MC Daytime first",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F95",
@@ -445,9 +450,9 @@
       ]
     },
     {
-      "name": "Late Night",
-      "description": "must turn on MC Daytime first",
-      "type": "checkbox",
+      "name": "Late Night｜深夜",
+      "description": "must 回合 on MC Daytime first",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298F95",
@@ -457,9 +462,9 @@
       ]
     },
     {
-      "name": "Master Code Date",
-      "description": "do this on afternoon rest",
-      "type": "checkbox",
+      "name": "Master 密码 Date",
+      "description": "do this on 下午 休息",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298FF1",
@@ -474,9 +479,9 @@
       ]
     },
     {
-      "name": "Increase Date",
-      "description": "must turn on MC Daytime first",
-      "type": "checkbox",
+      "name": "Increase Date｜增加日期",
+      "description": "must 回合 on MC Daytime first",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298FFB",
@@ -486,9 +491,9 @@
       ]
     },
     {
-      "name": "Decrease Date",
-      "description": "must turn on MC Daytime first",
-      "type": "checkbox",
+      "name": "Decrease Date｜减少日期",
+      "description": "must 回合 on MC Daytime first",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2298FFB",

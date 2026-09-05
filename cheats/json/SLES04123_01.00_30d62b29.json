@@ -1,12 +1,17 @@
 {
-  "name": "CT Special Forces: Back to Hell",
+  "name": "反恐 Special Forces: Back to Hell",
   "id": "SLES04123",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134BCD",
@@ -26,35 +31,35 @@
       ]
     },
     {
-      "name": "Infinite-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-Weapon｜无限武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129FA4",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "129FA5",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1335EE",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12CA52",

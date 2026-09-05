@@ -1,12 +1,17 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA13910",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible Mode | 无敌模式",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 Mode | 无敌模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Vitality | 无限 HP",
-      "type": "checkbox",
+      "name": "Infinite Vitality | 无限 手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF1",
@@ -28,7 +33,7 @@
     },
     {
       "name": "Infinite Posture Bar | 无限架势槽",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF2",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Spirit Emblems | 无限纸人",
-      "type": "checkbox",
+      "name": "无限灵力 Emblems | 无限纸人",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FFC",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Resurrection | 无限回生",
-      "type": "checkbox",
+      "name": "Infinite 复活 | 无限回生",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF7",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Easy to Deathblow | 轻松忍杀",
-      "type": "checkbox",
+      "name": "简单 to 忍杀 | 轻松忍杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF3",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Stealth Mode | 隐身模式",
-      "type": "checkbox",
+      "name": "隐身模式 | 隐身模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF4",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Super Jump | 超级跳跃",
-      "type": "checkbox",
+      "name": "超级跳跃 | 超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF5",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Drop Rate 100%% | 掉宝率 100%%",
-      "type": "checkbox",
+      "name": "掉落率 100%% | 掉宝率 100%%",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF6",
@@ -109,8 +114,8 @@
       ]
     },
     {
-      "name": "Homeward Idol Instantly | 瞬间归佛",
-      "type": "checkbox",
+      "name": "Homeward 神像 Instantly | 瞬间归佛",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FFE",
@@ -121,7 +126,7 @@
     },
     {
       "name": "Auto Acquire Loots | 自动获取敌人遗物",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F78335",
@@ -131,8 +136,8 @@
       ]
     },
     {
-      "name": "Show Enemies Location | 显示敌人位置",
-      "type": "checkbox",
+      "name": "Show 敌人位置 | 显示敌人位置",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FF9",
@@ -142,8 +147,8 @@
       ]
     },
     {
-      "name": "Immune to All Negative Effects | 免疫全部异常状态",
-      "type": "checkbox",
+      "name": "全免疫 Negative Effects | 免疫全部异常状态",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "107B329",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "No Money and EXP Loss Upon Death | 死亡不会损失金钱和经验",
-      "type": "checkbox",
+      "name": "No 金钱 and 经验 Loss Upon 死亡 | 死亡不会损失金钱和经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A4482F",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "Money 999999999 | 金钱 999999999",
-      "type": "checkbox",
+      "name": "金钱 999999999 | 金钱 999999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10C448A",
@@ -195,8 +200,8 @@
       ]
     },
     {
-      "name": "Always Level Up | 总是升级",
-      "type": "checkbox",
+      "name": "Always 升级 | 总是升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FFD",
@@ -206,8 +211,8 @@
       ]
     },
     {
-      "name": "EXP Multiply 10 | 经验值 10 倍",
-      "type": "checkbox",
+      "name": "经验 Multiply 10 | 经验值 10 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FFA",
@@ -217,8 +222,8 @@
       ]
     },
     {
-      "name": "EXP Multiply 100 | 经验值 100 倍",
-      "type": "checkbox",
+      "name": "经验 Multiply 100 | 经验值 100 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3CF7FFB",
@@ -228,8 +233,8 @@
       ]
     },
     {
-      "name": "Player Speed Multiply 1.5 | 角色速度 1.5 倍",
-      "type": "checkbox",
+      "name": "Player 速度 Multiply 1.5 | 角色速度 1.5 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4ACEF",
@@ -239,8 +244,8 @@
       ]
     },
     {
-      "name": "Player Speed Multiply 2 | 角色速度 2 倍",
-      "type": "checkbox",
+      "name": "Player 速度 Multiply 2 | 角色速度 2 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4ACEF",
@@ -250,8 +255,8 @@
       ]
     },
     {
-      "name": "Enemy Speed Multiply 0.5 | 敌人速度 0.5 倍",
-      "type": "checkbox",
+      "name": "Enemy 速度 Multiply 0.5 | 敌人速度 0.5 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4ACF9",
@@ -261,8 +266,8 @@
       ]
     },
     {
-      "name": "Enemy Speed Multiply 0.2 | 敌人速度 0.2 倍",
-      "type": "checkbox",
+      "name": "Enemy 速度 Multiply 0.2 | 敌人速度 0.2 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4ACF9",

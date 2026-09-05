@@ -1,12 +1,17 @@
 {
-  "name": "Dungeons & Dragons: Dark Alliance",
+  "name": "Dungeons & Dragons: Dark 联盟",
   "id": "CUSA25234",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP and 1 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 and 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "999999 Money _crystal _inf item use (buy or sell or pickup or upgrade)  ",
-      "type": "checkbox",
+      "name": "999999 金钱 _crystal _inf 物品 use (buy or sell or pickup or upgrade)  ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Never Decrease Attribute Points",
-      "type": "checkbox",
+      "name": "Never Decrease 属性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Never Decrease Points  for Upgrade",
-      "type": "checkbox",
+      "name": "Never Decrease 得分  for Upgrade",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

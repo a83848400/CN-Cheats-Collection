@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>7507DF</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>66-41-81-7F-64-2B-02-0F-85-09-00-00-00-48-8B-4D-C0-E9-CF-0B-00-FE-41-89-07-90-48-8B-4D-C0-E9-C2-0B-00-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Skillpoints  Important -&gt;(Deactivate Inf HP and 1 Hit Kill before useing)">
+  <Cheat Text="无限技能点  Important -&gt;(Deactivate 无限血量 and 一击必杀 before useing)">
     <Cheatline>
       <Offset>274FC24</Offset>
       <Section>0</Section>

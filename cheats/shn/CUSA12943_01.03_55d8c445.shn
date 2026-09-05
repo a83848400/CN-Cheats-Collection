@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Hong Kong Massacre" Moder="Reddevil82 - FW 9.00" Cusa="CUSA12943" Version="01.03" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Infinite Slow Motion Power">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 慢动作 电力">
     <Cheatline>
       <Offset>153BDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-47-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stars">
+  <Cheat Text="最大 Stars">
     <Cheatline>
       <Offset>153BDD5</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>48-8B-7C-24-F8-8B-47-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化">
     <Cheatline>
       <Offset>153BDE9</Offset>
       <Section>0</Section>

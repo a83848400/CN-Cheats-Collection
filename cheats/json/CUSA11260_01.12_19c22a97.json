@@ -1,12 +1,17 @@
 {
-  "name": "Death Stranding",
+  "name": "Death Stranding｜死亡搁浅",
   "id": "CUSA11260",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Blood Never Decreases (God Mode)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Blood Never Decreases (神模式)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17B44A1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No BB Stress Meter Drain",
-      "type": "checkbox",
+      "name": "No BB Stress Meter Drain｜无BB压力表排水口",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1833D19",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "No Cargo Weight (Even with carriers)",
-      "type": "checkbox",
+      "name": "No Cargo 重量 (Even with carriers)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F425D5",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "No Cargo Deterioration or Damage (Everything in Cargo Management.)",
-      "type": "checkbox",
+      "name": "No Cargo Deterioration or 输出 (Everything in Cargo Management.)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35D3080",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Boot Durability",
-      "type": "checkbox",
+      "name": "Infinite Boot Durability｜无限开机耐久度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17C2E16",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "No Road Deterioration",
-      "type": "checkbox",
+      "name": "No Road Deterioration｜道路状况良好",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "205A6B9",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "No Structure Deterioration",
-      "type": "checkbox",
+      "name": "No Structure Deterioration｜无结构损坏",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F69B4D",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Set all Structure Builds to 10Mil",
-      "type": "checkbox",
+      "name": "Set all Structure Builds to 10Mil｜将所有结构建造设置为 10Mil",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35D3060",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Instant Structure Builds",
-      "type": "checkbox",
+      "name": "Instant Structure Builds｜即时结构构建",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F69092",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1ABED51",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "Infinite (Sticky Gun/Repair Spray/Ladder/PCC/Climbing Anchor)",
-      "type": "checkbox",
+      "name": "Infinite (Sticky Gun/Repair 喷漆/Ladder/PCC/Climbing Anchor)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1864173",
@@ -136,8 +141,8 @@
       ]
     },
     {
-      "name": "Infinite Battery Recharge",
-      "type": "checkbox",
+      "name": "Infinite 电池 Recharge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "188E5D5",
@@ -147,8 +152,8 @@
       ]
     },
     {
-      "name": "Infinite Vehicle Battery",
-      "type": "checkbox",
+      "name": "Infinite Vehicle 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2923CF5",
@@ -158,8 +163,8 @@
       ]
     },
     {
-      "name": "Infinite Vehicle Durability",
-      "type": "checkbox",
+      "name": "Infinite Vehicle Durability｜车辆耐久度无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "292B809",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "Infinite Resistance to Rough Terrain",
-      "type": "checkbox",
+      "name": "无限抵抗 to Rough 地形",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17C122D",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Infinite Monster Energy Drinks",
-      "type": "checkbox",
+      "name": "Infinite 妖兽 能量 Drinks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18671CC",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Infinite Hold Breath",
-      "type": "checkbox",
+      "name": "Infinite 领地 Breath",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17BFFD7",
@@ -202,8 +207,8 @@
       ]
     },
     {
-      "name": "No Consciousness Drain",
-      "type": "checkbox",
+      "name": "No Consciousness Drain｜无意识消耗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17B664F",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Fast Run",
-      "type": "checkbox",
+      "name": "Fast Run｜快速奔跑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35D3040",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Resources Never Decrease",
-      "type": "checkbox",
+      "name": "Resources Never Decrease｜资源永不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CF8E33",

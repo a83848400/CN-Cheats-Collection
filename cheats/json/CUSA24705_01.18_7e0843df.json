@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Forbidden West",
+  "name": "地平线 Forbidden West",
   "id": "CUSA24705",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDBB10",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Need MC)",
-      "type": "checkbox",
+      "name": "无限生命 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDBB1A",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Need MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDBB18",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max/Infinite All Items/Resources",
-      "type": "checkbox",
+      "name": "最大/Infinite 所有商品/Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E0C0",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Infinite Boltblast Ammo",
-      "type": "checkbox",
+      "name": "Infinite Boltblast Ammo｜无限“闪电冲击”弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E230",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Shards On Gain",
-      "type": "checkbox",
+      "name": "最大/Infinite Shards On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF70",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Infinite Aim Focus",
-      "type": "checkbox",
+      "name": "Infinite Aim 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E130",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Stamina/Breath",
-      "type": "checkbox",
+      "name": "Infinite Weapon 体力/Breath",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F600",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "Instant Valor Surge Fill",
-      "type": "checkbox",
+      "name": "Instant Valor Surge Fill｜即时勇气值急速恢复",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E630",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Valor Surge (Activate Valor First)",
-      "type": "checkbox",
+      "name": "最大/Infinite Valor Surge (Activate Valor First)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8F0",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "Lot Of Infinite Skill Points",
-      "type": "checkbox",
+      "name": "用地 Of Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F6FF68",

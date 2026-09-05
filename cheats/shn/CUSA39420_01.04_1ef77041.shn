@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hollow Knight: Silksong" Moder="Bandicootmonito" Cusa="CUSA39420" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health" Description="You must turn ON within the game, whether it's a loaded game or a new one">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="You must turn ON within the game, whether it's a loaded game or a new one">
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-43-60-48-83-C4-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Silk" Description="Kill enemies to fill the silk reel; after that, each time you use it, it will be infinite, the silk works as it functions both as a magical resource and a healing mechanism. You must turn ON within the game, whether it's a loaded game or a new one.">
+  <Cheat Text="Infinite 丝绸" Description="Kill enemies to fill the silk reel; after that, each time you use it, it will be infinite, the silk works as it functions both as a magical resource and a healing mechanism. You must turn ON within the game, whether it's a loaded game or a new one.">
     <Cheatline>
       <PS5Offset>7EE-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -34,7 +42,7 @@
       <ValueOff>89-83-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money / Rosary Beads x9999999" Description="You must turn ON within the game, whether it's a loaded game or a new one.">
+  <Cheat Text="金钱无限 / Rosary Beads x9999999" Description="You must turn ON within the game, whether it's a loaded game or a new one.">
     <Cheatline>
       <PS5Offset>7DC-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-87-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shell Shards x9999999" Description="Shell Shards become useful once you obtain and equip the Straight Pin. Every time you rest on a bench, they are consumed to recharge the weapon. After that happens, the cheat activates and becomes infinite with each use. You can even use it to donate to the villagers. You must turn ON within the game, whether it's a loaded game or a new one.">
+  <Cheat Text="Infinite 贝壳 Shards x9999999" Description="Shell Shards become useful once you obtain and equip the Straight Pin. Every time you rest on a bench, they are consumed to recharge the weapon. After that happens, the cheat activates and becomes infinite with each use. You can even use it to donate to the villagers. You must turn ON within the game, whether it's a loaded game or a new one.">
     <Cheatline>
       <PS5Offset>7C5-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>

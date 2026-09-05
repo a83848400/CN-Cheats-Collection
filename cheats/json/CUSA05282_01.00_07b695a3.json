@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Infinite Warfare",
+  "name": "使命召唤: Infinite Warfare",
   "id": "CUSA05282",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "851DA3",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B4CA14",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Jetpack",
-      "type": "checkbox",
+      "name": "Infinite 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "302301",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 1)",
-      "type": "button",
+      "name": "Enable Exo Movement (Player 1)｜启用外骨骼移动（玩家1）",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "393E934",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 2)",
-      "type": "button",
+      "name": "Enable Exo Movement (Player 2)｜启用外骨骼移动（玩家2）",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "39455FC",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 3)",
-      "type": "button",
+      "name": "Enable Exo Movement (Player 3)｜启用外骨骼移动（玩家3）",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "394C2C4",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 4)",
-      "type": "button",
+      "name": "Enable Exo Movement (Player 4)｜启用外骨骼移动（玩家4）",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3952F8C",

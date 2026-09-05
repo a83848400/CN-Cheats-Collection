@@ -1,13 +1,18 @@
 {
-  "name": "Borderlands: The Handsome Collection",
+  "name": "无主之地: The Handsome Collection",
   "id": "CUSA02980",
   "version": "01.00",
   "process": "ARBUTUS.elf",
   "mods": [
     {
-      "name": "Infinite Skillpoints / Badass-Tokens",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Skillpoints / Badass-Tokens｜无限技能点 / 硬汉代币",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45C0DB",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Set Max Money / Moonstone",
+      "name": "Set 金钱最大 / Moonstone",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "10366D2",

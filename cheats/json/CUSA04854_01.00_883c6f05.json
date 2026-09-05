@@ -1,12 +1,17 @@
 {
-  "name": "Sniper: Ghost Warrior 3",
+  "name": "Sniper: 幽灵 战士 3",
   "id": "CUSA04854",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1926fc0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Unbreakable Attatchments",
-      "type": "checkbox",
+      "name": "Unbreakable Attatchments｜牢不可破的羁绊",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5aa6e0",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Everything Cost $0 When Buying",
-      "type": "checkbox",
+      "name": "Everything Cost $0 When Buying｜购买时所有商品均免费",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1b07f21",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Unlimited Items",
-      "type": "checkbox",
+      "name": "Unlimited Items｜物品数量无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1926fc0",

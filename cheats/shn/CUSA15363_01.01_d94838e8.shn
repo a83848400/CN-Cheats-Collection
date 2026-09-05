@@ -32,7 +32,15 @@
       <ValueOff>0F-B7-48-16-29-F1</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>18B7816</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill" Description="">
+  <Cheat Text="1 Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>18B7817</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Heat" Description="">
+  <Cheat Text="Infinite Heat｜无限热血槽" Description="">
     <Cheatline>
       <Offset>7A446A</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-5D-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money" Description="">
+  <Cheat Text="Max Money｜金钱最大" Description="">
     <Cheatline>
       <Offset>70C24F</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>44-0F-4E-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items (Warehouse)" Description="">
+  <Cheat Text="最大 Items (仓库)" Description="">
     <Cheatline>
       <Offset>70874A</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items (Warehouse)" Description="">
+  <Cheat Text="道具无限 (仓库)" Description="">
     <Cheatline>
       <Offset>3E9086</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>41-8D-46-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>708B66</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP" Description="">
+  <Cheat Text="最大 XP" Description="">
     <Cheatline>
       <Offset>707AFC</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>41-0F-42-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Skillpoints" Description="">
+  <Cheat Text="Freeze 技能点" Description="">
     <Cheatline>
       <Offset>707B74</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>01-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints" Description="">
+  <Cheat Text="最大 技能点" Description="">
     <Cheatline>
       <Offset>707B7B</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>72-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ufo Catcher: Infinite Attempts" Description="">
+  <Cheat Text="Ufo Catcher: Infinite Attempts｜抓娃娃机：无限尝试" Description="">
     <Cheatline>
       <Offset>BFD231</Offset>
       <Section>0</Section>

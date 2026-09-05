@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Souldiers" Moder="Ali-mk" Cusa="CUSA31798" Version="02.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>807D2AF8</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF-90-80-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>804019C2</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E8-C9-4C-09-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-COINS">
+    <Cheat Text="Infinite-角落">
     <Cheatline>
       <Offset>18A3B6C</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-89-87-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-items">
+    <Cheat Text="Infinite-items｜无限项">
     <Cheatline>
       <Offset>803FA87E</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Effie",
+  "name": "Effie｜艾菲",
   "id": "CUSA16400",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code Infinite Skill usage (turn off when gliding)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 无限技能使用 (回合 off when gliding)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48D0FF0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite health (M)",
-      "type": "checkbox",
+      "name": "无限生命 (M)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48D0FFD",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Experience (M) (the game will freeze turn it off to take effect)",
-      "type": "checkbox",
+      "name": "最大 Experience (M) (the game 意志 freeze 回合 it off to take 效果)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48D101B",

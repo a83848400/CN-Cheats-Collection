@@ -1,12 +1,17 @@
 {
-  "name": "Sky Force Reloaded",
+  "name": "光·遇 原力 Reloaded",
   "id": "CUSA09421",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Max Stars",
-      "type": "checkbox",
+      "name": "最大 Stars",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "16",
@@ -35,8 +40,8 @@
       ]
     },
     {
-      "name": "Infinite Shield Timer",
-      "type": "checkbox",
+      "name": "无限护盾 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Shield",
-      "type": "checkbox",
+      "name": "Infinite Shield｜无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Mega Bomb",
-      "type": "checkbox",
+      "name": "Infinite Mega Bomb｜无限巨型炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "Infinite Laser",
-      "type": "checkbox",
+      "name": "Infinite 激光瞄准器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",

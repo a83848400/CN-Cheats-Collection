@@ -1,12 +1,17 @@
 {
-  "name": "Gradius III and IV",
+  "name": "宇宙巡航舰 III and 个体值",
   "id": "SLUS20040",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Gradius-III-Inf-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "宇宙巡航舰-III-无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080C01050",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Gradius-III-Inf-SPEED-UP",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-III-Infinite-速度-UP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080C0106A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Gradius-III-Inf-MISSILE",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-III-Infinite-MISSILE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080C0106A",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Gradius-III-Inf-DOUBLE",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-III-Infinite-DOUBLE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080C0106A",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Gradius-III-Inf-LASER",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-III-Infinite-激光瞄准器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080C0106A",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Gradius-III-Inf-OPTIONS",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-III-Infinite-选项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080C0106A",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Gradius-III-Inf-FUIL-POWER",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-III-Infinite-FUIL-电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080C0106A",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Gradius-IV-Inf-lives",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-个体值-无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080496008",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Gradius-IV-Inf-SPEED-UP",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-个体值-Infinite-速度-UP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080496042",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Gradius-IV-Inf-MISSILE",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-个体值-Infinite-MISSILE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080496042",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Gradius-IV-Inf-DOUBLE",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-个体值-Infinite-DOUBLE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080496042",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Gradius-IV-Inf-LASER",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-个体值-Infinite-激光瞄准器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080496042",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Gradius-IV-Inf-OPTIONS",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-个体值-Infinite-选项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080496042",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Gradius-IV-Inf-FUIL-POWER",
-      "type": "checkbox",
+      "name": "宇宙巡航舰-个体值-Infinite-FUIL-电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080496042",

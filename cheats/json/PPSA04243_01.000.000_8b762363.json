@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B6BF00",
@@ -47,9 +52,9 @@
       ]
     },
     {
-      "name": "--Inf_Air",
+      "name": "--无限氧气",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B6BF02",
@@ -59,9 +64,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B6BF00",
@@ -71,9 +76,9 @@
       ]
     },
     {
-      "name": "--No_Hunger",
+      "name": "--不会饥饿",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B6BF01",
@@ -83,9 +88,9 @@
       ]
     },
     {
-      "name": "--No_Radiation",
+      "name": "--无辐射",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B6BF04",
@@ -95,9 +100,9 @@
       ]
     },
     {
-      "name": "--No_Thirst",
+      "name": "--不会口渴",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B6BF03",

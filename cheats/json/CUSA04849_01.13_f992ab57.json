@@ -1,13 +1,18 @@
 {
-  "name": "The Surge",
+  "name": "The Surge｜《The Surge》",
   "id": "CUSA04849",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F867",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F8E9",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Infinite Energy",
+      "name": "Infinite Energy｜无限能量",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F87E",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Scrap on Gain/Use",
+      "name": "废料无限 on Gain/Use",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F850",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Max Vital Injections",
+      "name": "最大 Vital Injections",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F82C",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Max Consumables on Gain/Use",
+      "name": "最大 Consumables on Gain/Use",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F895",
@@ -107,9 +112,9 @@
       ]
     },
     {
-      "name": "Max Items on Gain/Use",
+      "name": "最大 Items on Gain/Use",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F8BF",
@@ -124,9 +129,9 @@
       ]
     },
     {
-      "name": "Max Proficiency LVL on Gain",
+      "name": "最大 熟练 LVL on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F8CE",

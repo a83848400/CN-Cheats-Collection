@@ -1,12 +1,17 @@
 {
-  "name": "Ultra Age",
+  "name": "Ultra 年龄",
   "id": "CUSA14637",
   "version": "02.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Swords/Upgrade parts (on gain find 2 at least)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Swords/升级配件 (on gain find 2 at least)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FB70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Crystal Fragment (on spend)",
-      "type": "checkbox",
+      "name": "最大 水晶 Fragment (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FBF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Time Reverse (on use)",
-      "type": "checkbox",
+      "name": "最大 时间反向流动 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FC40",

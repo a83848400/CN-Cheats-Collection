@@ -1,12 +1,17 @@
 {
-  "name": "Psyvariar: Complete Edition",
+  "name": "Psyvariar: Complete Edition｜《Psyvariar：完全版》",
   "id": "SLPM62139",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808050C7EC",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-BOMB P1",
-      "type": "checkbox",
+      "name": "无限炸弹 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808050C7F0",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "REVISION-Infinite Lives",
-      "type": "checkbox",
+      "name": "REVISION-无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808051CCCC",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "REVISION-Infinite-BOMB",
-      "type": "checkbox",
+      "name": "REVISION-无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808051CCD0",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "REVISION-Infinite-LEVEL",
-      "type": "checkbox",
+      "name": "REVISION-Infinite-等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808051CCD4",
@@ -61,7 +66,7 @@
     },
     {
       "name": "REVISION-Infinite-SHELD",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808051CCD8",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "REVISION-Invincible",
-      "type": "checkbox",
+      "name": "REVISION-无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808051CE6C",

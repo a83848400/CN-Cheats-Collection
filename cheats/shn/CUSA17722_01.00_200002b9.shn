@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Marvel's Spider-Man: Miles Morales" Moder="x3shakir" Cusa="CUSA17722" Version="01.00" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Finisher Always Available">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="终结技 Always Available">
     <Cheatline>
       <Offset>7FC5FFD0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>45-89-66-78-41-8B-47-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Activity Tokens, Tech Part, Gadget Unlimited">
+  <Cheat Text="Activity Tokens, 科技 Part, 小道具 Unlimited">
     <Cheatline>
       <Offset>7FC5FFB0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>FF-90-10-01-00-00-44-03-60-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Venom Bar Unlimited">
+  <Cheat Text="毒液 Bar Unlimited">
     <Cheatline>
       <Offset>7FC5FF60</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-8B-84-24-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spawns the 3rd Venom Bar">
+  <Cheat Text="Spawns the 3rd 毒液 Bar">
     <Cheatline>
       <Offset>7FC5FE00</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>45-8B-AF-24-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Charge Camouflage Bar">
+  <Cheat Text="Quick 冲锋 Camouflage Bar">
     <Cheatline>
       <Offset>7FC5FED0</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C4-C1-7A-11-87-A0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Camouflage duration">
+  <Cheat Text="Unlimited Camouflage duration｜无限伪装时长">
     <Cheatline>
       <Offset>7FC5FEA0</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C4-C1-7A-10-8E-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Combo x99">
+  <Cheat Text="Combo x99｜组合包 x99">
     <Cheatline>
       <Offset>7FC5FC30</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>0F-84-16-02-00-00-41-FF-46-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Point">
+  <Cheat Text="最大 Skill Point">
     <Cheatline>
       <Offset>7FC5FF30</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>41-8B-95-F8-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Maximum EXP After Getting It">
+  <Cheat Text="Maximum 经验 After Getting It">
     <Cheatline>
       <Offset>7FC5FF00</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>41-89-9E-F0-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Cannot Be Touched By Enemy ( ON )">
+  <Cheat Text="Cannot Be Touched By Enemy ( ON )｜不受敌人攻击（开启）">
     <Cheatline>
       <Offset>7FC5FE70</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>C4-C1-78-2E-85-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Cannot Be Touched By Enemy ( OFF )">
+  <Cheat Text="Cannot Be Touched By Enemy ( OFF )｜不受敌人攻击（关闭）">
     <Cheatline>
       <Offset>7FC5FE70</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>C4-C1-78-2E-85-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7FC5FE30</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>C5-F8-2E-80-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Travesal Challenge Time Always 0">
+  <Cheat Text="Travesal Challenge Time Always 0｜穿越挑战时间 始终为 0">
     <Cheatline>
       <Offset>7FC5FDA0</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>C4-C1-7A-11-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Combat Challenge Time">
+  <Cheat Text="Unlimited Combat Challenge Time｜无限制的战斗挑战时间">
     <Cheatline>
       <Offset>7FC5FDD0</Offset>
       <Section>0</Section>
@@ -198,7 +206,7 @@
       <ValueOff>C5-FA-11-43-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Becomes Normal">
+  <Cheat Text="速度 Becomes 普通">
     <Cheatline>
       <Offset>7FC5FD60</Offset>
       <Section>0</Section>
@@ -212,7 +220,7 @@
       <ValueOff>C5-FA-10-81-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed 1.5x">
+  <Cheat Text="速度 1.五次">
     <Cheatline>
       <Offset>7FC5FD20</Offset>
       <Section>0</Section>
@@ -226,7 +234,7 @@
       <ValueOff>C5-FA-10-81-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed 2x">
+  <Cheat Text="速度 2x">
     <Cheatline>
       <Offset>7FC5FCE0</Offset>
       <Section>0</Section>
@@ -240,7 +248,7 @@
       <ValueOff>C5-FA-10-81-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed 3x">
+  <Cheat Text="速度 3x">
     <Cheatline>
       <Offset>7FC5FCA0</Offset>
       <Section>0</Section>
@@ -254,7 +262,7 @@
       <ValueOff>C5-FA-10-81-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed becomes Very Slow">
+  <Cheat Text="速度 becomes Very Slow">
     <Cheatline>
       <Offset>7FC5FC60</Offset>
       <Section>0</Section>

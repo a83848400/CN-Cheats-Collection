@@ -1,12 +1,17 @@
 {
-  "name": "Castle Shikigami 2",
+  "name": "城堡 式神 2",
   "id": "SLES53518",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEB9E24",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEB9E3A",

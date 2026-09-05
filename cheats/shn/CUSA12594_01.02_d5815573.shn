@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>2AA130</Offset>
       <Section>15</Section>
@@ -12,7 +20,7 @@
       <ValueOff>2B-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dinheiro Infinito">
+  <Cheat Text="Dinheiro Infinito｜无限金钱">
     <Cheatline>
       <Offset>154FEA0</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-88-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bala Infinita">
+  <Cheat Text="Bala Infinita｜无限子弹">
     <Cheatline>
       <Offset>2A9A26</Offset>
       <Section>15</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Just Dance 2019",
+  "name": "舞力全开 2019",
   "id": "CUSA14020",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Skills Instant Cooldown",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Skills 技能冷却清零",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15BB2EF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Power focus",
-      "type": "checkbox",
+      "name": "Infinite 电力 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "155D63B",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Resources",
-      "type": "checkbox",
+      "name": "Infinite Resources｜资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14627AE",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite skills",
-      "type": "checkbox",
+      "name": "Infinite skills｜无限技能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "167C5B9",

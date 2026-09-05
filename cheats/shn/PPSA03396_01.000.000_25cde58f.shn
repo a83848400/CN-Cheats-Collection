@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last of Us: Part I" Moder="Super Death" Cusa="PPSA03396" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health + OHK">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 + OHK">
     <Cheatline>
       <PS5Offset>7FC-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode ">
+  <Cheat Text="God Mode ｜神模式">
     <Cheatline>
       <PS5Offset>163FBD6-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>E8-C1-CB-E9-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health ">
+  <Cheat Text="Infinite Health ｜无限生命">
     <Cheatline>
       <PS5Offset>7F8-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <PS5Offset>7F4-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <PS5Offset>7F0-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -131,7 +139,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Molotov, Consumables, Health Packs, Throwables">
+  <Cheat Text="Infinite 燃烧瓶, Consumables, 生命 Packs, 可投掷物品">
     <Cheatline>
       <PS5Offset>17CFFDC-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>41-89-44-1D-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Air">
+  <Cheat Text="Infinite Air｜无限之空">
     <Cheatline>
       <PS5Offset>1520D18-executable[0]-5</PS5Offset>
       <Section>0</Section>

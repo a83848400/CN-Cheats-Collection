@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Control" Moder="Unknown Moder: Change me after 'Send'" Cusa="CUSA11454" Version="01.12" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="inf ammo ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药 ">
     <Cheatline>
       <Section>0</Section>
       <Offset>66ADB7</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>C5FA1183A0010000</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf energy">
+  <Cheat Text="无限能量">
     <Cheatline>
       <Section>0</Section>
       <Offset>F1B4A</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>C4C17A110E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999999 materials on use">
+  <Cheat Text="999999 materials on use｜999999 种材料正在使用中">
     <Cheatline>
       <Section>0</Section>
       <Offset>1C7F800</Offset>
@@ -32,7 +40,7 @@
       <ValueOff>8948387F54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="freez source credit">
+  <Cheat Text="freez source credit｜freez 来源说明">
     <Cheatline>
       <Section>0</Section>
       <Offset>6371F6</Offset>
@@ -40,7 +48,7 @@
       <ValueOff>48-29-41-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999999 source credit on use">
+  <Cheat Text="999999 source credit on use｜999999 使用时请注明出处">
     <Cheatline>
       <Section>0</Section>
       <Offset>1C7F814</Offset>
@@ -54,7 +62,7 @@
       <ValueOff>48294138488B4110</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="freeze abilities points">
+  <Cheat Text="freeze abilities 得分">
     <Cheatline>
       <Section>0</Section>
       <Offset>35370B</Offset>
@@ -62,7 +70,7 @@
       <ValueOff>89-77-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999 abilities points on use">
+  <Cheat Text="999 abilities 得分 on use">
     <Cheatline>
       <Section>0</Section>
       <Offset>1C7F827</Offset>
@@ -76,7 +84,7 @@
       <ValueOff>897740895744</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="shared health!!!">
+  <Cheat Text="shared 生命!!!">
     <Cheatline>
       <Section>0</Section>
       <Offset>522C41</Offset>

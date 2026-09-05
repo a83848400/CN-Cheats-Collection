@@ -32,7 +32,15 @@
       <ValueOff>C5-FA-5C-42-50</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1BA7800</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1-Hit Kills" Description="">
+  <Cheat Text="1-Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>1BA7801</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus" Description="">
+  <Cheat Text="Infinite Focus｜无限专注值" Description="">
     <Cheatline>
       <Offset>2D7747</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-11-4B-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Arrows" Description="">
+  <Cheat Text="最大 Arrows" Description="">
     <Cheatline>
       <Offset>2D77D6</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>0F-4F-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Level" Description="">
+  <Cheat Text="Instant 等级最大" Description="">
     <Cheatline>
       <Offset>1BA786E</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>41-89-C7-45-85-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Power" Description="">
+  <Cheat Text="Instant 最大 电力" Description="">
     <Cheatline>
       <Offset>1BA787E</Offset>
       <Section>0</Section>

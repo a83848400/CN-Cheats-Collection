@@ -1,12 +1,17 @@
 {
-  "name": "Just Cause 4",
+  "name": "正当防卫 4",
   "id": "CUSA09254",
   "version": "01.31",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "310F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DD90",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Secondary Ammo",
-      "type": "checkbox",
+      "name": "Infinite Secondary 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E890",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Time (Disable For Time To Run Out)",
-      "type": "checkbox",
+      "name": "无限时间 (Disable For Time To Run Out)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D850",

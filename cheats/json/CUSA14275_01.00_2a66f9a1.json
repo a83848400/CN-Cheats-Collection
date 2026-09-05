@@ -1,12 +1,17 @@
 {
-  "name": "Back 4 Blood",
+  "name": "Back 4 Blood｜《Back 4 Blood》",
   "id": "CUSA14275",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (nop)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 (nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2731C8F",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health (nop) might affect enemies",
-      "type": "checkbox",
+      "name": "无限生命 (nop) might affect enemies",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "263C07C",

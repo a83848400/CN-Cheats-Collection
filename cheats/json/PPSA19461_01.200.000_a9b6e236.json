@@ -1,13 +1,18 @@
 {
-  "name": "Shinobi: Art of Vengeance",
+  "name": "忍者: Art of Vengeance",
   "id": "PPSA19461",
   "version": "01.200.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Mp",
+      "name": "无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1702A",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Kunai",
+      "name": "无限苦无",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C88262",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Coins",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17056",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Rage",
+      "name": "怒气无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81D7356B",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Inf Hp Wolf",
+      "name": "无限血量 狼",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1708B",

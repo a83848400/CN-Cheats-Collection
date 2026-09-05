@@ -1,12 +1,17 @@
 {
-  "name": "Kingdoms of Amalur: Re-Reckoning",
+  "name": "Kingdoms of Amalur: Re-Reckoning｜《阿玛鲁尔王国：再战》",
   "id": "CUSA17245",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Dont Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Dont Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13ED590",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13ED590",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Fate",
-      "type": "checkbox",
+      "name": "《无限命运》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13ED670",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Mana",
-      "type": "checkbox",
+      "name": "无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13ED600",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Gold",
-      "type": "checkbox",
+      "name": "无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13ED640",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Inf Arrows",
-      "type": "checkbox",
+      "name": "箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A47A04",

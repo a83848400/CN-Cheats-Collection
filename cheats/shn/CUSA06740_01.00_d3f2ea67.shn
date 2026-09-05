@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon Quest Heroes II" Moder="Molly " Cusa="CUSA06740" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Quick Level Up ~Leave Area To See Effect~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Quick 升级 ~Leave Area To See 效果~">
     <Cheatline>
       <Offset>F53800</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>89-B3-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>F53822</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-B8-04-2B-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max MP">
+  <Cheat Text="最大 MP">
     <Cheatline>
       <Offset>F53832</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C5-FA-11-83-30-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points">
+  <Cheat Text="最大 Skill 得分">
     <Cheatline>
       <Offset>F5384A</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>66-89-97-9A-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items">
+  <Cheat Text="最大 Items">
     <Cheatline>
       <Offset>F5385C</Offset>
       <Section>0</Section>
@@ -120,7 +128,7 @@
       <ValueOff>41-88-45-13-49-8B-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Tension On Hit">
+  <Cheat Text="最大 蓄力 On Hit">
     <Cheatline>
       <Offset>F538A3</Offset>
       <Section>0</Section>

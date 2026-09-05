@@ -1,12 +1,17 @@
 {
-  "name": "Black",
+  "name": "Black｜黑色",
   "id": "SLES53887",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-ammo-gun",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限子弹枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80802E20C8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf-Grenades",
-      "type": "checkbox",
+      "name": "无限手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801A953E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf-Health-Kits",
-      "type": "checkbox",
+      "name": "Infinite-生命-Kits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801A9B51",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf-ammo-shot-gun",
-      "type": "checkbox",
+      "name": "无限子弹霰弹枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80802E21C4",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Inf-ammo-ak-47",
-      "type": "checkbox",
+      "name": "AK-47无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801A9536",

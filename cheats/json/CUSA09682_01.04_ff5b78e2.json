@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Come: Deliverance",
+  "name": "Kingdom Come: Deliverance｜《王国来临：救赎》",
   "id": "CUSA09682",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "363F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "363F819",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "363F832",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Nourishment",
-      "type": "checkbox",
+      "name": "Infinite Nourishment｜无尽的滋养",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "363F849",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "0 Weight",
-      "type": "checkbox",
+      "name": "0 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E1C8D1",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Money On Buy/Sell",
-      "type": "checkbox",
+      "name": "金钱最大 On Buy/Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "363F800",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "x2 Money/Items on Spend/Drop",
-      "type": "checkbox",
+      "name": "x2 金钱/Items on Spend/丢弃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D09F6E",

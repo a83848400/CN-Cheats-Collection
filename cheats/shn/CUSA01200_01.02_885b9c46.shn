@@ -33,7 +33,15 @@
       <ValueOff>44-29-E9-41-89-8C-24-C8-00-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="P1: Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="P1: 无限生命" Description="">
     <Cheatline>
       <Offset>4AEB800</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P1: 1 Hit Kill" Description="">
+  <Cheat Text="P1: 一击必杀" Description="">
     <Cheatline>
       <Offset>4AEB800</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P2: Infinite Health" Description="">
+  <Cheat Text="P2: 无限生命" Description="">
     <Cheatline>
       <Offset>4AEB801</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P2: 1 Hit Kill" Description="">
+  <Cheat Text="P2: 一击必杀" Description="">
     <Cheatline>
       <Offset>4AEB801</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Regeneration" Description="">
+  <Cheat Text="Instant Regeneration｜即时再生" Description="">
     <Cheatline>
       <Offset>7FD80</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>0F-4F-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Critical Gauge" Description="">
+  <Cheat Text="Infinite 暴击 Gauge" Description="">
     <Cheatline>
       <Offset>801E9</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>0F-4E-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite V-Trigger Gauge" Description="">
+  <Cheat Text="Infinite V触发 Gauge" Description="">
     <Cheatline>
       <Offset>806A0</Offset>
       <Section>0</Section>

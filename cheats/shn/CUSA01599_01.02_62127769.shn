@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry 4: Special Edition" Moder="Ali-mk" Cusa="CUSA01599" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>59EC9A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-21-84-CF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Health-(MC)">
+    <Cheat Text="Infinite-生命-(MC)">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>12EB800</Offset>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-5B-40</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-Red-Orbs-99999999">
+    <Cheat Text="最大-Red-Orbs-99999999">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>12EB81F</Offset>
@@ -42,7 +50,7 @@
       <ValueOff>89-83-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-Proud-Sovl-99999999">
+    <Cheat Text="最大-Proud-Sovl-99999999">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>12EB831</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>41-89-8F-C0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Items">
+    <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>2210FB</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>41-89-57-2C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Red-Orbs">
+    <Cheat Text="Infinite-Red-Orbs｜无限红球">
     <Cheatline>
       <Offset>20515D</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>41-89-8F-C0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-evil-Trigger-vergil">
+    <Cheat Text="Infinite-evil-Trigger-维吉尔">
     <Cheatline>
       <Offset>598F14</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>C5-FA-11-8B-64-2A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-evil-Trigger-Lady-Trish">
+    <Cheat Text="Infinite-evil-Trigger-蕾蒂-翠西">
     <Cheatline>
       <Offset>599BFF</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C5-FA-11-8B-64-2A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-Proud-Sovl-Nero">
+    <Cheat Text="最大-Proud-Sovl-Nero">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>12EB813</Offset>

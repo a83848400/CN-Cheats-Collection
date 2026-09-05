@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 3",
+  "name": "生化危机 3",
   "id": "CUSA14123",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[00] MASTER CODE - ALWAYS ENABLED!!!",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[00] MASTER 密码 - ALWAYS ENABLED!!!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AFB0",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "[01] Immunity Against NMEs",
-      "type": "checkbox",
+      "name": "[01] Immunity Against NMEs｜[01] 对新分子实体（NMEs）的耐受性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AA30",
@@ -62,8 +67,8 @@
       ]
     },
     {
-      "name": "[02] Infinite Health",
-      "type": "checkbox",
+      "name": "[02] 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AA60",
@@ -78,8 +83,8 @@
       ]
     },
     {
-      "name": "[03] Player Can Stand On Fire",
-      "type": "checkbox",
+      "name": "[03] Player Can Stand On 火",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "176C5A7",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "[04] 1 Hit Kill",
-      "type": "checkbox",
+      "name": "[04] 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AC60",
@@ -105,8 +110,8 @@
       ]
     },
     {
-      "name": "[05a] Player`s Speed x2 (Recommended) (Need Weapon)",
-      "type": "checkbox",
+      "name": "[05a] Player`s 速度 x2 (Recommended) (Need Weapon)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AB60",
@@ -121,8 +126,8 @@
       ]
     },
     {
-      "name": "[05b] Player`s Speed x4 (Need Weapon)",
-      "type": "checkbox",
+      "name": "[05b] Player`s 速度 x4 (Need Weapon)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AB60",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "[06] Infinite Ammo / No Reload",
-      "type": "checkbox",
+      "name": "[06] 无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AA00",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "[07] Any Item Works (-Vaccine Sample, Tape + Player, Kendo`s Gate Key, Jewels)",
-      "type": "checkbox",
+      "name": "[07] Any 物品 Works (-Vaccine Sample, 磁带 + Player, Kendo`s 大门 钥匙, 珠子)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AD80",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "[08] Bag Slots Maxed: Jill",
-      "type": "checkbox",
+      "name": "[08] Bag Slots Maxed: 吉尔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AB00",
@@ -185,8 +190,8 @@
       ]
     },
     {
-      "name": "[09] Bag Slots Maxed: Carlos",
-      "type": "checkbox",
+      "name": "[09] Bag Slots Maxed: Carlos｜[09] 背包槽位已满：卡洛斯",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AF80",
@@ -201,8 +206,8 @@
       ]
     },
     {
-      "name": "[10] Store/Pick Up Weapon Get A Different One",
-      "type": "checkbox",
+      "name": "[10] Store/拾取 Weapon Get A Different One",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AEA0",
@@ -222,8 +227,8 @@
       ]
     },
     {
-      "name": "[11] Store/Pick Up Item And Get A Custom Part",
-      "type": "checkbox",
+      "name": "[11] Store/拾取 物品 And Get A Custom Part",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AE30",
@@ -243,8 +248,8 @@
       ]
     },
     {
-      "name": "[12] Electric Generators No Reload Time",
-      "type": "checkbox",
+      "name": "[12] Electric Generators No 换弹时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B39CC0",
@@ -254,8 +259,8 @@
       ]
     },
     {
-      "name": "[13] SAVES To Zero (When Saving)",
-      "type": "checkbox",
+      "name": "[13] SAVES To 杰洛 (When Saving)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AD60",
@@ -270,8 +275,8 @@
       ]
     },
     {
-      "name": "[14] 666666 Points (Read Once)",
-      "type": "checkbox",
+      "name": "[14] 666666 得分 (Read Once)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AB20",
@@ -286,8 +291,8 @@
       ]
     },
     {
-      "name": "[15a] Game Mode When Saved: Assisted",
-      "type": "checkbox",
+      "name": "[15a] Game Mode When Saved: Assisted｜[15a] 保存时的游戏模式：辅助模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AAC0",
@@ -302,8 +307,8 @@
       ]
     },
     {
-      "name": "[15b] Game Mode When Saved: Standard",
-      "type": "checkbox",
+      "name": "[15b] Game Mode When Saved: Standard｜[15b] 保存时的游戏模式：标准",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AAC0",
@@ -318,8 +323,8 @@
       ]
     },
     {
-      "name": "[15c] Game Mode When Saved: Hardcore",
-      "type": "checkbox",
+      "name": "[15c] Game Mode When Saved: 极限模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AAC0",
@@ -334,8 +339,8 @@
       ]
     },
     {
-      "name": "[15d] Game Mode When Saved: Nightmare",
-      "type": "checkbox",
+      "name": "[15d] Game Mode When Saved: Nightmare｜[15d] 保存时的游戏模式：噩梦",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AAC0",
@@ -350,8 +355,8 @@
       ]
     },
     {
-      "name": "[15e] Game Mode When Saved: Inferno",
-      "type": "checkbox",
+      "name": "[15e] Game Mode When Saved: 炼狱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AAC0",
@@ -366,8 +371,8 @@
       ]
     },
     {
-      "name": "[16] Results - Clear Time = 00-00-00",
-      "type": "checkbox",
+      "name": "[16] Results - Clear Time = 00-00-00｜[16] 结果 - 清场时间 = 00-00-00",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AF60",
@@ -382,8 +387,8 @@
       ]
     },
     {
-      "name": "[17] Results - Times Saved = 0",
-      "type": "checkbox",
+      "name": "[17] Results - Times Saved = 0｜[17] 结果 - 节省的时间 = 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AF00",
@@ -398,8 +403,8 @@
       ]
     },
     {
-      "name": "[18] Results - Deaths = 0",
-      "type": "checkbox",
+      "name": "[18] Results - Deaths = 0｜[18] 结果——死亡人数 = 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AF40",
@@ -414,8 +419,8 @@
       ]
     },
     {
-      "name": "[19] Results - Rank = S",
-      "type": "checkbox",
+      "name": "[19] Results - 阶级 = S",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713AF20",
@@ -430,8 +435,8 @@
       ]
     },
     {
-      "name": "[20a] Size x1.0",
-      "type": "checkbox",
+      "name": "[20a] Size x1.0｜[20a] 尺寸 x1.0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713B000",
@@ -446,8 +451,8 @@
       ]
     },
     {
-      "name": "[20b] Size x1.5 (Unplayable)",
-      "type": "checkbox",
+      "name": "[20b] Size x1.5 (Unplayable)｜[20b] 尺寸×1.5（无法播放）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713B000",
@@ -462,8 +467,8 @@
       ]
     },
     {
-      "name": "[20c] Size x0.5 (Unplayable)",
-      "type": "checkbox",
+      "name": "[20c] Size x0.5 (Unplayable)｜[20c] 尺寸 x0.5（无法播放）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713B000",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Control" Moder="Reddevil82 - FW 9.00" Cusa="CUSA11454" Version="01.12" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Mastercode Health ( must be activated )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="主代码 生命 ( must be activated )">
     <Cheatline>
       <Offset>1C7FE2C</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-8B-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]">
     <Cheatline>
       <Offset>1C7FE35</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-10-8B-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill [ MC ]">
+  <Cheat Text="一击必杀 [ MC ]">
     <Cheatline>
       <Offset>1C7FE46</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-10-8B-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>1C7FDF1</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-10-43-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>1C7FDB0</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-11-83-A0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>1C7FDD9</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>48-8B-85-08-F5-FF-FF-4D-8B-66-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points">
+  <Cheat Text="最大 Skill 得分">
     <Cheatline>
       <Offset>1C7F800</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>8B-41-38-8B-49-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items">
+  <Cheat Text="最大 Items">
     <Cheatline>
       <Offset>1C7FE02</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>0F-84-A3-01-00-00-8B-48-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Jukebox Coins">
+  <Cheat Text="最大 Jukebox 角落">
     <Cheatline>
       <Offset>1C7FE17</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>0F-84-33-03-00-00-8B-48-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hover Mode activated">
+  <Cheat Text="悬浮模式 activated">
     <Cheatline>
       <Offset>1C7F814</Offset>
       <Section>0</Section>

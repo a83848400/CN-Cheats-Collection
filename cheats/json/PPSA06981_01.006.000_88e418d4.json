@@ -1,19 +1,24 @@
 {
-  "name": "Naruto x Boruto: Ultimate Ninja Storm Connections",
+  "name": "火影忍者 艾克斯 Boruto: 必杀技 Ninja 风暴圈 Connections",
   "id": "PPSA06981",
   "version": "01.006.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "242BF00",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF00",
           "section": 6,
@@ -23,7 +28,7 @@
           "offset": "242BF01",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF01",
           "section": 6,
@@ -33,7 +38,7 @@
           "offset": "242BF02",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF02",
           "section": 6,
@@ -43,7 +48,7 @@
           "offset": "242BF03",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF03",
           "section": 6,
@@ -53,7 +58,7 @@
           "offset": "242BF04",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF04",
           "section": 6,
@@ -63,7 +68,7 @@
           "offset": "242BF05",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF05",
           "section": 6,
@@ -92,15 +97,15 @@
       ]
     },
     {
-      "name": "--Inf_Hp_P1",
+      "name": "--玩家1无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "242BF00",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF00",
           "section": 6,
@@ -109,15 +114,15 @@
       ]
     },
     {
-      "name": "--Inf_Hp_P2",
+      "name": "--玩家2无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "242BF01",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF01",
           "section": 6,
@@ -126,15 +131,15 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill_P1",
+      "name": "--玩家1一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "242BF02",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF02",
           "section": 6,
@@ -143,15 +148,15 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill_P2",
+      "name": "--玩家2一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "242BF03",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF03",
           "section": 6,
@@ -160,15 +165,15 @@
       ]
     },
     {
-      "name": "--Inf_Magic_P1",
+      "name": "--玩家1无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "242BF04",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF04",
           "section": 6,
@@ -177,15 +182,15 @@
       ]
     },
     {
-      "name": "--Inf_Magic_P2",
+      "name": "--玩家2无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "242BF05",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "36BF05",
           "section": 6,
@@ -194,9 +199,9 @@
       ]
     },
     {
-      "name": "No Cooldown",
+      "name": "No Cooldown｜无冷却",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9F6103",
@@ -206,9 +211,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "182F0DC",

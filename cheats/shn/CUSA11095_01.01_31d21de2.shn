@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Paw Patrol: On a Roll!" Moder="Molly" Cusa="CUSA11095" Version="01.01" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Max Pup Bones ~Grab One~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Pup Bones ~Grab One~">
     <Cheatline>
       <Offset>1557800</Offset>
       <Section>0</Section>

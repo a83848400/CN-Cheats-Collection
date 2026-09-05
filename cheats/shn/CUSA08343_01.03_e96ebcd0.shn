@@ -31,7 +31,15 @@
       <ValueOff>C5-FA-11-8F-14-07-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>8CF826</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>8CF827</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Water" Description="">
+  <Cheat Text="Infinite Water｜水无限" Description="">
     <Cheatline>
       <Offset>1A2FCD</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>C5-F8-2E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lifes" Description="">
+  <Cheat Text="Infinite Lifes｜无限生命" Description="">
     <Cheatline>
       <Offset>8CF800</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>8B-87-74-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="">
+  <Cheat Text="Infinite Money｜金钱无限" Description="">
     <Cheatline>
       <Offset>9DACD</Offset>
       <Section>0</Section>

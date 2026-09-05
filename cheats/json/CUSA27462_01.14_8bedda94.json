@@ -1,12 +1,17 @@
 {
-  "name": "Aliens: Fireteam Elite",
+  "name": "Aliens: Fireteam 精英",
   "id": "CUSA27462",
   "version": "01.14",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / Stamina  (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 体力  (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5AA7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Team Health + (MC)",
-      "type": "checkbox",
+      "name": "Team 生命 + (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5AA7822",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill + (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 + (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5AA7854",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Ammo / No Reload",
-      "type": "checkbox",
+      "name": "弹药最大化 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5AA5AA0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Currency (9999999)",
-      "type": "checkbox",
+      "name": "最大 Currency (9999999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5AA5AF0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables",
-      "type": "checkbox",
+      "name": "Infinite Consumables｜无限消耗品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BEAF53",

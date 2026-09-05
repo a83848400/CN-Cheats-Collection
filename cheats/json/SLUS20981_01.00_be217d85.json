@@ -1,33 +1,38 @@
 {
-  "name": "Teenage Mutant Ninja Turtles 2: Battle Nexus",
+  "name": "Teenage Mutant Ninja Turtles 2: 战斗 基地水晶",
   "id": "SLUS20981",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "RETURN-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "RETURN-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080170B68",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "8080170B69",
-          "on": "3F",
-          "off": "3F"
+          "on": "3F｜三个“F”",
+          "off": "3F｜三个“F”"
         },
         {
           "offset": "8080170B6A",
-          "on": "7A",
-          "off": "7A"
+          "on": "7A｜七A班",
+          "off": "7A｜七A班"
         }
       ]
     },
     {
-      "name": "RETURN-Shurikens",
-      "type": "checkbox",
+      "name": "RETURN-Shurikens｜RETURN-手里剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808038DCA8",

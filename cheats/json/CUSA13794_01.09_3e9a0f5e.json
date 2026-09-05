@@ -1,12 +1,17 @@
 {
-  "name": "LEGO Star Wars: The Skywalker Saga",
+  "name": "LEGO Star Wars: The Skywalker 沙加",
   "id": "CUSA13794",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7513829",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Studs (On Gain)",
-      "type": "checkbox",
+      "name": "Infinite Studs (On Gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7513817",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Kyber Bricks (Turn Off after Use, Value will go negative if don't unlock all upgrades)",
-      "type": "checkbox",
+      "name": "Infinite Kyber 砖头 (回合 Off after Use, Value 意志 go negative if don'恐怖分子 解锁 all upgrades)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7513800",

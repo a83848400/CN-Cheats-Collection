@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Knack" Moder="Saso_9.00" Cusa="CUSA00006" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Untouchable ( Press Circle To Active After Supermove)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="刀枪不入 ( Press 缩圈 To Active After Supermove)">
     <Cheatline>
       <Offset>B87800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Energy / Combo (Master Code)">
+  <Cheat Text="能量 / Combo (Master 密码)">
     <Cheatline>
       <Offset>B8781A</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>8B-45-D4-41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Energy (MC)">
+  <Cheat Text="无限能量 (MC)">
     <Cheatline>
       <Offset>B87822</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>74-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Combo (MC)">
+  <Cheat Text="最大 Combo (MC)">
     <Cheatline>
       <Offset>B8782C</Offset>
       <Section>0</Section>

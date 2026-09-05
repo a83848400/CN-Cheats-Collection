@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rayman Legends" Moder="hejran7" Cusa="CUSA00031" Version="01.00" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Unlimited Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Unlimited 生命" Description="">
     <Cheatline>
       <Offset>F3A4A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>8B-8F-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Health + Heart" Description="unlimited health and you get 1 heart whem hit">
+  <Cheat Text="Unlimited 生命 + Heart" Description="unlimited health and you get 1 heart whem hit">
     <Cheatline>
       <Offset>F3A4A</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>8B-8F-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Lucky Tickets" Description="">
+  <Cheat Text="Unlimited Lucky Tickets｜无限幸运券" Description="">
     <Cheatline>
       <Offset>1493832</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>44-8B-B0-64-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited LUMS" Description="">
+  <Cheat Text="Unlimited LUMS｜无限LUMS" Description="">
     <Cheatline>
       <Offset>1493844</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>03-B0-00-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="LUMS X10" Description="">
+  <Cheat Text="LUMS X10｜点亮世界 X10" Description="">
     <Cheatline>
       <Offset>1493855</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>44-01-F9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fly Hack" Description="unlimited fly in the air">
+  <Cheat Text="飞行 Hack" Description="unlimited fly in the air">
     <Cheatline>
       <Offset>459636</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C5-FA-59-81-5C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="">
+  <Cheat Text="Super Jump｜超级跳跃" Description="">
     <Cheatline>
       <Offset>454199</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C5-FA-10-88-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Teensies" Description="">
+  <Cheat Text="最大 Teensies" Description="">
     <Cheatline>
       <Offset>1493864</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Harvest Moon: Light of Hope: Special Edition" Moder="Molly" Cusa="CUSA10873" Version="01.01" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="High Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="High 金钱">
     <Cheatline>
       <Offset>1537800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-39-CC-41-89-4D-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Items">
+  <Cheat Text="Have 所有商品">
     <Cheatline>
       <Offset>1537836</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>83-7C-99-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Life Points/Stamina Points">
+  <Cheat Text="Unlimited 生命值/体力 得分">
     <Cheatline>
       <Offset>153786C</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>0F-49-C8-41-89-4F-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change Weather To Sunny">
+  <Cheat Text="Change Weather To Sunny｜将天气改为晴天">
     <Cheatline>
       <Offset>1537800</Offset>
       <Section>0</Section>

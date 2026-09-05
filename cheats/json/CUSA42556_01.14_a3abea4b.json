@@ -1,13 +1,18 @@
 {
-  "name": "Grounded",
+  "name": "Grounded｜被禁足",
   "id": "CUSA42556",
   "version": "01.14",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Health (MC)",
-      "description": "Disable it in Javamatic mission until repair mix.r",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命最大 (MC)",
+      "description": "Disable it in Javamatic mission until repair mix.r｜在 Javamatic 任务中将其禁用，直到修复 mix.r 为止。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4350",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "One Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4387",
@@ -68,8 +73,8 @@
       ]
     },
     {
-      "name": "Max Stamina",
-      "type": "checkbox",
+      "name": "Max Stamina｜体力最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4399",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "No Thirst",
-      "type": "checkbox",
+      "name": "No Thirst｜不会口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C43AE",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "No Hungry",
-      "type": "checkbox",
+      "name": "No Hungry｜不再饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C43C3",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "Max Oxygen",
-      "type": "checkbox",
+      "name": "最大 Oxygen",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C43D9",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "Day Time x100 (Enable MC)",
-      "type": "checkbox",
+      "name": "白天 十倍 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4427",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Infinite Jumps (Enable MC)",
-      "type": "checkbox",
+      "name": "无限跳跃 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4454",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "Hyper Run",
-      "type": "checkbox",
+      "name": "Hyper Run｜《Hyper Run》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C45FB",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Hyper Jump",
-      "type": "checkbox",
+      "name": "Hyper Jump｜超跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C460F",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C446A",
@@ -212,8 +217,8 @@
       ]
     },
     {
-      "name": "Max Brain Power lvl 16",
-      "type": "checkbox",
+      "name": "最大 Brain 电力 lvl 16",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C447F",
@@ -228,8 +233,8 @@
       ]
     },
     {
-      "name": "Max Raw Science",
-      "type": "checkbox",
+      "name": "最大 Raw 科技",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C44B3",
@@ -244,8 +249,8 @@
       ]
     },
     {
-      "name": "Max Analyzer Charges",
-      "type": "checkbox",
+      "name": "最大 Analyzer Charges",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C44C9",
@@ -260,8 +265,8 @@
       ]
     },
     {
-      "name": "Infinite Torch",
-      "type": "checkbox",
+      "name": "Infinite 火把",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C44DB",
@@ -276,8 +281,8 @@
       ]
     },
     {
-      "name": "Max Weapons Health",
-      "type": "checkbox",
+      "name": "最大 武器 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C44F0",
@@ -292,8 +297,8 @@
       ]
     },
     {
-      "name": "Max Milk Molar/Mega Milk Molar",
-      "type": "checkbox",
+      "name": "最大 牛奶 Molar/Mega 牛奶 Molar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4505",
@@ -308,9 +313,9 @@
       ]
     },
     {
-      "name": "Max Mutations",
-      "description": "Triggered when a mutation is activated",
-      "type": "checkbox",
+      "name": "最大 突变",
+      "description": "Triggered when a mutation is activated｜当突变被激活时触发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C452A",
@@ -325,8 +330,8 @@
       ]
     },
     {
-      "name": "Max Haul",
-      "type": "checkbox",
+      "name": "最大 Haul",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4545",
@@ -341,8 +346,8 @@
       ]
     },
     {
-      "name": "Max Bombs",
-      "type": "checkbox",
+      "name": "最大 Bombs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4560",
@@ -357,9 +362,9 @@
       ]
     },
     {
-      "name": "Game Settings (GS)",
-      "description": "To trigger cheats, first activate the desired ones, set up a custom game in the game settings, save the game and reload it",
-      "type": "checkbox",
+      "name": "Game 设置 (GS)",
+      "description": "To trigger cheats, first activate the desired ones, set up a custom game in the game 设置, 保存 the game and reload it",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4575",
@@ -374,8 +379,8 @@
       ]
     },
     {
-      "name": "Unlock Recipes (Enable GS)",
-      "type": "checkbox",
+      "name": "解锁 Recipes (Enable GS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C4581",
@@ -385,8 +390,8 @@
       ]
     },
     {
-      "name": "Free Build (Enable GS)",
-      "type": "checkbox",
+      "name": "Free 构筑 (Enable GS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C458F",
@@ -396,8 +401,8 @@
       ]
     },
     {
-      "name": "Build Integrity (Enable GS)",
-      "type": "checkbox",
+      "name": "构筑 Integrity (Enable GS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C459D",
@@ -407,8 +412,8 @@
       ]
     },
     {
-      "name": "Free Craft (Enable GS)",
-      "type": "checkbox",
+      "name": "免费制作 (Enable GS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C45AB",
@@ -418,8 +423,8 @@
       ]
     },
     {
-      "name": "Unlock All Mutations (Enable GS)",
-      "type": "checkbox",
+      "name": "解锁 All 突变 (Enable GS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C45B9",
@@ -429,8 +434,8 @@
       ]
     },
     {
-      "name": "Fully Yoked (Enable GS)",
-      "type": "checkbox",
+      "name": "Fully Yoked (Enable GS)｜完全耦合（启用 GS）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C45C7",
@@ -440,8 +445,8 @@
       ]
     },
     {
-      "name": "Handy Gnat (Enable GS)",
-      "type": "checkbox",
+      "name": "Handy Gnat (Enable GS)｜灵巧蚊（开启GS）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C45D5",
@@ -451,8 +456,8 @@
       ]
     },
     {
-      "name": "Respawn Backpack with You (Enable GS)",
-      "type": "checkbox",
+      "name": "Respawn 背包 with You (Enable GS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C45E5",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>666FDE0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>89-97-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>666FF20</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>89-B7-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>2E26DB9</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>C5-FA-11-53-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Offset>666FF60</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>C5-FA-11-83-78-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath">
+  <Cheat Text="Infinite Breath｜无限呼吸">
     <Cheatline>
       <Offset>666FEA0</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>C5-FA-11-80-B4-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Consumables On Use">
+  <Cheat Text="无限消耗品 On Use">
     <Cheatline>
       <Offset>2953999</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>E8-5A-8D-60-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina For Mount">
+  <Cheat Text="无限耐力 For Mount">
     <Cheatline>
       <Offset>2E27B59</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C4-C1-7A-11-45-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Resources/Consumables/Upgrade Materials/Trade Goods (On Get)">
+  <Cheat Text="最大 Resources/Consumables/Upgrade Materials/交换 Goods (On Get)">
     <Cheatline>
       <Offset>666FE60</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>0F-43-C8-89-0B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points On Gain">
+  <Cheat Text="最大 Skill 得分 On Gain">
     <Cheatline>
       <Offset>666FF70</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Chronicles",
+  "name": "刺客信条 Chronicles",
   "id": "CUSA03440",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infnite Items use (have 1 at least)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infnite Items use (have 1 at least)｜无限道具的使用（至少拥有1个）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4EA20",
