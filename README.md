@@ -13,6 +13,8 @@ fork from
 
 https://github.com/TeeKay87/HEN-Cheats-Collection
 
+If you repost the translated cheat codes for this project, please cite the source. Thank you.
+
 
 谢锡榆-PS4与PS5金手指自动翻译功能简单解析说明
 
@@ -21,6 +23,8 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 现在已经可以做到每天凌晨在github会获取上游金手指的内容进行翻译，如果有更新金手指就会自动同步翻译输出到chinese-build分支中，并打包发布。
 如果暂时没有翻译成功，就会记录到日志里，产生翻译词典，在下一次以后有相同的翻译就会自动调用词典补充翻译。凑合用用吧
 现在已经极大地扩展了词典，翻译效果可能会更好一些，未来或许会加入其他工具作为下载源。
+
+如果转发本项目翻译的金手指请注明出处，谢谢。
 
 # CN‑Cheats‑Collection
 
