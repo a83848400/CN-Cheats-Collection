@@ -1,12 +1,17 @@
 {
-  "name": "Tengai",
+  "name": "Tengai｜天外",
   "id": "SLES53871",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE26BB0",
@@ -16,24 +21,24 @@
       ]
     },
     {
-      "name": "Infinite-Bomb P1",
-      "type": "checkbox",
+      "name": "无限炸弹 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDF8608",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "807FDF8609",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Invincible P1",
-      "type": "checkbox",
+      "name": "无敌 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDF8638",

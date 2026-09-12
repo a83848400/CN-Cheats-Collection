@@ -1,12 +1,17 @@
 {
-  "name": "The Swapper",
+  "name": "The Swapper｜《The Swapper》",
   "id": "CUSA00315",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Clones",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Clones｜无限克隆",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "733B1",

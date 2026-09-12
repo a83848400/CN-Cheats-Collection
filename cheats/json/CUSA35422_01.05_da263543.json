@@ -1,12 +1,17 @@
 {
-  "name": "Quake II",
+  "name": "Quake II｜《雷神之锤II》",
   "id": "CUSA35422",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[00][Master Code] Always ON!",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[00][Master 密码] Always ON!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "[01][Health] Immunity",
-      "type": "checkbox",
+      "name": "[01][生命] Immunity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63380",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "[02][Health] Infinite",
-      "type": "checkbox",
+      "name": "[02][生命] Infinite",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63190",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "[03][Health] 1 Hit Kill +Explode",
-      "type": "checkbox",
+      "name": "[03][生命] 一击必杀 +Explode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63340",
@@ -69,9 +74,9 @@
       ]
     },
     {
-      "name": "[04][Unlock] All Items +Infinite",
-      "description": "Items will be infinite as long as cheat is ON.",
-      "type": "checkbox",
+      "name": "[04][解锁] 所有商品 +Infinite",
+      "description": "Items 意志 be infinite as long as cheat is ON.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63090",
@@ -86,9 +91,9 @@
       ]
     },
     {
-      "name": "[05][Unlock] All Weapons +666 Ammo",
-      "description": "It can be turned off after using it once. But you can leave it on.",
-      "type": "checkbox",
+      "name": "[05][解锁] All 武器 +666 但是",
+      "description": "It can be turned off after using it once. But you can leave it on.｜使用一次后可以将其关闭。不过也可以保持开启状态。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A630B0",
@@ -113,9 +118,9 @@
       ]
     },
     {
-      "name": "[06][Unlock] All Keys",
-      "description": "All Keys means Keys, CD, etc ... Keys needed to advance in the game.",
-      "type": "checkbox",
+      "name": "[06][解锁] All Keys",
+      "description": "All Keys means Keys, CD, etc ... Keys needed to advance in the game.｜“所有钥匙”指钥匙、CD 等……这些是游戏中继续推进所需的钥匙。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63260",
@@ -130,9 +135,9 @@
       ]
     },
     {
-      "name": "[07a][Speed] Player x2",
-      "description": "Turn speed cheats off for normal speed.",
-      "type": "checkbox",
+      "name": "[07a][速度] Player x2",
+      "description": "回合 速度 cheats off for 普通 速度.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63471",
@@ -147,8 +152,8 @@
       ]
     },
     {
-      "name": "[07b][Speed] Player x3",
-      "type": "checkbox",
+      "name": "[07b][速度] Player x3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63471",
@@ -163,8 +168,8 @@
       ]
     },
     {
-      "name": "[07c][Speed] Player x4",
-      "type": "checkbox",
+      "name": "[07c][速度] Player x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63471",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "[08][Weapon] Rapidfire",
-      "type": "checkbox",
+      "name": "[08][Weapon] Rapidfire｜[08][武器] 连发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63220",
@@ -195,8 +200,8 @@
       ]
     },
     {
-      "name": "[09][Ammo] Infinite",
-      "type": "checkbox",
+      "name": "[09][Ammo] Infinite｜[09][弹药] 无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A63240",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "[10][Enemy] No Attack",
-      "type": "checkbox",
+      "name": "[10][Enemy] No 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "750FF3",
@@ -222,8 +227,8 @@
       ]
     },
     {
-      "name": "[11a][Jump] x1",
-      "type": "checkbox",
+      "name": "[11a][Jump] x1｜[11a][跳转] x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A632D0",
@@ -238,8 +243,8 @@
       ]
     },
     {
-      "name": "[11b][Jump] x2",
-      "type": "checkbox",
+      "name": "[11b][Jump] x2｜[11b][跳转] x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A632D0",
@@ -254,8 +259,8 @@
       ]
     },
     {
-      "name": "[11c][Jump] x4",
-      "type": "checkbox",
+      "name": "[11c][Jump] x4｜[11c][跳转] x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A632D0",
@@ -270,8 +275,8 @@
       ]
     },
     {
-      "name": "[11d][Jump] x8",
-      "type": "checkbox",
+      "name": "[11d][Jump] x8｜[11d][跳转] x8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A632D0",
@@ -286,9 +291,9 @@
       ]
     },
     {
-      "name": "[12a][RGB] Red = 1",
-      "description": "These last cheats are just some light effects on shadows. Turn them ON to 8 to have more light.",
-      "type": "checkbox",
+      "name": "[12a][RGB] Red = 1｜[12a][RGB] 红色 = 1",
+      "description": "These last cheats are just some light effects on shadows. 回合 them ON to 8 to have more light.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A630F0",
@@ -303,8 +308,8 @@
       ]
     },
     {
-      "name": "[12b][RGB] Red = 8",
-      "type": "checkbox",
+      "name": "[12b][RGB] Red = 8｜[12b][RGB] 红色 = 8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A630F0",
@@ -319,8 +324,8 @@
       ]
     },
     {
-      "name": "[13a][RGB] Green = 1",
-      "type": "checkbox",
+      "name": "[13a][RGB] Green = 1｜[13a][RGB] 绿色 = 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A630E0",
@@ -335,8 +340,8 @@
       ]
     },
     {
-      "name": "[13b][RGB] Green = 8",
-      "type": "checkbox",
+      "name": "[13b][RGB] Green = 8｜[13b][RGB] 绿色 = 8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A630E0",
@@ -351,8 +356,8 @@
       ]
     },
     {
-      "name": "[14a][RGB] Blue = 1",
-      "type": "checkbox",
+      "name": "[14a][RGB] Blue = 1｜[14a][RGB] 蓝色 = 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A630D0",
@@ -367,8 +372,8 @@
       ]
     },
     {
-      "name": "[14b][RGB] Blue = 8",
-      "type": "checkbox",
+      "name": "[14b][RGB] Blue = 8｜[14b][RGB] 蓝色 = 8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A630D0",
@@ -383,8 +388,8 @@
       ]
     },
     {
-      "name": "[15] No HUD",
-      "type": "checkbox",
+      "name": "[15] No HUD｜[15] 如果住房与城市发展部（HUD）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "734340",

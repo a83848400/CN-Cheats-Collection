@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sonic Mania" Moder="Talixme" Cusa="CUSA07023" Version="01.03" Process="eboot.bin">
   <Items />
-  <Cheat Text="Infinite Rings">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 金环">
     <Cheatline>
       <Offset>50759</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>8B-88-B4-03-00-00-01-8B-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lives">
+  <Cheat Text="Infinite Lives｜无限生命">
     <Cheatline>
       <Offset>AA374</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>89-83-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Super Sonic">
+  <Cheat Text="Enable 超级索尼克">
     <Cheatline>
       <Offset>64415C</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Speed">
+  <Cheat Text="Super Speed｜超级移速">
     <Cheatline>
       <Offset>644180</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>00-00-0F-00-00-40-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Silver Medals">
+  <Cheat Text="All Silver Medals｜所有银牌">
     <Cheatline>
       <Offset>1FFC36604</Offset>
       <Section>0</Section>

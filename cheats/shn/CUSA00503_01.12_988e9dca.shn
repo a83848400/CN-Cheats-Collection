@@ -16,7 +16,15 @@
       <ValueOff>C5-FA-10-46-2C</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Disable Infinite Health" Description="need MC">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Disable 无限生命" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213813</Offset>
@@ -24,7 +32,7 @@
       <ValueOff>C7-46-2C-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Health" Description="need MC">
+  <Cheat Text="Disable 生命最大" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321381A</Offset>
@@ -32,7 +40,7 @@
       <ValueOff>C7-86-AC-F4-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Infinite Stamina / Mana" Description="need MC">
+  <Cheat Text="Disable 无限耐力 / 法力" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213824</Offset>
@@ -40,7 +48,7 @@
       <ValueOff>C7-86-AC-00-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Stamina / Mana" Description="need MC">
+  <Cheat Text="Disable 体力最大 / 法力" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321382E</Offset>
@@ -48,7 +56,7 @@
       <ValueOff>C7-86-EC-F5-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Infinite Focus" Description="need MC">
+  <Cheat Text="Disable 无限专注值" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213838</Offset>
@@ -56,7 +64,7 @@
       <ValueOff>C7-86-2C-01-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Focus" Description="need MC">
+  <Cheat Text="Disable 最大 棍势" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213842</Offset>
@@ -64,7 +72,7 @@
       <ValueOff>C7-86-2C-F6-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max EXP" Description="need MC">
+  <Cheat Text="Disable 经验值最大" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321384C</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>C7-86-6C-F0-FF-FF-80-35-41-49</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Ability Points" Description="need MC">
+  <Cheat Text="Disable 最大 特性 得分" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213856</Offset>
@@ -80,7 +88,7 @@
       <ValueOff>C7-86-AC-01-00-00-00-00-C8-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Cooldown" Description="need MC">
+  <Cheat Text="Disable 最大 Cooldown" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213860</Offset>
@@ -88,7 +96,7 @@
       <ValueOff>C7-86-6C-0D-00-00-00-00-48-43</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max STR" Description="need MC">
+  <Cheat Text="Disable 最大 STR" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321386A</Offset>
@@ -96,7 +104,7 @@
       <ValueOff>C7-86-AC-F2-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max DEX" Description="need MC">
+  <Cheat Text="Disable 最大 DEX" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213874</Offset>
@@ -104,7 +112,7 @@
       <ValueOff>C7-86-2C-F4-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max MAG" Description="need MC">
+  <Cheat Text="Disable 最大 弹匣" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321387E</Offset>
@@ -112,7 +120,7 @@
       <ValueOff>C7-86-EC-F2-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Cunning" Description="need MC">
+  <Cheat Text="Disable 最大 Cunning" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213888</Offset>
@@ -120,7 +128,7 @@
       <ValueOff>C7-86-AC-F5-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Willpower" Description="need MC">
+  <Cheat Text="Disable 意志力最大" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213892</Offset>
@@ -128,7 +136,7 @@
       <ValueOff>C7-86-6C-F4-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max CON" Description="need MC">
+  <Cheat Text="Disable 最大 CON" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321389C</Offset>
@@ -136,7 +144,7 @@
       <ValueOff>C7-86-EC-F1-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Attack" Description="need MC">
+  <Cheat Text="Disable 攻击力最大" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138A6</Offset>
@@ -144,7 +152,7 @@
       <ValueOff>C7-86-2C-F7-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Guard Damage" Description="need MC">
+  <Cheat Text="Disable 最大 防御 输出" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138B0</Offset>
@@ -152,7 +160,7 @@
       <ValueOff>C7-86-6C-04-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Penetration" Description="need MC">
+  <Cheat Text="Disable 最大 Penetration" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138BA</Offset>
@@ -160,7 +168,7 @@
       <ValueOff>C7-86-EC-0C-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Barrier Damage Bonus" Description="need MC">
+  <Cheat Text="Disable 最大 屏障 输出 Bonus" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138C4</Offset>
@@ -168,7 +176,7 @@
       <ValueOff>C7-86-AC-04-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Critical Damage Bonus" Description="need MC">
+  <Cheat Text="Disable 暴击伤害最大 Bonus" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138CE</Offset>
@@ -176,7 +184,7 @@
       <ValueOff>C7-86-EC-FC-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Critical Chance" Description="need MC">
+  <Cheat Text="Disable 最大 暴击 Chance" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138D8</Offset>
@@ -184,7 +192,7 @@
       <ValueOff>C7-86-2C-FC-FF-FF-00-00-FA-43</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Main Hand Bonus" Description="need MC">
+  <Cheat Text="Disable 最大 Main 手牌 Bonus" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138E2</Offset>
@@ -192,7 +200,7 @@
       <ValueOff>C7-86-6C-F7-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Off Hand Bonus" Description="need MC">
+  <Cheat Text="Disable 最大 Off 手牌 Bonus" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138EC</Offset>
@@ -200,7 +208,7 @@
       <ValueOff>C7-86-AC-F7-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Sunder On Hit" Description="need MC">
+  <Cheat Text="Disable 最大 Sunder On Hit" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>32138F6</Offset>
@@ -208,7 +216,7 @@
       <ValueOff>C7-86-AC-06-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Stagger On Hit" Description="need MC">
+  <Cheat Text="Disable 最大 硬直 On Hit" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213900</Offset>
@@ -216,7 +224,7 @@
       <ValueOff>C7-86-EC-06-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Heal On Kill" Description="need MC">
+  <Cheat Text="Disable 治疗 On Kill" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321390A</Offset>
@@ -224,7 +232,7 @@
       <ValueOff>C7-86-2C-07-00-00-00-00-C8-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Flanking Damage" Description="need MC">
+  <Cheat Text="Disable 最大 Flanking 输出" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213914</Offset>
@@ -232,7 +240,7 @@
       <ValueOff>C7-86-2C-0D-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Magic Defense" Description="need MC">
+  <Cheat Text="Disable 魔法防御力最大" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321391E</Offset>
@@ -240,7 +248,7 @@
       <ValueOff>C7-86-EC-04-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Melee Defense" Description="need MC">
+  <Cheat Text="Disable 最大 近战 防御" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213928</Offset>
@@ -248,7 +256,7 @@
       <ValueOff>C7-86-2C-05-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Range Defense" Description="need MC">
+  <Cheat Text="Disable 最大 射程 防御" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213932</Offset>
@@ -256,7 +264,7 @@
       <ValueOff>C7-86-6C-05-00-00-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Cold Resistance" Description="need MC">
+  <Cheat Text="Disable 最大 Cold Resistance" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321393C</Offset>
@@ -264,7 +272,7 @@
       <ValueOff>C7-86-2C-FF-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Electric Resistance" Description="need MC">
+  <Cheat Text="Disable 最大 Electric Resistance" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213946</Offset>
@@ -272,7 +280,7 @@
       <ValueOff>C7-86-6C-FF-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Fire Resistance" Description="need MC">
+  <Cheat Text="Disable 最大 火焰抗性" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213950</Offset>
@@ -280,7 +288,7 @@
       <ValueOff>C7-86-EC-FE-FF-FF-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Spirit Resistance" Description="need MC">
+  <Cheat Text="Disable 最大 精魄 Resistance" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321395A</Offset>
@@ -288,7 +296,7 @@
       <ValueOff>C7-46-EC-00-3C-1C-46</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Guard (Auto Cast)" Description="need MC">
+  <Cheat Text="Disable 最大 防御 (Auto 施法)" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>3213961</Offset>
@@ -296,7 +304,7 @@
       <ValueOff>C7-86-6C-03-00-00-00-00-7A-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Max Barrier (Auto Cast)" Description="need MC">
+  <Cheat Text="Disable 最大 屏障 (Auto 施法)" Description="need MC">
     <Cheatline>
       <Section>0</Section>
       <Offset>321396B</Offset>
@@ -304,7 +312,7 @@
       <ValueOff>C7-86-EC-03-00-00-00-00-7A-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item" Description="use / sell max instantly, for discard it needs x2 to max">
+  <Cheat Text="最大 物品" Description="use / sell max instantly, for discard it needs x2 to max">
     <Cheatline>
       <Section>0</Section>
       <Offset>6D2653</Offset>
@@ -312,7 +320,7 @@
       <ValueOff>0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Max Gold｜金币最大" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>32139E0</Offset>

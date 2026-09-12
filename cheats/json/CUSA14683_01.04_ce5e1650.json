@@ -1,12 +1,17 @@
 {
-  "name": "The Ascent",
+  "name": "The Ascent｜《攀登》",
   "id": "CUSA14683",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Skill points ivreases (on Spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Skill 得分 ivreases (on Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69F7C70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max ucred (on gain)",
-      "type": "checkbox",
+      "name": "最大 ucred (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69F7CC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Basic component (pick up 2 at least)",
-      "type": "checkbox",
+      "name": "最大 Basic component (拾取 2 at least)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69F7DE0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "High Damage/Invincible to most enemies",
-      "type": "checkbox",
+      "name": "High 输出/无敌 to most enemies",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75A7C4",

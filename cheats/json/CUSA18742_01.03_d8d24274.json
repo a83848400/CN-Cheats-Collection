@@ -1,12 +1,17 @@
 {
-  "name": "NieR Replicant",
+  "name": "NieR Replicant｜尼尔：人工生命",
   "id": "CUSA18742",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D2AD4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F660",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max coins (on buy)",
-      "type": "checkbox",
+      "name": "最大 角落 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F590",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "items (on use critical for the game use only in shops)",
-      "type": "checkbox",
+      "name": "items (on use 暴击 for the game use only in shops)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F5B0",

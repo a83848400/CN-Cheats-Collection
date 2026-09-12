@@ -1,12 +1,17 @@
 {
-  "name": "High on Life",
+  "name": "High on 生活",
   "id": "CUSA42391",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8083480",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8083A30",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8083DA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Pesos/warp Crystals (on gain)",
-      "type": "checkbox",
+      "name": "最大 Pesos/跃迁 Crystals (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8083920",

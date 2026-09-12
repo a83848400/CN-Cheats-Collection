@@ -1,12 +1,17 @@
 {
-  "name": "Octopath Traveler II",
+  "name": "八方旅人 II",
   "id": "CUSA36274",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "INFINTE  HP turns off INF SP AND BP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "INFINTE  手机 turns off Infinite 精神值 AND 战斗点数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C4EC00",
@@ -22,8 +27,8 @@
       ]
     },
     {
-      "name": "INFINTE SP AND BP turns off INF HP",
-      "type": "checkbox",
+      "name": "INFINTE 精神值 AND 战斗点数 turns off 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C4EC00",
@@ -39,8 +44,8 @@
       ]
     },
     {
-      "name": "INFINTE  MONEY BUY/SELL TURN OFF AFTER USE",
-      "type": "checkbox",
+      "name": "INFINTE  金钱 BUY/SELL 回合 OFF AFTER USE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AA0901",
@@ -50,8 +55,8 @@
       ]
     },
     {
-      "name": "INF ITEM BUY SELL",
-      "type": "checkbox",
+      "name": "Infinite 物品 BUY SELL",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C4F800",

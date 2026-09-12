@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy XV",
+  "name": "最终幻想 XV",
   "id": "CUSA01615",
   "version": "01.29",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Stats {Go TO Menu}",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 属性 {Go TO 菜单}",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0EA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinte Health",
-      "type": "checkbox",
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D08A0",
@@ -38,7 +43,7 @@
     },
     {
       "name": "Infinte MP",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D08E0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinte Stamina",
-      "type": "checkbox",
+      "name": "Infinte 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9CC1BB",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "TEHNIK BAR Always Full",
-      "type": "checkbox",
+      "name": "TEHNIK BAR Always Full｜TEHNIK BAR 总是座无虚席",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0EE0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Magic No Cooldown",
-      "type": "checkbox",
+      "name": "魔法 无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0F60",
@@ -97,7 +102,7 @@
     },
     {
       "name": "Infinte Regalia Gas",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D1040",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Flying Chocobo ( Hold R2 And Hold O )",
-      "type": "checkbox",
+      "name": "Flying 陆行鸟 ( 领地 R2 And 领地 O )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0FD0",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinte Durability Fisihing",
-      "type": "checkbox",
+      "name": "Infinte Durability Fisihing｜无限耐久钓鱼",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0F80",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Infite technique Ardyn DLC ",
-      "type": "checkbox",
+      "name": "Infite technique Ardyn DLC ｜《Ardyn》技术补丁DLC",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D1020",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "AMIGER Ardyn DLC Unlimited",
-      "type": "checkbox",
+      "name": "AMIGER Ardyn DLC Unlimited｜AMIGER Ardyn DLC 无限版",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D1000",
@@ -176,8 +181,8 @@
       ]
     },
     {
-      "name": "Max Score Ardyn DLC After getting it",
-      "type": "checkbox",
+      "name": "最大 比分 Ardyn DLC After getting it",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0FE0",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "Enemy Instantly Dies",
-      "type": "checkbox",
+      "name": "Enemy Instantly Dies｜敌人当场死亡",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0E00",
@@ -208,8 +213,8 @@
       ]
     },
     {
-      "name": "Max EXP",
-      "type": "checkbox",
+      "name": "Max EXP｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0900",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Max AP",
-      "type": "checkbox",
+      "name": "Max AP｜能力点最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0920",
@@ -240,8 +245,8 @@
       ]
     },
     {
-      "name": "Shop With QP Max",
-      "type": "checkbox",
+      "name": "Shop With QP 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D1080",
@@ -256,8 +261,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0940",
@@ -273,7 +278,7 @@
     },
     {
       "name": "Infinte Gill",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DD591E",
@@ -283,8 +288,8 @@
       ]
     },
     {
-      "name": "Items 99",
-      "type": "checkbox",
+      "name": "Items 99｜商品 99 件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0960",
@@ -299,8 +304,8 @@
       ]
     },
     {
-      "name": "Infinte Items",
-      "type": "checkbox",
+      "name": "Infinte Items｜无限物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "104652E",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Stop Playtime",
-      "type": "checkbox",
+      "name": "停止 Playtime",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C950D9",
@@ -321,8 +326,8 @@
       ]
     },
     {
-      "name": "Reset Playtime To 0",
-      "type": "checkbox",
+      "name": "Reset Playtime To 0｜将播放时间重置为 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D0F00",

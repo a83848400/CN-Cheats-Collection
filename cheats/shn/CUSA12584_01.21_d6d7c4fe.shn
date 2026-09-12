@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light 2: Stay Human" Moder="JustGotenks" Cusa="CUSA12584" Version="01.21" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>5FC7040</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-45-08-A0-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One-hit Kill">
+  <Cheat Text="One-命中击杀">
     <Cheatline>
       <Offset>5FC7090</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-4D-D4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>2ED37B9</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FA-10-45-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Weapon Durability">
+  <Cheat Text="Max Weapon Durability｜武器耐久最大">
     <Cheatline>
       <Offset>2B61762</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-5D-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Keep Items (on use|craft)">
+  <Cheat Text="Keep Items (on use|craft)｜保留物品（使用时|制作时）">
     <Cheatline>
       <Offset>2E4ED4C</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item (on get|buy|craft)">
+  <Cheat Text="最大 物品 (on get|buy|craft)">
     <Cheatline>
       <Offset>2E506FA</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>03-31</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="25x Money Multiplier (on get)">
+  <Cheat Text="25倍 金钱倍率 (on get)">
     <Cheatline>
       <Offset>5FC70E0</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>41-89-F4-49-89-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="25x Skill Points Multiplier">
+  <Cheat Text="25倍 Skill 得分 Multiplier">
     <Cheatline>
       <Offset>5FC7140</Offset>
       <Section>0</Section>

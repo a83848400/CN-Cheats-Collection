@@ -1,12 +1,17 @@
 {
-  "name": "FINAL FANTASY XV POCKET EDITION HD",
+  "name": "最终幻想 XV POCKET EDITION HD",
   "id": "CUSA12648",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money (on buy)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B350",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Items x99 (on use)",
-      "type": "checkbox",
+      "name": "Items x99 (on use)｜物品 x99（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AE20",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Items x99 (on gain)",
-      "type": "checkbox",
+      "name": "Items x99 (on gain)｜物品 x99（获得时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AE70",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "AP x999 (on spent)",
-      "type": "checkbox",
+      "name": "行动点 x999 (已用)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDC0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE80",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Experience Noctis",
-      "type": "checkbox",
+      "name": "最大 Experience Noctis",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B610",

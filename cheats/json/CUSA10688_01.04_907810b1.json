@@ -1,12 +1,17 @@
 {
-  "name": "Injustice 2",
+  "name": "Injustice 2｜《不义联盟2》",
   "id": "CUSA10688",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mastercode ( must be activated )｜主代码（必须激活）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBE1E",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 Player 1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBE24",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Instant Death Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "Instant 死亡 Player 1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBE24",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 Player 2 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBE3D",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Instant Death Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "Instant 死亡 Player 2 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBE3D",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Supermeter Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "Infinite Supermeter Player 1 [ MC ]｜《Infinite Supermeter》玩家1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBDB6",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Zero Supermeter Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "杰洛 Supermeter Player 1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBDB6",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Infinite Supermeter Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "Infinite Supermeter Player 2 [ MC ]｜《Infinite Supermeter Player 2》[ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBDCC",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Zero Supermeter Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "杰洛 Supermeter Player 2 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFBDCC",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Set Timer [ 999 ]",
-      "type": "checkbox",
+      "name": "Set 计时器 [ 999 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EFB9E0",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "391810",

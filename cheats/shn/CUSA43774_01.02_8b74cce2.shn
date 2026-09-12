@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Tomb Raider I-III Remastered Starring Lara Croft" Moder="hejran7" Cusa="CUSA43774" Version="01.02" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinity Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinity 生命" Description="">
     <Cheatline>
       <Offset>7FF7F800</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>48-8B-00-0F-B7-40-22</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Ammo" Description="">
+  <Cheat Text="Infinity Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>7FEDE274</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>66-41-FF-4C-24-16</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Supplies" Description="">
+  <Cheat Text="Infinity 军粮" Description="">
     <Cheatline>
       <Offset>7FF7F812</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>89-C8-0F-BF-14-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="">
+  <Cheat Text="Super Jump｜超级跳跃" Description="">
     <Cheatline>
       <Offset>7FF7F825</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>41-0F-B7-46-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Slow Jump" Description="">
+  <Cheat Text="Slow Jump｜慢跳" Description="">
     <Cheatline>
       <Offset>7FEDED3D</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>3D-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fly Hack" Description="">
+  <Cheat Text="飞行 Hack" Description="">
     <Cheatline>
       <Offset>7FEDED3D</Offset>
       <Section>0</Section>
@@ -202,7 +210,7 @@
       <ValueOff>3D-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Timer" Description="">
+  <Cheat Text="Reset 计时器" Description="">
     <Cheatline>
       <Offset>7FED3FCF</Offset>
       <Section>0</Section>
@@ -222,7 +230,7 @@
       <ValueOff>44-01-B3-A8-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer" Description="">
+  <Cheat Text="Freeze 计时器" Description="">
     <Cheatline>
       <Offset>7FED3FCF</Offset>
       <Section>0</Section>
@@ -242,7 +250,7 @@
       <ValueOff>44-01-B3-A8-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Save Count" Description="">
+  <Cheat Text="Reset 保存 Count" Description="">
     <Cheatline>
       <Offset>7FF7F833</Offset>
       <Section>0</Section>
@@ -280,7 +288,7 @@
       <ValueOff>FF-84-83-7C-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change Outfit (Photomode)" Description="">
+  <Cheat Text="Change Outfit (Photomode)｜更换服装（拍照模式）" Description="">
     <Cheatline>
       <Offset>7FF4A3CD</Offset>
       <Section>0</Section>
@@ -300,7 +308,7 @@
       <ValueOff>C5-F8-11-80-CC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Forward Timer" Description="">
+  <Cheat Text="Fast Forward 计时器" Description="">
     <Cheatline>
       <Offset>5188</Offset>
       <Section>0</Section>

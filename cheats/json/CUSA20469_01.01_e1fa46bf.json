@@ -1,12 +1,17 @@
 {
-  "name": "Cuphead",
+  "name": "Cuphead｜《Cuphead》",
   "id": "CUSA20469",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1583B00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Extra Special (On Use)",
-      "type": "checkbox",
+      "name": "无限特别版 (On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807368F1",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Plane Extra Special (On Use)",
-      "type": "checkbox",
+      "name": "《无限平面》特别版 (On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1584000",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Gold (Enter The Store To Activate)",
-      "type": "checkbox",
+      "name": "金币最大 (Enter The Store To Activate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1583AA0",

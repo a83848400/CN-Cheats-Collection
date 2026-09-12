@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Silent Hill 2: Director's Cut" Moder="Ali-mk" Cusa="SLES51156" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="All-Items">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="All-Items｜所有商品">
     <Cheatline>
       <Offset>807FDDF798</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>00-00-7F-FF</ValueOff>
     </Cheatline>
  </Cheat>
-  <Cheat Text="Inf-Ammo-And-Item">
+  <Cheat Text="无限弹药-And-物品">
     <Cheatline>
       <Offset>807FDB78A8</Offset>
       <Section>0</Section>

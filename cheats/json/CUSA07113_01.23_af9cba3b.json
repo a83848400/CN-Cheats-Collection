@@ -1,12 +1,17 @@
 {
-  "name": "Nioh",
+  "name": "Nioh｜仁王",
   "id": "CUSA07113",
   "version": "01.23",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (can receive damage from falling or fire)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (can receive 输出 from falling or 火)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14473F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1447920",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "2 Hits kill (can die from walking into Fire)",
-      "type": "checkbox",
+      "name": "2 Hits kill (can die from walking into 火)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1446CE0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Amrita (on spend)",
-      "type": "checkbox",
+      "name": "Infinite 精华 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1447C70",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "99 Items (on use)",
-      "type": "checkbox",
+      "name": "99 Items (on use)｜99 件（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1447C20",

@@ -1,12 +1,17 @@
 {
-  "name": "Tiny Tina's Wonderlands",
+  "name": "Tiny 蒂娜's Wonderlands",
   "id": "CUSA23766",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A697800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf XP",
-      "type": "checkbox",
+      "name": "无限经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A69782F",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Skill Point use it once After max XP cheat",
-      "type": "checkbox",
+      "name": "Infinite Skill Point use it once After 最大 XP cheat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A697842",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Money on gain",
-      "type": "checkbox",
+      "name": "金钱无限 on gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A69784A",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Money on spend ",
-      "type": "checkbox",
+      "name": "金钱无限 on spend ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A69785B",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Inf Ammo use it with No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 use it with 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A697869",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A697871",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Inf Myth Points use it once After max XP cheat",
-      "type": "checkbox",
+      "name": "Infinite Myth 得分 use it once After 最大 XP cheat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A697879",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Inf Hero Points use it once After max XP cheat",
-      "type": "checkbox",
+      "name": "Infinite 英雄 得分 use it once After 最大 XP cheat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A697881",

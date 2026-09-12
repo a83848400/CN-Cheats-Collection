@@ -1,12 +1,17 @@
 {
-  "name": "Mortal Kombat 11",
+  "name": "Mortal Kombat 11｜《真人快打11》",
   "id": "CUSA11379",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Dont Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Dont Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2D00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1 Hit",
-      "type": "checkbox",
+      "name": "无限生命 / 1 Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2F00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Offense / Defense Bars",
-      "type": "checkbox",
+      "name": "Infinite Offense / 防御 Bars",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2E00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Opp Bars Not Refilled(Use With Inf Bars)",
-      "type": "checkbox",
+      "name": "Opp Bars Not Refilled(Use With Infinite Bars)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3000",

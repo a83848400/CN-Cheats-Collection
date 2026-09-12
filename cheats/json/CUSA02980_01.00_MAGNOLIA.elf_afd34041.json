@@ -1,12 +1,17 @@
 {
-  "name": "Borderlands: The Handsome Collection",
+  "name": "无主之地: The Handsome Collection",
   "id": "CUSA02980",
   "version": "01.00",
   "process": "MAGNOLIA.elf",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "743092",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints / Badass-Tokens",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints / Badass-Tokens｜无限技能点 / 硬汉代币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5bedb",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Set Max Money / Eridium / Tokens",
-      "type": "button",
+      "name": "Set 金钱最大 / 镒矿 / Tokens",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "c72be9",

@@ -1,12 +1,17 @@
 {
-  "name": "Scarlet Nexus",
+  "name": "Scarlet 基地水晶",
   "id": "CUSA25132",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DCA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinte Health",
-      "type": "checkbox",
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DC40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Health",
-      "type": "checkbox",
+      "name": "Max Health｜生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DD00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "SAS Skill Instant Refill",
-      "type": "checkbox",
+      "name": "SAS Skill Instant Refill｜SAS技能即时补充",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DD60",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "SAS Skill No Cooldown",
-      "type": "checkbox",
+      "name": "SAS Skill 无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DF00",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Psychokenesis Attack ( Still Decrease But Always Avaliable )",
-      "type": "checkbox",
+      "name": "Infinite Psychokenesis 攻击 ( Still Decrease But Always Avaliable )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DF60",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DDC0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Infinite BP",
-      "type": "checkbox",
+      "name": "Infinite 战斗点数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1120AE0",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinte Items",
-      "type": "checkbox",
+      "name": "Infinte Items｜无限物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111BB30",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Max EXP",
-      "type": "checkbox",
+      "name": "Max EXP｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DE10",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F3DEB0",

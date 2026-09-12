@@ -1,17 +1,22 @@
 {
-  "name": "Castlevania: Curse of Darkness",
+  "name": "恶魔城: 紧箍咒 of Darkness",
   "id": "SLUS21168",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "RETURN-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "RETURN-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80806EFAE8",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "80806F2184",
@@ -21,23 +26,23 @@
       ]
     },
     {
-      "name": "MAX-EXP",
-      "type": "checkbox",
+      "name": "最大-经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80806EFADC",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "80806EFADD",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "80806EFADE",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     }

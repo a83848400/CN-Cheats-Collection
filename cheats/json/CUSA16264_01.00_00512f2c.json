@@ -1,12 +1,17 @@
 {
-  "name": "One Punch Man: A Hero Nobody Knows",
+  "name": "One Punch Man: A 英雄 Nobody Knows",
   "id": "CUSA16264",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "time freeze",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "time freeze｜时间静止",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C7758",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "god mode",
-      "type": "checkbox",
+      "name": "god mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCF29",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "max mp after used magical skill",
-      "type": "checkbox",
+      "name": "最大 mp after used magical skill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCF46",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "one punch dead",
-      "type": "checkbox",
+      "name": "one punch dead｜一拳毙命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43AEFA",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "strength inf",
-      "type": "checkbox",
+      "name": "力量 Infinite",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43D9CC",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "money max after used",
-      "type": "checkbox",
+      "name": "金钱最大 after used",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C61D88",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Growth points zero can work",
-      "type": "checkbox",
+      "name": "Growth 得分 杰洛 can work",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C3378",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Community contribution max",
-      "type": "checkbox",
+      "name": "Community contribution 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCF56",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "hero level S",
-      "type": "checkbox",
+      "name": "英雄 等级 S",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCF6C",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "level 99 after kill one",
-      "type": "checkbox",
+      "name": "等级99 after kill one",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCF83",
@@ -145,8 +150,8 @@
       ]
     },
     {
-      "name": "skill level max",
-      "type": "checkbox",
+      "name": "skill level max｜技能等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCF95",
@@ -161,8 +166,8 @@
       ]
     },
     {
-      "name": "green bird head money inf",
-      "type": "checkbox",
+      "name": "green bird head 金钱 Infinite",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCFAC",
@@ -177,8 +182,8 @@
       ]
     },
     {
-      "name": "blue bird head money inf",
-      "type": "checkbox",
+      "name": "blue bird head 金钱 Infinite",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BFCFBC",
@@ -193,8 +198,8 @@
       ]
     },
     {
-      "name": "gold bird head money inf",
-      "type": "checkbox",
+      "name": "金币 bird head 金钱 Infinite",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FE3A6",

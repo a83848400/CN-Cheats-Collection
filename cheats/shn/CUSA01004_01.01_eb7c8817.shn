@@ -63,7 +63,15 @@
       <ValueOff>C5-FA-11-43-24</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>12B3800</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill" Description="">
+  <Cheat Text="1 Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>12B3801</Offset>
       <Section>0</Section>
@@ -79,7 +87,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Health Regeneration" Description="">
+  <Cheat Text="Instant 生命 Regeneration" Description="">
     <Cheatline>
       <Offset>5A154B</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>C5-FA-5D-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="">
+  <Cheat Text="Infinite Money｜金钱无限" Description="">
     <Cheatline>
       <Offset>4BBAC4</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>44-29-B0-C4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on use" Description="">
+  <Cheat Text="金钱最大 on use" Description="">
     <Cheatline>
       <Offset>4BBAC4</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>44-29-B0-C4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>569F63</Offset>
       <Section>0</Section>
@@ -111,7 +119,7 @@
       <ValueOff>0F-4F-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>569841</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>0F-4F-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Wanted" Description="">
+  <Cheat Text="Never Wanted｜从未想要过" Description="">
     <Cheatline>
       <Offset>4B63BB</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>C5-FA-10-45-EC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Gauge" Description="">
+  <Cheat Text="简单 Gauge" Description="">
     <Cheatline>
       <Offset>12B3852</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>C5-FA-5D-05-CB-12-BB-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Skills" Description="">
+  <Cheat Text="解锁 Skills" Description="">
     <Cheatline>
       <Offset>12B387A</Offset>
       <Section>0</Section>
@@ -155,7 +163,7 @@
       <ValueOff>8B-84-81-CC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game-Speed: Very Slow (0.1)" Description="">
+  <Cheat Text="Game-速度: Very Slow (0.1)" Description="">
     <Cheatline>
       <Offset>12B38CA</Offset>
       <Section>0</Section>
@@ -163,7 +171,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game-Speed: Slow (0.3)" Description="">
+  <Cheat Text="Game-速度: Slow (0.3)" Description="">
     <Cheatline>
       <Offset>12B38CA</Offset>
       <Section>0</Section>
@@ -171,7 +179,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game-Speed: Fast (2)" Description="">
+  <Cheat Text="Game-速度: Fast (2)" Description="">
     <Cheatline>
       <Offset>12B38CA</Offset>
       <Section>0</Section>
@@ -179,7 +187,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Day-Time: Midnight" Description="">
+  <Cheat Text="Day-Time: Midnight｜时间：午夜" Description="">
     <Cheatline>
       <Offset>12B3912</Offset>
       <Section>0</Section>
@@ -187,7 +195,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Day-Time: Noon" Description="">
+  <Cheat Text="Day-Time: Noon｜白天：中午" Description="">
     <Cheatline>
       <Offset>12B3912</Offset>
       <Section>0</Section>

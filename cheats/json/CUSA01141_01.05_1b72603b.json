@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Revelations 2",
+  "name": "生化危机: Revelations 2",
   "id": "CUSA01141",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[01] Immunity",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[01] Immunity｜[01] 豁免权",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540420",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "[02] Infinite HP",
-      "type": "checkbox",
+      "name": "[02] 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540230",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "[03a] 1 Hit Kill",
-      "type": "checkbox",
+      "name": "[03a] 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540244",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "[03b] 1 Hit Kill (Even Torchlight/Pointing)",
-      "type": "checkbox",
+      "name": "[03b] 一击必杀 (Even Torchlight/Pointing)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540600",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "[04] L2+X Kills Instantly All NMEs",
-      "type": "checkbox",
+      "name": "[04] L2+艾克斯 Kills Instantly All NMEs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540940",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "[05] L2+R2+X Change First Weapon In Quick Menu (Needs Autosave + Retry)",
-      "type": "checkbox",
+      "name": "[05] L2+R2+艾克斯 Change First Weapon In Quick 菜单 (需求 Autosave + Retry)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15409A0",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "[06] Workbench: All Weapons Unlocked (If AUTOSAVE Then Permanent)",
-      "type": "checkbox",
+      "name": "[06] Workbench: All 武器 Unlocked (If AUTOSAVE Then Permanent)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540B20",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "[07] Workbench: All Improvements (Infinite)",
-      "type": "checkbox",
+      "name": "[07] Workbench: All Improvements (Infinite)｜[07] 工作台：所有改进（无限）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540500",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "[08] Workbench: Use Same Upgrades Parts Possible",
-      "type": "checkbox",
+      "name": "[08] Workbench: Use Same Upgrades Parts Possible｜[08] 工作台：尽可能使用相同的升级部件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6BA299",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "[09] Infinite Ammo / No Reload",
-      "type": "checkbox",
+      "name": "[09] 无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540200",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "[10] Aiming Laser",
-      "type": "checkbox",
+      "name": "[10] Aiming 激光瞄准器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33906E",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "[11a] Player`s Speed x2 (Careful When jumping Down Fast)",
-      "type": "checkbox",
+      "name": "[11a] Player`s 速度 x2 (Careful When jumping Down Fast)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540260",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "[11b] Player`s Speed x4 (Careful When jumping Down Fast)",
-      "type": "checkbox",
+      "name": "[11b] Player`s 速度 x4 (Careful When jumping Down Fast)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540260",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "[12] Some Keys/Items (-Fuel, Artificial Eye, Left Liver, Sewer, Barry Episode 4)",
-      "type": "checkbox",
+      "name": "[12] Some Keys/Items (-Fuel, Artificial Eye, Left Liver, Sewer, Barry 章节 4)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540700",
@@ -239,8 +244,8 @@
       ]
     },
     {
-      "name": "[13] Bags: Slots Maxed (10-15)",
-      "type": "checkbox",
+      "name": "[13] 背包: Slots Maxed (10-15)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540370",
@@ -265,8 +270,8 @@
       ]
     },
     {
-      "name": "[14] Bags: Infinite Items",
-      "type": "checkbox",
+      "name": "[14] 背包: 道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540300",
@@ -281,8 +286,8 @@
       ]
     },
     {
-      "name": "[15] Flashlight Batteries Full",
-      "type": "checkbox",
+      "name": "[15] 手电筒 电池 Full",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540320",
@@ -297,8 +302,8 @@
       ]
     },
     {
-      "name": "[16] Infinite PB (+666.666)",
-      "type": "checkbox",
+      "name": "[16] Infinite PB (+666.666)｜[16] 无限PB (+666.666)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540340",
@@ -323,8 +328,8 @@
       ]
     },
     {
-      "name": "[17] S Rank: Accuracy = 100.0",
-      "type": "checkbox",
+      "name": "[17] S 阶级: Accuracy = 100.0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15404C0",
@@ -339,8 +344,8 @@
       ]
     },
     {
-      "name": "[18] S Rank: Retries = 0",
-      "type": "checkbox",
+      "name": "[18] S 阶级: Retries = 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15404A0",
@@ -355,8 +360,8 @@
       ]
     },
     {
-      "name": "[19] S Rank: Clear Time  = 00:00 00",
-      "type": "checkbox",
+      "name": "[19] S 阶级: Clear Time  = 00:00 00",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15404D0",
@@ -371,8 +376,8 @@
       ]
     },
     {
-      "name": "[20] Timer Frozen (06:06:06)",
-      "type": "checkbox",
+      "name": "[20] 计时器 冰冻 (06:06:06)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15405D0",
@@ -387,8 +392,8 @@
       ]
     },
     {
-      "name": "[21] Barry: Valves Open Easily (One Turn)",
-      "type": "checkbox",
+      "name": "[21] Barry: Valves Open Easily (One 回合)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CC63F",
@@ -398,8 +403,8 @@
       ]
     },
     {
-      "name": "[22] Toxic Gas Has No Effect (Barry/Natalia -Lift)",
-      "type": "checkbox",
+      "name": "[22] Toxic Gas Has 没有效果 (Barry/Natalia -Lift)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540F30",
@@ -414,8 +419,8 @@
       ]
     },
     {
-      "name": "[23] The Struggle: Infinite Ratios",
-      "type": "checkbox",
+      "name": "[23] The 挣扎: Infinite Ratios",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15407A0",
@@ -430,8 +435,8 @@
       ]
     },
     {
-      "name": "[24] Raid Mode: Players` Level 100",
-      "type": "checkbox",
+      "name": "[24] 团本 Mode: Players` 等级100",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540C60",
@@ -446,8 +451,8 @@
       ]
     },
     {
-      "name": "[25] Raid Mode: All Weapons Upgrades Unlocked +Infinite",
-      "type": "checkbox",
+      "name": "[25] 团本 Mode: All 武器 Upgrades Unlocked +Infinite",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540C00",
@@ -467,8 +472,8 @@
       ]
     },
     {
-      "name": "[26] Raid Mode: Weapons Level 100 (Go Once To Customize)",
-      "type": "checkbox",
+      "name": "[26] 团本 Mode: 武器 等级100 (Go Once To Customize)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540D10",
@@ -483,8 +488,8 @@
       ]
     },
     {
-      "name": "[27] Raid Mode: Firepower Hyper Beyond Limits (Go Once To Customize)",
-      "type": "checkbox",
+      "name": "[27] 团本 Mode: Firepower Hyper Beyond Limits (Go Once To Customize)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540DE0",
@@ -499,8 +504,8 @@
       ]
     },
     {
-      "name": "[28] Raid Mode: All Skills Unlocked +Maxed",
-      "type": "checkbox",
+      "name": "[28] 团本 Mode: All Skills Unlocked +Maxed",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540CC0",
@@ -520,8 +525,8 @@
       ]
     },
     {
-      "name": "[29] Raid Mode: Timer = 0",
-      "type": "checkbox",
+      "name": "[29] 团本 Mode: 计时器 = 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540890",
@@ -536,8 +541,8 @@
       ]
     },
     {
-      "name": "[30] Raid Mode: Infinite Gold",
-      "type": "checkbox",
+      "name": "[30] 团本 Mode: 无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540860",
@@ -552,8 +557,8 @@
       ]
     },
     {
-      "name": "[31] Raid Mode: Infinite Skill Points (SP)",
-      "type": "checkbox",
+      "name": "[31] 团本 Mode: Infinite Skill 得分 (精神值)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540A40",
@@ -578,8 +583,8 @@
       ]
     },
     {
-      "name": "[32] Raid Mode: Infinite Bottles/Bombs",
-      "type": "checkbox",
+      "name": "[32] 团本 Mode: Infinite 玻璃瓶/Bombs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540A80",
@@ -594,8 +599,8 @@
       ]
     },
     {
-      "name": "[33] Raid Mode: No Reload For Bewilder, Stealth, Armour, Rocket Skills",
-      "type": "checkbox",
+      "name": "[33] 团本 Mode: 无需换弹 For Bewilder, 潜行, Armour, Rocket Skills",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540E60",
@@ -610,8 +615,8 @@
       ]
     },
     {
-      "name": "[34] Raid Mode: Infinite Stealth + Armor",
-      "type": "checkbox",
+      "name": "[34] 团本 Mode: Infinite 潜行 + Armor",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540EC0",
@@ -626,8 +631,8 @@
       ]
     },
     {
-      "name": "[35a] Raid Mode: Weapons Tags [Short Range]",
-      "type": "checkbox",
+      "name": "[35a] 团本 Mode: 武器 Tags [Short 射程]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540D40",
@@ -642,8 +647,8 @@
       ]
     },
     {
-      "name": "[35b] Raid Mode: Weapons Tags [Long Range]",
-      "type": "checkbox",
+      "name": "[35b] 团本 Mode: 武器 Tags [Long 射程]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540D50",
@@ -658,8 +663,8 @@
       ]
     },
     {
-      "name": "[35c] Raid Mode: Weapons Tags [Speed Shot]",
-      "type": "checkbox",
+      "name": "[35c] 团本 Mode: 武器 Tags [速度 Shot]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540D60",
@@ -674,8 +679,8 @@
       ]
     },
     {
-      "name": "[35d] Raid Mode: Weapons Tags [Steady Shot]",
-      "type": "checkbox",
+      "name": "[35d] 团本 Mode: 武器 Tags [Steady Shot]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540D70",
@@ -690,8 +695,8 @@
       ]
     },
     {
-      "name": "[35e] Raid Mode: Weapons Tags [Speed Load]",
-      "type": "checkbox",
+      "name": "[35e] 团本 Mode: 武器 Tags [速度 读取]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540D80",
@@ -706,8 +711,8 @@
       ]
     },
     {
-      "name": "[35f] Raid Mode: Weapons Tags [Sonic Assist]",
-      "type": "checkbox",
+      "name": "[35f] 团本 Mode: 武器 Tags [索尼克 助攻]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540D90",
@@ -722,8 +727,8 @@
       ]
     },
     {
-      "name": "[35g] Raid Mode: Weapons Tags [Sonic Assist+]",
-      "type": "checkbox",
+      "name": "[35g] 团本 Mode: 武器 Tags [索尼克 助攻+]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540DA0",
@@ -738,8 +743,8 @@
       ]
     },
     {
-      "name": "[35h] Raid Mode: Weapons Tags [Short Range+]",
-      "type": "checkbox",
+      "name": "[35h] 团本 Mode: 武器 Tags [Short 射程+]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540DB0",
@@ -754,8 +759,8 @@
       ]
     },
     {
-      "name": "[35i] Raid Mode: Weapons Tags [Long Range+]",
-      "type": "checkbox",
+      "name": "[35i] 团本 Mode: 武器 Tags [Long 射程+]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540DC0",
@@ -770,8 +775,8 @@
       ]
     },
     {
-      "name": "[35j] Raid Mode: Weapons Tags [Unique Weapon Name]",
-      "type": "checkbox",
+      "name": "[35j] 团本 Mode: 武器 Tags [Unique Weapon Name]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540DD0",
@@ -786,8 +791,8 @@
       ]
     },
     {
-      "name": "[36] Frozen NMEs",
-      "type": "checkbox",
+      "name": "[36] 冰冻 NMEs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9AEE8A",
@@ -797,8 +802,8 @@
       ]
     },
     {
-      "name": "[37] NME Don`t Walk/Run (Pedro and Barry Assault = Cheat 04 Needed)",
-      "type": "checkbox",
+      "name": "[37] NME Don`恐怖分子 Walk/Run (Pedro and Barry Assault = Cheat 04 Needed)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1540620",
@@ -813,8 +818,8 @@
       ]
     },
     {
-      "name": "[38a] Player`s Size x2 (Unplayable)",
-      "type": "checkbox",
+      "name": "[38a] Player`s Size x2 (Unplayable)｜[38a] 玩家尺寸×2（不可玩）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15403B0",
@@ -829,8 +834,8 @@
       ]
     },
     {
-      "name": "[38b] Player`s Size x1",
-      "type": "checkbox",
+      "name": "[38b] Player`s Size x1｜[38b] 玩家尺寸 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15403B0",
@@ -845,8 +850,8 @@
       ]
     },
     {
-      "name": "[38c] Player`s Size x0.5 (Unplayable)",
-      "type": "checkbox",
+      "name": "[38c] Player`s Size x0.5 (Unplayable)｜[38c] 玩家体型 × 0.5（无法操控）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15403B0",

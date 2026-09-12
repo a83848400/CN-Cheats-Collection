@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>7FC48710</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-86-4C-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ink Ribbons">
+  <Cheat Text="Infinite 墨水 Ribbons">
     <Cheatline>
       <Offset>7FC4A450</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>4C-8D-6C-C3-2C-45-89-75-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ammo/Clip/Items (99)">
+  <Cheat Text="最大/无限弹药/Clip/Items (99)">
     <Cheatline>
       <Offset>7FC481C0</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>44-89-30-44-89-60-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Dagger (Need 2 To Work/99)">
+  <Cheat Text="最大/Infinite 匕首 (Need 2 To Work/99)">
     <Cheatline>
       <Offset>7FC48E00</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>46-89-BC-AB-7C-50-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Handgun (Activate/Enter/Deactivate)">
+  <Cheat Text="手枪 (Activate/Enter/Deactivate)">
     <Cheatline>
       <Offset>7FC48D60</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>48-8D-44-C3-2C-44-89-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Samurai Edge (Activate/Enter/Deactivate)">
+  <Cheat Text="武士 Edge (Activate/Enter/Deactivate)">
     <Cheatline>
       <Offset>7FC493B0</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>48-8D-44-C3-2C-44-89-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Aways 0">
+  <Cheat Text="保存 Aways 0">
     <Cheatline>
       <Offset>7FC48720</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>8B-87-5C-47-0E-00-41-89-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Weapons/Items In The Chest (Tranfer The Knife)">
+  <Cheat Text="All 武器/Items In The 宝箱 (Tranfer The 刀)">
     <Cheatline>
       <Offset>AA6038</Offset>
       <Section>0</Section>

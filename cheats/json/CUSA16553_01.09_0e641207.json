@@ -1,12 +1,17 @@
 {
-  "name": "Cat Quest II",
+  "name": "《猫之冒险》 II",
   "id": "CUSA16553",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health ｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186E230",

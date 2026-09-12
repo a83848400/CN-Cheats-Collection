@@ -1,12 +1,17 @@
 {
-  "name": "Rage 2",
+  "name": "怒气 2",
   "id": "CUSA10300",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infi ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D3F0E0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inif items",
-      "type": "checkbox",
+      "name": "inif items｜无限数量的物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D30E17",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "infi Throwables",
-      "type": "checkbox",
+      "name": "投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D3AEB4",

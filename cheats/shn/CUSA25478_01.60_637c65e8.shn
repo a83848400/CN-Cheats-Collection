@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>275FDB0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-81-6C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gota de Sangue Vermelha Infinita">
+  <Cheat Text="Gota de Sangue Vermelha Infinita｜无尽的红色血滴">
     <Cheatline>
       <Offset>275FDE0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>89-81-80-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sangue de Juiz Infinito">
+  <Cheat Text="Sangue de Juiz Infinito｜无限法官之血">
     <Cheatline>
       <Offset>2000000</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>89-81-50-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Municao Infinita">
+  <Cheat Text="Municao Infinita｜无限交流">
     <Cheatline>
       <Offset>275FDF0</Offset>
       <Section>0</Section>

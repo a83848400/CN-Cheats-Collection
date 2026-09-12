@@ -1,12 +1,17 @@
 {
-  "name": "The Suffering: Ties That Bind",
+  "name": "The Suffering: Ties That Bind｜《苦难：维系之羁绊》",
   "id": "SLES53626",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Ammo/No-Reloads",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药/无需装弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF26A2C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf-Flashlight-Power",
-      "type": "checkbox",
+      "name": "Infinite-手电筒-电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE69944",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max-Inf-Health-Kits",
-      "type": "checkbox",
+      "name": "最大-Infinite-生命-Kits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEAF2A0",

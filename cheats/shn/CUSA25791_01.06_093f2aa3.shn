@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Golden Force" Moder="Reddevil82 - FW 9.00" Cusa="CUSA25791" Version="01.06" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Max Lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Lives">
     <Cheatline>
       <Offset>18B7DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>0F-84-F3-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill ( dont use on boss )">
+  <Cheat Text="一击必杀 ( dont use on boss )">
     <Cheatline>
       <Offset>18B7DD6</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-89-46-28-29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins ( on gain )">
+  <Cheat Text="最大 角落 ( on gain )">
     <Cheatline>
       <Offset>18B7DF0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-01-5C-24-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Combo">
+  <Cheat Text="最大 Combo">
     <Cheatline>
       <Offset>18B7E03</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-8B-5C-24-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Medailles">
+  <Cheat Text="最大 Medailles">
     <Cheatline>
       <Offset>18B7E16</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>0F-84-91-00-00-00-44-8B-78-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cokiajs">
+  <Cheat Text="最大 Cokiajs">
     <Cheatline>
       <Offset>18B7E2C</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>0F-84-9C-00-00-00-44-8B-78-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Combo Time">
+  <Cheat Text="无限连击 Time">
     <Cheatline>
       <Offset>18B7E42</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode: Infinite Items Time ( after use )">
+  <Cheat Text="主代码: 道具无限 Time ( after use )">
     <Cheatline>
       <Offset>18B7E63</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>C5-FA-11-43-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fire Boost Time [MC] ( after use  )">
+  <Cheat Text="Infinite 火 Boost Time [MC] ( after use  )">
     <Cheatline>
       <Offset>18B7E69</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>C5-FA-11-43-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ice Boost Time [MC] ( after use  )">
+  <Cheat Text="Infinite Ice Boost Time [MC] ( after use  )｜无限冰霜增益持续时间 [MC]（使用后）">
     <Cheatline>
       <Offset>18B7E79</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>C5-FA-11-43-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Invincible Time [MC] ( after use  )">
+  <Cheat Text="Infinite 无敌 Time [MC] ( after use  )">
     <Cheatline>
       <Offset>18B7E89</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C5-FA-11-43-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Attack Boost Time [MC] ( after use  )">
+  <Cheat Text="Infinite 攻击 Boost Time [MC] ( after use  )">
     <Cheatline>
       <Offset>18B7E99</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>C5-FA-11-43-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump">
+  <Cheat Text="Super Jump｜超级跳跃">
     <Cheatline>
       <Offset>18B7E50</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Yokushin: GigaWing Generations",
+  "name": "Yokushin: GigaWing Generations｜Yokushin：GigaWing Generations",
   "id": "SLPM62602",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80800F2400",
@@ -16,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite-Bomb P1",
-      "type": "checkbox",
+      "name": "无限炸弹 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD75CA8",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "807FD75CA9",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

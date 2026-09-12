@@ -1,13 +1,18 @@
 {
-  "name": "Sonic Frontiers",
+  "name": "索尼克 Frontiers",
   "id": "PPSA03831",
   "version": "01.041.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Rings",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 金环",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F000",
@@ -37,9 +42,9 @@
       ]
     },
     {
-      "name": "Inf Turbo",
+      "name": "Infinite 涡轮",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13ABA85",
@@ -49,9 +54,9 @@
       ]
     },
     {
-      "name": "Inf O2",
+      "name": "Infinite 氧气",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F05B",
@@ -66,9 +71,9 @@
       ]
     },
     {
-      "name": "Stop Timers",
+      "name": "停止 Timers",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42B1C3",
@@ -83,9 +88,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F094",
@@ -100,9 +105,9 @@
       ]
     },
     {
-      "name": "Inf Memories Coins",
+      "name": "《无限回忆》金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F0C5",
@@ -117,9 +122,9 @@
       ]
     },
     {
-      "name": "Inf Small Items",
+      "name": "无数的小物件",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F0F8",
@@ -134,9 +139,9 @@
       ]
     },
     {
-      "name": "Inf Blue Coins",
+      "name": "无限蓝币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F125",
@@ -151,9 +156,9 @@
       ]
     },
     {
-      "name": "Inf Seeds",
+      "name": "无限种子",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F156",
@@ -168,9 +173,9 @@
       ]
     },
     {
-      "name": "Inf Fishing Coins",
+      "name": "Infinite 捕鱼 角落",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F188",
@@ -185,9 +190,9 @@
       ]
     },
     {
-      "name": "Inf Fishing Golden Tickets",
+      "name": "Infinite 捕鱼 金色 Tickets",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F1BB",
@@ -202,9 +207,9 @@
       ]
     },
     {
-      "name": "Inf Gears and Keys (Activate after 1-2 Level)",
+      "name": "Infinite 战争机器 and Keys (Activate after 1-2 等级)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F1F0",
@@ -219,9 +224,9 @@
       ]
     },
     {
-      "name": "Easy points on Minigames",
+      "name": "简单 得分 on Minigames",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F220",
@@ -236,9 +241,9 @@
       ]
     },
     {
-      "name": "Inf Jumps",
+      "name": "无限跳跃",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4F252",

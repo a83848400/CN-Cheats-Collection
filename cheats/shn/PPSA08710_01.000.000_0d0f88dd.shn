@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Silent Hill 2" Moder="Super Death" Cusa="PPSA08710" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health ｜无限生命">
     <Cheatline>
       <PS5Offset>362405E-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>C5-FA-11-83-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items and Ammo" Description="x99 consumables on use">
+  <Cheat Text="道具无限 and 但是" Description="x99 consumables on use">
     <Cheatline>
       <PS5Offset>7E9-executable[0]-5</PS5Offset>
       <Section>0</Section>

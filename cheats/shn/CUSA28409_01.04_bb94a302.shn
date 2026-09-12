@@ -32,7 +32,15 @@
       <ValueOff>E9-F9-2A-7E-00</ValueOff>
     </Cheatline>
   </StartUP>
-    <Cheat Text="Infinite-Arrow">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+    <Cheat Text="Infinite-Arrow｜无限之箭">
     <Cheatline>
       <Offset>382140</Offset>
       <Section>0</Section>

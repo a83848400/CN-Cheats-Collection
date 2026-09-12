@@ -1,12 +1,17 @@
 {
-  "name": "Middle-Earth: Shadow of War",
+  "name": "Middle-土: 暗影 of War",
   "id": "CUSA04402",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infiinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infiinite 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F0A2B0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max and infinite arrow",
-      "type": "checkbox",
+      "name": "最大 and 无限之箭",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E25E88",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "infinite Gem and Mirian",
-      "type": "checkbox",
+      "name": "infinite Gem and Mirian｜无限宝石与米里安",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17D30BB",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "infinite Focus",
-      "type": "checkbox",
+      "name": "infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EFA300",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "infinite might",
-      "type": "checkbox",
+      "name": "infinite might｜无穷的力量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111F633",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "infinite  wrath",
-      "type": "checkbox",
+      "name": "infinite  wrath｜无尽的愤怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "112DB9D",

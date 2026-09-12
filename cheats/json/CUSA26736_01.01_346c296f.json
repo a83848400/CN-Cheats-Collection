@@ -1,12 +1,17 @@
 {
-  "name": "Wonder Boy: Asha in Monster World",
+  "name": "奇观 Boy: Asha in 妖兽 World",
   "id": "CUSA26736",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Red Hearts",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Red 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7E09",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Red Hearts",
-      "type": "checkbox",
+      "name": "最大 Red 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7E1B",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Blue Hearts",
-      "type": "checkbox",
+      "name": "Infinite Blue 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7DD3",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Blue Hearts",
-      "type": "checkbox",
+      "name": "最大 Blue 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7DF7",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Charge Power",
-      "type": "checkbox",
+      "name": "Infinite 冲锋 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7E2D",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7E63",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Coins ( on gain )",
-      "type": "checkbox",
+      "name": "最大 角落 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7DB0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7E63",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Change Difficult [ EASY ]",
-      "type": "checkbox",
+      "name": "Change Difficult [ 简单 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7E3F",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Change Difficult [ NORMAL ]",
-      "type": "checkbox",
+      "name": "Change Difficult [ 普通 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E7E51",

@@ -4,7 +4,15 @@
   <Genres Name="FPS" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health/Shield">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/盾牌">
     <Cheatline>
       <Offset>3379390</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C4-E3-79-17-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (except some Bosses -necessary-)">
+  <Cheat Text="一击必杀 (except some Bosses -necessary-)">
     <Cheatline>
       <Offset>3379410</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C4-E3-79-17-08-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player: Double Speed">
+  <Cheat Text="Player: Double 速度">
     <Cheatline>
       <Offset>3379590</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>89-85-34-BC-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player: Double Height (Jump)">
+  <Cheat Text="Player: Double Height (Jump)｜玩家：双倍高度（跳跃）">
     <Cheatline>
       <Offset>33795E0</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>E8-25-10-EA-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lives (no need to pick one)">
+  <Cheat Text="无限生命 (no need to pick one)">
     <Cheatline>
       <Offset>3379240</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>8B-47-38-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dash">
+  <Cheat Text="Infinite Dash｜无限冲刺">
     <Cheatline>
       <Offset>3379270</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jump">
+  <Cheat Text="Infinite Jump｜无限跳跃">
     <Cheatline>
       <Offset>3379290</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>83-BB-80-41-00-00-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Blood Punch">
+  <Cheat Text="无尽之血 Punch">
     <Cheatline>
       <Offset>33793D0</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>C5-FA-2C-8F-40-64-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bullets">
+  <Cheat Text="Infinite Bullets｜无限子弹">
     <Cheatline>
       <Offset>33792B0</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>39-C1-0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Keys">
+  <Cheat Text="Infinite Keys｜钥匙无限">
     <Cheatline>
       <Offset>3379500</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>42-01-94-BF-94-CA-04-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Revenant (Player): Infinite Health">
+  <Cheat Text="Revenant (Player): 无限生命">
     <Cheatline>
       <Offset>3379370</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>C5-FA-10-47-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Charged: Grenades">
+  <Cheat Text="Charged: Grenades｜装填：手榴弹">
     <Cheatline>
       <Offset>33792D0</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>41-FF-8C-C4-30-6F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Charged: Flame Belch">
+  <Cheat Text="Charged: Flame Belch｜蓄力技能：火焰喷吐">
     <Cheatline>
       <Offset>3379200</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>8B-83-B0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Charged: Radiation Suit">
+  <Cheat Text="Charged: Radiation 战衣">
     <Cheatline>
       <Offset>3379300</Offset>
       <Section>0</Section>
@@ -248,7 +256,7 @@
       <ValueOff>C4-C1-7A-11-46-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Charged: Crucible">
+  <Cheat Text="Charged: Crucible｜《Charged：Crucible》">
     <Cheatline>
       <Offset>33793B0</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Charged: Diving Suit">
+  <Cheat Text="Charged: Diving 战衣">
     <Cheatline>
       <Offset>3379530</Offset>
       <Section>0</Section>
@@ -276,7 +284,7 @@
       <ValueOff>C4-C1-7A-11-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Charged: Sentinel Hammer">
+  <Cheat Text="Charged: Sentinel 锤">
     <Cheatline>
       <Offset>3379550</Offset>
       <Section>0</Section>
@@ -290,7 +298,7 @@
       <ValueOff>C5-FA-10-87-74-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Campaign: Most NMEs Don't Move">
+  <Cheat Text="战役: Most NMEs Don'恐怖分子 招式">
     <Cheatline>
       <Offset>3379610</Offset>
       <Section>0</Section>
@@ -310,7 +318,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="or DLCs: Most NMEs Don't Move (Green Dog Yes)">
+  <Cheat Text="or DLCs: Most NMEs Don'恐怖分子 招式 (Green Dog 是的)">
     <Cheatline>
       <Offset>3379610</Offset>
       <Section>0</Section>
@@ -330,7 +338,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Some NMEs Don't Shoot">
+  <Cheat Text="Some NMEs Don'恐怖分子 Shoot">
     <Cheatline>
       <Offset>3379680</Offset>
       <Section>0</Section>

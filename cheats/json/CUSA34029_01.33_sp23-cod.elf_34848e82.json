@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Modern Warfare II",
+  "name": "使命召唤: Modern Warfare II",
   "id": "CUSA34029",
   "version": "01.33",
   "process": "sp23-cod.elf",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33CF800",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Inf Armor ",
-      "type": "checkbox",
+      "name": "护甲无限 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33CF82C",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Inf Ammo / Grenade / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 手榴弹 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33CF811",

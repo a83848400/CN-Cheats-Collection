@@ -1,13 +1,18 @@
 {
-  "name": "Darksiders: Warmastered Edition",
+  "name": "Darksiders: Warmastered Edition｜《暗黑血统：战争大师版》",
   "id": "CUSA05347",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB7B38",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Wrath",
+      "name": "Infinite Wrath｜无尽之怒",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9478",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Chaos",
+      "name": "Infinite 混沌",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F96C6",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Refill Chaos On 1 Hit",
+      "name": "Refill 混沌 On 1 Hit",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9AFE",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Infinite Horse Burst",
+      "name": "Infinite Horse Burst｜无限马群爆发",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "73F0A9",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Get Souls For Spending Them",
+      "name": "Get 结界突破 For Spending Them",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AD8817",

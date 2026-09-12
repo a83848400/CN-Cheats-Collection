@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed Heat",
+  "name": "极品飞车 热",
   "id": "CUSA15090",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock All Cars (travel to dealer turn on cheat move to road 7 meters then go back enter dealer, turn off after)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "解锁全部赛车 (旅行 to dealer 回合 on cheat 招式 to road 7 meters then go back enter dealer, 回合 off after)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55E3F5B",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money (Get / Buy parts 0 price or buy any parts)",
-      "type": "checkbox",
+      "name": "金钱最大 (Get / Buy parts 0 price or buy any parts)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55E3F9A",

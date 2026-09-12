@@ -1,12 +1,17 @@
 {
-  "name": "Borderlands 3",
+  "name": "无主之地 3",
   "id": "CUSA08025",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite\n shield+health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite\n 盾牌+生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C3287C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "max mony",
-      "type": "checkbox",
+      "name": "最大 mony",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5183A82",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite ammo",
-      "type": "checkbox",
+      "name": "Infinite ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52957D4",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "no reload [use ammo]",
-      "type": "checkbox",
+      "name": "无需换弹 [use 但是]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52957CD",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite skill points",
-      "type": "checkbox",
+      "name": "Infinite skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9A443A",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12267C1",

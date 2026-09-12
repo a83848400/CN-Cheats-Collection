@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Definitive Experience",
+  "name": "合金装备/潜龙谍影 V: The Definitive Experience",
   "id": "CUSA05597",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Set Time| Midnight ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Set Time| Midnight ｜设定时间| 午夜",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3418047",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Set Time| Dawn",
-      "type": "checkbox",
+      "name": "Set Time| Dawn｜设定时间| 黎明",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "341805D",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Set Time| Morning",
-      "type": "checkbox",
+      "name": "Set Time| 早上好",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3418073",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Set Time| 10 AM",
-      "type": "checkbox",
+      "name": "Set Time| 10 AM｜设定时间 | 上午10点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3418089",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Set Time| 12 PM",
-      "type": "checkbox",
+      "name": "Set Time| 12 PM｜演出时间 | 中午12点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "341809F",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Set Time| Afternoon",
-      "type": "checkbox",
+      "name": "Set Time| 下午",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34180B5",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Set Time| Night",
-      "type": "checkbox",
+      "name": "Set Time| 夜晚",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34180CB",

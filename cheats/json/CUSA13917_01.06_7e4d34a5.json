@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry: New Dawn",
+  "name": "孤岛惊魂: New Dawn",
   "id": "CUSA13917",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29906C2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance",
-      "type": "checkbox",
+      "name": "Infinite 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "298C793",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "298CA37",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/Medkits/Resources/Ethanol On Use",
-      "type": "checkbox",
+      "name": "最大/无限弹药/Medkits/Resources/Ethanol On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBFF90",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C920",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Lot Of Perk Points On Use",
-      "type": "checkbox",
+      "name": "用地 Of 技能 得分 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34E0F0D",

@@ -7,7 +7,15 @@
   <Genres Name="Shooter" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1C1781C</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>C5-FA-10-83-24-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth" Description="">
+  <Cheat Text="Stealth｜潜行" Description="">
     <Cheatline>
       <Offset>1C17800</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>C5-F8-2E-05-31-53-26-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>1C17845</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>0F-B7-87-76-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>9C7AA5</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>47-29-A4-AE-64-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemys dont Attack" Description="">
+  <Cheat Text="Enemys dont 攻击" Description="">
     <Cheatline>
       <Offset>59AFB5</Offset>
       <Section>0</Section>

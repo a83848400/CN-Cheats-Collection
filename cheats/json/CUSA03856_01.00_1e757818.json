@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 6",
+  "name": "生化危机 6",
   "id": "CUSA03856",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71240b",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Modded Stock Ammo",
-      "type": "checkbox",
+      "name": "Modded 命数 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "b324c4",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Stamina Will Stay At 1 Bar",
-      "type": "checkbox",
+      "name": "体力 意志 Stay At 1 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "79da9b",

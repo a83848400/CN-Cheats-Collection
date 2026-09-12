@@ -1,12 +1,17 @@
 {
-  "name": "Road 96",
+  "name": "Road 96｜96号公路",
   "id": "CUSA30888",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Cash (when buying from vending Machine)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Cash (when buying from vending 机械生命体)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "864FFDF0",

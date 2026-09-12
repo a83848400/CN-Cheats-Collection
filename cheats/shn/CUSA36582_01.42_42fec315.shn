@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Prince of Persia: The Lost Crown" Moder="Ali-mk" Cusa="CUSA36582" Version="01.42" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>80CA6C30</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-29-44-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Arrow + Inf-Elixir-healing + Inf-Crystals-of-time">
+    <Cheat Text="无限之箭 + Infinite-灵药-healing + Infinite-Crystals-of-time">
     <Cheatline>
       <Offset>809C088C</Offset>
       <Section>0</Section>

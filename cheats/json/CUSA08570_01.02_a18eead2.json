@@ -1,12 +1,17 @@
 {
-  "name": "Ys VIII: Lacrimosa of Dana",
+  "name": "Ys VIII: Lacrimosa of Dana｜《伊苏VIII：达娜的泪》",
   "id": "CUSA08570",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Items x99 (on use/discard)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "所有商品 x99 (on use/弃牌)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AC40",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ACA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B360",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Use",
-      "type": "checkbox",
+      "name": "Infinite Skill Use｜无限技能使用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B410",

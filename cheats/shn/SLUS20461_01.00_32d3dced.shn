@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="BloodRayne" Moder="Ali-mk" Cusa="SLUS20461" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>808068CC37</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-AMMO-Lightest-Guns">
+  <Cheat Text="无限弹药-Lightest-Guns">
     <Cheatline>
       <Offset>80805D04F4</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-AMMO-Heaviest-Guns">
+  <Cheat Text="无限弹药-Heaviest-Guns">
     <Cheatline>
       <Offset>80805CFF34</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-AMMO-Special">
+  <Cheat Text="无限弹药-Special">
     <Cheatline>
       <Offset>80805D2F0C</Offset>
       <Section>0</Section>

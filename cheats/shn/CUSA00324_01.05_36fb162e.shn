@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mercenary Kings" Moder="Ali-mk" Cusa="CUSA00324" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(mc)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(mc)">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>2CAF800</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>89-83-90-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Ammo-Never-Reload">
+    <Cheat Text="无限子弹-无需装弹">
     <Cheatline>
       <Offset>393EBD</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-43-48</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-lives">
+    <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>1DA6C1</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>FF-48-20</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Time">
+    <Cheat Text="Infinite-Time｜无限时间">
     <Cheatline>
       <Offset>2A9511</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>F3-0F-11-8B-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-money-($)-(MC)">
+    <Cheat Text="Infinite-金钱-($)-(MC)">
     <Cheatline>
       <Offset>2132AF</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Ghost of Tsushima",
+  "name": "Ghost of Tsushima｜对马岛之魂",
   "id": "CUSA13323",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Arrows/Resources/Supplies/Flowers (99999)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Arrows/Resources/军粮/Flowers (99999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E830",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Resolve",
-      "type": "checkbox",
+      "name": "Infinite 决意",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points (must have 1 point)",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分 (must have 1 point)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F5E0",

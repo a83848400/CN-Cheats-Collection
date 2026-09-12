@@ -1,13 +1,18 @@
 {
-  "name": "Song of the Deep",
+  "name": "Song of the Deep｜《深海之歌》",
   "id": "CUSA05049",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life And Energy",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 And 能量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC57000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Coins",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC57042",

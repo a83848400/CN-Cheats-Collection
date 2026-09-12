@@ -1,12 +1,17 @@
 {
-  "name": "Dead Nation: Apocalypse Edition",
+  "name": "Dead Nation: Apocalypse Edition｜《死亡国度：启示录版》",
   "id": "CUSA00176",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FB7C01",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9009C",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf. Flares/Grenades/Molotovs/Mines",
-      "type": "checkbox",
+      "name": "无限。信号弹/手榴弹/莫洛托夫鸡尾酒/地雷",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90754",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD12",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9C7375",

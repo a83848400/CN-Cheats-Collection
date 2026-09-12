@@ -1,12 +1,17 @@
 {
-  "name": "Marsupilami: Hoobadventure",
+  "name": "Marsupilami: Hoobadventure｜马苏皮拉米：胡巴大冒险",
   "id": "CUSA27816",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Lives x99 (on spent)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Lives x99 (on spent)｜生命值×99（已消耗）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E2D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D100",

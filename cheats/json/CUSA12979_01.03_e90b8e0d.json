@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders Genesis",
+  "name": "Darksiders Genesis｜《暗黑血统：创世》",
   "id": "CUSA12979",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A47000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A47100",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Souls",
-      "type": "checkbox",
+      "name": "灵魂无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A471A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Boatmans Coins",
-      "type": "checkbox",
+      "name": "无限船夫金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "16",

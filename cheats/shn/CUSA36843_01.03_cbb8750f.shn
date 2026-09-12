@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Red Dead Redemption" Moder="Wander FW9.00" Cusa="CUSA36843" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health " Description="Sometimes you need big guns to kill bounties">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health ｜无限生命" Description="Sometimes you need big guns to kill bounties">
     <Cheatline>
       <Section>0</Section>
       <Offset>18F3300</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Section>0</Section>
       <Offset>18F3AA0</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-11-55-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Section>0</Section>
       <Offset>18F3B60</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7A-11-86-2C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money (on selling)">
+  <Cheat Text="金钱最大 (on selling)">
     <Cheatline>
       <Section>0</Section>
       <Offset>18F37A0</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>89-54-C1-08-E9-26-F2-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On use (disable when reading maps or wanted papers)">
+  <Cheat Text="最大 Items On use (disable when reading maps or wanted papers)">
     <Cheatline>
       <Section>0</Section>
       <Offset>5C5876</Offset>
@@ -66,7 +74,7 @@
       <ValueOff>41-FF-8F-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant dead eye recharge">
+  <Cheat Text="Instant 死亡之眼 recharge">
     <Cheatline>
       <Section>0</Section>
       <Offset>18F35B0</Offset>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Need for Speed Heat" Moder="hejran7" Cusa="CUSA15090" Version="01.07" Process="eboot.bin">
   <Genres Name="Racing" />
   <Items />
-  <Cheat Text="Max Inf Cash" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 无限现金" Description="">
     <Cheatline>
       <Offset>4B48500</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8B-45-E0-48-8B-40-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nitro Instant Refill " Description="">
+  <Cheat Text="氮气 Instant Refill " Description="">
     <Cheatline>
       <Offset>24D2ED9</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Gran Turismo 3: A-Spec",
-  "id": "SCUS97102",
+  "name": "Gran Turismo 3: A-专精",
+  "id": "SCUS97102｜打扰一下，对不起",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "10 Trillion - Sim Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "10 Trillion - Sim Mode｜10万亿——模拟模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080558EFC",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "9999 Races",
-      "type": "checkbox",
+      "name": "9999 Races｜9999 场比赛",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080558EEC",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "9999 Wins",
-      "type": "checkbox",
+      "name": "9999 Wins｜9999 次胜利",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080558EF4",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "All Cars Purchaseable",
-      "type": "checkbox",
+      "name": "All Cars Purchaseable｜所有车辆均可购买",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE34390",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Always Good Tires",
-      "type": "checkbox",
+      "name": "Always Good 轮胎",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8081BBE960",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Always Simulation Day 1",
-      "type": "checkbox",
+      "name": "Always Simulation Day 1｜“Always”模拟日 第1天",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080558EE8",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Always Simulation Day 9999",
-      "type": "checkbox",
+      "name": "Always Simulation Day 9999｜《Always》模拟日 第9999天",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080558EE8",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "License A-1 Gold",
-      "type": "checkbox",
+      "name": "License A-1 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080578ED0",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "License A-2 Gold",
-      "type": "checkbox",
+      "name": "License A-2 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579024",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "License A-3 Gold",
-      "type": "checkbox",
+      "name": "License A-3 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579178",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "License A-4 Gold",
-      "type": "checkbox",
+      "name": "License A-4 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80805792CC",
@@ -136,8 +141,8 @@
       ]
     },
     {
-      "name": "License A-5 Gold",
-      "type": "checkbox",
+      "name": "License A-5 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579420",
@@ -147,8 +152,8 @@
       ]
     },
     {
-      "name": "License A-6 Gold",
-      "type": "checkbox",
+      "name": "License A-6 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579574",
@@ -158,8 +163,8 @@
       ]
     },
     {
-      "name": "License A-7 Gold",
-      "type": "checkbox",
+      "name": "License A-7 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80805796C8",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "License A-8 Gold",
-      "type": "checkbox",
+      "name": "License A-8 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057981C",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "License B-1 Gold",
-      "type": "checkbox",
+      "name": "License B-1 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080578430",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "License B-2 Gold",
-      "type": "checkbox",
+      "name": "License B-2 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080578584",
@@ -202,8 +207,8 @@
       ]
     },
     {
-      "name": "License B-3 Gold",
-      "type": "checkbox",
+      "name": "License B-3 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80805786D8",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "License B-4 Gold",
-      "type": "checkbox",
+      "name": "License B-4 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057882C",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "License B-5 Gold",
-      "type": "checkbox",
+      "name": "License B-5 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080578980",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "License B-6 Gold",
-      "type": "checkbox",
+      "name": "License B-6 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080578AD4",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "License B-7 Gold",
-      "type": "checkbox",
+      "name": "License B-7 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080578C28",
@@ -257,8 +262,8 @@
       ]
     },
     {
-      "name": "License B-8 Gold",
-      "type": "checkbox",
+      "name": "License B-8 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080578D7C",
@@ -268,8 +273,8 @@
       ]
     },
     {
-      "name": "License Ia-1 Gold",
-      "type": "checkbox",
+      "name": "License Ia-1 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A410",
@@ -279,8 +284,8 @@
       ]
     },
     {
-      "name": "License Ia-2 Gold",
-      "type": "checkbox",
+      "name": "License Ia-2 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A564",
@@ -290,8 +295,8 @@
       ]
     },
     {
-      "name": "License Ia-3 Gold",
-      "type": "checkbox",
+      "name": "License Ia-3 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A6B8",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "License Ia-4 Gold",
-      "type": "checkbox",
+      "name": "License Ia-4 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A80C",
@@ -312,8 +317,8 @@
       ]
     },
     {
-      "name": "License Ia-5 Gold",
-      "type": "checkbox",
+      "name": "License Ia-5 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A960",
@@ -323,8 +328,8 @@
       ]
     },
     {
-      "name": "License Ia-6 Gold",
-      "type": "checkbox",
+      "name": "License Ia-6 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057AAB4",
@@ -334,8 +339,8 @@
       ]
     },
     {
-      "name": "License Ia-7 Gold",
-      "type": "checkbox",
+      "name": "License Ia-7 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057AC08",
@@ -345,8 +350,8 @@
       ]
     },
     {
-      "name": "License Ia-8 Gold",
-      "type": "checkbox",
+      "name": "License Ia-8 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057AD5C",
@@ -356,8 +361,8 @@
       ]
     },
     {
-      "name": "License Ib-1 Gold",
-      "type": "checkbox",
+      "name": "License Ib-1 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579970",
@@ -367,8 +372,8 @@
       ]
     },
     {
-      "name": "License Ib-2 Gold",
-      "type": "checkbox",
+      "name": "License Ib-2 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579AC4",
@@ -378,8 +383,8 @@
       ]
     },
     {
-      "name": "License Ib-3 Gold",
-      "type": "checkbox",
+      "name": "License Ib-3 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579C18",
@@ -389,8 +394,8 @@
       ]
     },
     {
-      "name": "License Ib-4 Gold",
-      "type": "checkbox",
+      "name": "License Ib-4 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579D6C",
@@ -400,8 +405,8 @@
       ]
     },
     {
-      "name": "License Ib-5 Gold",
-      "type": "checkbox",
+      "name": "License Ib-5 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080579EC0",
@@ -411,8 +416,8 @@
       ]
     },
     {
-      "name": "License Ib-6 Gold",
-      "type": "checkbox",
+      "name": "License Ib-6 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A014",
@@ -422,8 +427,8 @@
       ]
     },
     {
-      "name": "License Ib-7 Gold",
-      "type": "checkbox",
+      "name": "License Ib-7 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A168",
@@ -433,8 +438,8 @@
       ]
     },
     {
-      "name": "License Ib-8 Gold",
-      "type": "checkbox",
+      "name": "License Ib-8 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057A2BC",
@@ -444,8 +449,8 @@
       ]
     },
     {
-      "name": "Super License 1 Gold",
-      "type": "checkbox",
+      "name": "Super License 1 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057AEB0",
@@ -455,8 +460,8 @@
       ]
     },
     {
-      "name": "Super License 2 Gold",
-      "type": "checkbox",
+      "name": "Super License 2 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057B004",
@@ -466,8 +471,8 @@
       ]
     },
     {
-      "name": "Super License 3 Gold",
-      "type": "checkbox",
+      "name": "Super License 3 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057B158",
@@ -477,8 +482,8 @@
       ]
     },
     {
-      "name": "Super License 4 Gold",
-      "type": "checkbox",
+      "name": "Super License 4 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057B2AC",
@@ -488,8 +493,8 @@
       ]
     },
     {
-      "name": "Super License 5 Gold",
-      "type": "checkbox",
+      "name": "Super License 5 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057B400",
@@ -499,8 +504,8 @@
       ]
     },
     {
-      "name": "Super License 6 Gold",
-      "type": "checkbox",
+      "name": "Super License 6 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057B554",
@@ -510,8 +515,8 @@
       ]
     },
     {
-      "name": "Super License 7 Gold",
-      "type": "checkbox",
+      "name": "Super License 7 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057B6A8",
@@ -521,8 +526,8 @@
       ]
     },
     {
-      "name": "Super License 8 Gold",
-      "type": "checkbox",
+      "name": "Super License 8 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057B7FC",
@@ -532,8 +537,8 @@
       ]
     },
     {
-      "name": "Gold 4wd Challenge",
-      "type": "checkbox",
+      "name": "金币 4wd Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C490",
@@ -553,8 +558,8 @@
       ]
     },
     {
-      "name": "Gold 80's S.car Cup",
-      "type": "checkbox",
+      "name": "金币 80's S.car Cup",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C4B4",
@@ -574,8 +579,8 @@
       ]
     },
     {
-      "name": "Gold All Japgt Champ",
-      "type": "checkbox",
+      "name": "金币 All Japgt Champ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C784",
@@ -635,8 +640,8 @@
       ]
     },
     {
-      "name": "Gold Altezza Champ",
-      "type": "checkbox",
+      "name": "金币 Altezza Champ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C4E4",
@@ -671,8 +676,8 @@
       ]
     },
     {
-      "name": "Gold American Champ",
-      "type": "checkbox",
+      "name": "金币 American Champ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C954",
@@ -707,8 +712,8 @@
       ]
     },
     {
-      "name": "Gold Audi Tt Race",
-      "type": "checkbox",
+      "name": "金币 Audi Tt Race",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C8B8",
@@ -743,8 +748,8 @@
       ]
     },
     {
-      "name": "Gold Beetle Cup",
-      "type": "checkbox",
+      "name": "金币 Beetle Cup",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C4FC",
@@ -779,8 +784,8 @@
       ]
     },
     {
-      "name": "Gold Boxer Spirit",
-      "type": "checkbox",
+      "name": "金币 Boxer 精魄",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C520",
@@ -800,8 +805,8 @@
       ]
     },
     {
-      "name": "Gold Clio Trophy",
-      "type": "checkbox",
+      "name": "金币 Clio Trophy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C538",
@@ -836,8 +841,8 @@
       ]
     },
     {
-      "name": "Gold Clubman Cup",
-      "type": "checkbox",
+      "name": "金币 Clubman Cup",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C550",
@@ -857,8 +862,8 @@
       ]
     },
     {
-      "name": "Gold Dream Car Championship",
-      "type": "checkbox",
+      "name": "金币 Dream Car 锦标赛",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C594",
@@ -903,8 +908,8 @@
       ]
     },
     {
-      "name": "Gold Elise Trophy",
-      "type": "checkbox",
+      "name": "金币 Elise Trophy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C5B4",
@@ -939,8 +944,8 @@
       ]
     },
     {
-      "name": "Gold European Champ",
-      "type": "checkbox",
+      "name": "金币 European Champ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C5CC",
@@ -975,8 +980,8 @@
       ]
     },
     {
-      "name": "Gold Evolution Meeting",
-      "type": "checkbox",
+      "name": "金币 进化 Meeting",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C5F0",
@@ -996,8 +1001,8 @@
       ]
     },
     {
-      "name": "Gold Ff Challenge",
-      "type": "checkbox",
+      "name": "金币 前言 Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C634",
@@ -1017,8 +1022,8 @@
       ]
     },
     {
-      "name": "Gold Formula Gt",
-      "type": "checkbox",
+      "name": "金币 Formula Gt",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C5FC",
@@ -1078,8 +1083,8 @@
       ]
     },
     {
-      "name": "Gold Fr Challenge",
-      "type": "checkbox",
+      "name": "金币 Fr Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C658",
@@ -1099,8 +1104,8 @@
       ]
     },
     {
-      "name": "Gold German Touring Car Championship (All Gold Trophies)",
-      "type": "checkbox",
+      "name": "金币 German Touring Car 锦标赛 (All 金币 Trophies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C55C",
@@ -1135,8 +1140,8 @@
       ]
     },
     {
-      "name": "Gold Grand Valley",
-      "type": "checkbox",
+      "name": "金币 Grand Valley",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C46C",
@@ -1146,8 +1151,8 @@
       ]
     },
     {
-      "name": "Gold Grand Valley",
-      "type": "checkbox",
+      "name": "金币 Grand Valley",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C46C",
@@ -1157,8 +1162,8 @@
       ]
     },
     {
-      "name": "Gold Granturismo As",
-      "type": "checkbox",
+      "name": "金币 Granturismo As",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C670",
@@ -1218,8 +1223,8 @@
       ]
     },
     {
-      "name": "Gold Gt World Champ",
-      "type": "checkbox",
+      "name": "金币 Gt World Champ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C70C",
@@ -1279,8 +1284,8 @@
       ]
     },
     {
-      "name": "Gold Italian Avant",
-      "type": "checkbox",
+      "name": "金币 Italian Avant",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C764",
@@ -1295,8 +1300,8 @@
       ]
     },
     {
-      "name": "Gold Japanese Champ",
-      "type": "checkbox",
+      "name": "金币 Japanese Champ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C76C",
@@ -1331,8 +1336,8 @@
       ]
     },
     {
-      "name": "Gold Laguna SCEA 200 Endurance",
-      "type": "checkbox",
+      "name": "金币 Laguna SCEA 200 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C470",
@@ -1342,8 +1347,8 @@
       ]
     },
     {
-      "name": "Gold Like The Wind",
-      "type": "checkbox",
+      "name": "金币 Like The Wind",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C99C",
@@ -1353,8 +1358,8 @@
       ]
     },
     {
-      "name": "Gold Mistral 78 Laps",
-      "type": "checkbox",
+      "name": "金币 Mistral 78 Laps",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C474",
@@ -1364,8 +1369,8 @@
       ]
     },
     {
-      "name": "Gold Mr Challenge",
-      "type": "checkbox",
+      "name": "金币 大师等级 Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C800",
@@ -1385,8 +1390,8 @@
       ]
     },
     {
-      "name": "Gold P Digital Cup",
-      "type": "checkbox",
+      "name": "金币 P Digital Cup",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C848",
@@ -1446,8 +1451,8 @@
       ]
     },
     {
-      "name": "Gold Pass Colosseo",
-      "type": "checkbox",
+      "name": "金币 Pass Colosseo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C47C",
@@ -1457,8 +1462,8 @@
       ]
     },
     {
-      "name": "Gold Passage to Colosseo",
-      "type": "checkbox",
+      "name": "金币 Passage to Colosseo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C47C",
@@ -1468,8 +1473,8 @@
       ]
     },
     {
-      "name": "Gold Race Na Sports",
-      "type": "checkbox",
+      "name": "金币 Race Na Sports",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C824",
@@ -1489,8 +1494,8 @@
       ]
     },
     {
-      "name": "Gold Race Red Emblem",
-      "type": "checkbox",
+      "name": "金币 Race Red Emblem",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C6D4",
@@ -1510,8 +1515,8 @@
       ]
     },
     {
-      "name": "Gold Rally Alps",
-      "type": "checkbox",
+      "name": "金币 Rally Alps",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C444",
@@ -1531,8 +1536,8 @@
       ]
     },
     {
-      "name": "Gold Rally Alps II",
-      "type": "checkbox",
+      "name": "金币 Rally Alps II",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C408",
@@ -1552,8 +1557,8 @@
       ]
     },
     {
-      "name": "Gold Rally Chal II",
-      "type": "checkbox",
+      "name": "金币 Rally Chal II",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C414",
@@ -1573,8 +1578,8 @@
       ]
     },
     {
-      "name": "Gold Rally Challenge",
-      "type": "checkbox",
+      "name": "金币 Rally Challenge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C450",
@@ -1594,8 +1599,8 @@
       ]
     },
     {
-      "name": "Gold Roadster Endurance",
-      "type": "checkbox",
+      "name": "金币 Roadster 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C478",
@@ -1605,8 +1610,8 @@
       ]
     },
     {
-      "name": "Gold Route 5-wet",
-      "type": "checkbox",
+      "name": "金币 Route 5-wet",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C42C",
@@ -1626,8 +1631,8 @@
       ]
     },
     {
-      "name": "Gold S Mtn Rally",
-      "type": "checkbox",
+      "name": "金币 S Mtn Rally",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C438",
@@ -1647,8 +1652,8 @@
       ]
     },
     {
-      "name": "Gold S Mtn Rally Ii",
-      "type": "checkbox",
+      "name": "金币 S Mtn Rally Ii",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C3FC",
@@ -1668,8 +1673,8 @@
       ]
     },
     {
-      "name": "Gold Seattle 100 Mi",
-      "type": "checkbox",
+      "name": "金币 Seattle 100 Mi",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C484",
@@ -1679,8 +1684,8 @@
       ]
     },
     {
-      "name": "Gold Seattle 100 Miles",
-      "type": "checkbox",
+      "name": "金币 Seattle 100 Miles",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C484",
@@ -1690,8 +1695,8 @@
       ]
     },
     {
-      "name": "Gold Silver Arrow",
-      "type": "checkbox",
+      "name": "金币 Silver Arrow",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C7E8",
@@ -1711,8 +1716,8 @@
       ]
     },
     {
-      "name": "Gold Silver Arrow",
-      "type": "checkbox",
+      "name": "金币 Silver Arrow",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C7F4",
@@ -1732,8 +1737,8 @@
       ]
     },
     {
-      "name": "Gold Smoky Mountain Rally",
-      "type": "checkbox",
+      "name": "金币 Smoky 山脉 Rally",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C438",
@@ -1753,8 +1758,8 @@
       ]
     },
     {
-      "name": "Gold Smoky Mountain Rally II",
-      "type": "checkbox",
+      "name": "金币 Smoky 山脉 Rally II",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C3FC",
@@ -1774,8 +1779,8 @@
       ]
     },
     {
-      "name": "Gold Sp Route 11",
-      "type": "checkbox",
+      "name": "金币 精神值 Route 11",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C480",
@@ -1785,8 +1790,8 @@
       ]
     },
     {
-      "name": "Gold Special Stage Route 11",
-      "type": "checkbox",
+      "name": "金币 Special Stage Route 11",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808057C480",

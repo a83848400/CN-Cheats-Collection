@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ninja: Shadow of Darkness" Moder="Ali-mk" Cusa="SLUS00435" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>116AE5</Offset>
       <Section>11</Section>
@@ -10,7 +18,7 @@
       <ValueOff>A0</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite Smoke Bombs">
+    <Cheat Text="Infinite 诡计之雾 Bombs">
     <Cheatline>
       <Offset>11859E</Offset>
       <Section>11</Section>
@@ -18,7 +26,7 @@
       <ValueOff>42</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite Lives">
+    <Cheat Text="Infinite Lives｜无限生命">
     <Cheatline>
       <Offset>1172F0</Offset>
       <Section>11</Section>
@@ -32,7 +40,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite Lighting Bombs">
+    <Cheat Text="Infinite Lighting Bombs｜无限照明弹">
     <Cheatline>
       <Offset>118A34</Offset>
       <Section>11</Section>

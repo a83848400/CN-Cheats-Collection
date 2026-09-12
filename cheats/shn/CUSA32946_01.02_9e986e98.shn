@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Vendetta" Moder="Celogamez" Cusa="CUSA32946" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7FC5F7E0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-9C-24-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Super">
+  <Cheat Text="Infinite Super｜无限超级">
     <Cheatline>
       <Offset>7FC5F990</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>29-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lives">
+  <Cheat Text="Infinite Lives｜无限生命">
     <Cheatline>
       <Offset>7FC5FA60</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>FF-8B-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[01] Immunity">
+  <Cheat Text="[01] Immunity｜[01] 豁免权">
     <Cheatline>
       <Offset>29EEF8</Offset>
       <Section>14</Section>
@@ -88,7 +96,7 @@
       <ValueOff>FF-90-F8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02] Infinite Health">
+  <Cheat Text="[02] 无限生命">
     <Cheatline>
       <Offset>01997A00</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>41-39-85-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03] Infinite Lives">
+  <Cheat Text="[03] 无限生命">
     <Cheatline>
       <Offset>01997A20</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>8B-90-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04] Lives: 666">
+  <Cheat Text="[04] Lives: 666｜[04] 生命：666">
     <Cheatline>
       <Offset>01997B30</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>41-39-85-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05] 1 Hit Kill">
+  <Cheat Text="[05] 一击必杀">
     <Cheatline>
       <Offset>01997A60</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>29-C3-4D-85-F6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06] SUPER Always Full">
+  <Cheat Text="[06] SUPER Always Full｜[06] SUPER 总是满的">
     <Cheatline>
       <Offset>01997A80</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>41-8B-85-9C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07] Hold UP Arrow + Press/Release L2: Change Weapon">
+  <Cheat Text="[07] 挟持 Arrow + Press/Release L2: Change Weapon">
     <Cheatline>
       <Offset>01997AA0</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>C6-44-18-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08] Chain: No Reset">
+  <Cheat Text="[08] Chain: No Reset｜[08] 链：不重置">
     <Cheatline>
       <Offset>302112</Offset>
       <Section>14</Section>
@@ -192,7 +200,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09] Chain: Best To 666">
+  <Cheat Text="[09] Chain: Best To 666｜[09] Chain：Best To 666">
     <Cheatline>
       <Offset>01997B10</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>41-89-84-24-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10] Time: 00:00">
+  <Cheat Text="[10] Time: 00:00｜[10] 时间：00:00">
     <Cheatline>
       <Offset>01997B60</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>C4-C1-7B-11-44-DE-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11] Total Time: 00:00">
+  <Cheat Text="[11] Total Time: 00:00｜[11] 总时长：00:00">
     <Cheatline>
       <Offset>01997B80</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>C5-FB-11-80-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12] Countdown: Bit Faster">
+  <Cheat Text="[12] Countdown: Bit Faster｜[12] 倒计时：再快一点">
     <Cheatline>
       <Offset>2F98B4</Offset>
       <Section>14</Section>

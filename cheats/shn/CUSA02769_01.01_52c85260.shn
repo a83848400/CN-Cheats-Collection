@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Max Lvl/Exp">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Lvl/经验">
     <Cheatline>
       <Offset>B7E39</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>0F-4E-C2-89-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf MP">
+  <Cheat Text="无限魔力">
     <Cheatline>
       <Offset>61DED</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-11-84-01-08-A2-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Gold">
+  <Cheat Text="无限金币">
     <Cheatline>
       <Offset>E97823</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Werewolf: The Apocalypse: Earthblood",
+  "name": "狼人: The Apocalypse: Earthblood",
   "id": "CUSA16782",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "670B330",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Arrow (on shoot)",
-      "type": "checkbox",
+      "name": "无限之箭 (on shoot)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6793B90",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Potions (on use)",
-      "type": "checkbox",
+      "name": "药水无限 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "670B370",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Frenzy (when activating)",
-      "type": "checkbox",
+      "name": "Infinite 狂暴状态 (when activating)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "670B3E0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Skill points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "670B2F0",

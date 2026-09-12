@@ -1,12 +1,17 @@
 {
-  "name": "Ratchet & Clank",
+  "name": "Ratchet & Clank｜《瑞奇与叮当》",
   "id": "CUSA01047",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Bolts+Gold bolts+Raritanium On Get",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Bolts+金币 bolts+Raritanium On Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "350B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max+Infinity Health",
-      "type": "checkbox",
+      "name": "最大+Infinity 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3509120",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max+Infinity Ammo",
-      "type": "checkbox",
+      "name": "最大+无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BB1B8",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinity Nitro Boost for Racing",
-      "type": "checkbox",
+      "name": "Infinity 氮气 Boost for Racing",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38068D",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinity Jet Pack",
-      "type": "checkbox",
+      "name": "Infinity Jet 卡包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "421C06",

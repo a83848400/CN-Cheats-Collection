@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Maneater" Moder="Saso" Cusa="PPSA01861" Version="01.000.010" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Section>0</Section>
       <Offset>510381A</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen">
+  <Cheat Text="Infinite Oxygen｜无限氧气">
     <Cheatline>
       <Section>0</Section>
       <Offset>510386A</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-5D-45-84</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Fats">
+  <Cheat Text="最大 Fats">
     <Cheatline>
       <Section>0</Section>
       <Offset>510387A</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>89-83-84-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Protein">
+  <Cheat Text="最大 Protein">
     <Cheatline>
       <Section>0</Section>
       <Offset>510388C</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>89-83-80-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mineral">
+  <Cheat Text="最大 Mineral">
     <Cheatline>
       <Section>0</Section>
       <Offset>510389E</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>89-83-88-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mutagens">
+  <Cheat Text="最大 Mutagens">
     <Cheatline>
       <Section>0</Section>
       <Offset>51038B0</Offset>
@@ -86,7 +94,7 @@
       <ValueOff>89-83-8C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2X Experience Points">
+  <Cheat Text="2X Experience 得分">
     <Cheatline>
       <Section>0</Section>
       <Offset>51038C2</Offset>

@@ -1,13 +1,18 @@
 {
-  "name": "Star Wars Jedi: Survivor",
+  "name": "星球大战绝地: 求生者",
   "id": "CUSA33778",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. For an even more advanced trainer, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. For an even more advanced trainer, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on 他 firmwares.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B000",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Master Code - Must be enabled first and always remain active",
+      "name": "Master 密码 - Must be enabled first and always remain active",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B010",
@@ -64,9 +69,9 @@
       ]
     },
     {
-      "name": "---God Mode Toggle (Requires MC)",
+      "name": "---神模式 Toggle (Requires MC)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B02F",
@@ -76,9 +81,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Health｜无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B060",
@@ -93,9 +98,9 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "description": "Do not use it against bosses or you may encounter game progression issues.",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "description": "Do not use it against bosses or you may 遭遇 game progression issues.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B390",
@@ -110,9 +115,9 @@
       ]
     },
     {
-      "name": "One Hit Drain Enemy Stamina",
-      "description": "Do not use it against bosses or you may encounter game progression issues.",
-      "type": "checkbox",
+      "name": "One Hit Drain Enemy 体力",
+      "description": "Do not use it against bosses or you may 遭遇 game progression issues.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "752DBA",
@@ -122,9 +127,9 @@
       ]
     },
     {
-      "name": "Infinite Max Force",
+      "name": "Infinite 最大 原力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B0C0",
@@ -139,9 +144,9 @@
       ]
     },
     {
-      "name": "Infinite Max Saber Stamina",
+      "name": "Infinite 最大 Saber 体力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B0F0",
@@ -156,9 +161,9 @@
       ]
     },
     {
-      "name": "Unlimited Slow Motion Force",
-      "description": "After it's drained, must hit an enemy for it to fully refill instantly",
-      "type": "checkbox",
+      "name": "Unlimited 慢动作 原力",
+      "description": "After it's drained, must hit an enemy for it to fully refill instantly｜能量耗尽后，必须击中一名敌人，才能立即将能量完全恢复",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B120",
@@ -173,9 +178,9 @@
       ]
     },
     {
-      "name": "Infinite Max Blaster Bullets",
+      "name": "Infinite 最大 爆能枪 项目符号",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B160",
@@ -190,9 +195,9 @@
       ]
     },
     {
-      "name": "Infinite Companion Combat Meter",
+      "name": "Infinite Companion Combat Meter｜无限伙伴战斗计量表",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B190",
@@ -207,9 +212,9 @@
       ]
     },
     {
-      "name": "---XP Multiplier x5 (requires MC)",
+      "name": "---经验倍率×5 (requires MC)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B23F",
@@ -219,9 +224,9 @@
       ]
     },
     {
-      "name": "---XP Multiplier x10 (requires MC)",
+      "name": "---经验倍率×10 (requires MC)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B23F",
@@ -231,9 +236,9 @@
       ]
     },
     {
-      "name": "---XP Multiplier x25 (requires MC)",
+      "name": "---经验值倍率 x25 (requires MC)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B23F",
@@ -243,9 +248,9 @@
       ]
     },
     {
-      "name": "99 Skill Points",
+      "name": "99 Skill 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B250",

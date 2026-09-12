@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza 4 Remastered",
+  "name": "如龙 4 Remastered",
   "id": "CUSA15361",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money on Buy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 on Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19E3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Exp After Get",
-      "type": "checkbox",
+      "name": "经验值最大 After Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE7978",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ability Point",
-      "type": "checkbox",
+      "name": "Infinite 特性 Point",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE7A80",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82D8C",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Heats",
-      "type": "checkbox",
+      "name": "Infinite Heats｜无尽的热浪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65517",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "1 Hit KILL",
-      "type": "checkbox",
+      "name": "1 Hit KILL｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "654F7",

@@ -1,12 +1,17 @@
 {
-  "name": "Infinity Strash: DRAGON QUEST The Adventure of Dai",
+  "name": "Infinity Strash: 勇者斗恶龙 The 冒险模式 of Dai",
   "id": "CUSA35744",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FEC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Meomry Ambers/Mote",
-      "type": "checkbox",
+      "name": "最大 Meomry Ambers/Mote",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "664B800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables(must have 2)",
-      "type": "checkbox",
+      "name": "Infinite Consumables(must have 2)｜无限消耗品（必须拥有2个）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "664B814",

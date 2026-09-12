@@ -3,7 +3,15 @@
   <Genres Name="Adventure" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>2E47800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>8B-9B-1C-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Health Regeneration" Description="">
+  <Cheat Text="Instant 生命 Regeneration" Description="">
     <Cheatline>
       <Offset>E600CC</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C5-FA-5D-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>2E47812</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>C5-FA-11-83-1C-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows" Description="">
+  <Cheat Text="Infinite Arrows｜箭矢无限" Description="">
     <Cheatline>
       <Offset>1069759</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>0F-84-CA-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus" Description="">
+  <Cheat Text="Infinite Focus｜无限专注值" Description="">
     <Cheatline>
       <Offset>E5EC29</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>C5-DA-5C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Might" Description="">
+  <Cheat Text="Infinite Might｜无穷的力量" Description="">
     <Cheatline>
       <Offset>2E4785A</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>C5-FA-11-83-D0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Rage" Description="">
+  <Cheat Text="简单 怒气" Description="">
     <Cheatline>
       <Offset>2E4789E</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>C5-FA-11-83-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant/Infinite Rage" Description="">
+  <Cheat Text="Instant/怒气无限" Description="">
     <Cheatline>
       <Offset>2E47882</Offset>
       <Section>0</Section>
@@ -121,7 +129,7 @@
       <ValueOff>C5-FA-10-9B-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Marian/Skillpoints/Jewels on Get" Description="">
+  <Cheat Text="最大 Marian/技能点/珠子 on Get" Description="">
     <Cheatline>
       <Offset>2E47826</Offset>
       <Section>0</Section>
@@ -135,7 +143,7 @@
       <ValueOff>45-31-E4-41-89-47-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints" Description="">
+  <Cheat Text="Infinite Skillpoints｜无限技能点" Description="">
     <Cheatline>
       <Offset>1712CAE</Offset>
       <Section>0</Section>
@@ -143,7 +151,7 @@
       <ValueOff>76-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level on 2nd XP Gain" Description="">
+  <Cheat Text="等级最大 on 2nd XP Gain" Description="">
     <Cheatline>
       <Offset>2E47849</Offset>
       <Section>0</Section>

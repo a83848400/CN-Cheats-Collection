@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Ultimate All(testing)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="必杀技 All(testing)">
     <Cheatline>
       <Offset>7FC5EE20</Offset>
       <Section>0</Section>

@@ -28,7 +28,15 @@
       <ValueOff>39-F2-0F-4C-F2</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Untouchable" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Untouchable｜刀枪不入" Description="">
     <Cheatline>
       <Offset>FFFFFFFFFFC04007</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>C6-41-18-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>FFFFFFFFFFC0400B</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C6-41-19-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Untouchable AI" Description="">
+  <Cheat Text="刀枪不入 AI" Description="">
     <Cheatline>
       <Offset>B823927</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C6-41-18-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health AI" Description="">
+  <Cheat Text="无限生命 AI" Description="">
     <Cheatline>
       <Offset>B82392B</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C6-41-19-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Pesetas" Description="">
+  <Cheat Text="Infinite Pesetas｜无限佩塞塔" Description="">
     <Cheatline>
       <Offset>B8238BF</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>4C-89-FF-8B-50-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Spinel" Description="">
+  <Cheat Text="Infinite Spinel｜无限尖晶石" Description="">
     <Cheatline>
       <Offset>B8238A0</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>4C-89-E7-8B-50-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Completion Points" Description="">
+  <Cheat Text="Infinite Completion 得分" Description="">
     <Cheatline>
       <Offset>28DD370</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>0F-4C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Knife Durability" Description="">
+  <Cheat Text="Infinite Knife Durability｜小刀耐久无限" Description="">
     <Cheatline>
       <Offset>3B61489</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>45-89-67-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Falling_Disable (Y)" Description="">
+  <Cheat Text="No Falling_Disable (Y)｜不坠落_禁用 (Y)" Description="">
     <Cheatline>
       <Offset>6EAC76B</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FA-11-43-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Collision_Disable (X)_(Z)" Description="">
+  <Cheat Text="No Collision_Disable (艾克斯)_(Z)" Description="">
     <Cheatline>
       <Offset>67A3343</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>C5-FA-11-43-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>B8238B2</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>41-89-44-24-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo_Items_Crafting" Description="">
+  <Cheat Text="无限弹药_物品_合成" Description="">
     <Cheatline>
       <Offset>321F148</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>2B-4A-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Ammo_Inf Items_Crafting" Description="">
+  <Cheat Text="最大 Infinite Ammo_Inf Items_Crafting" Description="">
     <Cheatline>
       <Offset>321F159</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>0F-4C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Save Count to 1" Description="">
+  <Cheat Text="Reset 保存 Count to 1" Description="">
     <Cheatline>
       <Offset>599AB52</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>41-8B-45-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Aim Focus" Description="">
+  <Cheat Text="Instant Aim 棍势" Description="">
     <Cheatline>
       <Offset>A7453B</Offset>
       <Section>0</Section>
@@ -178,7 +186,7 @@
       <ValueOff>C5-FA-5D-D2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Keys\Coins_Deactivate when Done" Description="">
+  <Cheat Text="钥匙无限\Coins_Deactivate when Done" Description="">
     <Cheatline>
       <Offset>50A31CA</Offset>
       <Section>0</Section>
@@ -186,7 +194,7 @@
       <ValueOff>89-48-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freezer Timer (Shooting Range)" Description="">
+  <Cheat Text="Freezer 计时器 (射门 射程)" Description="">
     <Cheatline>
       <Offset>354302D</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>C5-FA-5C-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alway S rank (Shooting Range)" Description="">
+  <Cheat Text="Alway S 阶级 (射门 射程)" Description="">
     <Cheatline>
       <Offset>B8238D1</Offset>
       <Section>0</Section>
@@ -232,7 +240,7 @@
       <ValueOff>01-81-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy S rank (Shooting Range)" Description="">
+  <Cheat Text="简单 S 阶级 (射门 射程)" Description="">
     <Cheatline>
       <Offset>B8238D1</Offset>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>01-81-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Mercenaries Timer" Description="">
+  <Cheat Text="Freeze 雇佣兵 计时器" Description="">
     <Cheatline>
       <Offset>56C4D8E</Offset>
       <Section>0</Section>

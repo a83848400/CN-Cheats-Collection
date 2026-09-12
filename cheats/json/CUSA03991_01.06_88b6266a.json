@@ -1,13 +1,18 @@
 {
-  "name": "Dying Light: The Following: Enhanced Edition",
+  "name": "Dying Light: The Following: Enhanced Edition｜《消逝的光芒：追随者：增强版》",
   "id": "CUSA03991",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073898",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BCF252",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "616B06",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Inf Breath",
+      "name": "无限呼吸",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20738F9",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Inf Grappling Hook Stamina",
+      "name": "Infinite 抓钩 体力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073817",
@@ -80,9 +85,9 @@
       ]
     },
     {
-      "name": "Inf UV Light",
+      "name": "无限紫外线",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "207382A",
@@ -97,9 +102,9 @@
       ]
     },
     {
-      "name": "Inf Weapon Durability/No Buggy Damage",
+      "name": "武器耐久无限/No Buggy 输出",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "207383D",
@@ -114,9 +119,9 @@
       ]
     },
     {
-      "name": "Inf Camoufladge When Used",
+      "name": "使用时可实现无限伪装",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "207384E",
@@ -131,9 +136,9 @@
       ]
     },
     {
-      "name": "Inf/Dupe Items",
+      "name": "无限/重复物品",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "616B0B",
@@ -143,9 +148,9 @@
       ]
     },
     {
-      "name": "Max Money on Spend",
+      "name": "金钱最大 on Spend",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "207385F",
@@ -160,9 +165,9 @@
       ]
     },
     {
-      "name": "Max Survivor Rank on Gain",
+      "name": "最大 求生者 阶级 on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20738B7",
@@ -177,9 +182,9 @@
       ]
     },
     {
-      "name": "Max Agility LVL on Gain",
+      "name": "敏捷最大 LVL on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20738C7",
@@ -194,9 +199,9 @@
       ]
     },
     {
-      "name": "Max Power LVL on Gain",
+      "name": "最大 电力 LVL on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20738D8",
@@ -211,9 +216,9 @@
       ]
     },
     {
-      "name": "Max Legend LVL on Unlock",
+      "name": "最大 传奇 LVL on 解锁",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20738E9",
@@ -228,9 +233,9 @@
       ]
     },
     {
-      "name": "Inf Nitro (DLC)",
+      "name": "无限氮气 (DLC)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073870",
@@ -245,9 +250,9 @@
       ]
     },
     {
-      "name": "Inf Fuel (DLC)",
+      "name": "燃料无限 (DLC)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073881",
@@ -262,9 +267,9 @@
       ]
     },
     {
-      "name": "Inf Buggy Equipment Usage (DLC)",
+      "name": "Infinite Buggy 装备 Usage (DLC)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F8BE44",

@@ -1,12 +1,17 @@
 {
-  "name": "Cuphead",
+  "name": "Cuphead｜《Cuphead》",
   "id": "CUSA20469",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

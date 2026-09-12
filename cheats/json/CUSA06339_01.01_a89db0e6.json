@@ -1,12 +1,17 @@
 {
-  "name": "Twin Robots",
+  "name": "Twin Robots｜双胞胎机器人",
   "id": "CUSA06339",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Level Unlocker",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "等级 解锁器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "139F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "139FDB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F934",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Reset Timer",
-      "type": "checkbox",
+      "name": "Reset 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "139FDDD",

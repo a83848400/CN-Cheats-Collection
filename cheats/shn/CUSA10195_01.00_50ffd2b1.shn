@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Binding of Isaac: Afterbirth+" Moder="Weysincha" Cusa="CUSA10195" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>17EC3C</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>89-8A-98-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bombs/ Coins/ Keys">
+  <Cheat Text="无限炸弹/ 角落/ Keys">
     <Cheatline>
       <Offset>527000</Offset>
       <Section>0</Section>

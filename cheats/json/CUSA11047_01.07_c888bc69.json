@@ -1,12 +1,17 @@
 {
-  "name": "Song Of Memories",
+  "name": "Song Of Memories｜《记忆之歌》",
   "id": "CUSA11047",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Air Filter ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限之空 Filter ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D2551",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "no reload",
-      "type": "checkbox",
+      "name": "no reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D258B",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Medkit On Use",
-      "type": "checkbox",
+      "name": "Infinite 医疗包 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D249F",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "infinite Health ",
-      "type": "checkbox",
+      "name": "infinite Health ｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D2525",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D2566",

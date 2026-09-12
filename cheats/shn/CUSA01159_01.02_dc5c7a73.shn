@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sengoku Basara 4: Sumeragi" Moder="Q8Despair" Cusa="CUSA01159" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Gold Won't Decrease">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金币 Won'恐怖分子 Decrease">
     <Cheatline>
       <Offset>16BF800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-88-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="special coin x99999 in battle">
+  <Cheat Text="特别纪念币 x99999 in 战斗">
     <Cheatline>
       <Offset>12BF9E0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>F0-01-B7-E8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Growth points won't Decrease x10">
+  <Cheat Text="Growth 得分 won'恐怖分子 Decrease x10">
     <Cheatline>
       <Offset>12BF800</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-29-85-B4-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon points won't Decrease x10">
+  <Cheat Text="Weapon 得分 won'恐怖分子 Decrease x10">
     <Cheatline>
       <Offset>12BF80D</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-81-E4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon rank points won't Decrease">
+  <Cheat Text="Weapon 阶级 得分 won'恐怖分子 Decrease">
     <Cheatline>
       <Offset>12BF80D</Offset>
       <Section>0</Section>

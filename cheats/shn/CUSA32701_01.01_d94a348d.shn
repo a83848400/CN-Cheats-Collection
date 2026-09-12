@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Wanted: Dead" Moder="Reddevil82 - FW 9.00" Cusa="CUSA32701" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>6A1BDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-87-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Guard Gauge">
+  <Cheat Text="无限防御架势 Gauge">
     <Cheatline>
       <Offset>6A1BDE9</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-87-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Medi Packs ( on use )">
+  <Cheat Text="最大 Medi Packs ( on use )">
     <Cheatline>
       <Offset>6A1BDFE</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-89-87-2C-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化">
     <Cheatline>
       <Offset>6A1BE10</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>44-8B-B3-50-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Clip">
+  <Cheat Text="弹药最大化 Clip">
     <Cheatline>
       <Offset>6A1BE26</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>8B-87-48-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Grenades">
+  <Cheat Text="最大 手榴弹">
     <Cheatline>
       <Offset>6A1BE3B</Offset>
       <Section>0</Section>

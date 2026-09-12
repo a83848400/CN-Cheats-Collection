@@ -1,12 +1,17 @@
 {
-  "name": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
+  "name": "暗黑破坏神 III: 死神 of 结界突破: 必杀技 Evil Edition",
   "id": "CUSA00242",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Mana",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "522741",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Item / Kill Multiplier",
-      "type": "checkbox",
+      "name": "物品 / Kill Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "79c486",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Freeze Item Count",
-      "type": "checkbox",
+      "name": "Freeze 物品 Count",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5227e1",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "4873c9",

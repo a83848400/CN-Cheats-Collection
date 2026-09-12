@@ -1,12 +1,17 @@
 {
-  "name": "Monster Hunter: World",
+  "name": "怪物猎人: World",
   "id": "CUSA07708",
   "version": "02.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2603F6C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27B4E6F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Duplicate Money After Use",
-      "type": "checkbox",
+      "name": "Duplicate 金钱 After Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1393AB6",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CFFE49",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Duplicate Items After Use",
-      "type": "checkbox",
+      "name": "Duplicate Items After Use｜使用后的重复项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CFFE49",

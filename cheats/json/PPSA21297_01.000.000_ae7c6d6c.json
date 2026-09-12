@@ -1,13 +1,18 @@
 {
-  "name": "Withering Rooms",
+  "name": "Withering Rooms｜凋零之室",
   "id": "PPSA21297",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp and No curse",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 and 免疫诅咒",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB048",

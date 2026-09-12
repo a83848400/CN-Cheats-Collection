@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball: Xenoverse 2",
+  "name": "龙珠: Xenoverse 2",
   "id": "CUSA05088",
   "version": "01.29",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A7761F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A77650",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ki",
-      "type": "checkbox",
+      "name": "Infinite Ki｜无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A77670",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Parallel Quest)",
-      "type": "checkbox",
+      "name": "一击必杀 (Parallel Quest)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A77704",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "99 item / sell",
-      "type": "checkbox",
+      "name": "99 物品 / sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83D3D2",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Zeni",
-      "type": "checkbox",
+      "name": "最大 Zeni",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83A16F",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max TP",
-      "type": "checkbox",
+      "name": "最大 轮胎气压",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A77690",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "+100 Attribute Points",
-      "type": "checkbox",
+      "name": "+100 Attribute Points｜+100属性点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A776B0",

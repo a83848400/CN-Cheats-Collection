@@ -16,7 +16,15 @@
       <ValueOff>66-89-93-0E-03-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Max Player HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Player 手机" Description="">
     <Cheatline>
       <Offset>2CA6BA4</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>66-89-93-0E-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Kill" Description="">
+  <Cheat Text="Easy Kill｜轻松击杀" Description="">
     <Cheatline>
       <Offset>2CA6BB3</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo " Description="player and Vehicle">
+  <Cheat Text="无限弹药 " Description="player and Vehicle">
     <Cheatline>
       <Offset>1D3F0E0</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>45-89-75-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>2CA6BE6</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-B7-08-04-00-00-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant OverDirve" Description="">
+  <Cheat Text="Instant OverDirve｜即时超驱" Description="">
     <Cheatline>
       <Offset>2CA6BF3</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C5-FA-10-83-70-0F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Shop Items" Description="">
+  <Cheat Text="无限商店商品" Description="">
     <Cheatline>
       <Offset>23E8296</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>45-0F-4F-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Cash" Description="">
+  <Cheat Text="最大 无限现金" Description="">
     <Cheatline>
       <Offset>2CA6C0A</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>74-03-8B-42-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Project Points" Description="">
+  <Cheat Text="最大 Project 得分" Description="">
     <Cheatline>
       <Offset>2CA6C1F</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>74-0E-8B-51-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items\Throwables" Description="">
+  <Cheat Text="道具无限\可投掷物品" Description="">
     <Cheatline>
       <Offset>1D3AEB4</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>44-89-68-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items\Throwables v2" Description="">
+  <Cheat Text="道具无限\可投掷物品 v2" Description="">
     <Cheatline>
       <Offset>2CA6C34</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>74-1B-8B-42-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Vehicle HP" Description="">
+  <Cheat Text="最大 Vehicle 手机" Description="">
     <Cheatline>
       <Offset>2CA6BB5</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>66-89-93-0E-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vehicle Inf Boost" Description="">
+  <Cheat Text="载具无限加速" Description="">
     <Cheatline>
       <Offset>24A842C</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vehicle Gun No Overheat" Description="">
+  <Cheat Text="Vehicle Gun 不会过热" Description="">
     <Cheatline>
       <Offset>1E00895</Offset>
       <Section>0</Section>

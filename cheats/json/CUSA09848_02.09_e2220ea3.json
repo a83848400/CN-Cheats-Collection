@@ -1,12 +1,17 @@
 {
-  "name": "Biomutant",
+  "name": "Biomutant｜《Biomutant》",
   "id": "CUSA09848",
   "version": "02.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (Master 密码/Must Be On)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449FA00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449FA06",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449FA04",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449F920",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Special Attack",
-      "type": "checkbox",
+      "name": "《无限特辑》 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449F9A0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Breath/Jump (Water)",
-      "type": "checkbox",
+      "name": "无限呼吸/Jump (水)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449F5A0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Consumables",
-      "type": "checkbox",
+      "name": "最大/无限消耗品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449F880",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Avaliable Points",
-      "type": "checkbox",
+      "name": "最大/Infinite Avaliable 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449F6C0",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Upgrade Points",
-      "type": "checkbox",
+      "name": "最大/Infinite Upgrade 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449E0A0",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Bio Points",
-      "type": "checkbox",
+      "name": "最大/Infinite Bio 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449F9E0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Psi-Points",
-      "type": "checkbox",
+      "name": "最大/无限PSI-得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449F1D0",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Max XP On Gain",
-      "type": "checkbox",
+      "name": "最大 XP On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449FDF0",

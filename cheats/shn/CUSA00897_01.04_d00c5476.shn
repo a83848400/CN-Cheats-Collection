@@ -3,6 +3,14 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
   <Cheat Control="Toggel" Text="Infinite Health">
     <Cheatline>
       <Offset>261AF9</Offset>
@@ -35,7 +43,7 @@
       <ValueOff>39-B7-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Missiles" Description="">
+  <Cheat Text="Infinite Missiles｜导弹无限" Description="">
     <Cheatline>
       <Offset>225470</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>89-9F-FC-00-00-00-80-BF-51-0D-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Skills" Description="">
+  <Cheat Text="解锁 Skills" Description="">
     <Cheatline>
       <Offset>DBB800</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>8B-84-87-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Challenges" Description="">
+  <Cheat Text="简单 Challenges" Description="">
     <Cheatline>
       <Offset>225EEA</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>03-94-C7-4C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Hostage Health (Challenge)" Description="">
+  <Cheat Text="Infinite Hostage 生命 (Challenge)" Description="">
     <Cheatline>
       <Offset>5B153A</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Nioh 2",
+  "name": "Nioh 2｜仁王2",
   "id": "CUSA15526",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "itme",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "itme｜推",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B36311",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "ki recoerty speed",
-      "type": "checkbox",
+      "name": "气 recoerty 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92C64C",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "inf guardian spirit",
-      "type": "checkbox",
+      "name": "Infinite 守护灵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D801D",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite HP",
-      "type": "checkbox",
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2289330",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Ki",
-      "type": "checkbox",
+      "name": "Infinite Ki｜无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2289348",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max 99 All Usable Items",
-      "type": "checkbox",
+      "name": "最大 99 All Usable Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228935A",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Max 99 All Green Usable Items",
-      "type": "checkbox",
+      "name": "最大 99 All Green Usable Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228936C",

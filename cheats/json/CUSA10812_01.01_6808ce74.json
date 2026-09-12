@@ -1,12 +1,17 @@
 {
-  "name": "A Plague Tale: Innocence",
+  "name": "A Plague Tale: Innocence｜《瘟疫传说：无罪》",
   "id": "CUSA10812",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Throwable/ Equipped / Craftable Items",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限可投掷物/ Equipped / Craftable Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2820C0",

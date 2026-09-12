@@ -5,7 +5,15 @@
   <Genres Name="Shooter" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>20ECAF</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>FF-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades" Description="">
+  <Cheat Text="Infinite Grenades｜手雷无限" Description="">
     <Cheatline>
       <Offset>7206D</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Grenades on Use" Description="">
+  <Cheat Text="最大 手榴弹 on Use" Description="">
     <Cheatline>
       <Offset>72064</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>66-8B-47-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mines" Description="">
+  <Cheat Text="Infinite Mines｜无限矿场" Description="">
     <Cheatline>
       <Offset>152813</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>FF-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mines on Use" Description="">
+  <Cheat Text="最大 Mines on Use" Description="">
     <Cheatline>
       <Offset>15280C</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>41-0F-B7-45-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite C4" Description="">
+  <Cheat Text="Infinite C4炸药" Description="">
     <Cheatline>
       <Offset>15411F</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints" Description="">
+  <Cheat Text="Infinite Skillpoints｜无限技能点" Description="">
     <Cheatline>
       <Offset>42E8CA</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>29-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="255 Skillpoints on Use" Description="">
+  <Cheat Text="255 技能点 on Use" Description="">
     <Cheatline>
       <Offset>42E8C6</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>8B-4C-87-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add 200.000.000 Resources after restart game" Description="">
+  <Cheat Text="Add 200.000.000 Resources after restart game｜重启游戏后增加 200,000,000 资源" Description="">
     <Cheatline>
       <Offset>8B5D29</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>41-33-40-20-41-89-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Tier-One-Mode" Description="">
+  <Cheat Text="解锁 Tier-One-Mode" Description="">
     <Cheatline>
       <Offset>45C64D</Offset>
       <Section>0</Section>

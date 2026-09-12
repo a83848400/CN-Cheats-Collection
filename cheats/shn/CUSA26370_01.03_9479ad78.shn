@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="New Joe &amp; Mac: Caveman Ninja" Moder="Ali-mk" Cusa="CUSA26370" Version="01.03" Process="eboot.bin">
-  <Cheat Text="Infinite-lives" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-lives｜无限生命" Description="">
     <Cheatline>
       <Offset>812CE4B3</Offset>
       <Section>0</Section>
@@ -8,7 +16,7 @@
       <ValueOff>89-51-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-credits" Description="">
+  <Cheat Text="Infinite-credits｜无限积分" Description="">
     <Cheatline>
       <Offset>80C7426F</Offset>
       <Section>0</Section>

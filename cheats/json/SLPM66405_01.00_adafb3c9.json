@@ -1,12 +1,17 @@
 {
-  "name": "Radirgy Precious",
+  "name": "Radirgy Precious｜拉迪尔吉·普雷西厄斯",
   "id": "SLPM66405",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEE8DD0",
@@ -16,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite-credits",
-      "type": "checkbox",
+      "name": "Infinite-credits｜无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD79BC8",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "807FD79BC9",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

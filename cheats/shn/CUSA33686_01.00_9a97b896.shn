@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Remoteness" Moder="Reddevil82 - FW 9.00" Cusa="CUSA33686" Version="01.00" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Mastercode Save - Load Position ( must be activate )" Description="Mastercode Save - Load Position ( must be activate )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="主代码 保存 - 读取 Position ( must be activate )" Description="Mastercode Save - Load Position ( must be activate )">
     <Cheatline>
       <Offset>1A0B96E</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-68-54-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>1A0BD40</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-F8-2E-40-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Asthma" Description="Infinite Asthma">
+  <Cheat Text="Infinite Asthma｜无尽的哮喘" Description="Infinite Asthma">
     <Cheatline>
       <Offset>1A0BD65</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-40-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="Infinite Stamina">
     <Cheatline>
       <Offset>1A0BD71</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-F8-2E-40-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Electro Energy" Description="Infinite Electro Energy">
+  <Cheat Text="Infinite Electro 能量" Description="Infinite Electro Energy">
     <Cheatline>
       <Offset>1A0BD82</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C5-F8-2E-41-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Medipacks ( on use )" Description="Max Medipacks ( on use )">
+  <Cheat Text="最大 Medipacks ( on use )" Description="Max Medipacks ( on use )">
     <Cheatline>
       <Offset>1A0BD93</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>83-B8-C4-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Asthma Injections ( on use )" Description="Max Asthma Injections ( on use )">
+  <Cheat Text="最大 Asthma Injections ( on use )" Description="Max Asthma Injections ( on use )">
     <Cheatline>
       <Offset>1A0BDA9</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>83-B8-C8-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo" Description="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化" Description="Max Ammo">
     <Cheatline>
       <Offset>1A0BDC0</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>8B-9B-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Clip" Description="Max Ammo Clip">
+  <Cheat Text="弹药最大化 Clip" Description="Max Ammo Clip">
     <Cheatline>
       <Offset>1A0BDD5</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>44-8B-63-28-44-8B-7B-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Grenades" Description="Max Grenades">
+  <Cheat Text="最大 手榴弹" Description="Max Grenades">
     <Cheatline>
       <Offset>1A0BDE8</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>44-8B-A0-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ Hanna ]" Description="Infinite Health [ Hanna ]">
+  <Cheat Text="无限生命 [ Hanna ]" Description="Infinite Health [ Hanna ]">
     <Cheatline>
       <Offset>1A0BDFA</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>C5-FA-10-42-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo [ Hanna ]" Description="Infinite Ammo [ Hanna ]">
+  <Cheat Text="无限弹药 [ Hanna ]" Description="Infinite Ammo [ Hanna ]">
     <Cheatline>
       <Offset>17CBE04</Offset>
       <Section>14</Section>
@@ -164,7 +172,7 @@
       <ValueOff>41-FF-8E-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Location [ MC ]" Description="Save Location [ MC ]">
+  <Cheat Text="保存 Location [ MC ]" Description="Save Location [ MC ]">
     <Cheatline>
       <Offset>1E0006C</Offset>
       <Section>0</Section>
@@ -172,7 +180,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Load Location [ MC ]" Description="Load Location [ MC ]">
+  <Cheat Text="读取 Location [ MC ]" Description="Load Location [ MC ]">
     <Cheatline>
       <Offset>1E0006D</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump Height x 2 Multiplier [ Player ]" Description="Jump Height x 2 Multiplier [ Player ]">
+  <Cheat Text="跳跃高度 艾克斯 2 Multiplier [ Player ]" Description="Jump Height x 2 Multiplier [ Player ]">
     <Cheatline>
       <Offset>1A0B9E3</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>C5-FA-11-60-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed x 2 Multiplier [ Player ]" Description="Speed x 2 Multiplier [ Player ]">
+  <Cheat Text="速度 艾克斯 2 Multiplier [ Player ]" Description="Speed x 2 Multiplier [ Player ]">
     <Cheatline>
       <Offset>1A0BA03</Offset>
       <Section>0</Section>

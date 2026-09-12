@@ -1,12 +1,17 @@
 {
-  "name": "Guns, Gore & Cannoli 2",
+  "name": "《枪、血腥与坎诺利》 2",
   "id": "CUSA08413",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health / 1Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13D783F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ammo(1) No Reload (Default Pistol)",
-      "type": "checkbox",
+      "name": "无限弹药(1) 无需换弹 (默认 手枪)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13D7824",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "inf Ammo(2) Enable (1) First",
-      "type": "checkbox",
+      "name": "无限弹药(2) Enable (1) First",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13D7831",

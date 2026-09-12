@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light 2: Stay Human" Moder="Ali-mk" Cusa="CUSA12555" Version="01.61" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>214F964</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-47-FF-F0-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>347A4D9</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E8-62-2B-2F-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Stamina">
+    <Cheat Text="Infinite-体力">
     <Cheatline>
       <Offset>34AA429</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Items">
+    <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>341D78C</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E8-3F-F7-AB-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Immunity">
+    <Cheat Text="Infinite-Immunity｜无限免疫">
     <Cheatline>
       <Offset>3482DCE</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-11-43-2C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="max-gold + Infinite">
+    <Cheat Text="最大-金币 + Infinite">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

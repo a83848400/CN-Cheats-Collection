@@ -1,12 +1,17 @@
 {
-  "name": "Devil May Cry: HD Collection",
+  "name": "鬼泣: HD Collection",
   "id": "CUSA09407",
   "version": "01.00",
   "process": "dmc2.elf",
   "mods": [
     {
-      "name": "Max/Infinite Health (DMC2)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命 (DMC2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BAE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Devil Trigger (DMC2)",
-      "type": "checkbox",
+      "name": "最大/无限恶魔触发 (DMC2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC59BB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Red Orbs (DMC2)",
-      "type": "checkbox",
+      "name": "最大/无限红球 (DMC2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AB90",

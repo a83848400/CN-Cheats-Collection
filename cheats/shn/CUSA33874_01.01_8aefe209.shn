@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Persona 4 Golden" Moder="d01v" Cusa="CUSA33874" Version="01.01" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="backport 9 to 505 only">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="backport 9 to 505 only｜仅将 9 向下移植到 505">
     <Cheatline>
       <Offset>815731</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite Health">
+  <Cheat Text="infinite Health｜无限生命">
     <Cheatline>
       <Offset>815739</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-39-C6-41-0F-4E-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite SP">
+  <Cheat Text="infinite 精神值">
     <Cheatline>
       <Offset>815761</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>41-39-C6-41-0F-4E-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All items" Description="open item / weapon / armor / accessories / clothes inventory, your original items are untouched">
+  <Cheat Text="All items｜所有商品" Description="open item / weapon / armor / accessories / clothes inventory, your original items are untouched">
     <Cheatline>
       <Offset>815791</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>48-63-CF-8A-04-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Player EXP" Description="view player from status menu then it will give u 1 exp after that turn of this cheat">
+  <Cheat Text="最大 Player 经验" Description="view player from status menu then it will give u 1 exp after that turn of this cheat">
     <Cheatline>
       <Offset>8157D1</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>F6-07-04-0F-B7-47-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max exp persona" Description="view persona from status menu u want to level up then turn off after if u wont all persona will level up">
+  <Cheat Text="经验值最大 人格面具" Description="view persona from status menu u want to level up then turn off after if u wont all persona will level up">
     <Cheatline>
       <Offset>815811</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>0F-B7-43-02-66-BB-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max persona stats" Description="view any persona to max all stats">
+  <Cheat Text="最大 人格面具 属性" Description="view any persona to max all stats">
     <Cheatline>
       <Offset>815841</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>45-8A-64-1E-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Social Stats" Description="open social stats menu">
+  <Cheat Text="最大 人格指数" Description="open social stats menu">
     <Cheatline>
       <Offset>815871</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>0F-BF-74-78-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Exp Social Link" Description="turn on this cheat before u spend time to anyone it will level per event, u can spam by using date cheat">
+  <Cheat Text="经验值最大 社群" Description="turn on this cheat before u spend time to anyone it will level per event, u can spam by using date cheat">
     <Cheatline>
       <Offset>815901</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>66-41-01-46-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Daytime">
+  <Cheat Text="Master 密码 Daytime">
     <Cheatline>
       <Offset>815961</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>C7-40-04-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Early morning (MC daytime)">
+  <Cheat Text="清晨 (MC daytime)">
     <Cheatline>
       <Offset>815968</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>EB-2E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Afterschool (MC daytime)">
+  <Cheat Text="Afterschool (MC daytime)｜《放学后》（MC日间档）">
     <Cheatline>
       <Offset>815968</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>EB-2E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Evening (MC daytime)">
+  <Cheat Text="Evening (MC daytime)｜晚间（MC 白天）">
     <Cheatline>
       <Offset>815968</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>EB-2E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Date" Description="turn this cheat on before u sleep then turn off (must be off before evening)">
+  <Cheat Text="Master 密码 Date" Description="turn this cheat on before u sleep then turn off (must be off before evening)">
     <Cheatline>
       <Offset>8159C1</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>80-3C-77-00-66-89-50-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Decrease 1 day (MC Date)">
+  <Cheat Text="Decrease 1 day (MC Date)｜减少1天（MC日期）">
     <Cheatline>
       <Offset>8159C5</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase 1 day (MC Date)">
+  <Cheat Text="Increase 1 day (MC Date)｜增加 1 天（MC 日期）">
     <Cheatline>
       <Offset>8159C5</Offset>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Yen" Description="open menu">
+  <Cheat Text="Yen｜如果" Description="open menu">
     <Cheatline>
       <Offset>815A01</Offset>
       <Section>0</Section>
@@ -204,7 +212,7 @@
       <ValueOff>0F-B7-44-48-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Persona id (skin)" Description="equipped any persona from 2nd slot to 6th then exit it will change instanly">
+  <Cheat Text="Master 密码 人格面具 id (皮肤)" Description="equipped any persona from 2nd slot to 6th then exit it will change instanly">
     <Cheatline>
       <Offset>815A51</Offset>
       <Section>0</Section>
@@ -218,7 +226,7 @@
       <ValueOff>66-C7-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase id (MC id)">
+  <Cheat Text="Increase id (MC id)｜增加 ID（MC ID）">
     <Cheatline>
       <Offset>815A63</Offset>
       <Section>0</Section>
@@ -226,7 +234,7 @@
       <ValueOff>EB-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Decrease id (MC id)">
+  <Cheat Text="Decrease id (MC id)｜减少 ID（MC ID）">
     <Cheatline>
       <Offset>815A63</Offset>
       <Section>0</Section>

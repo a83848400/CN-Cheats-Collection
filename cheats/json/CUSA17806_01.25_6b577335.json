@@ -1,12 +1,17 @@
 {
-  "name": "Hellpoint",
+  "name": "Hellpoint｜《地狱之点》",
   "id": "CUSA17806",
   "version": "01.25",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7A87",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7AA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7A20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Axions ( on gain - use )",
-      "type": "checkbox",
+      "name": "最大 Axions ( on gain - use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7A60",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7AAA",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Perfect Temperature",
-      "type": "checkbox",
+      "name": "Perfect Temperature｜完美温度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7AC4",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Infinite Air",
-      "type": "checkbox",
+      "name": "Infinite Air｜无限之空",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7AD9",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "No Radiation",
-      "type": "checkbox",
+      "name": "No Radiation｜无辐射",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7AEE",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "No Sanity",
-      "type": "checkbox",
+      "name": "No Sanity｜《No Sanity》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19FF800",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Max Tenacity",
-      "type": "checkbox",
+      "name": "最大 Tenacity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7AFD",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "No load Equipment",
-      "type": "checkbox",
+      "name": "No 读取 装备",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7B0E",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Max Power Up ( on gain )",
-      "type": "checkbox",
+      "name": "最大 电力 Up ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7B4B",
@@ -217,8 +222,8 @@
       ]
     },
     {
-      "name": "Max Stats",
-      "type": "checkbox",
+      "name": "最大 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7B25",
@@ -233,8 +238,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C7B3A",

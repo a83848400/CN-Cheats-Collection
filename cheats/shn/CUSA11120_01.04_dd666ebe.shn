@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="20XX" Moder="Ali-mk" Cusa="CUSA11120" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-King-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-金-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>E9-F9-A1-38-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Weapon">
+    <Cheat Text="Infinite-All-Weapon｜无限全武器">
     <Cheatline>
       <Offset>37DD6C</Offset>
       <Section>0</Section>
@@ -278,7 +286,7 @@
       <ValueOff>49-89-86-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-lives">
+    <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>104B5F</Offset>
       <Section>0</Section>
@@ -286,7 +294,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max + Infinite-Nuts">
+    <Cheat Text="最大 + Infinite-Nuts">
     <Cheatline>
       <Offset>37DE3E</Offset>
       <Section>0</Section>
@@ -294,7 +302,7 @@
       <ValueOff>8B-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Time">
+    <Cheat Text="Infinite-Time｜无限时间">
     <Cheatline>
       <Offset>1A8ED</Offset>
       <Section>0</Section>
@@ -302,7 +310,7 @@
       <ValueOff>C5-FB-11-03</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-money(MC)">
+    <Cheat Text="最大-金钱(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

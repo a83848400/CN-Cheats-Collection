@@ -1,12 +1,17 @@
 {
-  "name": "Kena: Bridge of Spirits",
+  "name": "Kena: Bridge of Spirits｜《凯娜：灵桥》",
   "id": "CUSA24853",
   "version": "02.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (Master 密码/Must Be On)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7BE3E60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "无限生命 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7BE3E6A",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7BE3E68",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Infinite Rots/Level On Gain",
-      "type": "checkbox",
+      "name": "最大 Infinite Rots/等级 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D8B0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Shield/Rots On Use (Disable Master Code)",
-      "type": "checkbox",
+      "name": "最大/无限护盾/Rots On Use (Disable Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5CEE0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "No Wasting Time To Use Rots",
-      "type": "checkbox",
+      "name": "No Wasting Time To Use Rots｜别再浪费时间去使用Rots了",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F6C0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points On Gain/Use",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分 On Gain/Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E860",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Cristals On Gain/Buy",
-      "type": "checkbox",
+      "name": "最大/无限水晶 On Gain/Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FFA0",

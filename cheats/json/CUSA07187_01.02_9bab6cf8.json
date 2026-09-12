@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy VII Remake",
+  "name": "最终幻想 VII Remake",
   "id": "CUSA07187",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "INF HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFB8D1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Add GIL When Buying",
-      "type": "checkbox",
+      "name": "Add 基尔 When Buying",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E560D8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Freez GIL",
-      "type": "checkbox",
+      "name": "Freez 基尔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E560D8",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Add Item When Buying",
-      "type": "checkbox",
+      "name": "Add 物品 When Buying",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E41E6F",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Freez Mp",
-      "type": "checkbox",
+      "name": "Freez Mp｜把我冻住",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFBBD8",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "ADD Mp",
-      "type": "checkbox",
+      "name": "ADD Mp｜添加 MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFBBD8",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "MAX ATB",
-      "type": "checkbox",
+      "name": "最大 主动时间战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFB656",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Freez Special LIMIT",
-      "type": "checkbox",
+      "name": "Freez Special LIMIT｜Freez 特别限量版",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFBF76",

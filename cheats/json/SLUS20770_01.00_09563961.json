@@ -1,12 +1,17 @@
 {
-  "name": "The Lord of the Rings: The Return of the King",
+  "name": "The 领主 of the 金环: The Return of the 金",
   "id": "SLUS20770",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80809EAE20",
@@ -22,7 +27,7 @@
     },
     {
       "name": "Arrows-99",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80809ECDA8",

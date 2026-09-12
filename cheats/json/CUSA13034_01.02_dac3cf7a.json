@@ -1,12 +1,17 @@
 {
-  "name": "Watch Dogs: Legion",
+  "name": "看门狗: Legion",
   "id": "CUSA13034",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Dont Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Dont Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85E3D50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1 Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85E3D50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Ammo / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1862069",

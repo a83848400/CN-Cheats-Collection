@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fatal Frame: Mask of the Lunar Eclipse" Moder="d01v" Cusa="CUSA36876" Version="01.04" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>191F2A1</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-10-84-24-C8-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Health is 1">
+  <Cheat Text="Enemy 生命 is 1">
     <Cheatline>
       <Offset>191F2E1</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-80-C8-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Health is 1 using Flashlight">
+  <Cheat Text="Enemy 生命 is 1 using 手电筒">
     <Cheatline>
       <Offset>191F311</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-10-80-C8-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>8A600B</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>44-0F-4C-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Camera Film">
+  <Cheat Text="Instant 相机 Film">
     <Cheatline>
       <Offset>191F341</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>83-BF-AC-0A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Shutter Lock">
+  <Cheat Text="Instant Shutter Lock｜即时快门锁定">
     <Cheatline>
       <Offset>191F371</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C4-C1-7A-10-84-24-98-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Spirit Power">
+  <Cheat Text="Instant 精魄 电力">
     <Cheatline>
       <Offset>191F3A1</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C5-FA-58-4C-16-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score">
+  <Cheat Text="最大 比分">
     <Cheatline>
       <Offset>191F3D1</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>8B-88-24-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time">
+  <Cheat Text="停止 Time">
     <Cheatline>
       <Offset>8389FA</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>48-89-05-BF-87-D0-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Lunar Power (flashlight)">
+  <Cheat Text="Instant Lunar 电力 (手电筒)">
     <Cheatline>
       <Offset>191F401</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>C4-C1-7A-11-84-24-C0-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Mission Time (New Game+)">
+  <Cheat Text="停止 Mission Time (新游戏+)">
     <Cheatline>
       <Offset>867CE1</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>89-4B-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mission Score (New Game+)">
+  <Cheat Text="Mission 比分 (新游戏+)">
     <Cheatline>
       <Offset>867DB4</Offset>
       <Section>0</Section>

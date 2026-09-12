@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry: HD Collection" Moder="Celogamez" Cusa="CUSA09263" Version="01.01" Process="dmc1.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max/Infinite Health (DMC1)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命 (DMC1)">
     <Cheatline>
       <Offset>5ABD00</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>66-89-8F-A2-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Devil Trigger (DMC1)">
+  <Cheat Text="Infinite Devil Trigger (DMC1)｜无限恶魔触发（DMC1）">
     <Cheatline>
       <Offset>5ABDF0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>44-8B-83-CC-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Items On Use (DMC1)">
+  <Cheat Text="最大/道具无限 On Use (DMC1)">
     <Cheatline>
       <Offset>5ABE70</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>66-42-89-84-8E-92-20-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Red Orbs (DMC1)">
+  <Cheat Text="最大/无限红球 (DMC1)">
     <Cheatline>
       <Offset>5ABE20</Offset>
       <Section>0</Section>

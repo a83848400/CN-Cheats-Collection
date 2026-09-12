@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="Infinite Items">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>15AF596</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>89-5C-31-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite mana bar">
+  <Cheat Text="无限法力 bar">
     <Cheatline>
       <Offset>18ACAAE</Offset>
       <Section>0</Section>

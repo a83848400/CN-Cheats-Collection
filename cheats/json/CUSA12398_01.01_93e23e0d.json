@@ -1,12 +1,17 @@
 {
-  "name": "The Forest",
+  "name": "The 森林",
   "id": "CUSA12398",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Health｜生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E90310",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Stamina",
-      "type": "checkbox",
+      "name": "Stamina｜体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E903E0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Energy",
-      "type": "checkbox",
+      "name": "Energy｜能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E90340",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Fullness",
-      "type": "checkbox",
+      "name": "Fullness｜饱满感",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E90360",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Thirst",
-      "type": "checkbox",
+      "name": "Thirst｜口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E90380",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Body Temp",
-      "type": "checkbox",
+      "name": "车身 Temp",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E903A0",

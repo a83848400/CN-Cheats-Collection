@@ -1,13 +1,18 @@
 {
-  "name": "Invincible VS",
+  "name": "无敌 VS",
   "id": "PPSA30568",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87BBF00",
@@ -52,9 +57,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp_P1",
+      "name": "--玩家1无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87BBF00",
@@ -64,9 +69,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp_P2",
+      "name": "--玩家2无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87BBF02",
@@ -76,9 +81,9 @@
       ]
     },
     {
-      "name": "--Inf_Special_P1",
+      "name": "--玩家1无限特殊值",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87BBF01",
@@ -88,9 +93,9 @@
       ]
     },
     {
-      "name": "--Inf_Special_P2",
+      "name": "--玩家2无限特殊值",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87BBF03",
@@ -100,9 +105,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill_P1",
+      "name": "--玩家1一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87BBF04",
@@ -112,9 +117,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill_P2",
+      "name": "--玩家2一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87BBF05",

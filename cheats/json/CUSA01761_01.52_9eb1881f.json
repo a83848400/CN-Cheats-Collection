@@ -1,12 +1,17 @@
 {
-  "name": "Payday 2: Crimewave Edition",
+  "name": "Payday 2: Crimewave Edition｜《Payday 2：犯罪浪潮版》",
   "id": "CUSA01761",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code /Health /Ammo / Skill/Money/Ins_Drill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 /生命 /但是 / Skill/金钱/Ins_Drill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DBE900",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo /No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 /无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DBE904",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DBE90A",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Money (999999999)",
-      "type": "checkbox",
+      "name": "金钱最大 (999999999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DBE967",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Instant Drill ",
-      "type": "checkbox",
+      "name": "Instant Drill ｜即时练习",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DBE989",

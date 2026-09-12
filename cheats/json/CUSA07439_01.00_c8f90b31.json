@@ -1,10 +1,10 @@
 {
-  "name": "Dark Souls III: The Fire Fades Edition",
+  "name": "黑暗之魂 III: The 火 Fades Edition",
   "id": "CUSA07439",
   "version": "01.00",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "473F800",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F824",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Infinite Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F80C",
@@ -40,8 +45,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F818",
@@ -51,8 +56,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F83C",
@@ -67,8 +72,8 @@
       ]
     },
     {
-      "name": "Infinite Souls",
-      "type": "checkbox",
+      "name": "Infinite Souls｜灵魂无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F863",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F884",
@@ -99,8 +104,8 @@
       ]
     },
     {
-      "name": "Infinite Armour Durability",
-      "type": "checkbox",
+      "name": "无限护甲 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F8E6",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Max Items on Use",
-      "type": "checkbox",
+      "name": "最大 Items on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F872",
@@ -131,8 +136,8 @@
       ]
     },
     {
-      "name": "No Effects",
-      "type": "checkbox",
+      "name": "No Effects｜无效果",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473F893",

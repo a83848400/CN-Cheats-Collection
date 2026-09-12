@@ -1,12 +1,17 @@
 {
-  "name": "A Pixel Story",
+  "name": "A Pixel Story｜一个像素的故事",
   "id": "CUSA05957",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Double Rings On Pick Up",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Double 金环 On 拾取",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80177423",

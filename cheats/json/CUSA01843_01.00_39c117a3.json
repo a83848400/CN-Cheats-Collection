@@ -1,12 +1,17 @@
 {
-  "name": "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+  "name": "Teenage Mutant Ninja Turtles: Mutants in Manhattan｜《忍者龟：曼哈顿的变种人》",
   "id": "CUSA01843",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health ( Master Code )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 ( Master 密码 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D3D0F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Master Code)",
-      "type": "checkbox",
+      "name": "一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D3D0F3",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Battel Points",
-      "type": "checkbox",
+      "name": "最大 Battel 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D3D130",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Upgrade Points",
-      "type": "checkbox",
+      "name": "最大 Upgrade 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D3D150",

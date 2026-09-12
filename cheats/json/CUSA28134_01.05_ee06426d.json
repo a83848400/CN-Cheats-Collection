@@ -1,12 +1,17 @@
 {
-  "name": "Elex II",
+  "name": "电子 II",
   "id": "CUSA28134",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Experience / level / AP / LP (on 2nd fight)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Experience / 等级 / 行动点 / 生命值 (on 2nd fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -22,8 +27,8 @@
       ]
     },
     {
-      "name": "Elexit / All items (on gain and spent)",
-      "type": "checkbox",
+      "name": "Elexit / 所有商品 (on gain and spent)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",

@@ -1,13 +1,18 @@
 {
-  "name": "Resident Evil 4",
+  "name": "生化危机 4",
   "id": "CUSA04885",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "208A26",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2e208e",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Inventory Ammo",
+      "name": "Infinite 背包 但是",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2e0dee",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "99999999 PTAS",
+      "name": "99999999 PTAS｜9,999,999 个家长教师协会",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1031C7C",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Inventory Ammo (NOP)",
-      "type": "checkbox",
+      "name": "Infinite 背包 但是 (NOP)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E0DEC",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Matrix",
-      "type": "checkbox",
+      "name": "Matrix｜矩阵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B5C73",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Change starting Hangun to P.R.L. 412",
-      "type": "checkbox",
+      "name": "Change starting Hangun to P.R.L. 412｜将起始汉文改为 P.R.L. 412",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2041407D8",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Invisible",
-      "type": "checkbox",
+      "name": "Invisible｜不可见",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8FA330",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Walk Through Walls",
-      "type": "checkbox",
+      "name": "Walk Through Walls｜穿墙而过",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65E0",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Player Not Easy To Shake",
-      "type": "checkbox",
+      "name": "Player Not 简单 To Shake",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3686D1",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Enemy Freeze",
-      "type": "checkbox",
+      "name": "Enemy Freeze｜敌方冻结",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "94260",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "Speed Normal",
-      "type": "button",
+      "name": "速度 普通",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8FA0C0",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "Speed 3x",
-      "type": "button",
+      "name": "速度 3x",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8FA100",
@@ -172,8 +177,8 @@
       ]
     },
     {
-      "name": "Speed 5x",
-      "type": "button",
+      "name": "速度 五次",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8FA070",
@@ -188,8 +193,8 @@
       ]
     },
     {
-      "name": "Change Character Size To Normal",
-      "type": "button",
+      "name": "Change Character Size To 普通",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8FA1A0",
@@ -204,8 +209,8 @@
       ]
     },
     {
-      "name": "Change Character Size To Big",
-      "type": "button",
+      "name": "Change Character Size To Big｜将字号改为大号",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8FA140",
@@ -220,8 +225,8 @@
       ]
     },
     {
-      "name": "Infinite Health All Players",
-      "type": "checkbox",
+      "name": "无限生命 All Players",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC57AB0",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
+      "name": "Infinite Clip Ammo｜弹夹子弹无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC57F50",
@@ -262,8 +267,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC57F40",
@@ -278,8 +283,8 @@
       ]
     },
     {
-      "name": "Save Always 0",
-      "type": "checkbox",
+      "name": "保存 Always 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC57E90",
@@ -294,20 +299,20 @@
       ]
     },
     {
-      "name": "Attache Case XL (Activate B4 Starting The Game)",
-      "type": "button",
+      "name": "Attache 箱子 XL (Activate B4 Starting The Game)",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
           "offset": "740806",
-          "on": "7F",
-          "off": "AD"
+          "on": "7F｜七楼",
+          "off": "AD｜致"
         }
       ]
     },
     {
-      "name": "Infinite R. Launcher (Put Handgun In The Center)",
-      "type": "button",
+      "name": "Infinite R. 挑空技 (Put 手枪 In The Center)",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -318,8 +323,8 @@
       ]
     },
     {
-      "name": "Infinite Chicago Typewriter (Put Handgun In The Center)",
-      "type": "button",
+      "name": "Infinite Chicago 打字机 (Put 手枪 In The Center)",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -336,8 +341,8 @@
       ]
     },
     {
-      "name": "P.R.L 412 (Put Handgun In The Center)",
-      "type": "button",
+      "name": "P.R.L 412 (Put Handgun In The Center)｜P.R.L 412（将手枪放在中央）",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -348,8 +353,8 @@
       ]
     },
     {
-      "name": "Handgun",
-      "type": "button",
+      "name": "Handgun｜手枪",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -360,8 +365,8 @@
       ]
     },
     {
-      "name": "Punisher",
-      "type": "button",
+      "name": "Punisher｜惩罚者",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -372,8 +377,8 @@
       ]
     },
     {
-      "name": "Red9",
-      "type": "button",
+      "name": "Red9｜红九",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -384,8 +389,8 @@
       ]
     },
     {
-      "name": "Blacktail",
-      "type": "button",
+      "name": "Blacktail｜黑尾",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -396,8 +401,8 @@
       ]
     },
     {
-      "name": "Broken Butterfly",
-      "type": "button",
+      "name": "Broken 蝴蝶",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -408,8 +413,8 @@
       ]
     },
     {
-      "name": "TMP",
-      "type": "button",
+      "name": "TMP｜工时与动作研究",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -420,8 +425,8 @@
       ]
     },
     {
-      "name": "Mine Thrower",
-      "type": "button",
+      "name": "Mine Thrower｜地雷投掷器",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -432,8 +437,8 @@
       ]
     },
     {
-      "name": "Handcannon",
-      "type": "button",
+      "name": "Handcannon｜手炮",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -444,8 +449,8 @@
       ]
     },
     {
-      "name": "Shotgun",
-      "type": "button",
+      "name": "Shotgun｜霰弹枪",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -456,8 +461,8 @@
       ]
     },
     {
-      "name": "Krauser's Bow",
-      "type": "button",
+      "name": "Krauser's 弓",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -468,8 +473,8 @@
       ]
     },
     {
-      "name": "Bowgun",
-      "type": "button",
+      "name": "Bowgun｜弩",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -480,8 +485,8 @@
       ]
     },
     {
-      "name": "Matilda",
-      "type": "button",
+      "name": "Matilda｜玛蒂尔达",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -492,8 +497,8 @@
       ]
     },
     {
-      "name": "Riot Gun",
-      "type": "button",
+      "name": "Riot Gun｜骚乱枪",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -504,8 +509,8 @@
       ]
     },
     {
-      "name": "Killer 7",
-      "type": "button",
+      "name": "Killer 7｜《杀手7》",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -516,8 +521,8 @@
       ]
     },
     {
-      "name": "Striker",
-      "type": "button",
+      "name": "Striker｜前锋",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -528,8 +533,8 @@
       ]
     },
     {
-      "name": "Rifle (Put Handgun In The Center)",
-      "type": "button",
+      "name": "Rifle (Put Handgun In The Center)｜步枪（将手枪放在中间）",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",
@@ -540,8 +545,8 @@
       ]
     },
     {
-      "name": "Rifle Semi Auto",
-      "type": "button",
+      "name": "Rifle Semi Auto｜半自动步枪",
+      "type": "button｜按钮",
       "memory": [
         {
           "section": "21",

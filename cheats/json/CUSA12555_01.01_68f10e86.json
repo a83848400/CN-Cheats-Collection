@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light 2: Stay Human",
+  "name": "《消逝的光芒》 2: Stay 人类",
   "id": "CUSA12555",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2641262",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "267866D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Immunity",
-      "type": "checkbox",
+      "name": "Infinite Immunity｜无限免疫力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2648851",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Items Multiplier(Turn Off After Use)",
-      "type": "checkbox",
+      "name": "物品倍率(回合 Off After Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235BC5D",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": " Infinite Items Usage",
-      "type": "checkbox",
+      "name": " 道具无限 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25F3F89",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables Usage",
-      "type": "checkbox",
+      "name": "无限消耗品 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25F40FF",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Money Multiplier",
-      "type": "checkbox",
+      "name": "Money Multiplier｜金钱倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25F21DB",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Infinite Melee Durability (Do Not Use with Dev Menu)",
-      "type": "checkbox",
+      "name": "近战武器耐久无限 (Do Not Use with Dev 菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2319676",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Experience Parkour/Combat Inhabitor Multiplier",
-      "type": "checkbox",
+      "name": "Experience Parkour/Combat Inhabitor Multiplier｜跑酷/格斗经验值倍增器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27FBA9A",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27D1C97",

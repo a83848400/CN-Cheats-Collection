@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Darksiders: Warmastered Edition" Moder="Ali-mk" Cusa="CUSA05347" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>6B7F41</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C4-C1-7A-11-85-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Invincible-(MC)">
+    <Cheat Text="无敌-(MC)">
     <Cheatline>
       <Offset>57848D</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>E8-5D-37-08-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-Souls-1-(MC)">
+    <Cheat Text="最大-结界突破-1-(MC)">
     <Cheatline>
       <Offset>6C1874</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-58-83-00-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="MAX-Souls-2-(MC)">
+      <Cheat Text="最大-结界突破-2-(MC)">
     <Cheatline>
       <Offset>65CFFA</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>E8-61-48-06-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Quick-Level-All-Weapon-Up-(mc)">
+    <Cheat Text="Quick-等级-All-Weapon-Up-(mc)">
     <Cheatline>
       <Offset>3BA0F1</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C4-C1-7A-11-85-DC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Inf-Wrath-bar-Rage">
+      <Cheat Text="Infinite-Wrath-bar-怒气">
     <Cheatline>
       <Offset>1F9878</Offset>
       <Section>0</Section>

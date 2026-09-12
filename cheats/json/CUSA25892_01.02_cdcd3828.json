@@ -1,12 +1,17 @@
 {
-  "name": "Ninja Gaiden: Master Collection",
+  "name": "忍者龙剑传: Master Collection",
   "id": "CUSA25892",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1295300",
@@ -36,8 +41,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BF67B6",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "Infinite Ninpo Attacks",
-      "type": "checkbox",
+      "name": "Infinite 忍法 Attacks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1295440",
@@ -68,8 +73,8 @@
       ]
     },
     {
-      "name": "Max Money  (On Get)",
-      "type": "checkbox",
+      "name": "金钱最大  (On Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1297FC5",

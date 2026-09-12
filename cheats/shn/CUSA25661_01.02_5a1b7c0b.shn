@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Shadow Man Remastered" Moder="Ali-mk" Cusa="CUSA25661" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>373D33</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E8-28-0B-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>29D579</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>41-89-56-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Weapon-ASSON">
+  <Cheat Text="无限武器-ASSON">
     <Cheatline>
       <Offset>29D638</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>41-89-56-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Weapon-Shadow-Gun-Full-Power">
+  <Cheat Text="无限武器-暗影-Gun-Full-电力">
     <Cheatline>
       <Offset>29D604</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-8B-46-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max-cadeaux">
+  <Cheat Text="最大-cadeaux">
     <Cheatline>
       <Offset>29D6FF</Offset>
       <Section>0</Section>

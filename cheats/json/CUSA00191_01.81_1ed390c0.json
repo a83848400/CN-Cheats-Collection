@@ -1,12 +1,17 @@
 {
-  "name": "Killzone: Shadow Fall",
+  "name": "Killzone: 暗影 Fall",
   "id": "CUSA00191",
   "version": "01.81",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "6958C0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CA5AFC",

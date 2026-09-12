@@ -1,12 +1,17 @@
 {
-  "name": "Dead Nation: Apocalypse Edition",
+  "name": "Dead Nation: Apocalypse Edition｜《死亡国度：启示录版》",
   "id": "CUSA00176",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "fb7c01",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9009c",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Flares / Grenades / Molotovs and Mines",
-      "type": "checkbox",
+      "name": "Infinite Flares / Grenades / Molotovs and Mines｜无限信号弹/手榴弹/莫洛托夫鸡尾酒和地雷",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90754",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Money Part1",
-      "type": "checkbox",
+      "name": "金钱无限 Part1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9dd12",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Money Part2",
-      "type": "checkbox",
+      "name": "金钱无限 Part2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9de42",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Money Part3",
-      "type": "checkbox",
+      "name": "金钱无限 Part3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9e17d",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9c7375",

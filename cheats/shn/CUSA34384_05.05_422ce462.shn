@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War: Ragnarok" Moder="Pharaoh2k" Cusa="CUSA34384" Version="05.05" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="Please  be sure to read the comment on each individual cheat, if a comment is available. For my most advanced Ragnarok trainer I recommend using my ShnExt trainer with MultiTrainer2. Enjoy! :-)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="Please  be sure to read the comment on each individual cheat, if a comment is available. For my most advanced Ragnarok trainer I recommend using my ShnExt trainer with MultiTrainer2. Enjoy! :-)">
     <Cheatline>
       <Section>0</Section>
       <Offset>1787840</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode (Untouchable+No Effects) [DO NOT USE IN VALHALLA]" Description="May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does. Use No Damage Taken instead.">
+  <Cheat Text="神模式 (刀枪不入+无效果) [请勿在VALHALLA中使用]" Description="May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does. Use No Damage Taken instead.">
     <Cheatline>
       <Section>0</Section>
       <Offset>1787000</Offset>
@@ -48,7 +56,7 @@
       <ValueOff>C5-F8-11-84-24-90-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Damage Taken" Description="none">
+  <Cheat Text="No Damage Taken｜不受伤害" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>84F5A6</Offset>
@@ -56,7 +64,7 @@
       <ValueOff>C3-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No XP,HS, Resources subtracted when used" Description="none">
+  <Cheat Text="No XP,HS, Resources subtracted when used｜使用时不会扣除XP、HS和资源" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>1787090</Offset>
@@ -70,7 +78,7 @@
       <ValueOff>F0-01-57-08-EB-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Crafting And Upgrade Limits" Description="none">
+  <Cheat Text="No Crafting And Upgrade Limits｜无制作和升级限制" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>C3EFC6</Offset>
@@ -78,7 +86,7 @@
       <ValueOff>7C-9D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows and Throwables [DO NOT USE IN VALHALLA]" Description="none">
+  <Cheat Text="箭矢无限 and 可投掷物品 [请勿在VALHALLA中使用]" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>17870A0</Offset>
@@ -104,7 +112,7 @@
       <ValueOff>C5-FA-10-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rage (incl. Kratos and Atreus)" Description="none">
+  <Cheat Text="怒气无限 (incl. 奎托斯 and 阿特柔斯)" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>17870E0</Offset>
@@ -118,7 +126,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]" Description="Enable this first and then only one of the damage levels. May not affect some travelers (mini bosses)">
+  <Cheat Text="输出 Multiplier(Master 密码) [请勿在VALHALLA中使用]" Description="Enable this first and then only one of the damage levels. May not affect some travelers (mini bosses)">
     <Cheatline>
       <Section>0</Section>
       <Offset>1787120</Offset>
@@ -132,7 +140,7 @@
       <ValueOff>44-89-FA-C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--5x damage" Description="none">
+  <Cheat Text="--5倍伤害" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>178713A</Offset>
@@ -140,7 +148,7 @@
       <ValueOff>00-00-A0-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--10x damage" Description="none">
+  <Cheat Text="--10倍伤害" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>178713A</Offset>
@@ -148,7 +156,7 @@
       <ValueOff>00-00-20-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--20x damage" Description="none">
+  <Cheat Text="--20倍伤害" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>178713A</Offset>
@@ -156,7 +164,7 @@
       <ValueOff>00-00-A0-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--30x damage" Description="none">
+  <Cheat Text="--30倍伤害" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>178713A</Offset>
@@ -164,7 +172,7 @@
       <ValueOff>00-00-F0-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--40x damage" Description="none">
+  <Cheat Text="--40倍伤害" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>178713A</Offset>
@@ -172,7 +180,7 @@
       <ValueOff>00-00-20-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--50x damage" Description="none">
+  <Cheat Text="--50倍伤害" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>178713A</Offset>
@@ -180,7 +188,7 @@
       <ValueOff>00-00-48-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--100x damage (one hit kill)" Description="none">
+  <Cheat Text="--100x 输出 (一击必杀)" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>178713A</Offset>
@@ -188,7 +196,7 @@
       <ValueOff>00-00-C8-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Stun [DO NOT USE IN VALHALLA]" Description="This cheat may cause progression issues with some enemies (especially bosses).If and when it does, be sure to disable it and reload the checkpoint.">
+  <Cheat Text="One Hit Stun [DO NOT USE IN VALHALLA]｜一击眩晕 [请勿在瓦尔哈拉使用]" Description="This cheat may cause progression issues with some enemies (especially bosses).If and when it does, be sure to disable it and reload the checkpoint.">
     <Cheatline>
       <Section>0</Section>
       <Offset>1787140</Offset>
@@ -202,7 +210,7 @@
       <ValueOff>C4-C1-7A-10-46-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Max Shield Charge" Description="none">
+  <Cheat Text="Infinite 最大 盾牌 冲锋" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>1787160</Offset>
@@ -216,7 +224,7 @@
       <ValueOff>C5-FA-10-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Talisman and Relic Cooldown" Description="none">
+  <Cheat Text="No 符箓 and 遗物 Cooldown" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>1787190</Offset>
@@ -230,7 +238,7 @@
       <ValueOff>C4-C1-7A-11-44-24-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Charge (L1+Triangle)" Description="none">
+  <Cheat Text="Infinite Weapon 冲锋 (L1+Triangle)" Description="none">
     <Cheatline>
       <Section>0</Section>
       <Offset>17871B0</Offset>

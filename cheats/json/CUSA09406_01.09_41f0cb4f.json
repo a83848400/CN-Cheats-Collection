@@ -1,12 +1,17 @@
 {
-  "name": "We Happy Few",
+  "name": "We Happy Few｜《我们这群快乐的人》",
   "id": "CUSA09406",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlimited HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlimited 手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "564F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Unlimited Weight",
-      "type": "checkbox",
+      "name": "Unlimited 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20E5BD",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Unlimted Items (on consume)",
-      "type": "checkbox",
+      "name": "Unlimted Items (关于“consume”)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48689E",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Unlimited Items (on drop need 2)",
-      "type": "checkbox",
+      "name": "物品数量无限 (on 丢弃 need 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BB6A5",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Unlimited Money (on buy)",
-      "type": "checkbox",
+      "name": "Unlimited 金钱 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C3058",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Unlimited Weapon Durability",
-      "type": "checkbox",
+      "name": "Unlimited 武器耐久度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "485D8D",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Unlimited Stam, Joy, Fatigue, Hunger and Thirst",
-      "type": "checkbox",
+      "name": "Unlimited Stam, Joy, 疲劳, 饥饿 and 口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "471C21",

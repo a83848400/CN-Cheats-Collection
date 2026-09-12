@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Black Myth: Wukong" Moder="Super Death" Cusa="PPSA23226" Version="01.000.010" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <PS5Offset>6BCCEAC-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>FF-57-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <PS5Offset>7FE618B-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>35-00-00-00-80</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic">
+  <Cheat Text="Infinite 魔法">
     <Cheatline>
       <PS5Offset>7FE6454-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>35-00-00-00-80</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite XP">
+  <Cheat Text="Infinite XP｜无限经验值">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Skill Countdown">
+  <Cheat Text="No Skill Countdown｜无技能倒计时">
     <Cheatline>
       <PS5Offset>80B015E-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>F3-0F-5C-45-D4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Sparks ">
+  <Cheat Text="Infinite Sparks ｜无尽火花">
     <Cheatline>
       <PS5Offset>7B9-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="x99 Items">
+  <Cheat Text="Infinite Items｜道具无限" Description="x99 Items">
     <Cheatline>
       <PS5Offset>7EA-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <PS5Offset>7D3-executable[0]-5</PS5Offset>
       <Section>0</Section>

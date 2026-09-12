@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Alan Wake Remastered" Moder="Saso" Cusa="PPSA01925" Version="01.000.003" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Section>0</Section>
       <Offset>A4F800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Section>0</Section>
       <Offset>9C580</Offset>
@@ -24,7 +32,7 @@
       <ValueOff>C4-C1-7A-11-87-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flashlight Energy">
+  <Cheat Text="Infinite 手电筒 能量">
     <Cheatline>
       <Section>0</Section>
       <Offset>A4F820</Offset>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FA-10-87-40-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Batteries">
+  <Cheat Text="Infinite 电池">
     <Cheatline>
       <Section>0</Section>
       <Offset>A4F814</Offset>
@@ -52,7 +60,7 @@
       <ValueOff>8B-83-44-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Section>0</Section>
       <Offset>2B142E</Offset>
@@ -60,7 +68,7 @@
       <ValueOff>FF-CB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Section>0</Section>
       <Offset>2B13DE</Offset>
@@ -68,7 +76,7 @@
       <ValueOff>FF-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flare / Flashbang">
+  <Cheat Text="无限火花 / 闪光弹">
     <Cheatline>
       <Section>0</Section>
       <Offset>A4F839</Offset>
@@ -82,7 +90,7 @@
       <ValueOff>39-CE-0F-4E-F9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Car Battery">
+  <Cheat Text="Infinite Car 电池">
     <Cheatline>
       <Section>0</Section>
       <Offset>A4F845</Offset>

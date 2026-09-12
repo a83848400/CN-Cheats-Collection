@@ -1,12 +1,17 @@
 {
-  "name": "No More Heroes 3",
+  "name": "No More Heroes 3｜《英雄不再3》",
   "id": "CUSA32167",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Sword battery never decreases",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "剑 电池 never decreases",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E21996",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Uc on gain",
-      "type": "checkbox",
+      "name": "最大 Uc on gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64CB800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max WESN on gain",
-      "type": "checkbox",
+      "name": "最大 WESN on gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64CB811",

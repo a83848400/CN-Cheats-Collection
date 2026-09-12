@@ -1,12 +1,17 @@
 {
-  "name": "Two Point Campus",
+  "name": "Two Point Campus｜两点校园",
   "id": "CUSA24605",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money ( on gain )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "197FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Kudosh ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Kudosh ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "197FE06",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Career Points",
-      "type": "checkbox",
+      "name": "最大 职业 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "197FDED",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Room Prestige",
-      "type": "checkbox",
+      "name": "最大 Room 转生",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "197FE20",

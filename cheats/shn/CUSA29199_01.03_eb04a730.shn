@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Tormented Souls" Moder="Ali-mk" Cusa="CUSA29199" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-    <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+    <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>8158053C</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-1C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>80BB90E7</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>E8-E4-F5-90-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Ammo">
+  <Cheat Text="Infinite-Ammo｜无限弹药">
     <Cheatline>
       <Offset>8095B4EA</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>44-89-70-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-items">
+  <Cheat Text="Infinite-items｜无限项">
     <Cheatline>
       <Offset>804BB622</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>44-89-70-48</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="one-Hit-Kill">
+    <Cheat Text="one-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>806496B0</Offset>
       <Section>0</Section>

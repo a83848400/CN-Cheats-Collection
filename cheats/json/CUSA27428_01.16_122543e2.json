@@ -1,12 +1,17 @@
 {
-  "name": "Skul: The Hero Slayer",
+  "name": "Skul: The 英雄 Slayer",
   "id": "CUSA27428",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Coins/Crystal/Bones (on gain and use)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 角落/水晶/Bones (on gain and use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Skill cooldown",
-      "type": "checkbox",
+      "name": "No Skill cooldown｜技能无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1999200",

@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto III - The Definitive Edition",
+  "name": "侠盗猎车手 III - The Definitive Edition",
   "id": "CUSA26613",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (WIP/Experimental)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (WIP/Experimental)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10F1775",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinte Armour",
-      "type": "checkbox",
+      "name": "Infinte Armour｜无限铠甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10F1624",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11976BF",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Get $99.999.999 (Upon Mission Completion)",
-      "type": "checkbox",
+      "name": "Get $99.999.999 (Upon Mission Completion)｜获得 99,999,999 美元（完成任务后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57CFEC0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Freeze Money (for Pay N Spray/Ammu-Nation)",
-      "type": "checkbox",
+      "name": "Freeze 金钱 (for Pay N 喷漆/Ammu-Nation)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F85F16",

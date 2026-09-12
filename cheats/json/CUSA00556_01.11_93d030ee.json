@@ -1,12 +1,17 @@
 {
-  "name": "The Last of Us: Remastered",
+  "name": "最后生还者: Remastered",
   "id": "CUSA00556",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Parts, Skills, Items On Use (x999)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Parts, Skills, Items On Use (x999)｜零件、技能、使用型道具（x999）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B5A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Tools Level 5 On Gain",
-      "type": "checkbox",
+      "name": "Tools 等级 5 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68462",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Flashlight Does Not Turn Off",
-      "type": "checkbox",
+      "name": "手电筒 Does Not 回合 Off",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Enable Dev Menu",
-      "type": "checkbox",
+      "name": "Enable Dev 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AE00",

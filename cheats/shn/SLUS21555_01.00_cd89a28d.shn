@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Lara Croft Tomb Raider: Anniversary" Moder="Ali-mk" Cusa="SLUS21555" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>807FFBFDF8</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Med-packs">
+  <Cheat Text="Infinite-Med-packs｜无限医疗包">
     <Cheatline>
       <Offset>807FE69FB8</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>24-02-00-63</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Ammo/Never Reload">
+  <Cheat Text="无限弹药/Never Reload">
     <Cheatline>
       <Offset>807FE83B7C</Offset>
       <Section>0</Section>

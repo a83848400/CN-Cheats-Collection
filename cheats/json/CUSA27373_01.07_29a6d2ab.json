@@ -1,12 +1,17 @@
 {
-  "name": "The Callisto Protocol",
+  "name": "The Callisto Protocol｜《卡利斯托协议》",
   "id": "CUSA27373",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7303000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7303060",
@@ -38,7 +43,7 @@
     },
     {
       "name": "Infinite GRP",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2559BFB",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2581079",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Callisto Credits 10x (pickup/sell)",
-      "type": "checkbox",
+      "name": "Callisto Credits 十倍 (pickup/sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "73030C0",

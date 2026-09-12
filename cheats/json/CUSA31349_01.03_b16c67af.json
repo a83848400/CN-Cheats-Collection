@@ -1,12 +1,17 @@
 {
-  "name": "Crisis Core: Final Fantasy VII: Reunion",
+  "name": "Crisis 核心: 最终幻想 VII: Reunion",
   "id": "CUSA31349",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBB970",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBB9C0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite AP",
-      "type": "checkbox",
+      "name": "Infinite AP｜无限能力点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBBA10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Items (when use)",
-      "type": "checkbox",
+      "name": "道具无限 (when use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBBAD0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Gil (when Buying)",
-      "type": "checkbox",
+      "name": "金钱最大 (when Buying)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBBA50",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max SP (after first battle)",
-      "type": "checkbox",
+      "name": "最大 精神值 (after first 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBBB10",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Fast Leveling up (after 2nd or 3rd fight)",
-      "type": "checkbox",
+      "name": "Fast Leveling up (after 2nd or 3rd fight)｜快速升级（在第2或第3场战斗后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FBBB60",

@@ -1,12 +1,17 @@
 {
-  "name": "Marvel vs. Capcom: Infinite",
+  "name": "Marvel vs. 卡普空: Infinite",
   "id": "CUSA06400",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP (USE CHEATS ONE AT A TIME OR CRASH)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 (USE CHEATS ONE AT A TIME OR CRASH)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Super",
-      "type": "checkbox",
+      "name": "无限超级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC3800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Stone Meter (Hit enemy once with it)",
-      "type": "checkbox",
+      "name": "石头无限 Meter (Hit enemy once with it)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFDD4",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Inf Time",
-      "type": "checkbox",
+      "name": "无限时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC3800",

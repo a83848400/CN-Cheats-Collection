@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops 4",
+  "name": "使命召唤: 黑色 Ops 4",
   "id": "CUSA12446",
   "version": "01.26",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B57DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B57C00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B572A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B57990",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Grenades/Scepter Of Ra (Zombies)",
-      "type": "checkbox",
+      "name": "最大/手雷无限/权杖 Of 拉的翼神龙 (Zombies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B57800",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Score (Zombies)",
-      "type": "checkbox",
+      "name": "最大 比分 (Zombies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B578E0",

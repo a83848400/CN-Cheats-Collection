@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Assassin's Creed Mirage" Moder="Saso" Cusa="CUSA33150" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>2DA9DD8</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>89-97-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>323A30E</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-59-53-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen">
+  <Cheat Text="Infinite Oxygen｜无限氧气">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C5-FA-11-80-DC-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mount Stamina">
+  <Cheat Text="Mount 体力">
     <Cheatline>
       <Offset>2E3B1E5</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>C4-C1-7A-11-55-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(99)  Skill Points / Level (On Spend)">
+  <Cheat Text="(99)  Skill Points / Level (On Spend)｜(99) 每级技能点(消耗时生效)">
     <Cheatline>
       <Offset>66A7800</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>48-8B-87-B8-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(9999) Resources (On Use)">
+  <Cheat Text="(9999) Resources (On Use)｜(9999) 资源(使用时生效)">
     <Cheatline>
       <Offset>66A7800</Offset>
       <Section>0</Section>

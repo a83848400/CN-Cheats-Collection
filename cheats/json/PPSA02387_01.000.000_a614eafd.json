@@ -1,13 +1,18 @@
 {
-  "name": "A Plague Tale: Innocence",
+  "name": "A Plague Tale: Innocence｜《瘟疫传说：无罪》",
   "id": "PPSA02387",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Cant Hear You",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Cant Hear You｜听不见你",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F14",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB000",

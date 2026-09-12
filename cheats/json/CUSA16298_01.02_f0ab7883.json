@@ -1,12 +1,17 @@
 {
-  "name": "Monkey King: Hero is Back",
+  "name": "美猴王: 英雄 is Back",
   "id": "CUSA16298",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health ｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5003600",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5006EB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Materials on gain and spend",
-      "type": "checkbox",
+      "name": "材料最大 on gain and spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5006E40",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Chi on gain",
-      "type": "checkbox",
+      "name": "最大 Chi on gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5006F90",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Vital items (on use)",
-      "type": "checkbox",
+      "name": "最大 Vital items (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5006F10",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": " Max Tool Items (on get and use)",
-      "type": "checkbox",
+      "name": " 最大 Tool Items (on get and use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5006F60",

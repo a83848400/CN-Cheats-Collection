@@ -1,12 +1,17 @@
 {
-  "name": "Mad Max",
+  "name": "Mad 最大",
   "id": "CUSA00103",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CC7E9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Fury R3+L2 On R3+R2 Off",
-      "type": "checkbox",
+      "name": "狂怒值最大 R3+L2 On R3+R2 Off",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01353922",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Inf Fury",
-      "type": "checkbox",
+      "name": "最大 无尽之怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01353832",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Inf Ammo",
-      "type": "checkbox",
+      "name": "最大 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01353850",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44B83A",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "Max Inf Canteen",
-      "type": "checkbox",
+      "name": "最大 Infinite 食堂",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01353881",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Max Inf Fuel",
-      "type": "checkbox",
+      "name": "最大 燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01353890",
@@ -122,8 +127,8 @@
       ]
     },
     {
-      "name": "Max Inf Scraps",
-      "type": "checkbox",
+      "name": "最大 Infinite Scraps",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "013538A3",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Inf Car Health",
-      "type": "checkbox",
+      "name": "Infinite Car 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "013538B1",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Inf Griffa Tokens x1",
-      "type": "checkbox",
+      "name": "无限格里法代币 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "013538C7",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Inf Griffa Tokens x5",
-      "type": "checkbox",
+      "name": "无限格里法代币 x5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "013538D3",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Inf Enemy HP",
-      "type": "checkbox",
+      "name": "Infinite Enemy 手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E4CC5",

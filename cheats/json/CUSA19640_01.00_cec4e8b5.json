@@ -1,12 +1,17 @@
 {
-  "name": "Persona 5 Strikers",
+  "name": "女神异闻录5 Strikers",
   "id": "CUSA19640",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlimited PP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlimited 招式点数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82EAE5",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Unlimited Bond Point",
-      "type": "checkbox",
+      "name": "Unlimited Bond Point｜无限债券点数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C00E6",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Unlimited SP",
-      "type": "checkbox",
+      "name": "Unlimited 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EAF3D",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "HP(seems not working but worth to try)",
-      "type": "checkbox",
+      "name": "手机(seems not working but worth to try)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EACE2",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Unlimited Items",
-      "type": "checkbox",
+      "name": "Unlimited Items｜物品数量无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E7AF8",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max Money (buy something and go to menu)",
-      "type": "checkbox",
+      "name": "金钱最大 (买点东西 and go to 菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D258C",

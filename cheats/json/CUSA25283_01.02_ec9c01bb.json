@@ -1,12 +1,17 @@
 {
-  "name": "My Name is Mayo 2",
+  "name": "My Name is Mayo 2｜我的名字叫梅奥 2",
   "id": "CUSA25283",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "10000 Clicks",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "10000 Clicks｜10000 次点击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "96F91C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Love",
-      "type": "checkbox",
+      "name": "Love｜爱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "219D6D416",
@@ -72,8 +77,8 @@
       ]
     },
     {
-      "name": "Dreams",
-      "type": "checkbox",
+      "name": "Dreams｜梦想",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "219D6CA16",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Myself",
-      "type": "checkbox",
+      "name": "Myself｜我自己",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "219D6C016",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "Money",
-      "type": "checkbox",
+      "name": "Money｜金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "219D6B616",

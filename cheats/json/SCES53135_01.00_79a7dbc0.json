@@ -1,12 +1,17 @@
 {
-  "name": "God of War",
+  "name": "God of War｜战神",
   "id": "SCES53135",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF3802C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max-Orbs",
-      "type": "checkbox",
+      "name": "最大-Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF04DA8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF04D9C",

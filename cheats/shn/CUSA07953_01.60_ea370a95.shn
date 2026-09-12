@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodstained: Ritual of the Night" Moder="Bandicootmonito " Cusa="CUSA07953" Version="01.60" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Time never decrease (Miriam Classic Mode)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Time never decrease (Miriam 经典模式)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-83-48-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite potions x99 (Miriam Classic Mode)" Description="The potions will decrease when use, but restore to 99 when you collect blue roses (Las pociones bajarán cuando las usas, pero se restauran a 99 cuando recolectas rosas azules)">
+  <Cheat Text="药水无限 x99 (Miriam 经典模式)" Description="The potions will decrease when use, but restore to 99 when you collect blue roses (Las pociones bajarán cuando las usas, pero se restauran a 99 cuando recolectas rosas azules)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF811</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>89-87-B4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite health + One hit kill (Miriam Classic Mode)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="无限生命 + 一击必杀 (Miriam 经典模式)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF822</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7A-11-8F-68-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite lives x99 (Miriam Classic Mode)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="无限生命 x99 (Miriam 经典模式)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF83D</Offset>

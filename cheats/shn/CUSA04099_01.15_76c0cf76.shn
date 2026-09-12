@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sniper Elite 4" Moder="Rizla" Cusa="CUSA04099" Version="01.15" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>C57800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-F8-2E-44-08-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>C57819</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C4-C1-7A-11-4F-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Offset>C5782C</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C4-C1-7A-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/Items/Medkits">
+  <Cheat Text="无限弹药/Items/Medkits">
     <Cheatline>
       <Offset>871C27</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>45-29-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>89AC8C</Offset>
       <Section>0</Section>

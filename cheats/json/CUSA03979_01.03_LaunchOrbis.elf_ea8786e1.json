@@ -1,12 +1,17 @@
 {
-  "name": "BioShock: The Collection",
+  "name": "BioShock: The Collection｜《生化奇兵：合集》",
   "id": "CUSA03979",
   "version": "01.03",
   "process": "LaunchOrbis.elf",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC31D",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Eve",
-      "type": "checkbox",
+      "name": "Infinite 伊芙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CFE48",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9D7C",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11123E3",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC314",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Cash",
-      "type": "checkbox",
+      "name": "最大 Cash",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D0054",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "Max Adam",
-      "type": "checkbox",
+      "name": "最大 Adam",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D03F6",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "Full items",
-      "type": "checkbox",
+      "name": "Full items｜完整项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9508",

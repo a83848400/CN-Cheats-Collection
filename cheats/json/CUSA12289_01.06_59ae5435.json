@@ -1,12 +1,17 @@
 {
-  "name": "Shenmue III",
+  "name": "Shenmue III｜《莎木III》",
   "id": "CUSA12289",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4FBBE01",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4FBBDF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Tokens",
-      "type": "checkbox",
+      "name": "Infinite Tokens｜无限代币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4FBBE10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Unlock all Items + Infinite Items",
-      "type": "checkbox",
+      "name": "解锁全部物品 + 道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4F15470",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Only collected Infinite Items",
-      "type": "checkbox",
+      "name": "Only collected 道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4F74640",

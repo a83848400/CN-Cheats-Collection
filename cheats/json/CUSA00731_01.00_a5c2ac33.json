@@ -1,12 +1,17 @@
 {
-  "name": "The Legend of Korra",
+  "name": "The 传奇 of Korra",
   "id": "CUSA00731",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "99BAB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Chi (after Charging)",
-      "type": "checkbox",
+      "name": "Infinite Chi (after Charging)｜无限气（充能后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "99B9A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Time",
-      "type": "checkbox",
+      "name": "Infinite Time｜无限时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "99BB80",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Energy orbs (on collect)",
-      "type": "checkbox",
+      "name": "最大 能量 orbs (on collect)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "99BBB0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "99BA60",

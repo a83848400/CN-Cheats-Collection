@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Plants vs. ZombiesT: Replanted" Moder="Bandicootmonito" Cusa="CUSA55613" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Sun x9990" Description="Plant one sunflower or other plant  lower than 50 suns, and the cheat will work">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限阳光 x9990" Description="Plant one sunflower or other plant  lower than 50 suns, and the cheat will work">
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -18,7 +26,7 @@
       <ValueOff>44-29-68-10-E9-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Plants Recharge Instantly">
+  <Cheat Text="Plants Recharge Instantly｜植物瞬间恢复活力">
     <Cheatline>
       <PS5Offset>7C8-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -34,7 +42,7 @@
       <ValueOff>89-43-70-3B-43-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money x999990" Description="When the shop is available, buy something and the cheat will work">
+  <Cheat Text="金钱无限 x999990" Description="When the shop is available, buy something and the cheat will work">
     <Cheatline>
       <PS5Offset>7A4-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -50,7 +58,7 @@
       <ValueOff>01-58-50-48-83-C4-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fertilizer x20" Description="First you need to buy it, after that every time you use the cheat will work">
+  <Cheat Text="Infinite Fertilizer x20｜无限肥料 x20" Description="First you need to buy it, after that every time you use the cheat will work">
     <Cheatline>
       <PS5Offset>78F-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -66,7 +74,7 @@
       <ValueOff>FF-48-58-48-89-DF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Spray x20" Description="First you need to buy it, after that every time you use the cheat will work">
+  <Cheat Text="Infinite 喷漆 x20" Description="First you need to buy it, after that every time you use the cheat will work">
     <Cheatline>
       <PS5Offset>78F-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>
@@ -82,7 +90,7 @@
       <ValueOff>FF-48-5C-EB-2E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tree Food x10" Description="First you need to buy it, after that every time you use the cheat will work">
+  <Cheat Text="Infinite Tree Food x10｜无限之树食物 ×10" Description="First you need to buy it, after that every time you use the cheat will work">
     <Cheatline>
       <PS5Offset>780-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>14</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "How to Survive: Storm Warning Edition",
+  "name": "How to Survive: 风暴圈 Warning Edition",
   "id": "CUSA00706",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D1590",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D13E0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Never Hungry",
-      "type": "checkbox",
+      "name": "Never Hungry｜永不饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D14B0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Never Thirsty",
-      "type": "checkbox",
+      "name": "Never Thirsty｜永不口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D1690",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Never Tired",
-      "type": "checkbox",
+      "name": "Never Tired｜永不疲劳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D17A0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D1750",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB309",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max XP on Gain",
-      "type": "checkbox",
+      "name": "最大 XP on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D1460",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Items on Use",
-      "type": "checkbox",
+      "name": "最大 Items on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D14C0",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Infinite Torch",
-      "type": "checkbox",
+      "name": "Infinite 火把",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D1420",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "99,999,999 Items on Use",
-      "type": "checkbox",
+      "name": "99,999,999 Items on Use｜正在使用的物品有 99,999,999 件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D1520",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D1610",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "Gun shoots air if no ammo (Need 1 bullet) (Not lethal)",
-      "type": "checkbox",
+      "name": "Gun shoots air if no ammo (Need 1 bullet) (Not lethal)｜如果没有子弹，枪会发射空气（需要1发子弹）（非致命）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CA167",

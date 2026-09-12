@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Atomic Heart" Moder="Celogamez" Cusa="CUSA37321" Version="01.24" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/Energy/Polymeric Ability/Shock/Dash (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/能量/Polymeric 特性/Shock/Dash (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>728BDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>728BDB9</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>728BDDB</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Polymeric Ability 1">
+  <Cheat Text="Polymeric 特性 1">
     <Cheatline>
       <Offset>728BDEB</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Polymeric Ability 2">
+  <Cheat Text="Polymeric 特性 2">
     <Cheatline>
       <Offset>728BDFB</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shock">
+  <Cheat Text="Infinite Shock｜无限冲击">
     <Cheatline>
       <Offset>728BE11</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dash">
+  <Cheat Text="Infinite Dash｜无限冲刺">
     <Cheatline>
       <Offset>728BE24</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>4A30937</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>FF-8B-40-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Neuropolymer/Resources (On Pick Up)">
+  <Cheat Text="Infinite Neuropolymer/Resources (On 拾取)">
     <Cheatline>
       <Offset>728BA20</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>45-8B-7C-1E-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Neuropolymer/Resources On Use">
+  <Cheat Text="Infinite Neuropolymer/Resources On Use｜无限神经聚合物/使用指南">
     <Cheatline>
       <Offset>728B830</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>75-6D-8B-4B-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(DLC Annihilation) Infinite Neuropolymer/Resources On Use">
+  <Cheat Text="(DLC Annihilation) Infinite Neuropolymer/Resources On Use｜(DLC湮灭)使用时无限神经聚合物/资源">
     <Cheatline>
       <Offset>728B730</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>75-6D-8B-4B-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(DLC Limbo) - Infinite Health/Dash/Abilities (MASTERCODE/MUST BE ON)">
+  <Cheat Text="(DLC Limbo) - Infinite Health/Dash/Abilities (MASTERCODE/MUST BE ON)｜(DLC地狱边境)-无限生命/冲刺/技能(主代码必须开启)">
     <Cheatline>
       <Offset>728BDB0</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>728BDBC</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dash">
+  <Cheat Text="Infinite Dash｜无限冲刺">
     <Cheatline>
       <Offset>728BDD7</Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Polymeric Ability">
+  <Cheat Text="Infinite Polymeric 特性">
     <Cheatline>
       <Offset>728BDEB</Offset>
       <Section>0</Section>

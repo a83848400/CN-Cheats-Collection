@@ -1,12 +1,17 @@
 {
-  "name": "Cult of the Lamb",
+  "name": "Cult of the Lamb｜《羔羊教派》",
   "id": "CUSA32184",
   "version": "01.29",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Items And Gold",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限 And 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81234B8C",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Inf Life",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F02F",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Inf Prey Bar",
-      "type": "checkbox",
+      "name": "Infinite 猎物 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F061",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Inf Prey Points",
-      "type": "checkbox",
+      "name": "Infinite 猎物 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0A0",

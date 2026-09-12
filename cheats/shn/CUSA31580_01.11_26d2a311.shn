@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sea of Stars" Moder="Super Death " Cusa="CUSA31580" Version="01.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <PS5Offset>2ACCA6C-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>
@@ -11,7 +19,7 @@
       <ValueOff>89-43-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>
@@ -41,7 +49,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic">
+  <Cheat Text="Infinite 魔法">
     <Cheatline>
       <PS5Offset>7D5-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>
@@ -71,7 +79,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Combo">
+  <Cheat Text="Infinite Combo｜无限连击">
     <Cheatline>
       <PS5Offset>7A7-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>
@@ -101,7 +109,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Enemy Timers" Description="Enemies cannot execute their special moves/ cannot take their turn">
+  <Cheat Text="冻结敌人 Timers" Description="Enemies cannot execute their special moves/ cannot take their turn">
     <Cheatline>
       <PS5Offset>7BD-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>
@@ -131,7 +139,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Boost Lvl 3" Description="Max boost Lvl">
+  <Cheat Text="Boost Lvl 3｜强化 3级" Description="Max boost Lvl">
     <Cheatline>
       <PS5Offset>790-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>
@@ -161,7 +169,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="Buy/Sell something">
+  <Cheat Text="Infinite Money｜金钱无限" Description="Buy/Sell something">
     <Cheatline>
       <PS5Offset>7EA-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>
@@ -191,7 +199,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x99 Items" Description="Buy/Sell something (must have a minimum of 2 when buying or selling)">
+  <Cheat Text="x99 Items｜x99 件商品" Description="Buy/Sell something (must have a minimum of 2 when buying or selling)">
     <Cheatline>
       <PS5Offset>777-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Section>15</Section>

@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlocker",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlocker｜解锁器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "517F550",
@@ -17,7 +22,7 @@
     },
     {
       "name": "Pofo",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4687B53",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Unlock Brock Lesnar",
-      "type": "checkbox",
+      "name": "解锁 Brock Lesnar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A940D7",

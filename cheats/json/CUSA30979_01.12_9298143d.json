@@ -1,13 +1,18 @@
 {
-  "name": "Little Witch Nobeta",
+  "name": "Little 女巫 Nobeta",
   "id": "CUSA30979",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Magic",
+      "name": "Infinite 魔法",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F042",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F071",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Super",
+      "name": "无限超级",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0A0",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0CF",

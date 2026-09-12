@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="[00][Master Code] Always ON!" Description="This cheat must always be on. Other cheats depend on this one.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[00][Master 密码] Always ON!" Description="This cheat must always be on. Other cheats depend on this one.">
     <Cheatline>
       <Offset>2BDB090</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>C5-FB-58-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[01][Teleport] To Marker (Place It While Pressing L2)" Description="Go to the map. Place a Marker by pressing X while L2 is being pressed. When you leave the map, Aloy will travel to that place/Marker. Place it where there's nothing of interest (just beside it it's ok).">
+  <Cheat Text="[01][传送] To Marker (Place It While Pressing L2)" Description="Go to the map. Place a Marker by pressing X while L2 is being pressed. When you leave the map, Aloy will travel to that place/Marker. Place it where there's nothing of interest (just beside it it's ok).">
     <Cheatline>
       <Offset>2BDB600</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>C4-81-7C-11-04-27</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02][Teleport] To The Base (L1+L2+R1+R2)" Description="Since you have to come back to The Base many times during the game, use this after having discovered it.">
+  <Cheat Text="[02][传送] To The 基地 (L1+L2+R1+R2)" Description="Since you have to come back to The Base many times during the game, use this after having discovered it.">
     <Cheatline>
       <Offset>2BDB850</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>C5-F1-58-08-C5-F9-11-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03a][Fly] O+X (fast) A+O+X (slow)" Description="If you press X+O+Triangle, Aloy will levitate slowly. If you release the Triangle button, Aloy will ascend much faster.">
+  <Cheat Text="[03a][飞行] O+艾克斯 (fast) A+O+艾克斯 (slow)" Description="If you press X+O+Triangle, Aloy will levitate slowly. If you release the Triangle button, Aloy will ascend much faster.">
     <Cheatline>
       <Offset>2BDB3C0</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C5-FA-11-42-08-C5-F8-10-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03b][Fly] O+X (fast) A+O+X (slow) ON/OFF" Description="[02a] is easier. If you press X+O+Triangle, you will activate the slow levitation. To turn it OFF, you MUST press X+O+Triangle again. This one is practical if you want to fly slowly while firing, for example.">
+  <Cheat Text="[03b][飞行] O+艾克斯 (fast) A+O+艾克斯 (slow) ON/OFF" Description="[02a] is easier. If you press X+O+Triangle, you will activate the slow levitation. To turn it OFF, you MUST press X+O+Triangle again. This one is practical if you want to fly slowly while firing, for example.">
     <Cheatline>
       <Offset>2BDB3C0</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>C5-FA-11-42-08-C5-F8-10-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04][Health] Immunity" Description="Also known as untouchable, etc. Aloy can't be hit/damaged.">
+  <Cheat Text="[04][生命] Immunity" Description="Also known as untouchable, etc. Aloy can't be hit/damaged.">
     <Cheatline>
       <Offset>2BDB1A0</Offset>
       <Section>0</Section>
@@ -123,7 +131,7 @@
       <ValueOff>48-89-E5-41-57</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05][Health] Infinite">
+  <Cheat Text="[05][生命] Infinite">
     <Cheatline>
       <Offset>2BDB000</Offset>
       <Section>0</Section>
@@ -137,7 +145,7 @@
       <ValueOff>E8-3F-81-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06][Health] Start And Level Up = 666K Health" Description="If cheat is ON while loading, you'll start with 666K Health. If you level up, you'll get 666K Health. It's not permanent.">
+  <Cheat Text="[06][生命] Start And 升级 = 666K 生命" Description="If cheat is ON while loading, you'll start with 666K Health. If you level up, you'll get 666K Health. It's not permanent.">
     <Cheatline>
       <Offset>2BDB800</Offset>
       <Section>0</Section>
@@ -151,7 +159,7 @@
       <ValueOff>48-89-FB-C5-E0-57-DB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07][Health] Max Recharge" Description="Health will be max recharged manually and automatically (when very low).">
+  <Cheat Text="[07][生命] 最大 Recharge" Description="Health will be max recharged manually and automatically (when very low).">
     <Cheatline>
       <Offset>2BDB7A0</Offset>
       <Section>0</Section>
@@ -165,7 +173,7 @@
       <ValueOff>C5-FA-11-47-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08][Health] Diving: Infinite Air">
+  <Cheat Text="[08][生命] Diving: 无限之空">
     <Cheatline>
       <Offset>2BDB080</Offset>
       <Section>0</Section>
@@ -179,7 +187,7 @@
       <ValueOff>C5-FA-11-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09a][Weapon] 1 Hit Kill (Mega-Damage)">
+  <Cheat Text="[09a][Weapon] 一击必杀 (Mega-输出)">
     <Cheatline>
       <Offset>2BDB700</Offset>
       <Section>0</Section>
@@ -193,7 +201,7 @@
       <ValueOff>4D-8B-BF-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09b][Weapon] Damage Multiplier x2">
+  <Cheat Text="[09b][Weapon] 伤害倍率 x2">
     <Cheatline>
       <Offset>2BDB700</Offset>
       <Section>0</Section>
@@ -207,7 +215,7 @@
       <ValueOff>4D-8B-BF-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09c][Weapon] Damage Multiplier x4">
+  <Cheat Text="[09c][Weapon] 输出 倍率×4">
     <Cheatline>
       <Offset>2BDB700</Offset>
       <Section>0</Section>
@@ -221,7 +229,7 @@
       <ValueOff>4D-8B-BF-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09d][Weapon] Damage Multiplier x8">
+  <Cheat Text="[09d][Weapon] 输出 倍率×8">
     <Cheatline>
       <Offset>2BDB700</Offset>
       <Section>0</Section>
@@ -235,7 +243,7 @@
       <ValueOff>4D-8B-BF-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09e][Weapon] Damage Multiplier x16">
+  <Cheat Text="[09e][Weapon] 输出 Multiplier x16">
     <Cheatline>
       <Offset>2BDB700</Offset>
       <Section>0</Section>
@@ -249,7 +257,7 @@
       <ValueOff>4D-8B-BF-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09f][Weapon] Damage Multiplier x32">
+  <Cheat Text="[09f][Weapon] 输出 Multiplier x32">
     <Cheatline>
       <Offset>2BDB700</Offset>
       <Section>0</Section>
@@ -263,7 +271,7 @@
       <ValueOff>4D-8B-BF-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10][Weapon] Infinite Concentration">
+  <Cheat Text="[10][Weapon] Infinite 专注">
     <Cheatline>
       <Offset>2BDB2C0</Offset>
       <Section>0</Section>
@@ -277,7 +285,7 @@
       <ValueOff>C4-C1-7A-11-45-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11][Weapon] Heavy Weapons: Infinite Ammo">
+  <Cheat Text="[11][Weapon] 重装兵 武器: 无限弹药">
     <Cheatline>
       <Offset>2BDB520</Offset>
       <Section>0</Section>
@@ -291,7 +299,7 @@
       <ValueOff>41-89-8C-24-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12][Weapon] Valor Surge Instant Recovery (1 Hit)">
+  <Cheat Text="[12][Weapon] Valor Surge Instant 后摇 (1 Hit)">
     <Cheatline>
       <Offset>1B14B70</Offset>
       <Section>0</Section>
@@ -299,7 +307,7 @@
       <ValueOff>C5-FA-11-8F-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13][Weapon] Straight Shot With Little Tautness">
+  <Cheat Text="[13][Weapon] Straight Shot With Little Tautness｜[13][武器] 射线笔直，张力较小">
     <Cheatline>
       <Offset>2BDB5E0</Offset>
       <Section>0</Section>
@@ -313,7 +321,7 @@
       <ValueOff>C4-C1-7A-11-86-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14][Weapon] Reload Speed: Instant" Description="The time Aloy needs to pick an arrow is decreased to zero.">
+  <Cheat Text="[14][Weapon] 换弹速度: Instant" Description="The time Aloy needs to pick an arrow is decreased to zero.">
     <Cheatline>
       <Offset>2BDB5A0</Offset>
       <Section>0</Section>
@@ -327,7 +335,7 @@
       <ValueOff>C5-FA-11-83-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[15][Item] Ability Points: Infinite">
+  <Cheat Text="[15][物品] 特性 得分: Infinite">
     <Cheatline>
       <Offset>2BDB200</Offset>
       <Section>0</Section>
@@ -353,7 +361,7 @@
       <ValueOff>41-89-4E-70-C6-45-C0-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[16][Item] Maxed - Get And/Or Spend 1 (Have 2 At Least)" Description="It will not work with some items when picking them. In this case, try to get 2 of them and sell/use one. The number will change to 9999.">
+  <Cheat Text="[16][物品] Maxed - Get And/Or Spend 1 (Have 2 At Least)" Description="It will not work with some items when picking them. In this case, try to get 2 of them and sell/use one. The number will change to 9999.">
     <Cheatline>
       <Offset>2BDB240</Offset>
       <Section>0</Section>
@@ -391,7 +399,7 @@
       <ValueOff>48-8B-8D-58-FF-FF-FF-7C-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17a][Speed] Player x1">
+  <Cheat Text="[17a][速度] Player x1">
     <Cheatline>
       <Offset>2BDB370</Offset>
       <Section>0</Section>
@@ -405,7 +413,7 @@
       <ValueOff>C7-83-90-03-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17b][Speed] Player x1,9" Description="Speed affects the jumps and other things too, like floor detection when running. The Spear attacks will be a mess sometimes too ...">
+  <Cheat Text="[17b][速度] Player x1,9" Description="Speed affects the jumps and other things too, like floor detection when running. The Spear attacks will be a mess sometimes too ...">
     <Cheatline>
       <Offset>2BDB370</Offset>
       <Section>0</Section>
@@ -419,7 +427,7 @@
       <ValueOff>C7-83-90-03-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17c][Speed] Player x2">
+  <Cheat Text="[17c][速度] Player x2">
     <Cheatline>
       <Offset>2BDB370</Offset>
       <Section>0</Section>
@@ -433,7 +441,7 @@
       <ValueOff>C7-83-90-03-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17d][Speed] Player x3">
+  <Cheat Text="[17d][速度] Player x3">
     <Cheatline>
       <Offset>2BDB370</Offset>
       <Section>0</Section>
@@ -447,7 +455,7 @@
       <ValueOff>C7-83-90-03-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17e][Speed] Player x4">
+  <Cheat Text="[17e][速度] Player x4">
     <Cheatline>
       <Offset>2BDB370</Offset>
       <Section>0</Section>
@@ -461,7 +469,7 @@
       <ValueOff>C7-83-90-03-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18a][Size] Body x0,5" Description="Well ... I got the whole Aloy's size except for the head :)">
+  <Cheat Text="[18a][Size] 车身 x0,5" Description="Well ... I got the whole Aloy's size except for the head :)">
     <Cheatline>
       <Offset>2BDB300</Offset>
       <Section>0</Section>
@@ -475,7 +483,7 @@
       <ValueOff>C4-C1-7A-10-85-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18b][Size] Body x1">
+  <Cheat Text="[18b][Size] 车身 x1">
     <Cheatline>
       <Offset>2BDB300</Offset>
       <Section>0</Section>
@@ -489,7 +497,7 @@
       <ValueOff>C4-C1-7A-10-85-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18c][Size] Body x2">
+  <Cheat Text="[18c][Size] 车身 x2">
     <Cheatline>
       <Offset>2BDB300</Offset>
       <Section>0</Section>
@@ -503,7 +511,7 @@
       <ValueOff>C4-C1-7A-10-85-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18d][Size] Body x4">
+  <Cheat Text="[18d][Size] 车身 x4">
     <Cheatline>
       <Offset>2BDB300</Offset>
       <Section>0</Section>
@@ -517,7 +525,7 @@
       <ValueOff>C4-C1-7A-10-85-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19a][Daytime] 00:00" Description="If you set this cheat, you will change the daytime but it will get stuck to that time while the cheat is ON. If you want the time(r) to keep running, turn it off.">
+  <Cheat Text="[19a][Daytime] 00:00｜[19a][白天] 00:00" Description="If you set this cheat, you will change the daytime but it will get stuck to that time while the cheat is ON. If you want the time(r) to keep running, turn it off.">
     <Cheatline>
       <Offset>2BDB570</Offset>
       <Section>0</Section>
@@ -531,7 +539,7 @@
       <ValueOff>C5-FA-11-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19b][Daytime] 06:00">
+  <Cheat Text="[19b][Daytime] 06:00｜[19b][白天] 06:00">
     <Cheatline>
       <Offset>2BDB570</Offset>
       <Section>0</Section>
@@ -545,7 +553,7 @@
       <ValueOff>C5-FA-11-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19c][Daytime] 12:00">
+  <Cheat Text="[19c][Daytime] 12:00｜[19c][白天] 12:00">
     <Cheatline>
       <Offset>2BDB570</Offset>
       <Section>0</Section>
@@ -559,7 +567,7 @@
       <ValueOff>C5-FA-11-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19d][Daytime] 18:00">
+  <Cheat Text="[19d][Daytime] 18:00｜[19d][白天] 18:00">
     <Cheatline>
       <Offset>2BDB570</Offset>
       <Section>0</Section>
@@ -573,7 +581,7 @@
       <ValueOff>C5-FA-11-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20a][FX_Light] Sun/Moon Intensity x0">
+  <Cheat Text="[20a][FX_Light] 阳光/Moon Intensity x0">
     <Cheatline>
       <Offset>2BDB5C0</Offset>
       <Section>0</Section>
@@ -587,7 +595,7 @@
       <ValueOff>C5-FA-11-43-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20b][FX_Light] Sun/Moon Intensity x1">
+  <Cheat Text="[20b][FX_Light] 阳光/Moon Intensity x1">
     <Cheatline>
       <Offset>2BDB5C0</Offset>
       <Section>0</Section>
@@ -601,7 +609,7 @@
       <ValueOff>C5-FA-11-43-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20c][FX_Light] Sun/Moon Intensity x10">
+  <Cheat Text="[20c][FX_Light] 阳光/Moon Intensity x10">
     <Cheatline>
       <Offset>2BDB5C0</Offset>
       <Section>0</Section>
@@ -615,7 +623,7 @@
       <ValueOff>C5-FA-11-43-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20d][FX_Light] Sun/Moon Intensity x20">
+  <Cheat Text="[20d][FX_Light] 阳光/Moon Intensity x20">
     <Cheatline>
       <Offset>2BDB5C0</Offset>
       <Section>0</Section>
@@ -629,7 +637,7 @@
       <ValueOff>C5-FA-11-43-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20e][FX_Light] Sun/Moon Intensity x50">
+  <Cheat Text="[20e][FX_Light] 阳光/Moon Intensity 乘以五十">
     <Cheatline>
       <Offset>2BDB5C0</Offset>
       <Section>0</Section>
@@ -643,7 +651,7 @@
       <ValueOff>C5-FA-11-43-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[21a][FX_Sound] Volume 100/">
+  <Cheat Text="[21a][FX_Sound] Volume 100/｜[21a][FX_Sound] 音量 100/">
     <Cheatline>
       <Offset>2BDB290</Offset>
       <Section>0</Section>
@@ -657,7 +665,7 @@
       <ValueOff>C5-FB-10-49-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[21b][FX_Sound] Volume 150/">
+  <Cheat Text="[21b][FX_Sound] Volume 150/｜[21b][FX_Sound] 音量 150/">
     <Cheatline>
       <Offset>2BDB290</Offset>
       <Section>0</Section>
@@ -671,7 +679,7 @@
       <ValueOff>C5-FB-10-49-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[21c][FX_Sound] Volume 200/">
+  <Cheat Text="[21c][FX_Sound] Volume 200/｜[21c][FX_Sound] 音量 200/">
     <Cheatline>
       <Offset>2BDB290</Offset>
       <Section>0</Section>
@@ -685,7 +693,7 @@
       <ValueOff>C5-FB-10-49-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[21d][FX_Sound] Volume 400/">
+  <Cheat Text="[21d][FX_Sound] Volume 400/｜[21d][FX_Sound] 音量 400/">
     <Cheatline>
       <Offset>2BDB290</Offset>
       <Section>0</Section>

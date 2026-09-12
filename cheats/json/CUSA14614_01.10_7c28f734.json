@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball Z: Kakarot",
+  "name": "龙珠 Z: Kakarot",
   "id": "CUSA14614",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite ki",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "infinite ki｜无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A4C65F",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "infinite hleath",
-      "type": "checkbox",
+      "name": "infinite hleath｜无限健康",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A4C61F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "max all zorbs",
-      "type": "checkbox",
+      "name": "最大 all zorbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "145AE85",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "infinite rage",
-      "type": "checkbox",
+      "name": "infinite rage｜怒气无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D14B7",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "max inf items",
-      "type": "checkbox",
+      "name": "最大 道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7CB2F",

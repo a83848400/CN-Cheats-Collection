@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops III",
+  "name": "使命召唤: 黑色 Ops III",
   "id": "CUSA02290",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110f01d",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Bypass Death Barriers",
-      "type": "checkbox",
+      "name": "Bypass 死亡 Barriers",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1527000",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12f9748",

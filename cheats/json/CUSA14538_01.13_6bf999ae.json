@@ -1,12 +1,17 @@
 {
-  "name": "Maneater",
+  "name": "Maneater｜食人兽",
   "id": "CUSA14538",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Gain Fat (upon Consumption)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Gain Fat (upon Consumption)｜（食用后）发胖",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3D33",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Gain Mineral (Upon Consumption)",
-      "type": "checkbox",
+      "name": "Gain Mineral (Upon Consumption)｜获得矿物质（食用后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3E0A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Gain Protein (Upon Consumption)",
-      "type": "checkbox",
+      "name": "Gain Protein (Upon Consumption)｜蛋白质摄入量（摄入后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3C6A",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Gain Mutagen (Upon Consumption)",
-      "type": "checkbox",
+      "name": "Gain 突变诱发物 (Upon Consumption)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3EE1",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "XP Multiplier",
-      "type": "checkbox",
+      "name": "XP Multiplier｜经验值倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3C80",

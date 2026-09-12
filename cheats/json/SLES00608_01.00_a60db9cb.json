@@ -1,12 +1,17 @@
 {
-  "name": "Contra: Legacy of War",
+  "name": "魂斗罗: Legacy of War",
   "id": "SLES00608",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite lives ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "infinite lives ｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11B87A",

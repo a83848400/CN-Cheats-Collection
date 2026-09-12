@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Phantom Pain",
+  "name": "合金装备/潜龙谍影 V: The 灵体 Pain",
   "id": "CUSA01154",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3593860",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Gun Silencer",
-      "type": "checkbox",
+      "name": "Infinite Gun Silencer｜无限枪械消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "341D1C0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Grenades",
-      "type": "checkbox",
+      "name": "无限弹药/手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3565330",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max GMP (on spend)",
-      "type": "checkbox",
+      "name": "最大 GMP (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3593B80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Ressources (on sell)",
-      "type": "checkbox",
+      "name": "最大 Ressources (on sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "341F060",

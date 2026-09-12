@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Come: Deliverance - Royal Edition",
+  "name": "Kingdom Come: Deliverance - Royal Edition｜《王国来临：救赎》——皇家版",
   "id": "CUSA15436",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B8B1",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina + 999",
-      "type": "checkbox",
+      "name": "无限耐力 + 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B8D0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B900",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Nourishment",
-      "type": "checkbox",
+      "name": "Infinite Nourishment｜无尽的滋养",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B920",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Weight",
-      "type": "checkbox",
+      "name": "Weight｜重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10B03DC",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "99 items",
-      "type": "checkbox",
+      "name": "99 items｜99 件商品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B940",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Groschen 9m",
-      "type": "checkbox",
+      "name": "Groschen 9m｜格罗申 9米",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B960",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Bleed Disabled",
-      "type": "checkbox",
+      "name": "Bleed Disabled｜禁用出血效果",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "114C674",

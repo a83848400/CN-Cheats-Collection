@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metal Slug Anthology" Moder="Ali-mk" Cusa="SLUS21550" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Metal-Slug-1-Inf-All-Weapon">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金属-Slug-1-无限全武器">
     <Cheatline>
       <Offset>80814244CA</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Metal-Slug-1-Inf-lives">
+  <Cheat Text="金属-Slug-1-无限生命">
     <Cheatline>
       <Offset>808142437E</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Metal-Slug-1-Infinite-Bomb">
+  <Cheat Text="金属-Slug-1-无限炸弹">
     <Cheatline>
       <Offset>80814244C9</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Metal-Slug-2-Inf-All-Weapon">
+    <Cheat Text="金属-Slug-2-无限全武器">
     <Cheatline>
       <Offset>8081530354</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-2-Inf-lives">
+      <Cheat Text="金属-Slug-2-无限生命">
     <Cheatline>
       <Offset>808152527F</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-       <Cheat Text="Metal-Slug-2-Inf-Bomb">
+       <Cheat Text="金属-Slug-2-无限炸弹">
     <Cheatline>
       <Offset>8081530351</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-3-Inf-All-Weapon">
+      <Cheat Text="金属-Slug-3-无限全武器">
     <Cheatline>
       <Offset>8081992B82</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-3-Inf-lives">
+      <Cheat Text="金属-Slug-3-无限生命">
     <Cheatline>
       <Offset>8081984342</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-3-Inf-Bomb">
+      <Cheat Text="金属-Slug-3-无限炸弹">
     <Cheatline>
       <Offset>8081992B7C</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-4-Inf-All-Weapon">
+      <Cheat Text="金属-Slug-4-无限全武器">
     <Cheatline>
       <Offset>8081792E7A</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-4-Inf-lives">
+      <Cheat Text="金属-Slug-4-无限生命">
     <Cheatline>
       <Offset>8081784B10</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-4-Inf-Bomb">
+      <Cheat Text="金属-Slug-4-无限炸弹">
     <Cheatline>
       <Offset>8081792E74</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-5-Inf-All-Weapon">
+      <Cheat Text="金属-Slug-5-无限全武器">
     <Cheatline>
       <Offset>8081731464</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-5-Inf-lives">
+      <Cheat Text="金属-Slug-5-无限生命">
     <Cheatline>
       <Offset>8081724A48</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-5-Inf-Bomb">
+      <Cheat Text="金属-Slug-5-无限炸弹">
     <Cheatline>
       <Offset>808173145E</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-X-Inf-All-Weapon">
+      <Cheat Text="金属-Slug-艾克斯-无限全武器">
     <Cheatline>
       <Offset>808153072C</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-X-Inf-lives">
+      <Cheat Text="金属-Slug-艾克斯-无限生命">
     <Cheatline>
       <Offset>8081525291</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Metal-Slug-X-Inf-Bomb">
+      <Cheat Text="金属-Slug-艾克斯-无限炸弹">
     <Cheatline>
       <Offset>8081525297</Offset>
       <Section>0</Section>

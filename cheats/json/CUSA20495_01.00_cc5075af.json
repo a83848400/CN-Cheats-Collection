@@ -1,12 +1,17 @@
 {
-  "name": "Edge of Eternity",
+  "name": "Edge of Eternity｜《永恒边缘》",
   "id": "CUSA20495",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Coins (Added In Battle/Sell)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 角落 (Added In 战斗/Sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CBFF0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max EXP(Added In Battle / Disable To Take Effect In The Next Battle)",
-      "type": "checkbox",
+      "name": "经验值最大(Added In 战斗 / Disable To Take 效果 In The Next 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CBE00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health/1 hit",
-      "type": "checkbox",
+      "name": "无限生命/1 hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CBE0A",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Items (On Use Disable When Gathering)",
-      "type": "checkbox",
+      "name": "道具无限 (On Use Disable When Gathering)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CBF10",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max MP",
-      "type": "checkbox",
+      "name": "最大 MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CBF50",

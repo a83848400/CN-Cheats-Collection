@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Afterimage" Moder="Reddevil82 - FW 9.00" Cusa="CUSA41097" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Mastercode ( must be activated )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Mastercode ( must be activated )｜主代码（必须激活）">
     <Cheatline>
       <Offset>527781F</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health [ MC ]">
+  <Cheat Text="生命最大 [ MC ]">
     <Cheatline>
       <Offset>5277825</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]">
     <Cheatline>
       <Offset>527783D</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP [ MC ]">
+  <Cheat Text="无限魔力 [ MC ]">
     <Cheatline>
       <Offset>5277855</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max MP [ MC ]">
+  <Cheat Text="最大 MP [ MC ]">
     <Cheatline>
       <Offset>527786D</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Attack [ MC ]">
+  <Cheat Text="攻击力最大 [ MC ]">
     <Cheatline>
       <Offset>5277885</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Defense [ MC ]">
+  <Cheat Text="最大 防御 [ MC ]">
     <Cheatline>
       <Offset>527789D</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ( on gain - use )">
+  <Cheat Text="最大 Items ( on gain - use )">
     <Cheatline>
       <Offset>5277800</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>41-8A-47-08-41-88-45-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Dew Currency [ MC ]">
+  <Cheat Text="最大 Dew Currency [ MC ]">
     <Cheatline>
       <Offset>52778AF</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Talent Points ( You need 1 ) [ MC ]">
+  <Cheat Text="天赋点最大 ( You need 1 ) [ MC ]">
     <Cheatline>
       <Offset>52778C1</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set used Talent Points to 0 [ MC ]">
+  <Cheat Text="Set used Talent 得分 to 0 [ MC ]">
     <Cheatline>
       <Offset>52778D3</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Player Level [ MC ]">
+  <Cheat Text="最大 Player 等级 [ MC ]">
     <Cheatline>
       <Offset>52778E5</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP ( after fisnish Level Stage )">
+  <Cheat Text="最大 XP ( after fisnish 等级 Stage )">
     <Cheatline>
       <Offset>52778F7</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Divine Seed [ MC ]">
+  <Cheat Text="最大 超凡入圣 种子 [ MC ]">
     <Cheatline>
       <Offset>5277909</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Activate Gravity Jump [ MC ]">
+  <Cheat Text="Activate 重力跳跃 [ MC ]">
     <Cheatline>
       <Offset>527791B</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Deactivate Gravity Jump [ MC ]">
+  <Cheat Text="Deactivate 重力跳跃 [ MC ]">
     <Cheatline>
       <Offset>527792D</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill all Enemies [ MC ]">
+  <Cheat Text="击杀全部敌人 [ MC ]">
     <Cheatline>
       <Offset>5277945</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Activate Invincible Mode [ MC ]">
+  <Cheat Text="Activate 无敌 Mode [ MC ]">
     <Cheatline>
       <Offset>5277957</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Deactivate Invincible Mode [ MC ]">
+  <Cheat Text="Deactivate 无敌 Mode [ MC ]">
     <Cheatline>
       <Offset>5277969</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>C5-FA-10-44-C8-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dash [ MC ]">
+  <Cheat Text="无限冲刺 [ MC ]">
     <Cheatline>
       <Offset>527798D</Offset>
       <Section>0</Section>

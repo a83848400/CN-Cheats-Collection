@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy XII: The Zodiac Age",
+  "name": "最终幻想 XII: The 星座 年龄",
   "id": "CUSA08116",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Gil 99999999 所持金99999999",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "基尔 99999999 所持金99999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "00244EA5",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Item 无限道具",
-      "type": "checkbox",
+      "name": "Infinite 物品 无限道具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0016BDC7",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "EXP Multi 10 on Gain 经验值10倍获得",
-      "type": "checkbox",
+      "name": "经验 Multi 10 on Gain 经验值10倍获得",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB33F04",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "LP 9999999 on Gain LP获得时9999999",
-      "type": "checkbox",
+      "name": "生命值 9999999 on Gain LP获得时9999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "003BFF02",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite HP 无限HP",
-      "type": "checkbox",
+      "name": "无限血量 无限HP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB33F00",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite MP 无限MP",
-      "type": "checkbox",
+      "name": "无限魔力 无限MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB33F01",
@@ -72,7 +77,7 @@
     },
     {
       "name": "Always Action 一直可以行动",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB33F03",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "EXP Max on Gain 经验值最大获得",
-      "type": "checkbox",
+      "name": "经验 最大 on Gain 经验值最大获得",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB33F05",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB33F06",

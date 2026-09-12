@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Thunder Force VI" Moder="Ali-mk" Cusa="SLPM55096" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Infinite Special ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Special ｜《无限特辑》">
     <Cheatline>
       <Offset>807FF2B668</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>00-00-00-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincibility">
+  <Cheat Text="Invincibility｜无敌">
     <Cheatline>
       <Offset>807FF2B6B8</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>00-00-00-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lives">
+  <Cheat Text="Infinite Lives｜无限生命">
     <Cheatline>
       <Offset>807FF2B62C</Offset>
       <Section>0</Section>

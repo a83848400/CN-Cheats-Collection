@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>2007DB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>89-81-90-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>2007C00</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-E2-68-F2-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload/Infinite Grenades">
+  <Cheat Text="无需换弹/手雷无限">
     <Cheatline>
       <Offset>2007A80</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>41-89-84-8E-DC-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money (Zombie Mode)">
+  <Cheat Text="金钱无限 (僵尸 Mode)">
     <Cheatline>
       <Offset>2007AA0</Offset>
       <Section>0</Section>

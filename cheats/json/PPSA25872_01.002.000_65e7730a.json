@@ -1,13 +1,18 @@
 {
-  "name": "Terminator 2D: No Fate",
+  "name": "Terminator 2D: No Fate｜《终结者2D：无命》",
   "id": "PPSA25872",
   "version": "01.002.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FFEA13E",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Stop Timer",
+      "name": "停止 计时器",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "800E9D26",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Inf Grenades",
+      "name": "手雷无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FFEB0B0",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Easy Score",
+      "name": "简单 比分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17000",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "10x Score",
+      "name": "十倍 比分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17032",

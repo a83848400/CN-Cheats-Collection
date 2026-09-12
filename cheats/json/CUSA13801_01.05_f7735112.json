@@ -1,12 +1,17 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA13801",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Items",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1083059",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19472D5",

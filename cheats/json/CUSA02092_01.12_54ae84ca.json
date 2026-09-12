@@ -1,12 +1,17 @@
 {
-  "name": "DOOM",
+  "name": "DOOM｜毁灭战士",
   "id": "CUSA02092",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + Shield",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 盾牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "769E47",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E3D32D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Points",
-      "type": "checkbox",
+      "name": "Infinite Weapon 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CB4301",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Praetor Points",
-      "type": "checkbox",
+      "name": "Infinite Praetor 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E3C722",

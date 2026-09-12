@@ -1,12 +1,17 @@
 {
-  "name": "Crash Bandicoot: N. Sane Trilogy",
+  "name": "古惑狼: N. Sane Trilogy",
   "id": "CUSA07399",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2583CC1A0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Set Apples to 99",
-      "type": "button",
+      "name": "Set Apples to 99｜将“苹果”设为99",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2583CD8E0",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Set Lives to 999",
-      "type": "button",
+      "name": "Set Lives to 999｜将生命值设为999",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24F5EA114",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Set Boxes to 999",
-      "type": "button",
+      "name": "Set Boxes to 999｜将箱数设置为 999",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2583CC0E0",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Set Diamonds to 99",
-      "type": "button",
+      "name": "Set Diamonds to 99｜将“钻石”设为99",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24F5EA11C",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Set Platin to 99",
-      "type": "button",
+      "name": "Set Platin to 99｜将Platin设置为99",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24F5EA128",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Set Gold to 99",
-      "type": "button",
+      "name": "Set 金币 to 99",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24F5EA124",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Set Saphir to 99",
-      "type": "button",
+      "name": "Set Saphir to 99｜将“Saphir”设置为99",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24F5EA120",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Set Keys to 99",
-      "type": "button",
+      "name": "Set Keys to 99｜将键值设置为 99",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24F5EA118",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Set Crystals to 99",
-      "type": "button",
+      "name": "Set Crystals to 99｜将水晶值设为99",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "24F5EA12C",

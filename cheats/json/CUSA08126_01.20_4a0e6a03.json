@@ -1,12 +1,17 @@
 {
-  "name": "Oddworld: Soulstorm",
+  "name": "Oddworld: Soulstorm｜《奇异世界：灵魂风暴》",
   "id": "CUSA08126",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E340",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Chant",
-      "type": "checkbox",
+      "name": "Infinite Chant｜《无限颂》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EBD0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Items",
-      "type": "checkbox",
+      "name": "最大/道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FBA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Moolah",
-      "type": "checkbox",
+      "name": "最大/Infinite Moolah",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Flamethrower",
-      "type": "checkbox",
+      "name": "最大/Infinite 火焰喷射器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A3B30",

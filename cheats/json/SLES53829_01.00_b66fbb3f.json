@@ -1,12 +1,17 @@
 {
-  "name": "Raiden III",
+  "name": "雷电 III",
   "id": "SLES53829",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FED7458",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FED74BD",

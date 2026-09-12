@@ -1,12 +1,17 @@
 {
-  "name": "The Evil Within",
+  "name": "The Evil Within｜《恶灵附身》",
   "id": "CUSA00375",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Pointer",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Pointer｜指针",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5F9E4",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Health / 1 Hit Kills",
-      "type": "checkbox",
+      "name": "生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5F9F6",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5F9F6",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5F9F7",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D2826",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D208C",
@@ -82,7 +87,7 @@
     },
     {
       "name": "Infinite Gel",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D06D0",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738FF4",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D0722",

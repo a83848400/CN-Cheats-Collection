@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Shining Resonance Refrain" Moder="GamerX2" Cusa="CUSA10882" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite HP + 1 Hit Kill | All Characters">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 + 一击必杀 | All Characters">
     <Cheatline>
       <Offset>6E613E</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>44-89-B3-44-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Action Gauge">
+  <Cheat Text="Infinite Action Gauge｜无限行动槽">
     <Cheatline>
       <Offset>40EBEB</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-8B-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP | All Characters">
+  <Cheat Text="无限魔力 | All Characters">
     <Cheatline>
       <Offset>40E67A</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-89-9F-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP | Shining Dragon">
+  <Cheat Text="无限魔力 | Shining 小龙">
     <Cheatline>
       <Offset>4E4B39</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>44-89-A7-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Full  B.A.N.D Meter | On Strike">
+  <Cheat Text="Instant Full  B.A.N.D Meter | On Strike｜即时全功能 B.A.N.D 测量仪 | 处于罢工状态">
     <Cheatline>
       <Offset>6E62E6</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>44-89-A7-D0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gold">
+  <Cheat Text="Infinite Gold｜无限金币">
     <Cheatline>
       <Offset>28A8BE</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>89-88-14-BC-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold On Buy">
+  <Cheat Text="金币最大 On Buy">
     <Cheatline>
       <Offset>6E4F00</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>89-88-14-BC-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items on Use/Sell">
+  <Cheat Text="道具无限 on Use/Sell">
     <Cheatline>
       <Offset>2068BE</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>89-B4-88-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Buy">
+  <Cheat Text="最大 Items On Buy">
     <Cheatline>
       <Offset>6E7800</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>43-89-94-81-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Items/Food/Tools/Medicine| Max">
+  <Cheat Text="解锁全部物品/Food/Tools/医学| 最大">
     <Cheatline>
       <Offset>6E6111</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>42-8B-8C-A8-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Materials | Max">
+  <Cheat Text="解锁全部材料 | 最大">
     <Cheatline>
       <Offset>6E6226</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>42-8B-8C-A8-34-10-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Aspects">
+  <Cheat Text="Infinite Aspects｜无限的层面">
     <Cheatline>
       <Offset>20762E</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>89-B4-88-D4-1F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Aspects | Max">
+  <Cheat Text="解锁 All Aspects | 最大">
     <Cheatline>
       <Offset>6E6242</Offset>
       <Section>0</Section>
@@ -148,7 +156,7 @@
       <ValueOff>8B-84-90-D4-1F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze GamePlay Timer">
+  <Cheat Text="Freeze GamePlay 计时器">
     <Cheatline>
       <Offset>3FCB6E</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>48-89-51-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rest GamePlay Timer">
+  <Cheat Text="休息 GamePlay 计时器">
     <Cheatline>
       <Offset>6E612C</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>48-0F-42-D0-48-89-51-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Boost EXP | x500 Per Battle">
+  <Cheat Text="Boost 经验 | x500 Per 战斗">
     <Cheatline>
       <Offset>6E6179</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>41-89-8D-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Extra EXP | x2000 Per Battle">
+  <Cheat Text="Extra 经验 | x2000 Per 战斗">
     <Cheatline>
       <Offset>6E618D</Offset>
       <Section>0</Section>
@@ -198,7 +206,7 @@
       <ValueOff>41-89-8D-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Even More EXP| x6000 Per Battle">
+  <Cheat Text="Even More 经验| x6000 Per 战斗">
     <Cheatline>
       <Offset>6E61A1</Offset>
       <Section>0</Section>
@@ -212,7 +220,7 @@
       <ValueOff>41-89-8D-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lots Of EXP | x15.000 Per Battle">
+  <Cheat Text="Lots Of 经验 | x15.000 Per 战斗">
     <Cheatline>
       <Offset>6E61B5</Offset>
       <Section>0</Section>
@@ -226,7 +234,7 @@
       <ValueOff>41-89-8D-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hella EXP | x50.000 Per Battle">
+  <Cheat Text="Hella 经验 | 乘以五十.000 Per 战斗">
     <Cheatline>
       <Offset>6E61C9</Offset>
       <Section>0</Section>
@@ -240,7 +248,7 @@
       <ValueOff>41-89-8D-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="EXP OVERLORD |Max Level After Battle">
+  <Cheat Text="经验 OVERLORD |等级最大 After 战斗">
     <Cheatline>
       <Offset>6E6166</Offset>
       <Section>0</Section>
@@ -254,7 +262,7 @@
       <ValueOff>41-89-8D-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tunings| Boost Rank">
+  <Cheat Text="Tunings| Boost 阶级">
     <Cheatline>
       <Offset>6E61DD</Offset>
       <Section>0</Section>
@@ -268,7 +276,7 @@
       <ValueOff>44-89-D3-89-79-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tunings| Fast Ranking Up">
+  <Cheat Text="Tunings| Fast Ranking Up｜调校| 快速提升排名">
     <Cheatline>
       <Offset>6E61ED</Offset>
       <Section>0</Section>
@@ -282,7 +290,7 @@
       <ValueOff>44-89-D3-89-79-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tunings| Hyper Ranking Up">
+  <Cheat Text="Tunings| Hyper Ranking Up｜调校 | 快速提升排名">
     <Cheatline>
       <Offset>6E6200</Offset>
       <Section>0</Section>
@@ -296,7 +304,7 @@
       <ValueOff>44-89-D3-89-79-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tunings| Max Rank After Battle">
+  <Cheat Text="Tunings| 最大 阶级 After 战斗">
     <Cheatline>
       <Offset>6E6213</Offset>
       <Section>0</Section>

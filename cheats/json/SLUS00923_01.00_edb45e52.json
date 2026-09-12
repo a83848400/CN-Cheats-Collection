@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 3: Nemesis",
+  "name": "生化危机 3: 追踪者",
   "id": "SLUS00923",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Ammo All Weapons",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 All 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15830A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129042",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf-Ink-Ribbons-HARD MODE",
-      "type": "checkbox",
+      "name": "Infinite-墨水-Ribbons-困难模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FCC",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "handgun SIGPRO",
-      "type": "checkbox",
+      "name": "手枪 SIGPRO",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D4",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite-rocket launcher",
-      "type": "checkbox",
+      "name": "Infinite-火箭发射器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D4",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite-grenade launcher",
-      "type": "checkbox",
+      "name": "Infinite-榴弹发射器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D4",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite-handgun EAGLE",
-      "type": "checkbox",
+      "name": "Infinite-手枪 EAGLE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D4",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Infinite-shotgun",
-      "type": "checkbox",
+      "name": "Infinite-霰弹枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D4",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Infinite-machine gun",
-      "type": "checkbox",
+      "name": "Infinite-机枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D4",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Ink Ribbon",
-      "type": "checkbox",
+      "name": "Ink Ribbon｜色带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D4",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Infinite-Assault Rifle",
-      "type": "checkbox",
+      "name": "Infinite-突击步枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D5",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Infinite-magnum",
-      "type": "checkbox",
+      "name": "Infinite-magnum｜无限伟大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3D5",

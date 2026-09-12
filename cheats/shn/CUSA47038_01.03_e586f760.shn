@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metaphor: ReFantazio" Moder="d01v" Cusa="CUSA47038" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Backport by CyB1K 505 - 9">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Backport by CyB1K 505 - 9｜由 CyB1K 505 - 9 进行的向后移植">
     <Cheatline>
       <Offset>2298D41</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Walkthrough Walls" Description="how to turn on quick press L2 + R2, how to turn off quick press L2 + R1 or L2 + down or option button, make sure when turning off you are in floor / not outside of mini map">
+  <Cheat Text="攻略 Walls" Description="how to turn on quick press L2 + R2, how to turn off quick press L2 + R1 or L2 + down or option button, make sure when turning off you are in floor / not outside of mini map">
     <Cheatline>
       <Offset>2298D51</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>8B-4B-08-83-F9-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Walkthrough Walls Fixed" Description="this will fixed your character in some area if your character floating in air">
+  <Cheat Text="攻略 Walls Fixed" Description="this will fixed your character in some area if your character floating in air">
     <Cheatline>
       <Offset>7254BB</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>80-B8-80-0A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Enemy from Orignal Posistion">
+  <Cheat Text="冻结敌人 from Orignal Posistion">
     <Cheatline>
       <Offset>727FA5</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-80-BD-80-0A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invulnerable">
+  <Cheat Text="Invulnerable｜无敌">
     <Cheatline>
       <Offset>6EA08C</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>E8-CF-7D-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Run Speed">
+  <Cheat Text="Run 速度">
     <Cheatline>
       <Offset>9165B0</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C4-C1-7A-59-04-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Archetype ID Modifier" Description="need atleast 2 archetype, then go to archetype equipment list, equip the 1st slot archetype, when prompt Yes or No, turn this cheat On then click Yes, it will change your archetype, turn off this cheat and repeat the process, tutorial clip on discord Team Reaper">
+  <Cheat Text="Master 密码 Archetype ID Modifier" Description="need atleast 2 archetype, then go to archetype equipment list, equip the 1st slot archetype, when prompt Yes or No, turn this cheat On then click Yes, it will change your archetype, turn off this cheat and repeat the process, tutorial clip on discord Team Reaper">
     <Cheatline>
       <Offset>2298DB1</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>66-44-89-A0-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Archetype ID" Description="must turn on MC Archertype ID Modifier">
+  <Cheat Text="Increase Archetype ID｜增加原型 ID" Description="must turn on MC Archertype ID Modifier">
     <Cheatline>
       <Offset>2298DBD</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>74-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Decrease Archetype ID" Description="must turn on MC Archertype ID Modifier">
+  <Cheat Text="Decrease Archetype ID｜减少原型 ID" Description="must turn on MC Archertype ID Modifier">
     <Cheatline>
       <Offset>2298DBD</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>74-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite HP">
+  <Cheat Text="Infinite HP｜无限血量">
     <Cheatline>
       <Offset>2298DF1</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>41-39-C6-41-0F-4C-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP">
+  <Cheat Text="Infinite MP｜无限魔力">
     <Cheatline>
       <Offset>2298E1F</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>41-39-C6-41-0F-4C-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Turn">
+  <Cheat Text="Infinite 回合">
     <Cheatline>
       <Offset>15E3AB</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>66-83-BD-2C-FF-FF-FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Exp" Description="after battle / kill enemy in field">
+  <Cheat Text="Max Exp｜经验值最大" Description="after battle / kill enemy in field">
     <Cheatline>
       <Offset>462C30</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>44-0F-42-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Exp Rank Archetype" Description="after battle / kill enemy in field">
+  <Cheat Text="经验值最大 阶级 Archetype" Description="after battle / kill enemy in field">
     <Cheatline>
       <Offset>425364</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>41-0F-43-DD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Archetype Bonus Stats">
+  <Cheat Text="最大 Archetype Bonus 属性">
     <Cheatline>
       <Offset>2298E51</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>42-0F-BE-84-30-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max PlayerStats">
+  <Cheat Text="最大 PlayerStats">
     <Cheatline>
       <Offset>2298E71</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>44-0F-B6-6C-07-2A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Consumable and Exchange Items">
+  <Cheat Text="All Consumable and Exchange Items｜所有消耗品和可兑换物品">
     <Cheatline>
       <Offset>2298E91</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>42-0F-B6-84-28-00-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Key and Information Items" Description="includes dlc items">
+  <Cheat Text="All 钥匙 and Information Items" Description="includes dlc items">
     <Cheatline>
       <Offset>2298EB1</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>42-0F-B6-84-28-00-14-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Weapons">
+  <Cheat Text="All 武器">
     <Cheatline>
       <Offset>2298EF1</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>42-0F-B6-04-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Armours">
+  <Cheat Text="All Armours｜所有护甲">
     <Cheatline>
       <Offset>2298F11</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>42-0F-B6-84-28-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Gears">
+  <Cheat Text="All 战争机器">
     <Cheatline>
       <Offset>2298F31</Offset>
       <Section>0</Section>
@@ -248,7 +256,7 @@
       <ValueOff>42-0F-B6-84-28-00-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Accessories">
+  <Cheat Text="All Accessories｜所有配件">
     <Cheatline>
       <Offset>2298F51</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>42-0F-B6-84-28-00-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money" Description="after buy in store or sell">
+  <Cheat Text="Max Money｜金钱最大" Description="after buy in store or sell">
     <Cheatline>
       <Offset>43221B</Offset>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>0F-42-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max MAG" Description="after battle">
+  <Cheat Text="最大 弹匣" Description="after battle">
     <Cheatline>
       <Offset>4322F1</Offset>
       <Section>0</Section>
@@ -278,7 +286,7 @@
       <ValueOff>0F-42-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max All Followers">
+  <Cheat Text="最大 All Followers">
     <Cheatline>
       <Offset>2298F71</Offset>
       <Section>0</Section>
@@ -292,7 +300,7 @@
       <ValueOff>89-F0-8B-04-87</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Royal Virtues">
+  <Cheat Text="最大 Royal Virtues">
     <Cheatline>
       <Offset>434A80</Offset>
       <Section>0</Section>
@@ -300,7 +308,7 @@
       <ValueOff>44-0F-4C-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Daytime" Description="turn off if its only loading the screen, means there was an event need to skip">
+  <Cheat Text="Master 密码 Daytime" Description="turn off if its only loading the screen, means there was an event need to skip">
     <Cheatline>
       <Offset>2298F91</Offset>
       <Section>0</Section>
@@ -314,7 +322,7 @@
       <ValueOff>48-8D-45-E4-48-0F-48-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Early Morning" Description="must turn on MC Daytime first">
+  <Cheat Text="Early Morning｜清晨" Description="must turn on MC Daytime first">
     <Cheatline>
       <Offset>2298F95</Offset>
       <Section>0</Section>
@@ -322,7 +330,7 @@
       <ValueOff>EB-35</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Afternoon" Description="must turn on MC Daytime first">
+  <Cheat Text="Afternoon｜下午" Description="must turn on MC Daytime first">
     <Cheatline>
       <Offset>2298F95</Offset>
       <Section>0</Section>
@@ -330,7 +338,7 @@
       <ValueOff>EB-35</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Night" Description="must turn on MC Daytime first">
+  <Cheat Text="Night｜夜晚" Description="must turn on MC Daytime first">
     <Cheatline>
       <Offset>2298F95</Offset>
       <Section>0</Section>
@@ -338,7 +346,7 @@
       <ValueOff>EB-35</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Late Night" Description="must turn on MC Daytime first">
+  <Cheat Text="Late Night｜深夜" Description="must turn on MC Daytime first">
     <Cheatline>
       <Offset>2298F95</Offset>
       <Section>0</Section>
@@ -346,7 +354,7 @@
       <ValueOff>EB-35</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Date" Description="do this on afternoon rest">
+  <Cheat Text="Master 密码 Date" Description="do this on afternoon rest">
     <Cheatline>
       <Offset>2298FF1</Offset>
       <Section>0</Section>
@@ -360,7 +368,7 @@
       <ValueOff>48-8D-45-DC-48-0F-48-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Date" Description="must turn on MC Daytime first">
+  <Cheat Text="Increase Date｜增加日期" Description="must turn on MC Daytime first">
     <Cheatline>
       <Offset>2298FFB</Offset>
       <Section>0</Section>
@@ -368,7 +376,7 @@
       <ValueOff>EB-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Decrease Date" Description="must turn on MC Daytime first">
+  <Cheat Text="Decrease Date｜减少日期" Description="must turn on MC Daytime first">
     <Cheatline>
       <Offset>2298FFB</Offset>
       <Section>0</Section>

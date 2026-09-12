@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Minoria" Moder="Ali-mk" Cusa="CUSA19057" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>E6A9CE</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>74-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>8039E476</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-All-Items">
+  <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>804C7CB3</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-89-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX-Level-99-+one-Hit-Kill">
+  <Cheat Text="最大-等级-99-+一击必杀">
     <Cheatline>
       <Offset>8039E476</Offset>
       <Section>0</Section>

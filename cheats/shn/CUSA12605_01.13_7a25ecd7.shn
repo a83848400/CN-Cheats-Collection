@@ -5,7 +5,15 @@
   <Genres Name="Fighting" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1778257</Offset>
       <Section>0</Section>
@@ -13,7 +21,7 @@
       <ValueOff>C5-FA-11-87-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jump">
+  <Cheat Text="Infinite Jump｜无限跳跃">
     <Cheatline>
       <Offset>3573990</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C5-FA-11-80-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath Holding">
+  <Cheat Text="无限呼吸 Holding">
     <Cheatline>
       <Offset>35739D0</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>C4-C1-7A-11-84-24-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Running">
+  <Cheat Text="Infinite Running｜无限奔跑">
     <Cheatline>
       <Offset>3573A40</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>C4-C1-7A-11-8C-24-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Water walk">
+  <Cheat Text="水无限 walk">
     <Cheatline>
       <Offset>3573AA0</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>C4-C1-7A-11-84-24-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Boot Durability">
+  <Cheat Text="Infinite Boot Durability｜无限开机耐久度">
     <Cheatline>
       <Offset>3573BC0</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C4-C1-7A-11-8D-0C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Spray/Ladder/Anchor/PCC">
+  <Cheat Text="Infinite 喷漆/Ladder/Anchor/PCC">
     <Cheatline>
       <Offset>3573B80</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>66-89-8C-47-0A-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Speed/Power Skeleton use">
+  <Cheat Text="Infinite 速度/电力 骷髅 use">
     <Cheatline>
       <Offset>3573DE0</Offset>
       <Section>0</Section>
@@ -111,7 +119,7 @@
       <ValueOff>C4-C1-7A-11-84-24-80-28-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/No reload">
+  <Cheat Text="无限弹药/无需换弹">
     <Cheatline>
       <Offset>1A73BB9</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>66-89-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Structures Durability">
+  <Cheat Text="Infinite Structures Durability｜《无限结构》的耐久性">
     <Cheatline>
       <Offset>3573EC0</Offset>
       <Section>0</Section>
@@ -133,7 +141,7 @@
       <ValueOff>C4-C1-7A-11-85-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Truck Durability (on land)">
+  <Cheat Text="Infinite Truck 耐用性 (on 领土)">
     <Cheatline>
       <Offset>3573CD0</Offset>
       <Section>0</Section>
@@ -147,7 +155,7 @@
       <ValueOff>C5-FA-11-53-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Truck Durability (on water)">
+  <Cheat Text="Infinite Truck 耐用性 (on 水)">
     <Cheatline>
       <Offset>3573CA0</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>C5-FA-11-4B-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cargo Damage 1">
+  <Cheat Text="No Cargo 输出 1">
     <Cheatline>
       <Offset>3573C00</Offset>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>C5-FA-10-6B-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No cargo damage 2 (in case 1 didnt work)">
+  <Cheat Text="No cargo 输出 2 (in 箱子 1 didnt work)">
     <Cheatline>
       <Offset>3573C20</Offset>
       <Section>0</Section>
@@ -189,7 +197,7 @@
       <ValueOff>C5-FA-10-6B-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No clip">
+  <Cheat Text="No clip｜穿墙模式">
     <Cheatline>
       <Offset>3573B50</Offset>
       <Section>0</Section>
@@ -203,7 +211,7 @@
       <ValueOff>66-44-89-BC-41-0A-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Running">
+  <Cheat Text="Fast Running｜快速奔跑">
     <Cheatline>
       <Offset>3573540</Offset>
       <Section>0</Section>
@@ -217,7 +225,7 @@
       <ValueOff>C5-FA-11-A8-9C-3C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="0.1 Weight Carrying">
+  <Cheat Text="0.1 重量 Carrying">
     <Cheatline>
       <Offset>3573580</Offset>
       <Section>0</Section>
@@ -231,7 +239,7 @@
       <ValueOff>C5-FA-11-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alot of Chiral Crystals (on collect)">
+  <Cheat Text="Alot of 开罗尔 Crystals (on collect)">
     <Cheatline>
       <Offset>3573C40</Offset>
       <Section>0</Section>
@@ -245,7 +253,7 @@
       <ValueOff>0F-48-CA-89-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Special Alloy Wont decrease">
+  <Cheat Text="Special Alloy Wont decrease｜特殊合金不会减少">
     <Cheatline>
       <Offset>2C94D87</Offset>
       <Section>0</Section>
@@ -253,7 +261,7 @@
       <ValueOff>48-89-48-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Chemicals 900000 (on spend first time)">
+  <Cheat Text="Chemicals 900000 (on spend first time)｜化学品 900000（首次采购金额）">
     <Cheatline>
       <Offset>3573AA0</Offset>
       <Section>0</Section>
@@ -267,7 +275,7 @@
       <ValueOff>48-89-48-50-48-8B-48-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ceramic 900000 (on spend first time)">
+  <Cheat Text="Ceramic 900000 (on spend first time)｜陶瓷 900000（首次消费时）">
     <Cheatline>
       <Offset>3573D20</Offset>
       <Section>0</Section>
@@ -281,7 +289,7 @@
       <ValueOff>48-89-48-48-48-8B-50-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Metal 900000 (on spend first time)">
+  <Cheat Text="金属 900000 (on spend first time)">
     <Cheatline>
       <Offset>3573D60</Offset>
       <Section>0</Section>
@@ -295,7 +303,7 @@
       <ValueOff>48-89-48-40-48-8B-50-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Resins 900000 (on spend first time)">
+  <Cheat Text="Resins 900000 (on spend first time)｜树脂 900000（首次消费时）">
     <Cheatline>
       <Offset>3573C50</Offset>
       <Section>0</Section>

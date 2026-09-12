@@ -1,12 +1,17 @@
 {
-  "name": "Stranger of Paradise: Final Fantasy Origin",
+  "name": "Stranger of Paradise: 最终幻想 Origin",
   "id": "CUSA29578",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "STRANGER OF PARADISE Backport 5.05",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "STRANGER OF PARADISE Backport 5.05｜《天堂的陌生人》5.05 回溯移植版",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EFF2B1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EFF2C1",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Magic + Max",
-      "type": "checkbox",
+      "name": "Infinite 魔法 + 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EFF2E0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Disable Enemy Gauge",
-      "type": "checkbox",
+      "name": "Disable Enemy Gauge｜禁用敌人血条",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EFF320",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Job points 99 use / level up",
-      "type": "checkbox",
+      "name": "Job 得分 99 use / 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EFF360",

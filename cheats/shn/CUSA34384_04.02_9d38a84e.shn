@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War: Ragnarok" Moder="Pharaoh2k" Cusa="CUSA34384" Version="04.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="God Mode (Untouchable+No Effects)" Description="May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="神模式 (刀枪不入+无效果)" Description="May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does">
     <Cheatline>
       <Section>0</Section>
       <Offset>17779EB</Offset>
@@ -40,7 +48,7 @@
       <ValueOff>C5-F8-11-84-24-90-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Damage Taken">
+  <Cheat Text="No Damage Taken｜不受伤害">
     <Cheatline>
       <Section>0</Section>
       <Offset>1777800</Offset>
@@ -54,7 +62,7 @@
       <ValueOff>C3-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No XP,HS, Resources subtracted">
+  <Cheat Text="No XP,HS, Resources subtracted｜不扣除经验值、HS和资源">
     <Cheatline>
       <Section>0</Section>
       <Offset>1777820</Offset>
@@ -68,7 +76,7 @@
       <ValueOff>F0-01-16-8B-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Crafting And Upgrade Limits">
+  <Cheat Text="No Crafting And Upgrade Limits｜无制作和升级限制">
     <Cheatline>
       <Section>0</Section>
       <Offset>C364F6</Offset>
@@ -76,7 +84,7 @@
       <ValueOff>7C-9D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows &amp; Throwables">
+  <Cheat Text="箭矢无限 &amp; 可投掷物品">
     <Cheatline>
       <Section>0</Section>
       <Offset>1777874</Offset>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-10-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rage">
+  <Cheat Text="Infinite Rage｜怒气无限">
     <Cheatline>
       <Section>0</Section>
       <Offset>17778A8</Offset>
@@ -116,7 +124,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Damage Multiplier(Master Code)" Description="Enable this first and then only one of the damage levels">
+  <Cheat Text="输出 Multiplier(Master 密码)" Description="Enable this first and then only one of the damage levels">
     <Cheatline>
       <Section>0</Section>
       <Offset>17778F9</Offset>
@@ -130,7 +138,7 @@
       <ValueOff>44-89-FA-C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="5x damage">
+  <Cheat Text="5x damage｜5倍伤害">
     <Cheatline>
       <Offset>01777913</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>00-00-A0-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="10x damage">
+  <Cheat Text="10x damage｜10倍伤害">
     <Cheatline>
       <Offset>01777913</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>00-00-20-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="20x damage">
+  <Cheat Text="20x damage｜20倍伤害">
     <Cheatline>
       <Offset>01777913</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>00-00-A0-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="30x damage">
+  <Cheat Text="30x damage｜30倍伤害">
     <Cheatline>
       <Offset>01777913</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>00-00-F0-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="40x damage">
+  <Cheat Text="40x damage｜40倍伤害">
     <Cheatline>
       <Offset>01777913</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>00-00-20-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="50x damage">
+  <Cheat Text="50x damage｜50倍伤害">
     <Cheatline>
       <Offset>01777913</Offset>
       <Section>0</Section>
@@ -178,7 +186,7 @@
       <ValueOff>00-00-48-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Stun" Description="This cheat may cause progression issues with some enemies.If and when it does, be sure to disable it and reload the checkpoint.">
+  <Cheat Text="One Hit Stun｜一击眩晕" Description="This cheat may cause progression issues with some enemies.If and when it does, be sure to disable it and reload the checkpoint.">
     <Cheatline>
       <Section>0</Section>
       <Offset>1777950</Offset>
@@ -192,7 +200,7 @@
       <ValueOff>C4-C1-7A-10-46-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Talisman and Relic Cooldown">
+  <Cheat Text="No 符箓 and 遗物 Cooldown">
     <Cheatline>
       <Section>0</Section>
       <Offset>1777B40</Offset>
@@ -206,7 +214,7 @@
       <ValueOff>C4-C1-7A-11-44-24-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Charge (L1+Triangle)">
+  <Cheat Text="Infinite Weapon 冲锋 (L1+Triangle)">
     <Cheatline>
       <Section>0</Section>
       <Offset>1777AEB</Offset>

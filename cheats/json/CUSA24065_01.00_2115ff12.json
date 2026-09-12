@@ -1,12 +1,17 @@
 {
-  "name": "Outbreak The Nightmare Chronicles",
+  "name": "Outbreak The Nightmare Chronicles｜《爆发：噩梦编年史》",
   "id": "CUSA24065",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAF0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Infinite Ammo",
-      "type": "checkbox",
+      "name": "最大 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F2B0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Infinite Clip Ammo",
-      "type": "checkbox",
+      "name": "最大 弹夹子弹无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ED70",

@@ -1,12 +1,17 @@
 {
-  "name": "Mass Effect: Legendary Edition",
+  "name": "质量效应: 传说宝可梦 Edition",
   "id": "CUSA19515",
   "version": "01.03",
   "process": "LTCG-BioGame.elf",
   "mods": [
     {
-      "name": "Infinite Health(Your health will decrease, but refill)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命(Your 生命 意志 decrease, but refill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2103850",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Faster XP",
-      "type": "checkbox",
+      "name": "Faster XP｜更快的 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7993BC",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21038F0",

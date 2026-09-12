@@ -1,12 +1,17 @@
 {
-  "name": "G. Darius",
+  "name": "G. Darius｜G. 达里乌斯",
   "id": "SLUS00690",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13BEEA",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Invincible",
-      "type": "checkbox",
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13B68E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-credits",
-      "type": "checkbox",
+      "name": "Infinite-credits｜无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129612",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf-Capture-Ball",
-      "type": "checkbox",
+      "name": "Infinite-捕获-Ball",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "146EAE",

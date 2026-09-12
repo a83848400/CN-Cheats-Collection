@@ -1,12 +1,17 @@
 {
-  "name": "Stellaris: Console Edition",
+  "name": "Stellaris: Console Edition｜《Stellaris：主机版》",
   "id": "CUSA07254",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max All Resources",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max All Resources｜全部资源最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D1F800",

@@ -1,12 +1,17 @@
 {
-  "name": "Sifu",
+  "name": "Sifu｜大师",
   "id": "CUSA25761",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Marsupilami: Hoobadventure" Moder="Bandicootmonito " Cusa="CUSA27817" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite lives" Description="You can activate this cheat if you want to play adventure mode on a level and you must deactivate if you want to play time trial mode on a level including the dojo time trial mode, the dojo levels have blue color on the level selection map, if you don´t the game will crash. (Puedes activar este truco si vas a jugar niveles en modo aventura y debes desactivarlo si vas a jugar niveles en modo contrarreloj incluyendo los contrarreloj dojo, los niveles dojo son de color azul en el mapa de selección de niveles, si no el juego se bloqueará)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite lives｜无限生命" Description="You can activate this cheat if you want to play adventure mode on a level and you must deactivate if you want to play time trial mode on a level including the dojo time trial mode, the dojo levels have blue color on the level selection map, if you don´t the game will crash. (Puedes activar este truco si vas a jugar niveles en modo aventura y debes desactivarlo si vas a jugar niveles en modo contrarreloj incluyendo los contrarreloj dojo, los niveles dojo son de color azul en el mapa de selección de niveles, si no el juego se bloqueará)">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BC3800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>89-48-3C-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Time always 00:00:00 on time trials" Description="You must activate this cheat only when select the time trial mode on a level including time trial mode on dojo levels, after finish the trial disable the cheat, if you don´t the game will crash  (Debes activar este truco solo cuando selecciones el modo contrarreloj en un nivel incluyendo el contrarreloj de los niveles dojo, después de acabar la prueba desactivalo, si no el juego se bloqueará)">
+  <Cheat Text="Time always 00:00:00 on time trials｜计时赛中时间始终显示为 00:00:00" Description="You must activate this cheat only when select the time trial mode on a level including time trial mode on dojo levels, after finish the trial disable the cheat, if you don´t the game will crash  (Debes activar este truco solo cuando selecciones el modo contrarreloj en un nivel incluyendo el contrarreloj de los niveles dojo, después de acabar la prueba desactivalo, si no el juego se bloqueará)">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BC3800</Offset>

@@ -1,12 +1,17 @@
 {
-  "name": "Frozen Free Fall: Snowball Fight",
+  "name": "冰冻 Free Fall: Snowball Fight",
   "id": "CUSA02396",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Score Multiplier",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 比分 Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ADCE6E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Moves",
-      "type": "checkbox",
+      "name": "Infinite Moves｜无限招式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AED75E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Hearts",
-      "type": "checkbox",
+      "name": "Infinite 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B51976",

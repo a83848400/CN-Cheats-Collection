@@ -1,12 +1,17 @@
 {
-  "name": "Aragami 2",
+  "name": "Aragami 2｜《Aragami 2》",
   "id": "CUSA23444",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C92C0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19C9300",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Gold (On Spend)",
-      "type": "checkbox",
+      "name": "金币最大 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA1E00",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1AB7800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-10-44-24-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>1AB7815</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-11-5B-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic">
+  <Cheat Text="Infinite 魔法">
     <Cheatline>
       <Offset>1AB7826</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-11-5B-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP on Gain">
+  <Cheat Text="最大 XP on Gain">
     <Cheatline>
       <Offset>1AB7837</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C4-C1-7A-11-87-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Potions on Use">
+  <Cheat Text="最大 Potions on Use">
     <Cheatline>
       <Offset>1AB7850</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>89-47-40-C3-66-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Potions on Use">
+  <Cheat Text="x2 Potions on Use｜使用时获得2瓶药水">
     <Cheatline>
       <Offset>3C18E5</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max AP on Spend">
+  <Cheat Text="能力点最大 on Spend">
     <Cheatline>
       <Offset>1AB7865</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>89-88-E8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 AP on Spend">
+  <Cheat Text="x2 行动点 on Spend">
     <Cheatline>
       <Offset>727BD2</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max SP on Spend">
+  <Cheat Text="最大 精神值 on Spend">
     <Cheatline>
       <Offset>1AB7875</Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>89-88-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 SP on Spend">
+  <Cheat Text="x2 精神值 on Spend">
     <Cheatline>
       <Offset>727BE3</Offset>
       <Section>0</Section>
@@ -125,7 +133,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill Enemies Quicker">
+  <Cheat Text="Kill Enemies Quicker｜更快击杀敌人">
     <Cheatline>
       <Offset>1AB7850</Offset>
       <Section>0</Section>
@@ -139,7 +147,7 @@
       <ValueOff>C4-C1-7A-10-44-24-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Strength When Changed">
+  <Cheat Text="力量最大 When Changed">
     <Cheatline>
       <Offset>1AB7895</Offset>
       <Section>0</Section>
@@ -153,7 +161,7 @@
       <ValueOff>89-B7-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Vitality When Changed">
+  <Cheat Text="活力最大 When Changed">
     <Cheatline>
       <Offset>1AB78E5</Offset>
       <Section>0</Section>
@@ -167,7 +175,7 @@
       <ValueOff>89-B7-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Faith When Changed">
+  <Cheat Text="信仰最大 When Changed">
     <Cheatline>
       <Offset>1AB78A5</Offset>
       <Section>0</Section>
@@ -181,7 +189,7 @@
       <ValueOff>89-B7-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Endurance When Changed">
+  <Cheat Text="最大 耐力 When Changed">
     <Cheatline>
       <Offset>1AB78B5</Offset>
       <Section>0</Section>
@@ -195,7 +203,7 @@
       <ValueOff>89-B7-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Agility When Changed">
+  <Cheat Text="敏捷最大 When Changed">
     <Cheatline>
       <Offset>1AB78C5</Offset>
       <Section>0</Section>
@@ -209,7 +217,7 @@
       <ValueOff>89-B7-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Luck When Changed">
+  <Cheat Text="幸运最大 When Changed">
     <Cheatline>
       <Offset>1AB78D5</Offset>
       <Section>0</Section>

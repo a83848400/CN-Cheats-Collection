@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="High Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="High 金钱">
     <Cheatline>
       <Offset>14BF800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-84-24-54-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ~Gain 2 Of The Same~">
+  <Cheat Text="最大 Items ~Gain 2 Of The Same~">
     <Cheatline>
       <Offset>14BF812</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>0F-84-24-06-00-00-89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Keys ~After Gain~">
+  <Cheat Text="99 Keys ~增益后~">
     <Cheatline>
       <Offset>14BF825</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>41-89-87-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Water ~After Gain~">
+  <Cheat Text="99 水 ~增益后~">
     <Cheatline>
       <Offset>14BF836</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>0F-84-A8-06-00-00-89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode">
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>14BF849</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>F3-45-0F-11-BE-4C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Energy ~After Use~">
+  <Cheat Text="High 能量 ~After Use~">
     <Cheatline>
       <Offset>14BF863</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>F3-45-0F-11-BF-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Get Rad">
+  <Cheat Text="Never Get 放射性的">
     <Cheatline>
       <Offset>14BF87D</Offset>
       <Section>0</Section>

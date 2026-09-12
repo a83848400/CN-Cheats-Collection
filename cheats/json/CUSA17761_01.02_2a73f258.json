@@ -1,12 +1,17 @@
 {
-  "name": "Mafia II: Definitive Edition",
+  "name": "黑手党 II: Definitive Edition",
   "id": "CUSA17761",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health Master Code (Enable First)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 Master 密码 (Enable First)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10C3BC1",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11016F2",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11010A1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1101854",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ECCD04",

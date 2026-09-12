@@ -1,12 +1,17 @@
 {
-  "name": "Ibara",
+  "name": "Ibara｜条款",
   "id": "SLPM66301",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD38FD8",
@@ -16,12 +21,12 @@
       ]
     },
     {
-      "name": "Infinite bomb P1",
-      "type": "checkbox",
+      "name": "无限炸弹 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808004C5DD",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "01"
         }
       ]

@@ -1,12 +1,17 @@
 {
-  "name": "Guns, Gore & Cannoli 2",
+  "name": "《枪、血腥与坎诺利》 2",
   "id": "CUSA08413",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "803E1278",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "803E99C2",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "All-Weapon-Rapid-Fire",
-      "type": "checkbox",
+      "name": "All-Weapon-Rapid-火",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "803DDDCB",

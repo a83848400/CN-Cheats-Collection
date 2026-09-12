@@ -1,10 +1,10 @@
 {
-  "name": "Nioh",
+  "name": "Nioh｜仁王",
   "id": "CUSA07123",
   "version": "01.21",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "13F7800",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "Infinte Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13F7800",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13F781B",
@@ -45,8 +50,8 @@
       ]
     },
     {
-      "name": "2 Hit Kill",
-      "type": "checkbox",
+      "name": "2 命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13F782E",
@@ -61,8 +66,8 @@
       ]
     },
     {
-      "name": "Infinite Amirta",
-      "type": "checkbox",
+      "name": "Infinite Amirta｜无限阿米尔塔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13F785D",
@@ -77,8 +82,8 @@
       ]
     },
     {
-      "name": "Infinite Gold",
-      "type": "checkbox",
+      "name": "Infinite Gold｜无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13F7871",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Infinite Lightning Water Ninjutsu Power",
-      "type": "checkbox",
+      "name": "Infinite 闪电 水 忍术 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194F0B",

@@ -1,12 +1,17 @@
 {
-  "name": "The Last of Us: Remastered",
+  "name": "最后生还者: Remastered",
   "id": "CUSA00556",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Debug Menu (Enable)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Debug 菜单 (Enable)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4108",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Debug Menu (Enable, No Overlay)",
-      "type": "checkbox",
+      "name": "Debug 菜单 (Enable, No Overlay)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4108",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Debug Menu (Disable)",
-      "type": "checkbox",
+      "name": "Debug 菜单 (Disable)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4108",

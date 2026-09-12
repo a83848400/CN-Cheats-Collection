@@ -1,23 +1,28 @@
 {
-  "name": "Mega Man X5",
+  "name": "洛克人 X5",
   "id": "SLUS01334",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock All-Weapon",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "解锁 All-Weapon",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "185409",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "00"
         }
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12AACD",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11CDCA",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10BAE2",

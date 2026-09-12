@@ -1,12 +1,17 @@
 {
-  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "name": "The 上古卷轴 V: 天际 Special Edition",
   "id": "CUSA05486",
   "version": "01.17",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Coins (after taking a stack from corpses)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 角落 (after taking a 堆叠 from corpses)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D23B20",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "99 Crafting Items (after Spending)",
-      "type": "checkbox",
+      "name": "99 Crafting Items (after Spending)｜99 件合成材料（消耗后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D23B60",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "99 Perks Points (reach level 2)",
-      "type": "checkbox",
+      "name": "99 Perks 得分 (reach 等级 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D23B90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Skills and stats( need perks and save/load game after activating)",
-      "type": "checkbox",
+      "name": "最大 Skills and 属性( need perks and 保存/读取 game after activating)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D234B0",

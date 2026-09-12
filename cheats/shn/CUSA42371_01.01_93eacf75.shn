@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rogue Legacy 2" Moder="Wander FW9.00" Cusa="CUSA42371" Version="01.01" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>822CFC50</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-87-58-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic">
+  <Cheat Text="Infinite 魔法">
     <Cheatline>
       <Offset>822CFCD0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-11-84-24-18-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold(on get)">
+  <Cheat Text="金币最大(on get)">
     <Cheatline>
       <Offset>822CFBF0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>44-01-EB-89-58-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Iron Bars (on get)">
+  <Cheat Text="铁最大 Bars (on get)">
     <Cheatline>
       <Offset>822CFD30</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>48-8B-00-44-01-70-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Blood (on get)">
+  <Cheat Text="最大 Blood (on get)">
     <Cheatline>
       <Offset>822CFD80</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>48-8B-00-44-01-70-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Souls (on get)">
+  <Cheat Text="灵魂最大 (on get)">
     <Cheatline>
       <Offset>822CFDF0</Offset>
       <Section>0</Section>

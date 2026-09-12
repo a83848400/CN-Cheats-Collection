@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Origins Collection",
+  "name": "生化危机: Origins Collection",
   "id": "CUSA02882",
   "version": "01.00",
   "process": "bh1hd.elf",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18C7DF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Pistol Ammo",
-      "type": "checkbox",
+      "name": "Infinite 手枪 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34C686",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Tapes",
-      "type": "checkbox",
+      "name": "Infinite Tapes｜无限磁带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D0E80",

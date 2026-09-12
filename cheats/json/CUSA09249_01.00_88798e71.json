@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+  "name": "使命召唤: Modern Warfare 2 战役 Remastered",
   "id": "CUSA09249",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A33AA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E7BA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6C86C0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Granades/Equipments",
-      "type": "checkbox",
+      "name": "无限手榴弹/Equipments",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6BB21B",

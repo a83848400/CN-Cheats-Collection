@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed: Rivals",
+  "name": "极品飞车: Rivals",
   "id": "CUSA00168",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite SP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D5DB7F",

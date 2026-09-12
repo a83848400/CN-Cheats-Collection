@@ -1,12 +1,17 @@
 {
-  "name": "GreedFall",
+  "name": "GreedFall｜《GreedFall》",
   "id": "CUSA14211",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Exp",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "138F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Item (on use)",
-      "type": "checkbox",
+      "name": "Infinite 物品 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "138F02D",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "138F05D",

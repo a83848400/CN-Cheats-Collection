@@ -1,12 +1,17 @@
 {
-  "name": "Aliens: Fireteam Elite",
+  "name": "Aliens: Fireteam 精英",
   "id": "CUSA27462",
   "version": "01.32",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite First Aid kit",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 急救包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F38BC2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No reolad",
-      "type": "checkbox",
+      "name": "无限弹药/No reolad",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F0FAF0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Currency (on spend)",
-      "type": "checkbox",
+      "name": "最大 Currency (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F0FB20",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables 2 (Turrets and special ammo uses)",
-      "type": "checkbox",
+      "name": "无限消耗品 2 (炮塔 and special 但是 uses)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F38BFC",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables 1 (Turrets and special ammo uses)",
-      "type": "checkbox",
+      "name": "无限消耗品 1 (炮塔 and special 但是 uses)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F38B9D",

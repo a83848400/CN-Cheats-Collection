@@ -1,5 +1,5 @@
 {
-  "name": "Lost Soul Aside™",
+  "name": "Lost Soul Aside™｜《Lost Soul Aside™》",
   "id": "PPSA26358",
   "version": "01.000.000",
   "process": "eboot.bin",
@@ -8,9 +8,14 @@
   ],
   "mods": [
     {
-      "name": "Max Divine Gold",
-      "description": "pick up 2 times",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 超凡入圣 金币",
+      "description": "拾取 2 times",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61B3BC0",
@@ -25,9 +30,9 @@
       ]
     },
     {
-      "name": "Item 99",
-      "description": "On consume",
-      "type": "checkbox",
+      "name": "物品 99",
+      "description": "On consume｜关于“consume”",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61B3AB0",
@@ -42,9 +47,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Health｜无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61B34E0",

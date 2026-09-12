@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Travis Strikes Again: No More Heroes Complete Edition" Moder="Scalerize" Cusa="CUSA15300" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Exp On Gain" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="经验值最大 On Gain" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>625455</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-46-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max LB On Gain" Description="">
+  <Cheat Text="最大 LB On Gain" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D9381D</Offset>

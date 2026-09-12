@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Castle Shikigami 2" Moder="Ali-mk" Cusa="SLUS20962" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>807FEC0868</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>FF-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Energy">
+  <Cheat Text="Infinite-能量">
     <Cheatline>
       <Offset>807FEC0824</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>63-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Bomb">
+  <Cheat Text="无限炸弹">
     <Cheatline>
       <Offset>807FEC083A</Offset>
       <Section>0</Section>

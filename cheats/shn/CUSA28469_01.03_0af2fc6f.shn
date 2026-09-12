@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Tails of Iron" Moder="Saso" Cusa="CUSA28469" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health (Turn Off In 2nd Battle)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (回合 Off In 2nd 战斗)">
     <Cheatline>
       <PS5Offset>15DE5F1-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>511A0F</Offset>
@@ -11,7 +19,7 @@
       <ValueOff>C5-FA-10-45-FC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1HK / Boss Easy Kill">
+  <Cheat Text="1港元 / Boss 轻松击杀">
     <Cheatline>
       <PS5Offset>7DC-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>1AEF824</Offset>
@@ -27,7 +35,7 @@
       <ValueOff>C5-FA-11-45-EC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Weight">
+  <Cheat Text="No 重量">
     <Cheatline>
       <PS5Offset>14B24FC-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>80CF1B04</Offset>
@@ -36,7 +44,7 @@
       <ValueOff>C5-F8-29-4D-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bolts">
+  <Cheat Text="Infinite Bolts｜无限螺栓">
     <Cheatline>
       <PS5Offset>15DF12E-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>80BC4ED2</Offset>
@@ -45,7 +53,7 @@
       <ValueOff>44-89-B0-1C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows">
+  <Cheat Text="Infinite Arrows｜箭矢无限">
     <Cheatline>
       <PS5Offset>15DF292-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>510D6E</Offset>
@@ -54,7 +62,7 @@
       <ValueOff>44-89-B0-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Currency">
+  <Cheat Text="Infinite Currency｜无限货币">
     <Cheatline>
       <PS5Offset>7A9-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>1AEF857</Offset>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Stranger of Paradise: Final Fantasy Origin" Moder="Reddevil82 - FW 9.00" Cusa="CUSA29579" Version="01.32" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>33DBDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-83-D8-06-00-00-8B-4A-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>33DBDE1</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-F8-2E-44-83-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Break Gauge">
+  <Cheat Text="Infinite 破防 Gauge">
     <Cheatline>
       <Offset>2771EC</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C4-C1-7A-11-47-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP + Max MP">
+  <Cheat Text="无限魔力 + 最大 MP">
     <Cheatline>
       <Offset>33DBDFA</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-10-8B-E0-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>33DBE1B</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>89-F8-44-29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Potion">
+  <Cheat Text="Max Potion｜秘药">
     <Cheatline>
       <Offset>33DBE33</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>41-80-7F-04-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Abilities ( if available )">
+  <Cheat Text="最大 Abilities ( if available )">
     <Cheatline>
       <Offset>33DBE42</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>8B-9C-08-60-21-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Anima ( Job Menu - you need one )">
+  <Cheat Text="最大 Anima ( Job 菜单 - you need one )">
     <Cheatline>
       <Offset>33DBE59</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>41-0F-B7-84-05-38-C5-17-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Anima, Maginit ( Items Inventory - you need one )">
+  <Cheat Text="最大 Anima, Maginit ( Items 背包 - you need one )">
     <Cheatline>
       <Offset>33DBE72</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>48-8B-04-24-0F-B7-78-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Job Points ( on use )">
+  <Cheat Text="最大 Job 得分 ( on use )">
     <Cheatline>
       <Offset>33DBE85</Offset>
       <Section>0</Section>

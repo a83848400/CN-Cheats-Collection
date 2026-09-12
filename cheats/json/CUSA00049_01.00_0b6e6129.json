@@ -1,13 +1,18 @@
 {
-  "name": "Battlefield 4",
+  "name": "战地 4",
   "id": "CUSA00049",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "174C17E",
@@ -27,9 +32,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10289A4",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "No Recoil / Spread",
-      "hint": "Pick up a new weapon for no spread.",
-      "type": "checkbox",
+      "name": "消除后坐力 / Spread",
+      "hint": "拾取 a new weapon for 消除弹道散布.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6C6E10",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Wire Frame Rendering",
+      "name": "Wire Frame Rendering｜线框渲染",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186EF10",
@@ -75,7 +80,7 @@
     {
       "name": "Freeze FX",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2350110",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Draw Debug Strings",
+      "name": "抽牌 Debug Strings",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "144CB50",
@@ -99,7 +104,7 @@
     {
       "name": "Small Hud",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C031B6",
@@ -109,9 +114,9 @@
       ]
     },
     {
-      "name": "Teleport Climb",
+      "name": "传送 Climb",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2787B94",
@@ -131,9 +136,9 @@
       ]
     },
     {
-      "name": "Always Able To Climb",
+      "name": "Always Able To Climb｜永远能够攀登",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993B9D",
@@ -143,9 +148,9 @@
       ]
     },
     {
-      "name": "Teleport Patch V1",
-      "hint": "The following options are for testing purposes!",
-      "type": "checkbox",
+      "name": "传送 Patch V1",
+      "hint": "The following 选项 are for testing purposes!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993A81",
@@ -200,9 +205,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 1",
+      "name": "传送 Patch 1",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993A81",
@@ -212,9 +217,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 2",
+      "name": "传送 Patch 2",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993A5B",
@@ -224,9 +229,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 3",
+      "name": "传送 Patch 3",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993A51",
@@ -236,9 +241,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 4",
+      "name": "传送 Patch 4",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993A2B",
@@ -248,9 +253,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 5",
+      "name": "传送 Patch 5",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993F68",
@@ -260,9 +265,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 6",
+      "name": "传送 Patch 6",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993E71",
@@ -272,9 +277,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 7",
+      "name": "传送 Patch 7",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993BA6",
@@ -284,9 +289,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 8",
+      "name": "传送 Patch 8",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993A05",
@@ -296,9 +301,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 9 (Get Stuck)",
+      "name": "传送 Patch 9 (Get Stuck)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9939FA",
@@ -308,9 +313,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 10",
+      "name": "传送 Patch 10",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9939DF",
@@ -320,9 +325,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 11",
+      "name": "传送 Patch 11",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993890",
@@ -332,9 +337,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 12 (Inside Trace Function)",
+      "name": "传送 Patch 12 (Inside Trace Function)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "995142",
@@ -344,9 +349,9 @@
       ]
     },
     {
-      "name": "Teleport Patch 13 (Change 4 to 8)",
+      "name": "传送 Patch 13 (Change 4 to 8)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9962B2",

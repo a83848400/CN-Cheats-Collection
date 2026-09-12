@@ -1,12 +1,17 @@
 {
-  "name": "Sand Land",
+  "name": "沙子 领土",
   "id": "CUSA34698",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Health｜生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FF00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "XP x2",
-      "type": "checkbox",
+      "name": "XP x2｜XP ×2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CA7800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Money x2",
-      "type": "checkbox",
+      "name": "金钱 x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CA7814",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Items x99",
-      "type": "checkbox",
+      "name": "Items x99｜物品 x99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CA7837",

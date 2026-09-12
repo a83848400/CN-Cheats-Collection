@@ -1,12 +1,17 @@
 {
-  "name": "Titanfall 2",
+  "name": "泰坦陨落 2",
   "id": "CUSA04013",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip / Infinite Grenades",
-      "type": "checkbox",
+      "name": "无底夹 / 手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",

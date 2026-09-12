@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="EVIL BELOW" Moder="Reddevil82 - FW 9.00" Cusa="CUSA29504" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>1987EB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-46-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="Infinite Stamina">
     <Cheatline>
       <Offset>1987ED1</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-8B-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ( on use )" Description="Max Items ( on use )">
+  <Cheat Text="最大 Items ( on use )" Description="Max Items ( on use )">
     <Cheatline>
       <Offset>1987EE6</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-FF-44-24-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="No Reload">
+  <Cheat Text="No Reload｜无需换弹" Description="No Reload">
     <Cheatline>
       <Offset>1987EF8</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>8B-83-20-01-00-00-FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Walk Speed [ x 2 ]" Description="Player Walk Speed [ x 2 ]">
+  <Cheat Text="Player Walk 速度 [ 艾克斯 2 ]" Description="Player Walk Speed [ x 2 ]">
     <Cheatline>
       <Offset>1987F11</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Walk Speed [ x 3 ]" Description="Player Walk Speed [ x 3 ]">
+  <Cheat Text="Player Walk 速度 [ 艾克斯 3 ]" Description="Player Walk Speed [ x 3 ]">
     <Cheatline>
       <Offset>1987F21</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Walk Speed [ x 4 ]" Description="Player Walk Speed [ x 4 ]">
+  <Cheat Text="Player Walk 速度 [ 艾克斯 4 ]" Description="Player Walk Speed [ x 4 ]">
     <Cheatline>
       <Offset>1987F31</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C5-FA-10-83-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Run Speed [ x 2 ]" Description="Player Run Speed [ x 2 ]">
+  <Cheat Text="Player Run 速度 [ 艾克斯 2 ]" Description="Player Run Speed [ x 2 ]">
     <Cheatline>
       <Offset>1987F41</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Run Speed [ x 3 ]" Description="Player Run Speed [ x 3 ]">
+  <Cheat Text="Player Run 速度 [ 艾克斯 3 ]" Description="Player Run Speed [ x 3 ]">
     <Cheatline>
       <Offset>1987F51</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Run Speed [ x 4 ]" Description="Player Run Speed [ x 4 ]">
+  <Cheat Text="Player Run 速度 [ 艾克斯 4 ]" Description="Player Run Speed [ x 4 ]">
     <Cheatline>
       <Offset>1987F61</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>C5-FA-10-83-D0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Jump Height [ x 2 ]" Description="Player Jump Height [ x 2 ]">
+  <Cheat Text="Player 跳跃高度 [ 艾克斯 2 ]" Description="Player Jump Height [ x 2 ]">
     <Cheatline>
       <Offset>1987F71</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>C5-FA-5C-45-DC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Jump Height [ x 3 ]" Description="Player Jump Height [ x 3 ]">
+  <Cheat Text="Player 跳跃高度 [ 艾克斯 3 ]" Description="Player Jump Height [ x 3 ]">
     <Cheatline>
       <Offset>1987F81</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>C5-FA-5C-45-DC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Jump Height [ x 4 ]" Description="Player Jump Height [ x 4 ]">
+  <Cheat Text="Player 跳跃高度 [ 艾克斯 4 ]" Description="Player Jump Height [ x 4 ]">
     <Cheatline>
       <Offset>1987F91</Offset>
       <Section>0</Section>

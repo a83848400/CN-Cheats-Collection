@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Shadow Warrior 3" Moder="Saso_9.00" Cusa="CUSA26357" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health / Ammo / 1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 / 但是 / 一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>63DB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
+  <Cheat Text="一击必杀 (MC)">
     <Cheatline>
       <Offset>63DB831</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>EB-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload (MC)">
+  <Cheat Text="无限弹药 / 无需换弹 (MC)">
     <Cheatline>
       <Offset>63DB807</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-36</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Finisher Gauge / Max Orbs (Master Code)">
+  <Cheat Text="Infinite 终结技 Gauge / 最大 Orbs (Master 密码)">
     <Cheatline>
       <Offset>63DB8B3</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-11-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Orbs (999) On Spend">
+  <Cheat Text="最大 Orbs (999) On Spend">
     <Cheatline>
       <Offset>63DB8BA</Offset>
       <Section>0</Section>

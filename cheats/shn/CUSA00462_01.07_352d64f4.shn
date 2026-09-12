@@ -18,7 +18,15 @@
       <ValueOff>48-8B-7F-40-48-8B-07</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>303F816</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-5F-49-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>145B48A</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>29-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>130B2A2</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>44-29-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades" Description="">
+  <Cheat Text="Infinite Grenades｜手雷无限" Description="">
     <Cheatline>
       <Offset>1301846</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>29-DE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ignore Grenade Count" Description="">
+  <Cheat Text="Ignore 手榴弹 Count" Description="">
     <Cheatline>
       <Offset>130127D</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>7F-24</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Infinite Money" Description="">
+  <Cheat Text="Infinite Money｜金钱无限" Description="">
     <Cheatline>
       <Offset>1330D55</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints" Description="">
+  <Cheat Text="Infinite Skillpoints｜无限技能点" Description="">
     <Cheatline>
       <Offset>CDCDF2</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>41-29-44-24-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="XP x2" Description="">
+  <Cheat Text="XP x2｜XP ×2" Description="">
     <Cheatline>
       <Offset>CDC2C5</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>8B-4B-64-44-01-F9-89-4B-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="XP x4" Description="">
+  <Cheat Text="XP x4｜XP ×4" Description="">
     <Cheatline>
       <Offset>CDC2C5</Offset>
       <Section>0</Section>

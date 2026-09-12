@@ -1,12 +1,17 @@
 {
-  "name": "Little Dragons Cafe",
+  "name": "Little Dragons Cafe｜小龙咖啡馆",
   "id": "CUSA12545",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock All Ingredients",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlock All Ingredients｜解锁所有食材",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12CB811",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Dragons Hp",
-      "type": "checkbox",
+      "name": "Dragons 手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12CB827",

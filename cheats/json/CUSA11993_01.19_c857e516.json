@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Spider-Man",
+  "name": "Marvel's 蜘蛛侠",
   "id": "CUSA11993",
   "version": "01.19",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode ( must be activate for [ MC ] Cheats )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mastercode ( must be activate for [ MC ] Cheats )｜主代码（必须激活才能使用 [MC] 作弊码）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC9C",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FC0021",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Max Health [ MC ]",
-      "type": "checkbox",
+      "name": "生命最大 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FC0020",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBBD0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC04",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max XP ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC13",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Skillpoints",
-      "type": "checkbox",
+      "name": "最大 技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC23",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Combo",
-      "type": "checkbox",
+      "name": "最大 Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC39",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Ressources + Shoots",
-      "type": "checkbox",
+      "name": "最大 Ressources + Shoots",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC49",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Save Position [ MC ]",
-      "type": "checkbox",
+      "name": "保存 Position [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FC0022",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Load Position [ MC ]",
-      "type": "checkbox",
+      "name": "读取 Position [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FC0023",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Max Benchmarks",
-      "type": "checkbox",
+      "name": "最大 Benchmarks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC5A",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Max Score ( on gain )",
-      "type": "checkbox",
+      "name": "最大 比分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC6B",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Max Timer",
-      "type": "checkbox",
+      "name": "最大 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEBC83",

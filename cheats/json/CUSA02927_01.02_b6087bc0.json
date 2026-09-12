@@ -1,12 +1,17 @@
 {
-  "name": "Rogue Aces",
+  "name": "潜行者 Aces",
   "id": "CUSA02927",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Fule",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限燃料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B47A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Bomb",
-      "type": "checkbox",
+      "name": "无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A43C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Missile",
-      "type": "checkbox",
+      "name": "无限导弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A55D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Hi Score",
-      "type": "checkbox",
+      "name": "Hi 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B4800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Ultra Hi Score",
-      "type": "checkbox",
+      "name": "Ultra Hi 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B4800",

@@ -1,38 +1,43 @@
 {
-  "name": "Zanac x Zanac",
-  "id": "SLPS03354",
+  "name": "Zanac 艾克斯 Zanac",
+  "id": "SLPS03354｜小型、低压、单点悬挂",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1417C8",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "1417C9",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "142A38",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "142A39",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

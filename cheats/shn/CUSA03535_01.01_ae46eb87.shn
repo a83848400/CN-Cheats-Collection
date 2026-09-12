@@ -3,7 +3,15 @@
   <Genres Name="FPS" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1093800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-10-86-50-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>1093888</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>48-05-50-02-00-00-C5-FA-10-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>3F27BD</Offset>
       <Section>9</Section>
@@ -45,7 +53,7 @@
       <ValueOff>FF-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>1093877</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>89-8B-D0-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>1093817</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>C5-FA-11-83-28-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flashlight">
+  <Cheat Text="Infinite 手电筒">
     <Cheatline>
       <Offset>1093845</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>C4-C1-7A-11-86-E8-16-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Turrent Ammo">
+  <Cheat Text="Infinite Turrent 但是">
     <Cheatline>
       <Offset>40D512</Offset>
       <Section>9</Section>
@@ -121,7 +129,7 @@
       <ValueOff>FF-88-94-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Turrent Overheat">
+  <Cheat Text="No Turrent Overheat｜Turrent 未过热">
     <Cheatline>
       <Offset>109389D</Offset>
       <Section>0</Section>

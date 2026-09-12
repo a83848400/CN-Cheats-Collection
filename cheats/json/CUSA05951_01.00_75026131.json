@@ -1,12 +1,17 @@
 {
-  "name": "Super Stardust Ultra VR",
+  "name": "Super 星尘 Ultra VR",
   "id": "CUSA05951",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max bomb (arcade mode)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 bomb (街机模式)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Multiplier (arcade mode)",
-      "type": "checkbox",
+      "name": "最大 Multiplier (街机模式)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "313AC7",

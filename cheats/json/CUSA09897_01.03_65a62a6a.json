@@ -1,12 +1,17 @@
 {
-  "name": "LEGO The Incredibles",
+  "name": "LEGO The Incredibles｜乐高《超人总动员》",
   "id": "CUSA09897",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B96270",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Studs on Gain",
-      "type": "checkbox",
+      "name": "最大 Studs on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B7AF60",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Instant Max Combo",
-      "type": "checkbox",
+      "name": "Instant 最大 Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B7B140",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "x2 Combo",
-      "type": "checkbox",
+      "name": "x2 Combo｜双重组合",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B7B4A0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "x4 Combo",
-      "type": "checkbox",
+      "name": "x4 Combo｜四合一组合",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B7B4A0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "x8 Combo",
-      "type": "checkbox",
+      "name": "x8 Combo｜第八组连招",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B7B4A0",

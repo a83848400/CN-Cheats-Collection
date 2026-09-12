@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Prince of Persia: The Lost Crown" Moder="Pharaoh2k" Cusa="CUSA36582" Version="01.04" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="Please note that you MUST read the comment on each individual cheat, if a comment is available, or your game/saves may have issues. Enjoy this incredible game! :-)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="Please note that you MUST read the comment on each individual cheat, if a comment is available, or your game/saves may have issues. Enjoy this incredible game! :-)">
     <Cheatline>
       <Section>0</Section>
       <Offset>1AA2000</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Currencies, Arrows and Consumables" Description="Must have at least one piece for the cheat to take effect to stop subtracting the remaining quantity.">
+  <Cheat Text="Infinite Currencies, Arrows and Consumables｜无限货币、箭矢和消耗品" Description="Must have at least one piece for the cheat to take effect to stop subtracting the remaining quantity.">
     <Cheatline>
       <Section>0</Section>
       <Offset>8278783C</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>44-29-70-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Purchase and Upgrade Limits" Description="Can purchase and upgrade anything, even if you dont have enough currencies. Best to enable/use together with Infinite Currencies, Arrows and Consumables cheat">
+  <Cheat Text="No Purchase and Upgrade Limits｜无购买和升级限制" Description="Can purchase and upgrade anything, even if you dont have enough currencies. Best to enable/use together with Infinite Currencies, Arrows and Consumables cheat">
     <Cheatline>
       <Section>0</Section>
       <Offset>809F0DC9</Offset>
@@ -32,7 +40,7 @@
       <ValueOff>40-0F-9C-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode (Untouchable)" Description="Can still be frozen by enemies. That is intentional.">
+  <Cheat Text="神模式 (刀枪不入)" Description="Can still be frozen by enemies. That is intentional.">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A0A0</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>48-8B-07-48-8B-B0-40-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>80AC7254</Offset>
@@ -66,7 +74,7 @@
       <ValueOff>45-29-77-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumps" Description="Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.">
+  <Cheat Text="Infinite Jumps｜无限跳跃" Description="Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.">
     <Cheatline>
       <Section>0</Section>
       <Offset>81B2E8B3</Offset>
@@ -74,7 +82,7 @@
       <ValueOff>8B-91-E4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Athra Surge Charge" Description="">
+  <Cheat Text="Instant Athra Surge 冲锋" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A120</Offset>
@@ -88,7 +96,7 @@
       <ValueOff>C5-FA-11-80-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Athra Surge Cooldown" Description="">
+  <Cheat Text="No Athra Surge Cooldown｜无“阿特拉”爆发冷却时间" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A160</Offset>
@@ -102,7 +110,7 @@
       <ValueOff>C4-C1-7A-11-86-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Damage Multiplier (Master Code)" Description="RECOMMENDED to disable this cheat in boss fights. Enable this MC first and then choose only one of multipliers below. May cause progression issues when used when fighting some bosses, especially in the beginning of the game, before mount Qaf.">
+  <Cheat Text="输出 Multiplier (Master 密码)" Description="RECOMMENDED to disable this cheat in boss fights. Enable this MC first and then choose only one of multipliers below. May cause progression issues when used when fighting some bosses, especially in the beginning of the game, before mount Qaf.">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A180</Offset>
@@ -128,7 +136,7 @@
       <ValueOff>FF-90-38-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Damage x5" Description="">
+  <Cheat Text="--输出 x5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A1A0</Offset>
@@ -136,7 +144,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Damage x10" Description="">
+  <Cheat Text="--输出 x10" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A1A0</Offset>
@@ -144,7 +152,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Damage x20" Description="">
+  <Cheat Text="--输出 x20" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A1A0</Offset>
@@ -152,7 +160,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Damage x50" Description="">
+  <Cheat Text="--输出 乘以五十" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A1A0</Offset>
@@ -160,7 +168,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Damage x100" Description="">
+  <Cheat Text="--输出 十倍" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>8471A1A0</Offset>
@@ -168,7 +176,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump Height Multiplier (Master Code)" Description="Enable this MC first and then choose only one of multipliers below. Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.">
+  <Cheat Text="跳跃高度 Multiplier (Master 密码)" Description="Enable this MC first and then choose only one of multipliers below. Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.">
     <Cheatline>
       <Section>0</Section>
       <Offset>1AA2020</Offset>
@@ -182,7 +190,7 @@
       <ValueOff>C5-FA-10-46-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Jump x2" Description="">
+  <Cheat Text="--跳跃×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1AA203C</Offset>
@@ -190,7 +198,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Jump x3" Description="">
+  <Cheat Text="--跳跃×3" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1AA203C</Offset>
@@ -198,7 +206,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Jump x4" Description="">
+  <Cheat Text="--跳跃×4" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1AA203C</Offset>
@@ -206,7 +214,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Jump x5" Description="">
+  <Cheat Text="--跳跃×5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1AA203C</Offset>

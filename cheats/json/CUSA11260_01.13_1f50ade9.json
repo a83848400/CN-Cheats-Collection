@@ -1,12 +1,17 @@
 {
-  "name": "Death Stranding",
+  "name": "Death Stranding｜死亡搁浅",
   "id": "CUSA11260",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1778257",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Jump",
-      "type": "checkbox",
+      "name": "Infinite Jump｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573990",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Breath Holding",
-      "type": "checkbox",
+      "name": "无限呼吸 Holding",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35739D0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Running",
-      "type": "checkbox",
+      "name": "Infinite Running｜无限奔跑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573A40",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Water walk",
-      "type": "checkbox",
+      "name": "水无限 walk",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573AA0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Boot Durability",
-      "type": "checkbox",
+      "name": "Infinite Boot Durability｜无限开机耐久度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573BC0",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Spray/Ladder/Anchor/PCC",
-      "type": "checkbox",
+      "name": "Infinite 喷漆/Ladder/Anchor/PCC",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573B80",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Infinite Speed/Power Skeleton use",
-      "type": "checkbox",
+      "name": "Infinite 速度/电力 骷髅 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573DE0",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No reload",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A73BB9",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Infinite Structures Durability",
-      "type": "checkbox",
+      "name": "Infinite Structures Durability｜《无限结构》的耐久性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573EC0",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Infinite Truck Durability (on land)",
-      "type": "checkbox",
+      "name": "Infinite Truck 耐用性 (on 领土)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573CD0",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Infinite Truck Durability (on water)",
-      "type": "checkbox",
+      "name": "Infinite Truck 耐用性 (on 水)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573CA0",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "No Cargo Damage 1",
-      "type": "checkbox",
+      "name": "No Cargo 输出 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573C00",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "No cargo damage 2 (in case 1 didnt work)",
-      "type": "checkbox",
+      "name": "No cargo 输出 2 (in 箱子 1 didnt work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573C20",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "No clip",
-      "type": "checkbox",
+      "name": "No clip｜穿墙模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573B50",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Fast Running",
-      "type": "checkbox",
+      "name": "Fast Running｜快速奔跑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573540",
@@ -251,8 +256,8 @@
       ]
     },
     {
-      "name": "0.1 Weight Carrying",
-      "type": "checkbox",
+      "name": "0.1 重量 Carrying",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573580",
@@ -267,8 +272,8 @@
       ]
     },
     {
-      "name": "Alot of Chiral Crystals (on collect)",
-      "type": "checkbox",
+      "name": "Alot of 开罗尔 Crystals (on collect)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573C40",
@@ -283,8 +288,8 @@
       ]
     },
     {
-      "name": "Special Alloy Wont decrease",
-      "type": "checkbox",
+      "name": "Special Alloy Wont decrease｜特殊合金不会减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C94D87",
@@ -294,8 +299,8 @@
       ]
     },
     {
-      "name": "Chemicals 900000 (on spend first time)",
-      "type": "checkbox",
+      "name": "Chemicals 900000 (on spend first time)｜化学品 900000（首次采购金额）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573AA0",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Ceramic 900000 (on spend first time)",
-      "type": "checkbox",
+      "name": "Ceramic 900000 (on spend first time)｜陶瓷 900000（首次消费时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573D20",
@@ -326,8 +331,8 @@
       ]
     },
     {
-      "name": "Metal 900000 (on spend first time)",
-      "type": "checkbox",
+      "name": "金属 900000 (on spend first time)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573D60",
@@ -342,8 +347,8 @@
       ]
     },
     {
-      "name": "Resins 900000 (on spend first time)",
-      "type": "checkbox",
+      "name": "Resins 900000 (on spend first time)｜树脂 900000（首次消费时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3573C50",

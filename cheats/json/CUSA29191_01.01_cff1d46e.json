@@ -1,12 +1,17 @@
 {
-  "name": "The Last Stand: Aftermath",
+  "name": "The Last Stand: Aftermath｜《最后的决战：余波》",
   "id": "CUSA29191",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D620",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D5D0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D070",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Items (Use after creating the first antiviral)",
-      "type": "checkbox",
+      "name": "道具无限 (Use after creating the first antiviral)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DAF0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C880",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Melee Durability",
-      "type": "checkbox",
+      "name": "Infinite Melee Durability｜近战武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E810",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Knowledge On Gain",
-      "type": "checkbox",
+      "name": "最大 Knowledge On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Infinite Knowledge On Use",
-      "type": "checkbox",
+      "name": "Infinite Knowledge On Use｜随用随取的无限知识",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DD90",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Max Pack Supply On Gain",
-      "type": "checkbox",
+      "name": "最大 卡包 供给 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -141,8 +146,8 @@
       ]
     },
     {
-      "name": "Multiple Supply Points",
-      "type": "checkbox",
+      "name": "Multiple 供给 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "Infinite Supply On Use",
-      "type": "checkbox",
+      "name": "Infinite 供给 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D0F0",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "Infinite Knowledge On Buy (Mikhail)",
-      "type": "checkbox",
+      "name": "Infinite Knowledge On Buy (Mikhail)｜《无限知识：购买篇》（米哈伊尔）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB20",

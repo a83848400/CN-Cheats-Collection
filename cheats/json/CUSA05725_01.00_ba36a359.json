@@ -1,12 +1,17 @@
 {
-  "name": "The Witcher 3: Wild Hunt: Complete Edition",
+  "name": "巫师3：狂猎: 狂猎: Complete Edition",
   "id": "CUSA05725",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money (on buy affect items as well)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (on buy affect items as well)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Skill points x999 (on spent Press X at confirm screen, deactivate cheat",
-      "type": "checkbox",
+      "name": "Skill 得分 x999 (已用 Press 艾克斯 at confirm screen, deactivate cheat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE37DA0",

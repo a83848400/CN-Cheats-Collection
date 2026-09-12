@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="(Ethan) Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="(Ethan) Max/Infinite Health｜(伊森)最大/无限生命">
     <Cheatline>
       <Offset>544B71F</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>C5-F8-2E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Ethan) 1 Hit Kill">
+  <Cheat Text="(Ethan) 1 Hit Kill｜(伊森)一击必杀">
     <Cheatline>
       <Offset>B19FA20</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C5-FA-10-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Rose) Infinite Health/1 Hit Kill (Master Code/Must Be On)">
+  <Cheat Text="(Rose) Infinite Health/1 Hit Kill (Master Code/Must Be On)｜(萝丝)无限生命/一击必杀(主代码必须开启)">
     <Cheatline>
       <Offset>B19FDE0</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>C5-FA-11-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Rose) Infinite Health (Enable MC)">
+  <Cheat Text="(Rose) Infinite Health (Enable MC)｜(萝丝)无限生命(开启主代码)">
     <Cheatline>
       <Offset>B19FDE7</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>C5-FA-11-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Rose) 1 Hit Kill (Enable MC)">
+  <Cheat Text="(Rose) 1 Hit Kill (Enable MC)｜(萝丝)一击必杀(开启主代码)">
     <Cheatline>
       <Offset>B19FDE5</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>74-12</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ammo/White Sage (Rose)">
+  <Cheat Text="最大/无限弹药/White 贤者 (Rose)">
     <Cheatline>
       <Offset>B19FA50</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>44-29-E1-89-48-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>4A98FF6</Offset>
       <Section>0</Section>
@@ -77,7 +85,7 @@
       <ValueOff>B9-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Stun Enemies (Rose)">
+  <Cheat Text="最大/Infinite Stun Enemies (Rose)">
     <Cheatline>
       <Offset>B19F5B0</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>85-F6-89-4A-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Throwables/Items On Craft">
+  <Cheat Text="最大/投掷物无限/Items On Craft">
     <Cheatline>
       <Offset>B19F5E0</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>41-29-5C-24-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Lei">
+  <Cheat Text="最大/Infinite Lei">
     <Cheatline>
       <Offset>B19F610</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>01-D1-41-89-4F-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lot Of CP Points">
+  <Cheat Text="用地 Of CP 得分">
     <Cheatline>
       <Offset>1C94B3D</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>89-4A-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health/1 Hit Kill (Mastercode/Must Be On)">
+  <Cheat Text="无限生命/一击必杀 (主代码/Must Be On)">
     <Cheatline>
       <Offset>B19FDB0</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>C5-FA-11-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>B19FDB7</Offset>
       <Section>0</Section>
@@ -149,7 +157,7 @@
       <ValueOff>C5-FA-11-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>B19FDB5</Offset>
       <Section>0</Section>
@@ -157,7 +165,7 @@
       <ValueOff>75-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tank Cannon/Target Locator No Cooldown">
+  <Cheat Text="坦克 Cannon/Target Locator 无冷却">
     <Cheatline>
       <Offset>2E6B8D3</Offset>
       <Section>0</Section>
@@ -165,7 +173,7 @@
       <ValueOff>C5-FA-11-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Points For Mercenaries (Enable/Kill/Disable To Earn More)">
+  <Cheat Text="最大 得分 For 雇佣兵 (Enable/Kill/Disable To Earn More)">
     <Cheatline>
       <Offset>B19F7C0</Offset>
       <Section>0</Section>
@@ -179,7 +187,7 @@
       <ValueOff>0F-85-CC-FE-FF-FF-41-01-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Chris) Onslaught Gauge No Cooldown">
+  <Cheat Text="(Chris) Onslaught Gauge No Cooldown｜(克里斯)猛攻槽无冷却">
     <Cheatline>
       <Offset>B19F900</Offset>
       <Section>0</Section>
@@ -193,7 +201,7 @@
       <ValueOff>C5-FA-10-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Karl) Sawblade No Cooldown">
+  <Cheat Text="(Karl) Sawblade No Cooldown｜(卡尔)锯片无冷却">
     <Cheatline>
       <Offset>7FC5FDB0</Offset>
       <Section>0</Section>
@@ -207,7 +215,7 @@
       <ValueOff>C5-FA-10-86-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Karl) Scrap No Cooldown">
+  <Cheat Text="(Karl) Scrap No Cooldown｜(卡尔)废料无冷却">
     <Cheatline>
       <Offset>7FC5FDE0</Offset>
       <Section>0</Section>
@@ -221,7 +229,7 @@
       <ValueOff>C5-FA-10-86-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Karl) Soldat Jet No Cooldown">
+  <Cheat Text="(Karl) Soldat Jet No Cooldown｜(卡尔)士兵喷射无冷却">
     <Cheatline>
       <Offset>B19F9C0</Offset>
       <Section>0</Section>
@@ -235,7 +243,7 @@
       <ValueOff>C4-C1-7A-10-47-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dimitrescu) Thrill Gauge No Cooldown">
+  <Cheat Text="(Dimitrescu) Thrill Gauge No Cooldown｜(迪米特雷斯库)亢奋槽无冷却">
     <Cheatline>
       <Offset>B19F500</Offset>
       <Section>0</Section>
@@ -249,7 +257,7 @@
       <ValueOff>C5-FA-10-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dimitrescu) Entomphobia (R2) No Cooldown">
+  <Cheat Text="(Dimitrescu) Entomphobia (R2) No Cooldown｜(迪米特雷斯库)虫恐攻击(R2)无冷却">
     <Cheatline>
       <Offset>B19F530</Offset>
       <Section>0</Section>
@@ -263,7 +271,7 @@
       <ValueOff>C5-FA-11-44-90-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dimitrescu) Ornate Vanity Attack (Square) No Cooldown">
+  <Cheat Text="(Dimitrescu) Ornate Vanity Attack (Square) No Cooldown｜(迪米特雷斯库)华丽虚荣攻击(方块键)无冷却">
     <Cheatline>
       <Offset>B19F560</Offset>
       <Section>0</Section>
@@ -277,7 +285,7 @@
       <ValueOff>41-C7-86-40-02-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dimitrescu) Blood Sacrifice (L1+R2) No Cooldown">
+  <Cheat Text="(Dimitrescu) Blood Sacrifice (L1+R2) No Cooldown｜(迪米特雷斯库)血祭(L1+R2)无冷却">
     <Cheatline>
       <Offset>B19F590</Offset>
       <Section>0</Section>

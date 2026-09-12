@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Star Wars Jedi: Survivor" Moder="Pharaoh2k" Cusa="CUSA33778" Version="01.03" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. For an even more advanced trainer, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. For an even more advanced trainer, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares.">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B000</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code - Must be enabled first and always remain active" Description="">
+  <Cheat Text="Master 密码 - Must be enabled first and always remain active" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B010</Offset>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-58-45-DC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---God Mode Toggle (Requires MC)" Description="">
+  <Cheat Text="---神模式 Toggle (Requires MC)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B02F</Offset>
@@ -68,7 +76,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B060</Offset>
@@ -82,7 +90,7 @@
       <ValueOff>C5-FA-11-83-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="Do not use it against bosses or you may encounter game progression issues.">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="Do not use it against bosses or you may encounter game progression issues.">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B390</Offset>
@@ -96,7 +104,7 @@
       <ValueOff>C5-FA-10-85-64-FD-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Drain Enemy Stamina" Description="Do not use it against bosses or you may encounter game progression issues.">
+  <Cheat Text="One Hit Drain Enemy 体力" Description="Do not use it against bosses or you may encounter game progression issues.">
     <Cheatline>
       <Section>0</Section>
       <Offset>752DBA</Offset>
@@ -104,7 +112,7 @@
       <ValueOff>C5-FA-11-4F-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Max Force" Description="">
+  <Cheat Text="Infinite 最大 原力" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B0C0</Offset>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FA-11-83-4C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Max Saber Stamina" Description="">
+  <Cheat Text="Infinite 最大 Saber 体力" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B0F0</Offset>
@@ -132,7 +140,7 @@
       <ValueOff>C4-C1-7A-11-9E-00-26-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Slow Motion Force" Description="After it's drained, must hit an enemy for it to fully refill instantly">
+  <Cheat Text="Unlimited 慢动作 原力" Description="After it's drained, must hit an enemy for it to fully refill instantly">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B120</Offset>
@@ -146,7 +154,7 @@
       <ValueOff>C5-FA-10-45-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Max Blaster Bullets" Description="">
+  <Cheat Text="Infinite 最大 爆能枪 项目符号" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B160</Offset>
@@ -160,7 +168,7 @@
       <ValueOff>48-89-D6-4C-89-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Companion Combat Meter" Description="">
+  <Cheat Text="Infinite Companion Combat Meter｜无限伙伴战斗计量表" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B190</Offset>
@@ -174,7 +182,7 @@
       <ValueOff>49-8B-07-48-8B-80-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x5 (requires MC)" Description="">
+  <Cheat Text="---经验倍率×5 (requires MC)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B23F</Offset>
@@ -182,7 +190,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x10 (requires MC)" Description="">
+  <Cheat Text="---经验倍率×10 (requires MC)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B23F</Offset>
@@ -190,7 +198,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x25 (requires MC)" Description="">
+  <Cheat Text="---经验值倍率 x25 (requires MC)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B23F</Offset>
@@ -198,7 +206,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Skill Points" Description="">
+  <Cheat Text="99 Skill 得分" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>431B250</Offset>

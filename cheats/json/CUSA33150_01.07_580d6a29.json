@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Mirage",
+  "name": "Assassin's Creed Mirage｜刺客信条：幻景",
   "id": "CUSA33150",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DA9DD8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "323A30E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F52EAA",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Mount Stamina",
-      "type": "checkbox",
+      "name": "Mount 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E3B1E5",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "(99)  Skill Points / Level (On Spend)",
-      "type": "checkbox",
+      "name": "(99)  Skill Points / Level (On Spend)｜(99) 每级技能点(消耗时生效)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66A7800",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "(9999) Resources (On Use)",
-      "type": "checkbox",
+      "name": "(9999) Resources (On Use)｜(9999) 资源(使用时生效)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66A7800",

@@ -1,12 +1,17 @@
 {
-  "name": "F.I.S.T.: Forged In Shadow Torch",
+  "name": "F.I.S.恐怖分子.: Forged In 暗影 火把",
   "id": "CUSA28373",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Earn Money (On Spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Earn Money (On Spend)｜赚取收益（消费返利）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37409C7",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Data Disk (On Spend)",
-      "type": "checkbox",
+      "name": "Data Disk (On Spend)｜数据磁盘（按使用量计费）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3740ED7",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Carrot Juice",
-      "type": "checkbox",
+      "name": "Infinite Carrot Juice｜无限胡萝卜汁",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3743A99",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Homing Missle",
-      "type": "checkbox",
+      "name": "Infinite Homing Missle｜无限制导导弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "373CA66",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Shock Baton",
-      "type": "checkbox",
+      "name": "Infinite Shock Baton｜无限冲击警棍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3743020",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Plant Seeds multiplier (Do Not Exceed 50)",
-      "type": "checkbox",
+      "name": "埋包 Seeds multiplier (Do Not Exceed 50)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "373E86A",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Exploding Puppet",
-      "type": "checkbox",
+      "name": "Infinite Exploding Puppet｜无限爆炸木偶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37447F4",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "373C67A",

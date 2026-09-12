@@ -1,12 +1,17 @@
 {
-  "name": "Silent Hill: Origins",
+  "name": "寂静岭: Origins",
   "id": "SLUS21731",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health+-1-Hit",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命+-1-Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD26928",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD37F78",

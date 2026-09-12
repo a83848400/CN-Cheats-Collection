@@ -1,12 +1,17 @@
 {
-  "name": "Injustice: Gods Among Us: Ultimate Edition",
+  "name": "Injustice: Gods Among Us: 必杀技 Edition",
   "id": "CUSA00051",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mastercode ( must be activated )｜主代码（必须激活）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97800",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 Player 1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97806",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "One Hit Kill Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "一击必杀 Player 1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97806",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 Player 2 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97821",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "One Hit Kill Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "一击必杀 Player 2 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97821",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Supermeter Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "Infinite Supermeter Player 1 [ MC ]｜《Infinite Supermeter》玩家1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97E06",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Zero Supermeter Player 1 [ MC ]",
-      "type": "checkbox",
+      "name": "杰洛 Supermeter Player 1 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97E06",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Infinite Supermeter Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "Infinite Supermeter Player 2 [ MC ]｜《Infinite Supermeter Player 2》[ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97E1E",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Zero Supermeter Player 2 [ MC ]",
-      "type": "checkbox",
+      "name": "杰洛 Supermeter Player 2 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97E1E",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Max Player XP Level",
-      "type": "checkbox",
+      "name": "最大 Player XP 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97DD0",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Max Access Cards ( on gain - use )",
-      "type": "checkbox",
+      "name": "最大 Access Cards ( on gain - use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97DB0",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "Max Arsenal Keys ( on gain - use )",
-      "type": "checkbox",
+      "name": "最大 Arsenal Keys ( on gain - use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97DC0",
@@ -167,8 +172,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "764368",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "Change Timer to 999",
-      "type": "checkbox",
+      "name": "Change 计时器 to 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A97DE5",

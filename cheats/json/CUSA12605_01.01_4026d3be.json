@@ -1,12 +1,17 @@
 {
-  "name": "Death Stranding",
+  "name": "Death Stranding｜死亡搁浅",
   "id": "CUSA12605",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A92211",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (sticky gun)",
-      "type": "checkbox",
+      "name": "无限弹药 (sticky gun)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1845743",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite health",
-      "type": "checkbox",
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "179786E",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "run with  (max cargo)",
-      "type": "checkbox",
+      "name": "run with  (最大 cargo)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1EF2D72",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite (repair spray/ ladder/PCC/climbing anchor )",
-      "type": "checkbox",
+      "name": "Infinite (repair 喷漆/ ladder/PCC/climbing anchor )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1845743",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Metals Never Decrease",
-      "type": "checkbox",
+      "name": "Metals Never Decrease｜金属永不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C693C8",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Resins Never Decrease",
-      "type": "checkbox",
+      "name": "Resins Never Decrease｜树脂量永不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C693AA",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "crystals Never Decrease",
-      "type": "checkbox",
+      "name": "crystals Never Decrease｜晶体永不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C6938D",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Ceramics Never Decrease",
-      "type": "checkbox",
+      "name": "Ceramics Never Decrease｜陶瓷永不贬值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C693E6",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Special alloys Never Decrease",
-      "type": "checkbox",
+      "name": "Special alloys Never Decrease｜特殊合金 永不减损",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C69427",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Chemicals Never Decrease",
-      "type": "checkbox",
+      "name": "Chemicals Never Decrease｜化学品永远不会减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C69404",

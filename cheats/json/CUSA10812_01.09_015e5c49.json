@@ -1,12 +1,17 @@
 {
-  "name": "A Plague Tale: Innocence",
+  "name": "A Plague Tale: Innocence｜《瘟疫传说：无罪》",
   "id": "CUSA10812",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Items / Ammo ( does not deduct any value )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限 / 但是 ( does not deduct any value )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "272910",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Items / Ammo ( added after use )",
-      "type": "checkbox",
+      "name": "道具无限 / 但是 ( added after use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "272910",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Stealth Mode ( not in sequences )",
-      "type": "checkbox",
+      "name": "隐身模式 ( not in sequences )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A2BE80",

@@ -1,12 +1,17 @@
 {
-  "name": "Crysis 2 Remastered",
+  "name": "Crysis 2 Remastered｜《孤岛危机2 重制版》",
   "id": "CUSA18672",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25D9600",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25D9606",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DF4DDC",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FC85BE",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Nano Catalyst",
-      "type": "checkbox",
+      "name": "最大 Nano 触媒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25D96F0",

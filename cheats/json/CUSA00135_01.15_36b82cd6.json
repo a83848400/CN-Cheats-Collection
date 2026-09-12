@@ -1,12 +1,17 @@
 {
-  "name": "Batman: Arkham Knight",
+  "name": "Batman: Arkham 骑士",
   "id": "CUSA00135",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincible ( No Attacks )",
-      "type": "checkbox",
+      "name": "无敌 ( No Attacks )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16009EB",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill ( Disable Max Skillpoints )",
-      "type": "checkbox",
+      "name": "一击必杀 ( Disable 最大 技能点 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBE40",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Special Combo",
-      "type": "checkbox",
+      "name": "最大 Special Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBDCE",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Skillpoints ( Disable One Hit Kill - on gain / use )",
-      "type": "checkbox",
+      "name": "最大 技能点 ( Disable 一击必杀 - on gain / use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBE20",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Health ( Batmobile )",
-      "type": "checkbox",
+      "name": "无限生命 ( Batmobile )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBDE4",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Missiles ( Batmobile )",
-      "type": "checkbox",
+      "name": "导弹无限 ( Batmobile )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBDF7",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Infinite Afterburner ( Batmobile )",
-      "type": "checkbox",
+      "name": "Infinite Afterburner ( Batmobile )｜无限后燃器（蝙蝠车）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBE10",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Freeze Timer [ER - Challenges]",
-      "type": "checkbox",
+      "name": "Freeze 计时器 [充能 - Challenges]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F46234",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Max Score [ER - Challenges] ( on gain )",
-      "type": "checkbox",
+      "name": "最大 比分 [充能 - Challenges] ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EBE30",

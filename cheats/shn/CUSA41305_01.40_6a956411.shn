@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metal Gear Solid: Master Collection Vol. 1" Moder="Big_Wadger" Cusa="CUSA41305" Version="01.40" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Life">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Life｜生活">
     <Cheatline>
       <Offset>3FD609</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>66-29-81-84-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Grenades">
+  <Cheat Text="Grenades｜手榴弹">
     <Cheatline>
       <Offset>11AEEB</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>66-FF-4F-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Medical">
+  <Cheat Text="Medical｜医疗">
     <Cheatline>
       <Offset>11B69F</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>66-89-11</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>11AEC4</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>66-89-47-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bullets">
+  <Cheat Text="Bullets｜项目符号">
     <Cheatline>
       <Offset>11AECA</Offset>
       <Section>0</Section>

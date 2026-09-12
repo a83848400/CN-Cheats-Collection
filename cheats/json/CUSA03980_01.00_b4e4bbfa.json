@@ -1,13 +1,18 @@
 {
-  "name": "BioShock: The Collection",
+  "name": "BioShock: The Collection｜《生化奇兵：合集》",
   "id": "CUSA03980",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BD25",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Salt",
+      "name": "Infinite 盐",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "118F388",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CB3998",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Money｜金钱无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "118F1CF",

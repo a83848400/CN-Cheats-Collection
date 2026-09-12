@@ -1,12 +1,17 @@
 {
-  "name": "Nier: Automata",
+  "name": "Nier: Automata｜尼尔：机械纪元",
   "id": "CUSA04480",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite jump",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite jump｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29BDCE",

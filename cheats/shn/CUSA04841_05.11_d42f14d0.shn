@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="No Man's Sky" Moder="Jesca" Cusa="CUSA04841" Version="05.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf. Run Stamina">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite. Run 体力">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-85-70-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf. Life Support">
+  <Cheat Text="Infinite. 生活 辅助">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF841</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>44-29-F1-89-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Scan No Wait Time">
+  <Cheat Text="Scan No 待机 Time">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF822</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf. JetPack">
+  <Cheat Text="Infinite. 喷气背包">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF811</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-83-34-31-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf. Water JetPack">
+  <Cheat Text="Infinite. 水 喷气背包">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF830</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>C5-FA-11-83-34-31-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item 999 On Get">
+  <Cheat Text="物品 999 On Get">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF85C</Offset>
@@ -86,7 +94,7 @@
       <ValueOff>45-01-7E-08-4C-8B-75-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf. Boltcaster Ammo">
+  <Cheat Text="Infinite. Boltcaster 但是">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF84D</Offset>
@@ -100,7 +108,7 @@
       <ValueOff>47-29-A4-BD-D0-22-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Splitting, Base Construct  and Selling Dont Cosume Item (Disable all other cheats before using)">
+  <Cheat Text="Splitting, 基地 Construct  and Selling Dont Cosume 物品 (Disable all 他 cheats before using)">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF843</Offset>
@@ -114,7 +122,7 @@
       <ValueOff>41-29-47-18-29-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Splitting Duplicate Item (Splitting Dont Cosume Code Must Be On)">
+  <Cheat Text="Splitting Duplicate 物品 (Splitting Dont Cosume 密码 Must Be On)">
     <Cheatline>
       <Section>0</Section>
       <Offset>27EF85D</Offset>

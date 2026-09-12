@@ -1,13 +1,18 @@
 {
-  "name": "Ghostwire: Tokyo",
+  "name": "Ghostwire: Tokyo｜《幽灵线：东京》",
   "id": "PPSA03397",
   "version": "01.001.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "999 Skill Points",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "999 Skill 得分",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6527000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2729FE6",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf EXP (Level 50)",
+      "name": "无限经验 (等级50)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "652702E",

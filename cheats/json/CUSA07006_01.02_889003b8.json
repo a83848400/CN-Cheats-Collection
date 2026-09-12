@@ -1,12 +1,17 @@
 {
-  "name": "How to Survive 2",
+  "name": "How to Survive 2｜《如何生存2》",
   "id": "CUSA07006",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite item &amp; ammo usage (need more than one item)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "infinite 物品 &amp; 但是 usage (need more than one 物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B63E4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inf experience points usage",
-      "type": "checkbox",
+      "name": "无限体验 得分 usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33FC94",

@@ -1,13 +1,18 @@
 {
-  "name": "Pac-Man World 2: Re-Pac",
+  "name": "Pac-Man World 2: Re-Pac｜《吃豆人世界2：重启版》",
   "id": "PPSA18189",
   "version": "01.000.004",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "806DC239",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Balls",
+      "name": "无限精灵球",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Score",
+      "name": "Infinite 比分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17030",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Coins",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17061",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Stop Timer",
+      "name": "停止 计时器",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17090",

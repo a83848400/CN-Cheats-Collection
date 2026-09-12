@@ -1,12 +1,17 @@
 {
-  "name": "Mass Effect: Andromeda",
+  "name": "质量效应: Andromeda",
   "id": "CUSA02491",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health(Most enemies die)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命(Most enemies die)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14EAF01",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11FFE53",

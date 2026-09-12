@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rogue Stormers" Moder="Celogamez" Cusa="CUSA06052" Version="01.03" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health (Disable At The End of The Stage) ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (Disable At The 末地 of The Stage) ">
     <Cheatline>
       <Offset>12BFDB0</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>C5-FA-11-87-10-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Coins">
+  <Cheat Text="最大/无限金币">
     <Cheatline>
       <Offset>12BFDD0</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>01-B3-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Special Hability">
+  <Cheat Text="最大/《无限特辑》 Hability">
     <Cheatline>
       <Offset>12BFDBE</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>C7-83-80-01-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Secondary Weapons">
+  <Cheat Text="Infinite Secondary 武器">
     <Cheatline>
       <Offset>12BEEC0</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-FA-11-83-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapons Durability">
+  <Cheat Text="Infinite 武器 耐用性">
     <Cheatline>
       <Offset>12BF440</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>C4-C1-7A-11-86-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Level Up On gain XP">
+  <Cheat Text="升级 On gain XP">
     <Cheatline>
       <Offset>4EB109</Offset>
       <Section>0</Section>

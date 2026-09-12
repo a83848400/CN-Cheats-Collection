@@ -1,12 +1,17 @@
 {
-  "name": "Cotton Reboot!",
+  "name": "Cotton Reboot!｜棉花重启！",
   "id": "CUSA18012",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible-1-DEAD",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌-1-DEAD",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B5CF3",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B650B",

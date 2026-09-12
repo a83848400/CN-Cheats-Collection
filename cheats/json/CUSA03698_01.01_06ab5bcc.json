@@ -1,12 +1,17 @@
 {
-  "name": "Caladrius Blaze",
+  "name": "Caladrius Blaze｜卡拉德里乌斯·布雷兹",
   "id": "CUSA03698",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BB2C9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C0F3A",

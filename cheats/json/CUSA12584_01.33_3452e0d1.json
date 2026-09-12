@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light 2: Stay Human",
+  "name": "《消逝的光芒》 2: Stay 人类",
   "id": "CUSA12584",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "GOD Mod",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "GOD Mod｜好心情",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "335F9D6",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "freeze Stamina/Breath",
-      "type": "checkbox",
+      "name": "freeze 体力/Breath",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3392405",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)",
-      "type": "checkbox",
+      "name": "Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)｜物品/可合成物品/消耗品/一次性物品的数量不会减少（需2个或以上）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33092E8",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "inf lock picks",
-      "type": "checkbox",
+      "name": "无限开锁工具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33095F0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max durability",
-      "type": "checkbox",
+      "name": "最大 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "654F813",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "max money",
-      "type": "checkbox",
+      "name": "max money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "654F800",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "inf immunity",
-      "type": "checkbox",
+      "name": "无限免疫力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3367EFD",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Freeze timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2963161",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "inf UV Flashlight",
-      "type": "checkbox",
+      "name": "Infinite UV 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2916DED",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "No Reload for Crossbow/Boomsticks",
-      "type": "checkbox",
+      "name": "无需换弹 for 弩/Boomsticks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "352F914",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "MAX XP/legend/inhibitators on get",
-      "type": "checkbox",
+      "name": "最大 XP/传奇/inhibitators on get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "654F824",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "bounty tokens never decrease (bounty vendor)",
-      "type": "checkbox",
+      "name": "悬赏 tokens never decrease (悬赏 商人)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3309869",
@@ -167,8 +172,8 @@
       ]
     },
     {
-      "name": "agent level 1000 / get 1000 token (complete a single bounty)",
-      "type": "checkbox",
+      "name": "特工 等级 1000 / get 1000 衍生物 (complete a single 悬赏)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "654F83C",

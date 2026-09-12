@@ -1,12 +1,17 @@
 {
-  "name": "My Universe: Puppies & Kittens",
+  "name": "My Universe: Puppies & Kittens｜我的世界：小狗与小猫",
   "id": "CUSA29358",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Pet Coins Multiplier",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Pet 金币倍增器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Modern Warfare",
+  "name": "使命召唤: Modern Warfare",
   "id": "CUSA08829",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E967F",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "816C7A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "No Recoil",
-      "type": "checkbox",
+      "name": "No Recoil｜消除后坐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "800D00",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "105A9BF",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E4D79",

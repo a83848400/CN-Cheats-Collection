@@ -1,12 +1,17 @@
 {
-  "name": "YO-KAI WATCH 4++",
+  "name": "YO-KAI WATCH 4++｜《妖怪手表4++》",
   "id": "CUSA17589",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money (Max)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱 (最大)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13A9F30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinte Money",
-      "type": "checkbox",
+      "name": "Infinte 金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13A9F50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Moon Jump",
-      "type": "checkbox",
+      "name": "Moon Jump｜月球超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA250",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Speed",
-      "type": "checkbox",
+      "name": "Speed｜速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA270",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Skill Points (Max)",
-      "type": "checkbox",
+      "name": "Skill 得分 (最大)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13A9FF0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA010",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinte Health",
-      "type": "checkbox",
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA050",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Infinte YP",
-      "type": "checkbox",
+      "name": "Infinte YP｜无限青春之力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13A9FC0",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Stats (Max)",
-      "type": "checkbox",
+      "name": "属性 (最大)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA400",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "EXP (Max)",
-      "type": "checkbox",
+      "name": "经验 (最大)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA230",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Infinte Stamina",
-      "type": "checkbox",
+      "name": "Infinte 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA160",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Infinte Enegry Bar",
-      "type": "checkbox",
+      "name": "Infinte Enegry Bar｜Infinte 能量棒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA0C0",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "Cleaning Mode Bar Full",
-      "type": "checkbox",
+      "name": "Cleaning Mode Bar Full｜清洁模式条已满",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA030",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Infinte Gacha Gashapon",
-      "type": "checkbox",
+      "name": "Infinte 抽卡 Gashapon",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA3D0",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Items 99",
-      "type": "checkbox",
+      "name": "Items 99｜商品 99 件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13A9F70",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "Weapon Items 99",
-      "type": "checkbox",
+      "name": "Weapon 商品 99 件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA2C0",
@@ -261,8 +266,8 @@
       ]
     },
     {
-      "name": "Infinte Items",
-      "type": "checkbox",
+      "name": "Infinte Items｜无限物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA210",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "Items Yokai (999)",
-      "type": "checkbox",
+      "name": "Items 妖怪 (999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA300",
@@ -293,8 +298,8 @@
       ]
     },
     {
-      "name": "Infinte Yokai Items",
-      "type": "checkbox",
+      "name": "Infinte 妖怪 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA320",
@@ -309,8 +314,8 @@
       ]
     },
     {
-      "name": "Yokai Soul (999)",
-      "type": "checkbox",
+      "name": "妖怪 Soul (999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA360",
@@ -325,8 +330,8 @@
       ]
     },
     {
-      "name": "Infinte Yokai Soul",
-      "type": "checkbox",
+      "name": "Infinte 妖怪 Soul",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13AA390",

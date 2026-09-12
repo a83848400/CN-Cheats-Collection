@@ -1,12 +1,17 @@
 {
-  "name": "Ghost Rider",
+  "name": "幽灵 Rider",
   "id": "SLUS21306",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Return-to-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Return-to-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8081126380",
@@ -26,23 +31,23 @@
       ]
     },
     {
-      "name": "MAX-SOULS-(9999999)",
-      "type": "checkbox",
+      "name": "最大-结界突破-(9999999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808112636C",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808112636D",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808112636E",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808112636F",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "Infinite-Health-2",
-      "type": "checkbox",
+      "name": "Infinite-生命-2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080BC25F2",

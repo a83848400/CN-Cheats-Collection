@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza: Like a Dragon",
+  "name": "如龙: Like a 小龙",
   "id": "CUSA16745",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max+ Inf HP | Battle ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大+ 无限血量 | 战斗 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE400",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max+ Inf MP | Battle",
-      "type": "checkbox",
+      "name": "最大+ 无限魔力 | 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE417",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Money/Pts/Rings On Spend/Gain",
-      "type": "checkbox",
+      "name": "金钱最大/Pts/金环 On Spend/Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CBAADD",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Items On Sell/Use",
-      "type": "checkbox",
+      "name": "道具无限 On Sell/Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CBB5BC",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Lots Of Items And Materials on Buy/Sell/Use/Gain",
-      "type": "checkbox",
+      "name": "Lots Of Items And Materials on Buy/Sell/Use/Gain｜大量物品和材料可通过购买、出售、使用或获得",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE5BE",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Personality Stats On Gain | Passion/Kindness/Style Etc",
-      "type": "checkbox",
+      "name": "最大 Personality 属性 On Gain | Passion/Kindness/Style Etc",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CBAADD",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Max Bond Level On Gain| All In Party",
-      "type": "checkbox",
+      "name": "最大 Bond 等级 On Gain| All In 队伍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE597",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "MiniGame| Claw Machine| Infinte Turns",
-      "type": "checkbox",
+      "name": "MiniGame| Claw 机械生命体| Infinte Turns",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE54C",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "MiniGame| Movie Theatre | Max Score",
-      "type": "checkbox",
+      "name": "MiniGame| Movie Theatre | 最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE55E",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "MiniGame| EVocational Tests| Stop Timer",
-      "type": "checkbox",
+      "name": "MiniGame| EVocational Tests| 停止 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE56E",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "MiniGame| Dragon Kart| Infinite Ammo",
-      "type": "checkbox",
+      "name": "MiniGame| 小龙 Kart| 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "139D62A",
@@ -161,8 +166,8 @@
       ]
     },
     {
-      "name": "MiniGame| Dragon Kart| Max Score",
-      "type": "checkbox",
+      "name": "MiniGame| 小龙 Kart| 最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE5AD",
@@ -177,8 +182,8 @@
       ]
     },
     {
-      "name": "Boost EXP",
-      "type": "checkbox",
+      "name": "Boost 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE456",
@@ -193,8 +198,8 @@
       ]
     },
     {
-      "name": "Extra EXP",
-      "type": "checkbox",
+      "name": "Extra 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE468",
@@ -209,8 +214,8 @@
       ]
     },
     {
-      "name": "Even More EXP",
-      "type": "checkbox",
+      "name": "Even More 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE47C",
@@ -225,8 +230,8 @@
       ]
     },
     {
-      "name": "Lots Of EXP",
-      "type": "checkbox",
+      "name": "Lots Of 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE490",
@@ -241,8 +246,8 @@
       ]
     },
     {
-      "name": "Hella EXP",
-      "type": "checkbox",
+      "name": "Hella 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE4A4",
@@ -257,8 +262,8 @@
       ]
     },
     {
-      "name": "EXP OVERLORD | MAX LEVEL",
-      "type": "checkbox",
+      "name": "经验 OVERLORD | 等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE530",
@@ -273,8 +278,8 @@
       ]
     },
     {
-      "name": "Brand Awareness| Boost Job Points",
-      "type": "checkbox",
+      "name": "Brand Awareness| Boost Job 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE4CC",
@@ -289,8 +294,8 @@
       ]
     },
     {
-      "name": "Retail | Extra Job Points",
-      "type": "checkbox",
+      "name": "Retail | Extra Job 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE4DB",
@@ -305,8 +310,8 @@
       ]
     },
     {
-      "name": "Ecommerce | Even More Points",
-      "type": "checkbox",
+      "name": "Ecommerce | Even More 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE4EC",
@@ -321,8 +326,8 @@
       ]
     },
     {
-      "name": "HR | Lots Of Points",
-      "type": "checkbox",
+      "name": "猎人等级 | Lots Of 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE4FD",
@@ -337,8 +342,8 @@
       ]
     },
     {
-      "name": "Enterprise | Hella Points",
-      "type": "checkbox",
+      "name": "Enterprise | Hella 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE50E",
@@ -353,8 +358,8 @@
       ]
     },
     {
-      "name": "Steve Jobs | MAX Job Rank",
-      "type": "checkbox",
+      "name": "史蒂夫 Jobs | 最大 Job 阶级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDE51F",

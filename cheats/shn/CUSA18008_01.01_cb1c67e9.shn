@@ -16,7 +16,15 @@
       <ValueOff>C5-FA-11-48-14</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Max Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Health｜生命最大" Description="">
     <Cheatline>
       <Offset>B1EB006</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>B1EB004</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-11</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max CP" Description="">
+  <Cheat Text="最大 CP" Description="">
     <Cheatline>
       <Offset>52866C7</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-0F-4C-CF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Lei" Description="">
+  <Cheat Text="最大 Lei" Description="">
     <Cheatline>
       <Offset>3E9111A</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>41-8B-4F-48-01-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="">
+  <Cheat Text="无限弹药" Description="">
     <Cheatline>
       <Offset>3E8DCAA</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>4FD68F0</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>B9-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items" Description="">
+  <Cheat Text="道具无限" Description="">
     <Cheatline>
       <Offset>3E8CD56</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>29-43-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Crafting Materials">
+  <Cheat Text="无限制作 Materials">
     <Cheatline>
       <Offset>3E8DCAA</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Combo Timer" Description="">
+  <Cheat Text="Freeze Combo 计时器" Description="">
     <Cheatline>
       <Offset>B1EB021</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C5-FA-11-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pause Menu Inc Timer" Description="">
+  <Cheat Text="暂停菜单 Inc 计时器" Description="">
     <Cheatline>
       <Offset>2A7322C</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>49-89-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pause Menu Freeze Timer" Description="">
+  <Cheat Text="暂停菜单 Freeze 计时器" Description="">
     <Cheatline>
       <Offset>2A732FD</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>75-DB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tank Gun No Cooldown" Description="">
+  <Cheat Text="坦克 Gun 无冷却" Description="">
     <Cheatline>
       <Offset>1BC0EFB</Offset>
       <Section>0</Section>

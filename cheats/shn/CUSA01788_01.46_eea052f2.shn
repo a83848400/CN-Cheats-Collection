@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Tom Clancy's Rainbow Six Siege" Moder="Rizla" Cusa="CUSA01788" Version="01.46" Process="eboot.bin">
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>523B800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>44-8B-B3-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>523B812</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>74-03-8B-41-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades">
+  <Cheat Text="Infinite Grenades｜手雷无限">
     <Cheatline>
       <Offset>523B81F</Offset>
       <Section>0</Section>

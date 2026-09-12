@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Come: Deliverance - Royal Edition",
+  "name": "Kingdom Come: Deliverance - Royal Edition｜《王国来临：救赎》——皇家版",
   "id": "CUSA15436",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Add Items and Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "添加商品 and 金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BF8AF6",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "0 Weigh(when Overload,Drop Item)",
-      "type": "checkbox",
+      "name": "0 Weigh(when 过载,丢弃 物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10B0C9C",
@@ -28,7 +33,7 @@
     },
     {
       "name": "Fast XP",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10B3056",

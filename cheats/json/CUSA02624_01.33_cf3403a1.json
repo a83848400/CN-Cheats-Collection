@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Black Ops III",
+  "name": "使命召唤: 黑色 Ops III",
   "id": "CUSA02624",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DA1E30",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "All Client 无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1593E2A",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Super Jump",
+      "name": "Super Jump｜超级跳跃",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B5FBC",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "FPS Counter",
+      "name": "FPS 计数器",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9EEFCB",
@@ -60,7 +65,7 @@
     {
       "name": "Lagometer",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9F4B6F",

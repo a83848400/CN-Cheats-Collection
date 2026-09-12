@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "INF HEALTH",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9DF90",

@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops Cold War",
+  "name": "使命召唤: 黑色 Ops Cold War",
   "id": "PPSA01628",
   "version": "01.026.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C95C2FB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Aetherium Crystals",
-      "type": "checkbox",
+      "name": "Infinite Aetherium Crystals｜无限以太晶体",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9AE0AC",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C66C386",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="Inf. Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite. 生命">
     <Cheatline>
       <Offset>6D91B1</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>74-6A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf. Health + Shield">
+  <Cheat Text="Infinite. 生命 + 盾牌">
     <Cheatline>
       <Offset>6D91B1</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>74-3F</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf. Health + Shield + Keys, etc.">
+    <Cheat Text="Infinite. 生命 + 盾牌 + Keys, etc.">
     <Cheatline>
       <Offset>6D91B1</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>8B-84-87-94-AE-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo + Fuel">
+  <Cheat Text="无限弹药 + Fuel">
     <Cheatline>
       <Offset>1392706</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>39-C1-0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumping Dash">
+  <Cheat Text="Infinite Jumping Dash｜无限跳跃冲刺">
     <Cheatline>
       <Offset>E8BEB1</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>C6-47-7B-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health zero = no die">
+  <Cheat Text="生命 杰洛 = no die">
     <Cheatline>
       <Offset>6D2FFA</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Cyberpunk 2077",
+  "name": "Cyberpunk 2077｜赛博朋克2077",
   "id": "CUSA16579",
   "version": "01.61",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AF78A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/MedKits/Craft Resources (Don't Pick Money)",
-      "type": "checkbox",
+      "name": "最大/无限弹药/MedKits/Craft Resources (Don'恐怖分子 Pick 金钱)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AF7A40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AF7E60",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Throwables (Get Them First)",
-      "type": "checkbox",
+      "name": "最大/投掷物无限 (Get Them First)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AF7DF0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Perk Points (Don't Use Attribute Points)",
-      "type": "checkbox",
+      "name": "最大/Infinite 技能 得分 (Don'恐怖分子 Use 属性 得分)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AF79A0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Attribute Points (Don't Use Perk Points)",
-      "type": "checkbox",
+      "name": "最大/Infinite 属性 得分 (Don'恐怖分子 Use 技能 得分)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AF7A00",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money",
-      "type": "checkbox",
+      "name": "最大/金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AF7820",

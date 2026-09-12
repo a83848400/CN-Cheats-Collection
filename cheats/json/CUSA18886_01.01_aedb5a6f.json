@@ -1,12 +1,17 @@
 {
-  "name": "Sackboy: A Big Adventure",
+  "name": "Sackboy: A Big 冒险模式",
   "id": "CUSA18886",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8157B00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Bells",
-      "type": "checkbox",
+      "name": "Infinite 铃钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8157D00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "High Score",
-      "type": "checkbox",
+      "name": "High 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8157C00",

@@ -1,13 +1,18 @@
 {
-  "name": "Animal Well",
+  "name": "Animal Well｜动物健康",
   "id": "PPSA22520",
   "version": "01.000.011",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "137FF7",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Fireworks",
+      "name": "无尽的烟花",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "273000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Have All Tools After Die",
+      "name": "Have All Tools After Die｜模具后备齐所有工具",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27302C",

@@ -1,12 +1,17 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA13801",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "INF HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18310F4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "INF Item & Skill Point",
-      "type": "checkbox",
+      "name": "Infinite 物品 & Skill Point",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11AE78E",

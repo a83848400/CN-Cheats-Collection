@@ -1,12 +1,17 @@
 {
-  "name": "Wolfenstein II: The New Colossus",
+  "name": "Wolfenstein II: The New Colossus｜《狼穴2：新巨像》",
   "id": "CUSA07384",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FFB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Shield",
-      "type": "checkbox",
+      "name": "Infinite Shield｜无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FFB815",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Infinite Bullets",
-      "type": "checkbox",
+      "name": "Infinite Bullets｜无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FFB83D",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Infinite Laser + Granades + Hatchets (100)",
-      "type": "checkbox",
+      "name": "Infinite 激光瞄准器 + Granades + Hatchets (100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FFB7F3",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Infinite Upgrade Kits + Enigma Codes (99)",
-      "type": "checkbox",
+      "name": "Infinite Upgrade Kits + Enigma Codes (99)｜无限升级包 + 谜题密码 (99)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FFB7E5",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Enemy Doesnt Shoot (except Uebersoldaten)",
-      "type": "checkbox",
+      "name": "Enemy Doesnt Shoot (except Uebersoldaten)｜敌人不会开火（“超级士兵”除外）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FFB882",

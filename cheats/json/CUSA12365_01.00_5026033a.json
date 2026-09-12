@@ -1,12 +1,17 @@
 {
-  "name": "The Legend of Heroes: Trails of Cold Steel",
+  "name": "The 传奇 of Heroes: Trails of Cold Steel",
   "id": "CUSA12365",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "(Items/Weapons/Armor/Quartz/Event/Ingredient) x90 Upon Change",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "(Items/Weapons/Armor/Quartz/Event/Ingredient) x90 Upon Change｜(物品/武器/护甲/石英/事件道具/素材)变更时×90",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C2F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "(Items/Weapons/Armor/Quartz/Event/Ingredient)x5 Upon Change",
-      "type": "checkbox",
+      "name": "(Items/Weapons/Armor/Quartz/Event/Ingredient)x5 Upon Change｜(物品/武器/护甲/石英/事件道具/素材)变更时×5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C2F800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Bonding point never decrease(Disable after use)",
-      "type": "checkbox",
+      "name": "Bonding point never decrease(Disable after use)｜粘合点永不减少（使用后禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "296A71",

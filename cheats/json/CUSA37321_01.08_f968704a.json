@@ -1,12 +1,17 @@
 {
-  "name": "Atomic Heart",
+  "name": "Atomic Heart｜《原子之心》",
   "id": "CUSA37321",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "715F920",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Resource (on pick up)",
-      "type": "checkbox",
+      "name": "最大 Resource (on 拾取)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "715F850",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "9999 Neuropolymer (Only when upgrading)",
-      "type": "checkbox",
+      "name": "9999 Neuropolymer (Only when upgrading)｜9999 神经聚合物（仅限升级时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "715FBD0",

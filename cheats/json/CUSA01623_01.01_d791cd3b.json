@@ -1,12 +1,17 @@
 {
-  "name": "God of War III Remastered",
+  "name": "战神 III Remastered",
   "id": "CUSA01623",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BF843",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Item Meter",
-      "type": "checkbox",
+      "name": "Infinite 物品 Meter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BF85A",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Rage of Sparta",
-      "type": "checkbox",
+      "name": "怒气无限 of Sparta",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BF871",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Orbs on Spend",
-      "type": "checkbox",
+      "name": "最大 Orbs on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BF82C",

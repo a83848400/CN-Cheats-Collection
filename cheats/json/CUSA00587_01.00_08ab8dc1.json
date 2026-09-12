@@ -1,12 +1,17 @@
 {
-  "name": "Rogue Legacy",
+  "name": "潜行者 Legacy",
   "id": "CUSA00587",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Coins (On Gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 角落 (On Gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9F3F50",

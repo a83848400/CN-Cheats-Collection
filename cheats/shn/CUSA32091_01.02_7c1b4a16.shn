@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Pyramid Quest" Moder="Saso_9.00" Cusa="CUSA32091" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Untouchable">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Untouchable｜刀枪不入">
     <Cheatline>
       <Offset>42C216</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-05-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Lives">
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>40F548</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Knives">
+  <Cheat Text="无限之刃">
     <Cheatline>
       <Offset>40F430</Offset>
       <Section>0</Section>

@@ -1,13 +1,18 @@
 {
-  "name": "The Witcher 3: Wild Hunt: Complete Edition",
+  "name": "巫师3：狂猎: 狂猎: Complete Edition",
   "id": "CUSA05725",
   "version": "04.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "This is my v04.00 port for Cosmaty v01.50 trainer. I have added a teleport cheat, reset horse fear bar, XP multiplier and No toxicity from decoctions. IMPORTANT!  ENABLE CHEATS ONLY AFTER YOU START PLAYING! Please be sure to read the cheats comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. Enjoy! :-)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "This is my v04.00 port for Cosmaty v01.50 trainer. I have added a 传送 cheat, 重置“对马的恐惧”进度条, 经验值倍率 and 无毒性 from decoctions. IMPORTANT!  ENABLE CHEATS ONLY AFTER YOU START PLAYING! Please be sure to read the cheats comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. Enjoy! :-)",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -18,9 +23,9 @@
       ]
     },
     {
-      "name": "Master Code (Enable this first!)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Master 密码 (Enable this first!)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -36,9 +41,9 @@
       ]
     },
     {
-      "name": "--Infinite Health (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--无限生命 (req MC)",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -49,9 +54,9 @@
       ]
     },
     {
-      "name": "--Easy Kill  (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--轻松击杀  (req MC)",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -62,9 +67,9 @@
       ]
     },
     {
-      "name": "--Minimum Horse Panic (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--Minimum Horse Panic (req MC)｜--《马匹惊慌（最低要求：MC）》",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "--Infinite Horse Run  (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--Infinite Horse Run  (req MC)｜--无限马跑  （需MC）",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -98,9 +103,9 @@
       ]
     },
     {
-      "name": "--Infinite Oxygen  (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--无限氧气  (req MC)",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -111,9 +116,9 @@
       ]
     },
     {
-      "name": "--Infinite Adrenaline (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--Infinite 肾上腺素 (req MC)",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -124,9 +129,9 @@
       ]
     },
     {
-      "name": "--No Toxicity (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--No Toxicity (req MC)｜--无毒性（需MC）",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -147,9 +152,9 @@
       ]
     },
     {
-      "name": "--Infinite Stamina  (req MC)",
-      "description": "Must enable Master Code First",
-      "type": "checkbox",
+      "name": "--无限耐力  (req MC)",
+      "description": "Must enable Master 密码 First",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -160,9 +165,9 @@
       ]
     },
     {
-      "name": "Teleport to map waypoint",
-      "description": "Enable Infinite Health or you may die when being teleported",
-      "type": "checkbox",
+      "name": "传送 to 地图 航点",
+      "description": "Enable 无限生命 or you may die when being teleported",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -188,9 +193,9 @@
       ]
     },
     {
-      "name": "XP Multiplier (Master Code)",
-      "description": "Must enable only while already playing OR THE GAME WILL CRASH. Enable this first and then pick only ONE of the multipliers below",
-      "type": "checkbox",
+      "name": "经验值倍率 (Master 密码)",
+      "description": "Must enable only while already playing OR THE GAME 意志 CRASH. 请先启用此选项，然后从下面的倍数中仅选择其中一个",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -206,9 +211,9 @@
       ]
     },
     {
-      "name": "--2x XP",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--2倍经验",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -219,9 +224,9 @@
       ]
     },
     {
-      "name": "--3x XP",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--3倍经验",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -232,9 +237,9 @@
       ]
     },
     {
-      "name": "--4x XP",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--4倍经验",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -245,9 +250,9 @@
       ]
     },
     {
-      "name": "--5x XP",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--5倍经验",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -258,9 +263,9 @@
       ]
     },
     {
-      "name": "--10x XP",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--10倍经验",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -271,9 +276,9 @@
       ]
     },
     {
-      "name": "Game Speed (Master Code)",
-      "description": "Enable this first and then pick only ONE of the multipliers below",
-      "type": "checkbox",
+      "name": "Game 速度 (Master 密码)",
+      "description": "Enable this first and then pick only ONE of the multipliers below｜请先启用此选项，然后从下面的倍数中仅选择其中一个",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -289,9 +294,9 @@
       ]
     },
     {
-      "name": "--2x Speed",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--2倍速度",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -302,9 +307,9 @@
       ]
     },
     {
-      "name": "--3x Speed",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--3倍速度",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -315,9 +320,9 @@
       ]
     },
     {
-      "name": "--4x Speed",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--4倍速度",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -328,9 +333,9 @@
       ]
     },
     {
-      "name": "--5x Speed",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--5倍速度",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -341,9 +346,9 @@
       ]
     },
     {
-      "name": "Infinite Items",
+      "name": "Infinite Items｜道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -364,9 +369,9 @@
       ]
     },
     {
-      "name": "Infinite Money (on buy or sell)",
+      "name": "金钱无限 (on buy or sell)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -382,9 +387,9 @@
       ]
     },
     {
-      "name": "Walking Speed (Master Code)",
-      "description": "Enable this first and then pick only ONE of the multipliers below",
-      "type": "checkbox",
+      "name": "Walking 速度 (Master 密码)",
+      "description": "Enable this first and then pick only ONE of the multipliers below｜请先启用此选项，然后从下面的倍数中仅选择其中一个",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -395,9 +400,9 @@
       ]
     },
     {
-      "name": "--x2 Walking Speed",
+      "name": "--行走速度×2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -408,9 +413,9 @@
       ]
     },
     {
-      "name": "--x3 Walking Speed",
+      "name": "--行走速度×3",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -421,9 +426,9 @@
       ]
     },
     {
-      "name": "--x4 Walking Speed",
+      "name": "--行走速度×4",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -434,9 +439,9 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
+      "name": "Infinite Skill 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -452,9 +457,9 @@
       ]
     },
     {
-      "name": "Durable Weapons And Armour",
+      "name": "Durable 武器 And Armour",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {
@@ -470,9 +475,9 @@
       ]
     },
     {
-      "name": "Max Weight 99999",
+      "name": "最大 重量 99999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "hint": "null",
       "memory": [
         {

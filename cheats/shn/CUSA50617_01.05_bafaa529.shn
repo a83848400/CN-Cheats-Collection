@@ -2,7 +2,15 @@
 <Trainer Game="Elden Ring Nightreign" Moder="Pharaoh2k" Cusa="CUSA50617" Version="01.05" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="This trainer has been partially tested and seem to work fine. Please let me know if there is any issue. Be sure to read the comment on each individual cheat, if a comment is available. Trainer is compatible with CUSA50614, CUSA50615, CUSA50617, CUSA48853. Enjoy! :)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="This trainer has been partially tested and seem to work fine. Please let me know if there is any issue. Be sure to read the comment on each individual cheat, if a comment is available. Trainer is compatible with CUSA50614, CUSA50615, CUSA50617, CUSA48853. Enjoy! :)">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAEFFF</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code (Must be enabled first + all the time)" Description="Cheats with -- prefix depend on the Master Code">
+  <Cheat Text="Master 密码 (Must be enabled first + all the time)" Description="Cheats with -- prefix depend on the Master Code">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF2BE</Offset>
@@ -48,7 +56,7 @@
       <ValueOff>C4-C1-7A-59-84-24-58-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="">
+  <Cheat Text="God Mode｜神模式" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF000</Offset>
@@ -86,7 +94,7 @@
       <ValueOff>48-8B-B8-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1B1DC0B</Offset>
@@ -94,7 +102,7 @@
       <ValueOff>0F-95-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Health" Description="">
+  <Cheat Text="Infinite+生命最大" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF099</Offset>
@@ -120,7 +128,7 @@
       <ValueOff>89-83-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill Everybody Around (L3 + L2)" Description="When this cheat is enabled, pressing L3+L2 will instantly kill everyone in the area.">
+  <Cheat Text="Kill Everybody Around (L3 + L2)｜杀光周围所有人（L3 + L2）" Description="When this cheat is enabled, pressing L3+L2 will instantly kill everyone in the area.">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF106</Offset>
@@ -158,7 +166,7 @@
       <ValueOff>0F-48-C2-4D-85-ED</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemies Dont Attack" Description="">
+  <Cheat Text="Enemies Dont 攻击" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>18EF3B9</Offset>
@@ -172,7 +180,7 @@
       <ValueOff>48-8B-83-A8-00-00-00-F6-80-88-05-00-00-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max FP" Description="">
+  <Cheat Text="Infinite+FP值最大" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF1C5</Offset>
@@ -186,7 +194,7 @@
       <ValueOff>8B-8E-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Stamina" Description="">
+  <Cheat Text="Infinite+体力最大" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF1F6</Offset>
@@ -200,7 +208,7 @@
       <ValueOff>8B-8E-6C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Vanish All Enemies" Description="Probably not very useful. Just added it for the sake of it. :-)">
+  <Cheat Text="--清除全部敌人" Description="Probably not very useful. Just added it for the sake of it. :-)">
     <Cheatline>
       <Section>0</Section>
       <Offset>4887954</Offset>
@@ -208,7 +216,7 @@
       <ValueOff>00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Consumables" Description="">
+  <Cheat Text="Infinite+最大 Consumables" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>187AB11</Offset>
@@ -216,7 +224,7 @@
       <ValueOff>89-59-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Runes" Description="">
+  <Cheat Text="Infinite+最大 铭文" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF227</Offset>
@@ -230,7 +238,7 @@
       <ValueOff>41-8B-44-24-6C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Runes Retained On Death" Description="">
+  <Cheat Text="铭文 Retained On 死亡" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1E92AA0</Offset>
@@ -238,7 +246,7 @@
       <ValueOff>41-C7-46-6C-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Murks" Description="">
+  <Cheat Text="Infinite+最大 Murks" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF25A</Offset>
@@ -252,7 +260,7 @@
       <ValueOff>8B-90-D0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player No Dead 1.05" Description="Player can take damage but never die.">
+  <Cheat Text="玩家编号：Dead 1.05" Description="Player can take damage but never die.">
     <Cheatline>
       <Section>0</Section>
       <Offset>1B10B1B</Offset>
@@ -260,7 +268,7 @@
       <ValueOff>80-3D-96-A7-97-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ultimate Art" Description="">
+  <Cheat Text="Infinite 必杀技 Art" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DAB1E6</Offset>
@@ -268,7 +276,7 @@
       <ValueOff>C5-FA-11-47-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--No Skill Cooldown" Description="">
+  <Cheat Text="--技能无冷却" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>48262D3</Offset>
@@ -276,7 +284,7 @@
       <ValueOff>00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Multi Jump And Levitate" Description="">
+  <Cheat Text="Multi Jump And Levitate｜多段跳与悬浮" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>25E6A07</Offset>
@@ -284,7 +292,7 @@
       <ValueOff>41-C6-87-92-00-00-00-00-41-C6-87-E5-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Level (15)" Description="">
+  <Cheat Text="Infinite+等级最大 (15)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF28F</Offset>
@@ -298,7 +306,7 @@
       <ValueOff>41-89-F6-89-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Enemy Speed x0.2" Description="">
+  <Cheat Text="--敌人速度×0.2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D3FF2C</Offset>
@@ -306,7 +314,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Enemy Speed x0.5" Description="">
+  <Cheat Text="--敌人速度×0.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D3FF2C</Offset>
@@ -314,7 +322,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Enemy Speed x2" Description="">
+  <Cheat Text="--敌人速度×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D3FF2C</Offset>
@@ -322,7 +330,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Player Speed x2" Description="">
+  <Cheat Text="--玩家速度×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D3FF28</Offset>
@@ -330,7 +338,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Player Speed x3" Description="">
+  <Cheat Text="--玩家速度×3" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D3FF28</Offset>
@@ -338,7 +346,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Player Speed x4" Description="">
+  <Cheat Text="--玩家速度×4" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D3FF28</Offset>
@@ -346,7 +354,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Player Speed x5" Description="">
+  <Cheat Text="--玩家速度×5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>4D3FF28</Offset>
@@ -354,7 +362,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Night Growth" Description="">
+  <Cheat Text="停止 夜晚 Growth" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF33F</Offset>
@@ -368,7 +376,7 @@
       <ValueOff>0F-B6-B3-44-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Idle Timer" Description="This disables the annoying timer that sign you out of the game if you remain idle for some time.">
+  <Cheat Text="Disable Idle 计时器" Description="This disables the annoying timer that sign you out of the game if you remain idle for some time.">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF374</Offset>

@@ -1,13 +1,18 @@
 {
-  "name": "Lara Croft and the Temple of Osiris",
+  "name": "劳拉·克劳馥 and the Temple of Osiris",
   "id": "CUSA00806",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "589198",
@@ -27,9 +32,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "120B033",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "Inf Gems",
+      "name": "宝石无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "120B05E",

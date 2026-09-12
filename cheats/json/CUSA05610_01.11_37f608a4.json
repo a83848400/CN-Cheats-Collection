@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Definitive Experience",
+  "name": "合金装备/潜龙谍影 V: The Definitive Experience",
   "id": "CUSA05610",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D1CE3E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No Relaod",
-      "type": "checkbox",
+      "name": "无限弹药 / 来自Relaod",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2164BB1",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Suppressor",
-      "type": "checkbox",
+      "name": "Infinite 消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FA5CBD",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EA100",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max GMP (5000000)",
-      "type": "checkbox",
+      "name": "最大 GMP (5000000)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3452300",

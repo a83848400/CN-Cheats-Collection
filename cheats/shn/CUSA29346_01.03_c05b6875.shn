@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Axiom Verge 2" Moder="Reddevil82 - FW 9.00" Cusa="CUSA29346" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Freeze AI + Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Freeze AI + 无敌">
     <Cheatline>
       <Offset>5E01DC</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-AF-61-F2-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>4D0F800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>8B-87-08-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Drone">
+  <Cheat Text="无限生命 无人机">
     <Cheatline>
       <Offset>4D0F82D</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>8B-87-10-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mushhus">
+  <Cheat Text="Infinite Mushhus｜无限穆什">
     <Cheatline>
       <Offset>4D0F844</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-10-87-18-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>35C0F2</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>89-87-84-00-00-00-C3-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health Node">
+  <Cheat Text="生命最大 Node">
     <Cheatline>
       <Offset>4D0F863</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>8B-87-5C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health Node Fragment">
+  <Cheat Text="生命 Node Fragment">
     <Cheatline>
       <Offset>4D0F87A</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>48-63-87-58-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Apocalypse Flask">
+  <Cheat Text="最大 Apocalypse 圣杯瓶">
     <Cheatline>
       <Offset>4D0F892</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-10-87-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump [ Land ]">
+  <Cheat Text="超级跳跃 [ 领土 ]">
     <Cheatline>
       <Offset>4D0F8AB</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>C5-FA-10-87-B8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump [ Water ]">
+  <Cheat Text="超级跳跃 [ 水 ]">
     <Cheatline>
       <Offset>4D0F8C5</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>C5-FA-10-87-C8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump Drone [ Land ]">
+  <Cheat Text="超级跳跃 无人机 [ 领土 ]">
     <Cheatline>
       <Offset>4D0F8DF</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>C5-FA-10-87-D8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump Drone [ Water ]">
+  <Cheat Text="超级跳跃 无人机 [ 水 ]">
     <Cheatline>
       <Offset>4D0F8F9</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>C5-FA-10-87-E8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Zero Death Stats">
+  <Cheat Text="杰洛 死亡 属性">
     <Cheatline>
       <Offset>431AA1</Offset>
       <Section>0</Section>

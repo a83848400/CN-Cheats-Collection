@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops 4",
+  "name": "使命召唤: 黑色 Ops 4",
   "id": "CUSA11100",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "178c4cc",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "b8dc14",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Points",
-      "type": "checkbox",
+      "name": "Infinite 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ed545d",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Specialist / Grenades",
-      "type": "checkbox",
+      "name": "Infinite 专家 / 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "705dba",

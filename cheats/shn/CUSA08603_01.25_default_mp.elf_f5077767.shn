@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: WWII" Moder="TheTruePriizma" Cusa="CUSA08603" Version="01.25" Process="default_mp.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>971C13</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-01-87-DC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>744308</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>29-54-88-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Specialist">
+  <Cheat Text="Infinite 专家">
     <Cheatline>
       <Offset>4938F3</Offset>
       <Section>0</Section>

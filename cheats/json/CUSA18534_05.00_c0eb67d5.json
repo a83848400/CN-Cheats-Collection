@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Valhalla",
+  "name": "刺客信条 Valhalla",
   "id": "CUSA18534",
   "version": "05.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26C5D4D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Silver",
-      "type": "checkbox",
+      "name": "Infinite Silver｜无限之银",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CDF019",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Resources",
-      "type": "checkbox",
+      "name": "Infinite Resources｜资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CDF019",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Adrenaline Bar",
-      "type": "checkbox",
+      "name": "Infinite 肾上腺素 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26BB2CD",

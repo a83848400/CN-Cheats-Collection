@@ -1,10 +1,10 @@
 {
-  "name": "Rage 2",
+  "name": "怒气 2",
   "id": "CUSA10300",
   "version": "01.07",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "02C95200",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "Max Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02C95209",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02C95207",
@@ -40,8 +45,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01DE6E60",
@@ -51,8 +56,8 @@
       ]
     },
     {
-      "name": "Inf Ammo cave 1",
-      "type": "checkbox",
+      "name": "无限弹药 cave 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02C95237",
@@ -67,8 +72,8 @@
       ]
     },
     {
-      "name": "Max Inf Cash cave 3",
-      "type": "checkbox",
+      "name": "最大 无限现金 cave 3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02C95224",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "Inf Items\\Throwables",
-      "type": "checkbox",
+      "name": "道具无限\\可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01D310C4",
@@ -94,8 +99,8 @@
       ]
     },
     {
-      "name": "Vehicle Inf Boost",
-      "type": "checkbox",
+      "name": "载具无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0245EA82",
@@ -105,8 +110,8 @@
       ]
     },
     {
-      "name": "Max Inf Project Points cave 2",
-      "type": "checkbox",
+      "name": "最大 Infinite Project 得分 cave 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02C9524D",

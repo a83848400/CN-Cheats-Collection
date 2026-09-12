@@ -1,13 +1,18 @@
 {
-  "name": "Disney Illusion Island",
+  "name": "Disney 幻术学派 岛屿",
   "id": "PPSA17219",
   "version": "01.000.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "823414CE",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Coins",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17000",

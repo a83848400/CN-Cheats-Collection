@@ -1,12 +1,17 @@
 {
-  "name": "Surviving the Aftermath",
+  "name": "Surviving the Aftermath｜从灾后中走出来",
   "id": "CUSA15495",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "ressources field Quickly taken",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "ressources field Quickly taken｜“ressources”字段 快速填写",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Field Ressources Multiplies (use with Caution)",
-      "type": "checkbox",
+      "name": "Field Ressources Multiplies (use with 警戒)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Research Points Multiplier (use with Caution)",
-      "type": "checkbox",
+      "name": "研究点 Multiplier (use with 警戒)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Free Starter building do not decrease",
-      "type": "checkbox",
+      "name": "Free 初始宝可梦 建造 do not decrease",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

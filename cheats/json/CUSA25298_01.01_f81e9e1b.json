@@ -1,12 +1,17 @@
 {
-  "name": "Wukong",
+  "name": "Wukong｜悟空",
   "id": "CUSA25298",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5577DFC",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Lives ( on gain - lose )",
-      "type": "checkbox",
+      "name": "最大 Lives ( on gain - lose )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5577DCA",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "You get 1 new Life after Coin collect",
-      "type": "checkbox",
+      "name": "You get 1 new 生活 after Coin collect",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5577DB0",

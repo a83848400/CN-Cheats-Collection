@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Alan Wake Remastered" Moder="Reddevil82" Cusa="CUSA24653" Version="01.05" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>F7B000</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-4B-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="Infinite Stamina">
     <Cheatline>
       <Offset>F7B02F</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-F2-5C-C0-C5-FA-5F-C4-C5-FA-59-0D-78-C9-94-00-C4-C1-7A-11-87-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Light" Description="Infinite Light">
+  <Cheat Text="Infinite Light｜无限之光" Description="Infinite Light">
     <Cheatline>
       <Offset>F7B06A</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-10-87-40-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Light Batteries" Description="Max Light Batteries">
+  <Cheat Text="最大 Light 电池" Description="Max Light Batteries">
     <Cheatline>
       <Offset>19E3F00</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>8B-87-44-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo" Description="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化" Description="Max Ammo">
     <Cheatline>
       <Offset>19E3F04</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>41-8B-44-8E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="No Reload">
+  <Cheat Text="No Reload｜无需换弹" Description="No Reload">
     <Cheatline>
       <Offset>F7B14F</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>48-63-C6-8B-44-87-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Flare + Grenades" Description="Max Flare + Grenades">
+  <Cheat Text="最大 Flare + 手榴弹" Description="Max Flare + Grenades">
     <Cheatline>
       <Offset>19E3F08</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>8B-54-83-0C-8B-4B-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Car Damage" Description="No Car Damage">
+  <Cheat Text="No Car Damage｜赛车不受损" Description="No Car Damage">
     <Cheatline>
       <Offset>F7B20E</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C4-C1-7A-10-87-18-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Car Light" Description="Infinite Car Light">
+  <Cheat Text="Infinite Car Light｜无限车灯" Description="Infinite Car Light">
     <Cheatline>
       <Offset>F7B247</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>C5-FA-10-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon Slot Unlocker" Description="Weapon Slot Unlocker Activate this cheat if you don't have a weapon slot available. Then activate the weapon slot and select a weapon.">
+  <Cheat Text="Weapon Slot 解锁器" Description="Weapon Slot Unlocker Activate this cheat if you don't have a weapon slot available. Then activate the weapon slot and select a weapon.">
     <Cheatline>
       <Offset>F7B278</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>3B-03-0F-95-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Flare Unlocker [ Slot 4 ]" Description="Flare Unlocker [ Slot 4 ] If you don't have any flares, first activate this cheat to unlock them. Then use the Max Flares cheat to use them.">
+  <Cheat Text="Flare 解锁器 [ Slot 4 ]" Description="Flare Unlocker [ Slot 4 ] If you don't have any flares, first activate this cheat to unlock them. Then use the Max Flares cheat to use them.">
     <Cheatline>
       <Offset>F7B2B7</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>42-83-7C-B7-04-FF-74-2E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Grenades Unlocker [ Slot 4 ]" Description="Grenades Unlocker for Slot 4">
+  <Cheat Text="手榴弹 解锁器 [ Slot 4 ]" Description="Grenades Unlocker for Slot 4">
     <Cheatline>
       <Offset>F7B305</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>83-7C-87-04-FF-74-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon Selection Mastercode [ Slot 1 ]" Description="Weapon Selection [ Slot 1 ]">
+  <Cheat Text="Weapon Selection Mastercode [ Slot 1 ]｜武器选择主代码 [ 插槽 1 ]" Description="Weapon Selection [ Slot 1 ]">
     <Cheatline>
       <Offset>19E3F10</Offset>
       <Section>0</Section>
@@ -238,7 +246,7 @@
       <ValueOff>83-7C-87-08-FF-0F-95-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Pistol [ MC - Slot 1 ]" Description="Change weapon to Pistol [ MC - Slot 1 ]">
+  <Cheat Text="Change weapon to 手枪 [ MC - Slot 1 ]" Description="Change weapon to Pistol [ MC - Slot 1 ]">
     <Cheatline>
       <Offset>19E3F10</Offset>
       <Section>0</Section>
@@ -246,7 +254,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Flaregun [ MC - Slot 1 ]" Description="Change weapon to Flaregun [ MC - Slot 1 ]">
+  <Cheat Text="Change weapon to Flaregun [ MC - Slot 1 ]｜将武器切换为信号枪 [ MC - 插槽 1 ]" Description="Change weapon to Flaregun [ MC - Slot 1 ]">
     <Cheatline>
       <Offset>19E3F12</Offset>
       <Section>0</Section>
@@ -254,7 +262,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Pumpgun [ MC - Slot 1 ]" Description="Change weapon to Pumpgun [ MC - Slot 1 ]">
+  <Cheat Text="Change weapon to Pumpgun [ MC - Slot 1 ]｜将武器切换为霰弹枪 [ MC - 插槽 1 ]" Description="Change weapon to Pumpgun [ MC - Slot 1 ]">
     <Cheatline>
       <Offset>19E3F14</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Rifle [ MC - Slot 1 ]" Description="Change weapon to Rifle [ MC - Slot 1 ]">
+  <Cheat Text="Change weapon to Rifle [ MC - Slot 1 ]｜将武器切换为步枪 [ MC - 插槽 1 ]" Description="Change weapon to Rifle [ MC - Slot 1 ]">
     <Cheatline>
       <Offset>19E3F16</Offset>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Black Pumpgun [ MC - Slot 1 ]" Description="Change weapon to Black Pumpgun [ MC - Slot 1 ]">
+  <Cheat Text="Change weapon to 黑色 Pumpgun [ MC - Slot 1 ]" Description="Change weapon to Black Pumpgun [ MC - Slot 1 ]">
     <Cheatline>
       <Offset>19E3F18</Offset>
       <Section>0</Section>
@@ -278,7 +286,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon Selection Mastercode [ Slot 2 ]" Description="Weapon Selection Mastercode [ Slot 2 ]">
+  <Cheat Text="Weapon Selection Mastercode [ Slot 2 ]｜武器选择主代码 [ 插槽 2 ]" Description="Weapon Selection Mastercode [ Slot 2 ]">
     <Cheatline>
       <Offset>19E3F1A</Offset>
       <Section>0</Section>
@@ -322,7 +330,7 @@
       <ValueOff>83-7C-87-08-FF-0F-95-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Pistol [ MC - Slot 2 ]" Description="Change weapon to Pistol [ MC - Slot 2 ]">
+  <Cheat Text="Change weapon to 手枪 [ MC - Slot 2 ]" Description="Change weapon to Pistol [ MC - Slot 2 ]">
     <Cheatline>
       <Offset>19E3F1A</Offset>
       <Section>0</Section>
@@ -330,7 +338,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Flaregun [ MC - Slot 2 ]" Description="Change weapon to Flaregun [ MC - Slot 2 ]">
+  <Cheat Text="Change weapon to Flaregun [ MC - Slot 2 ]｜将武器切换为信号枪 [ MC - 插槽 2 ]" Description="Change weapon to Flaregun [ MC - Slot 2 ]">
     <Cheatline>
       <Offset>19E3F1C</Offset>
       <Section>0</Section>
@@ -338,7 +346,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Pumpgun [ MC - Slot 2 ]" Description="Change weapon to Pumpgun [ MC - Slot 2 ]">
+  <Cheat Text="Change weapon to Pumpgun [ MC - Slot 2 ]｜将武器切换为霰弹枪 [ MC - 插槽 2 ]" Description="Change weapon to Pumpgun [ MC - Slot 2 ]">
     <Cheatline>
       <Offset>19E3F1E</Offset>
       <Section>0</Section>
@@ -346,7 +354,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Rifle [ MC - Slot 2 ]" Description="Change weapon to Rifle [ MC - Slot 2 ]">
+  <Cheat Text="Change weapon to Rifle [ MC - Slot 2 ]｜将武器切换为步枪 [ MC - 插槽 2 ]" Description="Change weapon to Rifle [ MC - Slot 2 ]">
     <Cheatline>
       <Offset>19E3F20</Offset>
       <Section>0</Section>
@@ -354,7 +362,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Black Pumpgun [ MC - Slot 2 ]" Description="Change weapon to Black Pumpgun [ MC - Slot 2 ]">
+  <Cheat Text="Change weapon to 黑色 Pumpgun [ MC - Slot 2 ]" Description="Change weapon to Black Pumpgun [ MC - Slot 2 ]">
     <Cheatline>
       <Offset>19E3F22</Offset>
       <Section>0</Section>
@@ -362,7 +370,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon Selection Mastercode [ Slot 3 ]" Description="Weapon Selection Mastercode [ Slot 3 ]">
+  <Cheat Text="Weapon Selection Mastercode [ Slot 3 ]｜武器选择主代码 [ 插槽 3 ]" Description="Weapon Selection Mastercode [ Slot 3 ]">
     <Cheatline>
       <Offset>19E3F24</Offset>
       <Section>0</Section>
@@ -406,7 +414,7 @@
       <ValueOff>83-7C-87-08-FF-0F-95-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Pistol [ MC - Slot 3 ]" Description="Change weapon to Pistol [ MC - Slot 3 ]">
+  <Cheat Text="Change weapon to 手枪 [ MC - Slot 3 ]" Description="Change weapon to Pistol [ MC - Slot 3 ]">
     <Cheatline>
       <Offset>19E3F24</Offset>
       <Section>0</Section>
@@ -414,7 +422,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Flaregun [ MC - Slot 3 ]" Description="Change weapon to Flaregun [ MC - Slot 3 ]">
+  <Cheat Text="Change weapon to Flaregun [ MC - Slot 3 ]｜将武器切换为信号枪 [ MC - 插槽 3 ]" Description="Change weapon to Flaregun [ MC - Slot 3 ]">
     <Cheatline>
       <Offset>19E3F26</Offset>
       <Section>0</Section>
@@ -422,7 +430,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Pumpgun [ MC - Slot 3 ]" Description="Change weapon to Pumpgun [ MC - Slot 3 ]">
+  <Cheat Text="Change weapon to Pumpgun [ MC - Slot 3 ]｜将武器切换为霰弹枪 [ MC - 插槽 3 ]" Description="Change weapon to Pumpgun [ MC - Slot 3 ]">
     <Cheatline>
       <Offset>19E3F28</Offset>
       <Section>0</Section>
@@ -430,7 +438,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Riffle [ MC - Slot 3 ]" Description="Change weapon to Riffle [ MC - Slot 3 ]">
+  <Cheat Text="Change weapon to Riffle [ MC - Slot 3 ]｜将武器切换为步枪 [ MC - 插槽 3 ]" Description="Change weapon to Riffle [ MC - Slot 3 ]">
     <Cheatline>
       <Offset>19E3F2A</Offset>
       <Section>0</Section>
@@ -438,7 +446,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change weapon to Black Pumgun [ MC - Slot 3 ]" Description="Change weapon to Black Pumgun [ MC - Slot 3 ]">
+  <Cheat Text="Change weapon to 黑色 Pumgun [ MC - Slot 3 ]" Description="Change weapon to Black Pumgun [ MC - Slot 3 ]">
     <Cheatline>
       <Offset>19E3F2C</Offset>
       <Section>0</Section>
@@ -446,7 +454,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode Lamp Selection [ MC ]" Description="Mastercode Lamp Selection [ MC ]">
+  <Cheat Text="Mastercode Lamp Selection [ MC ]｜Mastercode 灯具选型 [ MC ]" Description="Mastercode Lamp Selection [ MC ]">
     <Cheatline>
       <Offset>19E3F2E</Offset>
       <Section>0</Section>
@@ -484,7 +492,7 @@
       <ValueOff>45-8B-B7-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Activate Standard Lamp  [ MC ]" Description="Activate Standard Lamp  [ MC ]">
+  <Cheat Text="Activate Standard Lamp  [ MC ]｜激活标准灯  [ MC ]" Description="Activate Standard Lamp  [ MC ]">
     <Cheatline>
       <Offset>19E3F2E</Offset>
       <Section>0</Section>
@@ -492,7 +500,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Activate Nightmare Lamp  [ MC ]" Description="Activate Nightmare Lamp  [ MC ]">
+  <Cheat Text="Activate Nightmare Lamp  [ MC ]｜激活噩梦灯 [ MC ]" Description="Activate Nightmare Lamp  [ MC ]">
     <Cheatline>
       <Offset>19E3F32</Offset>
       <Section>0</Section>
@@ -500,7 +508,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Activate Hand Lamp  [ MC ]" Description="Activate Hand Lamp  [ MC ]">
+  <Cheat Text="Activate 手牌 Lamp  [ MC ]" Description="Activate Hand Lamp  [ MC ]">
     <Cheatline>
       <Offset>19E3F30</Offset>
       <Section>0</Section>
@@ -508,7 +516,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Activate Heavy Lamp  [ MC ]" Description="Activate Heavy Lamp  [ MC ]">
+  <Cheat Text="Activate 重装兵 Lamp  [ MC ]" Description="Activate Heavy Lamp  [ MC ]">
     <Cheatline>
       <Offset>19E3F34</Offset>
       <Section>0</Section>

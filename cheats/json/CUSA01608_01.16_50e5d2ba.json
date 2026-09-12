@@ -1,12 +1,17 @@
 {
-  "name": "Enter the Gungeon",
+  "name": "Enter the Gungeon｜《进入枪炮地牢》",
   "id": "CUSA01608",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EFFF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Life",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Easy Money",
-      "type": "checkbox",
+      "name": "简单 金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80023FF7",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No reload",
-      "type": "checkbox",
+      "name": "No reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "809732DC",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80973026",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Inf Special",
-      "type": "checkbox",
+      "name": "《无限特辑》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8005660D",

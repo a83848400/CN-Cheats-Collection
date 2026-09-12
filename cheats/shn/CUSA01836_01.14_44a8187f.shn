@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health/Energy">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/能量">
     <Cheatline>
       <Offset>3837800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-F8-2E-4B-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Boost">
+  <Cheat Text="无限生命 Boost">
     <Cheatline>
       <Offset>C7509B</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>C5-FA-11-83-38-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf/Max Energy Meter on Use">
+  <Cheat Text="Infinite/最大 能量 Meter on Use">
     <Cheatline>
       <Offset>3837811</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>C5-FA-11-87-24-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo/Items/Parts on Pickup/Use">
+  <Cheat Text="无限弹药/Items/Parts on Pickup/Use">
     <Cheatline>
       <Offset>3837828</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>44-89-73-40-5B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth">
+  <Cheat Text="Stealth｜潜行">
     <Cheatline>
       <Offset>383789C</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>C4-C1-7A-11-86-D8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Praxis/Max XP">
+  <Cheat Text="Quick 实践经验点/最大 XP">
     <Cheatline>
       <Offset>3837838</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>41-89-5F-18-41-01-47-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Praxis">
+  <Cheat Text="Infinite 实践经验点">
     <Cheatline>
       <Offset>1731EED</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Credits on Buy/Sell">
+  <Cheat Text="最大 Credits on Buy/Sell">
     <Cheatline>
       <Offset>383785C</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>89-8B-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Hacking Attempts">
+  <Cheat Text="Infinite 破解 Attempts">
     <Cheatline>
       <Offset>383784F</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>89-4B-34-7F-6F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Multi-Tool Instant Hack (Use on Laptops)">
+  <Cheat Text="Multi-Tool Instant Hack (Use on Laptops)｜多功能工具快速破解（适用于笔记本电脑）">
     <Cheatline>
       <Offset>3837883</Offset>
       <Section>0</Section>

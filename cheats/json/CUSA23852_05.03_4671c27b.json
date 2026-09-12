@@ -1,12 +1,17 @@
 {
-  "name": "Anno: Mutationem",
+  "name": "纪元: Mutationem",
   "id": "CUSA23852",
   "version": "05.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7330",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (Pistols)",
-      "type": "checkbox",
+      "name": "无限弹药 (Pistols)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F8D0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items/Talent/Attribute points",
-      "type": "checkbox",
+      "name": "最大 Items/Talent/属性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F880",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Instant Transformation (on hit)",
-      "type": "checkbox",
+      "name": "Instant 变身 (on hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7C10",

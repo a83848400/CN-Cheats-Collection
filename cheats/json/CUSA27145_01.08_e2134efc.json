@@ -1,12 +1,17 @@
 {
-  "name": "Psychonauts 2",
+  "name": "Psychonauts 2｜《心灵探险家2》",
   "id": "CUSA27145",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Items/Money x9999 on gain (disable when collecting brains)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "所有商品/金钱 x9999 on gain (disable when collecting brains)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E680",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "All Items/Money x9999 (on use)",
-      "type": "checkbox",
+      "name": "所有商品/金钱 x9999 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E600",

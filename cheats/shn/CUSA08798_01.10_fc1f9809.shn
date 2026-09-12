@@ -16,7 +16,15 @@
       <ValueOff>C5-FA-11-8B-14-08-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>494F822</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-8B-14-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Kill">
+  <Cheat Text="Easy Kill｜轻松击杀">
     <Cheatline>
       <Offset>494F82E</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-8B-14-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Fill Wrath and Havoc">
+  <Cheat Text="Instant Fill Wrath and Havoc｜即时施放“愤怒”和“浩劫”">
     <Cheatline>
       <Offset>494F83A</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-10-8B-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Souls on Spend">
+  <Cheat Text="灵魂最大 on Spend">
     <Cheatline>
       <Offset>494F851</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>45-31-ED-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Consumables On Use">
+  <Cheat Text="最大 Consumables On Use">
     <Cheatline>
       <Offset>494F85D</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>74-03-89-70-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ingredients On Use">
+  <Cheat Text="最大 Ingredients On Use">
     <Cheatline>
       <Offset>494F86A</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>7E-20-89-70-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Souls and Crystals (Turn off Max cheat before use)">
+  <Cheat Text="灵魂无限 and Crystals (回合 off 最大 cheat before use)">
     <Cheatline>
       <Offset>38CBBB</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Consumables (Turn off Max cheat before use)">
+  <Cheat Text="无限消耗品 (回合 off 最大 cheat before use)">
     <Cheatline>
       <Offset>390AB0</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>89-70-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ingredients (Turn off Max cheat before use)">
+  <Cheat Text="无限食材 (回合 off 最大 cheat before use)">
     <Cheatline>
       <Offset>38CD6E</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Castle Shikigami 2",
+  "name": "城堡 式神 2",
   "id": "SLUS20962",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEC0868",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf-Energy",
-      "type": "checkbox",
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEC0824",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf-Bomb",
-      "type": "checkbox",
+      "name": "无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEC083A",

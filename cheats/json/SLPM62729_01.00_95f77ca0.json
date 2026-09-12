@@ -1,17 +1,22 @@
 {
-  "name": "Oretachi Geesen Zoku: Akumajou Dracula",
+  "name": "Oretachi Geesen Zoku: Akumajou 德古拉",
   "id": "SLPM62729",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEF607C",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     }

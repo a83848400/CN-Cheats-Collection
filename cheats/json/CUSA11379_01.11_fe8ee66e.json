@@ -1,12 +1,17 @@
 {
-  "name": "Mortal Kombat 11",
+  "name": "Mortal Kombat 11｜《真人快打11》",
   "id": "CUSA11379",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8AD04",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8AD0D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "P1 Full Defensive Meter",
-      "type": "checkbox",
+      "name": "P1 Full Defensive Meter｜P1 满防卫槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8AD66",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "P1 Full Offensive Meter",
-      "type": "checkbox",
+      "name": "P1 Full Offensive Meter｜P1 全攻势计量表",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8AD5F",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "P2 No Defensive Meter",
-      "type": "checkbox",
+      "name": "P2 No Defensive Meter｜P2 无防御槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8AD27",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "P2 No Offensive Meter",
-      "type": "checkbox",
+      "name": "P2 No Offensive Meter｜P2 无攻击力计量表",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8AD40",

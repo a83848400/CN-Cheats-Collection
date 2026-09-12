@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 2" Moder="Super Death" Cusa="PPSA04288" Version="01.000.003" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Instant kill grab attacks {Tyrant (Mr. X), G (Birkin), or Ivy Zombies} will still kill you. Use a subweapon to prevent a game over.  ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Instant kill grab attacks {Tyrant (Mr. X), G (Birkin), or Ivy Zombies} will still kill you. Use a subweapon to prevent a game over.  ">
     <Cheatline>
       <PS5Offset>427862A-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>E8-65-CB-2E-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="Make sure to turn on Infinite Health if you use this cheat">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="Make sure to turn on Infinite Health if you use this cheat">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>89-46-58-C3-CC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon ammo (no reload)" Description="Weapons will never run out of ammo">
+  <Cheat Text="Infinite Weapon 但是 (无需换弹)" Description="Weapons will never run out of ammo">
     <Cheatline>
       <PS5Offset>45E8430-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>44-89-69-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil/Perfect Aim">
+  <Cheat Text="消除后坐力/精准瞄准">
     <Cheatline>
       <PS5Offset>45E842C-executable[0]-5</PS5Offset>
       <Section>0</Section>

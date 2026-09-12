@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Xuan Yuan Sword: the Gate of Firmament" Moder="GamerX2" Cusa="CUSA06423" Version="01.05" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite HP｜无限血量">
     <Cheatline>
       <Offset>7DE643</Offset>
       <Section>15</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-4D-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP">
+  <Cheat Text="Infinite MP｜无限魔力">
     <Cheatline>
       <Offset>69E843</Offset>
       <Section>15</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-48-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items |Battle">
+  <Cheat Text="道具无限 |战斗">
     <Cheatline>
       <Offset>733338</Offset>
       <Section>15</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-45-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="EXP Boost">
+  <Cheat Text="经验 Boost">
     <Cheatline>
       <Offset>11D3800</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>0F-84-EA-01-00-00-89-48-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points">
+  <Cheat Text="Infinite Skill 得分">
     <Cheatline>
       <Offset>8BE69C</Offset>
       <Section>15</Section>
@@ -48,7 +56,7 @@
       <ValueOff>41-89-86-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points On Spend">
+  <Cheat Text="最大 Skill 得分 On Spend">
     <Cheatline>
       <Offset>11D3800</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>41-89-86-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Sell |Shops">
+  <Cheat Text="最大 Items On Sell |Shops">
     <Cheatline>
       <Offset>11D3800</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>0F-84-24-01-00-00-89-48-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items On Sell |Shops">
+  <Cheat Text="道具无限 On Sell |Shops">
     <Cheatline>
       <Offset>733091</Offset>
       <Section>15</Section>
@@ -84,7 +92,7 @@
       <ValueOff>89-48-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money On Sell/Buy">
+  <Cheat Text="金钱最大 On Sell/Buy">
     <Cheatline>
       <Offset>11D3800</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>0F-84-CD-00-00-00-45-89-7E-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>6D78BC</Offset>
       <Section>15</Section>

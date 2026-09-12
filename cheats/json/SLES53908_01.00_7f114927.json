@@ -1,12 +1,17 @@
 {
-  "name": "Lara Croft Tomb Raider: Legend",
+  "name": "劳拉·克劳馥 古墓丽影: 传奇",
   "id": "SLES53908",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Health-Packs-999",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命-Packs-999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808157D534",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf-Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE8D110",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf-Air-Never Drown",
-      "type": "checkbox",
+      "name": "无限之气·永不溺亡",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEC27AC",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Inf-Time-Trials",
-      "type": "checkbox",
+      "name": "无限时间挑战",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF923A0",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "All-Weapons-Press-Down",
-      "type": "checkbox",
+      "name": "全武器-Press-Down",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFE405C",

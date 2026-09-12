@@ -1,12 +1,17 @@
 {
-  "name": "Afterimage",
+  "name": "Afterimage｜残像",
   "id": "CUSA41097",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mastercode ( must be activated )｜主代码（必须激活）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527781F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Health [ MC ]",
-      "type": "checkbox",
+      "name": "生命最大 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277825",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527783D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite MP [ MC ]",
-      "type": "checkbox",
+      "name": "无限魔力 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277855",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max MP [ MC ]",
-      "type": "checkbox",
+      "name": "最大 MP [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527786D",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Attack [ MC ]",
-      "type": "checkbox",
+      "name": "攻击力最大 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277885",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Max Defense [ MC ]",
-      "type": "checkbox",
+      "name": "最大 防御 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527789D",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Max Items ( on gain - use )",
-      "type": "checkbox",
+      "name": "最大 Items ( on gain - use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277800",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Max Dew Currency [ MC ]",
-      "type": "checkbox",
+      "name": "最大 Dew Currency [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52778AF",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "Max Talent Points ( You need 1 ) [ MC ]",
-      "type": "checkbox",
+      "name": "天赋点最大 ( You need 1 ) [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52778C1",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "Set used Talent Points to 0 [ MC ]",
-      "type": "checkbox",
+      "name": "Set used Talent 得分 to 0 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52778D3",
@@ -136,8 +141,8 @@
       ]
     },
     {
-      "name": "Max Player Level [ MC ]",
-      "type": "checkbox",
+      "name": "最大 Player 等级 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52778E5",
@@ -147,8 +152,8 @@
       ]
     },
     {
-      "name": "Max XP ( after fisnish Level Stage )",
-      "type": "checkbox",
+      "name": "最大 XP ( after fisnish 等级 Stage )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52778F7",
@@ -158,8 +163,8 @@
       ]
     },
     {
-      "name": "Max Divine Seed [ MC ]",
-      "type": "checkbox",
+      "name": "最大 超凡入圣 种子 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277909",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "Activate Gravity Jump [ MC ]",
-      "type": "checkbox",
+      "name": "Activate 重力跳跃 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527791B",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Deactivate Gravity Jump [ MC ]",
-      "type": "checkbox",
+      "name": "Deactivate 重力跳跃 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527792D",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Kill all Enemies [ MC ]",
-      "type": "checkbox",
+      "name": "击杀全部敌人 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277945",
@@ -202,8 +207,8 @@
       ]
     },
     {
-      "name": "Activate Invincible Mode [ MC ]",
-      "type": "checkbox",
+      "name": "Activate 无敌 Mode [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277957",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Deactivate Invincible Mode [ MC ]",
-      "type": "checkbox",
+      "name": "Deactivate 无敌 Mode [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5277969",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Infinite Dash [ MC ]",
-      "type": "checkbox",
+      "name": "无限冲刺 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527798D",

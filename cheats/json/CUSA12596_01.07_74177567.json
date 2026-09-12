@@ -1,12 +1,17 @@
 {
-  "name": "Zombie Army 4: Dead War",
+  "name": "僵尸 军队 4: Dead War",
   "id": "CUSA12596",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinte ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "infinte ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BDE01E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inf energe bullets",
-      "type": "checkbox",
+      "name": "无限能量子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BDE07D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "inf special attack",
-      "type": "checkbox",
+      "name": "《无限特辑》 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CD322C",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "max sniper coldown",
-      "type": "checkbox",
+      "name": "最大 sniper coldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B93CC1",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max combo",
-      "type": "checkbox",
+      "name": "最大 combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C8F6A8",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "inf finesh",
-      "type": "checkbox",
+      "name": "无限精细",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B838F1",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "max mark skill",
-      "type": "checkbox",
+      "name": "最大 mark skill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B93C7D",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "divine shot no cooldwon",
-      "type": "checkbox",
+      "name": "超凡入圣 shot no cooldwon",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BD88A7",

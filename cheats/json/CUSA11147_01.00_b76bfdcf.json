@@ -1,12 +1,17 @@
 {
-  "name": "Onimusha: Warlords",
+  "name": "鬼武者: Warlords",
   "id": "CUSA11147",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Souls on gain",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "灵魂无限 on gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B510",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271C06",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Electric Sword Gauge Never Decreases",
-      "type": "checkbox",
+      "name": "Electric 剑 Gauge Never Decreases",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26D537",

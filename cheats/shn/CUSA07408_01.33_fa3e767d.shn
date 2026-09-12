@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>FFF800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>FFF81E</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-C1-7A-10-46-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max and Infinite XP,HS,Crafting Materials When Get">
+  <Cheat Text="最大 and 无限经验值,HS,Crafting Materials When Get">
     <Cheatline>
       <Offset>FFF842</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>44-39-F9-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Rage Meter Fill When Get Hit (Turn Off God Mode Before Use)">
+  <Cheat Text="Instant 怒气槽 Fill When Get Hit (回合 Off 神模式 Before Use)">
     <Cheatline>
       <Offset>FFF860</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>FFF87E</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>C4-C1-7A-10-47-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Crafting Materials at Shops (Turn off after use)">
+  <Cheat Text="无限制作 Materials at Shops (回合 off after use)">
     <Cheatline>
       <Offset>FFF891</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>44-39-F9-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows (Turn off when out of combat)">
+  <Cheat Text="箭矢无限 (回合 off when out of combat)">
     <Cheatline>
       <Offset>FFF8AE</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War (2018)" Moder="Celogamez" Cusa="CUSA07408" Version="01.35" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill/Rage/Arrows/Stun (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀/怒气/Arrows/Stun (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>FFFDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>FFFDB6</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>FFFDD0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rage">
+  <Cheat Text="Infinite Rage｜怒气无限">
     <Cheatline>
       <Offset>FFFDE4</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows">
+  <Cheat Text="Infinite Arrows｜箭矢无限">
     <Cheatline>
       <Offset>FFFDF6</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Stun">
+  <Cheat Text="1 Hit Stun｜1 次击晕">
     <Cheatline>
       <Offset>FFFE08</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C4-C1-7A-11-5E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>75D7AC</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-FA-11-43-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Hacksilver/Resources">
+  <Cheat Text="最大 XP/Hacksilver/Resources">
     <Cheatline>
       <Offset>FFFB20</Offset>
       <Section>0</Section>

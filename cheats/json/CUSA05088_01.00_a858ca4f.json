@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball: Xenoverse 2",
+  "name": "龙珠: Xenoverse 2",
   "id": "CUSA05088",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Set Zeni to 9.999.999",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Set Zeni to 9.999.999｜Zeni套装 9,999,999",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2015691A4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Set TP/ZP to 9.999.999",
-      "type": "button",
+      "name": "Set TP/ZP to 9.999.999｜将TP/ZP设置为9,999,999",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2015691A8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Set Exp to 9.999.999",
-      "type": "button",
+      "name": "Set 经验 to 9.999.999",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20156C200",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Set Skillpoints to 999",
-      "type": "button",
+      "name": "Set Skillpoints to 999｜将技能点设为999",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20156C204",

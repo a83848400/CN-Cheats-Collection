@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light 2: Stay Human",
+  "name": "《消逝的光芒》 2: Stay 人类",
   "id": "CUSA12555",
   "version": "01.30",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Not Against Your Own Molotov)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Not Against Your Own 燃烧瓶)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EF0C26",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina/Breath",
-      "type": "checkbox",
+      "name": "无限耐力/Breath",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "602B220",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Items/Arrows/Craft On Use (Need 2 To work)",
-      "type": "checkbox",
+      "name": "道具无限/Arrows/Craft On Use (Need 2 To work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E9BA78",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E9BD80",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Weapons Durability",
-      "type": "checkbox",
+      "name": "Infinite 武器 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BA2083",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Immunity/Chemical Area",
-      "type": "checkbox",
+      "name": "无限免疫力/Chemical Area",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EF8D7D",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite UV Flashlight",
-      "type": "checkbox",
+      "name": "Infinite UV 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "604BD90",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money",
-      "type": "checkbox",
+      "name": "最大/金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "607B910",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Infinite Time challenge (Disable B4 Finishing)",
-      "type": "checkbox",
+      "name": "无限时间 challenge (Disable B4 Finishing)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3503E88",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Max XP (Use After Escaping Waltz)",
-      "type": "checkbox",
+      "name": "最大 XP (Use After Escaping Waltz)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "30F30DD",

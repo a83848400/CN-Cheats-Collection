@@ -1,12 +1,17 @@
 {
-  "name": "Flynn: Son of Crimson",
+  "name": "Flynn: Son of Crimson｜弗林：《深红之子》",
   "id": "CUSA27766",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life And Healer",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 And 治疗者",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "190B000",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Inf Gems",
-      "type": "checkbox",
+      "name": "宝石无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "190B0A6",

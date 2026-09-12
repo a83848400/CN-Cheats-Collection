@@ -7,7 +7,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1A18A71</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>C5-FA-11-43-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Armor" Description="">
+  <Cheat Text="Infinite Armor｜护甲无限" Description="">
     <Cheatline>
       <Offset>1A87E97</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite PSI" Description="">
+  <Cheat Text="Infinite PSI｜无限PSI" Description="">
     <Cheatline>
       <Offset>1A3F5D2</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-11-87-F8-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>1574D3E</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>C5-FA-11-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flashlight" Description="">
+  <Cheat Text="Infinite 手电筒" Description="">
     <Cheatline>
       <Offset>1A163FD</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>C5-FA-11-83-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>26D3800</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>41-89-B7-24-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>26D3815</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>8B-47-54-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Hack-Time" Description="">
+  <Cheat Text="无限作弊-Time" Description="">
     <Cheatline>
       <Offset>26D3839</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>41-39-8E-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Floating" Description="">
+  <Cheat Text="Infinite Floating｜无限漂浮" Description="">
     <Cheatline>
       <Offset>1574ECA</Offset>
       <Section>0</Section>
@@ -121,7 +129,7 @@
       <ValueOff>C5-FA-11-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Keycard Doors always open" Description="">
+  <Cheat Text="门禁卡 Doors always open" Description="">
     <Cheatline>
       <Offset>17F3313</Offset>
       <Section>0</Section>
@@ -129,7 +137,7 @@
       <ValueOff>74-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Scan" Description="">
+  <Cheat Text="Instant Scan｜即时扫描" Description="">
     <Cheatline>
       <Offset>1A7B9C9</Offset>
       <Section>0</Section>
@@ -137,7 +145,7 @@
       <ValueOff>C4-C1-7A-58-85-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Scan Completition" Description="">
+  <Cheat Text="简单 Scan Completition" Description="">
     <Cheatline>
       <Offset>26D3874</Offset>
       <Section>0</Section>
@@ -151,7 +159,7 @@
       <ValueOff>8B-41-28-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown" Description="">
+  <Cheat Text="No Cooldown｜无冷却" Description="">
     <Cheatline>
       <Offset>26D3885</Offset>
       <Section>0</Section>

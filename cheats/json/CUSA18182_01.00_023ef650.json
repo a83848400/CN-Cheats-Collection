@@ -1,12 +1,17 @@
 {
-  "name": "NHL 21",
+  "name": "NHL冰球 21",
   "id": "CUSA18182",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "add skill points 120",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "add skill 得分 120",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46341C6",
