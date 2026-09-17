@@ -13,7 +13,9 @@ fork from
 
 https://github.com/TeeKay87/HEN-Cheats-Collection
 
-The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source.The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source.
+The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source.The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source. thank you ！
+
+Sync also created a CNB mirror site: https://cnb.cool/PS5-xiexiyu/CN-Cheats-Collection, and has officially integrated it into the OnionHEN toolbox, allowing direct download of Chinese cheats from the toolbox.Sync also created a CNB mirror site: https://cnb.cool/PS5-xiexiyu/CN-Cheats-Collection, and has officially integrated it into the OnionHEN toolbox, allowing direct download of Chinese cheats from the toolbox.
 
 
 谢锡榆-PS4与PS5金手指自动翻译功能简单解析说明
@@ -25,6 +27,8 @@ The translated "cheats" files, located in the "chinese-build" branch, can be fou
 现在已经极大地扩展了词典，翻译效果可能会更好一些，未来或许会加入其他工具作为下载源。
 
 已翻译的金手指在chinese-build分支的cheats文件夹中，可在左上角切换分支查看，如果转发本项目翻译的金手指请注明出处，谢谢。
+
+同步也制作了CNB镜像站https://cnb.cool/PS5-xiexiyu/CN-Cheats-Collection，并且已经正式接入onionHEN洋葱工具箱，可以在工具箱中直接下载中文金手指。
 
 # CN‑Cheats‑Collection
 
