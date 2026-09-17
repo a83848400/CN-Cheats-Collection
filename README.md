@@ -15,7 +15,7 @@ https://github.com/TeeKay87/HEN-Cheats-Collection
 
 The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source.The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source. thank you ！
 
-CNB mirror site has also been created: https://cnb.cool/PS5‑xiexiyu/CN‑Cheats‑Collection
+CNB mirror site has also been created: https://cnb.cool/PS5-xiexiyu/CN-Cheats-Collection
 
 It has been officially integrated into the onionHEN toolbox. You can directly download Chinese cheat codes within the toolbox.
 
