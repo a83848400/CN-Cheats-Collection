@@ -13,7 +13,7 @@ fork from
 
 https://github.com/TeeKay87/HEN-Cheats-Collection
 
-If you repost the translated cheat codes for this project, please cite the source. Thank you.
+The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source.The translated "cheats" files, located in the "chinese-build" branch, can be found in the upper-left corner. If you share this translation, please indicate the original source.
 
 
 谢锡榆-PS4与PS5金手指自动翻译功能简单解析说明
@@ -24,7 +24,7 @@ If you repost the translated cheat codes for this project, please cite the sourc
 如果暂时没有翻译成功，就会记录到日志里，产生翻译词典，在下一次以后有相同的翻译就会自动调用词典补充翻译。凑合用用吧
 现在已经极大地扩展了词典，翻译效果可能会更好一些，未来或许会加入其他工具作为下载源。
 
-如果转发本项目翻译的金手指请注明出处，谢谢。
+已翻译的金手指在chinese-build分支的cheats文件夹中，可在左上角切换分支查看，如果转发本项目翻译的金手指请注明出处，谢谢。
 
 # CN‑Cheats‑Collection
 
