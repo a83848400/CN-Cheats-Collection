@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil Village",
+  "name": "生化危机 Village",
   "id": "CUSA18017",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Inf crafting matirials",
-      "type": "checkbox",
+      "name": "无限制作 matirials",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Inf white flower and First Aid Med usage ",
-      "type": "checkbox",
+      "name": "Infinite white flower and First Aid Med usage ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Inf Pipe Bombs",
-      "type": "checkbox",
+      "name": "无限管道炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

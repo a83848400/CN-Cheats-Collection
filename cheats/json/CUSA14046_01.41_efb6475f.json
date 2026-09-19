@@ -1,12 +1,17 @@
 {
-  "name": "World War Z",
+  "name": "World War Z｜《僵尸世界大战》",
   "id": "CUSA14046",
   "version": "01.41",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / Stamin / 1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / Stamin / 一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "22",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "Stamina (MC)",
-      "type": "checkbox",
+      "name": "体力 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "22",
@@ -35,8 +40,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "22",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Inf Ammo / No Reload (Primary/ Secondary)",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹 (Primary/ Secondary)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27B3800",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Max Coins (99999) Disable To Earn More",
-      "type": "checkbox",
+      "name": "最大 角落 (99999) Disable To Earn More",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27B3856",

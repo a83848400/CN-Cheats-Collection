@@ -1,12 +1,17 @@
 {
-  "name": "The Witcher 3: Wild Hunt",
+  "name": "巫师3：狂猎: 狂猎",
   "id": "CUSA05574",
   "version": "01.62",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99999 Coins (on sell will affect items when buying)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "99999 角落 (on sell 意志 affect items when buying)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F38A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "9999 Weight",
-      "type": "checkbox",
+      "name": "9999 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F22A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health (may not work for some monsters and soldiers)",
-      "type": "checkbox",
+      "name": "无限生命 (may not work for some monsters and 士兵)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3AB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health/1hit kill (shared with stamina and horse may not work)",
-      "type": "checkbox",
+      "name": "无限生命/一击必杀 (shared with 体力 and horse may not work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F35A0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Experience x100 after quest completion",
-      "type": "checkbox",
+      "name": "Experience x100 after quest completion｜完成任务后获得100倍经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F37F0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "999 Skill points (on spend)",
-      "type": "checkbox",
+      "name": "999 Skill 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3760",

@@ -1,12 +1,17 @@
 {
-  "name": "Rise of the Tomb Raider",
+  "name": "Rise of the 古墓丽影",
   "id": "CUSA05720",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ammo - Res",
-      "type": "checkbox",
+      "name": "无限弹药 - Res",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88751C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8EB263",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Recoil",
-      "type": "checkbox",
+      "name": "No Recoil｜消除后坐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF830",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Rapid Fire",
-      "type": "checkbox",
+      "name": "Rapid Fire｜快速射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A09D51",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max Skill Points on Use",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF822",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Inf Time Bonus",
-      "type": "checkbox",
+      "name": "无限时间 Bonus",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90B8E9",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Inf Time Combo",
-      "type": "checkbox",
+      "name": "无限时间 Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "908E46",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Full Hunger Meter",
-      "type": "checkbox",
+      "name": "Full Hunger Meter｜饥饿值满格",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F8706",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Full Cold Meter",
-      "type": "checkbox",
+      "name": "Full Cold Meter｜全冷计",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F7135",
@@ -130,8 +135,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF85B",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "Moon Jump",
-      "type": "checkbox",
+      "name": "Moon Jump｜月球超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CF800",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "Full Hunger and Cold Meter",
-      "type": "checkbox",
+      "name": "Full Hunger and Cold Meter｜饥饿和寒冷值已满",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DAA141",

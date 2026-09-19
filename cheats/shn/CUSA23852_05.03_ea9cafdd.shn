@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Anno: Mutationem" Moder="Wander FW9.00" Cusa="CUSA23852" Version="05.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>18B7330</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo (Pistols)">
+  <Cheat Text="无限弹药 (Pistols)">
     <Cheatline>
       <Offset>7FC5F8D0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>E8-B6-80-27-02-44-89-73-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items/Talent/Attribute points">
+  <Cheat Text="最大 Items/Talent/属性 得分">
     <Cheatline>
       <Offset>7FC5F880</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>E8-36-82-27-02-44-89-73-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Transformation (on hit)">
+  <Cheat Text="Instant 变身 (on hit)">
     <Cheatline>
       <Offset>18B7C10</Offset>
       <Section>0</Section>

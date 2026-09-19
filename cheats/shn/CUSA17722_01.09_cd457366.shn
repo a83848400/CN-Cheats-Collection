@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Marvel's Spider-Man: Miles Morales" Moder="2B" Cusa="CUSA17722" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max XP (use once)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 XP (use once)">
     <Cheatline>
       <Offset>4F83800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-9E-F0-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health">
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>4F83813</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-93-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max skill points">
+  <Cheat Text="最大 skill 得分">
     <Cheatline>
       <Offset>4F83849</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>29-81-F8-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Web-shooters">
+  <Cheat Text="无限蛛丝发射器">
     <Cheatline>
       <Offset>4F8385B</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-89-47-38-41-80-4F-08-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Finisher">
+  <Cheat Text="Infinite 终结技">
     <Cheatline>
       <Offset>4F8387A</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>45-89-66-78-41-8B-47-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible ON">
+  <Cheat Text="无敌 ON">
     <Cheatline>
       <Offset>4F8388A</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C4-C1-78-2E-85-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf resources">
+  <Cheat Text="资源无限">
     <Cheatline>
       <Offset>4F8389C</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>44-89-68-38-80-48-08-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Venom Power">
+  <Cheat Text="Infinite 毒液 电力">
     <Cheatline>
       <Offset>4F838AA</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>C4-C1-7A-11-A4-C5-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="travesal challenge time set to 20 sec">
+  <Cheat Text="travesal challenge time set to 20 sec｜穿越挑战时间设定为20秒">
     <Cheatline>
       <Offset>4F838C6</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>C4-C1-7A-11-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Combat Challenge Time">
+  <Cheat Text="《无限战斗》挑战时间">
     <Cheatline>
       <Offset>4F838D9</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>C5-FA-10-4B-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Camouflage">
+  <Cheat Text="无限伪装">
     <Cheatline>
       <Offset>4F838EC</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>C4-C1-7A-10-8E-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant camouflage refill ">
+  <Cheat Text="Instant camouflage refill ｜即时迷彩补充装">
     <Cheatline>
       <Offset>4F83907</Offset>
       <Section>0</Section>

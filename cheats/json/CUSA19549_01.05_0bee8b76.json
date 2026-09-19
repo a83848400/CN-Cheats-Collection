@@ -1,12 +1,17 @@
 {
-  "name": "Blue Fire",
+  "name": "Blue 火",
   "id": "CUSA19549",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/shield/x9999 Orb(Pause game to restore health/shield/Orb)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/盾牌/x9999 Orb(暂停游戏 to restore 生命/盾牌/Orb)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E030",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Levitate Hold L2",
-      "type": "checkbox",
+      "name": "Levitate 领地 L2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5587B6B",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "All Levitate Press L2 to Descend",
-      "type": "checkbox",
+      "name": "All Levitate Press L2 to Descend｜所有悬浮物体，按下L2键下降",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5587B6B",

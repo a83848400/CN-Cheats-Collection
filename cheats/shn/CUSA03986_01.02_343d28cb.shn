@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Shield">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Shield｜无限护盾">
     <Cheatline>
       <Offset>8F5A1A</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>C5-FA-10-8B-C8-35-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
+  <Cheat Text="无限生命/一击必杀 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>1EFFDB0</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C5-FA-11-83-C0-35-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1EFFDB4</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>EB-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>1EFFDD6</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>EB-ED</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>1EFF8E0</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>45-89-AF-50-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>7FC5B340</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>45-89-B7-1C-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Salt">
+  <Cheat Text="Infinite 盐">
     <Cheatline>
       <Offset>7FC5B9F0</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>29-D8-41-89-47-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Money On Buy (Don't Take More Money)">
+  <Cheat Text="最大/金钱无限 On Buy (Don'恐怖分子 Take More 金钱)">
     <Cheatline>
       <Offset>7FC5B9D0</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>45-29-74-24-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Lockpicks On Use">
+  <Cheat Text="最大/Infinite Lockpicks On Use">
     <Cheatline>
       <Offset>7FC5B910</Offset>
       <Section>0</Section>

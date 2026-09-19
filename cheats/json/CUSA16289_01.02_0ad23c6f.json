@@ -1,12 +1,17 @@
 {
-  "name": "Samurai Jack: Battle Through Time",
+  "name": "武士 Jack: 战斗 Through Time",
   "id": "CUSA16289",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5147800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1HK",
-      "type": "checkbox",
+      "name": "1HK｜1港元",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5147863",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Mony (on get)",
-      "type": "checkbox",
+      "name": "Infinite Mony (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "514781B",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Fire Skill Points (on Spend)",
-      "type": "checkbox",
+      "name": "Infinite 火 Skill 得分 (on Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "514782D",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Bushido Points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite 武士道 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "514783F",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Inf Throwable",
-      "type": "checkbox",
+      "name": "无限可投掷物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5147850",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Inf Weapon Durability",
-      "type": "checkbox",
+      "name": "武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "514787E",

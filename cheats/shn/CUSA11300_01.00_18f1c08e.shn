@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Onimusha: Warlords" Moder="Ali-mk" Cusa="CUSA11300" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>271C06</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>66-41-89-88-DC-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-MAGIC">
+    <Cheat Text="Infinite-All-魔法">
     <Cheatline>
       <Offset>26D8AB</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>66-29-88-42-AF-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-money">
+    <Cheat Text="最大-金钱">
     <Cheatline>
       <Offset>B507</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>81-F9-A0-86-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-Souls">
+    <Cheat Text="最大-结界突破">
     <Cheatline>
       <Offset>B51F</Offset>
       <Section>0</Section>

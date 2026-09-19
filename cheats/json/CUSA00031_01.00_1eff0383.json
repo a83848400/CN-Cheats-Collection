@@ -1,12 +1,17 @@
 {
-  "name": "Rayman Legends",
+  "name": "雷曼 Legends",
   "id": "CUSA00031",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Live",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Live｜无限生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F3A54",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "9.999 Lums ( per Level )",
-      "type": "checkbox",
+      "name": "9.999 Lums ( per 等级 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "143B840",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "9.999.999 Lums ( Unlocked all Character - Main Menu )",
-      "type": "checkbox",
+      "name": "9.999.999 Lums ( Unlocked all Character - 主菜单 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1493EC0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Lucky Tickets",
-      "type": "checkbox",
+      "name": "Infinite Lucky Tickets｜无限幸运券",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1493EE0",

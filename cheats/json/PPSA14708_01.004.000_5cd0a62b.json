@@ -1,13 +1,18 @@
 {
-  "name": "Commandos: Origins",
+  "name": "Commandos: Origins｜《突击队：起源》",
   "id": "PPSA14708",
   "version": "01.004.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EBB000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Cant Attack You",
+      "name": "Cant 攻击 You",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EBB034",

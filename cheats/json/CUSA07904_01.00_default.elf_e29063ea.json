@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+  "name": "使命召唤: Modern Warfare 2 战役 Remastered",
   "id": "CUSA07904",
   "version": "01.00",
-  "process": "default.elf",
+  "process": "默认.elf",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ACDDE0",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Godmode",
+      "name": "Godmode｜上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33061",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "No Sway",
+      "name": "No Sway｜无晃动",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB2728",

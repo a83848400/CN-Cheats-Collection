@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Modern Warfare Remastered" Moder="x3shakir" Cusa="CUSA03522" Version="01.02" Process="default_mp.elf">
   <Genres Name="Action" />
-  <Cheat Text="Godmode Client 1">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="上帝模式 Client 1">
     <Cheatline>
       <Offset>7FC5BE10</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>29-9E-D0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Client Godmode">
+  <Cheat Text="All Client 上帝模式">
     <Cheatline>
       <Offset>544552</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>29-9E-D0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Client Infinite Ammo">
+  <Cheat Text="All Client 无限弹药">
     <Cheatline>
       <Offset>3456D9</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>44-29-70-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades">
+  <Cheat Text="Infinite Grenades｜手雷无限">
     <Cheatline>
       <Offset>339D21</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>FF-48-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>342F96</Offset>
       <Section>0</Section>

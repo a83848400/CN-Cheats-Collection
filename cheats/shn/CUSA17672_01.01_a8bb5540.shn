@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>181FDF0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-44-24-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Arma Infinita">
+  <Cheat Text="Arma Infinita｜无限武器">
     <Cheatline>
       <Offset>181FDB0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-89-9E-E4-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Idolo Infinito">
+  <Cheat Text="Idolo Infinito｜无限偶像">
     <Cheatline>
       <Offset>181FE20</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>0F-49-C3-41-89-46-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Metal de Sangue e Sangue de Valfaris Infinito">
+  <Cheat Text="金属 de Sangue e Sangue de Valfaris Infinito">
     <Cheatline>
       <Offset>181FE60</Offset>
       <Section>0</Section>

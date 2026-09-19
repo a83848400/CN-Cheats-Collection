@@ -1,12 +1,17 @@
 {
-  "name": "Ys IX: Monstrum Nox",
+  "name": "Ys IX: Monstrum Nox｜《伊苏IX：Monstrum Nox》",
   "id": "CUSA20414",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Items Multiply On Sell(sell 1)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Items Multiply On Sell(sell 1)｜出售时物品数量增加（出售1）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "30F470",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Money Multiplier When Fighting Monsters",
-      "type": "checkbox",
+      "name": "金钱倍率 When Fighting Monsters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "325AFE",

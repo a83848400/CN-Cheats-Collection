@@ -1,13 +1,18 @@
 {
-  "name": "Blasphemous 2",
+  "name": "亵渎 2",
   "id": "PPSA13579",
   "version": "01.007.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17F00",
@@ -37,9 +42,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17F00",
@@ -49,9 +54,9 @@
       ]
     },
     {
-      "name": "--Inf_Mana",
+      "name": "--无限法力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17F01",
@@ -61,9 +66,9 @@
       ]
     },
     {
-      "name": "--Inf_Potions",
+      "name": "--无限药剂",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17F02",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Money And Skill Points",
+      "name": "金钱无限 And Skill 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCC7090",

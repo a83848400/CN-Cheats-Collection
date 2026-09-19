@@ -1,12 +1,17 @@
 {
-  "name": "The Forest",
+  "name": "The 森林",
   "id": "CUSA12398",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80ac4590",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "No Hunger",
-      "type": "checkbox",
+      "name": "No Hunger｜不会饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80ac034b",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Thirst",
-      "type": "checkbox",
+      "name": "No Thirst｜不会口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80ac1309",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80abdd55",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "817cc551",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Logs On Shoulder",
-      "type": "checkbox",
+      "name": "Infinite Logs On Shoulder｜肩上的无尽原木",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "817cc7de",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "Instant Build",
-      "type": "checkbox",
+      "name": "Instant Build｜瞬间建造",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80b1b514",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Instant Kill",
-      "type": "checkbox",
+      "name": "Instant Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "814faa99",
@@ -138,8 +143,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84c2da",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Super Speed",
-      "type": "checkbox",
+      "name": "Super Speed｜超级移速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81373fde",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Infinite Jump/Fly",
-      "type": "checkbox",
+      "name": "无限跳跃/飞行",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84c2da",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "0 Days Survived",
-      "type": "button",
+      "name": "0 Days Survived｜生存天数：0 天",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "80abea5e",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "100 Days Survived",
-      "type": "button",
+      "name": "100 Days Survived｜坚持了100天",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "80abea5e",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "9999 Days Survived",
-      "type": "button",
+      "name": "9999 Days Survived｜生存了9999天",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "80abea5e",

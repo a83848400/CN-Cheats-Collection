@@ -1,12 +1,17 @@
 {
-  "name": "Borderlands 2 VR",
+  "name": "无主之地 2 VR",
   "id": "CUSA13946",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Skillpoints / Badass-Tokens (deactivate after use)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限技能点 / 硬汉代币 (deactivate after use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7A3D9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo + Grenades",
-      "type": "checkbox",
+      "name": "无限弹药 + 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A85FD5",

@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 6",
+  "name": "孤岛惊魂 6",
   "id": "CUSA15717",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincibility",
-      "type": "checkbox",
+      "name": "Invincibility｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7DE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance",
-      "type": "checkbox",
+      "name": "Infinite 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7E10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7E30",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Medkits/Throwables",
-      "type": "checkbox",
+      "name": "无限弹药/Medkits/可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "133B1F6",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C4F703",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Pesos/Materials/Resources/Uranium",
-      "type": "checkbox",
+      "name": "最大/Infinite Pesos/Materials/Resources/Uranium",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "133B179",

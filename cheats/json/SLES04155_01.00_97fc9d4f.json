@@ -1,12 +1,17 @@
 {
-  "name": "CT Special Forces 3: Bioterror",
+  "name": "反恐 Special Forces 3: Bioterror",
   "id": "SLES04155",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12993D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1208DE",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-Grenades",
-      "type": "checkbox",
+      "name": "Infinite-Grenades｜无限手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12FC6A",
@@ -38,18 +43,18 @@
       ]
     },
     {
-      "name": "Infinite-AMMO",
-      "type": "checkbox",
+      "name": "Infinite-AMMO｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12D938",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "12D939",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

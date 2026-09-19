@@ -1,12 +1,17 @@
 {
-  "name": "Watch Dogs 2",
+  "name": "看门狗 2",
   "id": "CUSA04295",
   "version": "01.17",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo/Throwables",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药/可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "133CFB4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F8F800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Hack",
-      "type": "checkbox",
+      "name": "Infinite Hack｜无限作弊",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F8F810",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Earn Money on Spend",
-      "type": "checkbox",
+      "name": "Earn 金钱 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1869518",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Money on Gain/Use",
-      "type": "checkbox",
+      "name": "金钱最大 on Gain/Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F8F821",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Followers on 2nd Gain",
-      "type": "checkbox",
+      "name": "最大 Followers on 2nd Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F8F821",

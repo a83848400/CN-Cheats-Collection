@@ -1,13 +1,18 @@
 {
-  "name": "Metro Exodus",
+  "name": "Metro Exodus｜《地铁：离去》",
   "id": "PPSA02395",
   "version": "01.001.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo And Items",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 And Items",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "140B000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Filter Time",
+      "name": "无限滤波时间",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "140B030",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf HP",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4445C9",

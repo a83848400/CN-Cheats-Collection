@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ace Combat 7: Skies Unknown" Moder="DementedAI" Cusa="CUSA05636" Version="01.51" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Infinite Missile and Special Weapons">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限导弹 and Special 武器">
     <Cheatline>
       <Offset>16ED3F9</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>89-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dont lose MRP on spend">
+  <Cheat Text="Dont lose MRP on spend｜不要因支出而损失MRP">
     <Cheatline>
       <Offset>126C347</Offset>
       <Section>0</Section>

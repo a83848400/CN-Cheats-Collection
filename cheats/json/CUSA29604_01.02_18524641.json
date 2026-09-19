@@ -1,12 +1,17 @@
 {
-  "name": "Neptunia x SENRAN KAGURA: Ninja Wars",
+  "name": "Neptunia 艾克斯 SENRAN KAGURA: Ninja Wars",
   "id": "CUSA29604",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C17DE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Coins Multiplier (on buy)",
-      "type": "checkbox",
+      "name": "Coins Multiplier (on buy)｜金币倍率（购买时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE17F",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Items do not decrease",
-      "type": "checkbox",
+      "name": "Items do not decrease｜物品数量不会减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BB975",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C17E30",

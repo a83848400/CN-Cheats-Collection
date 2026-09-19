@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto V",
+  "name": "侠盗猎车手 V",
   "id": "CUSA00419",
   "version": "01.27",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Armour",
-      "type": "checkbox",
+      "name": "Infinite Armour｜无限护甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC783E",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Special Ability",
-      "type": "checkbox",
+      "name": "《无限特辑》 特性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC7895",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Underwater Breath",
-      "type": "checkbox",
+      "name": "Infinite Underwater Breath｜无限水下屏息",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC78A4",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15B45A2",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "158D02D",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Never Wanted",
-      "type": "checkbox",
+      "name": "Never Wanted｜从未想要过",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC7855",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Vehicle Engine",
-      "type": "checkbox",
+      "name": "Infinite Vehicle 引擎",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC7865",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC78B7",

@@ -1,12 +1,17 @@
 {
-  "name": "Captain Tsubasa: Rise of New Champions",
+  "name": "Captain Tsubasa: Rise of New Champions｜《足球小将：新冠军的崛起》",
   "id": "CUSA14889",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money Points ( on gain )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 得分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42DE8A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Player Skill Points",
-      "type": "checkbox",
+      "name": "最大 Player Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "40FC37",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Mastercode Player: V - Zone ( must be activated )",
-      "type": "checkbox",
+      "name": "主代码 Player: V - 毒圈 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BEF800",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite V-Zone Player 1 [MC]",
-      "type": "checkbox",
+      "name": "Infinite V-毒圈 Player 1 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BEF806",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite V-Zone Player 2 [MC]",
-      "type": "checkbox",
+      "name": "Infinite V-毒圈 Player 2 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BEF81D",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Disable V-Zone Player 1 [MC]",
-      "type": "checkbox",
+      "name": "Disable V-毒圈 Player 1 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BEF806",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Disable V-Zone Player 2 [MC]",
-      "type": "checkbox",
+      "name": "Disable V-毒圈 Player 2 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BEF81D",

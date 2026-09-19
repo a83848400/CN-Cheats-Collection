@@ -1,12 +1,17 @@
 {
-  "name": "Remnant: From the Ashes",
+  "name": "Remnant: From the Ashes｜《余烬：浴火重生》",
   "id": "CUSA10507",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E950",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83EB47",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9639F6",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Scraps/items (on get find 2 at least)",
-      "type": "checkbox",
+      "name": "Scraps/items (on get find 2 at least)｜碎片/物品（获取时需找到至少2个）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E980",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Experience (kill 2 enemies)",
-      "type": "checkbox",
+      "name": "最大 Experience (kill 2 enemies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E9F0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Upgrade items (on use)",
-      "type": "checkbox",
+      "name": "Infinite Upgrade items (on use)｜无限升级道具（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EA10",

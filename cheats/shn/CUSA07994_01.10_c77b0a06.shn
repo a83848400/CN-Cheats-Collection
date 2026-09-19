@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="FIFA 18" Moder="Wander FW9.00" Cusa="CUSA07994" Version="01.10" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="Max Score (in Training) (Journey Mode)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 比分 (in 训练) (Journey Mode)">
     <Cheatline>
       <Offset>6C9B940</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>01-96-58-84-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points (Journey Mode)">
+  <Cheat Text="Infinite Skill 得分 (Journey Mode)">
     <Cheatline>
       <Offset>6C9B9B0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>0F-44-C8-41-01-4F-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Budget (after Buying a player)">
+  <Cheat Text="最大 预算 (购买后 a player)">
     <Cheatline>
       <Offset>6C9BA30</Offset>
       <Section>0</Section>

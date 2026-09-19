@@ -1,12 +1,17 @@
 {
-  "name": "The Mummy Demastered",
+  "name": "The Mummy Demastered｜《木乃伊：未删减版》",
   "id": "CUSA09147",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD0B99D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FFCC341",

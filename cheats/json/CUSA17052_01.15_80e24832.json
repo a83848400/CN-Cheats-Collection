@@ -1,12 +1,17 @@
 {
-  "name": "Sakuna: Of Rice and Ruin",
+  "name": "Sakuna: Of 米 and Ruin",
   "id": "CUSA17052",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (100)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C21F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Bar",
-      "type": "checkbox",
+      "name": "Infinite Skill Bar｜无限技能条",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C2230",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max items (on Gain turn off before planting rice)",
-      "type": "checkbox",
+      "name": "最大 items (on Gain 回合 off before planting 米)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BD860",

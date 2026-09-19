@@ -1,12 +1,17 @@
 {
-  "name": "Legrand Legacy Tale of the Fatebounds",
+  "name": "Legrand Legacy Tale of the Fatebounds｜《莱格兰德传奇：命运之约的故事》",
   "id": "CUSA14303",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite item",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152D5B0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Gold",
-      "type": "checkbox",
+      "name": "Infinite Gold｜无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152D5C0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Exp x4",
-      "type": "checkbox",
+      "name": "经验 x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152D5D0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Exp x16 ",
-      "type": "checkbox",
+      "name": "经验 x16 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152D5D0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Exp x8",
-      "type": "checkbox",
+      "name": "经验 x8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152D5D0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Exp x2",
-      "type": "checkbox",
+      "name": "经验 x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152D5D0",

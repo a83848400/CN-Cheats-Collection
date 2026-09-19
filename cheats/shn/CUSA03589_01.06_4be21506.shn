@@ -3,7 +3,15 @@
   <Genres Name="Fighting" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>2DEBDB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-93-38-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Super">
+  <Cheat Text="最大/无限超级">
     <Cheatline>
       <Offset>2DEBCC0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-11-83-8C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Koins/XP/Levels">
+  <Cheat Text="最大 Koins/XP/Levels">
     <Cheatline>
       <Offset>1A656FB</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>01-51-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Master Code)">
+  <Cheat Text="无限生命 (Master 密码)">
     <Cheatline>
       <Offset>31EB800</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>C5-FA-11-93-38-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Opponent Health (25%) (MC)">
+  <Cheat Text="Opponent 生命 (25%) (MC)">
     <Cheatline>
       <Offset>31EB809</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>75-2B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Super Meter Bars (Master Code)">
+  <Cheat Text="无限超级 Meter Bars (Master 密码)">
     <Cheatline>
       <Offset>31EB845</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>C5-FA-11-83-8C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Opponent Super Meter Bars (0) (MC)">
+  <Cheat Text="Opponent Super Meter Bars (0) (MC)｜对手超级计量表条 (0) (MC)">
     <Cheatline>
       <Offset>31EB849</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>75-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Koins">
+  <Cheat Text="最大 Koins">
     <Cheatline>
       <Offset>31EB868</Offset>
       <Section>0</Section>

@@ -1,23 +1,28 @@
 {
-  "name": "Ninja: Shadow of Darkness",
+  "name": "Ninja: 暗影 of Darkness",
   "id": "SLUS00435",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "116AE5",
           "on": "10",
-          "off": "A0"
+          "off": "A0｜零"
         }
       ]
     },
     {
-      "name": "Infinite Smoke Bombs",
-      "type": "checkbox",
+      "name": "Infinite 诡计之雾 Bombs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11859E",
@@ -27,34 +32,34 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1172F0",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "1172F1",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite Lighting Bombs",
-      "type": "checkbox",
+      "name": "Infinite Lighting Bombs｜无限照明弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "118A34",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "118A35",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

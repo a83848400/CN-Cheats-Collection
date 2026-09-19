@@ -1,12 +1,17 @@
 {
-  "name": "Sifu",
+  "name": "Sifu｜大师",
   "id": "CUSA25761",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A33950",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Experience/Score (on the second fight Turn off after)",
-      "type": "checkbox",
+      "name": "最大 Experience/比分 (on the second fight 回合 off after)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8A33990",

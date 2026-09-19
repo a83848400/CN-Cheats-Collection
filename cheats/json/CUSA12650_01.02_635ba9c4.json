@@ -1,12 +1,17 @@
 {
-  "name": "Hitman: Absolution HD",
+  "name": "《杀手》: Absolution HD",
   "id": "CUSA12650",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F87800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Instinct",
-      "type": "checkbox",
+      "name": "Infinite Instinct｜《无限本能》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6909BF",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Infinite Ammo [99]",
-      "type": "checkbox",
+      "name": "最大 无限弹药 [99]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F87812",

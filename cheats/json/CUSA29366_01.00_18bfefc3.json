@@ -1,12 +1,17 @@
 {
-  "name": "Record of Lodoss War: Deedlit in Wonder Labyrinth",
+  "name": "Record of Lodoss War: Deedlit in 奇观 Labyrinth",
   "id": "CUSA29366",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP and MP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 and MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28FBD01",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Gold (Buy)",
-      "type": "checkbox",
+      "name": "金币最大 (Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28FBD43",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28FBD7B",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Enabled Slide and Double Jump",
-      "type": "checkbox",
+      "name": "Enabled Slide and Double Jump｜已启用滑行和二段跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28FBDAC",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "+30 Wind And Fire",
-      "type": "checkbox",
+      "name": "+30 Wind And Fire｜+30风火值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28FBDDF",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Fire Spirit level 3 (Must Full 2 Bar)",
-      "type": "checkbox",
+      "name": "火 精魄 等级 3 (Must Full 2 Bar)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28FBE13",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Wind Spirit level 3 (Must Full 2 Bar)",
-      "type": "checkbox",
+      "name": "Wind 精魄 等级 3 (Must Full 2 Bar)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28FBE2F",

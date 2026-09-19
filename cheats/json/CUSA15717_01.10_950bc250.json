@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 6",
+  "name": "孤岛惊魂 6",
   "id": "CUSA15717",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Damage",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Damage｜不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE78B4",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Sprint/Swim",
-      "type": "checkbox",
+      "name": "无限冲刺/Swim",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38AC763",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Throwables",
-      "type": "checkbox",
+      "name": "无限弹药/可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134A073",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Resource (on get)",
-      "type": "checkbox",
+      "name": "最大 Resource (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1349FF6",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE77C4",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "One-hit Kill Animals",
-      "type": "checkbox",
+      "name": "One-命中击杀 动物帮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7814",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D652CC",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "No Overheat",
-      "type": "checkbox",
+      "name": "No Overheat｜不会过热",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7724",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "No Recoil",
-      "type": "checkbox",
+      "name": "No Recoil｜消除后坐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D61C9A",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Super Accuracy",
-      "type": "checkbox",
+      "name": "Super Accuracy｜超级精准度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7694",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7774",
@@ -161,8 +166,8 @@
       ]
     },
     {
-      "name": "Teleport to sky",
-      "type": "checkbox",
+      "name": "传送 to 光·遇",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE76D4",
@@ -177,8 +182,8 @@
       ]
     },
     {
-      "name": "Always Wanted",
-      "type": "checkbox",
+      "name": "Always Wanted｜一直想要",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7864",
@@ -198,8 +203,8 @@
       ]
     },
     {
-      "name": "Never Wanted",
-      "type": "checkbox",
+      "name": "Never Wanted｜从未想要过",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7864",

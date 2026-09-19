@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fallout 4" Moder="Pharaoh2k" Cusa="CUSA03450" Version="01.37" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="BE SURE TO READ ALL the comments where available. As a rule of thumb, ALWAYS enable cheats that are needed and disable when they are not. OTU = One time use cheat. Partially ported from TLH v01.22 PS4 trainer and FLiNG PC trainer. For an even more advanced Fallout-4 trainer, check out my MultiTrainer2 ShnExt trainer. Made and tested on PS4 Firmware 9.00. Enjoy! ;-)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="BE SURE TO READ ALL the comments where available. As a rule of thumb, ALWAYS enable cheats that are needed and disable when they are not. OTU = One time use cheat. Partially ported from TLH v01.22 PS4 trainer and FLiNG PC trainer. For an even more advanced Fallout-4 trainer, check out my MultiTrainer2 ShnExt trainer. Made and tested on PS4 Firmware 9.00. Enjoy! ;-)">
     <Cheatline>
       <Section>0</Section>
       <Offset>228EFC0</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Switch (Must be enabled first)" Description="">
+  <Cheat Text="总开关 (Must be enabled first)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F000</Offset>
@@ -36,7 +44,7 @@
       <ValueOff>89-14-88-C5-FA-10-4B-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---God Mode  (Req. MS)" Description="Gives the player a complete invincibility to all types of damages (might still get temporary blurred vision rarely, but no damage). When enabling this option, no need to enable Inf_HP, Inf_AP, No_Radiation and Infinite Power Armor Core Power.">
+  <Cheat Text="---神模式  (Req. MS)" Description="Gives the player a complete invincibility to all types of damages (might still get temporary blurred vision rarely, but no damage). When enabling this option, no need to enable Inf_HP, Inf_AP, No_Radiation and Infinite Power Armor Core Power.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F10D</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Infinite Health (Req. MS)" Description="">
+  <Cheat Text="---无限生命 (Req. MS)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F111</Offset>
@@ -52,7 +60,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Infinite AP-Stamina (Req. MS)" Description="">
+  <Cheat Text="---无限能力点-体力 (Req. MS)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F115</Offset>
@@ -60,7 +68,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---No Radiation (Req. MS)" Description="">
+  <Cheat Text="---No Radiation (Req. MS)｜---无辐射（需硕士学位）" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F119</Offset>
@@ -68,7 +76,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---One Hit Kill (Req. MS)" Description="Note that you may get instantly killed by an explotion you initiated yourself etc., for example - if you shoot and explode a car while standing nearby and get hit by your own initiated blast - you will be instantly killed with this cheat enabled.">
+  <Cheat Text="---一击必杀 (Req. MS)" Description="Note that you may get instantly killed by an explotion you initiated yourself etc., for example - if you shoot and explode a car while standing nearby and get hit by your own initiated blast - you will be instantly killed with this cheat enabled.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F11D</Offset>
@@ -76,7 +84,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible" Description="Prevents getting hit and effects. Does not prevent fall damage. Use god mode if you want to prevent it. Cheat has not been throughly tested so might cause progressions issues or other issues.">
+  <Cheat Text="Invincible｜无敌" Description="Prevents getting hit and effects. Does not prevent fall damage. Use god mode if you want to prevent it. Cheat has not been throughly tested so might cause progressions issues or other issues.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F400</Offset>
@@ -102,7 +110,7 @@
       <ValueOff>4C-89-F7-48-89-DE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Power Armor Core Power" Description="If God Mode cheat is enabled, no need to enable this cheat.">
+  <Cheat Text="Infinite 动力装甲 核心 电力" Description="If God Mode cheat is enabled, no need to enable this cheat.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F130</Offset>
@@ -116,7 +124,7 @@
       <ValueOff>C5-FA-10-04-88</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Weight Limit" Description="Takes effect when weight value changes (including when firing a weapon). You may probably want to keep this cheat enabled all the time.">
+  <Cheat Text="No 重量 Limit" Description="Takes effect when weight value changes (including when firing a weapon). You may probably want to keep this cheat enabled all the time.">
     <Cheatline>
       <Section>0</Section>
       <Offset>118106</Offset>
@@ -124,7 +132,7 @@
       <ValueOff>41-8B-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth Mode" Description="Takes effect only when enabled before enemies detect you">
+  <Cheat Text="Stealth Mode｜隐身模式" Description="Takes effect only when enabled before enemies detect you">
     <Cheatline>
       <Section>0</Section>
       <Offset>B43F37</Offset>
@@ -132,7 +140,7 @@
       <ValueOff>C5-F2-59-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Lock Picking" Description="">
+  <Cheat Text="Instant Lock Picking｜瞬间开锁" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>D70115</Offset>
@@ -140,7 +148,7 @@
       <ValueOff>C5-F8-2E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Terminal Hacking (PWNed)" Description="">
+  <Cheat Text="简单 Terminal 破解 (PWNed)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>88266A</Offset>
@@ -148,7 +156,7 @@
       <ValueOff>0F-85-39-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Hacking Attempts" Description="">
+  <Cheat Text="Infinite 破解 Attempts" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>88265C</Offset>
@@ -156,7 +164,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload - Bottomless clip" Description="">
+  <Cheat Text="无需换弹 - 无底夹" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>A2A554</Offset>
@@ -164,7 +172,7 @@
       <ValueOff>2B-4D-B8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Accuracy" Description="">
+  <Cheat Text="Max Accuracy｜命中率最大" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F150</Offset>
@@ -178,7 +186,7 @@
       <ValueOff>C4-C1-7A-11-86-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil" Description="">
+  <Cheat Text="No Recoil｜消除后坐力" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F190</Offset>
@@ -192,7 +200,7 @@
       <ValueOff>C5-FB-10-47-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Weapon Spin-up" Description="This cheat disables the spin-up and cool-down delays of weapons like the mini-gun. They can be then used to fire instantly. The Small-Arms Fully-Automatic cheat already contains this functionality, so you may want to disable this cheat if you enabled the other one.">
+  <Cheat Text="No Weapon Spin-up｜无武器预热" Description="This cheat disables the spin-up and cool-down delays of weapons like the mini-gun. They can be then used to fire instantly. The Small-Arms Fully-Automatic cheat already contains this functionality, so you may want to disable this cheat if you enabled the other one.">
     <Cheatline>
       <Section>0</Section>
       <Offset>92203B</Offset>
@@ -206,7 +214,7 @@
       <ValueOff>F6-80-11-01-00-00-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Manual Weapon Rapid Fire" Description="The cheat eliminates the delay between manual shots. Mostly handy with weapons like the 10mm pistol. Using this cheat is pointless if you enabled the Small Arms Fully Automatic cheat.">
+  <Cheat Text="Manual Weapon 快速射击" Description="The cheat eliminates the delay between manual shots. Mostly handy with weapons like the 10mm pistol. Using this cheat is pointless if you enabled the Small Arms Fully Automatic cheat.">
     <Cheatline>
       <Section>0</Section>
       <Offset>B32E48</Offset>
@@ -214,7 +222,7 @@
       <ValueOff>C5-FA-5F-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Small Arms Fully Automatic" Description="The cheat code modifies all semi-automatic small arms to behave as fully automatic weapons. Additionally, it eliminates the spin-up delay and cooldown period for weapons like the mini-gun.  If you want to disable this option after it took effect, you may need to restart/reload the game in order to restore the original weapon functionality.">
+  <Cheat Text="Small Arms Fully 自动挡" Description="The cheat code modifies all semi-automatic small arms to behave as fully automatic weapons. Additionally, it eliminates the spin-up delay and cooldown period for weapons like the mini-gun.  If you want to disable this option after it took effect, you may need to restart/reload the game in order to restore the original weapon functionality.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F450</Offset>
@@ -234,7 +242,7 @@
       <ValueOff>F6-81-12-01-00-00-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items and Ammo On Use or Gain" Description="This cheat has not been thoroughly tested but it is possible that it might cause some progression issues or even game crashes. Be sure to enable it only when absolutely necessary and disable it when not. To get the ammo quantity to update, you must disable the No reload cheat first. You can re-enable it after the ammo quantity of the weapon you are using is maximized.">
+  <Cheat Text="最大 Items and 但是 On Use or Gain" Description="This cheat has not been thoroughly tested but it is possible that it might cause some progression issues or even game crashes. Be sure to enable it only when absolutely necessary and disable it when not. To get the ammo quantity to update, you must disable the No reload cheat first. You can re-enable it after the ammo quantity of the weapon you are using is maximized.">
     <Cheatline>
       <Section>0</Section>
       <Offset>115A93</Offset>
@@ -242,7 +250,7 @@
       <ValueOff>8B-4F-0C-01-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="Pick one of jump multipliers below. Enable Infinite HP cheat to avoid dying or God Mode to avoid dying and also prevent fall damage.">
+  <Cheat Text="Super Jump｜超级跳跃" Description="Pick one of jump multipliers below. Enable Infinite HP cheat to avoid dying or God Mode to avoid dying and also prevent fall damage.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F290</Offset>
@@ -256,7 +264,7 @@
       <ValueOff>C5-F8-11-83-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x2.5 Jump Multiplier" Description="">
+  <Cheat Text="---跳跃倍率×2.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F2AF</Offset>
@@ -264,7 +272,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x5 Jump Multiplier" Description="">
+  <Cheat Text="---跳跃倍率×5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F2AF</Offset>
@@ -272,7 +280,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x10 Jump Multiplier" Description="">
+  <Cheat Text="---跳跃倍率×10" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F2AF</Offset>
@@ -280,7 +288,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x20 Jump Multiplier" Description="">
+  <Cheat Text="---跳跃倍率×20" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F2AF</Offset>
@@ -288,7 +296,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Game Speed" Description="If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.">
+  <Cheat Text="Set Game 速度" Description="If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228EFC4</Offset>
@@ -296,7 +304,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x0.1 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×0.1" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1CBF540</Offset>
@@ -304,7 +312,7 @@
       <ValueOff>6F-12-83-3A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x0.5 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×0.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1CBF540</Offset>
@@ -312,7 +320,7 @@
       <ValueOff>6F-12-83-3A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x1.5 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×1.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1CBF540</Offset>
@@ -320,7 +328,7 @@
       <ValueOff>6F-12-83-3A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x2 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1CBF540</Offset>
@@ -328,7 +336,7 @@
       <ValueOff>6F-12-83-3A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x2.5 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×2.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1CBF540</Offset>
@@ -336,7 +344,7 @@
       <ValueOff>6F-12-83-3A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x3 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×3" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1CBF540</Offset>
@@ -344,7 +352,7 @@
       <ValueOff>6F-12-83-3A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Game Speed (Including Speech)" Description="If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.">
+  <Cheat Text="Set Game 速度 (Including 口才)" Description="If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F500</Offset>
@@ -358,7 +366,7 @@
       <ValueOff>C5-EA-59-00-C5-FA-5E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x0.1 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×0.1" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F517</Offset>
@@ -366,7 +374,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x0.5 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×0.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F517</Offset>
@@ -374,7 +382,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x1.5 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×1.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F517</Offset>
@@ -382,7 +390,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x2 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F517</Offset>
@@ -390,7 +398,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x2.5 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×2.5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F517</Offset>
@@ -398,7 +406,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x3 Speed Multiplier" Description="">
+  <Cheat Text="---速度倍率×3" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F517</Offset>
@@ -406,7 +414,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Time of Day" Description="Pick only 1 option below. Default hour is 10am">
+  <Cheat Text="Set Time of Day｜设置时间" Description="Pick only 1 option below. Default hour is 10am">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F350</Offset>
@@ -420,7 +428,7 @@
       <ValueOff>C5-FA-11-50-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---12pm" Description="">
+  <Cheat Text="---中午12点" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F362</Offset>
@@ -428,7 +436,7 @@
       <ValueOff>00-00-00-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---6pm" Description="">
+  <Cheat Text="---傍晚6点" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F362</Offset>
@@ -436,7 +444,7 @@
       <ValueOff>00-00-00-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---12am" Description="">
+  <Cheat Text="---午夜12点" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F362</Offset>
@@ -444,7 +452,7 @@
       <ValueOff>00-00-00-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---6am" Description="">
+  <Cheat Text="---早上6点" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F362</Offset>
@@ -452,7 +460,7 @@
       <ValueOff>00-00-00-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Bottle Caps On Trade" Description="">
+  <Cheat Text="最大 瓶盖 On 交换" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F300</Offset>
@@ -466,7 +474,7 @@
       <ValueOff>41-83-7C-24-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="70 Perk Points On Game Start (OTU)" Description="Enable this cheat at the game start while chatting with the salesman and reaching the Registration Form perks selection. After the cheat takes effect, disable it and dont use it anymore throughout the game.">
+  <Cheat Text="70 技能 得分 On Game Start (OTU)" Description="Enable this cheat at the game start while chatting with the salesman and reaching the Registration Form perks selection. After the cheat takes effect, disable it and dont use it anymore throughout the game.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F1C0</Offset>
@@ -480,7 +488,7 @@
       <ValueOff>41-8B-44-05-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ignore Perk Points Requirements" Description="">
+  <Cheat Text="Ignore 技能 得分 Requirements" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>80F208</Offset>
@@ -494,7 +502,7 @@
       <ValueOff>0F-B6-80-C1-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Perk Points Upgrade Requirements" Description="">
+  <Cheat Text="Infinite 技能 得分 Upgrade Requirements" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>ADF2E4</Offset>
@@ -502,7 +510,7 @@
       <ValueOff>FE-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP and Level (OTU)" Description="Enable this cheat only once. After the cheat takes effect, disable it and dont use it anymore throughout the game.">
+  <Cheat Text="最大 XP and 等级 (OTU)" Description="Enable this cheat only once. After the cheat takes effect, disable it and dont use it anymore throughout the game.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F200</Offset>
@@ -516,7 +524,7 @@
       <ValueOff>C5-FA-11-00-4D-85-F6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Crafting Stock" Description="This will set all your existing crafting items to 999,999 when you open crafting mode. Items must have at least 1 piece in stock for it to update their quantity. Make sure to enable the cheat before entering crafting mode and disable it when the quantities change take effect.">
+  <Cheat Text="最大 Crafting 命数" Description="This will set all your existing crafting items to 999,999 when you open crafting mode. Items must have at least 1 piece in stock for it to update their quantity. Make sure to enable the cheat before entering crafting mode and disable it when the quantities change take effect.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F250</Offset>
@@ -530,7 +538,7 @@
       <ValueOff>8B-46-20-89-47-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Minimum Building Requirement" Description="When activated, building material requirements will be set to 1. If you want to disable this option after it took effect, you will need to restart the game in order to restore building material requirements.">
+  <Cheat Text="Minimum 建造 Requirement" Description="When activated, building material requirements will be set to 1. If you want to disable this option after it took effect, you will need to restart the game in order to restore building material requirements.">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F270</Offset>

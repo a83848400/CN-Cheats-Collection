@@ -1,12 +1,17 @@
 {
-  "name": "Big Rumble Boxing: Creed Champions",
+  "name": "Big Rumble Boxing: Creed Champions｜《大乱斗拳击：奎迪冠军》",
   "id": "CUSA25617",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "697B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Super +  (MC)",
-      "type": "checkbox",
+      "name": "无限超级 +  (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "697B816",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Guard + (MC)",
-      "type": "checkbox",
+      "name": "无限防御架势 + (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "697B821",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina + (MC)",
-      "type": "checkbox",
+      "name": "无限耐力 + (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "697B82C",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Opponent Bars Always 25% +(MC)",
-      "type": "checkbox",
+      "name": "Opponent Bars Always 25% +(MC)｜对手血条始终为25% +(MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "697B84A",

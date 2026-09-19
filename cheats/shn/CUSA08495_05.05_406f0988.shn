@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dark Souls: Remastered" Moder="hejran7" Cusa="CUSA08495" Version="05.05" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Inf HP Master Code">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 Master 密码">
     <Cheatline>
       <Offset>1837800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-B7-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina Master Code">
+  <Cheat Text="体力 Master 密码">
     <Cheatline>
       <Offset>1837824</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-8B-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack Master Code">
+  <Cheat Text="速度 Hack Master 密码">
     <Cheatline>
       <Offset>1837878</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-0F-44-C1-C5-FA-59-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Drop Rate Master Code">
+  <Cheat Text="掉落率 Master 密码">
     <Cheatline>
       <Offset>183789B</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Infinite Health">
+  <Cheat Text="Player 无限生命">
     <Cheatline>
       <Offset>183780A</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>41-89-B7-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player + Enemy Inf HP">
+  <Cheat Text="Player + Enemy 无限血量">
     <Cheatline>
       <Offset>27738D</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>E9-6E-04-5C-01-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Only Inf Stamina">
+  <Cheat Text="Player Only 无限耐力">
     <Cheatline>
       <Offset>183782D</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>89-8B-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player + NPC Inf Stamina">
+  <Cheat Text="Player + 非玩家角色 无限耐力">
     <Cheatline>
       <Offset>1837824</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>89-8B-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Everyone Else 0 Stamina">
+  <Cheat Text="Everyone Else 0 体力">
     <Cheatline>
       <Offset>183782B</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>75-13</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Humanity on Use">
+  <Cheat Text="最大 人性 on Use">
     <Cheatline>
       <Offset>27CE6E</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>83-F8-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite Souls">
+  <Cheat Text="最大 灵魂无限">
     <Cheatline>
       <Offset>6F6423</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>81-FE-00-CA-9A-3B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dupe Anything (Storage) + Max Items">
+  <Cheat Text="Dupe Anything (存储) + 最大 Items">
     <Cheatline>
       <Offset>6E825E</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>39-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Lose Humanity when Die">
+  <Cheat Text="Never Lose 人性 when Die">
     <Cheatline>
       <Offset>3E414F</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>41-C7-86-84-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Lose Souls when Die">
+  <Cheat Text="Never Lose 结界突破 when Die">
     <Cheatline>
       <Offset>3E4131</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>41-89-8E-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bleed Resistance">
+  <Cheat Text="Bleed Resistance｜抗渗性">
     <Cheatline>
       <Offset>27D36A</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>41-89-86-38-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Poison Resistance">
+  <Cheat Text="Poison Resistance｜抗毒">
     <Cheatline>
       <Offset>27D2EC</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>41-89-86-30-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Curse Resistance">
+  <Cheat Text="紧箍咒 Resistance">
     <Cheatline>
       <Offset>27D3E8</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>41-89-86-3C-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack x1.25">
+  <Cheat Text="速度 Hack x1.25">
     <Cheatline>
       <Offset>183787F</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>C7-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="100% Drop Rate Press L3+R3" Description="Max Humanity-66-66-06-40">
+  <Cheat Text="百分百掉宝率 Press L3+R3" Description="Max Humanity-66-66-06-40">
     <Cheatline>
       <Offset>12B0794</Offset>
       <Section>0</Section>
@@ -202,7 +210,7 @@
       <ValueOff>89-94-07-9C-70-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP Master Code">
+  <Cheat Text="无限血量 Master 密码">
     <Cheatline>
       <Offset>1837800</Offset>
       <Section>0</Section>
@@ -216,7 +224,7 @@
       <ValueOff>41-89-B7-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina Master Code">
+  <Cheat Text="体力 Master 密码">
     <Cheatline>
       <Offset>1837824</Offset>
       <Section>0</Section>
@@ -230,7 +238,7 @@
       <ValueOff>89-8B-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack Master Code">
+  <Cheat Text="速度 Hack Master 密码">
     <Cheatline>
       <Offset>1837878</Offset>
       <Section>0</Section>
@@ -244,7 +252,7 @@
       <ValueOff>48-0F-44-C1-C5-FA-59-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Drop Rate Master Code">
+  <Cheat Text="掉落率 Master 密码">
     <Cheatline>
       <Offset>183789B</Offset>
       <Section>0</Section>

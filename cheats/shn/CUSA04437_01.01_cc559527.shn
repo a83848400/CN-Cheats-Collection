@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 5" Moder="hejran7" Cusa="CUSA04437" Version="01.01" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Inf HP (L1+L3 On) (L1+R3 Off)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 (L1+L3 On) (L1+R3 Off)">
     <Cheatline>
       <Offset>11F3800</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>66-89-8B-68-1E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health Always On" Description="">
+  <Cheat Text="无限生命 Always On" Description="">
     <Cheatline>
       <Offset>6161B4</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>66-89-8B-68-1E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Car HP">
+  <Cheat Text="Infinite Car 手机">
     <Cheatline>
       <Offset>11F3855</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>66-89-8F-68-1E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>7381E5</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>29-56-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon No Overheat" Description="">
+  <Cheat Text="Weapon 不会过热" Description="">
     <Cheatline>
       <Offset>647A86</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C4-C1-7A-58-87-2C-28-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Ammo on Reload" Description="">
+  <Cheat Text="最大 无限弹药 on Reload" Description="">
     <Cheatline>
       <Offset>7373D7</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>45-29-F4-31-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Grenade on Use" Description="">
+  <Cheat Text="最大 Infinite 手榴弹 on Use" Description="">
     <Cheatline>
       <Offset>11F388C</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>41-89-44-24-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Spend" Description="">
+  <Cheat Text="金钱最大 on Spend" Description="">
     <Cheatline>
       <Offset>11F387C</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>89-87-94-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mx Resources On sell" Description="">
+  <Cheat Text="Mx Resources On sell｜Mx Resources 正在出售" Description="">
     <Cheatline>
       <Offset>11F386D</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>44-0F-AF-E7-41-29-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Run without Pressing X or L3" Description="">
+  <Cheat Text="Run without Pressing 艾克斯 or L3" Description="">
     <Cheatline>
       <Offset>C0114B</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>0D-00-00-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Countup Timer - STORY-LIN-DS" Description="">
+  <Cheat Text="Freeze Countup 计时器 - STORY-LIN-DS" Description="">
     <Cheatline>
       <Offset>728A8E</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C5-FA-58-84-C7-68-46-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Countdown Timer - DS" Description="">
+  <Cheat Text="Freeze Countdown 计时器 - DS" Description="">
     <Cheatline>
       <Offset>9A98</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>C5-FA-11-8B-9C-0F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Combo Count - Mercenaries" Description="">
+  <Cheat Text="Freeze Combo Count - 雇佣兵" Description="">
     <Cheatline>
       <Offset>3A51A</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>C4-A1-7A-11-94-21-E4-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Bonus Combo Time - Mercenaries" Description="">
+  <Cheat Text="Freeze Bonus Combo Time - 雇佣兵" Description="">
     <Cheatline>
       <Offset>3A591</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>C4-A1-7A-11-8C-20-EC-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Countdown Timer - Mercenaries" Description="">
+  <Cheat Text="Freeze Countdown 计时器 - 雇佣兵" Description="">
     <Cheatline>
       <Offset>4621F</Offset>
       <Section>0</Section>

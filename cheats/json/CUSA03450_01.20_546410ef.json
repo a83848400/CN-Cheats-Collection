@@ -1,12 +1,17 @@
 {
-  "name": "Fallout 4",
+  "name": "Fallout 4｜辐射4",
   "id": "CUSA03450",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB7D26",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "x2 Item Each use (Use and deactivate)",
-      "type": "checkbox",
+      "name": "x2 物品 Each use (Use and deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "109491",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "256 Skill Points (After one use)",
-      "type": "button",
+      "name": "256 Skill 得分 (After one use)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "AF5D21",

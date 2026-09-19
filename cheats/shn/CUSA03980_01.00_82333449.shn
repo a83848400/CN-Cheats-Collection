@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="BioShock: The Collection" Moder="Talixme" Cusa="CUSA03980" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>85BD25</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Salt">
+  <Cheat Text="Infinite 盐">
     <Cheatline>
       <Offset>D8F388</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>8B3998</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>03-55-A4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>D8F1CF</Offset>
       <Section>0</Section>

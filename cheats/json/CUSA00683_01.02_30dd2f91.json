@@ -1,12 +1,17 @@
 {
-  "name": "Metro Redux",
+  "name": "Metro Redux｜《Metro Redux》",
   "id": "CUSA00683",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (-Trolley Combat)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (-Trolley Combat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33B20",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (-Bosses)",
-      "type": "checkbox",
+      "name": "一击必杀 (-Bosses)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33B64",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Infinite Gold (Bullets)",
-      "type": "checkbox",
+      "name": "无限金币 (项目符号)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33B40",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo - *No Reload Needed",
-      "type": "checkbox",
+      "name": "无限弹药 - *无需换弹 Needed",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F2648",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (DShK 12.7mm Machinegun)",
-      "type": "checkbox",
+      "name": "无限弹药 (DShK 12.7mm Machinegun)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26DA83",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "Low Temperature (DShK 12.7mm Machinegun)",
-      "type": "checkbox",
+      "name": "Low Temperature (DShK 12.7mm Machinegun)｜低温（DShK 12.7毫米机枪）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33C50",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "Infinite Pressure (Tikhar + Flamethrower + Helsing)",
-      "type": "checkbox",
+      "name": "Infinite Pressure (Tikhar + 火焰喷射器 + Helsing)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33940",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "Infinite Charge (Hellbreath)",
-      "type": "checkbox",
+      "name": "Infinite 冲锋 (Hellbreath)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33C90",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "No Weapons Jam",
-      "type": "checkbox",
+      "name": "No 武器 Jam",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33A00",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "Mask: Unbreakable",
-      "type": "checkbox",
+      "name": "面具: Unbreakable",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33C20",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Mask: Infinite Filter",
-      "type": "checkbox",
+      "name": "面具: Infinite Filter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33AB0",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Mask: Infinite Filter Replacements",
-      "type": "checkbox",
+      "name": "面具: Infinite Filter Replacements",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33A90",
@@ -212,8 +217,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades And Knives",
-      "type": "checkbox",
+      "name": "手雷无限 And Knives",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33AD0",
@@ -228,8 +233,8 @@
       ]
     },
     {
-      "name": "Infinite Claymore Mines (Last Light)",
-      "type": "checkbox",
+      "name": "Infinite 阔剑 Mines (Last Light)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33BD0",
@@ -244,8 +249,8 @@
       ]
     },
     {
-      "name": "Aim Cross Stays Small",
-      "type": "checkbox",
+      "name": "Aim 传中 Stays Small",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33A40",
@@ -260,8 +265,8 @@
       ]
     },
     {
-      "name": "Machine 'Crazy-Horse' Gun",
-      "type": "checkbox",
+      "name": "机械生命体 'Crazy-Horse' Gun",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33A60",
@@ -276,8 +281,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x1",
-      "type": "checkbox",
+      "name": "Infinite 电池 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33845",
@@ -292,8 +297,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x4",
-      "type": "checkbox",
+      "name": "Infinite 电池 x4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33845",
@@ -308,8 +313,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x8",
-      "type": "checkbox",
+      "name": "Infinite 电池 x8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33845",
@@ -324,8 +329,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries x20",
-      "type": "checkbox",
+      "name": "Infinite 电池 x20",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E33845",

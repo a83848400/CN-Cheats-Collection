@@ -1,12 +1,17 @@
 {
-  "name": "Tales of Zestiria",
+  "name": "传说系列 Zestiria",
   "id": "CUSA02510",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Experience",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "114FBD0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "999 items (on use/get)",
-      "type": "checkbox",
+      "name": "999 items (on use/get)｜999 件物品（使用/获取时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "114FA50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Gald (on buy)",
-      "type": "checkbox",
+      "name": "最大 剩下的 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "114FC70",

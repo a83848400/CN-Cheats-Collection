@@ -1,12 +1,17 @@
 {
-  "name": "No Man's Sky",
+  "name": "No Man's 光·遇",
   "id": "CUSA04841",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "999 Minerals (on gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "999 晶体矿 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E2F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "999 Minerals (on use)",
-      "type": "checkbox",
+      "name": "999 晶体矿 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E340",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "999 (on consume for food deactivate to discard items)",
-      "type": "checkbox",
+      "name": "999 (关于“consume” for food deactivate to 弃牌 items)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EBC0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "999 Salvaged Data (on spend)",
-      "type": "checkbox",
+      "name": "999 Salvaged Data (on spend)｜999 恢复数据（按支出计算）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite jetpack",
-      "type": "checkbox",
+      "name": "Infinite 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DE80",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Sprint",
-      "type": "checkbox",
+      "name": "Infinite Sprint｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DF20",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "999999999 Units (on gain)",
-      "type": "checkbox",
+      "name": "999999999 Units (on gain)｜999999999 个单位（增益状态下）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3DE0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "999999999 Nanites (on gain",
-      "type": "checkbox",
+      "name": "999999999 Nanites (on gain｜999999999 个纳米机器人（正在获取中）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3E40",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Infinte Ammo",
-      "type": "checkbox",
+      "name": "Infinte Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1226F9F",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Infinite Pet Sprint",
-      "type": "checkbox",
+      "name": "Infinite Pet Sprint｜无限宠物冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F590",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Infinite ExoMech Jetpack",
-      "type": "checkbox",
+      "name": "Infinite ExoMech 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "149D866",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "999999999 Quicksilver (on spend)",
-      "type": "checkbox",
+      "name": "999999999 时之砂 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE70",

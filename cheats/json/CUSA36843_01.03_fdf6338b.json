@@ -1,12 +1,17 @@
 {
-  "name": "Red Dead Redemption",
+  "name": "Red Dead Redemption｜荒野大镖客",
   "id": "CUSA36843",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "GodMode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "GodMode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F47C79",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite selling works 2x",
-      "type": "checkbox",
+      "name": "Infinite selling works 2x｜无限销售法效果加倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "467B60",
@@ -33,7 +38,7 @@
     },
     {
       "name": "Free Fack",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C33EF3",

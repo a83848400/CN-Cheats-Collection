@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 6" Moder="hejran7" Cusa="CUSA03856" Version="01.00" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Max Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Health｜生命最大" Description="">
     <Cheatline>
       <Offset>712424</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>66-89-8B-68-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>B324D0</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>66-89-54-4F-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Ammo Items" Description="">
+  <Cheat Text="最大 无限弹药 Items" Description="">
     <Cheatline>
       <Offset>B323ED</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>0F-BF-44-47-0E</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Max Stamina - Air ????" Description="">
+  <Cheat Text="体力最大 - Air ????" Description="">
     <Cheatline>
       <Offset>79DAC3</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C4-C1-7A-11-8E-50-47-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points on Spend" Description="">
+  <Cheat Text="最大 Skill 得分 on Spend" Description="">
     <Cheatline>
       <Offset>6A771C</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>29-83-18-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Auto Escape from Grab" Description="">
+  <Cheat Text="Auto Escape from Grab｜从Grab自动退出" Description="">
     <Cheatline>
       <Offset>DF9D1</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C7-43-38-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Countup Timer - Story" Description="">
+  <Cheat Text="Freeze Countup 计时器 - Story" Description="">
     <Cheatline>
       <Offset>B22EE3</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-FA-11-84-07-40-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Countdown Timer-Mercenaries" Description="">
+  <Cheat Text="Freeze Countdown 计时器-雇佣兵" Description="">
     <Cheatline>
       <Offset>14A568</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C4-C1-7A-11-87-68-46-00-00</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Combo Count Never Dec-Mercenaries" Description="">
+  <Cheat Text="Combo Count Never Dec-雇佣兵" Description="">
     <Cheatline>
       <Offset>14AFBD</Offset>
       <Section>0</Section>

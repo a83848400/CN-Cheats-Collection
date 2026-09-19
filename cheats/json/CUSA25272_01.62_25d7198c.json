@@ -1,12 +1,17 @@
 {
-  "name": "The King of Fighters XV",
+  "name": "The 金 of Fighters XV",
   "id": "CUSA25272",
   "version": "01.62",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Both Player Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Both Player 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0F43C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "P1 INF Health turn off both player",
-      "type": "checkbox",
+      "name": "P1 无限生命 回合 off both player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6303800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Player 1 Inf Super ",
-      "type": "checkbox",
+      "name": "Player 1 无限超级 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6303820",

@@ -1,12 +1,17 @@
 {
-  "name": "Nights of Azure 2: Bride of the New Moon",
+  "name": "Nights of Azure 2: Bride of the New Moon｜《蔚蓝之夜2：新月新娘》",
   "id": "CUSA09910",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Infinite Health + One Hit Kill ( must be activate )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 无限生命 + 一击必杀 ( must be activate )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87DAB",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health [MC]",
-      "type": "checkbox",
+      "name": "无限生命 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87DB6",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [MC]",
-      "type": "checkbox",
+      "name": "一击必杀 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87DC9",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87F20",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Skill no Cooldown",
-      "type": "checkbox",
+      "name": "Skill 无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87E04",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Double Chase Gauge",
-      "type": "checkbox",
+      "name": "Infinite Double 追击 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87E19",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Tension Gauge",
-      "type": "checkbox",
+      "name": "最大 蓄力 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87E33",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Blood",
-      "type": "checkbox",
+      "name": "最大 Blood",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87E48",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Max Libra",
-      "type": "checkbox",
+      "name": "最大 Libra",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87E5F",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Max Ability Points",
-      "type": "checkbox",
+      "name": "最大 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87E76",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Max Servan Points",
-      "type": "checkbox",
+      "name": "最大 Servan 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87E8D",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Max Level Aluche",
-      "type": "checkbox",
+      "name": "等级最大 Aluche",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87EA3",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Max XP Lilly ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP Lilly ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87EB6",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Max Affinity Level",
-      "type": "checkbox",
+      "name": "最大 牵绊 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87ECD",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "Max Combo ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Combo ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87EE0",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Infinite Moon Phase",
-      "type": "checkbox",
+      "name": "Infinite Moon 阶段",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87EF3",
@@ -251,8 +256,8 @@
       ]
     },
     {
-      "name": "Freeze Mission Timer",
-      "type": "checkbox",
+      "name": "Freeze Mission Timer｜冻结任务计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271748",
@@ -262,8 +267,8 @@
       ]
     },
     {
-      "name": "Set Mission Timer ( 1 hour )",
-      "type": "checkbox",
+      "name": "Set Mission 计时器 ( 1 hour )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B87F06",

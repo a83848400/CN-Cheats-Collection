@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Fantasy VII Remake" Moder="M3hdi PS" Cusa="CUSA07187" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="INF HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>DFB8D1</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>44-89-74-08-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add GIL When Buying">
+  <Cheat Text="Add 基尔 When Buying">
     <Cheatline>
       <Offset>E560D8</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>44-89-B4-C3-3C-56-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freez GIL">
+  <Cheat Text="Freez 基尔">
     <Cheatline>
       <Offset>E560D8</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>44-89-B4-C3-3C-56-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add Item When Buying">
+  <Cheat Text="Add 物品 When Buying">
     <Cheatline>
       <Offset>E41E6F</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>89-11</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freez Mp">
+  <Cheat Text="Freez Mp｜把我冻住">
     <Cheatline>
       <Offset>DFBBD8</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>44-89-74-08-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="ADD Mp">
+  <Cheat Text="ADD Mp｜添加 MP">
     <Cheatline>
       <Offset>DFBBD8</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>44-89-74-08-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX ATB">
+  <Cheat Text="最大 主动时间战斗">
     <Cheatline>
       <Offset>DFB656</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-44-08-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freez Special LIMIT">
+  <Cheat Text="Freez Special LIMIT｜Freez 特别限量版">
     <Cheatline>
       <Offset>DFBF76</Offset>
       <Section>0</Section>

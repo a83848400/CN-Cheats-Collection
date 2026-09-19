@@ -1,12 +1,17 @@
 {
-  "name": "Dark Souls II: Scholar of the First Sin",
+  "name": "黑暗之魂 II: Scholar of the First Sin",
   "id": "CUSA01760",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode + 1 hit kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "上帝模式 + 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2077800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max souls on gain",
-      "type": "checkbox",
+      "name": "灵魂最大 on gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "403DCE",

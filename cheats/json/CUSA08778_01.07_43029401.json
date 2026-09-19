@@ -1,12 +1,17 @@
 {
-  "name": "Earth Defense Force: Iron Rain",
+  "name": "土 防御 原力: Iron Rain",
   "id": "CUSA08778",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (Disable outside Mission)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 (Disable outside Mission)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Money (on spend disable before mission starts)",
-      "type": "checkbox",
+      "name": "Money (on spend disable before mission starts)｜金钱（在任务开始前禁用消费功能）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FC10",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Blue Gems (on spend disable before mission starts)",
-      "type": "checkbox",
+      "name": "Blue Gems (on spend disable before mission starts)｜蓝色宝石（在任务开始前，若消费已禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FC90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "infinite Throwable/Items/Boost (Disable outside Mission)",
-      "type": "checkbox",
+      "name": "infinite Throwable/Items/Boost (Disable outside Mission)｜无限投掷物/物品/增益（任务外禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FCA0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Yellow Gems (on spend disable before mission starts)",
-      "type": "checkbox",
+      "name": "Yellow Gems (on spend disable before mission starts)｜黄色宝石（在任务开始前，通过消费可解锁）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE7BE20",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Red Gems (on spend disable before mission starts)",
-      "type": "checkbox",
+      "name": "Red Gems (on spend disable before mission starts)｜红色宝石（在任务开始前，消费功能已禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE7BE40",

@@ -1,13 +1,18 @@
 {
-  "name": "Creature in the Well",
+  "name": "随从 in the Well",
   "id": "CUSA17838",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "description": "",
-      "name": "Inf Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "description": "",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "659363",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "description": "Each point gives 10 more energy.",
-      "name": "Easy Energy",
-      "type": "checkbox",
+      "description": "Each point gives 10 more 能量.",
+      "name": "简单 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D9B000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "description": "In case you want to reset the energy.",
-      "name": "0 Energy",
-      "type": "checkbox",
+      "description": "In 箱子 you want to reset the 能量.",
+      "name": "0 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D9B02F",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "description": "Not recommended as it makes the game very boring.",
-      "name": "Max Energy",
-      "type": "checkbox",
+      "description": "Not recommended as it makes the game very boring.｜不建议这样做，因为这会让游戏变得非常无聊。",
+      "name": "最大 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D9B060",

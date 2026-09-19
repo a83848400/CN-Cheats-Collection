@@ -1,13 +1,18 @@
 {
-  "name": "Curse of the Dead Gods",
+  "name": "紧箍咒 of the Dead Gods",
   "id": "CUSA19412",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10AB000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10AB046",
@@ -49,9 +54,9 @@
       ]
     },
     {
-      "name": "Inf Gold",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10AB0B0",
@@ -66,9 +71,9 @@
       ]
     },
     {
-      "name": "Inf Skulls",
+      "name": "无尽骷髅",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10AB0F5",
@@ -83,9 +88,9 @@
       ]
     },
     {
-      "name": "Inf Rings",
+      "name": "Infinite 金环",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10AB124",
@@ -100,9 +105,9 @@
       ]
     },
     {
-      "name": "No Corruption",
+      "name": "No 腐化",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10AB153",

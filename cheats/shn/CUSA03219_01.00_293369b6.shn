@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Star Ocean: Integrity and Faithlessness" Moder="Molly" Cusa="CUSA03219" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Have All Usable Items &quot;After Buy Or Sell&quot;">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Have All Usable Items &quot;After Buy Or Sell&quot;｜将所有“买卖后”的可用物品保留下来">
     <Cheatline>
       <Offset>95B800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>46-89-BC-B3-20-62-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>95BD2B</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-83-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats &quot;After Level Up&quot;">
+  <Cheat Text="最大 属性 &quot;After 升级&quot;">
     <Cheatline>
       <Offset>95BD3B</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>C5-FA-11-83-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money  &quot;After Buy&quot;">
+  <Cheat Text="金钱最大  &quot;After Buy&quot;">
     <Cheatline>
       <Offset>95BD6B</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>89-87-E0-99-07-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max SP &quot;After Gain&quot;">
+  <Cheat Text="最大 精神值 &quot;增益后&quot;">
     <Cheatline>
       <Offset>95BD7B</Offset>
       <Section>0</Section>

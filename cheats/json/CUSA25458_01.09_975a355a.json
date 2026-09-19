@@ -1,12 +1,17 @@
 {
-  "name": "R-Type Final 2",
+  "name": "R-属性 Final 2",
   "id": "CUSA25458",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "2 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "2 命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64D1670",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinte Life",
-      "type": "checkbox",
+      "name": "Infinte 生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64D14C0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Score",
-      "type": "checkbox",
+      "name": "最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64D1500",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Coin",
-      "type": "checkbox",
+      "name": "最大 Coin",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64D1540",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "High Beam Shooter Always Max",
-      "type": "checkbox",
+      "name": "High Beam Shooter Always 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64D15E0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Dose is always full and available",
-      "type": "checkbox",
+      "name": "Dose is always full and available｜Dose 始终库存充足，随时可供",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64D1630",

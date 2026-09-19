@@ -1,12 +1,17 @@
 {
-  "name": "Samurai Aces",
+  "name": "武士 Aces",
   "id": "SLES53872",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives-99",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE93218",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb-99",
-      "type": "checkbox",
+      "name": "无限炸弹-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE932F2",

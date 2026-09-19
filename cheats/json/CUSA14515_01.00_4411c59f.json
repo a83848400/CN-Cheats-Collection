@@ -1,12 +1,17 @@
 {
-  "name": "Gladiator: Blades of Fury",
+  "name": "Gladiator: Blades of Fury｜《角斗士：怒刃》",
   "id": "CUSA14515",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17D7DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17D7DDE",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Timer",
-      "type": "checkbox",
+      "name": "Infinite 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17D7DF4",

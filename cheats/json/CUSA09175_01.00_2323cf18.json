@@ -1,12 +1,17 @@
 {
-  "name": "Days Gone",
+  "name": "Days Gone｜《Days Gone》",
   "id": "CUSA09175",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "012F89B7",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "012E4BC7",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "012E95B0",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0157CD8D",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Nitrogen",
-      "type": "checkbox",
+      "name": "Infinite Nitrogen｜无限氮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "015ABB09",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Silencer",
-      "type": "checkbox",
+      "name": "Infinite Silencer｜无限消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "016A098E",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Bandages",
-      "type": "checkbox",
+      "name": "Infinite Bandages｜无限绷带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "012E95FD",

@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts: HD 1.5 + 2.5 ReMIX",
+  "name": "王国之心: HD 1.5 + 2.5 ReMIX",
   "id": "CUSA05933",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2C1EE0C",

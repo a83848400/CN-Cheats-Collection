@@ -1,12 +1,17 @@
 {
-  "name": "Police Simulator: Patrol Officers",
+  "name": "Police Simulator: 巡逻 Officers",
   "id": "CUSA19608",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max SP (on Get after second gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 精神值 (on Get after second gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FBFBE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max CP (on lose)",
-      "type": "checkbox",
+      "name": "最大 CP (on lose)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FBFC50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite ammo (handgun)",
-      "type": "checkbox",
+      "name": "无限弹药 (手枪)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FBFCD0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (stun gun)",
-      "type": "checkbox",
+      "name": "无限弹药 (stun gun)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FBFA10",

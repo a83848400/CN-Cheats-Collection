@@ -1,13 +1,18 @@
 {
-  "name": "Shaq Fu: A Legend Reborn",
+  "name": "Shaq Fu: A 传奇 重生",
   "id": "CUSA11758",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Special",
+      "name": "《无限特辑》",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "806E9350",

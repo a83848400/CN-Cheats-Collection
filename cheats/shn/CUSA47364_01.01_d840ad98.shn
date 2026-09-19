@@ -32,7 +32,15 @@
       <ValueOff>E9-33-08-F0-03</ValueOff>
     </Cheatline>
   </StartUP>
-    <Cheat Text="Infinite-lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+    <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>825E6EAE</Offset>
       <Section>0</Section>

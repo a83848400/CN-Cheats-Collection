@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D850",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Experience (Use Only Once)",
-      "type": "checkbox",
+      "name": "最大 Experience (Use Only Once)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Items/Ammo x99 (on use)",
-      "type": "checkbox",
+      "name": "Items/但是 x99 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D970",

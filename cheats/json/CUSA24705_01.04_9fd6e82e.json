@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Forbidden West",
+  "name": "地平线 Forbidden West",
   "id": "CUSA24705",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FCA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "All items Shards / Ammo (on use/craft must have 2) Activate both item cheat",
-      "type": "checkbox",
+      "name": "所有商品 Shards / 但是 (on use/craft must have 2) Activate both 物品 cheat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FC40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "All items Shards / Ammo (on gain/craft must have 2) Activate both item cheat",
-      "type": "checkbox",
+      "name": "所有商品 Shards / 但是 (on gain/craft must have 2) Activate both 物品 cheat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9FF50",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Skill Points Increase (on spend have 2)",
-      "type": "checkbox",
+      "name": "Skill 得分 Increase (on spend have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F440F8",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9F790",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Aim Focus",
-      "type": "checkbox",
+      "name": "Infinite Aim 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9F5D0",

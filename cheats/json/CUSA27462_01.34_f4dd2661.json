@@ -1,12 +1,17 @@
 {
-  "name": "Aliens: Fireteam Elite",
+  "name": "Aliens: Fireteam 精英",
   "id": "CUSA27462",
   "version": "01.34",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/Team",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/Team",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F1F780",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11F0C55",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11F0C9D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Medkits",
-      "type": "checkbox",
+      "name": "Infinite Medkits｜无限医疗包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F37F82",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables",
-      "type": "checkbox",
+      "name": "Infinite Consumables｜无限消耗品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F37FBC",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Credits/Rep Scrip",
-      "type": "checkbox",
+      "name": "最大/无限积分/声望 Scrip",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F1F820",

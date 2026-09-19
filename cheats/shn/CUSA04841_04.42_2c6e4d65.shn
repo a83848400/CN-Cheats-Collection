@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite - Player Sheild">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite - Player Sheild｜Infinite - 玩家护盾">
     <Cheatline>
       <Offset>DAB6C1</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>39-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite - Player Health">
+  <Cheat Text="Infinite - Player 生命">
     <Cheatline>
       <Offset>27A637</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>39-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite - StarShip Sheild">
+  <Cheat Text="Infinite - StarShip Sheild｜Infinite - 星舰护盾">
     <Cheatline>
       <Offset>DAB633</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>39-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite - StarShip Health">
+  <Cheat Text="Infinite - StarShip 生命">
     <Cheatline>
       <Offset>27A60C</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>39-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Units - On Gain">
+  <Cheat Text="单位数量最大 - On Gain">
     <Cheatline>
       <Offset>285BCE</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>0F-43-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Nanites - On Gain">
+  <Cheat Text="最大 Nanites - On Gain">
     <Cheatline>
       <Offset>2722DE</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>0F-43-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Quicksliver - On Gain">
+  <Cheat Text="最大 Quicksliver - On Gain">
     <Cheatline>
       <Offset>285C8B</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>0F-43-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Units">
+  <Cheat Text="冰冻 - Units">
     <Cheatline>
       <Offset>285AB4</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Nanites">
+  <Cheat Text="冰冻 - Nanites">
     <Cheatline>
       <Offset>285B34</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Quicksilver">
+  <Cheat Text="冰冻 - 时之砂">
     <Cheatline>
       <Offset>285B98</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Mining Beam">
+  <Cheat Text="冰冻 - 采矿 Beam">
     <Cheatline>
       <Offset>D5A553</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>29-41-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Terrain Manipulator">
+  <Cheat Text="冰冻 - 地形 Manipulator">
     <Cheatline>
       <Offset>EA3B4F</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>4C-8D-25-AA-7F-59-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Boltcaster Ammo">
+  <Cheat Text="冰冻 - Boltcaster 但是">
     <Cheatline>
       <Offset>D694E3</Offset>
       <Section>0</Section>
@@ -107,7 +115,7 @@
       <ValueOff>41-89-84-8D-18-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Plasma Launcher Ammo">
+  <Cheat Text="冰冻 - 等离子 挑空技 但是">
     <Cheatline>
       <Offset>D68619</Offset>
       <Section>0</Section>
@@ -115,7 +123,7 @@
       <ValueOff>41-FF-4E-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frozen - Scatter Blaster Ammo">
+  <Cheat Text="冰冻 - Scatter 爆能枪 但是">
     <Cheatline>
       <Offset>D694E0</Offset>
       <Section>0</Section>

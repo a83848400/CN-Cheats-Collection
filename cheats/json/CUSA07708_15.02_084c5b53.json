@@ -1,12 +1,17 @@
 {
-  "name": "Monster Hunter: World",
+  "name": "怪物猎人: World",
   "id": "CUSA07708",
   "version": "15.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "invisible to Monsters",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "不可见 to Monsters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F0DFF3",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Health",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CDE4AA",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E4874E",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf Item",
-      "type": "checkbox",
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A223C1",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "inf Item Pouch",
-      "type": "checkbox",
+      "name": "Infinite 物品 皮袋",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A22521",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max Money on purchase from women armoery",
-      "type": "checkbox",
+      "name": "金钱最大 on purchase from women armoery",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "433296D",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Item max when roll back in craft",
-      "type": "checkbox",
+      "name": "物品 最大 when roll back in craft",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A2226F",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "item incress when sawp with high number in sell box",
-      "type": "checkbox",
+      "name": "物品 incress when sawp with high 数值 in sell box",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41BD57B",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "incress res on get",
-      "type": "checkbox",
+      "name": "incress res on get｜在 get 操作中增加资源",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A22536",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Max PTS on get ",
-      "type": "checkbox",
+      "name": "最大 PTS on get ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED705B",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "max throwable stons",
-      "type": "checkbox",
+      "name": "最大 throwable stons",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "467BBCC",

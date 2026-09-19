@@ -1,12 +1,17 @@
 {
-  "name": "Odin Sphere: Leifthrasir",
+  "name": "奥丁 Sphere: Leifthrasir",
   "id": "CUSA05083",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Use Cheats on Refined mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Use Cheats on Refined mode｜在“精炼”模式下使用作弊码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Phozon On Gain",
-      "type": "checkbox",
+      "name": "最大 Phozon On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "475729",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Gold On Buy",
-      "type": "checkbox",
+      "name": "金币最大 On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66F0A5",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Ability Point On Usage",
-      "type": "checkbox",
+      "name": "最大 特性 Point On Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5DA116",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Exp on Gain",
-      "type": "checkbox",
+      "name": "经验值最大 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "475A3B",

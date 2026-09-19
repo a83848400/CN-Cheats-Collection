@@ -1,12 +1,17 @@
 {
-  "name": "One Piece: Pirate Warriors 4",
+  "name": "海贼王: Pirate Warriors 4",
   "id": "CUSA17226",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max inf skills charge",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限技能 冲锋",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "193CA8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "max combo",
-      "type": "checkbox",
+      "name": "最大 combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3C8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "INFINITE STAMINA",
-      "type": "checkbox",
+      "name": "INFINITE STAMINA｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16CC12",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "max money on use",
-      "type": "checkbox",
+      "name": "金钱最大 on use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69F804",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "infinite materials",
-      "type": "checkbox",
+      "name": "infinite materials｜无限材料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69F971",

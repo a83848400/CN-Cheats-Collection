@@ -1,12 +1,17 @@
 {
-  "name": "God of War (2018)",
+  "name": "战神 (2018)",
   "id": "CUSA07413",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health and Rage",
-      "type": "checkbox",
+      "name": "无限生命 and 怒气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF800",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Vampyr" Moder="2B" Cusa="CUSA03293" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="MaX XP (use it for one kill then turn it off)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 XP (use it for one kill then 回合 it off)">
     <Cheatline>
       <Offset>4DEF800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C7-80-D0-04-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP">
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>4DEF819</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>E9-B0-BA-C2-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Money">
+  <Cheat Text="金钱无限">
     <Cheatline>
       <Offset>4DEF85E</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>01-B0-44-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf Stamina">
+  <Cheat Text="无限耐力">
     <Cheatline>
       <Offset>4DEF821</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-83-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Blood">
+  <Cheat Text="无尽之血">
     <Cheatline>
       <Offset>4DEF89A</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C5-FA-11-83-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>49EF8A2</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>41-89-85-78-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Craft Recycle (on sell)">
+  <Cheat Text="无限工坊 Recycle (on sell)">
     <Cheatline>
       <Offset>4DEF8C7</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>41-89-8D-70-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items (on get)">
+  <Cheat Text="道具无限 (on get)">
     <Cheatline>
       <Offset>4DEF8DA</Offset>
       <Section>0</Section>

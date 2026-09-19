@@ -1,12 +1,17 @@
 {
-  "name": "The Hong Kong Massacre",
+  "name": "The Hong Kong Massacre｜香港大屠杀",
   "id": "CUSA12943",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Slow Motion Power",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 慢动作 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153BDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Stars",
-      "type": "checkbox",
+      "name": "最大 Stars",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153BDD5",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Ammo",
-      "type": "checkbox",
+      "name": "Max Ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153BDE9",

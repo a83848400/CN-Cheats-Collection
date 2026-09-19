@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Atomfall" Moder="Ali-mk" Cusa="CUSA42503" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(mc)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-4B-68</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Ammo">
+    <Cheat Text="Infinite-Ammo｜无限弹药">
     <Cheatline>
       <Offset>BC0328</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-70-04</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Ammo-Never-Reload">
+    <Cheat Text="无限子弹-无需装弹">
     <Cheatline>
       <Offset>B67DB0</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E8-0B-A8-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-SkillS-Points-(MC)">
+    <Cheat Text="最大-SkillS-得分-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-83-E0-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Rapid-Fire">
+    <Cheat Text="Rapid-火">
     <Cheatline>
       <Offset>B54139</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>E8-12-3C-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health-2-(mc)">
+    <Cheat Text="Infinite-生命-2-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C5-FA-11-4B-68</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-All-Items-(MC)">
+    <Cheat Text="最大-所有商品-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>E9-D3-B4-44-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Invincible-1-(mc)">
+    <Cheat Text="无敌-1-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Minoria",
+  "name": "Minoria｜少数群体",
   "id": "CUSA19057",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "185BDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Incense",
-      "type": "checkbox",
+      "name": "Infinite Incense｜无尽香",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "185BAA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Heavy Thrust",
-      "type": "checkbox",
+      "name": "Infinite 重装兵 Thrust",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "185BB00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Silver Coins",
-      "type": "checkbox",
+      "name": "Infinite Silver Coins｜无限银币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "185BC20",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Max Xp On Kill",
-      "type": "checkbox",
+      "name": "最大 Xp On Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

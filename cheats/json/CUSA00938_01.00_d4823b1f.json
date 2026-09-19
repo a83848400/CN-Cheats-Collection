@@ -1,12 +1,17 @@
 {
-  "name": "Homefront: The Revolution",
+  "name": "Homefront: The Revolution｜《家园：革命》",
   "id": "CUSA00938",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15AE17",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Item and Ammo",
-      "type": "checkbox",
+      "name": "Infinite 物品 and 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1832A03",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8B400E",
@@ -38,13 +43,13 @@
       ]
     },
     {
-      "name": "Infinite Hack Time",
-      "type": "checkbox",
+      "name": "Infinite Hack Time｜无限黑客时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FED74",
           "on": "93",
-          "off": "8B"
+          "off": "8B｜八B班"
         }
       ]
     }

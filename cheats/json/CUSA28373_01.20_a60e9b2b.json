@@ -1,12 +1,17 @@
 {
-  "name": "F.I.S.T.: Forged In Shadow Torch",
+  "name": "F.I.S.恐怖分子.: Forged In 暗影 火把",
   "id": "CUSA28373",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37DED",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37E04",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37E1B",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite EP",
-      "type": "checkbox",
+      "name": "Infinite EP｜《Infinite》EP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37E35",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37E50",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Data Disk",
-      "type": "checkbox",
+      "name": "最大 Data Disk",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37E67",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Plant Seeds",
-      "type": "checkbox",
+      "name": "最大 埋包 Seeds",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37E7E",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Multi Jump",
-      "type": "checkbox",
+      "name": "Multi Jump｜多跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8C37E90",

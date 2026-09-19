@@ -1,12 +1,17 @@
 {
-  "name": "Elex",
+  "name": "Elex｜电子",
   "id": "CUSA04317",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Items",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BC8CA",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Use Attribute/Learning Point for Max Skill and Ability",
-      "type": "checkbox",
+      "name": "Use 属性/Learning Point for 最大 Skill and 特性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1867800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Items and Money On Use/Sell/Buy",
-      "type": "checkbox",
+      "name": "最大 Items and 金钱 On Use/Sell/Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1867800",

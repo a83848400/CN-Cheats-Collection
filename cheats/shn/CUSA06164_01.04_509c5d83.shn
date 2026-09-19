@@ -6,7 +6,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>F284EE</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>C5-FA-5D-8F-C8-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>11C3A6E</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>2B-8A-A4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>10648D6</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-58-05-07-42-08-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Parts" Description="">
+  <Cheat Text="Infinite Weapon Parts｜无限武器部件" Description="">
     <Cheatline>
       <Offset>11C056E</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>44-01-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on 2nd Pick" Description="">
+  <Cheat Text="最大 Items on 2nd Pick" Description="">
     <Cheatline>
       <Offset>11C10A6</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>0F-4E-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bottles" Description="">
+  <Cheat Text="Infinite 玻璃瓶" Description="">
     <Cheatline>
       <Offset>11C0B19</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>29-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resources" Description="">
+  <Cheat Text="Infinite Resources｜资源无限" Description="">
     <Cheatline>
       <Offset>11C1709</Offset>
       <Section>0</Section>

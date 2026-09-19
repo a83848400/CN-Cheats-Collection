@@ -1,12 +1,17 @@
 {
-  "name": "Batman: Arkham Knight",
+  "name": "Batman: Arkham 骑士",
   "id": "CUSA00133",
   "version": "01.14",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "274F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Disable Inf Skillpoints)",
-      "type": "checkbox",
+      "name": "一击必杀 (Disable 无限技能点)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7507DF",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Skillpoints (Disable 1 Hit Before Using)",
-      "type": "checkbox",
+      "name": "无限技能点 (Disable 1 Hit Before Using)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7507DD",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Hit for Max Special Combo",
-      "type": "checkbox",
+      "name": "Hit for 最大 Special Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "274FC53",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite BatMobile Health/Armour",
-      "type": "checkbox",
+      "name": "Infinite BatMobile 生命/Armour",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "274FC35",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Easily Destory Enemy Tanks",
-      "type": "checkbox",
+      "name": "Easily Destory Enemy Tanks｜轻松摧毁敌方坦克",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "274F863",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Missile Barrage",
-      "type": "checkbox",
+      "name": "无限导弹 Barrage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "274F820",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Infinite Afterburner",
-      "type": "checkbox",
+      "name": "Infinite Afterburner｜无限加力燃烧室",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "274F837",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Freeze Countdown Timer",
-      "type": "checkbox",
+      "name": "Freeze Countdown 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14635E1",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Freeze Elapse Timer",
-      "type": "checkbox",
+      "name": "Freeze Elapse 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F61594",

@@ -1,12 +1,17 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34390",
   "version": "02.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Cheat Activator",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Cheat Activator｜作弊激活器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172B628",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Godmode*",
-      "type": "checkbox",
+      "name": "上帝模式*",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172BA28",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Rage*",
-      "type": "checkbox",
+      "name": "怒气无限*",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172BA29",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "One-hit Kill*",
-      "type": "checkbox",
+      "name": "One-命中击杀*",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172BA2A",
@@ -55,7 +60,7 @@
     },
     {
       "name": "Instant R3*",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172BA2B",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows*",
-      "type": "checkbox",
+      "name": "箭矢无限*",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172BA2C",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A47102",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Infinite XP/HS/Resources (99,999)",
-      "type": "checkbox",
+      "name": "Infinite XP/HS/Resources (99,999)｜无限经验值/健康值/资源（99,999）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172B828",
@@ -109,7 +114,7 @@
     },
     {
       "name": "100",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172BA08",
@@ -120,7 +125,7 @@
     },
     {
       "name": "1,000",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172BA08",
@@ -131,7 +136,7 @@
     },
     {
       "name": "2,000",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172BA08",
@@ -142,7 +147,7 @@
     },
     {
       "name": "99,999",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172BA08",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Prodeus" Moder="Reddevil82 - FW 9.00" Cusa="CUSA31340" Version="01.06" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invulnerable">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invulnerable｜无敌">
     <Cheatline>
       <Offset>1983DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>24-01-0F-B6-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ignore me ( Enemies won?t attack you )">
+  <Cheat Text="Ignore me ( Enemies won?恐怖分子 攻击 you )">
     <Cheatline>
       <Offset>1983DD0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>24-01-0F-B6-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health ( after hit )">
+  <Cheat Text="无限生命 ( after hit )">
     <Cheatline>
       <Offset>1983DDC</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-8B-44-24-F8-8B-4C-24-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Armor ( after hit )">
+  <Cheat Text="护甲无限 ( after hit )">
     <Cheatline>
       <Offset>1983DF2</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>48-8B-44-24-F8-8B-4C-24-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>19B83F9</Offset>
       <Section>14</Section>
@@ -66,7 +74,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>1983E08</Offset>
       <Section>0</Section>

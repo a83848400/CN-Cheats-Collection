@@ -1,12 +1,17 @@
 {
-  "name": "The Order: 1886",
+  "name": "The Order: 1886｜《The Order: 1886》",
   "id": "CUSA00100",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0070C038",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite AMMO Usage",
-      "type": "checkbox",
+      "name": "无限弹药 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "00752542",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Grenade Usage",
-      "type": "checkbox",
+      "name": "Infinite 手榴弹 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "006E7C0B",
@@ -43,19 +48,19 @@
       ]
     },
     {
-      "name": "Black Sight Aways Available",
-      "type": "checkbox",
+      "name": "黑色 Sight Aways Available",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "005A4D94",
-          "on": "5F",
-          "off": "5D"
+          "on": "5F｜五个“F”",
+          "off": "5D｜五维"
         }
       ]
     },
     {
-      "name": "Infinite Player Health",
-      "type": "checkbox",
+      "name": "Infinite Player 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "009F9240",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Enemy 1 Hit Kill",
-      "type": "checkbox",
+      "name": "Enemy 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "00D5E770",

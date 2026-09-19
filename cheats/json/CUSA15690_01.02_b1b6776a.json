@@ -1,12 +1,17 @@
 {
-  "name": "Frostpunk",
+  "name": "Frostpunk｜《冰霜朋克》",
   "id": "CUSA15690",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "coal never decrease",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "coal never decrease｜煤炭储备永不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DF9AA0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inf overdrive",
-      "type": "checkbox",
+      "name": "Infinite 超必杀技",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0C2B3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "no build cost",
-      "type": "checkbox",
+      "name": "no build cost｜建造无消耗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DF7C85",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "no tech upgrade cost",
-      "type": "checkbox",
+      "name": "no 科技 upgrade cost",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1064686",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "food never decrease",
-      "type": "checkbox",
+      "name": "food never decrease｜食物永远不会减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F658E4",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "inf stockpiles (disable to be able to remove one)",
-      "type": "checkbox",
+      "name": "Infinite stockpiles (disable to be able to remove one)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2713800",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "set all resources to 200 OR",
-      "type": "checkbox",
+      "name": "set all resources to 200 OR｜将所有资源值设为200，或者",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2713812",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "set all resources to 9999",
-      "type": "checkbox",
+      "name": "set all resources to 9999｜将所有资源值设为9999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2713812",

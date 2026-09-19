@@ -1,12 +1,17 @@
 {
-  "name": "South Park: The Stick of Truth",
+  "name": "South Park: The Stick of Truth｜《南方公园：真理之杖》",
   "id": "CUSA04768",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1787800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Godmode Test",
-      "type": "checkbox",
+      "name": "上帝模式 Test",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FDCD3",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Godmode Test 2",
-      "type": "checkbox",
+      "name": "上帝模式 Test 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FDCCF",

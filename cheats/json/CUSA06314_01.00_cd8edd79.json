@@ -1,13 +1,18 @@
 {
-  "name": "Resident Evil: Revelations",
+  "name": "生化危机: Revelations",
   "id": "CUSA06314",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + 1 Hit Kill",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 一击必杀",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36C0FC",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2168B0",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite BP",
+      "name": "Infinite 战斗点数",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4E80E8",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "1000 Kills Trophy After Kill",
+      "name": "1000 Kills Trophy After Kill｜击杀后获得“1000次击杀”奖杯",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C277D",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Max Level After Kill",
+      "name": "等级最大 After Kill",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "506192",

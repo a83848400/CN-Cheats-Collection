@@ -1,13 +1,18 @@
 {
-  "name": "Legacy of Kain Soul Reaver 1 & 2 Remastered",
+  "name": "Legacy of Kain Soul Reaver 1 & 2 Remastered｜《卡因的遗产：灵魂掠夺者》1 & 2 重制版",
   "id": "CUSA44836",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Debug Menu SR1 & SR2",
-      "description": "Enable it when in gameplay. Open/Close it by pressing O+[] ;For SR1 also work PS1 cheat combo without using this cheat, just pause the game and insert the PS1 combo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Debug 菜单 SR1 & SR2",
+      "description": "Enable it when in gameplay. Open/Close it by pressing O+[] ;For SR1 also work PS1 cheat combo without using this cheat, just 暂停 the game and insert the PS1 combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46F02C",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "SR1 - Max Health",
-      "type": "checkbox",
+      "name": "SR1 - 生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B5EED",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "SR1 - One Hit Kill",
-      "description": "The cheat work but remember that some monsters require specific kill",
-      "type": "checkbox",
+      "name": "SR1 - 一击必杀",
+      "description": "The cheat work but remember that some monsters require specific kill｜这些作弊方法确实有效，但请记住，某些怪物需要以特定方式击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B5F51",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "SR1 - Infinite Jump",
-      "type": "checkbox",
+      "name": "SR1 - 无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B5F3C",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "SR2 - Max Health",
-      "type": "checkbox",
+      "name": "SR2 - 生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "86751CD1",
@@ -152,8 +157,8 @@
       ]
     },
     {
-      "name": "SR2 - One Hit Kill",
-      "type": "checkbox",
+      "name": "SR2 - 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "86751D30",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "SR2 - Infinite Soul Reaper Use",
-      "type": "checkbox",
+      "name": "SR2 - 无限之魂 死神 Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "86751D46",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "SR2 - Infinite Jump",
-      "type": "checkbox",
+      "name": "SR2 - 无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "86751D5A",

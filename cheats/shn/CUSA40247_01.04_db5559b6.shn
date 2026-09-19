@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Forgive Me Father" Moder="Saso_9.00" Cusa="CUSA40247" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Health / Armor / Ammo / Skill Points (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命 / Armor / 但是 / Skill 得分 (Master 密码)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>8B-16-89-17-5D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health / Armor">
+  <Cheat Text="无限生命 / Armor">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>74-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>74-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Skill Points (On Use)">
+  <Cheat Text="Infinite Skill 得分 (On Use)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>74-27</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Exp / Levels (Master Code)">
+  <Cheat Text="Fast 经验 / Levels (Master 密码)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>C5-FA-58-45-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x50">
+  <Cheat Text="x50｜乘以五十">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>C7-45-D8-00-00-C8-42</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x100">
+  <Cheat Text="x100｜十倍">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C7-45-D8-00-00-FA-43</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x200">
+  <Cheat Text="x200｜两百">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

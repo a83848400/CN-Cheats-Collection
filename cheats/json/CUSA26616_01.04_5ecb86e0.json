@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto: Vice City - The Definitive Edition",
+  "name": "侠盗猎车手: Vice 城市 - The Definitive Edition",
   "id": "CUSA26616",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (WIP/Experimental)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (WIP/Experimental)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111801C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Armor",
-      "type": "checkbox",
+      "name": "Infinite Armor｜护甲无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1117F59",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1202134",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Money Instantly",
-      "type": "checkbox",
+      "name": "金钱最大 Instantly",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "109E657",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "No Wanted Level (You Must Have 0 Stars)",
-      "type": "checkbox",
+      "name": "无通缉等级 (You Must Have 0 Stars)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "583BF40",

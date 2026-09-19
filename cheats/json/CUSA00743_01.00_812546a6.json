@@ -1,13 +1,18 @@
 {
-  "name": "Peggle 2",
+  "name": "Peggle 2｜《Peggle 2》",
   "id": "CUSA00743",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Have 99 Balls",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Have 99 Balls｜拥有99个球",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1003C13",

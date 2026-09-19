@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy XII: The Zodiac Age",
+  "name": "最终幻想 XII: The 星座 年龄",
   "id": "CUSA05531",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Item",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B7D1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max GIL",
-      "type": "checkbox",
+      "name": "Max GIL｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2902148",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Van XP",
-      "type": "checkbox",
+      "name": "最大 Van XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29044D4",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "99999 LP",
-      "type": "checkbox",
+      "name": "99999 生命值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29044D8",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Add Item",
-      "type": "checkbox",
+      "name": "Add 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B7D1",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B3B2",

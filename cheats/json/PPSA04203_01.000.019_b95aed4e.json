@@ -1,13 +1,18 @@
 {
-  "name": "Sid Meier's Civilization VII",
+  "name": "Sid Meier's 文明 VII",
   "id": "PPSA04203",
   "version": "01.000.019",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Rosources",
-      "description": "Disable after Use",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限资源",
+      "description": "Disable after Use｜使用后禁用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44AF000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Leadership Attributes",
-      "description": "Disable after Use",
-      "type": "checkbox",
+      "name": "无限的领导力特质",
+      "description": "Disable after Use｜使用后禁用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44AF030",

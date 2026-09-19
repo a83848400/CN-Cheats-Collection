@@ -1,12 +1,17 @@
 {
-  "name": "Little Nightmares II",
+  "name": "Little Nightmares II｜《小小噩梦2》",
   "id": "CUSA12779",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Gravity Jump",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Gravity Jump｜重力跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B8A0CB",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Jump Height",
-      "type": "checkbox",
+      "name": "Jump Height｜跳跃高度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B8A135",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Gravity Jump Forward (must turn on Gravity Jump)",
-      "type": "checkbox",
+      "name": "重力跳跃 Forward (must 回合 on 重力跳跃)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B8A0E4",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Jump Forward",
-      "type": "checkbox",
+      "name": "Jump Forward｜跳转到下一页",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B8A14C",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Jump Forward (Run)",
-      "type": "checkbox",
+      "name": "Jump Forward (Run)｜向前跳（跑）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B8A163",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Jump Forward Height + Run",
-      "type": "checkbox",
+      "name": "Jump Forward Height + Run｜向前跳跃高度 + 奔跑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B8A0FD",

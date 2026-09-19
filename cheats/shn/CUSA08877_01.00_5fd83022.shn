@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Fantasy IX" Moder="Molly" Cusa="CUSA08877" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>129B800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>0F-84-5C-08-00-00-89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items &quot;After Buy/Use&quot; ">
+  <Cheat Text="最大 Items &quot;After Buy/Use&quot; ">
     <Cheatline>
       <Offset>129B80D</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>0F-84-38-00-00-00-40-88-43-11</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>129B817</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>0F-84-7A-01-00-00-41-89-45-6C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf. Magic Stones &quot;After Use&quot;">
+  <Cheat Text="Infinite. 灵石 &quot;After Use&quot;">
     <Cheatline>
       <Offset>129B825</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>0F-84-DF-06-00-00-40-88-48-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Abilities">
+  <Cheat Text="Quickly Gain Abilities｜快速掌握技能">
     <Cheatline>
       <Offset>129B83F</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>03-CA-40-88-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats &quot;After Level Up&quot;">
+  <Cheat Text="最大 属性 &quot;After 升级&quot;">
     <Cheatline>
       <Offset>129B84A</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>0F-84-20-06-00-00-40-88-48-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Trace &quot;After 1 Battle&quot;">
+  <Cheat Text="最大 Trace &quot;After 1 战斗&quot;">
     <Cheatline>
       <Offset>129B88C</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>0F-84-FC-00-00-00-41-88-45-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode">
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>129B89C</Offset>
       <Section>0</Section>

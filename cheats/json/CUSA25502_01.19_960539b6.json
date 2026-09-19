@@ -1,12 +1,17 @@
 {
-  "name": "Hot Wheels Unleashed",
+  "name": "持续治疗 车轮 Unleashed",
   "id": "CUSA25502",
   "version": "01.19",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Coins ( on buy / sell )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 角落 ( on buy / sell )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7B8BDD4",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Max Gears ( on buy / dissamble )",
-      "type": "checkbox",
+      "name": "最大 战争机器 ( on buy / dissamble )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7B8BDE4",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Max Blind Boxes ( on use )",
-      "type": "checkbox",
+      "name": "最大 Blind Boxes ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7B8BDB0",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Infinite Boost",
-      "type": "checkbox",
+      "name": "Infinite Boost｜无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7B8BDF3",

@@ -1,12 +1,17 @@
 {
-  "name": "Asterix & Obelix XXL: Romastered",
+  "name": "Asterix & Obelix XXL: Romastered｜《阿斯泰里克斯与奥贝利克斯 XXL：罗马重制版》",
   "id": "CUSA19541",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1007DD0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Potion",
-      "type": "checkbox",
+      "name": "Infinite 药水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1007E60",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Helmets on Gain",
-      "type": "checkbox",
+      "name": "最大 Helmets on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1007D60",

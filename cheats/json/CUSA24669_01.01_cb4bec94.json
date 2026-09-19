@@ -1,12 +1,17 @@
 {
-  "name": "Bladed Fury",
+  "name": "Bladed Fury｜刀锋狂怒",
   "id": "CUSA24669",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "158F1A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Souls",
-      "type": "checkbox",
+      "name": "灵魂无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "158F200",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Soul Sliver",
-      "type": "checkbox",
+      "name": "无限灵魂碎片",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",

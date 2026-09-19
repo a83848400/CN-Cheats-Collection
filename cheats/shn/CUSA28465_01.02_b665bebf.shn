@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Tails of Iron" Moder="Ali-mk" Cusa="CUSA28465" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无敌-(MC)">
     <Cheatline>
       <Offset>806BA066</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-F2-54-F8-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health-(MC)">
+  <Cheat Text="Infinite-生命-(MC)">
     <Cheatline>
       <Offset>804ABA84</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>E8-87-EF-1D-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Nuts+Inf-HS+Inf-GOLD-(MC)">
+  <Cheat Text="Infinite-Nuts+Infinite-HS+Infinite-金币-(MC)">
     <Cheatline>
       <Offset>80496C92</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E8-F9-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Arrow-(MC)">
+  <Cheat Text="无限之箭-(MC)">
     <Cheatline>
       <Offset>804954B5</Offset>
       <Section>0</Section>

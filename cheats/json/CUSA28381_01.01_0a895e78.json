@@ -1,12 +1,17 @@
 {
-  "name": "DreamWorks Dragons: Legends of The Nine Realms",
+  "name": "DreamWorks Dragons: Legends of The Nine Realms｜梦工厂《驯龙高手：九界传奇》",
   "id": "CUSA28381",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Cristais Infinitos",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Cristais Infinitos｜无限水晶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB50",

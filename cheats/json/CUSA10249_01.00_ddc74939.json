@@ -1,12 +1,17 @@
 {
-  "name": "The Last of Us: Part II",
+  "name": "最后生还者: Part II",
   "id": "CUSA10249",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enable Dev Menu",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Enable Dev 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "256260",

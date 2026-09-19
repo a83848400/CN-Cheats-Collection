@@ -1,12 +1,17 @@
 {
-  "name": "Guns, Gore & Cannoli",
+  "name": "Guns, Gore & Cannoli｜《枪、血腥与坎诺利》",
   "id": "CUSA03051",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E59200",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Items",
-      "type": "checkbox",
+      "name": "无限弹药/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DC3F2",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DCB77",

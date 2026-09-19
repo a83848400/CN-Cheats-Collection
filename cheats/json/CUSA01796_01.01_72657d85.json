@@ -1,12 +1,17 @@
 {
-  "name": "Sniper Elite III: Ultimate Edition",
+  "name": "Sniper 精英 III: 必杀技 Edition",
   "id": "CUSA01796",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A0F5D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A0FB20",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo",
-      "type": "checkbox",
+      "name": "最大/无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A0FB10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Items/No Reload",
-      "type": "checkbox",
+      "name": "最大/道具无限/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A0FA10",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Xp/level On Gain",
-      "type": "checkbox",
+      "name": "最大 Xp/等级 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A0FB40",

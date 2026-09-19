@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Star Wars Jedi: Survivor" Moder="Wander FW9.00" Cusa="CUSA33778" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Section>0</Section>
       <Offset>4317DF0</Offset>
@@ -15,7 +23,7 @@
       <ValueOff>C5-FA-11-83-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Force (when pushing and pulling)">
+  <Cheat Text="无限原力 (when pushing and pulling)">
     <Cheatline>
       <Section>0</Section>
       <Offset>4317E60</Offset>

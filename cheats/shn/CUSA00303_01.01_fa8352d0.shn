@@ -19,7 +19,15 @@
       <ValueOff>C5-FA-11-83-10-28-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>CFB800</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>CFB801</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mana" Description="">
+  <Cheat Text="Infinite Mana｜无限法力" Description="">
     <Cheatline>
       <Offset>3C80BF</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>C5-F2-5D-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Resources" Description="">
+  <Cheat Text="道具无限/Resources" Description="">
     <Cheatline>
       <Offset>3E143A</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>29-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items/Resources on Get" Description="">
+  <Cheat Text="最大 Items/Resources on Get" Description="">
     <Cheatline>
       <Offset>3E0B88</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>41-8B-44-24-44-01-43-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items have no Weight" Description="">
+  <Cheat Text="Items have no 重量" Description="">
     <Cheatline>
       <Offset>3E0674</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>C5-FA-59-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints" Description="">
+  <Cheat Text="Infinite Skillpoints｜无限技能点" Description="">
     <Cheatline>
       <Offset>3C995A</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>41-2B-86-60-28-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Feat-Points" Description="">
+  <Cheat Text="Infinite Feat-得分" Description="">
     <Cheatline>
       <Offset>3C9A2B</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>44-01-B3-64-28-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items/Resources" Description="">
+  <Cheat Text="最大 Items/Resources" Description="">
     <Cheatline>
       <Offset>CFB839</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>8B-43-44-41-89-46-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Level 50" Description="">
+  <Cheat Text="Instant 等级50" Description="">
     <Cheatline>
       <Offset>CFB84A</Offset>
       <Section>0</Section>

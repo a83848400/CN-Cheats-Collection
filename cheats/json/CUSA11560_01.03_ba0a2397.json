@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed III Remastered",
+  "name": "刺客信条 III Remastered",
   "id": "CUSA11560",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3593800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Resorces",
-      "type": "checkbox",
+      "name": "无限资源",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3593813",

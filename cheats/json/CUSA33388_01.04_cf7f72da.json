@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 4",
+  "name": "生化危机 4",
   "id": "CUSA33388",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[00] iNFO: Cheat [06] (Ganados Don`t Move) will not allow you to continue if it`s ON in some situations where NMEs must come to you, like in the Crane (Chapter 14) or defending the house with Luis. Turn [13] and [15] on when getting an item/weapon and then better turn them OFF. You can leave them ON but it can be a mess if you don`t pay attention.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[00] iNFO: Cheat [06] (Ganados Don`恐怖分子 招式) 意志 not allow you to 继续游戏 if it`s ON in some situations where NMEs must come to you, like in the Crane (Chapter 14) or 防守 the house with Luis. 回合 [13] and [15] on when getting an 物品/weapon and then better 回合 them OFF. You can leave them ON but it can be a mess if you don`恐怖分子 pay attention.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E280",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "[01a] Start Fresh New Game With Infinite Rocket Launcher (Instead SG-09) Before Loading",
-      "type": "checkbox",
+      "name": "[01a] Start Fresh 新游戏 With 无限火箭筒 (Instead SG-09) Before 加载中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFDD0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "[01b] Start Fresh New Game With Killer 7 (Instead SG-09) Before Loading",
-      "type": "checkbox",
+      "name": "[01b] Start Fresh 新游戏 With 《杀手7》 (Instead SG-09) Before 加载中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFDD0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "[02] Immunity",
-      "type": "checkbox",
+      "name": "[02] Immunity｜[02] 豁免权",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF974",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "[03] Infinite Health",
-      "type": "checkbox",
+      "name": "[03] 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E4C488",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "[04] 1 Hit Kill (Exception Coded: Krauser)",
-      "type": "checkbox",
+      "name": "[04] 一击必杀 (Exception Coded: Krauser)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFE00",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "[05a] Player`s Speed x1",
-      "type": "checkbox",
+      "name": "[05a] Player`s 速度 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFC50",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "[05b] Player`s Speed x3",
-      "type": "checkbox",
+      "name": "[05b] Player`s 速度 x3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFC50",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "[06] Ganados Almost Don`t Move (Only When Attacking) Cheat [43] Must Be OFF",
-      "type": "checkbox",
+      "name": "[06] Ganados Almost Don`恐怖分子 招式 (Only When Attacking) Cheat [43] Must Be OFF",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "417DD0D",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "[07] Luis Has A Rocket Launcher (ON Before Loading)",
-      "type": "checkbox",
+      "name": "[07] Luis Has A 火箭发射器 (ON Before 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFA80",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "[08] Infinite Ammo",
-      "type": "checkbox",
+      "name": "[08] 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF9D0",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "[09] Grenades: No Decrement",
-      "type": "checkbox",
+      "name": "[09] Grenades: No Decrement｜[09] 手榴弹：不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5325505",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "[10] Infinite Knife Durability",
-      "type": "checkbox",
+      "name": "[10] 小刀耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9FC330",
@@ -218,8 +223,8 @@
       ]
     },
     {
-      "name": "[11] Infinite Ammo + Grenades (Instead Of [08] and [09])",
-      "type": "checkbox",
+      "name": "[11] 无限弹药 + 手榴弹 (Instead Of [08] and [09])",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9FC320",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "[12] Rapid Fire",
-      "type": "checkbox",
+      "name": "[12] 快速射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF9F0",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "[13] Get Any Weapon: Store A New One (If 2 Same Weapons Stored, 1 Dissapears)",
-      "type": "checkbox",
+      "name": "[13] Get Any Weapon: Store A New One (If 2 Same 武器 Stored, 1 Dissapears)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF8D0",
@@ -266,8 +271,8 @@
       ]
     },
     {
-      "name": "[14] Rocket Launcher (Saddler One) Can Be Stored If Chosen With [13]",
-      "type": "checkbox",
+      "name": "[14] 火箭发射器 (Saddler One) Can Be Stored If Chosen With [13]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4108734",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "[15] Get Any Key/Item In Slot 1 - (Un)Select It",
-      "type": "checkbox",
+      "name": "[15] Get Any 钥匙/物品 In Slot 1 - (Un)Select It",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E000",
@@ -298,8 +303,8 @@
       ]
     },
     {
-      "name": "[16][Vehicle] Boat: Infinite Durability",
-      "type": "checkbox",
+      "name": "[16][Vehicle] 船: 装备耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24001CF",
@@ -309,8 +314,8 @@
       ]
     },
     {
-      "name": "[17][Vehicle] Crane: Infinite Durability",
-      "type": "checkbox",
+      "name": "[17][Vehicle] Crane: 装备耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DEA332",
@@ -320,8 +325,8 @@
       ]
     },
     {
-      "name": "[18][Vehicle] Water Scooter: Infinite Durability",
-      "type": "checkbox",
+      "name": "[18][Vehicle] 水 Scooter: 装备耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49A82F0",
@@ -331,8 +336,8 @@
       ]
     },
     {
-      "name": "[19] Anti-Aircraft Gun: Infinite Ammo",
-      "type": "checkbox",
+      "name": "[19] Anti-Aircraft Gun: 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFA20",
@@ -347,8 +352,8 @@
       ]
     },
     {
-      "name": "[20] Cannon No Reload",
-      "type": "checkbox",
+      "name": "[20] Cannon 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E1D0",
@@ -363,8 +368,8 @@
       ]
     },
     {
-      "name": "[21] Knights Forever Frozen (L2) [Ashley]",
-      "type": "checkbox",
+      "name": "[21] Knights Forever 冰冻 (L2) [Ashley]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51D95E8",
@@ -374,8 +379,8 @@
       ]
     },
     {
-      "name": "[22] Infinite Treasures + Small Keys/Tokens",
-      "type": "checkbox",
+      "name": "[22] Infinite Treasures + Small Keys/Tokens｜[22] 无限宝藏 + 小钥匙/代币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E130",
@@ -390,8 +395,8 @@
       ]
     },
     {
-      "name": "[23] Most Keys Stay When Used (-Blue Dial)",
-      "type": "checkbox",
+      "name": "[23] Most Keys Stay When Used (-Blue Dial)｜[23] 大多数按键在使用后保持按下的状态（-蓝色表盘）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF918",
@@ -406,8 +411,8 @@
       ]
     },
     {
-      "name": "[24] Infinite Spinels (Go To Trade)",
-      "type": "checkbox",
+      "name": "[24] 无限尖晶石 (Go To 交换)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFAD0",
@@ -422,8 +427,8 @@
       ]
     },
     {
-      "name": "[25] Infinite Pesetas",
-      "type": "checkbox",
+      "name": "[25] Infinite Pesetas｜[25] 无穷多的比塞塔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFAF0",
@@ -438,8 +443,8 @@
       ]
     },
     {
-      "name": "[26] Infinite Completion Points (CP)",
-      "type": "checkbox",
+      "name": "[26] Infinite Completion 得分 (CP)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFB20",
@@ -454,8 +459,8 @@
       ]
     },
     {
-      "name": "[27][Total Results] Rank S+ / Time 00:00:00",
-      "type": "checkbox",
+      "name": "[27][Total Results] 阶级 S+ / Time 00:00:00",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AA82E8",
@@ -485,8 +490,8 @@
       ]
     },
     {
-      "name": "[28][Total Results] Saves = 0",
-      "type": "checkbox",
+      "name": "[28][Total Results] Saves = 0｜[28][总结果] 扑救 = 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E220",
@@ -501,8 +506,8 @@
       ]
     },
     {
-      "name": "[29][Saving] Times Saved: 0 (After Saving)",
-      "type": "checkbox",
+      "name": "[29][Saving] Times Saved: 0 (After Saving)｜[29][保存] 已保存次数：0（保存后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFD5A",
@@ -517,8 +522,8 @@
       ]
     },
     {
-      "name": "[30a][Saving] Difficulty: Assisted",
-      "type": "checkbox",
+      "name": "[30a][Saving] Difficulty: Assisted｜[30a][存档] 难度：辅助",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFE60",
@@ -533,8 +538,8 @@
       ]
     },
     {
-      "name": "[30b][Saving] Difficulty: Standard",
-      "type": "checkbox",
+      "name": "[30b][Saving] Difficulty: Standard｜[30b][存档] 难度：标准",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFE60",
@@ -549,8 +554,8 @@
       ]
     },
     {
-      "name": "[30c][Saving] Difficulty: Hardcore",
-      "type": "checkbox",
+      "name": "[30c][Saving] Difficulty: 极限模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFE60",
@@ -565,8 +570,8 @@
       ]
     },
     {
-      "name": "[30d][Saving] Difficulty: Professional",
-      "type": "checkbox",
+      "name": "[30d][Saving] Difficulty: Professional｜[30天][存钱] 难度：专业级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFE60",
@@ -581,8 +586,8 @@
       ]
     },
     {
-      "name": "[31][End Of Chapter] Accuracy 100 Per Cent",
-      "type": "checkbox",
+      "name": "[31][末地 Of Chapter] Accuracy 100 Per Cent",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFEF0",
@@ -597,8 +602,8 @@
       ]
     },
     {
-      "name": "[32][End Of Chapter] Max Enemies Killed",
-      "type": "checkbox",
+      "name": "[32][末地 Of Chapter] 最大 Enemies Killed",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFED8",
@@ -613,8 +618,8 @@
       ]
     },
     {
-      "name": "[33][Target Practice] Timer Frozen",
-      "type": "checkbox",
+      "name": "[33][Target Practice] 计时器 冰冻",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFB40",
@@ -629,8 +634,8 @@
       ]
     },
     {
-      "name": "[34][Target Practice] All Pirates Killed",
-      "type": "checkbox",
+      "name": "[34][Target Practice] All Pirates Killed｜[34][射击训练] 所有海盗均被击毙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFB60",
@@ -645,8 +650,8 @@
       ]
     },
     {
-      "name": "[35][Target Practice] All Skulls Killed",
-      "type": "checkbox",
+      "name": "[35][Target Practice] All Skulls Killed｜[35][射击训练] 击杀所有骷髅",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFB80",
@@ -661,8 +666,8 @@
       ]
     },
     {
-      "name": "[36][Target Practice] +Points",
-      "type": "checkbox",
+      "name": "[36][Target Practice] +得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFBA0",
@@ -677,8 +682,8 @@
       ]
     },
     {
-      "name": "[37][Mercs] Timer Frozen",
-      "type": "checkbox",
+      "name": "[37][Mercs] 计时器 冰冻",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFBC0",
@@ -693,8 +698,8 @@
       ]
     },
     {
-      "name": "[38][Mercs] Combo Timer Frozen",
-      "type": "checkbox",
+      "name": "[38][Mercs] Combo 计时器 冰冻",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33B4BFC",
@@ -704,8 +709,8 @@
       ]
     },
     {
-      "name": "[39][Mercs] 666 Combos",
-      "type": "checkbox",
+      "name": "[39][Mercs] 666 Combos｜[39][雇佣兵] 666 连招",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFBE0",
@@ -720,8 +725,8 @@
       ]
     },
     {
-      "name": "[40][Mercs] Mayhem Turbo Loading",
-      "type": "checkbox",
+      "name": "[40][Mercs] 混乱模式 涡轮 加载中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFC10",
@@ -736,8 +741,8 @@
       ]
     },
     {
-      "name": "[41][Mercs] Mayhem Yellow Bar Frozen",
-      "type": "checkbox",
+      "name": "[41][Mercs] 混乱模式 Yellow Bar 冰冻",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CF7285",
@@ -747,8 +752,8 @@
       ]
     },
     {
-      "name": "[42][Mercs] Just 1 Kill = S++ (If [37] ON)",
-      "type": "checkbox",
+      "name": "[42][Mercs] Just 1 Kill = S++ (If [37] ON)｜[42][雇佣兵] 仅需1次击杀 = S++（若[37]开启）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFC30",
@@ -763,8 +768,8 @@
       ]
     },
     {
-      "name": "[43a] Most NME`s Speed x0.2",
-      "type": "checkbox",
+      "name": "[43a] Most NME`s 速度 x0.2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFC80",
@@ -779,8 +784,8 @@
       ]
     },
     {
-      "name": "[43b] Most NME`s Speed x0.5",
-      "type": "checkbox",
+      "name": "[43b] Most NME`s 速度 x0.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFC80",
@@ -795,8 +800,8 @@
       ]
     },
     {
-      "name": "[43c] Most NME`s Speed x1",
-      "type": "checkbox",
+      "name": "[43c] Most NME`s 速度 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFC80",
@@ -811,8 +816,8 @@
       ]
     },
     {
-      "name": "[44a] Player`s Size x0.5",
-      "type": "checkbox",
+      "name": "[44a] Player`s Size x0.5｜[44a] 玩家体型 × 0.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFD00",
@@ -827,8 +832,8 @@
       ]
     },
     {
-      "name": "[44b] Player`s Size x1",
-      "type": "checkbox",
+      "name": "[44b] Player`s Size x1｜[44b] 玩家体型 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFD00",
@@ -843,8 +848,8 @@
       ]
     },
     {
-      "name": "[44c] Player`s Size x2",
-      "type": "checkbox",
+      "name": "[44c] Player`s Size x2｜[44c] 玩家体型 ×2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFD00",
@@ -859,8 +864,8 @@
       ]
     },
     {
-      "name": "[45a] NME`s Size x0.5",
-      "type": "checkbox",
+      "name": "[45a] NME`s Size x0.5｜[45a] NME的尺寸×0.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFD30",
@@ -875,8 +880,8 @@
       ]
     },
     {
-      "name": "[45b] NME`s Size x1",
-      "type": "checkbox",
+      "name": "[45b] NME`s Size x1｜[45b] NME 规格 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFD30",
@@ -891,8 +896,8 @@
       ]
     },
     {
-      "name": "[45c] NME`s Size x2",
-      "type": "checkbox",
+      "name": "[45c] NME`s Size x2｜[45c] NME的尺寸 x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFD30",

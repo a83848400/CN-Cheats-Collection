@@ -1,12 +1,17 @@
 {
-  "name": "Creature in the Well",
+  "name": "随从 in the Well",
   "id": "CUSA17838",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "659363",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Easy Energy",
-      "type": "checkbox",
+      "name": "简单 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D9B000",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "0 Energy",
-      "type": "checkbox",
+      "name": "0 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D9B02F",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Energy",
-      "type": "checkbox",
+      "name": "最大 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D9B060",

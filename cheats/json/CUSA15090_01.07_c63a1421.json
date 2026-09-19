@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed Heat",
+  "name": "极品飞车 热",
   "id": "CUSA15090",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money (after 1st buy)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (after 1st buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B4BFE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Rep Level (Unlock Cars/Items/Races)",
-      "type": "checkbox",
+      "name": "最大 声望 等级 (解锁 Cars/Items/Races)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B4BE30",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Unlimited Gas Station Repair",
-      "type": "checkbox",
+      "name": "Unlimited Gas Station Repair｜加油站维修无限制",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "154E13B",

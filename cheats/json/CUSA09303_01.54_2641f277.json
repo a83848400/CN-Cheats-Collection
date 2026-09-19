@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Odyssey",
+  "name": "刺客信条 Odyssey",
   "id": "CUSA09303",
   "version": "01.54",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88195A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Adrenaline",
-      "type": "checkbox",
+      "name": "Infinite 肾上腺素",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88196A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C1900",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8819750",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Res (On Spend)",
-      "type": "checkbox",
+      "name": "Infinite Res (On Spend)｜无限恢复（消费时生效）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8819560",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Ability Points",
-      "type": "checkbox",
+      "name": "Infinite 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8819600",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Instant Abilities Cooldown",
-      "type": "checkbox",
+      "name": "Instant Abilities Cooldown｜瞬发技能冷却时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8819800",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Quick Lvl Up+Engrave(Disable After Unlock Mastery)",
-      "type": "checkbox",
+      "name": "Quick Lvl Up+Engrave(Disable After Unlock Mastery)｜快速升级+铭刻（解锁专精后禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48ACADF",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinite Ship Health (Don't Use With 1 Hit)",
-      "type": "checkbox",
+      "name": "Infinite Ship 生命 (Don'恐怖分子 Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88197A0",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Infinite Ship Adrenaline+Ram Speed",
-      "type": "checkbox",
+      "name": "Infinite Ship 肾上腺素+Ram 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8819A00",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Infinite Ship Health /1 Hit Kill",
-      "type": "checkbox",
+      "name": "Infinite Ship 生命 /一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88197A0",

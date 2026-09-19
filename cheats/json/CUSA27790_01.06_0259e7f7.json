@@ -1,12 +1,17 @@
 {
-  "name": "WRC 10: The Official Game",
+  "name": "WRC 10: The Official Game｜《WRC 10：官方游戏》",
   "id": "CUSA27790",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204BDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max R&D Skills Points",
-      "type": "checkbox",
+      "name": "最大 R&D Skills 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204BDC7",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max XP Level",
-      "type": "checkbox",
+      "name": "最大 XP 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204BDDC",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Reputation Level",
-      "type": "checkbox",
+      "name": "声望拉满 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204BDEE",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Moral",
-      "type": "checkbox",
+      "name": "最大 Moral",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204BE00",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Freeze Race Timer",
-      "type": "checkbox",
+      "name": "Freeze Race 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172022A",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Set Race Timer to 0",
-      "type": "checkbox",
+      "name": "Set Race 计时器 to 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204BE17",

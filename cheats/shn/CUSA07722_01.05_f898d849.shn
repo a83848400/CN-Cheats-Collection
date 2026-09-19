@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Strafe" Moder="Reddevil82 - FW 9.00" Cusa="CUSA07722" Version="01.05" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>11D3DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>F3-0F-10-81-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Armor" Description="Infinite Armor">
+  <Cheat Text="Infinite Armor｜护甲无限" Description="Infinite Armor">
     <Cheatline>
       <Offset>11D3DDB</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>F3-0F-10-80-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Clip" Description="Max Ammo Clip">
+  <Cheat Text="弹药最大化 Clip" Description="Max Ammo Clip">
     <Cheatline>
       <Offset>11D3DF2</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-63-40-18-4C-8B-3C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="No Reload">
+  <Cheat Text="No Reload｜无需换弹" Description="No Reload">
     <Cheatline>
       <Offset>ED9073</Offset>
       <Section>14</Section>
@@ -52,7 +60,7 @@
       <ValueOff>4C-63-78-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="One Hit Kill">
     <Cheatline>
       <Offset>11D3E06</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>F3-44-0F-11-B8-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode Timer ( must be activated for [ MC ] Cheats )" Description="Mastercode Timer ( must be activated for [ MC ] Cheats )">
+  <Cheat Text="主代码 计时器 ( must be activated for [ MC ] Cheats )" Description="Mastercode Timer ( must be activated for [ MC ] Cheats )">
     <Cheatline>
       <Offset>11D3E21</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>F3-45-0F-11-BF-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Timer to 1 [ MC ]" Description="Reset Timer to 1 [ MC ]">
+  <Cheat Text="Reset 计时器 to 1 [ MC ]" Description="Reset Timer to 1 [ MC ]">
     <Cheatline>
       <Offset>1214020</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer [ MC ]" Description="Freeze Timer [ MC ]">
+  <Cheat Text="Freeze 计时器 [ MC ]" Description="Freeze Timer [ MC ]">
     <Cheatline>
       <Offset>1214021</Offset>
       <Section>0</Section>

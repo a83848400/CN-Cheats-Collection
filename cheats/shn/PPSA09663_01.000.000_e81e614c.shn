@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon's Dogma 2" Moder="Super Death" Cusa="PPSA09663" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Money" Description="9,999,999 Gold (sell or buy something)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Money｜金钱无限" Description="9,999,999 Gold (sell or buy something)">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>44-89-A2-98-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="Items will not decrease when discarding or selling. They will be CONSUMED. Drop items to duplicate and pick them back up. ">
+  <Cheat Text="Infinite Items｜道具无限" Description="Items will not decrease when discarding or selling. They will be CONSUMED. Drop items to duplicate and pick them back up. ">
     <Cheatline>
       <PS5Offset>50D4799-executable[0]-5</PS5Offset>
       <Section>0</Section>

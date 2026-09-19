@@ -1,12 +1,17 @@
 {
-  "name": "God of War (2018)",
+  "name": "战神 (2018)",
   "id": "CUSA07408",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF81E",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max and Infinite XP,HS,Crafting Materials When Get",
-      "type": "checkbox",
+      "name": "最大 and 无限经验值,HS,Crafting Materials When Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF842",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Instant Rage Meter Fill When Get Hit (Turn Off God Mode Before Use)",
-      "type": "checkbox",
+      "name": "Instant 怒气槽 Fill When Get Hit (回合 Off 神模式 Before Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF860",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF87E",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Crafting Materials at Shops (Turn off after use)",
-      "type": "checkbox",
+      "name": "无限制作 Materials at Shops (回合 off after use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF891",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows (Turn off when out of combat)",
-      "type": "checkbox",
+      "name": "箭矢无限 (回合 off when out of combat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF8AE",

@@ -1,12 +1,17 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34388",
   "version": "02.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
+      "name": "Infinite Rage｜怒气无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F0F0",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Instant R3 Kill",
-      "type": "checkbox",
+      "name": "Instant R3 Kill｜R3瞬间击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F0A0",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "No Cooldown (no cooldown for weapons use with combo L1 + *)",
-      "type": "checkbox",
+      "name": "无冷却 (无冷却 for 武器 use with combo L1 + *)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A47B02",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F220",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "Resources up (on craft/sell)",
-      "type": "checkbox",
+      "name": "Resources up (on craft/sell)｜资源增加（制作/出售）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F190",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "XP/HS/Resource Multiplier (on get) (default: 2x)",
-      "type": "checkbox",
+      "name": "XP/HS/Resource Multiplier (on get) (default: 2x)｜经验值/健康值/资源倍率（获取时）（默认：2倍）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F260",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "XP/HS/Resource Multiplier (on get) (default: 5x)",
-      "type": "button",
+      "name": "XP/HS/Resource Multiplier (on get) (默认: 五次)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F520",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "XP/HS/Resource Multiplier (on get) (default: 10x)",
-      "type": "button",
+      "name": "XP/HS/Resource Multiplier (on get) (默认: 十倍)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F520",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "XP/HS/Resource Multiplier (on get) (default: 25x)",
-      "type": "button",
+      "name": "XP/HS/Resource Multiplier (on get) (默认: 25倍)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F520",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Damage Multiplier (default: 2x)",
-      "type": "checkbox",
+      "name": "输出 Multiplier (默认: 2x)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F050",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Damage Multiplier x0.5",
-      "type": "button",
+      "name": "Damage Multiplier x0.5｜伤害倍率 x0.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F510",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "Damage Multiplier x3",
-      "type": "button",
+      "name": "输出 Multiplier x3",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F510",
@@ -218,8 +223,8 @@
       ]
     },
     {
-      "name": "Damage Multiplier x5",
-      "type": "button",
+      "name": "Damage Multiplier x5｜伤害倍率 x5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F510",

@@ -1,12 +1,17 @@
 {
-  "name": "Zombie Army Trilogy",
+  "name": "僵尸 军队 Trilogy",
   "id": "CUSA01773",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (Inventory)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 (背包)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F80A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (No Reload)",
-      "type": "checkbox",
+      "name": "无限弹药 (无需换弹)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F8C70",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "999,999,999 Score on Gain",
-      "type": "checkbox",
+      "name": "999,999,999 比分 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F8BF0",

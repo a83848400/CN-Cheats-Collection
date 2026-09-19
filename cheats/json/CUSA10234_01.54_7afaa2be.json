@@ -1,13 +1,18 @@
 {
-  "name": "Horizon Zero Dawn: Complete Edition",
+  "name": "地平线 杰洛 Dawn: Complete Edition",
   "id": "CUSA10234",
   "version": "01.54",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. Should also work on the PS5. Enjoy! :)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. Should also work on the PS5. Enjoy! :)｜重要提示！请务必阅读作弊码的说明（如有）！已全面测试，但如果发现任何问题，请告诉我。在PS5上也应该能正常使用。祝玩得开心！ :)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F26FFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Master Code (Must be enabled first + all the time)",
+      "name": "Master 密码 (Must be enabled first + all the time)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F08",
@@ -119,9 +124,9 @@
       ]
     },
     {
-      "name": "God Mode",
-      "description": "Untouchable and No effects",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "description": "刀枪不入 and 无效果",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F27000",
@@ -146,9 +151,9 @@
       ]
     },
     {
-      "name": "--Toggle_Stealth_Mode",
-      "description": "Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden machine is detectable).",
-      "type": "checkbox",
+      "name": "--切换潜行模式",
+      "description": "Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden 机械生命体 is detectable).",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F08",
@@ -158,9 +163,9 @@
       ]
     },
     {
-      "name": "--Infinite_Health",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F24",
@@ -170,9 +175,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F20",
@@ -182,9 +187,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DE939",
@@ -194,9 +199,9 @@
       ]
     },
     {
-      "name": "Max Arrows Per Shot (5)",
+      "name": "最大 Arrows Per Shot (5)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DE830",
@@ -206,9 +211,9 @@
       ]
     },
     {
-      "name": "--Hour:12",
+      "name": "--Hour:12｜--小时：12",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F28",
@@ -218,9 +223,9 @@
       ]
     },
     {
-      "name": "--Hour:12 2",
+      "name": "--Hour:12 2｜--小时：12 2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F28",
@@ -230,9 +235,9 @@
       ]
     },
     {
-      "name": "--Hour:12 2 2",
+      "name": "--Hour:12 2 2｜--小时：12 2 2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F28",
@@ -242,9 +247,9 @@
       ]
     },
     {
-      "name": "--Hour:12 2 2 2",
+      "name": "--Hour:12 2 2 2｜--小时：12 2 2 2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F28",
@@ -254,9 +259,9 @@
       ]
     },
     {
-      "name": "Infinite Jump and Glide",
+      "name": "Infinite Jump and Glide｜无限跳跃与滑翔",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F2715F",
@@ -271,9 +276,9 @@
       ]
     },
     {
-      "name": "--XP x5",
+      "name": "--经验×5",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F2C",
@@ -283,9 +288,9 @@
       ]
     },
     {
-      "name": "--XP x10",
+      "name": "--经验×10",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F2C",
@@ -295,9 +300,9 @@
       ]
     },
     {
-      "name": "--XP x20",
+      "name": "--经验×20",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F2C",
@@ -307,9 +312,9 @@
       ]
     },
     {
-      "name": "--XP x50",
+      "name": "--经验×50",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F2C",
@@ -319,9 +324,9 @@
       ]
     },
     {
-      "name": "--XP x100",
+      "name": "--经验×100",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F2C",
@@ -331,9 +336,9 @@
       ]
     },
     {
-      "name": "--Walking Speed x1",
+      "name": "--行走速度×1",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F30",
@@ -343,9 +348,9 @@
       ]
     },
     {
-      "name": "--Walking Speed x2",
+      "name": "--行走速度×2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F30",
@@ -355,9 +360,9 @@
       ]
     },
     {
-      "name": "--Walking Speed x3",
+      "name": "--行走速度×3",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54F7F30",
@@ -367,9 +372,9 @@
       ]
     },
     {
-      "name": "No Crafting Limits",
+      "name": "No Crafting Limits｜无制作限制",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "146C975",
@@ -389,9 +394,9 @@
       ]
     },
     {
-      "name": "No Purchase Requirements",
+      "name": "No Purchase Requirements｜无购买要求",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "149451E",
@@ -401,9 +406,9 @@
       ]
     },
     {
-      "name": "Infinite Concentration",
+      "name": "Infinite 专注",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16A1623",
@@ -413,9 +418,9 @@
       ]
     },
     {
-      "name": "Infinite Inventory",
+      "name": "Infinite 背包",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E273A0",
@@ -440,9 +445,9 @@
       ]
     },
     {
-      "name": "Infinite Potions (On Use)",
+      "name": "药水无限 (On Use)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F271FD",
@@ -457,9 +462,9 @@
       ]
     },
     {
-      "name": "Infinite Rope Durability",
+      "name": "Infinite 绳子 耐用性",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14A1C2C",
@@ -474,9 +479,9 @@
       ]
     },
     {
-      "name": "Infinite Weaver Armour",
+      "name": "Infinite Weaver Armour｜无限织者铠甲",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F27228",
@@ -491,9 +496,9 @@
       ]
     },
     {
-      "name": "Max Infinite Oxygen",
+      "name": "最大 无限氧气",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14A7EB5",
@@ -503,9 +508,9 @@
       ]
     },
     {
-      "name": "Max Infinite Skill Points (3)",
+      "name": "最大 Infinite Skill 得分 (3)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15D9379",
@@ -515,9 +520,9 @@
       ]
     },
     {
-      "name": "Infinite Metal Shards (On Repair)",
+      "name": "Infinite 金属 Shards (On Repair)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1478716",
@@ -527,9 +532,9 @@
       ]
     },
     {
-      "name": "Infinite Metal Shards and Bluegleams (On Buy)",
+      "name": "Infinite 金属 Shards and Bluegleams (On Buy)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1494CE5",
@@ -539,9 +544,9 @@
       ]
     },
     {
-      "name": "Max Shards - On Buy",
+      "name": "碎片最大 - On Buy",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F2725B",
@@ -556,9 +561,9 @@
       ]
     },
     {
-      "name": "Infinite Modifications (On Use)",
+      "name": "Infinite Modifications (On Use)｜无限修改（使用时）",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "168B944",
@@ -568,9 +573,9 @@
       ]
     },
     {
-      "name": "Infinite Hunting Ground Trials Timer",
+      "name": "Infinite Hunting Ground Trials 计时器",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11BD86B",
@@ -580,9 +585,9 @@
       ]
     },
     {
-      "name": "Spear and Lance - No Cooldown",
+      "name": "长矛 and 骑枪 - 无冷却",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A8763D",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="[00][Master Code] Always ON!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[00][Master 密码] Always ON!">
     <Cheatline>
       <Offset>A63000</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>48-8B-08-48-89-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[01][Health] Immunity">
+  <Cheat Text="[01][生命] Immunity">
     <Cheatline>
       <Offset>A63380</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>48-89-E5-41-57</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02][Health] Infinite">
+  <Cheat Text="[02][生命] Infinite">
     <Cheatline>
       <Offset>A63190</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>45-29-AC-24-78-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03][Health] 1 Hit Kill +Explode">
+  <Cheat Text="[03][生命] 一击必杀 +Explode">
     <Cheatline>
       <Offset>A63340</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>83-F8-02-72-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04][Unlock] All Items +Infinite" Description="Items will be infinite as long as cheat is ON.">
+  <Cheat Text="[04][解锁] 所有商品 +Infinite" Description="Items will be infinite as long as cheat is ON.">
     <Cheatline>
       <Offset>A63090</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>8B-94-93-80-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05][Unlock] All Weapons +666 Ammo" Description="It can be turned off after using it once. But you can leave it on.">
+  <Cheat Text="[05][解锁] All 武器 +666 但是" Description="It can be turned off after using it once. But you can leave it on.">
     <Cheatline>
       <Offset>A630B0</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>C5-F9-76-8A-E0-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06][Unlock] All Keys" Description="All Keys means Keys, CD, etc ... Keys needed to advance in the game.">
+  <Cheat Text="[06][解锁] All Keys" Description="All Keys means Keys, CD, etc ... Keys needed to advance in the game.">
     <Cheatline>
       <Offset>A63260</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>83-BC-8B-80-0A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07a][Speed] Player x2" Description="Turn speed cheats off for normal speed.">
+  <Cheat Text="[07a][速度] Player x2" Description="Turn speed cheats off for normal speed.">
     <Cheatline>
       <Offset>A63471</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>C5-FA-10-05-AD-48-4E-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07b][Speed] Player x3">
+  <Cheat Text="[07b][速度] Player x3">
     <Cheatline>
       <Offset>A63471</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>C5-FA-10-05-AD-48-4E-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07c][Speed] Player x4">
+  <Cheat Text="[07c][速度] Player x4">
     <Cheatline>
       <Offset>A63471</Offset>
       <Section>0</Section>
@@ -155,7 +163,7 @@
       <ValueOff>C5-FA-10-05-AD-48-4E-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08][Weapon] Rapidfire">
+  <Cheat Text="[08][Weapon] Rapidfire｜[08][武器] 连发">
     <Cheatline>
       <Offset>A63220</Offset>
       <Section>0</Section>
@@ -169,7 +177,7 @@
       <ValueOff>83-B8-C0-0B-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09][Ammo] Infinite">
+  <Cheat Text="[09][Ammo] Infinite｜[09][弹药] 无限">
     <Cheatline>
       <Offset>A63240</Offset>
       <Section>0</Section>
@@ -183,7 +191,7 @@
       <ValueOff>0F-B7-84-82-80-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10][Enemy] No Attack">
+  <Cheat Text="[10][Enemy] No 攻击">
     <Cheatline>
       <Offset>750FF3</Offset>
       <Section>0</Section>
@@ -191,7 +199,7 @@
       <ValueOff>FF-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11a][Jump] x1">
+  <Cheat Text="[11a][Jump] x1｜[11a][跳转] x1">
     <Cheatline>
       <Offset>A632D0</Offset>
       <Section>0</Section>
@@ -205,7 +213,7 @@
       <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11b][Jump] x2">
+  <Cheat Text="[11b][Jump] x2｜[11b][跳转] x2">
     <Cheatline>
       <Offset>A632D0</Offset>
       <Section>0</Section>
@@ -219,7 +227,7 @@
       <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11c][Jump] x4">
+  <Cheat Text="[11c][Jump] x4｜[11c][跳转] x4">
     <Cheatline>
       <Offset>A632D0</Offset>
       <Section>0</Section>
@@ -233,7 +241,7 @@
       <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11d][Jump] x8">
+  <Cheat Text="[11d][Jump] x8｜[11d][跳转] x8">
     <Cheatline>
       <Offset>A632D0</Offset>
       <Section>0</Section>
@@ -247,7 +255,7 @@
       <ValueOff>41-C7-85-B8-06-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12a][RGB] Red = 1" Description="These last cheats are just some light effects on shadows. Turn them ON to 8 to have more light.">
+  <Cheat Text="[12a][RGB] Red = 1｜[12a][RGB] 红色 = 1" Description="These last cheats are just some light effects on shadows. Turn them ON to 8 to have more light.">
     <Cheatline>
       <Offset>A630F0</Offset>
       <Section>0</Section>
@@ -261,7 +269,7 @@
       <ValueOff>C5-FA-11-5E-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12b][RGB] Red = 8">
+  <Cheat Text="[12b][RGB] Red = 8｜[12b][RGB] 红色 = 8">
     <Cheatline>
       <Offset>A630F0</Offset>
       <Section>0</Section>
@@ -275,7 +283,7 @@
       <ValueOff>C5-FA-11-5E-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13a][RGB] Green = 1">
+  <Cheat Text="[13a][RGB] Green = 1｜[13a][RGB] 绿色 = 1">
     <Cheatline>
       <Offset>A630E0</Offset>
       <Section>0</Section>
@@ -289,7 +297,7 @@
       <ValueOff>C5-FA-11-5E-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13b][RGB] Green = 8">
+  <Cheat Text="[13b][RGB] Green = 8｜[13b][RGB] 绿色 = 8">
     <Cheatline>
       <Offset>A630E0</Offset>
       <Section>0</Section>
@@ -303,7 +311,7 @@
       <ValueOff>C5-FA-11-5E-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14a][RGB] Blue = 1">
+  <Cheat Text="[14a][RGB] Blue = 1｜[14a][RGB] 蓝色 = 1">
     <Cheatline>
       <Offset>A630D0</Offset>
       <Section>0</Section>
@@ -317,7 +325,7 @@
       <ValueOff>C5-FA-11-5E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14b][RGB] Blue = 8">
+  <Cheat Text="[14b][RGB] Blue = 8｜[14b][RGB] 蓝色 = 8">
     <Cheatline>
       <Offset>A630D0</Offset>
       <Section>0</Section>
@@ -331,7 +339,7 @@
       <ValueOff>C5-FA-11-5E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[15] No HUD">
+  <Cheat Text="[15] No HUD｜[15] 如果住房与城市发展部（HUD）">
     <Cheatline>
       <Offset>734340</Offset>
       <Section>0</Section>

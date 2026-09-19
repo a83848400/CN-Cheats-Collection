@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Huntdown" Moder="Ali-mk" Cusa="CUSA12064" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-1-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无敌-1-(MC)">
     <Cheatline>
       <Offset>803F395E</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>E8-ED-CA-DE-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Invincible-2-(MC)">
+    <Cheat Text="无敌-2-(MC)">
     <Cheatline>
       <Offset>803FEFCC</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>E8-0D-B4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health-(MC)">
+    <Cheat Text="Infinite-生命-(MC)">
     <Cheatline>
       <Offset>803FF78B</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>E8-2E-BF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Ammo-Never-Reload">
+    <Cheat Text="无限子弹-无需装弹">
     <Cheatline>
       <Offset>8042DF6C</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>FF-8B-FC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-lives">
+  <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>804DFDA8</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>FF-88-C4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Grenades">
+    <Cheat Text="Infinite-Grenades｜无限手榴弹">
     <Cheatline>
       <Offset>803FE1C2</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill/Shield/Action (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀/盾牌/Action (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>A3A7DB0</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>A3A7DB9</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit kill">
+  <Cheat Text="1 Hit kill｜一击必杀">
     <Cheatline>
       <Offset>A3A7DE1</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield">
+  <Cheat Text="Infinite Shield｜无限护盾">
     <Cheatline>
       <Offset>A3A7DFA</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Action (When Full)">
+  <Cheat Text="Infinite Action (When Full)｜无限行动（满状态时）">
     <Cheatline>
       <Offset>A3A7E1B</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/No Reload">
+  <Cheat Text="无限弹药/无需换弹">
     <Cheatline>
       <Offset>55BA794</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>41-89-87-B0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades">
+  <Cheat Text="Infinite Grenades｜手雷无限">
     <Cheatline>
       <Offset>A3A7BA0</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>C4-C1-7A-11-87-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Money On Pick Up">
+  <Cheat Text="最大/金钱无限 On 拾取">
     <Cheatline>
       <Offset>A3A7B20</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>44-03-6C-18-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Skill Points On Use">
+  <Cheat Text="最大/Infinite Skill 得分 On Use">
     <Cheatline>
       <Offset>A3A74A0</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>41-89-8E-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/ Levels On Kill">
+  <Cheat Text="最大 XP/ Levels On Kill">
     <Cheatline>
       <Offset>139C810</Offset>
       <Section>0</Section>

@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Black Ops Cold War",
+  "name": "使命召唤: 黑色 Ops Cold War",
   "id": "CUSA15010",
   "version": "01.41",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Godmode",
-      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 上帝模式",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets｜DeathRGH 和 Rizla 提供的 1.27 版本偏移量，用于查找新的偏移量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12DE150",
@@ -27,9 +32,9 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
-      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
-      "type": "checkbox",
+      "name": "All Client 无限弹药",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets｜DeathRGH 和 Rizla 提供的 1.27 版本偏移量，用于查找新的偏移量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F0AEE0",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "All Client Infinite Aetherium Crystals",
-      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
-      "type": "checkbox",
+      "name": "All Client Infinite Aetherium Crystals｜所有客户的无限以太晶体",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets｜DeathRGH 和 Rizla 提供的 1.27 版本偏移量，用于查找新的偏移量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12EBE9E",
@@ -56,8 +61,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125C6BE",
@@ -67,8 +72,8 @@
       ]
     },
     {
-      "name": "Infinite Aetherium Crystals",
-      "type": "checkbox",
+      "name": "Infinite Aetherium Crystals｜无限以太晶体",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12EBE97",
@@ -78,8 +83,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F0AF0E",
@@ -89,9 +94,9 @@
       ]
     },
     {
-      "name": "All Client 1-Hit Kill",
-      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
-      "type": "checkbox",
+      "name": "All Client 1-命中击杀",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets｜DeathRGH 和 Rizla 提供的 1.27 版本偏移量，用于查找新的偏移量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1500A77",
@@ -101,9 +106,9 @@
       ]
     },
     {
-      "name": "No Recoil",
-      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
-      "type": "checkbox",
+      "name": "No Recoil｜消除后坐力",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets｜DeathRGH 和 Rizla 提供的 1.27 版本偏移量，用于查找新的偏移量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F436F4",
@@ -118,9 +123,9 @@
       ]
     },
     {
-      "name": "No Gun Shake",
-      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
-      "type": "checkbox",
+      "name": "No Gun Shake｜无枪抖动",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets｜DeathRGH 和 Rizla 提供的 1.27 版本偏移量，用于查找新的偏移量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E71579",
@@ -135,9 +140,9 @@
       ]
     },
     {
-      "name": "Rapid Fire",
-      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets",
-      "type": "checkbox",
+      "name": "Rapid Fire｜快速射击",
+      "description": "Offsets From 1.27 By DeathRGH And Rizla Used To Find New Offsets｜DeathRGH 和 Rizla 提供的 1.27 版本偏移量，用于查找新的偏移量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6CD86",

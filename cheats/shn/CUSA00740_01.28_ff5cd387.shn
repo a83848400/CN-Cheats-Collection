@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Terraria" Moder="aran" Cusa="CUSA00740" Version="01.28" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Inf item on crafting">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 物品 on crafting">
     <Cheatline>
       <Offset>18FDFC0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-83-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Item Use">
+  <Cheat Text="Infinite 物品 Use">
     <Cheatline>
       <Offset>80A82DED</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max item on split">
+  <Cheat Text="最大 物品 on split">
     <Cheatline>
       <Offset>80CE7D4F</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>8B-80-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf health">
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>80A166AC</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-29-9F-CC-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mana">
+  <Cheat Text="Infinite Mana｜无限法力">
     <Cheatline>
       <Offset>80AF9849</Offset>
       <Section>0</Section>

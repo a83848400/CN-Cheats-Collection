@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Ghosts",
+  "name": "使命召唤: Ghosts",
   "id": "CUSA00025",
   "version": "01.20",
   "process": "default_mp.elf",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "526396",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "All Client Godmode",
+      "name": "All Client 上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D66F5",

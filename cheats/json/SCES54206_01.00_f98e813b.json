@@ -1,12 +1,17 @@
 {
-  "name": "God of War II",
+  "name": "战神 II",
   "id": "SCES54206",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Red-Orb",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Red-Orb",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF35250",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FED8038",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808065C5BA",

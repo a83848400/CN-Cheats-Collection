@@ -1,12 +1,17 @@
 {
-  "name": "Tales of Arise",
+  "name": "传说系列 Arise",
   "id": "CUSA17195",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Exp",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66E4FA6",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Exp x32",
-      "type": "checkbox",
+      "name": "经验 x32",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66E4FB5",
@@ -38,7 +43,7 @@
     },
     {
       "name": "Infinite AG",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66E4FC5",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Refill HP by equiping",
-      "type": "checkbox",
+      "name": "Refill 手机 by equiping",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A8883C",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Stats by equiping",
-      "type": "checkbox",
+      "name": "最大 属性 by equiping",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66E4FD5",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "99 item (use, drop, pick, cook, refine, buy / sell)",
-      "type": "checkbox",
+      "name": "99 物品 (use, 丢弃, pick, cook, refine, buy / sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66E502E",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Gald",
-      "type": "checkbox",
+      "name": "Gald｜剩下的",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E1F879",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Arte Max Count",
-      "type": "checkbox",
+      "name": "Arte 最大 Count",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A89DDF",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "SP",
-      "type": "checkbox",
+      "name": "SP｜精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E24C44",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "No Cooldown Boost Attack",
-      "type": "checkbox",
+      "name": "无冷却 Boost 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66E5041",

@@ -1,13 +1,18 @@
 {
-  "name": "Potionomics: Masterwork Edition",
+  "name": "Potionomics: Masterwork Edition｜《魔药学：杰作版》",
   "id": "PPSA24152",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Money",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "简单 金钱",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "53FF000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Inventory",
+      "name": "Infinite 背包",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "53FF030",

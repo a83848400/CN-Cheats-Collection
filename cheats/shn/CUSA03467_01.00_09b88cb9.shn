@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Earth Defense Force 4.1: The Shadow of New Despair" Moder="Molly" Cusa="CUSA03467" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>A47835</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-80-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Wingdiver-Engery">
+  <Cheat Text="最大 Wingdiver-Engery">
     <Cheatline>
       <Offset>A47885</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-97-98-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2x armor pick up">
+  <Cheat Text="2x armor 拾取">
     <Cheatline>
       <Offset>A478A2</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-FF-84-86-E8-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF Ammo + Rapidfire">
+  <Cheat Text="无限弹药 + Rapidfire">
     <Cheatline>
       <Offset>A478B8</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>41-C7-87-B0-08-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Every Weapon">
+  <Cheat Text="解锁 Every Weapon">
     <Cheatline>
       <Offset>A478F3</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Minecraft: PlayStation 4 Edition",
+  "name": "我的世界: PlayStation 4 Edition",
   "id": "CUSA00283",
   "version": "02.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[Bypass signin with PSN] Microsoft welcome!",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[Bypass signin with PSN] 微软 welcome!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D137F0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "[Change Skin Unlocked!]",
-      "type": "checkbox",
+      "name": "[Change 皮肤 Unlocked!]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D6038D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "[Show Dev Tags]",
-      "type": "checkbox",
+      "name": "[Show Dev Tags]｜[显示开发标签]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D44FC5",

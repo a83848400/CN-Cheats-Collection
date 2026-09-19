@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Danganronpa Another Episode: Ultra Despair Girls" Moder="2B" Cusa="CUSA07299" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量">
     <Cheatline>
       <Section>0</Section>
       <Offset>36F841</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>66-89-B3-BE-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Battery">
+  <Cheat Text="Infinite 电池">
     <Cheatline>
       <Section>0</Section>
       <Offset>36F824</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-11-84-24-24-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="no Reload">
+  <Cheat Text="no Reload｜无需换弹">
     <Cheatline>
       <Section>0</Section>
       <Offset>36F800</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>66-43-89-8C-7E-C4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Money (on get}">
+  <Cheat Text="金钱无限 (on get}">
     <Cheatline>
       <Section>0</Section>
       <Offset>36F812</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>41-89-86-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Slash Lust">
+  <Cheat Text="无尽的斩击之欲">
     <Cheatline>
       <Section>0</Section>
       <Offset>36F866</Offset>

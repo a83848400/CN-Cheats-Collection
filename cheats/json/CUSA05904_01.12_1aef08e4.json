@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 5",
+  "name": "孤岛惊魂 5",
   "id": "CUSA05904",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite ammo + No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 + 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FCF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Infinite All usable Item's",
-      "type": "checkbox",
+      "name": "最大 Infinite All usable 物品's",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FCF812",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Infinite Perks Points (Enable Only In Perks Screen",
-      "type": "checkbox",
+      "name": "最大 Infinite Perks 得分 (Enable Only In Perks Screen",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FCF800",

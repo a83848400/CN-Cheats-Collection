@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed: The Ezio Collection",
+  "name": "刺客信条: The Ezio Collection",
   "id": "CUSA04893",
   "version": "01.00",
   "process": "ScimitarAC2.elf",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "b89db2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Money / Items",
-      "type": "checkbox",
+      "name": "金钱无限 / Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "dc305a",

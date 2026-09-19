@@ -1,12 +1,17 @@
 {
-  "name": "Fall of Light: Darkest Edition",
+  "name": "Fall of Light: Darkest Edition｜《光之陨落：至暗版》",
   "id": "CUSA12403",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invulnerable",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invulnerable｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "184DAA",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567DB0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567DD5",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567E24",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Black Medallion Heal",
-      "type": "checkbox",
+      "name": "最大 黑色 徽章 治疗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567DE9",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Latern",
-      "type": "checkbox",
+      "name": "Infinite Latern｜无限灯笼",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567DFF",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Shrine Bar",
-      "type": "checkbox",
+      "name": "Infinite 神庙 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567E13",

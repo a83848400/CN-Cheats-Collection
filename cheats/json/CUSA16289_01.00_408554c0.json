@@ -1,12 +1,17 @@
 {
-  "name": "Samurai Jack: Battle Through Time",
+  "name": "武士 Jack: 战斗 Through Time",
   "id": "CUSA16289",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Coins Multiplier",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Coins Multiplier｜金币倍增器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BEAD6",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Skill Fire Multiplier",
-      "type": "checkbox",
+      "name": "Skill 火 Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1581502",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Bushido Spirit Points Multiplier",
-      "type": "checkbox",
+      "name": "武士道 精魄 得分 Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "158150B",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1600665",

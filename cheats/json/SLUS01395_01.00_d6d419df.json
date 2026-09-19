@@ -1,23 +1,28 @@
 {
-  "name": "Mega Man X6",
+  "name": "洛克人 X6",
   "id": "SLUS01395",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Have All Weapons",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Have All 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "182409",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "00"
         }
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12AA44",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C492",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1098DE",
@@ -49,18 +54,18 @@
       ]
     },
     {
-      "name": "Invincible",
-      "type": "checkbox",
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12477C",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "12477D",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

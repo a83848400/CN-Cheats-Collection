@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Prince of Persia: The Sands of Time" Moder="Ali-mk" Cusa="SLES51918" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>807FF033D8</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>98-98</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Sand-Bar">
+    <Cheat Text="Infinite-沙子-Bar">
     <Cheatline>
       <Offset>807FF340E4</Offset>
       <Section>0</Section>

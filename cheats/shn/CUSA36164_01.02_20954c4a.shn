@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Destroy All Humans! 2 - Reprobed" Moder="Wander FW9.00" Cusa="CUSA36164" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Master Code Infinite Health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Master 密码 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>77A3410</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-83-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Sauce Health (M)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite Sauce 生命 (M)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>77A3417</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jetpack">
+  <Cheat Text="Infinite 喷气背包">
     <Cheatline>
       <Offset>77A3730</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FA-11-83-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Zip oh matic/deathray/free love Ammo">
+  <Cheat Text="Infinite Zip oh matic/deathray/free 爱 但是">
     <Cheatline>
       <Offset>77A3810</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-11-83-A0-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dislocator Ammo/other guns with clips" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite Dislocator 但是/他 guns with clips" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>77A32C0</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Valkyrie Elysium",
+  "name": "女武神 Elysium",
   "id": "CUSA33214",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBB940",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Art Gauge",
-      "type": "checkbox",
+      "name": "Infinite Art Gauge｜无限艺术量表",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBB810",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Soul Gauge",
-      "type": "checkbox",
+      "name": "Infinite Soul Gauge｜无限灵魂计量表",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBB8E0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Items/Gems (on Gain and use)",
-      "type": "checkbox",
+      "name": "最大 Items/Gems (on Gain and use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBB8B0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Weapon Proficiency",
-      "type": "checkbox",
+      "name": "最大 Weapon 熟练",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBB980",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Inf HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量" Description="">
     <Cheatline>
       <Offset>146FFE0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-87-FC-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="">
+  <Cheat Text="无限弹药" Description="">
     <Cheatline>
       <Offset>14700A0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>47-89-4C-A7-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ressources" Description="">
+  <Cheat Text="无限资源" Description="">
     <Cheatline>
       <Offset>1470010</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C4-C1-7A-10-86-FC-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Resolv" Description="">
+  <Cheat Text="无限解析" Description="">
     <Cheatline>
       <Offset>14700C0</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-11-87-BC-42-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Inf Ghost mode" Description="">
+      <Cheat Text="Infinite 幽灵模式" Description="">
     <Cheatline>
       <Offset>689BD3</Offset>
       <Section>0</Section>
@@ -79,7 +87,7 @@
       <ValueOff>8B-05-E4-1C-DA-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Skills Points" Description="">
+  <Cheat Text="最大 无限技能 得分" Description="">
     <Cheatline>
       <Offset>FFFFFFFFFFC04000</Offset>
       <Section>0</Section>
@@ -93,7 +101,7 @@
       <ValueOff>45-01-6C-9F-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Buy Skills W\O Skill Points" Description="">
+  <Cheat Text="Buy Skills W\O Skill 得分" Description="">
     <Cheatline>
       <Offset>FFFFFFFFFFC04030</Offset>
       <Section>0</Section>
@@ -107,7 +115,7 @@
       <ValueOff>42-2B-4C-82-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Skillpoint Never Decrease" Description="">
+  <Cheat Text="Skillpoint Never Decrease｜技能点永不减少" Description="">
     <Cheatline>
       <Offset>74FF2F</Offset>
       <Section>0</Section>

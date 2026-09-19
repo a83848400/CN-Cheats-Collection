@@ -1,12 +1,17 @@
 {
-  "name": "YAKUZA 3",
+  "name": "如龙 3",
   "id": "CUSA15360",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max money on Buy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 on Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1837800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Experience",
-      "type": "checkbox",
+      "name": "Infinite Experience｜无限体验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8760BE",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65A4F",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Heats",
-      "type": "checkbox",
+      "name": "Infinite Heats｜无尽的热浪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CC42",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "1 HIT KILL",
-      "type": "checkbox",
+      "name": "1 HIT KILL｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C9D57",

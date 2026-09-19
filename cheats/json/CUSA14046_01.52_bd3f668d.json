@@ -1,12 +1,17 @@
 {
-  "name": "World War Z",
+  "name": "World War Z｜《僵尸世界大战》",
   "id": "CUSA14046",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "((Activate Cheats Only On Character Screen))",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "((Activate Cheats Only On Character Screen))｜((仅在角色界面开启作弊))",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BAAD36",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Helth / 1 Hit Kill (Master Code)",
-      "type": "checkbox",
+      "name": "Infinite Helth / 一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83ABF800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83ABF838",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Stamina / Ammo (Master Code)",
-      "type": "checkbox",
+      "name": "体力 / 但是 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BAAA00",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Ammo (MC) ",
-      "type": "checkbox",
+      "name": "但是 (MC) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BAAA07",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Coins / Melee Energy (Master Code)",
-      "type": "checkbox",
+      "name": "角落 / 近战 能量 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BBF800",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Melee Energy (MC)",
-      "type": "checkbox",
+      "name": "近战 能量 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BBF804",

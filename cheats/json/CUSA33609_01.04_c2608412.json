@@ -1,12 +1,17 @@
 {
-  "name": "WRC Generations",
+  "name": "WRC Generations｜《WRC Generations》",
   "id": "CUSA33609",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2207DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max F&E Skills Points",
-      "type": "checkbox",
+      "name": "最大 F&E Skills 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2207DDB",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Reputation Level",
-      "type": "checkbox",
+      "name": "声望拉满 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2207DF1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Moral",
-      "type": "checkbox",
+      "name": "最大 Moral",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2207E02",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max XP ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2207E19",

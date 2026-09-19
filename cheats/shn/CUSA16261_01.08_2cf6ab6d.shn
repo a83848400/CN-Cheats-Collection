@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Blasphemous" Moder="Ali-mk" Cusa="CUSA16261" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-(mc)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无敌-(mc)">
     <Cheatline>
       <Offset>80D835B3</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>E8-59-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>80D7B195</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>E8-56-AF-29-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Items-HP">
+    <Cheat Text="无限项-手机">
     <Cheatline>
       <Offset>80DAAFE9</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>E8-32-DF-E4-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-MAGIC">
+    <Cheat Text="Infinite-魔法">
     <Cheatline>
       <Offset>80DAFA54</Offset>
       <Section>0</Section>

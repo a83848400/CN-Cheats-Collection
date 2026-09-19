@@ -1,12 +1,17 @@
 {
-  "name": "Killing Floor 2",
+  "name": "Killing Floor 2｜《杀戮地带2》",
   "id": "CUSA02134",
   "version": "01.60",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26BFB50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money/Ammo",
-      "type": "checkbox",
+      "name": "金钱最大/但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26BFC90",

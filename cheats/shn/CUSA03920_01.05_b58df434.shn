@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Shantae: Half-Genie Hero" Moder="Ali-mk" Cusa="CUSA03920" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(mc)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(mc)">
     <Cheatline>
       <Offset>328E9D</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-F0-57-C9</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-MAGIC">
+    <Cheat Text="Infinite-All-魔法">
     <Cheatline>
       <Offset>1054DC</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-43-44</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-items">
+    <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>D93A8</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>88-4C-07-04</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="max-money-(mc)">
+    <Cheat Text="最大-金钱-(mc)">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>B6F825</Offset>
@@ -48,7 +56,7 @@
       <ValueOff>41-89-1E-89-DE</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-money">
+    <Cheat Text="Infinite-金钱">
     <Cheatline>
       <Offset>D94B9</Offset>
       <Section>0</Section>
