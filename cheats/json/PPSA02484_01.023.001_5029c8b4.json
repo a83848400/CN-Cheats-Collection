@@ -1,19 +1,24 @@
 {
-  "name": "Nioh Remastered - The Complete Edition",
+  "name": "仁王 Remastered - The Complete Edition",
   "id": "PPSA02484",
   "version": "01.023.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C8BF00",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "15C7F00",
           "section": 6,
@@ -23,7 +28,7 @@
           "offset": "2C8BF01",
           "on": "00",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "15C7F01",
           "section": 6,
@@ -42,15 +47,15 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C8BF00",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "15C7F00",
           "section": 6,
@@ -59,15 +64,15 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C8BF01",
           "on": "01",
           "off": "00",
-          "sectionName": "executable",
+          "sectionName": "executable｜可执行文件",
           "sectionProtection": 3,
           "logicalOffset": "15C7F01",
           "section": 6,
@@ -76,9 +81,9 @@
       ]
     },
     {
-      "name": "Inf Ki",
+      "name": "无限气",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "119706E",
@@ -93,9 +98,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "119709E",
@@ -120,9 +125,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1197103",
@@ -147,9 +152,9 @@
       ]
     },
     {
-      "name": "Inf Souls",
+      "name": "灵魂无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1197162",
@@ -174,9 +179,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11971CB",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Chorus" Moder="Reddevil82 - FW 9.00" Cusa="CUSA20221" Version="01.03" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Mastercode Health / Shield ( must be activated )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="主代码 生命 / 盾牌 ( must be activated )">
     <Cheatline>
       <Offset>5907E0A</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C4-C1-7A-11-84-24-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]">
     <Cheatline>
       <Offset>5907E43</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>C4-C1-7A-11-84-24-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill [ MC ]">
+  <Cheat Text="一击必杀 [ MC ]">
     <Cheatline>
       <Offset>5907E58</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7A-11-84-24-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield [ MC ]">
+  <Cheat Text="无限护盾 [ MC ]">
     <Cheatline>
       <Offset>5907E10</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-11-83-E0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Shield Enemy [ MC ]">
+  <Cheat Text="No 盾牌 Enemy [ MC ]">
     <Cheatline>
       <Offset>5907E23</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-11-83-E0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Gatling Gun Overheat">
+  <Cheat Text="No Gatling Gun Overheat｜加特林机枪不会过热">
     <Cheatline>
       <Offset>5907DF0</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C5-FA-11-83-A4-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Laser Cooldown">
+  <Cheat Text="No 激光瞄准器 Cooldown">
     <Cheatline>
       <Offset>5907DD9</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C5-FA-11-83-FC-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Credits">
+  <Cheat Text="最大 Credits">
     <Cheatline>
       <Offset>5907DB0</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Spider-Man: Miles Morales",
+  "name": "Marvel's 蜘蛛侠: 迈尔斯·莫拉莱斯",
   "id": "CUSA20177",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B83C50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Venom power (after first charge)",
-      "type": "checkbox",
+      "name": "Infinite 毒液 电力 (after first 冲锋)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B83BE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Gadget use",
-      "type": "checkbox",
+      "name": "Infinite 小道具 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B83D50",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Experience (activate once)",
-      "type": "checkbox",
+      "name": "最大 Experience (activate once)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B83BB0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max skill points (on spend have 2)",
-      "type": "checkbox",
+      "name": "最大 skill 得分 (on spend have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B83CA0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max infinite Resources (on spend on gadget and suits)",
-      "type": "checkbox",
+      "name": "最大 资源无限 (on spend on 小道具 and suits)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B83D10",

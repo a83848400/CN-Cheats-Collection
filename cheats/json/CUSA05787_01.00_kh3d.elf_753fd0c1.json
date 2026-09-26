@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts: HD 2.8 Final Chapter Prologue",
+  "name": "王国之心: HD 2.8 Final Chapter Prologue",
   "id": "CUSA05787",
   "version": "01.00",
   "process": "kh3d.elf",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89F823",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Max Sora / Riku Exp",
-      "type": "checkbox",
+      "name": "Infinite 最大 索拉 / 利库 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A8F10",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Infinite Max Pet Exp ",
-      "type": "checkbox",
+      "name": "Infinite 最大 Pet 经验 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89F833",

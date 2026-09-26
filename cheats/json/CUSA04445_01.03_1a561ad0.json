@@ -1,12 +1,17 @@
 {
-  "name": "Sky Force Anniversary",
+  "name": "光·遇 原力 Anniversary",
   "id": "CUSA04445",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80217B26",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "max+Infinite-money",
-      "type": "checkbox",
+      "name": "最大+Infinite-金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8022AA64",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8022AF40",

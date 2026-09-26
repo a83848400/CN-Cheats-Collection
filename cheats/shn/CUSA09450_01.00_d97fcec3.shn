@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="MLB The Show 18" Moder="nolberto82" Cusa="CUSA09450" Version="01.00" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="Hold R1 To Hit Homerun">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="领地 R1 To Hit Homerun">
     <Cheatline>
       <Offset>1893800</Offset>
       <Section>0</Section>

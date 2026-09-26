@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Umbrella Corps",
+  "name": "生化危机: 《伞兵小队》",
   "id": "CUSA03498",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo (No reload)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 (无需换弹)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "46",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Stupid Zombies",
-      "type": "checkbox",
+      "name": "Stupid Zombies｜愚蠢的僵尸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "119EA50",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "9,999,999 Total Points on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 Total 得分 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A5460",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "9,999,999 Player Points on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 Player 得分 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11AB800",

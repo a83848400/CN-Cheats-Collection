@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed Payback",
+  "name": "极品飞车 Payback",
   "id": "CUSA05986",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03E17E50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Tokens",
-      "type": "checkbox",
+      "name": "最大 Tokens",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03E17F50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Rep Points",
-      "type": "checkbox",
+      "name": "最大 声望 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0295ED5A",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Inf Nitro",
-      "type": "checkbox",
+      "name": "无限氮气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35AA940",

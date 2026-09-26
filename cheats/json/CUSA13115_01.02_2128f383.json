@@ -1,12 +1,17 @@
 {
-  "name": "Watch Dogs: Legion",
+  "name": "看门狗: Legion",
   "id": "CUSA13115",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code Player Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 Player 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3D58",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3E03",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Keeping Player's Health",
-      "type": "checkbox",
+      "name": "Keeping Player's 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3D58",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Lots of Bullets",
-      "type": "checkbox",
+      "name": "Lots of Bullets｜大量子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3D67",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Lots of Magazine",
-      "type": "checkbox",
+      "name": "Lots of 弹匣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3D79",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "No Wanted Level [ Don't Lock ]",
-      "type": "checkbox",
+      "name": "无通缉等级 [ Don'恐怖分子 Lock ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3E50",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "A lot of Etto",
-      "type": "checkbox",
+      "name": "A 用地 of Etto",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3D8A",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Lots of Tech Points",
-      "type": "checkbox",
+      "name": "Lots of 科技 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3DA4",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Hacking Without Cooldown",
-      "type": "checkbox",
+      "name": "破解 Without Cooldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0163B87F",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "No Jam Turret",
-      "type": "checkbox",
+      "name": "No Jam 防御塔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01E117B0",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Long Camouflage Duration",
-      "type": "checkbox",
+      "name": "Long Camouflage Duration｜较长的伪装持续时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "017C5E5E",
@@ -161,8 +166,8 @@
       ]
     },
     {
-      "name": "Infinite Camouflage",
-      "type": "checkbox",
+      "name": "Infinite Camouflage｜无限伪装",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "017C6E70",
@@ -172,8 +177,8 @@
       ]
     },
     {
-      "name": "Undetected By Enemy",
-      "type": "checkbox",
+      "name": "Undetected By Enemy｜未被敌人发现",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B99DF0",
@@ -183,8 +188,8 @@
       ]
     },
     {
-      "name": "Instant Cooldown Elec-Shock-Missl. Drone",
-      "type": "checkbox",
+      "name": "技能冷却清零 Elec-Shock-Missl. 无人机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "010C3F58",
@@ -194,8 +199,8 @@
       ]
     },
     {
-      "name": "Speed [1.35]",
-      "type": "checkbox",
+      "name": "速度 [1.35]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3DF2",
@@ -210,8 +215,8 @@
       ]
     },
     {
-      "name": "Speed [1.5]",
-      "type": "checkbox",
+      "name": "速度 [1.5]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3DF2",
@@ -226,8 +231,8 @@
       ]
     },
     {
-      "name": "Speed [1.875]",
-      "type": "checkbox",
+      "name": "速度 [1.875]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3DF2",
@@ -242,8 +247,8 @@
       ]
     },
     {
-      "name": "Speed [1.95]",
-      "type": "checkbox",
+      "name": "速度 [1.95]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3DF2",
@@ -258,8 +263,8 @@
       ]
     },
     {
-      "name": "Speed [2.15]",
-      "type": "checkbox",
+      "name": "速度 [2.15]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "085E3DF2",

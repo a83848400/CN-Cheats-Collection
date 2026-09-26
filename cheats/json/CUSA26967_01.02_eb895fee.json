@@ -1,12 +1,17 @@
 {
-  "name": "Tunic",
+  "name": "Tunic｜束腰上衣",
   "id": "CUSA26967",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81753C80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health/items (turn on and turn off coins cheat)",
-      "type": "checkbox",
+      "name": "无限生命/items (回合 on and 回合 off 角落 cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81753CC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max coins (on gain and turn off right away)",
-      "type": "checkbox",
+      "name": "最大 角落 (on gain and 回合 off right away)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81753D10",

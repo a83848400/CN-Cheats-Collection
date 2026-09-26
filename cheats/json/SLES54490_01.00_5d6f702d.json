@@ -1,12 +1,17 @@
 {
-  "name": "God Hand",
+  "name": "上帝 手牌",
   "id": "SLES54490",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max-Gold-999999",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大-金币-999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808016D4F2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf-Health",
-      "type": "checkbox",
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD2C290",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max-Tension-Gauge",
-      "type": "checkbox",
+      "name": "最大-蓄力-Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801CFE04",

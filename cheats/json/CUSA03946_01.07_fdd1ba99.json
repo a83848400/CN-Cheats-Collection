@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light: The Following: Enhanced Edition",
+  "name": "Dying Light: The Following: Enhanced Edition｜《消逝的光芒：追随者：增强版》",
   "id": "CUSA03946",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AA54D6",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Infinite Cash",
-      "type": "checkbox",
+      "name": "最大 无限现金",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Skill Points (Deactivate After Get)",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 (Deactivate After Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20738AB",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073814",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip/No Reload",
-      "type": "checkbox",
+      "name": "无底夹/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "616B06",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Lock Resources (Sell, Deactivate, Buy Back)",
-      "type": "checkbox",
+      "name": "Lock Resources (Sell, Deactivate, Buy Back)｜锁定资源（出售、停用、回购）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "616B0B",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite UV Light",
-      "type": "checkbox",
+      "name": "Infinite UV Light｜无限紫外线",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073825",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Infinite Grappling Hook Stamina",
-      "type": "checkbox",
+      "name": "Infinite 抓钩 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073838",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability And Buggy Components",
-      "type": "checkbox",
+      "name": "武器耐久无限 And Buggy Components",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "207384F",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073894",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Infinite NOS (The Following Only)",
-      "type": "checkbox",
+      "name": "Infinite 氮气加速 (The Following Only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "207387F",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel (The Following Only)",
-      "type": "checkbox",
+      "name": "燃料无限 (The Following Only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2073864",

@@ -1,12 +1,17 @@
 {
-  "name": "Vampyr",
+  "name": "Vampyr｜吸血鬼",
   "id": "CUSA03468",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Items Max/ On Sell",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "所有商品 最大/ On Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49F7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Stamina Consume",
-      "type": "checkbox",
+      "name": "No 体力 Consume",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DBE251",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Blood Never Decrease ",
-      "type": "checkbox",
+      "name": "Blood Never Decrease ｜血永不枯竭",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F0C7EE",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Lots Of Money/On Pickup",
-      "type": "checkbox",
+      "name": "Lots Of 金钱/On Pickup",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49F7800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Ammo Never Decrease+No Reload",
-      "type": "checkbox",
+      "name": "但是 Never Decrease+无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FE145C",

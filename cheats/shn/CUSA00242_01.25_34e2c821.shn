@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Max Gold after Shop and Max Items after Smith" Description="Max Gold after Shop and Max Items after Smith">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金币最大 after Shop and 最大 Items after Smith" Description="Max Gold after Shop and Max Items after Smith">
     <Cheatline>
       <Offset>12D7800</Offset>
       <Section>0</Section>

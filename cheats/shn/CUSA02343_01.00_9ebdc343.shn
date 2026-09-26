@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Uncharted: The Nathan Drake Collection" Moder="DeathRGH" Cusa="CUSA02343" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Enable Debug Menu">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Enable Debug Menu｜开启调试菜单">
     <Cheatline>
       <Offset>14C4FD</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>C6-81-21-48-00-00-00-EB-04-C1-0B-00-00-C6-81-8C-48-00-00-01-EB-05-84-B3-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Debug Menu">
+  <Cheat Text="Enable Debug Menu｜开启调试菜单">
     <Cheatline>
       <Offset>16218D</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C6-81-01-4C-00-00-00-EB-04-C1-0B-00-00-C6-81-FC-4B-00-00-01-EB-05-84-B3-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Debug Menu">
+  <Cheat Text="Enable Debug Menu｜开启调试菜单">
     <Cheatline>
       <Offset>2CF8B0</Offset>
       <Section>0</Section>

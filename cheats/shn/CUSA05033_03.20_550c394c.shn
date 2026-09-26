@@ -5,7 +5,15 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>7A9741</Offset>
       <Section>0</Section>
@@ -13,7 +21,7 @@
       <ValueOff>0F-4E-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill" Description="">
+  <Cheat Text="1 Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>7D71E9</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>0F-4E-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SP" Description="">
+  <Cheat Text="Infinite 精神值" Description="">
     <Cheatline>
       <Offset>76D3AB</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>66-0F-4C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown" Description="">
+  <Cheat Text="No Cooldown｜无冷却" Description="">
     <Cheatline>
       <Offset>791077</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>C4-C1-7A-10-84-96-64-A0-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Damage-Multiplicator" Description="">
+  <Cheat Text="简单 输出-Multiplicator" Description="">
     <Cheatline>
       <Offset>7B2DB1</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-F2-5C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Damage-Multiplicator" Description="">
+  <Cheat Text="最大 输出-Multiplicator" Description="">
     <Cheatline>
       <Offset>E6B87A</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-10-1D-DB-BB-28-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max SwordSkillConnection Damage (450%)" Description="">
+  <Cheat Text="最大 SwordSkillConnection 输出 (450%)" Description="">
     <Cheatline>
       <Offset>7A7446</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>C5-FA-5D-05-06-C3-53-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SwordSkillConnection" Description="">
+  <Cheat Text="Infinite SwordSkillConnection｜无限之剑技能连接" Description="">
     <Cheatline>
       <Offset>7A73A7</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Step-Costs not Increasing" Description="">
+  <Cheat Text="Step-Costs not Increasing｜分级费用未增加" Description="">
     <Cheatline>
       <Offset>797DB2</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>41-FE-87-24-F8-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fairy Dance" Description="">
+  <Cheat Text="Infinite 妖精 Dance" Description="">
     <Cheatline>
       <Offset>7A8585</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>41-FE-84-24-23-F8-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Col on Use" Description="">
+  <Cheat Text="最大 Col on Use" Description="">
     <Cheatline>
       <Offset>97368A</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>0F-46-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints" Description="">
+  <Cheat Text="Infinite Skillpoints｜无限技能点" Description="">
     <Cheatline>
       <Offset>6E97C6</Offset>
       <Section>0</Section>
@@ -107,7 +115,7 @@
       <ValueOff>29-D3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>E6B800</Offset>
       <Section>0</Section>
@@ -121,7 +129,7 @@
       <ValueOff>44-0F-B6-7B-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Level/XP" Description="">
+  <Cheat Text="Instant 等级最大/XP" Description="">
     <Cheatline>
       <Offset>7804FB</Offset>
       <Section>0</Section>
@@ -129,7 +137,7 @@
       <ValueOff>8B-4D-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Expertise" Description="">
+  <Cheat Text="Instant 最大 Expertise" Description="">
     <Cheatline>
       <Offset>6E8BF9</Offset>
       <Section>0</Section>
@@ -137,7 +145,7 @@
       <ValueOff>66-0F-4E-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Sword-Skill-Proficiency" Description="">
+  <Cheat Text="Instant 最大 剑-Skill-熟练" Description="">
     <Cheatline>
       <Offset>6EA3AB</Offset>
       <Section>0</Section>
@@ -145,7 +153,7 @@
       <ValueOff>66-0F-42-D1</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="NPC Instant Max Expertise" Description="">
+  <Cheat Text="非玩家角色 Instant 最大 Expertise" Description="">
     <Cheatline>
       <Offset>87390B</Offset>
       <Section>0</Section>
@@ -153,7 +161,7 @@
       <ValueOff>66-0F-4E-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="NPC Instant Max Skill" Description="">
+  <Cheat Text="非玩家角色 Instant 最大 Skill" Description="">
     <Cheatline>
       <Offset>87393A</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>66-0F-4E-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="NPC Instant Max Affection" Description="">
+  <Cheat Text="非玩家角色 Instant 好感度最大" Description="">
     <Cheatline>
       <Offset>6D4F34</Offset>
       <Section>0</Section>
@@ -169,7 +177,7 @@
       <ValueOff>66-0F-4C-CB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Level Smithing" Description="">
+  <Cheat Text="Instant 等级最大 锻造" Description="">
     <Cheatline>
       <Offset>B14678</Offset>
       <Section>0</Section>
@@ -183,7 +191,7 @@
       <ValueOff>7F-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Smithing: Instant Max (Item)" Description="">
+  <Cheat Text="锻造: Instant 最大 (物品)" Description="">
     <Cheatline>
       <Offset>B14122</Offset>
       <Section>0</Section>
@@ -191,7 +199,7 @@
       <ValueOff>7C-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Smithing: Items get Special Status (Enhance)" Description="">
+  <Cheat Text="锻造: Items get Special Status (Enhance)" Description="">
     <Cheatline>
       <Offset>B1412C</Offset>
       <Section>0</Section>
@@ -199,7 +207,7 @@
       <ValueOff>41-80-E1-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Friendship" Description="">
+  <Cheat Text="Instant 最大 Friendship" Description="">
     <Cheatline>
       <Offset>872E77</Offset>
       <Section>0</Section>
@@ -207,7 +215,7 @@
       <ValueOff>0F-4F-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sky Arena: Instant Max Rank" Description="">
+  <Cheat Text="光·遇 竞技场: Instant 最大 阶级" Description="">
     <Cheatline>
       <Offset>BBDFC4</Offset>
       <Section>0</Section>
@@ -215,7 +223,7 @@
       <ValueOff>66-0F-4C-FA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Training" Description="">
+  <Cheat Text="简单 训练" Description="">
     <Cheatline>
       <Offset>6F990C</Offset>
       <Section>0</Section>
@@ -223,7 +231,7 @@
       <ValueOff>0F-4D-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enigma Order: Easy Complete" Description="">
+  <Cheat Text="Enigma Order: 简单 Complete" Description="">
     <Cheatline>
       <Offset>E6B823</Offset>
       <Section>0</Section>
@@ -249,7 +257,7 @@
       <ValueOff>8B-57-34-3B-54-06-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fusion Skills: Max on Open Menu" Description="">
+  <Cheat Text="合成 Skills: 最大 on Open 菜单" Description="">
     <Cheatline>
       <Offset>E6B869</Offset>
       <Section>0</Section>
@@ -275,7 +283,7 @@
       <ValueOff>0F-B7-05-5C-90-54-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fusion Skills: Instant use Level 5" Description="">
+  <Cheat Text="合成 Skills: Instant use 等级 5" Description="">
     <Cheatline>
       <Offset>79E529</Offset>
       <Section>0</Section>
@@ -295,7 +303,7 @@
       <ValueOff>C6-05-D6-8A-54-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Simulate Oracle +999 (GameMax)" Description="">
+  <Cheat Text="Simulate Oracle +999 (GameMax)｜模拟 Oracle +999（GameMax）" Description="">
     <Cheatline>
       <Offset>9734B9</Offset>
       <Section>0</Section>
@@ -303,7 +311,7 @@
       <ValueOff>48-8B-43-10-4B-89-44-3E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Simulate Oracle MAX" Description="">
+  <Cheat Text="Simulate Oracle 最大" Description="">
     <Cheatline>
       <Offset>9734B9</Offset>
       <Section>0</Section>
@@ -311,7 +319,7 @@
       <ValueOff>48-8B-43-10-4B-89-44-3E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Dungeon: Jump to Floor 1000" Description="">
+  <Cheat Text="Infinity 地牢: Jump to Floor 1000" Description="">
     <Cheatline>
       <Offset>6B47B8</Offset>
       <Section>0</Section>
@@ -319,7 +327,7 @@
       <ValueOff>49-63-4D-2C-48-FF-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Dungeon: No need for Keys" Description="">
+  <Cheat Text="Infinity 地牢: No need for Keys" Description="">
     <Cheatline>
       <Offset>68BBD5</Offset>
       <Section>0</Section>

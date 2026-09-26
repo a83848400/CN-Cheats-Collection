@@ -1,12 +1,17 @@
 {
-  "name": "Destroy All Humans!",
+  "name": "拆除 All Humans!",
   "id": "CUSA14910",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Fast replenish life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Fast replenish 生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE5716",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Immediately replenish life",
-      "type": "checkbox",
+      "name": "Immediately replenish 生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE5744",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinity Lightning Ammo",
-      "type": "checkbox",
+      "name": "Infinity 闪电 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C396E4",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinity Bullet Ammo",
-      "type": "checkbox",
+      "name": "Infinity Bullet 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D54530",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE5967",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinity Jetpack",
-      "type": "checkbox",
+      "name": "Infinity 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B952E6",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Buy without lose Money/Money collect off",
-      "type": "checkbox",
+      "name": "Buy without lose 金钱/金钱 collect off",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D19349",

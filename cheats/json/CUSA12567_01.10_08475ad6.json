@@ -1,12 +1,17 @@
 {
-  "name": "The Surge 2",
+  "name": "《The Surge》 2",
   "id": "CUSA12567",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Health ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 生命 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E3BD30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health [MC]",
-      "type": "checkbox",
+      "name": "无限生命 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E3BD3C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [MC]",
-      "type": "checkbox",
+      "name": "一击必杀 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E3BD49",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D3F8F",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D49D9",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Tech - Scrap",
-      "type": "checkbox",
+      "name": "最大 科技 - Scrap",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E3BDDB",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Ammo ( on gain )",
-      "type": "checkbox",
+      "name": "弹药最大化 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E3BE06",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Max Inventory",
-      "type": "checkbox",
+      "name": "最大 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E3BD60",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Max Items ( on use )",
-      "type": "checkbox",
+      "name": "最大 Items ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DDC90",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Freeze Timer ( Collect Tech - Scrap )",
-      "type": "checkbox",
+      "name": "Freeze 计时器 ( Collect 科技 - Scrap )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10904F3",

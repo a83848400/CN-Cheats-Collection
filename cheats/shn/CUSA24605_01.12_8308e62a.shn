@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Two Point Campus" Moder="aran" Cusa="CUSA24605" Version="01.12" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Inf Kudos on use">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="使用体验极佳">
     <Cheatline>
       <Offset>989D6E</Offset>
       <Section>14</Section>
@@ -10,7 +18,7 @@
       <ValueOff>45-29-A5-40-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Money on Use">
+  <Cheat Text="Increase 金钱 on Use">
     <Cheatline>
       <Offset>197D550</Offset>
       <Section>0</Section>

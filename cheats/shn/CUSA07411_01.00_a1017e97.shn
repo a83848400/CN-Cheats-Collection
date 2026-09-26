@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War (2018)" Moder="Talixme" Cusa="CUSA07411" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>C59400</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>C4-C1-7A-11-5D-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rage">
+  <Cheat Text="Infinite Rage｜怒气无限">
     <Cheatline>
       <Offset>C5941E</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>C5-FA-5D-DC-C5-F8-2E-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Refill Health">
+  <Cheat Text="Refill 生命">
     <Cheatline>
       <Offset>11467473C8</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>00-00-FA-43</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Refill Rage">
+  <Cheat Text="Refill 怒气">
     <Cheatline>
       <Offset>1146747428</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>00-00-FA-43</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="9999999 Experience">
+  <Cheat Text="9999999 Experience｜9999999 体验">
     <Cheatline>
       <Offset>1082DBD8E0</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>7F-96-98-00-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="9999999 Money">
+  <Cheat Text="9999999 金钱">
     <Cheatline>
       <Offset>1082DBDAA0</Offset>
       <Section>0</Section>

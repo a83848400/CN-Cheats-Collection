@@ -1,12 +1,17 @@
 {
-  "name": "Torchlight III",
+  "name": "Torchlight III｜《火炬之光3》",
   "id": "CUSA10227",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Player / Pet)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Player / Pet)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "680FAA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9ED848",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Gold (On Get)",
-      "type": "checkbox",
+      "name": "金币最大 (On Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "680FB00",

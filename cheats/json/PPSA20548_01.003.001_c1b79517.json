@@ -1,13 +1,18 @@
 {
-  "name": "Eriksholm: The Stolen Dream",
+  "name": "Eriksholm: The Stolen Dream｜埃里克肖尔姆：《被偷走的梦想》",
   "id": "PPSA20548",
   "version": "01.003.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Cant Hear You",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Cant Hear You｜听不见你",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BC47CE",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Cant See You",
+      "name": "Cant See You｜看不见你",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BD4214",

@@ -1,12 +1,17 @@
 {
-  "name": "Chasm",
+  "name": "Chasm｜深渊",
   "id": "CUSA01273",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9FE2",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max (Iron/Apple) 99",
-      "type": "checkbox",
+      "name": "最大 (Iron/Apple) 99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F0B640",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Gold (9999) Turn Off To Collect More",
-      "type": "checkbox",
+      "name": "金币最大 (9999) 回合 Off To Collect More",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F0B6A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "XP Multiplier (x15)",
-      "type": "checkbox",
+      "name": "经验值倍率 (x15)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F0B600",

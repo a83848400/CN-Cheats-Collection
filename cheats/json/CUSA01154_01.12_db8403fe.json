@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Phantom Pain",
+  "name": "合金装备/潜龙谍影 V: The 灵体 Pain",
   "id": "CUSA01154",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10F2EFF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29C0759",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Suppressor",
-      "type": "checkbox",
+      "name": "Infinite 消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29C0407",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "273A050",

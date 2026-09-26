@@ -1,13 +1,18 @@
 {
-  "name": "The Deer God",
+  "name": "The 鹿 上帝",
   "id": "CUSA06213",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8025E883",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "No Hungry",
+      "name": "No Hungry｜不再饥饿",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B02F",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf O2",
+      "name": "Infinite 氧气",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023A87A",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Inf Jumps",
+      "name": "无限跳跃",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8025567E",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Fast Growup",
+      "name": "Fast Growup｜快速成长",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B068",

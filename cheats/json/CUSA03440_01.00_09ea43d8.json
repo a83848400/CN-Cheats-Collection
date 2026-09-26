@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Chronicles",
+  "name": "刺客信条 Chronicles",
   "id": "CUSA03440",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "962C7C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health / Easy Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26BE440",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Helix",
-      "type": "checkbox",
+      "name": "Infinite Helix｜无限螺旋",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26BE470",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26BE4D0",

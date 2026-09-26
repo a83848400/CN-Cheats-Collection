@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Kingdom Hearts: HD 1.5 + 2.5 ReMIX" Moder="Molly" Cusa="CUSA05933" Version="01.00" Process="khRecom.elf">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Have All Cards ~Press Start~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Have All Cards ~Press Start~｜集齐所有卡片后，请按“开始”键">
     <Cheatline>
       <Offset>59F800</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>0F-BE-84-01-90-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>59F863</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>8B-91-58-04-00-00-89-50-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Cards/Story/Chars Entries">
+  <Cheat Text="Have All Cards/Story/Chars Entries｜包含所有卡牌/剧情/角色条目">
     <Cheatline>
       <Offset>59F8DE</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>F6-84-08-A4-28-00-00-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Moogle Points ~Sell 1 Card~">
+  <Cheat Text="最大 莫古力 得分 ~Sell 1 卡牌~">
     <Cheatline>
       <Offset>59F8F3</Offset>
       <Section>0</Section>

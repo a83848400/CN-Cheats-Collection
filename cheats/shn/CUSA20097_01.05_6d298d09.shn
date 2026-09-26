@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Thief Simulator" Moder="Reddevil82 - FW 9.00" Cusa="CUSA20097" Version="01.05" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Max Money" Description="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大" Description="Max Money">
     <Cheatline>
       <Offset>158FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8B-80-A0-00-00-00-8B-40-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints ( on use )" Description="Max Skillpoints ( on use )">
+  <Cheat Text="最大 技能点 ( on use )" Description="Max Skillpoints ( on use )">
     <Cheatline>
       <Offset>158FDDA</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>4C-89-F7-29-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Weight ( after Upgrade )" Description="Max Weight ( after Upgrade )">
+  <Cheat Text="最大 重量 ( after Upgrade )" Description="Max Weight ( after Upgrade )">
     <Cheatline>
       <Offset>158FDEA</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Noise Mode" Description="No Noise Mode">
+  <Cheat Text="No Noise Mode｜静音模式" Description="No Noise Mode">
     <Cheatline>
       <Offset>158FDF6</Offset>
       <Section>0</Section>

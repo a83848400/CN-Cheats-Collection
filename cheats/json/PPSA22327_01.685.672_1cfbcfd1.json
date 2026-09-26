@@ -1,12 +1,17 @@
 {
-  "name": "Forza Horizon 5",
+  "name": "极限竞速：地平线 5",
   "id": "PPSA22327",
   "version": "01.685.672",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "999 Spins (Never Decrease)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "999 Spins (Never Decrease)｜999 次旋转（永不减少）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5DB3070",

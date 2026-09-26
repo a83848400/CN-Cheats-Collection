@@ -1,12 +1,17 @@
 {
-  "name": "Green Hell",
+  "name": "Green Hell｜绿色地狱",
   "id": "CUSA26546",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Inf HP",
-      "type": "checkbox",
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Water",
-      "type": "checkbox",
+      "name": "Water｜水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Carbohydrate",
-      "type": "checkbox",
+      "name": "Carbohydrate｜碳水化合物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Proteins",
-      "type": "checkbox",
+      "name": "Proteins｜蛋白质",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -66,7 +71,7 @@
     },
     {
       "name": "FAT",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

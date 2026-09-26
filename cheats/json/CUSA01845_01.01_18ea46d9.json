@@ -1,12 +1,17 @@
 {
-  "name": "Transformers: Fall of Cybertron",
+  "name": "Transformers: Fall of Cybertron｜《变形金刚：赛博坦的陨落》",
   "id": "CUSA01845",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F38600",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Dont Use With 1 Hit Kill)",
-      "type": "checkbox",
+      "name": "无限生命 (Dont Use With 一击必杀)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F38600",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE6470",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F37700",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Trek to Yomi" Moder="Saso" Cusa="PPSA02629" Version="02.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Health / Stamina / 1 HK (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命 / 体力 / 1 HK (Master 密码)">
     <Cheatline>
       <Section>0</Section>
       <Offset>56C3800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina (MC) / Deactivate In Training">
+  <Cheat Text="体力 (MC) / Deactivate In 训练">
     <Cheatline>
       <Section>0</Section>
       <Offset>56C382F</Offset>
@@ -24,7 +32,7 @@
       <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC) /  Deactivate In Training">
+  <Cheat Text="一击必杀 (MC) /  Deactivate In 训练">
     <Cheatline>
       <Section>0</Section>
       <Offset>56C3839</Offset>
@@ -32,7 +40,7 @@
       <ValueOff>74-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ranged Weapon">
+  <Cheat Text="远程 Weapon">
     <Cheatline>
       <Section>0</Section>
       <Offset>56C3871</Offset>

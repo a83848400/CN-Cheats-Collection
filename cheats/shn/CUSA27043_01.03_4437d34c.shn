@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Island 2" Moder="Wander FW9.00" Cusa="CUSA27043" Version="01.03" Process="eboot.bin">
   <Genres Name="Terror" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>900D590</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-87-78-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite weapon Durability">
+  <Cheat Text="Infinite weapon Durability｜武器耐久无限">
     <Cheatline>
       <Offset>900D510</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-87-78-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>9008810</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-83-14-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>9015450</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-87-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cash (on get turn off items cheat first)">
+  <Cheat Text="最大 Cash (on get 回合 off items cheat first)">
     <Cheatline>
       <Offset>900C260</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>41-89-4C-DC-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Experience (on 2nd kill)">
+  <Cheat Text="最大 Experience (on 2nd kill)">
     <Cheatline>
       <Offset>900D1E0</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>44-03-70-78-49-8B-04-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="sell 999 items (on the store if items cheat bugged out)">
+  <Cheat Text="sell 999 items (on the store if items cheat bugged out)｜出售999件商品（如果商品作弊功能出现故障，则在商店中出售）">
     <Cheatline>
       <Offset>900D400</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>89-8B-E0-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x60 Items (on get turn off the cash cheat and have 2 items)">
+  <Cheat Text="x60 Items (on get 回合 off the cash cheat and have 2 items)">
     <Cheatline>
       <Offset>900D4A0</Offset>
       <Section>0</Section>

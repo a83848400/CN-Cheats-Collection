@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Origins",
+  "name": "刺客信条 Origins",
   "id": "CUSA08393",
   "version": "01.41",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3550C06",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A3E529",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "21 Skillpoints / Kill",
-      "type": "checkbox",
+      "name": "21 Skillpoints / Kill｜每次击杀获得 21 点技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3D77C10",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3A3E524",

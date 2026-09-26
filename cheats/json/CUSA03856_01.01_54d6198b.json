@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 6",
+  "name": "生化危机 6",
   "id": "CUSA03856",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71240B",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina/Air",
-      "type": "checkbox",
+      "name": "无限耐力/Air",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712A03",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Items",
-      "type": "checkbox",
+      "name": "无限弹药/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B324C4",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Skillpoints",
-      "type": "checkbox",
+      "name": "最大 技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6A67EF",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Easy QTE",
-      "type": "checkbox",
+      "name": "简单 快速反应事件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17CB800",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Time",
-      "type": "checkbox",
+      "name": "Infinite Time｜无限时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14A506",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Max Score",
-      "type": "checkbox",
+      "name": "最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153335",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Combo",
-      "type": "checkbox",
+      "name": "最大 Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153379",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Infinite Abilitypoints",
-      "type": "checkbox",
+      "name": "Infinite Abilitypoints｜无限能力点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6A771C",

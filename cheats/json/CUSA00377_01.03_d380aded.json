@@ -1,12 +1,17 @@
 {
-  "name": "Lords of the Fallen",
+  "name": "Lords of the Fallen｜《堕落之主》",
   "id": "CUSA00377",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BF00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health+1 Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命+一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4AD50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4A4F0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Magic ",
-      "type": "checkbox",
+      "name": "Infinite 魔法 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2344F6",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Attribute Points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite 属性 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4A440",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Potions/Runes (on use)",
-      "type": "checkbox",
+      "name": "药水无限/铭文 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4A510",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Spell points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite 法术 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4B9C0",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Alot of Experience (on spend)",
-      "type": "checkbox",
+      "name": "Alot of Experience (on spend)｜丰富的经验（在支出方面）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE1B3F0",

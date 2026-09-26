@@ -1,13 +1,18 @@
 {
-  "name": "The Technomancer",
+  "name": "The Technomancer｜《技术法师》",
   "id": "CUSA03824",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3800",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Powers",
+      "name": "无限之力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B517C",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Gain Money after Shop",
+      "name": "Gain 金钱 after Shop",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "536891",

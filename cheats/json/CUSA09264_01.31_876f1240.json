@@ -1,12 +1,17 @@
 {
-  "name": "Just Cause 4",
+  "name": "正当防卫 4",
   "id": "CUSA09264",
   "version": "01.31",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "inf. health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite. 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "203E2B9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inf. secondary fire",
-      "type": "checkbox",
+      "name": "Infinite. secondary 火",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19591E3",

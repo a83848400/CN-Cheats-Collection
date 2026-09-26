@@ -1,12 +1,17 @@
 {
-  "name": "Scarlet Nexus",
+  "name": "Scarlet 基地水晶",
   "id": "CUSA25269",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "999999 Funds",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "999999 Funds｜999999 基金",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8013814",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Items (Use in Battle)",
-      "type": "checkbox",
+      "name": "道具无限 (Use in 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "111C22D",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "999 BP after 1 use",
-      "type": "checkbox",
+      "name": "999 战斗点数 after 1 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1120B8E",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill ",
-      "type": "checkbox",
+      "name": "1 Hit Kill ｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8013800",

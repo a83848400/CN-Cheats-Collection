@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Skul: The Hero Slayer" Moder="Celogamez" Cusa="CUSA27430" Version="01.20" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>199BDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-70-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>6EDB1F</Offset>
       <Section>14</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-89-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumps">
+  <Cheat Text="Infinite Jumps｜无限跳跃">
     <Cheatline>
       <Offset>52E4F2</Offset>
       <Section>14</Section>
@@ -32,7 +40,7 @@
       <ValueOff>FF-40-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Coins/Crystals/Bones (Disable After Gain)">
+  <Cheat Text="最大/无限金币/Crystals/Bones (Disable 增益后)">
     <Cheatline>
       <Offset>199BBC0</Offset>
       <Section>0</Section>

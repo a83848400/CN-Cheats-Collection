@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="Infinite Health (Slayer+Revenant) + Shield">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (Slayer+Revenant) + 盾牌">
     <Cheatline>
       <Offset>330DF70</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-10-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo + Fuel">
+  <Cheat Text="无限弹药 + Fuel">
     <Cheatline>
       <Offset>330E031</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>8B-43-38-5B-41-5E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Crucible Sword">
+  <Cheat Text="Infinite Crucible 剑">
     <Cheatline>
       <Offset>330DFA0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jump">
+  <Cheat Text="Infinite Jump｜无限跳跃">
     <Cheatline>
       <Offset>330E150</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>83-BB-80-41-00-00-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumping Dash">
+  <Cheat Text="Infinite Jumping Dash｜无限跳跃冲刺">
     <Cheatline>
       <Offset>330E135</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>89-86-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>330E0CD</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>C5-FA-58-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Radiation/Dive Suit">
+  <Cheat Text="Infinite Radiation/潜水 战衣">
     <Cheatline>
       <Offset>330DFD0</Offset>
       <Section>0</Section>
@@ -125,7 +133,7 @@
       <ValueOff>E9-07-1D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="666 Keys + 6 Empyrean Keys">
+  <Cheat Text="666 Keys + 6 Empyrean Keys｜666把钥匙 + 6把天界钥匙">
     <Cheatline>
       <Offset>330E058</Offset>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>E8-29-D6-4F-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Show The Complete Menu">
+  <Cheat Text="Show The Complete 菜单">
     <Cheatline>
       <Offset>330E000</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 3: Blood Dragon: Classic Edition",
+  "name": "孤岛惊魂 3: Blood 小龙: Classic Edition",
   "id": "CUSA29007",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health Seryngs",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 Seryngs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E4D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/No Reload",
-      "type": "checkbox",
+      "name": "最大/无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E2F0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables (After Getting Throwables)",
-      "type": "checkbox",
+      "name": "投掷物无限 (After Getting 可投掷物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B5AFF",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Money (Buy On Refill Inventory N Turn Off)",
-      "type": "checkbox",
+      "name": "金钱最大 (Buy On Refill 背包 N 回合 Off)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12848D0",

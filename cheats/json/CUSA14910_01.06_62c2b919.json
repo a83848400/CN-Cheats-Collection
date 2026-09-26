@@ -1,12 +1,17 @@
 {
-  "name": "Destroy All Humans!",
+  "name": "拆除 All Humans!",
   "id": "CUSA14910",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Crypto / Saucer)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Crypto / Saucer)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68E74A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health / 1Hit Kill (Dont Use With Infinite Health)",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀 (Dont Use With 无限生命)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68E74A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Jetpack Fuel",
-      "type": "checkbox",
+      "name": "Infinite 喷气背包 Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68E7500",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Zap-O-Matic",
-      "type": "checkbox",
+      "name": "Infinite 雷系咒文-O-Matic",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68E7540",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Disintegrator Ray",
-      "type": "checkbox",
+      "name": "Infinite Disintegrator Ray｜无限解体光束",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68E75F0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max DNA (Disable To Collect)",
-      "type": "checkbox",
+      "name": "最大 DNA (Disable To Collect)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68E75A0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite HoloBob Duration",
-      "type": "checkbox",
+      "name": "Infinite HoloBob Duration｜无限HoloBob持续时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68E75D0",

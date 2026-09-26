@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Cells" Moder="2B" Cusa="CUSA11253" Version="01.39" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>1AAB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-84-24-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Cells on spend">
+  <Cheat Text="无限细胞 on spend">
     <Cheatline>
       <Offset>1AAB830</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-89-B6-A4-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Money on spend">
+  <Cheat Text="金钱无限 on spend">
     <Cheatline>
       <Offset>1AAB8D1</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>29-DE-89-70-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Kill Score">
+  <Cheat Text="Infinite Kill 比分">
     <Cheatline>
       <Offset>1AAB843</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-51-74-8B-71-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Arrow">
+  <Cheat Text="无限之箭">
     <Cheatline>
       <Offset>1AAB852</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>83-7F-30-00-C7-45-C8-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>1AAB860</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>48-89-83-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Jump">
+  <Cheat Text="无限跳跃">
     <Cheatline>
       <Offset>1AAB875</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>41-FF-87-88-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Survival scroll upgrade x99">
+  <Cheat Text="生存模式 卷轴 upgrade x99">
     <Cheatline>
       <Offset>1AAB887</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>89-83-90-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tactics scroll upgrade x99">
+  <Cheat Text="战术 卷轴 upgrade x99">
     <Cheatline>
       <Offset>1AAB899</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>89-83-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Brutality scroll upgrade x99">
+  <Cheat Text="Brutality 卷轴 upgrade x99">
     <Cheatline>
       <Offset>1AAB8AB</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>89-83-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Play lvl Time freeze ">
+  <Cheat Text="Play lvl 时间静止 ">
     <Cheatline>
       <Offset>1AAB8BD</Offset>
       <Section>0</Section>

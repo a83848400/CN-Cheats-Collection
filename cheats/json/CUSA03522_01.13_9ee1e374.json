@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Modern Warfare Remastered",
+  "name": "使命召唤: Modern Warfare Remastered",
   "id": "CUSA03522",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AFF2A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6534D6",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9EF800",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6A3FEE",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "NoReload/InfGrenades/Equipment",
-      "type": "checkbox",
+      "name": "NoReload/信息手榴弹/装备",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9EF821",

@@ -1,12 +1,17 @@
 {
-  "name": "Wolfenstein: Youngblood",
+  "name": "Wolfenstein: Youngblood｜《狼穴：新血》",
   "id": "CUSA13094",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Kills",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "简单 Kills",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6ED02",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Enemy Armor Easy To Destroy",
-      "type": "checkbox",
+      "name": "Enemy Armor 简单 To 拆除",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6EB2F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ED78E0",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01213D20",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Share Lives",
-      "type": "checkbox",
+      "name": "Infinite Share Lives｜无限分享生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "036946D0",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03694550",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Undetected By Enemy",
-      "type": "checkbox",
+      "name": "Undetected By Enemy｜未被敌人发现",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81335E",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Cloack",
-      "type": "checkbox",
+      "name": "Infinite Cloack｜无限斗篷",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03694580",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Cloack Fast Recharge",
-      "type": "checkbox",
+      "name": "Cloack Fast Recharge｜克洛克快速充电",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0113EF10",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Instant Level Up When Get EXP",
-      "type": "checkbox",
+      "name": "瞬间升级 When Get 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "036945F0",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Level 30 ( Dont Lock )",
-      "type": "checkbox",
+      "name": "等级30 ( Dont Lock )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "036945B0",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "Multiple Jump",
-      "type": "checkbox",
+      "name": "Multiple Jump｜多跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "523C83",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "No Gravity ( ON )",
-      "type": "checkbox",
+      "name": "No Gravity ( ON )｜无重力（开启）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03694630",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "No Gravity ( OFF )",
-      "type": "checkbox",
+      "name": "No Gravity ( OFF )｜无重力（关闭）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03694660",

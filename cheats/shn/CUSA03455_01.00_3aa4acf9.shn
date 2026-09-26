@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="7 Days to Die" Moder="DeathRGH" Cusa="CUSA03455" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Infinite Health / Stamina">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 / 体力">
     <Cheatline>
       <Offset>804901BB</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>F3-45-0F-11-7F-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Get Skillpoints For Spending Them">
+  <Cheat Text="Get Skillpoints For Spending Them｜花技能点，赚技能点">
     <Cheatline>
       <Offset>8075ACA9</Offset>
       <Section>0</Section>

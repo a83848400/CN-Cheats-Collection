@@ -1,13 +1,18 @@
 {
-  "name": "Resident Evil: Revelations 2",
+  "name": "生化危机: Revelations 2",
   "id": "CUSA01133",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FD4FB",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F46A1",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Money｜金钱无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "834CA2",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Infinite Crystals",
+      "name": "Infinite Crystals｜水晶无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "79C548",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Infinite SP",
+      "name": "Infinite 精神值",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8309F2",

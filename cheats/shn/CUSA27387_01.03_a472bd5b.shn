@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hades" Moder="Pharaoh2k" Cusa="CUSA27387" Version="01.03" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Health and Artefacts (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命 and Artefacts (Master 密码)">
     <Cheatline>
       <Offset>90F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8B-03-48-8B-4D-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Must enable MC)" Description="Dying a few times in the game is an important part of the game story, so it's highly recommended to die and return back to House of Hades from time to time.">
+  <Cheat Text="无限生命 (Must enable MC)" Description="Dying a few times in the game is an important part of the game story, so it's highly recommended to die and return back to House of Hades from time to time.">
     <Cheatline>
       <Offset>90F808</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill (Must enable MC)">
+  <Cheat Text="一击必杀 (Must enable MC)">
     <Cheatline>
       <Offset>90F809</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Artefacts on Get (Must enable MC)" Description="Artefacts are: Ambrosia, Diamond, Titan Blood, Keys, Gemstones, Nectar, Darkness">
+  <Cheat Text="Infinite Artefacts on Get (Must enable MC)｜获取时获得无限神器（必须启用MC）" Description="Artefacts are: Ambrosia, Diamond, Titan Blood, Keys, Gemstones, Nectar, Darkness">
     <Cheatline>
       <Offset>90F80A</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode">
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>90FB00</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C5-FA-59-05-78-D2-74-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>90F966</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>48-8B-01-49-89-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Walk Speed (Master Code)" Description="Some enemies speed is also effected by this cheat">
+  <Cheat Text="Walk 速度 (Master 密码)" Description="Some enemies speed is also effected by this cheat">
     <Cheatline>
       <Offset>90FA66</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>C4-C1-72-59-8F-AC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed x1.5 (Must enable walk speed MC)">
+  <Cheat Text="速度x1.5 (Must enable walk 速度 MC)">
     <Cheatline>
       <Offset>90FA68</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed x2 (Must enable walk speed MC)">
+  <Cheat Text="速度 x2 (Must enable walk 速度 MC)">
     <Cheatline>
       <Offset>90FA68</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed x3 (Must enable walk speed MC)">
+  <Cheat Text="速度 x3 (Must enable walk 速度 MC)">
     <Cheatline>
       <Offset>90FA68</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Cast Bullets">
+  <Cheat Text="Infinite 施法 项目符号">
     <Cheatline>
       <Offset>337D91</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Clip">
+  <Cheat Text="No Clip｜穿墙模式">
     <Cheatline>
       <Offset>556B69</Offset>
       <Section>0</Section>

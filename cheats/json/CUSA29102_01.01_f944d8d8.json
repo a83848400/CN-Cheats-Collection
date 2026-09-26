@@ -1,12 +1,17 @@
 {
-  "name": "Tales of Symphonia Remastered",
+  "name": "传说系列 Symphonia Remastered",
   "id": "CUSA29102",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EE2E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EDF60",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Gald after Battle",
-      "type": "checkbox",
+      "name": "最大 剩下的 after 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EF80F",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Items {after using have 2)",
-      "type": "checkbox",
+      "name": "最大 Items {after using have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EF820",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max experience",
-      "type": "checkbox",
+      "name": "最大 experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EE6F0",

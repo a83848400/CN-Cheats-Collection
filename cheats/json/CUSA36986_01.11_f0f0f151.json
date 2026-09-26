@@ -1,12 +1,17 @@
 {
-  "name": "Wo Long: Fallen Dynasty",
+  "name": "Wo Long: Fallen Dynasty｜卧龙：苍天陨落",
   "id": "CUSA36986",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code (Must always be enabled)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 (Must always be enabled)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3623800",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Ghost Mode",
-      "type": "checkbox",
+      "name": "Ghost Mode｜幽灵模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "402B0",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "362383E",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3623860",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Max Morale",
-      "type": "checkbox",
+      "name": "最大 Morale",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3623882",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36238AE",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "Max Spirit",
-      "type": "checkbox",
+      "name": "最大 精魄",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36238DD",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "Max Genuine Qi",
-      "type": "checkbox",
+      "name": "最大 Genuine Qi",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36238FC",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Infinite Buff Duration",
-      "type": "checkbox",
+      "name": "Infinite 增益 Duration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36239D0",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "World Speed (Master-Code)",
-      "type": "checkbox",
+      "name": "World 速度 (Master-密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3623922",
@@ -185,8 +190,8 @@
       ]
     },
     {
-      "name": "---x0.5 Speed",
-      "type": "checkbox",
+      "name": "---速度×0.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03A0004D",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "---x2 Speed",
-      "type": "checkbox",
+      "name": "---速度×2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03A0004D",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "---x3 Speed",
-      "type": "checkbox",
+      "name": "---速度×3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03A0004D",
@@ -218,8 +223,8 @@
       ]
     },
     {
-      "name": "---x4 Speed",
-      "type": "checkbox",
+      "name": "---速度×4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03A0004D",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Max Accolades (On Buy)",
-      "type": "checkbox",
+      "name": "最大 Accolades (On Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3623938",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "99 Dragon Cure Potions (On use)",
-      "type": "checkbox",
+      "name": "99 小龙 Cure Potions (On use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "362394C",
@@ -261,8 +266,8 @@
       ]
     },
     {
-      "name": "Infinite Copper",
-      "type": "checkbox",
+      "name": "Infinite Copper｜无限铜",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "362395E",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "Infinite Wizardry Spells (On use)",
-      "type": "checkbox",
+      "name": "Infinite 仙术 Spells (On use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3623971",
@@ -293,8 +298,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables (On use)",
-      "type": "checkbox",
+      "name": "投掷物无限 (On use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "362398A",
@@ -309,8 +314,8 @@
       ]
     },
     {
-      "name": "Instant Beast Power Charge",
-      "type": "checkbox",
+      "name": "Instant 野兽 电力 冲锋",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3623997",
@@ -325,8 +330,8 @@
       ]
     },
     {
-      "name": "Infinite Tiger Beast Duration",
-      "type": "checkbox",
+      "name": "Infinite Tiger 野兽 Duration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36239AE",

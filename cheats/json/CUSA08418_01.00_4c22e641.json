@@ -1,12 +1,17 @@
 {
-  "name": "Okami HD",
+  "name": "大神 HD",
   "id": "CUSA08418",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite double jump (After you unlock double jump)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限二段跳 (After you 解锁 double jump)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

@@ -1,13 +1,18 @@
 {
-  "name": "Blades of Fire",
+  "name": "Blades of 火",
   "id": "PPSA26311",
   "version": "01.004.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2047F00",
@@ -37,9 +42,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2047F00",
@@ -49,9 +54,9 @@
       ]
     },
     {
-      "name": "--Inf_Stamina",
+      "name": "--无限体力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2047F01",
@@ -61,9 +66,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2047F02",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Materials and Items",
+      "name": "无限材料 and Items",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "180F091",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Inf Weapons Durability",
+      "name": "Infinite 武器 耐用性",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "180F0C7",

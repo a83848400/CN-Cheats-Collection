@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1783B10</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-11-85-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Don't Use Against Bosses)">
+  <Cheat Text="一击必杀 (Don'恐怖分子 Use Against Bosses)">
     <Cheatline>
       <Offset>1783E60</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-C1-7A-11-85-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Wrath Bar">
+  <Cheat Text="无尽之怒 Bar">
     <Cheatline>
       <Offset>1783C10</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-11-43-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Chaos (1 Hit)">
+  <Cheat Text="最大 混沌 (1 Hit)">
     <Cheatline>
       <Offset>1783E30</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C4-C1-7A-10-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Chaos After Use">
+  <Cheat Text="Instant 混沌 After Use">
     <Cheatline>
       <Offset>1F9AC6</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>0F-4C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Horse Gallop">
+  <Cheat Text="Infinite Horse Gallop｜无尽的马蹄声">
     <Cheatline>
       <Offset>33F4A9</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>89-83-5C-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Souls">
+  <Cheat Text="最大/灵魂无限">
     <Cheatline>
       <Offset>1783B70</Offset>
       <Section>0</Section>

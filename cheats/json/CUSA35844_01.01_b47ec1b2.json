@@ -1,12 +1,17 @@
 {
-  "name": "Jujutsu Kaisen Cursed Clash",
+  "name": "Jujutsu Kaisen 诅咒 拼刀",
   "id": "CUSA35844",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57D7BF0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Juju Points (on buyig)",
-      "type": "checkbox",
+      "name": "最大 Juju 得分 (on buyig)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57D7910",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Timer",
-      "type": "checkbox",
+      "name": "Infinite 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57D7CB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Sprinting",
-      "type": "checkbox",
+      "name": "Infinite Sprinting｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57D7B90",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Cursed spirit technique Bar ",
-      "type": "checkbox",
+      "name": "最大 诅咒 精魄 technique Bar ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57D7D40",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Cursed Technique use ",
-      "type": "checkbox",
+      "name": "Infinite 诅咒 Technique use ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57D7AD0",

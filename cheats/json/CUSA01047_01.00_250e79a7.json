@@ -1,13 +1,18 @@
 {
-  "name": "Ratchet & Clank",
+  "name": "Ratchet & Clank｜《瑞奇与叮当》",
   "id": "CUSA01047",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1423F92",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8D2177",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Max Bolts / Raritanium / Gold Bolts On Pickup",
+      "name": "最大 Bolts / Raritanium / 金币 Bolts On Pickup",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "145DC6A",

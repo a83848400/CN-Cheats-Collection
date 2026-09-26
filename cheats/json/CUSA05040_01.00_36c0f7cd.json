@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Attributes",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Attributes",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3C739542",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3C4F0274",

@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring Nightreign",
+  "name": "艾尔登法环 Nightreign",
   "id": "CUSA50617",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B77820",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B77840",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max+Inf Runes",
-      "type": "checkbox",
+      "name": "最大+符文无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B777D0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max+Inf Consumables",
-      "type": "checkbox",
+      "name": "最大+无限消耗品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B777F0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max+Inf Merks",
-      "type": "checkbox",
+      "name": "最大+Infinite Merks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B77810",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Enemies Dont Attack",
+      "name": "Enemies Dont 攻击",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1906C29",
@@ -102,9 +107,9 @@
       ]
     },
     {
-      "name": "Player No Dead 1.21",
-      "description": "Player can take damage but never die.",
-      "type": "checkbox",
+      "name": "玩家编号：Dead 1.21",
+      "description": "Player can take 输出 but never die.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B3BD0B",
@@ -114,9 +119,9 @@
       ]
     },
     {
-      "name": "Inf+Max FP",
+      "name": "Infinite+FP值最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B3D369",
@@ -126,9 +131,9 @@
       ]
     },
     {
-      "name": "Inf+Max Stamina",
+      "name": "Infinite+体力最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B77900",
@@ -143,9 +148,9 @@
       ]
     },
     {
-      "name": "Infinite Ultimate Art",
+      "name": "Infinite 必杀技 Art",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DF94E0",
@@ -155,9 +160,9 @@
       ]
     },
     {
-      "name": "Multi Jump And Levitate",
+      "name": "Multi Jump And Levitate｜多段跳与悬浮",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26B8067",
@@ -167,9 +172,9 @@
       ]
     },
     {
-      "name": "Inf+Max Level (15)",
+      "name": "Infinite+等级最大 (15)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B77920",
@@ -184,9 +189,9 @@
       ]
     },
     {
-      "name": "Stop Night Growth",
+      "name": "停止 夜晚 Growth",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B77930",
@@ -201,9 +206,9 @@
       ]
     },
     {
-      "name": "Disable Idle Timer",
-      "description": "This disables the annoying timer that sign you out of the game if you remain idle for some time.",
-      "type": "checkbox",
+      "name": "Disable Idle 计时器",
+      "description": "This disables the annoying 计时器 that sign you out of the game if you remain idle for some time.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B77950",

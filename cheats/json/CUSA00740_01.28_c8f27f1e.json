@@ -1,12 +1,17 @@
 {
-  "name": "Terraria",
+  "name": "Terraria｜泰拉瑞亚",
   "id": "CUSA00740",
   "version": "01.28",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf item on crafting",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 物品 on crafting",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18FDFC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Item Use",
-      "type": "checkbox",
+      "name": "Infinite 物品 Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80A82DED",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max item on split",
-      "type": "checkbox",
+      "name": "最大 物品 on split",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80CE7D4F",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "inf health",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80A166AC",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80AF9849",

@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts: HD 1.5 + 2.5 ReMIX",
+  "name": "王国之心: HD 1.5 + 2.5 ReMIX",
   "id": "CUSA05786",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2C1EE0C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Kingdom Hearts 2 HD undub 1.04",
-      "type": "checkbox",
+      "name": "王国之心 2 HD undub 1.04",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E2A71",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E2A81",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E2B00",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "All Keyblades (buy item on shop)",
-      "type": "checkbox",
+      "name": "All Keyblades (buy 物品 on shop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E2AA0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "99 Discard Items",
-      "type": "checkbox",
+      "name": "99 弃牌 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26796D",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26A658",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Max Munny",
-      "type": "checkbox",
+      "name": "最大 Munny",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20175F",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Max Drive",
-      "type": "checkbox",
+      "name": "最大 Drive",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "259C1D",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Infinite Drive Cooldown",
-      "type": "checkbox",
+      "name": "Infinite Drive Cooldown｜无限驱动冷却时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A92EE",
@@ -130,8 +135,8 @@
       ]
     },
     {
-      "name": "All Materials (synthesis shop)",
-      "type": "checkbox",
+      "name": "All Materials (合成 shop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E2B20",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "99 Items on Sell (Shop)",
-      "type": "checkbox",
+      "name": "99 Items on Sell (Shop)｜99件商品正在出售（商店）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E2B40",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "Kingdom Hearts 1 HD CUSA05786 ver 1.04 (undub)",
-      "type": "checkbox",
+      "name": "王国之心 1 HD CUSA05786 ver 1.04 (undub)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A48",
@@ -173,8 +178,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A50",
@@ -189,8 +194,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A70",
@@ -205,8 +210,8 @@
       ]
     },
     {
-      "name": "All Keyblades only",
-      "type": "checkbox",
+      "name": "All Keyblades only｜仅限所有键刃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B198B",
@@ -216,8 +221,8 @@
       ]
     },
     {
-      "name": "All Items / Keyblade / Accessories",
-      "type": "checkbox",
+      "name": "所有商品 / 键刃 / Accessories",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A90",
@@ -232,8 +237,8 @@
       ]
     },
     {
-      "name": "99 Discard Items",
-      "type": "checkbox",
+      "name": "99 弃牌 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9AE0",
@@ -248,8 +253,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186744",
@@ -259,8 +264,8 @@
       ]
     },
     {
-      "name": "Max Munny / Buy",
-      "type": "checkbox",
+      "name": "最大 Munny / Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9B00",

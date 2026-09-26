@@ -1,13 +1,18 @@
 {
-  "name": "Borderlands: Game of the Year Edition",
+  "name": "无主之地: Game of the Year Edition",
   "id": "CUSA10455",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code (MC)",
-      "description": "none",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 (MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E68199",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "Max Health (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "生命最大 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6830A",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "Max Health Car (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "生命最大 Car (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E681CE",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Max Shield (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 盾牌 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6832E",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Max Nitro (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 氮气 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E681A3",
@@ -80,9 +85,9 @@
       ]
     },
     {
-      "name": "Max XP/Level (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 XP/等级 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E682D7",
@@ -92,9 +97,9 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "description": "Triggered by spending the first skill points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "description": "Triggered by spending the first skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6841A",
@@ -109,9 +114,9 @@
       ]
     },
     {
-      "name": "Max Money",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E68436",
@@ -126,9 +131,9 @@
       ]
     },
     {
-      "name": "Unlock Weapons Slots (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "解锁 武器 Slots (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E68217",
@@ -138,9 +143,9 @@
       ]
     },
     {
-      "name": "Max Weapon Skill",
-      "description": "Triggered by killing an enemy with a weapon from each category",
-      "type": "checkbox",
+      "name": "最大 Weapon Skill",
+      "description": "Triggered by killing an enemy with a weapon from each category｜通过使用每类武器各击杀一名敌人来触发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6845B",
@@ -155,9 +160,9 @@
       ]
     },
     {
-      "name": "Max Weapon Accuracy (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 Weapon Accuracy (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E682AE",
@@ -172,9 +177,9 @@
       ]
     },
     {
-      "name": "Max Demage/One Hit Kill (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 Demage/一击必杀 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E683AB",
@@ -194,9 +199,9 @@
       ]
     },
     {
-      "name": "Max Ammo (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "弹药最大化 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E683CF",
@@ -216,9 +221,9 @@
       ]
     },
     {
-      "name": "No Reload (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "无需换弹 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E683ED",
@@ -228,9 +233,9 @@
       ]
     },
     {
-      "name": "Space in the Backpack x99 (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Space in the 背包 x99 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E681F2",
@@ -240,9 +245,9 @@
       ]
     },
     {
-      "name": "Ignored by the Enemy (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Ignored by the Enemy (Enable MC)｜被敌人忽视（开启MC）",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E68244",
@@ -252,9 +257,9 @@
       ]
     },
     {
-      "name": "Hyper Run (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Hyper Run (Enable MC)｜《Hyper Run》（启用MC）",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6825D",
@@ -264,9 +269,9 @@
       ]
     },
     {
-      "name": "Jump x2 (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "跳跃×2 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6828F",
@@ -276,9 +281,9 @@
       ]
     },
     {
-      "name": "Infinite Golden Keys (Enable MC)",
-      "description": "Use golden keys only after reaching max level so you get equivalent weapons/items",
-      "type": "checkbox",
+      "name": "Infinite 金色 Keys (Enable MC)",
+      "description": "Use 金色 keys only after reaching 等级最大 so you get equivalent 武器/items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E68352",

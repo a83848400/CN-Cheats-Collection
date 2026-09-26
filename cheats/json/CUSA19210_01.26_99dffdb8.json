@@ -1,12 +1,17 @@
 {
-  "name": "Guilty Gear: Strive",
+  "name": "Guilty 挡位: Strive",
   "id": "CUSA19210",
   "version": "01.26",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C338B0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "infinite Burst ",
-      "type": "checkbox",
+      "name": "infinite Burst ｜无限爆发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C10BE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Level",
-      "type": "checkbox",
+      "name": "Max Level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C33620",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max World Dollar After Gaining",
-      "type": "checkbox",
+      "name": "最大 World Dollar After Gaining",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C33910",

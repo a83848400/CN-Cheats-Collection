@@ -1,12 +1,17 @@
 {
-  "name": "Starlit Adventures",
+  "name": "Starlit Adventures｜星光探险",
   "id": "CUSA11941",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "High Pts / Score",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "High Pts / 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "16",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Inf Green Tokens (on Spend)",
-      "type": "checkbox",
+      "name": "Infinite Green Tokens (on Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "154A210",

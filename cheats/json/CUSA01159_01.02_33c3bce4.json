@@ -1,12 +1,17 @@
 {
-  "name": "Sengoku Basara 4: Sumeragi",
+  "name": "Sengoku Basara 4: Sumeragi｜战国BASARA 4：苏梅拉吉",
   "id": "CUSA01159",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Gold Won't Decrease",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金币 Won'恐怖分子 Decrease",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "special coin x99999",
-      "type": "checkbox",
+      "name": "special coin x99999｜特别纪念币 x99999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BF9E0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Growth points won't Decrease x10",
-      "type": "checkbox",
+      "name": "Growth 得分 won'恐怖分子 Decrease x10",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BF800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Weapon points won't Decrease x10",
-      "type": "checkbox",
+      "name": "Weapon 得分 won'恐怖分子 Decrease x10",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BF80D",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Weapon rank points won't Decrease",
-      "type": "checkbox",
+      "name": "Weapon 阶级 得分 won'恐怖分子 Decrease",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BF80D",

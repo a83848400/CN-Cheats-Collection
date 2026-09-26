@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="World War Z" Moder="Saso_9.00" Cusa="CUSA14046" Version="01.41" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Health / Stamin / 1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命 / Stamin / 一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>1F93800</Offset>
       <Section>22</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-89-03-41-8A-4F-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina (MC)">
+  <Cheat Text="体力 (MC)">
     <Cheatline>
       <Offset>1F93804</Offset>
       <Section>22</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-45</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
+  <Cheat Text="一击必杀 (MC)">
     <Cheatline>
       <Offset>1F93841</Offset>
       <Section>22</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload (Primary/ Secondary)">
+  <Cheat Text="无限弹药 / 无需换弹 (Primary/ Secondary)">
     <Cheatline>
       <Offset>27B3800</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>48-89-03-41-8A-4F-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins (99999) Disable To Earn More">
+  <Cheat Text="最大 角落 (99999) Disable To Earn More">
     <Cheatline>
       <Offset>27B3856</Offset>
       <Section>0</Section>

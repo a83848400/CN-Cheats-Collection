@@ -1,12 +1,17 @@
 {
-  "name": "Five Nights at Freddy's: Security Breach",
+  "name": "Five Nights at Freddy's: Security Breach｜《弗雷迪的五夜惊魂：安全漏洞》",
   "id": "CUSA24172",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Freddy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Freddy｜无限弗雷迪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D03196",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight",
-      "type": "checkbox",
+      "name": "Infinite 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D03120",

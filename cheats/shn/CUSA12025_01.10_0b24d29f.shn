@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Kingdom Hearts III" Moder="illusion" Cusa="CUSA12025" Version="01.10" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="720p Resolution">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="720p Resolution｜720p 分辨率">
     <Cheatline>
       <Offset>5B813B0</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Tomb Raider I-III Remastered Starring Lara Croft",
+  "name": "古墓丽影 I-III Remastered Starring 劳拉·克劳馥",
   "id": "CUSA43774",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinity Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinity 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FF7F800",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Infinity Ammo",
-      "type": "checkbox",
+      "name": "Infinity Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEDE274",
@@ -63,7 +68,7 @@
     },
     {
       "name": "Infinity Oxigen",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEDE978",
@@ -88,8 +93,8 @@
       ]
     },
     {
-      "name": "Infinity Supplies",
-      "type": "checkbox",
+      "name": "Infinity 军粮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FF7F812",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FF7F825",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Slow Jump",
-      "type": "checkbox",
+      "name": "Slow Jump｜慢跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEDED3D",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Fly Hack",
-      "type": "checkbox",
+      "name": "飞行 Hack",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEDED3D",
@@ -202,8 +207,8 @@
       ]
     },
     {
-      "name": "Reset Timer",
-      "type": "checkbox",
+      "name": "Reset 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FED3FCF",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FED3FCF",
@@ -244,8 +249,8 @@
       ]
     },
     {
-      "name": "Reset Save Count",
-      "type": "checkbox",
+      "name": "Reset 保存 Count",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FF7F833",
@@ -280,8 +285,8 @@
       ]
     },
     {
-      "name": "Change Outfit (Photomode)",
-      "type": "checkbox",
+      "name": "Change Outfit (Photomode)｜更换服装（拍照模式）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FF4A3CD",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "Fast Forward Timer",
-      "type": "checkbox",
+      "name": "Fast Forward 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5188",

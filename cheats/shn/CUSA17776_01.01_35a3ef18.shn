@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Max XP (use only once than turn off)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 XP (use only once than 回合 off)">
     <Cheatline>
       <Offset>4B48170</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-9E-F0-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>4B48030</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-11-93-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Venom Power">
+  <Cheat Text="Infinite 毒液 电力">
     <Cheatline>
       <Offset>4B481F0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C4-C1-7A-11-A4-C5-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Web-shooters">
+  <Cheat Text="Infinite Web-shooters｜无限蛛丝发射器">
     <Cheatline>
       <Offset>4B480B0</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>29-D8-41-89-47-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points (on spend)">
+  <Cheat Text="Infinite Skill 得分 (on spend)">
     <Cheatline>
       <Offset>4B480E0</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>29-81-F8-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resources (on spend buy 1 suit)">
+  <Cheat Text="资源无限 (on spend buy 1 战衣)">
     <Cheatline>
       <Offset>4B48160</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>44-89-68-38-80-48-08-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Challenges Time (only use in Challenges)">
+  <Cheat Text="Freeze Challenges Time (only use in Challenges)｜“冻结”挑战时间（仅限在挑战中使用）">
     <Cheatline>
       <Offset>4B481B0</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>C4-C1-7A-11-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Explosive Timer Freeze (only use when there is a timer)">
+  <Cheat Text="Explosive 计时器 Freeze (only use when there is a 计时器)">
     <Cheatline>
       <Offset>4B48120</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "The Last Remnant Remastered",
+  "name": "The Last Remnant Remastered｜《最后的遗迹 重制版》",
   "id": "CUSA11846",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Instant Max Morale",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Instant 最大 Morale",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F6FC9",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Chain",
-      "type": "checkbox",
+      "name": "最大 Chain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F7069",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite DIGS ",
-      "type": "checkbox",
+      "name": "Infinite DIGS ｜无限DIGS",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271CACA",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Timeshift | Press R2 To Shift Back To Normal",
-      "type": "checkbox",
+      "name": "Infinite Timeshift | Press R2 To Shift Back To 普通",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F703D",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Gold",
-      "type": "checkbox",
+      "name": "Infinite Gold｜无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25F4AA5",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Gold On Buy",
-      "type": "checkbox",
+      "name": "金币最大 On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F6F90",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Inf Items| On Sell Or Use",
-      "type": "checkbox",
+      "name": "道具无限| On Sell Or Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25CFE40",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max+ Inf Items/Components/Captured | On Sell Or Use",
-      "type": "checkbox",
+      "name": "最大+ 道具无限/Components/Captured | On Sell Or Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F7056",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Unlock All Consumables/Components/Captures/Special Items",
-      "type": "checkbox",
+      "name": "解锁全部消耗品/Components/Captures/Special Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F6FB0",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Max Items On Buy",
-      "type": "checkbox",
+      "name": "最大 Items On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F6FA1",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Boost Strength| Change Accessory",
-      "type": "checkbox",
+      "name": "Boost 力量| Change Accessory",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F6FEE",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "Boost DEF | Change Weapon ",
-      "type": "checkbox",
+      "name": "Boost 守备力 | Change Weapon ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F7003",
@@ -182,8 +187,8 @@
       ]
     },
     {
-      "name": "Boost ATK Main Hand| Change Weapon ",
-      "type": "checkbox",
+      "name": "Boost 攻击力 Main 手牌| Change Weapon ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F6FDF",
@@ -198,8 +203,8 @@
       ]
     },
     {
-      "name": "Boost ATK 2 Main Hand| Change Weapon ",
-      "type": "checkbox",
+      "name": "Boost 攻击力 2 Main 手牌| Change Weapon ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F7012",
@@ -214,8 +219,8 @@
       ]
     },
     {
-      "name": "Max Off Hand ATK",
-      "type": "checkbox",
+      "name": "最大 Off 手牌 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F7025",
@@ -230,8 +235,8 @@
       ]
     },
     {
-      "name": "Wizardry Mode|First Person View| Press Down Button ",
-      "type": "checkbox",
+      "name": "仙术 Mode|First Person View| Press Down 按钮 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F707D",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "Enhanced Field Of View | Press Down/UP Button",
-      "type": "checkbox",
+      "name": "Enhanced Field Of View | Press Down/UP 按钮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42F7090",

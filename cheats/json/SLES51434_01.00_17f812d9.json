@@ -1,12 +1,17 @@
 {
-  "name": "Silent Hill 3",
+  "name": "寂静岭 3",
   "id": "SLES51434",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health-Drinks",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命-Drinks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80818A5492",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All-Weapons",
-      "type": "checkbox",
+      "name": "全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80818A5460",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf-Ammo/Item Usage",
-      "type": "checkbox",
+      "name": "无限弹药/物品 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD6DB88",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf-Ammo/No-Reload",
-      "type": "checkbox",
+      "name": "无限弹药/No-Reload",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDE0000",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "All-Items",
-      "type": "checkbox",
+      "name": "All-Items｜所有商品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80818A5464",

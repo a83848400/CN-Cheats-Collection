@@ -1,13 +1,18 @@
 {
-  "name": "Sniper Elite III",
+  "name": "Sniper 精英 III",
   "id": "CUSA00378",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4F0901",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo / Items",
+      "name": "无限弹药 / Items",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "97743A",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F49C7",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Breath",
+      "name": "Infinite Breath｜无限呼吸",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F4E8F",

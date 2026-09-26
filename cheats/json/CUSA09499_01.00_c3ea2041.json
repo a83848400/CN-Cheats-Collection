@@ -1,12 +1,17 @@
 {
-  "name": "Cat Quest",
+  "name": "Cat Quest｜《猫之冒险》",
   "id": "CUSA09499",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20E390C94",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Fill Health",
-      "type": "button",
+      "name": "Fill 生命",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20E390794",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Fill Mana",
-      "type": "button",
+      "name": "Fill 法力",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20E390694",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Health Capacity",
-      "type": "button",
+      "name": "生命最大 Capacity",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20E390B90",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Attack Value",
-      "type": "button",
+      "name": "攻击力最大 Value",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20E390B10",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max Mana Attack Value",
-      "type": "button",
+      "name": "最大 法力 攻击 Value",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20E390A90",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "button",
+      "name": "最大 XP",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20E390CD4",

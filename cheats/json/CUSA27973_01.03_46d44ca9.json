@@ -1,12 +1,17 @@
 {
-  "name": "Hades",
+  "name": "Hades｜哈迪斯",
   "id": "CUSA27973",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health and Artefacts (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 and Artefacts (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Must enable MC)",
-      "type": "checkbox",
+      "name": "无限生命 (Must enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90F808",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill (Must enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Must enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90F809",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Artefacts on Get (Must enable MC)",
-      "type": "checkbox",
+      "name": "Infinite Artefacts on Get (Must enable MC)｜获取时获得无限神器（必须启用MC）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90F80A",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90FB00",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90F966",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Walk Speed (Master Code)",
-      "type": "checkbox",
+      "name": "Walk 速度 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90FA66",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Speed x1.5 (Must enable walk speed MC)",
-      "type": "checkbox",
+      "name": "速度x1.5 (Must enable walk 速度 MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90FA68",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Speed x2 (Must enable walk speed MC)",
-      "type": "checkbox",
+      "name": "速度 x2 (Must enable walk 速度 MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90FA68",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Speed x3 (Must enable walk speed MC)",
-      "type": "checkbox",
+      "name": "速度 x3 (Must enable walk 速度 MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90FA68",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Infinite Cast Bullets",
-      "type": "checkbox",
+      "name": "Infinite 施法 项目符号",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "337D91",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "No Clip",
-      "type": "checkbox",
+      "name": "No Clip｜穿墙模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "556B69",

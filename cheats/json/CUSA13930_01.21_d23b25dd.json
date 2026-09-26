@@ -1,12 +1,17 @@
 {
-  "name": "World War Z",
+  "name": "World War Z｜《僵尸世界大战》",
   "id": "CUSA13930",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "inf ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "18",

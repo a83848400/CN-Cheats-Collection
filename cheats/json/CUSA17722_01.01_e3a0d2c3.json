@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Spider-Man: Miles Morales",
+  "name": "Marvel's 蜘蛛侠: 迈尔斯·莫拉莱斯",
   "id": "CUSA17722",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Character Not Easy to Shake",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Character Not 简单 to Shake",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "686770",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Undetected By Enemy",
-      "type": "checkbox",
+      "name": "Undetected By Enemy｜未被敌人发现",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "470120",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Cannot Be Touched By Enemy ( ON )",
-      "type": "checkbox",
+      "name": "Cannot Be Touched By Enemy ( ON )｜不受敌人攻击（开启）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B483B0",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Cannot Be Touched By Enemy ( OFF )",
-      "type": "checkbox",
+      "name": "Cannot Be Touched By Enemy ( OFF )｜不受敌人攻击（关闭）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B483D0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B480B0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Venom Bar Unlimited",
-      "type": "checkbox",
+      "name": "毒液 Bar Unlimited",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48140",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Spawns the 3rd Venom Bar",
-      "type": "checkbox",
+      "name": "Spawns the 3rd 毒液 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48460",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Unlimited Camouflage duration",
-      "type": "checkbox",
+      "name": "Unlimited Camouflage duration｜无限伪装时长",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48420",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Quick Charge Camouflage Bar",
-      "type": "checkbox",
+      "name": "Quick 冲锋 Camouflage Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48440",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Combo x99",
-      "type": "checkbox",
+      "name": "Combo x99｜组合包 x99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48180",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Finisher Always Available",
-      "type": "checkbox",
+      "name": "终结技 Always Available",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B482D0",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Activity Tokens, Tech Part, Gadget Unlimited",
-      "type": "checkbox",
+      "name": "Activity Tokens, 科技 Part, 小道具 Unlimited",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B481E0",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Max Skill Point",
-      "type": "checkbox",
+      "name": "最大 Skill Point",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B480F0",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Maximum EXP After Getting It",
-      "type": "checkbox",
+      "name": "Maximum 经验 After Getting It",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48400",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "Unlimited Combat Challenge Time",
-      "type": "checkbox",
+      "name": "Unlimited Combat Challenge Time｜无限制的战斗挑战时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B481A0",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Travesal Challenge Time Always 0",
-      "type": "checkbox",
+      "name": "Travesal Challenge Time Always 0｜穿越挑战时间 始终为 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48210",
@@ -251,8 +256,8 @@
       ]
     },
     {
-      "name": "Camera Becomes motionless",
-      "type": "checkbox",
+      "name": "相机 Becomes motionless",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DB0D20",
@@ -262,8 +267,8 @@
       ]
     },
     {
-      "name": "Speed Becomes Normal",
-      "type": "checkbox",
+      "name": "速度 Becomes 普通",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48250",
@@ -278,8 +283,8 @@
       ]
     },
     {
-      "name": "Speed 1.5x",
-      "type": "checkbox",
+      "name": "速度 1.五次",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B482B0",
@@ -294,8 +299,8 @@
       ]
     },
     {
-      "name": "Speed 2x",
-      "type": "checkbox",
+      "name": "速度 2x",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48270",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Speed 3x",
-      "type": "checkbox",
+      "name": "速度 3x",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48290",
@@ -326,8 +331,8 @@
       ]
     },
     {
-      "name": "Speed becomes Very Slow",
-      "type": "checkbox",
+      "name": "速度 becomes Very Slow",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48400",

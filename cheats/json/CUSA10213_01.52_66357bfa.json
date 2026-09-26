@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Zero Dawn: Complete Edition",
+  "name": "地平线 杰洛 Dawn: Complete Edition",
   "id": "CUSA10213",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F23800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F2381E",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Item",
-      "type": "checkbox",
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F2F020",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11BB878",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15D7324",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "XP x2 (Turn off first: x4, x8)",
-      "type": "checkbox",
+      "name": "XP ×2 (回合 off first: x4, x8)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F23845",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "XP x4 (Turn off first: x2, x8)",
-      "type": "checkbox",
+      "name": "XP ×4 (回合 off first: x2, x8)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F23845",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "XP x8 (Turn off first: x2, x4)",
-      "type": "checkbox",
+      "name": "XP x8 (回合 off first: x2, x4)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F23845",

@@ -1,10 +1,10 @@
 {
-  "name": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
+  "name": "暗黑破坏神 III: 死神 of 结界突破: 必杀技 Evil Edition",
   "id": "CUSA00434",
   "version": "01.25",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "12D7800",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12D7800",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Inf Mana",
-      "type": "checkbox",
+      "name": "无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12D7809",
@@ -40,8 +45,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12D782F",

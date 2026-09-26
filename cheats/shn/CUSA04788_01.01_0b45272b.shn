@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Marvel: Ultimate Alliance 2" Moder="Reddevil82 - FW 9.00" Cusa="CUSA04788" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>F0B887</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-83-28-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>F0B800</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-8B-38-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fusion">
+  <Cheat Text="Infinite 合成">
     <Cheatline>
       <Offset>F0B833</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-8B-41-10-3B-58-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Power Points">
+  <Cheat Text="最大 电力 得分">
     <Cheatline>
       <Offset>F0B848</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>49-0F-BF-75-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ability Points">
+  <Cheat Text="最大 特性 得分">
     <Cheatline>
       <Offset>F0B85B</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>E8-04-86-C7-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP">
+  <Cheat Text="最大 XP">
     <Cheatline>
       <Offset>F0B873</Offset>
       <Section>0</Section>

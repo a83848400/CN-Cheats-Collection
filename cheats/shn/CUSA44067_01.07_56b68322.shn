@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sniper Elite: Resistance" Moder="Ali-mk" Cusa="CUSA44067" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无敌-(MC)">
     <Cheatline>
       <Offset>19D38C8</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-90-55-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health-(MC)">
+  <Cheat Text="Infinite-生命-(MC)">
     <Cheatline>
       <Offset>19D3800</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-4B-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Health-One-Hit-Kill">
+  <Cheat Text="Infinite-生命-一击必杀">
     <Cheatline>
       <Offset>19D3800</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon-Rapid-Fire">
+  <Cheat Text="Weapon-Rapid-火">
     <Cheatline>
       <Offset>C77427</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>FF-50-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX-Ammo">
+  <Cheat Text="最大-但是">
     <Cheatline>
       <Offset>19D3840</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-47-2C-74-0B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Ammo-Never-Reload">
+  <Cheat Text="无限子弹-无需装弹">
     <Cheatline>
       <Offset>E98BBD</Offset>
       <Section>0</Section>

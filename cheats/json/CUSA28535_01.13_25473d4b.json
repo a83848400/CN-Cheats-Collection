@@ -1,12 +1,17 @@
 {
-  "name": "Monster Energy Supercross 5: The Official Videogame",
+  "name": "妖兽 能量 Supercross 5: The Official Videogame",
   "id": "CUSA28535",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Credits",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Credits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Skill Points ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7DD9",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7E26",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Rewinds",
-      "type": "checkbox",
+      "name": "Infinite Rewinds｜无限回放",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7DF0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Gear AI",
-      "type": "checkbox",
+      "name": "No 挡位 AI",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE7E07",

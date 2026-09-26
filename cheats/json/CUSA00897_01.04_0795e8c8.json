@@ -1,12 +1,17 @@
 {
-  "name": "inFamous: First Light",
+  "name": "inFamous: First Light｜《inFamous：曙光》",
   "id": "CUSA00897",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Skill Points (on spend/gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Skill 得分 (on spend/gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B870",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Instant Super Skill Charge (on first kill)",
-      "type": "checkbox",
+      "name": "Instant Super Skill 冲锋 (on first kill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE60",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE80",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B9D0",

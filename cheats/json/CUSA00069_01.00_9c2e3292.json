@@ -1,13 +1,18 @@
 {
-  "name": "Rayman Legends",
+  "name": "雷曼 Legends",
   "id": "CUSA00069",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Play A Lv Than Lums Will Double",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Play A Lv Than Lums 意志 Double",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4F0537",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Lucky Tickets Will Double Every Spend",
+      "name": "Lucky Tickets 意志 Double Every Spend",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5163BC",

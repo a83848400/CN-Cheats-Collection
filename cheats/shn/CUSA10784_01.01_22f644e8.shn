@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mega Man 11" Moder="Ali-mk" Cusa="CUSA10784" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>2263CB</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF-90-60-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>C1686</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>39-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump-In-Midair-Store-x">
+  <Cheat Text="空中跳跃-Store-艾克斯">
     <Cheatline>
       <Offset>22CB77</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>0F-85-1C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-lives">
+  <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>11746</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E8-85-ED-08-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Weapons-Energy">
+  <Cheat Text="Infinite-武器-能量">
     <Cheatline>
       <Offset>A05CB</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>89-84-8B-58-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX-Bolts">
+  <Cheat Text="最大-Bolts">
     <Cheatline>
       <PS5Offset>456-executable[0]-5</PS5Offset>
       <Offset>E6FBAA</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>41-89-B7-F8-36-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="one-Hit-Kill">
+  <Cheat Text="one-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>C2146</Offset>
       <Section>0</Section>

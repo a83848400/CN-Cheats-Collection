@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metro Redux" Moder="DeathRGH" Cusa="CUSA00683" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>210E9D</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>41-89-B4-24-58-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Reload Ammo / Bullet Currency">
+  <Cheat Text="Infinite Reload Ammo / Bullet Currency｜无限重装弹药 / 子弹货币">
     <Cheatline>
       <Offset>1EC11A</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-B6-00-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gasmask Filter">
+  <Cheat Text="Infinite Gasmask Filter｜无限防毒面具滤芯">
     <Cheatline>
       <Offset>2513AE</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C4-C1-7A-11-84-24-5C-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Air Pressure In Gun">
+  <Cheat Text="Infinite Air Pressure In Gun｜喷枪内气压无限大">
     <Cheatline>
       <Offset>226D7A</Offset>
       <Section>0</Section>

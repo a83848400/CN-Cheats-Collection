@@ -1,12 +1,17 @@
 {
-  "name": "Tormented Souls",
+  "name": "Tormented 结界突破",
   "id": "CUSA29199",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo/ No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药/ 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1987F80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Nails x99 [On Reload]",
-      "type": "checkbox",
+      "name": "Nails x99 [On Reload]｜钉子 x99 [重新装弹时]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1987FC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Morphine / Save Record x5 [On Use]",
-      "type": "checkbox",
+      "name": "Morphine / 保存 Record x5 [On Use]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1987F40",

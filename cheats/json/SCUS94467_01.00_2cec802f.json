@@ -1,12 +1,17 @@
 {
-  "name": "Spyro: Year of the Dragon",
-  "id": "SCUS94467",
+  "name": "Spyro: Year of the 小龙",
+  "id": "SCUS94467｜打扰一下，对不起",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157A24",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max gems",
-      "type": "checkbox",
+      "name": "Max gems｜宝石最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1579BC",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max eggs",
-      "type": "checkbox",
+      "name": "最大 eggs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157900",

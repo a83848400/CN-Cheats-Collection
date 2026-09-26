@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil Village" Moder="Dioniso" Cusa="CUSA18017" Version="01.12" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="[01][123] Immunity">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[01][123] Immunity｜[01][123] 免疫">
     <Cheatline>
       <Offset>B19F500</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>0F-84-10-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02][123] Infinite HP">
+  <Cheat Text="[02][123] 无限血量">
     <Cheatline>
       <Offset>B19F132</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-11-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03][12] 1 Hit Kill">
+  <Cheat Text="[03][12] 一击必杀">
     <Cheatline>
       <Offset>B19F600</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-10-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04a][1] Ethan's + Chris's Speed x2">
+  <Cheat Text="[04a][1] Ethan's + Chris's 速度 x2">
     <Cheatline>
       <Offset>B19F22A</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>C4-C1-7A-10-8E-30-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04b][1] Ethan's + Chris's Speed x4">
+  <Cheat Text="[04b][1] Ethan's + Chris's 速度 x4">
     <Cheatline>
       <Offset>B19F22A</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>C4-C1-7A-10-8E-30-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05][1] L1+O (3 Sec.) Ethan's Size Change (Most Of The Game)">
+  <Cheat Text="[05][1] L1+O (3 Sec.) Ethan's Size Change (Most Of The Game)｜[05][1] L1+O（3秒）伊桑的体型变化（游戏大部分时间）">
     <Cheatline>
       <Offset>B19F330</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>C5-FA-10-5B-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06][1] Boss Moreau Not In Water">
+  <Cheat Text="[06][1] Boss Moreau Not In 水">
     <Cheatline>
       <Offset>B19FBE0</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>8A-43-12-84-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07][123] Gunsmithy Weapons: Power = 30k (1HK)">
+  <Cheat Text="[07][123] Gunsmithy 武器: 电力 = 30k (1港元)">
     <Cheatline>
       <Offset>B19F300</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C5-FA-10-86-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08][123] Gunsmithy Weapons: Infinite Ammo (No Decrease)">
+  <Cheat Text="[08][123] Gunsmithy 武器: 无限弹药 (No Decrease)">
     <Cheatline>
       <Offset>B19F16A</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>41-29-5C-24-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09][123] Gunsmithy Weapons: Rate Of Fire = 0.1">
+  <Cheat Text="[09][123] Gunsmithy 武器: 射速 = 0.1">
     <Cheatline>
       <Offset>B19F318</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>C5-FA-10-83-4C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10][123] Infinite Items">
+  <Cheat Text="[10][123] 道具无限">
     <Cheatline>
       <Offset>B19F1A0</Offset>
       <Section>0</Section>
@@ -192,7 +200,7 @@
       <ValueOff>89-48-4C-48-8B-42-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11][123] Selling: Get Money + Keep Item">
+  <Cheat Text="[11][123] Selling: Get 金钱 + Keep 物品">
     <Cheatline>
       <Offset>B19F1E4</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>0F-84-AB-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12][1] Torchlight ON">
+  <Cheat Text="[12][1] Torchlight ON｜[12][1] 《火炬之光》已开启">
     <Cheatline>
       <Offset>B19F7C0</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>0F-85-A3-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13][1] Torchlight OFF">
+  <Cheat Text="[13][1] Torchlight OFF｜[13][1] 关闭火把">
     <Cheatline>
       <Offset>B19F7D8</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>83-7E-64-00-8A-4E-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14][1] Cannon Instantly Ready">
+  <Cheat Text="[14][1] Cannon Instantly Ready｜[14][1] 加农炮瞬间就绪">
     <Cheatline>
       <Offset>B19FC28</Offset>
       <Section>0</Section>
@@ -248,7 +256,7 @@
       <ValueOff>C5-FA-11-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[15][1] Chris's Target Locator Instant Fire/ReLoad">
+  <Cheat Text="[15][1] Chris's Target Locator Instant 火/ReLoad">
     <Cheatline>
       <Offset>B19FC50</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>C5-FA-5C-80-54-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[16][123] Infinite Leis">
+  <Cheat Text="[16][123] Infinite Leis｜[16][123] 《无限法则》">
     <Cheatline>
       <Offset>B19F208</Offset>
       <Section>0</Section>
@@ -276,7 +284,7 @@
       <ValueOff>49-8B-44-24-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17a][2] Rose's Speed x2">
+  <Cheat Text="[17a][2] Rose's 速度 x2">
     <Cheatline>
       <Offset>B19F280</Offset>
       <Section>0</Section>
@@ -290,7 +298,7 @@
       <ValueOff>C4-C1-7A-10-8E-30-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17b][2] Rose's Speed x4">
+  <Cheat Text="[17b][2] Rose's 速度 x4">
     <Cheatline>
       <Offset>B19F280</Offset>
       <Section>0</Section>
@@ -304,7 +312,7 @@
       <ValueOff>C4-C1-7A-10-8E-30-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18][2] Rose's Focus Full">
+  <Cheat Text="[18][2] Rose's 棍势 Full">
     <Cheatline>
       <Offset>B19F2D8</Offset>
       <Section>0</Section>
@@ -318,7 +326,7 @@
       <ValueOff>8B-42-14-3B-41-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19][3] Timer Stopped">
+  <Cheat Text="[19][3] 计时器 Stopped">
     <Cheatline>
       <Offset>6253FD0</Offset>
       <Section>0</Section>
@@ -326,7 +334,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20][3] Combo Number Frozen">
+  <Cheat Text="[20][3] Combo 数值 冰冻">
     <Cheatline>
       <Offset>B19F8F0</Offset>
       <Section>0</Section>
@@ -340,7 +348,7 @@
       <ValueOff>C5-FA-11-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[21][3] Ethan's Speed x4">
+  <Cheat Text="[21][3] Ethan's 速度 x4">
     <Cheatline>
       <Offset>B19F760</Offset>
       <Section>0</Section>
@@ -354,7 +362,7 @@
       <ValueOff>C5-F8-10-43-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[22][3] Chris's Speed x4">
+  <Cheat Text="[22][3] Chris's 速度 x4">
     <Cheatline>
       <Offset>B19F490</Offset>
       <Section>0</Section>
@@ -368,7 +376,7 @@
       <ValueOff>C5-F8-10-43-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[23][3] Chris's Fist Bar Instant Reload">
+  <Cheat Text="[23][3] Chris's Fist Bar Instant Reload｜[23][3] 克里斯的“拳头吧”瞬时重装">
     <Cheatline>
       <Offset>B19F590</Offset>
       <Section>0</Section>
@@ -382,7 +390,7 @@
       <ValueOff>C5-FA-10-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[24][3] Karl's Speed x4">
+  <Cheat Text="[24][3] Karl's 速度 x4">
     <Cheatline>
       <Offset>B19F5A0</Offset>
       <Section>0</Section>
@@ -396,7 +404,7 @@
       <ValueOff>C5-F8-10-43-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[25][3] Karl's Hammer Power = 30k">
+  <Cheat Text="[25][3] Karl's 锤 电力 = 30k">
     <Cheatline>
       <Offset>B19F9B0</Offset>
       <Section>0</Section>
@@ -410,7 +418,7 @@
       <ValueOff>C5-FA-10-83-B4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[26][3] Karl's Hammer Electric Charge = 30k">
+  <Cheat Text="[26][3] Karl's 锤 Electric 冲锋 = 30k">
     <Cheatline>
       <Offset>B19F9F0</Offset>
       <Section>0</Section>
@@ -424,7 +432,7 @@
       <ValueOff>C4-C1-7A-10-86-B8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[27][3] Karl's Sawblade Instant Reload">
+  <Cheat Text="[27][3] Karl's Sawblade Instant Reload｜[27][3] 卡尔的锯刃瞬时换弹">
     <Cheatline>
       <Offset>B19F910</Offset>
       <Section>0</Section>
@@ -438,7 +446,7 @@
       <ValueOff>C5-FA-10-86-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[28][3] Karl's Sawblade Power = 30k">
+  <Cheat Text="[28][3] Karl's Sawblade 电力 = 30k">
     <Cheatline>
       <Offset>B19F950</Offset>
       <Section>0</Section>
@@ -452,7 +460,7 @@
       <ValueOff>C5-FA-10-88-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[29][3] Karl's Scrap Instant Reload">
+  <Cheat Text="[29][3] Karl's Scrap Instant Reload｜[29][3] 卡尔的碎片瞬时重装">
     <Cheatline>
       <Offset>B19F930</Offset>
       <Section>0</Section>
@@ -466,7 +474,7 @@
       <ValueOff>C5-FA-10-86-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[30][3] Karl's Scrap Power = 30k">
+  <Cheat Text="[30][3] Karl's Scrap 电力 = 30k">
     <Cheatline>
       <Offset>B19F970</Offset>
       <Section>0</Section>
@@ -492,7 +500,7 @@
       <ValueOff>C5-FA-59-82-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[31][3] Karl's Scrap 6 Projectiles">
+  <Cheat Text="[31][3] Karl's Scrap 6 Projectiles｜[31][3] 卡尔的“碎片6”弹丸">
     <Cheatline>
       <Offset>B19F990</Offset>
       <Section>0</Section>
@@ -506,7 +514,7 @@
       <ValueOff>C5-FA-2C-86-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[32][3] Karl's Soldier Jet Instant Reload">
+  <Cheat Text="[32][3] Karl's 士兵 Jet Instant Reload">
     <Cheatline>
       <Offset>B19F8D0</Offset>
       <Section>0</Section>
@@ -520,7 +528,7 @@
       <ValueOff>C4-C1-7A-10-47-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[33][3] Alcina's Speed x4">
+  <Cheat Text="[33][3] Alcina's 速度 x4">
     <Cheatline>
       <Offset>B19F800</Offset>
       <Section>0</Section>
@@ -534,7 +542,7 @@
       <ValueOff>C5-F8-10-43-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[34][3] Alcina's Damage Bar Instant Reload">
+  <Cheat Text="[34][3] Alcina's 输出 Bar Instant Reload">
     <Cheatline>
       <Offset>B19F860</Offset>
       <Section>0</Section>
@@ -548,7 +556,7 @@
       <ValueOff>C5-FA-10-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[35][3] Alcina's Insect Swarm (R2) Instant Reload">
+  <Cheat Text="[35][3] Alcina's Insect 蜂拥族 (R2) Instant Reload">
     <Cheatline>
       <Offset>B19F870</Offset>
       <Section>0</Section>
@@ -562,7 +570,7 @@
       <ValueOff>C5-FA-11-44-90-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[36][3] Alcina's Ornate Vanity (Square) Instant Reload">
+  <Cheat Text="[36][3] Alcina's Ornate Vanity (Square) Instant Reload｜[36][3] 阿尔西娜的华丽梳妆台（方形） 瞬时重装">
     <Cheatline>
       <Offset>3C1C33F</Offset>
       <Section>0</Section>
@@ -570,7 +578,7 @@
       <ValueOff>41-C7-86-40-02-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[37][3] Alcina's Daughter (L2+R1) Instant Reload">
+  <Cheat Text="[37][3] Alcina's Daughter (L2+R1) Instant Reload｜[37][3] 阿尔西娜之女（L2+R1）瞬时重装">
     <Cheatline>
       <Offset>B19F8B0</Offset>
       <Section>0</Section>
@@ -584,7 +592,7 @@
       <ValueOff>C4-C1-7A-11-86-44-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[38][3] Alcina's Insects Swarm Power = 30k">
+  <Cheat Text="[38][3] Alcina's Insects 蜂拥族 电力 = 30k">
     <Cheatline>
       <Offset>B19FA10</Offset>
       <Section>0</Section>
@@ -598,7 +606,7 @@
       <ValueOff>C5-FA-10-40-6C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[39][3] Alcina's Hand Power = 30k">
+  <Cheat Text="[39][3] Alcina's 手牌 电力 = 30k">
     <Cheatline>
       <Offset>B19FA30</Offset>
       <Section>0</Section>
@@ -612,7 +620,7 @@
       <ValueOff>C5-FA-10-8E-B4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[40][3] Alcina's Ornate Vanity Power = 30k">
+  <Cheat Text="[40][3] Alcina's Ornate Vanity 电力 = 30k">
     <Cheatline>
       <Offset>B19FA50</Offset>
       <Section>0</Section>

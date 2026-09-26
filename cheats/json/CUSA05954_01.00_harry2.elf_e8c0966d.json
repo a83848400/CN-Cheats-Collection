@@ -1,13 +1,18 @@
 {
-  "name": "LEGO Harry Potter Collection",
+  "name": "LEGO 哈利 Potter Collection",
   "id": "CUSA05954",
   "version": "01.00",
   "process": "harry2.elf",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "116BC01",

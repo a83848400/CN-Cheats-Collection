@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>44FE10</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C4-C1-7A-11-84-24-C8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dinheiro Infinito">
+  <Cheat Text="Dinheiro Infinito｜无限金钱">
     <Cheatline>
       <Offset>44F6D0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>01-91-E4-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nivel Maximo - Venda tesouros pelo menos 2 vezes">
+  <Cheat Text="Nivel Maximo - Venda tesouros pelo menos 2 vezes｜最高等级——至少出售2次宝物">
     <Cheatline>
       <Offset>44FF30</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>89-88-94-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Luz Infinita">
+  <Cheat Text="Luz Infinita｜无限之光">
     <Cheatline>
       <Offset>34FFE</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C5-FA-5C-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Perola Azul Infinita">
+  <Cheat Text="Perola Azul Infinita｜无尽的蓝色珍珠">
     <Cheatline>
       <Offset>44FEC0</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>29-83-E8-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Itens Infinitos">
+  <Cheat Text="Itens Infinitos｜无限道具">
     <Cheatline>
       <Offset>B3570</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>FF-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Poderes Infinitos">
+  <Cheat Text="Poderes Infinitos｜无限之力">
     <Cheatline>
       <Offset>3A5EB</Offset>
       <Section>0</Section>

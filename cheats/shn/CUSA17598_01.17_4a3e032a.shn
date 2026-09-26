@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Weird West" Moder="d01v" Cusa="CUSA17598" Version="01.17" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>66B4940</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-78-2E-86-90-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AP">
+  <Cheat Text="Infinite AP｜无限能力点">
     <Cheatline>
       <Offset>66B49A0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-8B-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bullets">
+  <Cheat Text="Infinite Bullets｜无限子弹">
     <Cheatline>
       <Offset>1339974</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>44-29-A3-F8-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Decreasing Durability">
+  <Cheat Text="停止 Decreasing 耐用性">
     <Cheatline>
       <Offset>112F633</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>29-B7-98-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Basic Items get / spend / transfer">
+  <Cheat Text="99 Basic Items get / spend / 转会">
     <Cheatline>
       <Offset>66B49D0</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>01-5C-08-08-48-8D-34-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Items get / drop / transfer (wep/utility/etc)">
+  <Cheat Text="99 件商品 get / 丢弃 / 转会 (wep/utility/etc)">
     <Cheatline>
       <Offset>66B4A00</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>42-8B-4C-36-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Money (Master Code)">
+  <Cheat Text="金钱 (Master 密码)">
     <Cheatline>
       <Offset>66B4A30</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>8B-83-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nimp Relics (MC1)">
+  <Cheat Text="Nimp 遗器 (MC1)">
     <Cheatline>
       <Offset>66B4A40</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>E9-10-59-A7-FA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Golden Aces of Spades (Need MC and MC1)">
+  <Cheat Text="金色 Aces of Spades (这些MC and MC1)">
     <Cheatline>
       <Offset>66B4A50</Offset>
       <Section>0</Section>

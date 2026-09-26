@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="UFC 4" Moder="d01v" Cusa="CUSA14204" Version="17.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="MasterCode For Stamina">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="主代码 For 体力">
     <Cheatline>
       <Offset>24F8111</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-29-C8-8B-04-82</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MasterCode">
+  <Cheat Text="MasterCode｜主代码">
     <Cheatline>
       <Offset>24F8250</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>48-63-4B-10-48-8B-53-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina Left" Description="master code for stamina must activated">
+  <Cheat Text="体力 剩余" Description="master code for stamina must activated">
     <Cheatline>
       <Offset>24F8147</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>EB-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Left head" Description="inf head health for left side player">
+  <Cheat Text="Left head｜左侧头部" Description="inf head health for left side player">
     <Cheatline>
       <Offset>24F8290</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>EB-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code for Body" Description="MasterCode needs to activate for this to work">
+  <Cheat Text="Master 密码 for 车身" Description="MasterCode needs to activate for this to work">
     <Cheatline>
       <Offset>24F8293</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>E9-6B-DF-B6-FD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Left Body" Description="inf body health for left side player">
+  <Cheat Text="Left 车身" Description="inf body health for left side player">
     <Cheatline>
       <Offset>24F8323</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>EB-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code for Left Leg" Description="MasterCode and Master Code for Body must turn on">
+  <Cheat Text="Master 密码 for 左腿" Description="MasterCode and Master Code for Body must turn on">
     <Cheatline>
       <Offset>24F8326</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>E9-D8-DE-B6-FD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Left Leg" Description="inf left leg health for left side player">
+  <Cheat Text="Left Leg｜左腿" Description="inf left leg health for left side player">
     <Cheatline>
       <Offset>24F83B6</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>EB-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code for Right Leg" Description="MasterCode Master Code for Body Master Code for Leg Leg must be on">
+  <Cheat Text="Master 密码 for 右腿" Description="MasterCode Master Code for Body Master Code for Leg Leg must be on">
     <Cheatline>
       <Offset>24F83B9</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>E9-45-DE-B6-FD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Left Leg" Description="inf right leg health for left side player">
+  <Cheat Text="Left Leg｜左腿" Description="inf right leg health for left side player">
     <Cheatline>
       <Offset>24F8440</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>EB-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Evolution Points" Description="on spend to 999">
+  <Cheat Text="进化 得分" Description="on spend to 999">
     <Cheatline>
       <Offset>24F867E</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>44-09-C8-89-04-B2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MasterCode For Stamina">
+  <Cheat Text="主代码 For 体力">
     <Cheatline>
       <Offset>24F8111</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>48-29-C8-8B-04-82</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MasterCode">
+  <Cheat Text="MasterCode｜主代码">
     <Cheatline>
       <Offset>24F8250</Offset>
       <Section>0</Section>

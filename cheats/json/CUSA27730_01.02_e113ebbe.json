@@ -1,12 +1,17 @@
 {
-  "name": "Soul Hackers 2",
+  "name": "Soul Hackers 2｜《灵魂黑客2》",
   "id": "CUSA27730",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "199B840",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "199BA40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience (Summoners)",
-      "type": "checkbox",
+      "name": "最大 Experience (Summoners)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "199BAC0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Fast Level up (Demons)",
-      "type": "checkbox",
+      "name": "Fast 升级 (Demons)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Yen (on gain)",
-      "type": "checkbox",
+      "name": "最大 如果 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "199BDB0",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max items (On use)",
-      "type": "checkbox",
+      "name": "最大 items (On use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "199BD10",

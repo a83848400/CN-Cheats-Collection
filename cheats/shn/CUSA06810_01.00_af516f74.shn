@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Valkyria Revolution" Moder="GamerX2" Cusa="CUSA06810" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Refill + Infinite RP on Use| Selected Characters">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Refill + Infinite RP on Use| Selected Characters｜使用后补充 + 无限RP | 指定角色">
     <Cheatline>
       <Offset>4C7C39</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>39-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Refill + Infinite HP When Hit| Selected Characters">
+  <Cheat Text="Refill + 无限血量 When Hit| Selected Characters">
     <Cheatline>
       <Offset>5F2E9D</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>39-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>2F8226</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-70-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money On Sell">
+  <Cheat Text="金钱最大 On Sell">
     <Cheatline>
       <Offset>2F819F</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>81-FE-3F-42-0F-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Sell">
+  <Cheat Text="最大 Items on Sell">
     <Cheatline>
       <Offset>8B3F40</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>88-94-08-70-1C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>2F820F</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>88-94-08-70-1C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Materials on Sell">
+  <Cheat Text="材料最大 on Sell">
     <Cheatline>
       <Offset>8B3F40</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>88-94-08-58-20-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Materials">
+  <Cheat Text="Infinite Materials｜无限材料">
     <Cheatline>
       <Offset>2F861F</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>88-94-08-58-20-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Sub Weapons| Long Arms">
+  <Cheat Text="Infinite Sub 武器| Long Arms">
     <Cheatline>
       <Offset>5F0947</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>89-87-64-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Sub Weapons| Grenades">
+  <Cheat Text="Infinite Sub 武器| 手榴弹">
     <Cheatline>
       <Offset>5F09A7</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>89-87-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Consumables Items in Battle">
+  <Cheat Text="无限消耗品 Items in 战斗">
     <Cheatline>
       <Offset>5F09E6</Offset>
       <Section>0</Section>

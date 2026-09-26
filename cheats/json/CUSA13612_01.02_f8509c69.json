@@ -1,12 +1,17 @@
 {
-  "name": "Hitman: Blood Money HD",
+  "name": "《杀手》: Blood 金钱 HD",
   "id": "CUSA13612",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "362C20",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21C430",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "218E0C",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Earn Cash On Spend (Custom Weapons Menu)",
-      "type": "checkbox",
+      "name": "Earn Cash On Spend (Custom 武器 菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41E9A2",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Get $1.000.000 for each intel purchased (Buy Intel Menu)",
-      "type": "checkbox",
+      "name": "Get $1.000.000 for each intel purchased (Buy Intel 菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F7F68",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Freeze save counter (for normal/expert difficulty)",
-      "type": "checkbox",
+      "name": "Freeze 保存 计数器 (for 普通/expert difficulty)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3D5257",

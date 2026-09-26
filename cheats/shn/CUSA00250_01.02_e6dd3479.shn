@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Thief" Moder="Wander / Reddevil82 - FW 9.00" Cusa="CUSA00250" Version="01.02" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>23BF817</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-83-E8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth Mode ( Dont touch Enemy )">
+  <Cheat Text="隐身模式 ( Dont touch Enemy )">
     <Cheatline>
       <Offset>C65695</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-4F-64</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Offset>23BF826</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C4-C1-7A-11-87-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money ( on gain )">
+  <Cheat Text="金钱最大 ( on gain )">
     <Cheatline>
       <Offset>23BF800</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>39-D8-0F-4E-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items ( on gain )">
+  <Cheat Text="道具无限 ( on gain )">
     <Cheatline>
       <Offset>23BF80C</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>41-89-D7-45-29-E7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>8124F2</Offset>
       <Section>0</Section>

@@ -1,13 +1,18 @@
 {
-  "name": "Dragon Ball: Xenoverse 2",
+  "name": "龙珠: Xenoverse 2",
   "id": "CUSA05088",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Zeni on Gain/Spend",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Zeni on Gain/Spend",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AB800",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "Max TP/ZP on Spend",
+      "name": "最大 轮胎气压/ZP on Spend",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AB81F",
@@ -59,9 +64,9 @@
       ]
     },
     {
-      "name": "Max Attribute Points",
+      "name": "最大 属性 得分",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AB83F",
@@ -86,9 +91,9 @@
       ]
     },
     {
-      "name": "Max Item on Buy (Use TP Only to Buy)",
+      "name": "最大 物品 on Buy (Use 轮胎气压 Only to Buy)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AB800",
@@ -113,9 +118,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Health｜无限生命",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AB800",
@@ -140,9 +145,9 @@
       ]
     },
     {
-      "name": "Infinite KI",
+      "name": "Infinite KI｜无限气",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AB815",
@@ -167,9 +172,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AB82A",
@@ -184,9 +189,9 @@
       ]
     },
     {
-      "name": "Freeze Timer",
+      "name": "Freeze 计时器",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3870AE",

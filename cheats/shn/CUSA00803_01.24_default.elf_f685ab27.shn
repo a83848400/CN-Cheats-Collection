@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (Master Code/Must Be On)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (Master 密码/Must Be On)">
     <Cheatline>
       <Offset>793FA0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-87-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Enable MC)">
+  <Cheat Text="无限生命 (Enable MC)">
     <Cheatline>
       <Offset>793FA6</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>41-89-87-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Enable MC)">
+  <Cheat Text="一击必杀 (Enable MC)">
     <Cheatline>
       <Offset>793FA4</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>75-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>7FC49E90</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>01-D1-89-48-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload/Grenades">
+  <Cheat Text="无需换弹/手榴弹">
     <Cheatline>
       <Offset>7FC49410</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>44-29-7C-81-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Upgrade Points">
+  <Cheat Text="最大/Infinite Upgrade 得分">
     <Cheatline>
       <Offset>7FC4A6D0</Offset>
       <Section>0</Section>

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>95C90A</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>41-F7-DE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Materials">
+  <Cheat Text="Infinite Materials｜无限材料">
     <Cheatline>
       <Offset>94A962</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>89-7A-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>94A798</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items ">
+  <Cheat Text="Infinite Items ｜道具无限">
     <Cheatline>
       <Offset>93F992</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>89-70-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Blindcore Difficulty|Remove Info+Count for Ammo, Items, everything!">
+  <Cheat Text="Blindcore Difficulty|Remove Info+Count for 但是, Items, everything!">
     <Cheatline>
       <Offset>13BEC0C</Offset>
       <Section>0</Section>

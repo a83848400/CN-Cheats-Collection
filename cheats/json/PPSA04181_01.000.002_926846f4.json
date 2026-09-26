@@ -1,13 +1,18 @@
 {
-  "name": "Hoa",
+  "name": "Hoa｜花",
   "id": "PPSA04181",
   "version": "01.000.002",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Jumps",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限跳跃",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80509753",

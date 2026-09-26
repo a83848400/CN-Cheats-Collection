@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Animus: Revenant" Moder="Saso_FW(9.00)" Cusa="CUSA29677" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (Master 密码)">
     <Cheatline>
       <Offset>51A38A6</Offset>
       <Section>14</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
+  <Cheat Text="一击必杀 (MC)">
     <Cheatline>
       <Offset>51A38BF</Offset>
       <Section>14</Section>
@@ -24,7 +32,7 @@
       <ValueOff>74-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill Bosses (MC)">
+  <Cheat Text="一击必杀 Bosses (MC)">
     <Cheatline>
       <Offset>51A38D0</Offset>
       <Section>14</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Samina">
+  <Cheat Text="无尽的萨米娜">
     <Cheatline>
       <Offset>51A3838</Offset>
       <Section>14</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-11-40-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins (9999999)">
+  <Cheat Text="最大 角落 (9999999)">
     <Cheatline>
       <Offset>51A3855</Offset>
       <Section>14</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Far Cry 6" Moder="JustGotenks" Cusa="CUSA15717" Version="01.09" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="No Damage">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="No Damage｜不受伤害">
     <Cheatline>
       <Offset>47BA510</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>48-8B-05-60-D9-D6-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Sprint">
+  <Cheat Text="Infinite Sprint｜无限冲刺">
     <Cheatline>
       <Offset>382E380</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>FF-90-70-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/Throwables">
+  <Cheat Text="无限弹药/可投掷物品">
     <Cheatline>
       <Offset>133B1F3</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>44-29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One-hit Kill">
+  <Cheat Text="One-命中击杀">
     <Cheatline>
       <Offset>7CD7030</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-10-85-60-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>4C863FC</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>44-29-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Supressor Overheat">
+  <Cheat Text="No Supressor Overheat｜无消音器过热">
     <Cheatline>
       <Offset>7CD7070</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-FA-11-45-DC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil">
+  <Cheat Text="No Recoil｜消除后坐力">
     <Cheatline>
       <Offset>4C830EA</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>E8-A1-56-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Accuracy">
+  <Cheat Text="Super Accuracy｜超级精准度">
     <Cheatline>
       <Offset>7CD7090</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-11-88-E0-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump">
+  <Cheat Text="Super Jump｜超级跳跃">
     <Cheatline>
       <Offset>7CD7170</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>00-00-A0-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Teleport to sky">
+  <Cheat Text="传送 to 光·遇">
     <Cheatline>
       <Offset>7CD70F0</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>00-00-7A-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Wanted">
+  <Cheat Text="Never Wanted｜从未想要过">
     <Cheatline>
       <Offset>7CD70C0</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always Wanted">
+  <Cheat Text="Always Wanted｜一直想要">
     <Cheatline>
       <Offset>7CD70C0</Offset>
       <Section>0</Section>

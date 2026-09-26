@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Escudo Infinito">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Escudo Infinito｜无限盾">
     <Cheatline>
       <Offset>527FE2</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>C5-FA-11-9F-2C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>5280DD</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>C5-FA-11-87-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Velocidade Infinita">
+  <Cheat Text="Velocidade Infinita｜无限速度">
     <Cheatline>
       <Offset>52D333</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-11-83-28-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Arma Base Infinita">
+  <Cheat Text="Arma 基地 Infinita">
     <Cheatline>
       <Offset>556D97</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>89-4F-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Arma Pesada Infinita">
+  <Cheat Text="Arma Pesada Infinita｜无限重型武器">
     <Cheatline>
       <Offset>54F77C</Offset>
       <Section>0</Section>

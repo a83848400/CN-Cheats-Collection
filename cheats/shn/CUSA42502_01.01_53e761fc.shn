@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Shin Megami Tensei V: Vengeance" Moder="d01v" Cusa="CUSA42502" Version="01.01" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="BackPort 9 - 505 English Mod by CyB1K">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="BackPort 9 - 505 English Mod by CyB1K｜BackPort 9 - 505 英文模组，作者：CyB1K">
     <Cheatline>
       <Offset>5143531</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Battle Turn">
+  <Cheat Text="Infinite 战斗 回合">
     <Cheatline>
       <Offset>475D81</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>48-89-83-E4-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="5 Step Ticks Daytime (x3 multiplier)">
+  <Cheat Text="5 Step Ticks Daytime (倍率×3)">
     <Cheatline>
       <Offset>736156</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-58-05-76-1F-5D-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Daytime">
+  <Cheat Text="Freeze Daytime｜白天冻结">
     <Cheatline>
       <Offset>736156</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>C5-FA-58-05-76-1F-5D-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Hp">
+  <Cheat Text="Infinite Hp｜无限血量">
     <Cheatline>
       <Offset>51432C1</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-97-20-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mp">
+  <Cheat Text="Infinite Mp｜无限魔力">
     <Cheatline>
       <Offset>51432F1</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>89-97-34-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magatsuhi Skill">
+  <Cheat Text="Infinite Magatsuhi Skill｜无限“Magatsuhi”技能">
     <Cheatline>
       <Offset>4C0011</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>0F-4C-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Demon ID Modifier" Description="how to use: move any demon to any party slot. change again when demon avatar is bugged (null) or it will crash the game">
+  <Cheat Text="Master 密码 妖魔 ID Modifier" Description="how to use: move any demon to any party slot. change again when demon avatar is bugged (null) or it will crash the game">
     <Cheatline>
       <Offset>5143321</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>89-83-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Demon ID" Description="must turn on MC Demon ID Modifier">
+  <Cheat Text="Increase 妖魔 ID" Description="must turn on MC Demon ID Modifier">
     <Cheatline>
       <Offset>5143327</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Decrease Demon ID" Description="must turn on MC Demon ID Modifier">
+  <Cheat Text="Decrease 妖魔 ID" Description="must turn on MC Demon ID Modifier">
     <Cheatline>
       <Offset>5143327</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Items x99">
+  <Cheat Text="所有商品 x99">
     <Cheatline>
       <Offset>58D82A</Offset>
       <Section>0</Section>
@@ -120,7 +128,7 @@
       <ValueOff>80-3C-08-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Run Speed (x3 multiplier)">
+  <Cheat Text="Run 速度 (倍率×3)">
     <Cheatline>
       <Offset>5143351</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C4-C1-7A-10-87-54-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump (x5 multiplier)" Description="super jump: hold R2+ Jump (x button). additional mid air jump: jump (x button) while in mid air+ hold R2.">
+  <Cheat Text="超级跳跃 (倍率×5)" Description="super jump: hold R2+ Jump (x button). additional mid air jump: jump (x button) while in mid air+ hold R2.">
     <Cheatline>
       <Offset>51433B1</Offset>
       <Section>0</Section>
@@ -148,7 +156,7 @@
       <ValueOff>C5-FA-10-9B-48-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Leap (x5 multiplier)" Description="in mid air Hold R2 + L2 or R2 + L3">
+  <Cheat Text="Super Leap (倍率×5)" Description="in mid air Hold R2 + L2 or R2 + L3">
     <Cheatline>
       <Offset>5143401</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>C4-C1-7A-11-87-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Stats" Description="use any recovery items hp/mp or any items can trigger player, attract pipe also work, field menu only">
+  <Cheat Text="Player Stats｜球员数据" Description="use any recovery items hp/mp or any items can trigger player, attract pipe also work, field menu only">
     <Cheatline>
       <Offset>5552C3</Offset>
       <Section>0</Section>
@@ -188,7 +196,7 @@
       <ValueOff>41-89-47-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Demon Stats" Description="view demon in party menu or use any recovery items hp/mp or any items can trigger demon, field menu only">
+  <Cheat Text="妖魔 属性" Description="view demon in party menu or use any recovery items hp/mp or any items can trigger demon, field menu only">
     <Cheatline>
       <Offset>557E41</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>41-89-44-24-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Money">
+  <Cheat Text="Money｜金钱">
     <Cheatline>
       <Offset>5143471</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>8B-43-60-49-8B-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Glory">
+  <Cheat Text="Glory｜荣耀">
     <Cheatline>
       <Offset>5143491</Offset>
       <Section>0</Section>
@@ -248,7 +256,7 @@
       <ValueOff>8B-83-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Exp Demon">
+  <Cheat Text="Master 密码 经验 妖魔">
     <Cheatline>
       <Offset>51434F1</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>45-03-BD-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="multiplier x50" Description="must turn on MC Exp Demon">
+  <Cheat Text="multiplier x50｜倍数 x50" Description="must turn on MC Exp Demon">
     <Cheatline>
       <Offset>51434F8</Offset>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="multiplier x100" Description="must turn on MC Exp Demon">
+  <Cheat Text="multiplier x100｜倍率×100" Description="must turn on MC Exp Demon">
     <Cheatline>
       <Offset>51434F8</Offset>
       <Section>0</Section>
@@ -278,7 +286,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="multiplier x1000" Description="must turn on MC Exp Demon">
+  <Cheat Text="multiplier x1000｜倍数 x1000" Description="must turn on MC Exp Demon">
     <Cheatline>
       <Offset>51434F8</Offset>
       <Section>0</Section>
@@ -286,7 +294,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Exp Player">
+  <Cheat Text="Master 密码 经验 Player">
     <Cheatline>
       <Offset>51434B1</Offset>
       <Section>0</Section>
@@ -300,7 +308,7 @@
       <ValueOff>44-01-74-08-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="multiplier x50" Description="must turn on MC Exp Player">
+  <Cheat Text="multiplier x50｜倍数 x50" Description="must turn on MC Exp Player">
     <Cheatline>
       <Offset>51434B6</Offset>
       <Section>0</Section>
@@ -308,7 +316,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="multiplier x100" Description="must turn on MC Exp Player">
+  <Cheat Text="multiplier x100｜倍率×100" Description="must turn on MC Exp Player">
     <Cheatline>
       <Offset>51434B6</Offset>
       <Section>0</Section>
@@ -316,7 +324,7 @@
       <ValueOff>EB-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="multiplier x1000" Description="must turn on MC Exp Player">
+  <Cheat Text="multiplier x1000｜倍数 x1000" Description="must turn on MC Exp Player">
     <Cheatline>
       <Offset>51434B6</Offset>
       <Section>0</Section>

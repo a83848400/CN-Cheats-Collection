@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Nation: Apocalypse Edition" Moder="Vampirexx" Cusa="CUSA00176" Version="01.03" Process="eboot.bin">
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>FB7C01</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>C5-F2-5D-48-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>9009C</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>29-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf. Flares/Grenades/Molotovs/Mines">
+  <Cheat Text="无限。信号弹/手榴弹/莫洛托夫鸡尾酒/地雷">
     <Cheatline>
       <Offset>90754</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>9DD12</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>41-29-45-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>9C7375</Offset>
       <Section>0</Section>

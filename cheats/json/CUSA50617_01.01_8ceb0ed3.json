@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring Nightreign",
+  "name": "艾尔登法环 Nightreign",
   "id": "CUSA50617",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAEFFF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Master Code (Must be enabled first and all the time)",
-      "type": "checkbox",
+      "name": "Master 密码 (Must be enabled first and all the time)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF1D0",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF000",
@@ -88,8 +93,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B1D70B",
@@ -99,8 +104,8 @@
       ]
     },
     {
-      "name": "Inf+Max Health",
-      "type": "checkbox",
+      "name": "Infinite+生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF099",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "Inf+Max FP",
-      "type": "checkbox",
+      "name": "Infinite+FP值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF106",
@@ -141,8 +146,8 @@
       ]
     },
     {
-      "name": "Inf+Max Stamina",
-      "type": "checkbox",
+      "name": "Infinite+体力最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF137",
@@ -157,8 +162,8 @@
       ]
     },
     {
-      "name": "Inf+Max Consumables",
-      "type": "checkbox",
+      "name": "Infinite+最大 Consumables",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "187A611",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "Inf+Max Runes",
-      "type": "checkbox",
+      "name": "Infinite+最大 铭文",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF168",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "Runes Retained On Death",
-      "type": "checkbox",
+      "name": "铭文 Retained On 死亡",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E92030",
@@ -195,8 +200,8 @@
       ]
     },
     {
-      "name": "Inf+Max Murks",
-      "type": "checkbox",
+      "name": "Infinite+最大 Murks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF19B",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "Player No Dead 1.01-1.02",
-      "type": "checkbox",
+      "name": "玩家编号：Dead 1.01-1.02",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B1061B",
@@ -222,8 +227,8 @@
       ]
     },
     {
-      "name": "Infinite Ultimate Art",
-      "type": "checkbox",
+      "name": "Infinite 必杀技 Art",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DAACC6",
@@ -233,8 +238,8 @@
       ]
     },
     {
-      "name": "--No Skill Cooldown",
-      "type": "checkbox",
+      "name": "--技能无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44262D3",
@@ -244,8 +249,8 @@
       ]
     },
     {
-      "name": "--Enemy Speed x0",
-      "type": "checkbox",
+      "name": "--敌人速度×0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF1C",
@@ -255,8 +260,8 @@
       ]
     },
     {
-      "name": "--Player Speed x1",
-      "type": "checkbox",
+      "name": "--玩家速度×1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF18",

@@ -1,12 +1,17 @@
 {
-  "name": "Ni no Kuni: Wrath of the White Witch Remastered",
+  "name": "Ni no Kuni: Wrath of the White 女巫 Remastered",
   "id": "CUSA13079",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Exp",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6FB52",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6FB60",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "+1 item",
-      "type": "checkbox",
+      "name": "+1 item｜+1物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "58E7D5",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Merit Cards Required 0",
-      "type": "checkbox",
+      "name": "Merit Cards Required 0｜所需积分卡 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6FB6E",

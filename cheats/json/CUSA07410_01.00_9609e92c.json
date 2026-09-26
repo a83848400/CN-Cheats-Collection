@@ -1,12 +1,17 @@
 {
-  "name": "God of War (2018)",
+  "name": "战神 (2018)",
   "id": "CUSA07410",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible Player (No Damage)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 Player (不受伤害)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54A0D0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max and Infinite Bow Arrows",
-      "type": "checkbox",
+      "name": "最大 and Infinite 弓 Arrows",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C58F60",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max and Infinite XP,HS,Resources When Get or Spend",
-      "type": "checkbox",
+      "name": "最大 and 无限经验值,HS,Resources When Get or Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C38690",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max and Infinite XP,HS,Resources When Get or Spend Includes Max Labours Resources When Get",
-      "type": "checkbox",
+      "name": "最大 and 无限经验值,HS,Resources When Get or Spend Includes 最大 Labours Resources When Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C38690",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max and Infinite Rage when Transfer",
-      "type": "checkbox",
+      "name": "最大 and 怒气无限 when 转会",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5922F",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max and Infinite Rage when Get or Hit",
-      "type": "checkbox",
+      "name": "最大 and 怒气无限 when Get or Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C59279",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E07800",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E07827",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Max Stats/Rank on Item Change",
-      "type": "checkbox",
+      "name": "最大 属性/阶级 on 物品 Change",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0783A",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Max XP/Hacksilver/Resources",
-      "type": "checkbox",
+      "name": "最大 XP/Hacksilver/Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E07855",

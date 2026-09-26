@@ -7,7 +7,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health: Leon/Ada" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命: 里昂/艾达" Description="">
     <Cheatline>
       <Offset>208A0C</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>29-DA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health: Ashley/Louis" Description="">
+  <Cheat Text="无限生命: Ashley/路易斯" Description="">
     <Cheatline>
       <Offset>208A74</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>29-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>2E208E</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>89-43-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>2E0DEC</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>29-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite PTAS" Description="">
+  <Cheat Text="Infinite PTAS｜无限PTAS" Description="">
     <Cheatline>
       <Offset>2F9D0D</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>29-81-0C-50-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999.999 PTAS on Pick" Description="">
+  <Cheat Text="999.999 PTAS on Pick｜999.999 PTAS 选中" Description="">
     <Cheatline>
       <Offset>91F800</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>01-81-0C-50-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Save-Counter" Description="">
+  <Cheat Text="Freeze 保存-计数器" Description="">
     <Cheatline>
       <Offset>2A4794</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>FF-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Retry-Counter" Description="">
+  <Cheat Text="Freeze Retry-计数器" Description="">
     <Cheatline>
       <Offset>25DA93</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>41-FF-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Shooting Range" Description="">
+  <Cheat Text="简单 射门 射程" Description="">
     <Cheatline>
       <Offset>44F987</Offset>
       <Section>0</Section>

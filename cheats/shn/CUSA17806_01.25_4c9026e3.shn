@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hellpoint" Moder="Reddevil82 - FW 9.00" Cusa="CUSA17806" Version="01.25" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>19C7A87</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>19C7AA0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-5B-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>19C7A20</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-43-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Axions ( on gain - use )">
+  <Cheat Text="最大 Axions ( on gain - use )">
     <Cheatline>
       <Offset>19C7A60</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>49-89-8E-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>19C7AAA</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>C5-FA-10-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Perfect Temperature">
+  <Cheat Text="Perfect Temperature｜完美温度">
     <Cheatline>
       <Offset>19C7AC4</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>C5-FA-11-83-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Air">
+  <Cheat Text="Infinite Air｜无限之空">
     <Cheatline>
       <Offset>19C7AD9</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>C5-FA-11-A3-9C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Radiation">
+  <Cheat Text="No Radiation｜无辐射">
     <Cheatline>
       <Offset>19C7AEE</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>C5-FA-11-A3-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Sanity">
+  <Cheat Text="No Sanity｜《No Sanity》">
     <Cheatline>
       <Offset>19FF800</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>C5-FA-11-83-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Tenacity">
+  <Cheat Text="最大 Tenacity">
     <Cheatline>
       <Offset>19C7AFD</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>C4-C1-7A-11-47-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No load Equipment">
+  <Cheat Text="No 读取 装备">
     <Cheatline>
       <Offset>19C7B0E</Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>41-8B-86-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Power Up ( on gain )">
+  <Cheat Text="最大 电力 Up ( on gain )">
     <Cheatline>
       <Offset>19C7B4B</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>C5-FA-11-43-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats">
+  <Cheat Text="最大 属性">
     <Cheatline>
       <Offset>19C7B25</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>48-C1-FF-1E-8B-4C-99-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items">
+  <Cheat Text="最大 Items">
     <Cheatline>
       <Offset>19C7B3A</Offset>
       <Section>0</Section>

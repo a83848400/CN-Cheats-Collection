@@ -1,13 +1,18 @@
 {
-  "name": "Sleeping Dogs: Definitive Edition",
+  "name": "睡眠 Dogs: Definitive Edition",
   "id": "CUSA01004",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B3548",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Skillpoints",
+      "name": "Skillpoints｜技能点",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B3530",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Money｜金钱无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BBAC4",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "969F66",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Ammo No Clip",
+      "name": "但是 穿墙模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "969844",

@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code (MC)",
-      "description": "Some cheats may not work during tutorials",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 (MC)",
+      "description": "Some cheats may not work during tutorials｜在教程中，某些作弊码可能无法生效",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC48A0",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Max Health (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "生命最大 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC48BF",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "One Hit Kill (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC48EB",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Weapon Health (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Weapon 生命 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC4918",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Max Mana (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 法力 (Enable MC)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC4954",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "Ignored by the Enemy (Enable MC)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Ignored by the Enemy (Enable MC)｜被敌人忽视（开启MC）",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC4972",
@@ -82,9 +87,9 @@
       ]
     },
     {
-      "name": "Max Coins",
-      "description": "To trigger it, spend coins; disable it after obtaining 9 million coins",
-      "type": "checkbox",
+      "name": "最大 角落",
+      "description": "To trigger it, spend coins; disable it after obtaining 9 million coins｜要触发该功能，请消耗金币；获得900万金币后将其关闭",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC499C",

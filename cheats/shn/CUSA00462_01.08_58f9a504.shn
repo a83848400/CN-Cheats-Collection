@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>8670CF</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>FF-51-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>85BA58</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>FF-51-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Syringes (x2 To Work)">
+  <Cheat Text="无限生命 Syringes (x2 To Work)">
     <Cheatline>
       <Offset>304F7E0</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>41-89-87-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen (Underwater)">
+  <Cheat Text="无限氧气 (Underwater)">
     <Cheatline>
       <Offset>859D47</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>FF-50-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Endurance (To Run)">
+  <Cheat Text="Infinite 耐力 (To Run)">
     <Cheatline>
       <Offset>859AF4</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>FF-50-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>304F6C0</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>44-29-F8-89-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>145BD8A</Offset>
       <Section>0</Section>
@@ -77,7 +85,7 @@
       <ValueOff>89-B0-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables">
+  <Cheat Text="Infinite Throwables｜投掷物无限">
     <Cheatline>
       <Offset>304F840</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>44-8B-6B-78-44-89-7B-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen Mask">
+  <Cheat Text="无限氧气 面具">
     <Cheatline>
       <Offset>304EDF0</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>C5-FA-11-49-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Money On Buy">
+  <Cheat Text="最大/金钱无限 On Buy">
     <Cheatline>
       <Offset>304F660</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>0F-48-C1-89-47-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points on Spend">
+  <Cheat Text="Infinite Skill 得分 on Spend">
     <Cheatline>
       <Offset>304F900</Offset>
       <Section>0</Section>
@@ -133,7 +141,7 @@
       <ValueOff>41-29-44-24-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP On Gain">
+  <Cheat Text="最大 XP On Gain">
     <Cheatline>
       <Offset>304FAD0</Offset>
       <Section>0</Section>
@@ -147,7 +155,7 @@
       <ValueOff>E8-8B-BB-43-FF-8B-4B-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lot Of KP On Gain">
+  <Cheat Text="用地 Of KP On Gain">
     <Cheatline>
       <Offset>304F0C0</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>8B-4B-7C-44-01-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Jump">
+  <Cheat Text="High Jump｜跳高">
     <Cheatline>
       <Offset>304F4C0</Offset>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>C5-FA-59-87-F0-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump">
+  <Cheat Text="Super Jump｜超级跳跃">
     <Cheatline>
       <Offset>304F500</Offset>
       <Section>0</Section>
@@ -189,7 +197,7 @@
       <ValueOff>C5-FA-59-87-F0-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mega Jump">
+  <Cheat Text="Mega Jump｜超级跳跃">
     <Cheatline>
       <Offset>304F550</Offset>
       <Section>0</Section>
@@ -203,7 +211,7 @@
       <ValueOff>C5-FA-59-87-F0-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Mega Jump">
+  <Cheat Text="Super 超级跳跃">
     <Cheatline>
       <Offset>304EBF0</Offset>
       <Section>0</Section>

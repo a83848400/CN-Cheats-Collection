@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Gravity Rush Remastered" Moder="Talixme" Cusa="CUSA01113" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>8169A</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>89-57-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gems">
+  <Cheat Text="Infinite Gems｜宝石无限">
     <Cheatline>
       <Offset>104777</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>29-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always Have Super Attack">
+  <Cheat Text="Always Have Super 攻击">
     <Cheatline>
       <Offset>2E2030</Offset>
       <Section>0</Section>

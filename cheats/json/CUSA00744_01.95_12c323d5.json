@@ -1,12 +1,17 @@
 {
-  "name": "Minecraft: PlayStation 4 Edition",
+  "name": "我的世界: PlayStation 4 Edition",
   "id": "CUSA00744",
   "version": "01.95",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[ Walk in air ]",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[ Walk in air ]｜[ 漫步云端 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "277C21",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "[ Fast Mine ]",
-      "type": "checkbox",
+      "name": "[ Fast Mine ]｜[ 固定矿 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F06924",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "[ High Jump ]",
-      "type": "checkbox",
+      "name": "[ High Jump ]｜[ 跳高 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E97004",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "[ Jump Forward x2 ]",
-      "type": "checkbox",
+      "name": "[ Jump Forward x2 ]｜[ 快进 x2 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E9700C",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "[ Head Rotation 360 ]",
-      "type": "checkbox",
+      "name": "[ Head 循环 360 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E8845C",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "[ Fast Attack and Place ]",
-      "type": "checkbox",
+      "name": "[ Fast 攻击 and Place ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F06A08",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "[ Max Xp ]",
-      "type": "checkbox",
+      "name": "[ 最大 Xp ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "54EBE3",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "[ Unlimited Crafting ]",
-      "type": "checkbox",
+      "name": "[ Unlimited Crafting ]｜[ 无限制作 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AC8540",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "[ Reach Blocks 25 ]",
-      "type": "checkbox",
+      "name": "[ Reach Blocks 25 ]｜[ 覆盖区块 25 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F06AD8",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "[ Reach Attack 25]",
-      "type": "checkbox",
+      "name": "[ Reach 攻击 25]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EFD838",
@@ -115,9 +120,9 @@
       ]
     },
     {
-      "name": "[ Infinite Items ]",
-      "description": "You need atleast 2 items in a single item slot to have infinite.",
-      "type": "checkbox",
+      "name": "[ 道具无限 ]",
+      "description": "You need atleast 2 items in a single 物品 slot to have infinite.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37E78C",
@@ -127,9 +132,9 @@
       ]
     },
     {
-      "name": "[ Infinite Items (use) ]",
-      "description": "You need atleast 2 items in a single item slot to have infinite.",
-      "type": "checkbox",
+      "name": "[ 道具无限 (use) ]",
+      "description": "You need atleast 2 items in a single 物品 slot to have infinite.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3557DE",
@@ -139,9 +144,9 @@
       ]
     },
     {
-      "name": "[ Infinite Health ]",
-      "description": "Including monsters, animals and other players.",
-      "type": "checkbox",
+      "name": "[ 无限生命 ]",
+      "description": "Including monsters, 动物帮 and 他 players.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCF0",
@@ -151,9 +156,9 @@
       ]
     },
     {
-      "name": "[ Infinite Food ]",
-      "description": "Including monsters, animals and other players.",
-      "type": "checkbox",
+      "name": "[ 食物无限 ]",
+      "description": "Including monsters, 动物帮 and 他 players.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F4A17",
@@ -163,8 +168,8 @@
       ]
     },
     {
-      "name": "[ Freeze Time Of Day ]",
-      "type": "checkbox",
+      "name": "[ Freeze Time Of Day ]｜[ 冻结当前时间 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "415B70",
@@ -174,9 +179,9 @@
       ]
     },
     {
-      "name": "[ Freeze Potions ]",
-      "type": "checkbox",
-      "description": "+ Poison doesnt do damage",
+      "name": "[ Freeze Potions ]｜[ 冰冻药水 ]",
+      "type": "checkbox｜复选框",
+      "description": "+ Poison doesnt do damage｜+毒素不造成伤害",
       "memory": [
         {
           "offset": "491C32",

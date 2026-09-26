@@ -1,12 +1,17 @@
 {
-  "name": "Zombi",
+  "name": "Zombi｜僵尸",
   "id": "CUSA03535",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE2EF70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight",
-      "type": "checkbox",
+      "name": "Infinite 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE2E990",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (on reload inside the backpack)",
-      "type": "checkbox",
+      "name": "无限弹药 (on reload inside the 背包)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE2E960",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (inside the clip)",
-      "type": "checkbox",
+      "name": "无限弹药 (inside the clip)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE2E9D0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (while shooting)",
-      "type": "checkbox",
+      "name": "无限弹药 (while 射门)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE2E920",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Turret Ammo",
-      "type": "checkbox",
+      "name": "Infinite 防御塔 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "8",

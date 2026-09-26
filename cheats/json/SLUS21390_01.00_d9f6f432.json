@@ -1,17 +1,22 @@
 {
-  "name": "Urban Chaos: Riot Response",
+  "name": "Urban 混沌: Riot Response",
   "id": "SLUS21390",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80816BF39E",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "80816BF39F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite-Ammo",
-      "type": "checkbox",
+      "name": "Infinite-Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD06E70",

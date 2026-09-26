@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>8443DB0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C4-C1-7A-11-84-24-A4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nivel Maximo">
+  <Cheat Text="Nivel Maximo｜最高等级">
     <Cheatline>
       <Offset>8443DE0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>44-89-EE-45-89-6E-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Magia Especial Infinita">
+  <Cheat Text="Magia Especial Infinita｜无限特殊魔法">
     <Cheatline>
       <Offset>8443E50</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C4-C1-7A-11-84-24-08-3D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vassoura Infinita">
+  <Cheat Text="Vassoura Infinita｜无限扫帚">
     <Cheatline>
       <Offset>8443660</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-11-40-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dinheiro Infinito">
+  <Cheat Text="Dinheiro Infinito｜无限金钱">
     <Cheatline>
       <Offset>7B4ACD</Offset>
       <Section>0</Section>

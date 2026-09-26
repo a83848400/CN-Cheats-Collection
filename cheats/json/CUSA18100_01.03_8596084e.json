@@ -1,12 +1,17 @@
 {
-  "name": "Mafia: Definitive Edition",
+  "name": "黑手党: Definitive Edition",
   "id": "CUSA18100",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health Auto Regenerate (hide 5 Sec)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 Auto Regenerate (兽皮 5 Sec)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F8AE41",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19881B1",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Grenades",
-      "type": "checkbox",
+      "name": "手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19866C8",

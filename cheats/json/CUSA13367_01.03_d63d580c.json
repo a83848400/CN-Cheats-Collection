@@ -1,12 +1,17 @@
 {
-  "name": "Asterix & Obelix XXL 2",
+  "name": "Asterix & Obelix XXL 2｜《阿斯泰里克斯与奥贝利克斯 XXL 2》",
   "id": "CUSA13367",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E63FD0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Helmets",
-      "type": "checkbox",
+      "name": "最大 Helmets",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F5A71",

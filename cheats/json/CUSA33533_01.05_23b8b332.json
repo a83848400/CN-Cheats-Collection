@@ -1,12 +1,17 @@
 {
-  "name": "Ghost Song",
+  "name": "幽灵 Song",
   "id": "CUSA33533",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Dash",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8054BB7A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Life",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8053517D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Modules Use",
-      "type": "checkbox",
+      "name": "无限模块的应用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81997D8F",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8055FF5D",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "No Increment the Suit Level",
-      "type": "checkbox",
+      "name": "No Increment the 战衣 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "805CD1E9",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "No Overheating",
-      "type": "checkbox",
+      "name": "No Overheating｜不会过热",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80DDB51F",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "No Requires Level Up",
-      "type": "checkbox",
+      "name": "No Requires 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "805CD29A",

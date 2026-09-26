@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fallout 4" Moder="2B" Cusa="CUSA02557" Version="01.36" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP+Stamina (HP will decrease a little)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量+体力 (手机 意志 decrease a little)">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-58-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item+Ammo  (on use)">
+  <Cheat Text="最大 物品+但是  (on use)">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F808</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>8B-4F-0C-01-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="no Reload">
+  <Cheat Text="no Reload｜无需换弹">
     <Cheatline>
       <Section>0</Section>
       <Offset>228F817</Offset>

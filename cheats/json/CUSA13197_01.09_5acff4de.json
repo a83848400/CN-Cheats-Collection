@@ -1,12 +1,17 @@
 {
-  "name": "Judgment",
+  "name": "Judgment｜判决书",
   "id": "CUSA13197",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8E1AA9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2961AD",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Heat",
-      "type": "checkbox",
+      "name": "Infinite Heat｜无限热血槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50A640",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "988120",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max SP",
-      "type": "checkbox",
+      "name": "最大 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8E2CF6",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8E2BC9",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20CF800",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Tailing: Low awareness",
-      "type": "checkbox",
+      "name": "Tailing: Low awareness｜尾随：认知度低",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BBA971",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Infinite Challenge-Time",
-      "type": "checkbox",
+      "name": "Infinite Challenge-Time｜《无限挑战》——时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CDCE5",
@@ -109,8 +114,8 @@
       ]
     },
     {
-      "name": "Darts: Perfect Shot",
-      "type": "checkbox",
+      "name": "Darts: Perfect Shot｜飞镖：完美一投",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D34170",
@@ -120,8 +125,8 @@
       ]
     },
     {
-      "name": "Darts: Easy X01",
-      "type": "checkbox",
+      "name": "Darts: 简单 X01",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D47B36",
@@ -131,8 +136,8 @@
       ]
     },
     {
-      "name": "Darts: Easy Score",
-      "type": "checkbox",
+      "name": "Darts: 简单 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D45F27",
@@ -142,8 +147,8 @@
       ]
     },
     {
-      "name": "Kamuro of the Dead: Infinite Health",
-      "type": "checkbox",
+      "name": "Kamuro of the Dead: 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E4033",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "Kamuro of the Dead: Infinite Ammo",
-      "type": "checkbox",
+      "name": "Kamuro of the Dead: 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15DB3B7",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "Kamuro of the Dead: Max Score",
-      "type": "checkbox",
+      "name": "Kamuro of the Dead: 最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15DB63E",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Batting Center: Infinite Balls",
-      "type": "checkbox",
+      "name": "Batting Center: 无限精灵球",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14FBBB3",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Batting Center: Easy Score",
-      "type": "checkbox",
+      "name": "Batting Center: 简单 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20CF814",
@@ -222,8 +227,8 @@
       ]
     },
     {
-      "name": "Lockpicking: Infinite Time",
-      "type": "checkbox",
+      "name": "开锁: 无限时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "481F2A",
@@ -233,8 +238,8 @@
       ]
     },
     {
-      "name": "Lockpicking: Instant Pick",
-      "type": "checkbox",
+      "name": "开锁: Instant Pick",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B468BD",
@@ -244,8 +249,8 @@
       ]
     },
     {
-      "name": "Drone Race: Infinite Health",
-      "type": "checkbox",
+      "name": "无人机 Race: 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A531DF",
@@ -255,8 +260,8 @@
       ]
     },
     {
-      "name": "Drone Race: Instant Boost Recharge",
-      "type": "checkbox",
+      "name": "无人机 Race: Instant Boost Recharge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5A758",
@@ -266,8 +271,8 @@
       ]
     },
     {
-      "name": "Drone Race: Infinite Boost",
-      "type": "checkbox",
+      "name": "无人机 Race: 无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5A6AB",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "Drone Race: Infinite Time",
-      "type": "checkbox",
+      "name": "无人机 Race: 无限时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A2F4A9",
@@ -288,8 +293,8 @@
       ]
     },
     {
-      "name": "Drone Race: Max Items",
-      "type": "checkbox",
+      "name": "无人机 Race: 最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8E381D",
@@ -299,8 +304,8 @@
       ]
     },
     {
-      "name": "Drone Race: Freeze Time",
-      "type": "checkbox",
+      "name": "无人机 Race: 冻结时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5C8E4",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Drone Race: Finish Line Crossable in both Directions",
-      "type": "checkbox",
+      "name": "无人机 Race: 终点线 Crossable in both Directions",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5D2B4",
@@ -321,8 +326,8 @@
       ]
     },
     {
-      "name": "Drone Race: Enemys dont move",
-      "type": "checkbox",
+      "name": "无人机 Race: Enemys dont 招式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20CF823",

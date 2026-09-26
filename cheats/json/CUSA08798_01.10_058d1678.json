@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders III",
+  "name": "Darksiders III｜《暗黑血统3》",
   "id": "CUSA08798",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "ifi soul",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "ifi soul",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38CBBB",

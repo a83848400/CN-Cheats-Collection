@@ -1,12 +1,17 @@
 {
-  "name": "Heracles: Battle with the Gods",
+  "name": "Heracles: 战斗 with the Gods",
   "id": "SLES53855",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "RETURN-Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "RETURN-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808011E7C8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-lives-99",
-      "type": "checkbox",
+      "name": "无限生命-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD3844C",

@@ -1,12 +1,17 @@
 {
-  "name": "MediEvil",
+  "name": "MediEvil｜《MediEvil》",
   "id": "CUSA12982",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health / Gold",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C6D000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Shield / Daggers / Bow",
-      "type": "checkbox",
+      "name": "无限护盾 / Daggers / 弓",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C6D100",

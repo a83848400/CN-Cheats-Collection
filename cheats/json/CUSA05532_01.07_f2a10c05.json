@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy XII: The Zodiac Age",
+  "name": "最终幻想 XII: The 星座 年龄",
   "id": "CUSA05532",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max &  Inf  HP | Vaan",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 &  Infinite  手机 | Vaan",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A90000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B7C2",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Instant Action Bar",
-      "type": "checkbox",
+      "name": "Instant 动作条",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23AB800",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BBE1",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Items/Loot/Accessories | On Buy/Sell/Gain/Use",
-      "type": "checkbox",
+      "name": "最大 Items/战利品/Accessories | On Buy/Sell/Gain/Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A8FF02",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Gil",
-      "type": "checkbox",
+      "name": "Infinite Gil｜无限金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6802",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Gil On Buy/Sell",
-      "type": "checkbox",
+      "name": "金钱最大 On Buy/Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6815",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite LP",
-      "type": "checkbox",
+      "name": "Infinite 生命值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A0C82",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Max LP On Spend",
-      "type": "checkbox",
+      "name": "最大 生命值 On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6829",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Boost EXP| x1000 Points Per Kill",
-      "type": "checkbox",
+      "name": "Boost 经验| x1000 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A683D",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Extra EXP| x5000 Points Per Kill",
-      "type": "checkbox",
+      "name": "Extra 经验| x5000 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6851",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "Eeven More EXP| x10.000 Points Per Kill",
-      "type": "checkbox",
+      "name": "Eeven More 经验| x10.000 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6866",
@@ -182,8 +187,8 @@
       ]
     },
     {
-      "name": "Lots Of EXP| x15.000 Points Per Kill",
-      "type": "checkbox",
+      "name": "Lots Of 经验| x15.000 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A687B",
@@ -198,8 +203,8 @@
       ]
     },
     {
-      "name": "Hella EXP| x50.000 Points Per Kill",
-      "type": "checkbox",
+      "name": "Hella 经验| 乘以五十.000 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6890",
@@ -214,8 +219,8 @@
       ]
     },
     {
-      "name": "EXP OVERLORD| 1 Kill = Max LvL All Characters",
-      "type": "checkbox",
+      "name": "经验 OVERLORD| 1 Kill = 最大 LvL All Characters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A68A5",
@@ -230,8 +235,8 @@
       ]
     },
     {
-      "name": "x5000 Clan Points Per Kill",
-      "type": "checkbox",
+      "name": "x5000 家 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A68DC",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "x10.000 Clan Points Per Kill",
-      "type": "checkbox",
+      "name": "x10.000 家 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A68EF",
@@ -262,8 +267,8 @@
       ]
     },
     {
-      "name": "x25.000 Clan Points Per Kill",
-      "type": "checkbox",
+      "name": "x25.000 家 得分 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6902",
@@ -278,8 +283,8 @@
       ]
     },
     {
-      "name": "500.000 Clan Points| To unlock Record Breaker Trophy ",
-      "type": "checkbox",
+      "name": "500.000 家 得分| To 解锁 Record Breaker Trophy ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6915",
@@ -294,8 +299,8 @@
       ]
     },
     {
-      "name": "Clan Master| 1 Kill= Max Clan Points ",
-      "type": "checkbox",
+      "name": "家 Master| 1 Kill= 最大 家 得分 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6927",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Unlock All Items | Battle Only",
-      "type": "checkbox",
+      "name": "解锁全部物品 | 战斗 Only",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6939",
@@ -326,8 +331,8 @@
       ]
     },
     {
-      "name": "Splendor Master| Enhanced ATK",
-      "type": "checkbox",
+      "name": "Splendor Master| Enhanced 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A694E",
@@ -342,8 +347,8 @@
       ]
     },
     {
-      "name": "Falconer| Powerful ATK",
-      "type": "checkbox",
+      "name": "Falconer| Powerful 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6971",
@@ -358,8 +363,8 @@
       ]
     },
     {
-      "name": "Kendo Master| Double ATK",
-      "type": "checkbox",
+      "name": "Kendo Master| Double 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A6994",
@@ -374,8 +379,8 @@
       ]
     },
     {
-      "name": "Shaolin Master| Supreme ATK",
-      "type": "checkbox",
+      "name": "Shaolin Master| Supreme 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A69B7",
@@ -390,8 +395,8 @@
       ]
     },
     {
-      "name": "Plastic Slipper| Max ATK",
-      "type": "checkbox",
+      "name": "Plastic Slipper| 最大 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23A69DA",

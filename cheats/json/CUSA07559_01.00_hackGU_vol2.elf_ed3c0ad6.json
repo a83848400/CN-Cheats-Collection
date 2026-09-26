@@ -5,8 +5,13 @@
   "process": "hackGU_vol2.elf",
   "mods": [
     {
-      "name": "Never Dec Items Used",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Never Dec Items Used｜“永不删除”已使用项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FF9A4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "500 Smoke Bomb Value",
-      "type": "checkbox",
+      "name": "500 烟雾弹 Value",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50A63A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill ",
-      "type": "checkbox",
+      "name": "1 Hit Kill ｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9B805",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "inf chin 999",
-      "type": "checkbox",
+      "name": "无限下巴 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9B81C",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Aida Battle 1 Hit Kill",
-      "type": "checkbox",
+      "name": "Aida 战斗 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9B82E",

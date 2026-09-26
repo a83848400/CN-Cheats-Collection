@@ -1,12 +1,17 @@
 {
-  "name": "SnowRunner",
+  "name": "SnowRunner｜《雪地跑车》",
   "id": "CUSA17425",
   "version": "01.37",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Fuel",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2753DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Damage",
-      "type": "checkbox",
+      "name": "No Damage｜不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2753DE1",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Repair Points ( on use )",
-      "type": "checkbox",
+      "name": "最大 Repair 得分 ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2753DF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E2D7F5",

@@ -3,7 +3,15 @@
   <Genres Name="Adventure" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max Gold (On sell)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金币最大 (On sell)">
     <Cheatline>
       <Offset>864E76C0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>48-01-98-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Minimum Weight (for inventory after picking items)">
+  <Cheat Text="Minimum 重量 (for 背包 after picking items)">
     <Cheatline>
       <Offset>864E7600</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-C1-7A-11-46-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Experience gained">
+  <Cheat Text="最大 Experience gained">
     <Cheatline>
       <Offset>864E7360</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>41-8B-44-24-18-41-01-47-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 items (on use/Split/sell)">
+  <Cheat Text="99 件商品 (on use/Split/sell)">
     <Cheatline>
       <Offset>864E6D80</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>89-43-78-4C-8B-B3-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="10 Action bar use">
+  <Cheat Text="10 动作条 use">
     <Cheatline>
       <Offset>864E6C00</Offset>
       <Section>0</Section>

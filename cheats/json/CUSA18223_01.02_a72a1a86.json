@@ -1,12 +1,17 @@
 {
-  "name": "Digimon Survive",
+  "name": "Digimon Survive｜《数码宝贝：生存》",
   "id": "CUSA18223",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Items (on use inside the battle)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Items (on use inside the 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "Infinite SP(when using skill Attacks not Evolution cost)",
-      "type": "checkbox",
+      "name": "Infinite 精神值(when using skill Attacks not 进化 cost)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Max Exp (on first or 2nd fight)",
-      "type": "checkbox",
+      "name": "经验值最大 (on first or 2nd fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "7",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Items Multiplier (on use outside the battle)",
-      "type": "checkbox",
+      "name": "物品倍率 (on use outside the 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

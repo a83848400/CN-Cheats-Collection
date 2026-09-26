@@ -1,12 +1,17 @@
 {
-  "name": "Ark: Survival Evolved",
+  "name": "Ark: 生存模式 Evolved",
   "id": "CUSA06676",
   "version": "01.64",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP/STM/Oxygen/Food/Water/0 Weight/Torpidity",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量/圣马丁/Oxygen/Food/水/0 重量/Torpidity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4103966",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill/Enemy 0 Stamina/Food/Water",
-      "type": "checkbox",
+      "name": "一击必杀/Enemy 0 体力/Food/水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4103883",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items on Pickup/Use",
-      "type": "checkbox",
+      "name": "最大 Items on Pickup/Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41038D0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Instant Max XP",
-      "type": "checkbox",
+      "name": "Instant 最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41038E3",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Engram Points on Spend",
-      "type": "checkbox",
+      "name": "Infinite Engram 得分 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59D6F9",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Weight Carrying",
-      "type": "checkbox",
+      "name": "最大 重量 Carrying",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41039DF",

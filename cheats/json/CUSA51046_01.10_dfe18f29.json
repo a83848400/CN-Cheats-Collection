@@ -1,13 +1,18 @@
 {
-  "name": "Neva",
+  "name": "Neva｜涅瓦",
   "id": "CUSA51046",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy health",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "简单 生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8095E82E",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Air Dash",
+      "name": "无限空中冲刺",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80952D70",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Inf Double Jump",
+      "name": "无限二段跳",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80953319",

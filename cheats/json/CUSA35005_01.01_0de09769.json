@@ -1,12 +1,17 @@
 {
-  "name": "Blade Assault",
+  "name": "异刃 Assault",
   "id": "CUSA35005",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Health - Stamina ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 生命 - 体力 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FD30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FD3C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina [ MC ]",
-      "type": "checkbox",
+      "name": "无限耐力 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FD4E",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Ammo",
-      "type": "checkbox",
+      "name": "Max Ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FDB0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Fast Level Up",
-      "type": "checkbox",
+      "name": "Fast 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FDDB",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Gems",
-      "type": "checkbox",
+      "name": "Max Gems｜宝石最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FDF0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Roses",
-      "type": "checkbox",
+      "name": "最大 Roses",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FE04",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Coins",
-      "type": "checkbox",
+      "name": "最大 角落",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FE18",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Max Chips",
-      "type": "checkbox",
+      "name": "最大 Chips",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FE2C",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Max Cubes",
-      "type": "checkbox",
+      "name": "最大 Cubes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FE40",

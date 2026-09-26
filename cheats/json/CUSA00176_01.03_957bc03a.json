@@ -1,13 +1,18 @@
 {
-  "name": "Dead Nation: Apocalypse Edition",
+  "name": "Dead Nation: Apocalypse Edition｜《死亡国度：启示录版》",
   "id": "CUSA00176",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13B7C01",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49009C",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Infinite Flares / Grenades / Molotovs and Mines",
+      "name": "Infinite Flares / Grenades / Molotovs and Mines｜无限信号弹/手榴弹/莫洛托夫鸡尾酒和地雷",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "490754",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Infinite Money Part1",
+      "name": "金钱无限 Part1",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49DD12",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Infinite Money Part2",
+      "name": "金钱无限 Part2",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49DE42",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Infinite Money Part3",
+      "name": "金钱无限 Part3",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49E17D",
@@ -87,9 +92,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DC7375",

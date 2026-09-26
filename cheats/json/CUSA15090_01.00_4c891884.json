@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed Heat",
+  "name": "极品飞车 热",
   "id": "CUSA15090",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DCD58E",

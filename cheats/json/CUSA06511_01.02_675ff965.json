@@ -1,12 +1,17 @@
 {
-  "name": "LEGO City Undercover",
+  "name": "LEGO 城市 Undercover",
   "id": "CUSA06511",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Studs  (Get some studs then you will have enough)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Studs  (Get some studs then you 意志 have enough)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "584621",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Building Studs",
-      "type": "checkbox",
+      "name": "Infinite 建造 Studs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14DB800",

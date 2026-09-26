@@ -1,0 +1,140 @@
+{
+  "name": "幽灵 Song",
+  "id": "PPSA09232",
+  "version": "01.005.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "800080E1",
+          "on": "B900C07944488B80B800000089888400000090",
+          "off": "C5F054C0488B80B8000000C5FA118084000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Energy｜无限能量",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "80007D55",
+          "on": "50B800C07944C5F96EC058C5FA118188000000",
+          "off": "C5F2C2CA05C4E3694AC010C5FA118188000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "800083EF",
+          "on": "50B800C07944C5F96EC058C5F82EC8C5FA1183E8020000",
+          "off": "C5FAC2C205C4E3694AC300C5F82EC8C5FA1183E8020000"
+        }
+      ]
+    },
+    {
+      "name": "最大 NanoGel (On gain)",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "80782626",
+          "on": "C7802C0300007F969800",
+          "off": "488B435001902C030000"
+        },
+        {
+          "offset": "8001F693",
+          "on": "9090",
+          "off": "29C3"
+        }
+      ]
+    },
+    {
+      "name": "No Overheat｜不会过热",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "808DC024",
+          "on": "83A0900000000090",
+          "off": "C5FA118090000000"
+        }
+      ]
+    },
+    {
+      "name": "No 电力 Usage",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "8122F15A",
+          "on": "31C99090",
+          "off": "418B4E54"
+        },
+        {
+          "offset": "8122F15E",
+          "on": "89885C030000",
+          "off": "01885C030000"
+        },
+        {
+          "offset": "8122EECB",
+          "on": "418B4E545131C989885C03000059",
+          "off": "418B4E5429885C030000498B0424"
+        },
+        {
+          "offset": "8122F4BA",
+          "on": "C78054030000E7030000",
+          "off": "418B4E54298854030000"
+        },
+        {
+          "offset": "8122F01F",
+          "on": "C78054030000E7030000",
+          "off": "418B4E54018854030000"
+        },
+        {
+          "offset": "8122F149",
+          "on": "C78054030000E7030000",
+          "off": "418B4E54298854030000"
+        },
+        {
+          "offset": "8122EEBD",
+          "on": "C78054030000E7030000",
+          "off": "418B4E54018854030000"
+        }
+      ]
+    },
+    {
+      "name": "No 等级-up Cost",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "8001F6C5",
+          "on": "4183A7680200000090",
+          "off": "C4C17A118768020000"
+        },
+        {
+          "offset": "8001F758",
+          "on": "4183A7680200000090",
+          "off": "C4C17A118768020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "TeeKay87"
+  ]
+}

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Croc's World Run" Moder="Reddevil82 - FW 9.00" Cusa="CUSA15406" Version="01.00" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Max Lives" Description="Max Lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Lives" Description="Max Lives">
     <Cheatline>
       <Offset>2727DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>4D-63-B7-44-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Timer" Description="Max Timer">
+  <Cheat Text="最大 计时器" Description="Max Timer">
     <Cheatline>
       <Offset>2727DD6</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>F3-41-0F-11-86-58-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gems" Description="Max Gems">
+  <Cheat Text="Max Gems｜宝石最大" Description="Max Gems">
     <Cheatline>
       <Offset>2727DE6</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-89-87-40-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stars - [ Stage ]" Description="Max Stars - [ Stage ]">
+  <Cheat Text="最大 Stars - [ Stage ]" Description="Max Stars - [ Stage ]">
     <Cheatline>
       <Offset>2727DF6</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>49-63-87-18-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stars [ World Map ]" Description="Max Stars [ World Map ]">
+  <Cheat Text="最大 Stars [ 世界地图 ]" Description="Max Stars [ World Map ]">
     <Cheatline>
       <Offset>2727E07</Offset>
       <Section>0</Section>

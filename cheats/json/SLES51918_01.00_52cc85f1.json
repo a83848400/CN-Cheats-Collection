@@ -1,12 +1,17 @@
 {
-  "name": "Prince of Persia: The Sands of Time",
+  "name": "波斯王子: The Sands of Time",
   "id": "SLES51918",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF033D8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Sand-Bar",
-      "type": "checkbox",
+      "name": "Infinite-沙子-Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF340E4",

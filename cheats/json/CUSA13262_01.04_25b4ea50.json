@@ -1,12 +1,17 @@
 {
-  "name": "Ary and the Secret of Seasons",
+  "name": "Ary and the 奥秘 of Seasons",
   "id": "CUSA13262",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA38C0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA38E0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Gold / Consumables (On Get / Spend)",
-      "type": "checkbox",
+      "name": "金币最大 / Consumables (On Get / Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3900",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3970",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Super Extra Jump",
-      "type": "checkbox",
+      "name": "Super Extra Jump｜超级特大跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3990",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Default Jump (Use With Super Jump)",
-      "type": "checkbox",
+      "name": "默认 Jump (Use With 超级跳跃)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "8",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Default Extra Jump (Use With Super Extra Jump)",
-      "type": "checkbox",
+      "name": "Default Extra Jump (Use With Super Extra Jump)｜默认额外跳跃（与超级额外跳跃配合使用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "8",

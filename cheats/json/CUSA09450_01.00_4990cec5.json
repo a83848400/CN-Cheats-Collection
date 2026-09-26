@@ -1,12 +1,17 @@
 {
-  "name": "MLB The Show 18",
+  "name": "MLB The Show 18｜《MLB The Show 18》",
   "id": "CUSA09450",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Always Homerun",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Always Homerun｜永远本垒打",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11739b9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Autohit 2000.0MPH Incline 19.0deg Azimuth 5.5deg",
-      "type": "checkbox",
+      "name": "Autohit 2000.0MPH Incline 19.0deg Azimuth 5.5deg｜Autohit 2000.0英里/小时，仰角19.0度，方位角5.5度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1173550",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Always Throw FB Middle",
-      "type": "checkbox",
+      "name": "Always 投技 FB Middle",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19FA222",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Always Swing and Miss",
-      "type": "checkbox",
+      "name": "Always 摆荡 and 未命中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19FA220",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Always Strike and Contact No Fouls",
-      "type": "checkbox",
+      "name": "Always Strike and Contact 不会犯规",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19FA221",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Stop the Ball (and steal)",
-      "type": "checkbox",
+      "name": "停止 the Ball (and 抢断)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11729E0",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Just training (in calendar screen only)",
-      "type": "checkbox",
+      "name": "Just 训练 (in calendar screen only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9873B67",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Add score 31 runs per hit",
-      "type": "checkbox",
+      "name": "Add 比分 31 runs per hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AF79CD",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Maximum hitspeed 3500MPH",
-      "type": "checkbox",
+      "name": "Maximum hitspeed 3500MPH｜最大射速 3500英里/小时",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1616204",

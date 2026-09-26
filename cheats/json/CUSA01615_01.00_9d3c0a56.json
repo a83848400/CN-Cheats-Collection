@@ -1,13 +1,18 @@
 {
-  "name": "Final Fantasy XV",
+  "name": "最终幻想 XV",
   "id": "CUSA01615",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ADE4EA",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite MP",
+      "name": "Infinite MP｜无限魔力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "453F000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite FP/AP",
-      "hint": "Spend FP/AP to Get 9.999.",
-      "type": "checkbox",
+      "name": "Infinite 专注值/行动点",
+      "hint": "Spend 专注值/行动点 to Get 9.999.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "453F4EC",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Infinite Money/Gil",
-      "hint": "Spend Gil/Money to get 9.999.999.",
-      "type": "checkbox",
+      "name": "金钱无限/基尔",
+      "hint": "Spend 基尔/金钱 to get 9.999.999.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "453F12C",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Exp ",
-      "hint": "Earn Exp to get 9.999.999.",
-      "type": "checkbox",
+      "name": "Exp ｜经验",
+      "hint": "Earn 经验 to get 9.999.999.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FB4274",

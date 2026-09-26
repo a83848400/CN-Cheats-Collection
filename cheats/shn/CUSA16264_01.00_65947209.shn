@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="One Punch Man: A Hero Nobody Knows" Moder="cjwine" Cusa="CUSA16264" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="time freeze">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="time freeze｜时间静止">
     <Cheatline>
       <Offset>4C7758</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="god mode">
+  <Cheat Text="god mode｜神模式">
     <Cheatline>
       <Offset>BFCF29</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-89-84-24-20-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max mp after used magical skill">
+  <Cheat Text="最大 mp after used magical skill">
     <Cheatline>
       <Offset>BFCF46</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>89-93-C8-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="one punch dead">
+  <Cheat Text="one punch dead｜一拳毙命">
     <Cheatline>
       <Offset>43AEFA</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>78-55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="strength inf">
+  <Cheat Text="力量 Infinite">
     <Cheatline>
       <Offset>43D9CC</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-93-6C-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="money max after used">
+  <Cheat Text="金钱最大 after used">
     <Cheatline>
       <Offset>C61D88</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>8B-46-0C-48-8D-4B-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Growth points zero can work">
+  <Cheat Text="Growth 得分 杰洛 can work">
     <Cheatline>
       <Offset>7C3378</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>0F-8D-9D-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Community contribution max">
+  <Cheat Text="Community contribution 最大">
     <Cheatline>
       <Offset>BFCF56</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>44-8B-80-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="hero level S">
+  <Cheat Text="英雄 等级 S">
     <Cheatline>
       <Offset>BFCF6C</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>41-8B-98-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="level 99 after kill one">
+  <Cheat Text="等级99 after kill one">
     <Cheatline>
       <Offset>BFCF83</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>8B-49-10-89-4B-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="skill level max">
+  <Cheat Text="skill level max｜技能等级最大">
     <Cheatline>
       <Offset>BFCF95</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>41-8B-80-24-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="green bird head money inf">
+  <Cheat Text="green bird head 金钱 Infinite">
     <Cheatline>
       <Offset>BFCFAC</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>0F-4D-C8-89-57-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="blue bird head money inf">
+  <Cheat Text="blue bird head 金钱 Infinite">
     <Cheatline>
       <Offset>BFCFBC</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>41-0F-4C-C0-89-4F-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="gold bird head money inf">
+  <Cheat Text="金币 bird head 金钱 Infinite">
     <Cheatline>
       <Offset>2FE3A6</Offset>
       <Section>0</Section>
