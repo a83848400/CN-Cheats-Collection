@@ -1,7 +1,8 @@
 name: Sync upstream & Auto Translate Cheats
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # UTC 16点 = 北京时间 0点，【每天触发】，脚本内再判断是否北京时间每月1号才发布Release
+    - cron: "0 16 * * *"
   workflow_dispatch:
     inputs:
       create_manual_release:
@@ -75,7 +76,7 @@ jobs:
           git add cheats custom_dict.json
           [ -f file_state.json ] && git add file_state.json
           [ -f translate_miss.log ] && git add -f translate_miss.log
-          git commit -m "Auto sync & translate $(date '+%Y-%m-%d %H:%M')" || echo "Nothing changed for chinese‑build"
+          git commit -m "Auto sync & translate $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')" || echo "Nothing changed for chinese‑build"
           git push -f origin chinese-build
       - name: Auto commit updated custom_dict.json back to master
         run: |
@@ -86,7 +87,7 @@ jobs:
           else
             cp "${DICT_SRC}" ./custom_dict.json
             git add custom_dict.json
-            git commit -m "CI auto update custom_dict.json $(date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
+            git commit -m "CI auto update custom_dict.json $(TZ='Asia/Shanghai' date '+%Y‑%m‑%d %H:%M')" || echo "No new dict entries, skip master commit"
             git push origin master
           fi
       - name: Checkout chinese‑build for zip build
@@ -107,23 +108,31 @@ jobs:
       - name: Judge whether create Release
         id: judge_release
         run: |
+          # 全部使用北京时间判断
+          TZ='Asia/Shanghai'
+          export TZ
           DAY=$(date +%d)
           MANUAL_RELEASE=${{ github.event.inputs.create_manual_release }}
           DO_RELEASE=0
+
+          # 定时触发：北京时间每月1号才允许发布Release
           if [[ "${{ github.event_name }}" == "schedule" && "$DAY" == "01" ]]; then
             DO_RELEASE=1
           fi
+          # 手动勾选才允许发布Release
           if [[ "${{ github.event_name }}" == "workflow_dispatch" && "$MANUAL_RELEASE" == "true" ]]; then
             DO_RELEASE=1
           fi
+
           if [ "$DO_RELEASE" -eq 1 ]; then
-            TAG="v$(date +%Y-%m-%d)"
+            TAG="v$(TZ='Asia/Shanghai' date +%Y-%m-%d)"
             ZIP_FILENAME="CN-Cheats-Collection-${TAG}.zip"
             echo "DO_RELEASE=1" >> $GITHUB_OUTPUT
             echo "TAG=$TAG" >> $GITHUB_OUTPUT
             echo "ZIP_FILENAME=$ZIP_FILENAME" >> $GITHUB_OUTPUT
           else
             echo "DO_RELEASE=0" >> $GITHUB_OUTPUT
+            echo "DEBUG: event_name=${{ github.event_name }}, Beijing DAY=$DAY, MANUAL_RELEASE=$MANUAL_RELEASE"
           fi
       - name: Build zip archive
         if: steps.judge_release.outputs.DO_RELEASE == 1
@@ -147,8 +156,7 @@ jobs:
           ZIP_FILENAME: ${{ steps.judge_release.outputs.ZIP_FILENAME }}
         continue-on-error: true
         run: python3 release_helper.py
-
-      # ============【新增：翻译流程结束立刻执行cnb全量镜像】============
+      # ============【翻译流程结束立刻执行cnb全量镜像】============
       - name: Mirror full repo to cnb.cool
         continue-on-error: true
         env:
