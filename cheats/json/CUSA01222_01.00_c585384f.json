@@ -1,12 +1,17 @@
 {
-  "name": "Street Fighter V",
+  "name": "街头霸王 V",
   "id": "CUSA01222",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Easy Win (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 简单 Win (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59BBBB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Easy Win (MC)",
-      "type": "checkbox",
+      "name": "简单 Win (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59BBBC2",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite CA Meter / Opp Meter 0 (Master Code)",
-      "type": "checkbox",
+      "name": "Infinite CA Meter / Opp Meter 0 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59BCCC0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Opp CA Meter 0 (MC)",
-      "type": "checkbox",
+      "name": "Opp CA Meter 0 (MC)｜CA 计数器 0 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59BCCD9",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite V-Gauge / Opp V-Gauge 0 (Master Code)",
-      "type": "checkbox",
+      "name": "Infinite V槽 / Opp V槽 0 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59BD770",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Opp V-Gauge 0 (MC)",
-      "type": "checkbox",
+      "name": "Opp V槽 0 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59BD789",

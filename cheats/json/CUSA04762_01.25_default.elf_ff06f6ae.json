@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Infinite Warfare",
+  "name": "使命召唤: Infinite Warfare",
   "id": "CUSA04762",
   "version": "01.25",
-  "process": "default.elf",
+  "process": "默认.elf",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit Kill (Master Code/Must Be On)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (Master 密码/Must Be On)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14BBE80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "无限生命 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14BBE87",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14BBE85",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF60",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE80",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC59A60",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Infinite Jetpack",
-      "type": "checkbox",
+      "name": "Infinite 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B660",

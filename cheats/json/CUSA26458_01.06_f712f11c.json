@@ -1,12 +1,17 @@
 {
-  "name": "Saints Row",
+  "name": "Saints Row｜《圣徒行传》",
   "id": "CUSA26458",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21BFDE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No reload (needs ammo in weapon)",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹 (需求 但是 in weapon)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "180E437",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Car Nitro use",
-      "type": "checkbox",
+      "name": "Infinite Car 氮气 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A7C215",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Money/Experience (on gain)",
-      "type": "checkbox",
+      "name": "金钱最大/Experience (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21BFE60",

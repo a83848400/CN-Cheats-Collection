@@ -1,12 +1,17 @@
 {
-  "name": "Moving Out",
+  "name": "Moving Out｜搬家",
   "id": "CUSA17675",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "freeze time",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "freeze time｜冻结时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

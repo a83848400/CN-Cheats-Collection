@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Blade Assault" Moder="Reddevil82 - FW 9.00" Cusa="CUSA35005" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Mastercode Health - Stamina ( must be activated )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="主代码 生命 - 体力 ( must be activated )">
     <Cheatline>
       <Offset>189FD30</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-88-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]">
     <Cheatline>
       <Offset>189FD3C</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>89-88-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina [ MC ]">
+  <Cheat Text="无限耐力 [ MC ]">
     <Cheatline>
       <Offset>189FD4E</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>89-88-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化">
     <Cheatline>
       <Offset>189FDB0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>89-88-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Level Up">
+  <Cheat Text="Fast 升级">
     <Cheatline>
       <Offset>189FDDB</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>48-8B-44-24-F8-8B-40-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gems">
+  <Cheat Text="Max Gems｜宝石最大">
     <Cheatline>
       <Offset>189FDF0</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>48-8B-44-24-F8-8B-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Roses">
+  <Cheat Text="最大 Roses">
     <Cheatline>
       <Offset>189FE04</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>48-8B-44-24-F8-8B-40-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins">
+  <Cheat Text="最大 角落">
     <Cheatline>
       <Offset>189FE18</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>48-8B-44-24-F8-8B-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Chips">
+  <Cheat Text="最大 Chips">
     <Cheatline>
       <Offset>189FE2C</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>48-8B-44-24-F8-8B-40-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cubes">
+  <Cheat Text="最大 Cubes">
     <Cheatline>
       <Offset>189FE40</Offset>
       <Section>0</Section>

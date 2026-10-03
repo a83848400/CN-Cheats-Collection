@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mount &amp; Blade II: Bannerlord" Moder="DJFlameDat" Cusa="CUSA15467" Version="01.10" Process="eboot.bin">
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Inf HP + OHK">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 + OHK">
     <Cheatline>
       <Offset>AC1B8AA</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>F3-0F-11-8B-9C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Focus Points (Use a Point Once, Press Square and deactive after)">
+  <Cheat Text="专注点数无限 (Use a Point Once, Press Square and deactive after)">
     <Cheatline>
       <Offset>AC1B868</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>83-53-38-FF-5B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Gold Coins (On Buy)">
+  <Cheat Text="无限金币 角落 (On Buy)">
     <Cheatline>
       <Offset>AC1B8D9</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-89-B4-24-00-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Hit Points">
+  <Cheat Text="Infinite Hit 得分">
     <Cheatline>
       <Offset>AC1B822</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-89-AE-C4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Smith Materials (On Convert/Used)">
+  <Cheat Text="Infinite Smith Materials (On Convert/Used)">
     <Cheatline>
       <Offset>AC1B888</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-31-48-83-C4-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Smithing Stam (On Smelt)">
+  <Cheat Text="Infinite 锻造 Stam (On Smelt)">
     <Cheatline>
       <Offset>AC1B90F</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>89-68-10-4D-85-ED</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Smithing Stam (On Forge)">
+  <Cheat Text="Infinite 锻造 Stam (On Forge)">
     <Cheatline>
       <Offset>AC1B8FE</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>89-68-10-4D-85-ED</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Smithing Stam(On Refine)">
+  <Cheat Text="Infinite 锻造 Stam(On Refine)">
     <Cheatline>
       <Offset>AC1B8EC</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>89-68-10-48-83-C4-78</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add Troops (Go to Party and transfer a Troop)">
+  <Cheat Text="Add 兵力 (Go to 队伍 and 转会 a Troop)">
     <Cheatline>
       <Offset>AC1B899</Offset>
       <Section>0</Section>

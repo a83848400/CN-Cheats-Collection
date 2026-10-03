@@ -1,12 +1,17 @@
 {
-  "name": "Monopoly Plus",
+  "name": "Monopoly Plus｜《大富翁Plus》",
   "id": "CUSA00773",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "380",

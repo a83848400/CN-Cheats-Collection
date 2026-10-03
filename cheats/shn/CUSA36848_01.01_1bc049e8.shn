@@ -4,7 +4,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Mastercode ( must be activated for [ MC ] Cheats )" Description="Mastercode ( must be activated for [ MC ] Cheats )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Mastercode ( must be activated for [ MC ] Cheats )｜主代码（必须激活才能使用 [MC] 作弊码）" Description="Mastercode ( must be activated for [ MC ] Cheats )">
     <Cheatline>
       <Offset>69B7AE0</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-10-00-48-8B-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]" Description="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]" Description="Infinite Health [ MC ]">
     <Cheatline>
       <Offset>7600050</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health [ MC ]" Description="Max Health [ MC ]">
+  <Cheat Text="生命最大 [ MC ]" Description="Max Health [ MC ]">
     <Cheatline>
       <Offset>7600051</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill [ MC ]" Description="One Hit Kill [ MC ]">
+  <Cheat Text="一击必杀 [ MC ]" Description="One Hit Kill [ MC ]">
     <Cheatline>
       <Offset>7600052</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina [ MC ]" Description="Infinite Stamina [ MC ]">
+  <Cheat Text="无限耐力 [ MC ]" Description="Infinite Stamina [ MC ]">
     <Cheatline>
       <Offset>7600053</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stamina [ MC ]" Description="Max Stamina [ MC ]">
+  <Cheat Text="体力最大 [ MC ]" Description="Max Stamina [ MC ]">
     <Cheatline>
       <Offset>7600054</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Legion [ MC ]" Description="Infinite Legion [ MC ]">
+  <Cheat Text="Infinite Legion [ MC ]｜无限军团 [ MC ]" Description="Infinite Legion [ MC ]">
     <Cheatline>
       <Offset>7600055</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Legion [ MC ]" Description="Max Legion [ MC ]">
+  <Cheat Text="最大 Legion [ MC ]" Description="Max Legion [ MC ]">
     <Cheatline>
       <Offset>7600056</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Blade Shapeness ( on use )" Description="Infinite Blade Shapeness ( on use )">
+  <Cheat Text="Infinite 异刃 Shapeness ( on use )" Description="Infinite Blade Shapeness ( on use )">
     <Cheatline>
       <Offset>69B7A90</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>41-89-85-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fable" Description="Infinite Fable">
+  <Cheat Text="Infinite Fable｜《无限传说》" Description="Infinite Fable">
     <Cheatline>
       <Offset>69B7BF0</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>80-7B-14-00-0F-85-2D-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items" Description="Max Items">
+  <Cheat Text="最大 Items" Description="Max Items">
     <Cheatline>
       <Offset>69B7BCA</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>C4-E2-78-F2-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ergo ( on gain )" Description="Max Ergo ( on gain )">
+  <Cheat Text="最大 Ergo ( on gain )" Description="Max Ergo ( on gain )">
     <Cheatline>
       <Offset>69B7AB4</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>89-88-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Zero Weight" Description="Zero Weight">
+  <Cheat Text="杰洛 重量" Description="Zero Weight">
     <Cheatline>
       <Offset>69B7AC3</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>75-05-8B-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Location [ MC ]" Description="Save Location [ MC ]">
+  <Cheat Text="保存 Location [ MC ]" Description="Save Location [ MC ]">
     <Cheatline>
       <Offset>760006C</Offset>
       <Section>0</Section>
@@ -188,7 +196,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Load Location [ MC ]" Description="Load Location [ MC ]">
+  <Cheat Text="读取 Location [ MC ]" Description="Load Location [ MC ]">
     <Cheatline>
       <Offset>760006D</Offset>
       <Section>0</Section>
@@ -196,7 +204,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Speed [ x 2 ]" Description="Player Speed [ x 2 ]">
+  <Cheat Text="Player 速度 [ 艾克斯 2 ]" Description="Player Speed [ x 2 ]">
     <Cheatline>
       <Offset>69B7BA4</Offset>
       <Section>0</Section>
@@ -210,7 +218,7 @@
       <ValueOff>C4-C1-7A-11-84-24-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health+Stamina+Fable+Legion">
+  <Cheat Text="无限生命+体力+Fable+Legion">
     <Cheatline>
       <Offset>69B7DB0</Offset>
       <Section>0</Section>
@@ -224,7 +232,7 @@
       <ValueOff>43-89-4C-FD-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Pick Up (x2 To Work)">
+  <Cheat Text="最大 Items On 拾取 (x2 To Work)">
     <Cheatline>
       <Offset>69B75D0</Offset>
       <Section>0</Section>
@@ -238,7 +246,7 @@
       <ValueOff>49-8B-3F-8B-77-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items on Use">
+  <Cheat Text="道具无限 on Use">
     <Cheatline>
       <Offset>69B78D0</Offset>
       <Section>0</Section>
@@ -252,7 +260,7 @@
       <ValueOff>73-43-8B-73-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapons Durability">
+  <Cheat Text="Infinite 武器 耐用性">
     <Cheatline>
       <Offset>69B7850</Offset>
       <Section>0</Section>
@@ -266,7 +274,7 @@
       <ValueOff>41-89-85-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ergo">
+  <Cheat Text="最大 Ergo">
     <Cheatline>
       <Offset>69B7690</Offset>
       <Section>0</Section>
@@ -280,7 +288,7 @@
       <ValueOff>89-88-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health+Stamina+Fable+Legion">
+  <Cheat Text="无限生命+体力+Fable+Legion">
     <Cheatline>
       <Offset>69B7790</Offset>
       <Section>0</Section>

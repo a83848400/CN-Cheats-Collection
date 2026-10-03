@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodstained: Curse of the Moon 2" Moder="Ali-mk" Cusa="CUSA23491" Version="01.30" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>758549</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-E2-08-13-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>6CE287</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-84-88-5C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF-POWER-UP-ITEM">
+  <Cheat Text="Infinite-强化道具-物品">
     <Cheatline>
       <Offset>6CE21F</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-88-DC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-lives">
+  <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>6CE069</Offset>
       <Section>0</Section>

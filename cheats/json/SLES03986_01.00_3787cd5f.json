@@ -1,12 +1,17 @@
 {
-  "name": "CT Special Forces",
-  "id": "SLES03986",
+  "name": "反恐 Special Forces",
+  "id": "SLES03986｜沉睡的雄狮",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Weapon",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-Weapon｜无限武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14602A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Health",
-      "type": "checkbox",
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "138429",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1385BA",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1457D2",

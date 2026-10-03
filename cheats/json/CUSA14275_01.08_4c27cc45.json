@@ -1,13 +1,18 @@
 {
-  "name": "Back 4 Blood",
+  "name": "Back 4 Blood｜《Back 4 Blood》",
   "id": "CUSA14275",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2879DB5",
@@ -42,9 +47,9 @@
       ]
     },
     {
-      "name": "Bot Godmode",
+      "name": "Bot 上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2879DB5",
@@ -79,9 +84,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo & Accessories",
+      "name": "无限弹药 & Accessories",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B31C87",
@@ -91,9 +96,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F5AE68",
@@ -108,9 +113,9 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "hint": "Buy something to max out your money.",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "hint": "买点东西 to 最大 out your 金钱.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ABF0EE",
@@ -120,9 +125,9 @@
       ]
     },
     {
-      "name": "One-Hit Kill",
-      "hint": "Warning: This can randomly kill bots.",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "hint": "Warning: This can randomly kill bots.｜警告：这可能会随机导致机器人死机。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2879DB5",

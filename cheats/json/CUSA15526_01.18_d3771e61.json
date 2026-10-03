@@ -1,12 +1,17 @@
 {
-  "name": "Nioh 2",
+  "name": "Nioh 2｜仁王2",
   "id": "CUSA15526",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Anima",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Anima｜无限之魂",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C33A37",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "max level",
-      "type": "checkbox",
+      "name": "max level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C33EC7",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C57974",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "add Items",
-      "type": "checkbox",
+      "name": "add Items｜添加商品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5797D",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Weapon Familiarity",
-      "type": "checkbox",
+      "name": "最大 Weapon Familiarity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10697F9",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max Weapon Proficiency",
-      "type": "checkbox",
+      "name": "最大 Weapon 熟练",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C34877",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Max Yokai Shift Gauge",
-      "type": "checkbox",
+      "name": "最大 妖怪化 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A28910",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "inf Infinite Yokai Shift Duration",
-      "type": "checkbox",
+      "name": "Infinite Infinite 妖怪化 Duration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9AE1EA",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Infinite Ki",
-      "type": "checkbox",
+      "name": "Infinite Ki｜无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9AD4B3",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": " Infinite BUFF/Skill Duration",
-      "type": "checkbox",
+      "name": " Infinite 增益/Skill Duration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A3015B",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "frend no go",
-      "type": "checkbox",
+      "name": "frend no go｜朋友，别走。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C10752",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Infinite Sentience",
-      "type": "checkbox",
+      "name": "Infinite Sentience｜无限感知",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "996005",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Infinite Shortcut Items",
-      "type": "checkbox",
+      "name": "Infinite Shortcut Items｜无限快捷方式项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D2A8BF",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "inf shockwaves cutting blast talisman",
-      "type": "checkbox",
+      "name": "Infinite shockwaves cutting blast 符箓",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "97D093",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "inf water fire poison lightning on sword speed running",
-      "type": "checkbox",
+      "name": "水无限 火 poison 闪电 on 剑 速度 running",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D380F",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "inc glory",
-      "type": "checkbox",
+      "name": "inc glory｜inc glory简体中文（大陆）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D1B291",

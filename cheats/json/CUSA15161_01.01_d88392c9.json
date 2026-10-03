@@ -1,12 +1,17 @@
 {
-  "name": "Chronos: Before the Ashes",
+  "name": "Chronos: Before the Ashes｜《克罗诺斯：灰烬之前》",
   "id": "CUSA15161",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44A1300",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44B8C00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90AC1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Dragon Stones (On Use)",
-      "type": "checkbox",
+      "name": "Infinite 小龙 Stones (On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44A1A00",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Attribute Points",
-      "type": "checkbox",
+      "name": "Infinite 属性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "449FE00",

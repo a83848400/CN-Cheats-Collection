@@ -1,12 +1,17 @@
 {
-  "name": "Sonic Colors: Ultimate",
+  "name": "索尼克 Colors: 必杀技",
   "id": "CUSA19351",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincibility ( after first hit )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 ( after first hit )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15C99C2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Rings / No loose after hit",
-      "type": "checkbox",
+      "name": "最大 金环 / No loose after hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "188E69B",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Speed Boost",
-      "type": "checkbox",
+      "name": "Infinite 加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B6BF90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16C983E",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "One Hit Kill ( Boss )",
-      "type": "checkbox",
+      "name": "一击必杀 ( Boss )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19AFB86",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Set Timer to 0",
-      "type": "checkbox",
+      "name": "Set 计时器 to 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16CA506",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16CA4F7",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max Score Points [S-Rank] ( on gain )",
-      "type": "checkbox",
+      "name": "最大 比分 得分 [S-阶级] ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B6BEA0",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Infinite Boost ( Sonic Simulator )",
-      "type": "checkbox",
+      "name": "无限加速 ( 索尼克 Simulator )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B6BEC0",

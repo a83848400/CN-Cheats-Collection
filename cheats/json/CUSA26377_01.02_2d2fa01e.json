@@ -1,12 +1,17 @@
 {
-  "name": "NEO: The World Ends with You",
+  "name": "NEO: The World Ends with You｜NEO：《世界尽头与你同在》",
   "id": "CUSA26377",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Health｜生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3F40",

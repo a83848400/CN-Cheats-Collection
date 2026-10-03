@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Saints Row: Gat out of Hell" Moder="GoldZ" Cusa="CUSA00939" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="HEALTH">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="HEALTH｜生命">
     <Cheatline>
       <Offset>177FC1D</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>C5-FB-2A-80-5C-39-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="XP LEVEL">
+  <Cheat Text="XP 等级">
     <Cheatline>
       <Offset>177FC01</Offset>
       <Section>0</Section>

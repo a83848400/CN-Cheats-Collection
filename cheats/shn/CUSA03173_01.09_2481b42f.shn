@@ -30,7 +30,15 @@
       <ValueOff>48-8B-82-B0-03-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>50DB860</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>89-93-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill -Bosses">
+  <Cheat Text="一击必杀 -Bosses">
     <Cheatline>
       <Offset>50DBBB0</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>80-B8-6F-17-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>50DB800</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>41-8B-14-24-89-11</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player's Speed x2">
+  <Cheat Text="Player's 速度 x2">
     <Cheatline>
       <Offset>50DB900</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>C4-C1-7A-10-85-74-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Attack R1/R2 x8">
+  <Cheat Text="速度 攻击 R1/R2 x8">
     <Cheatline>
       <Offset>50DB940</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>C5-F2-59-4B-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="SD Hunter">
+  <Cheat Text="SD 猎人">
     <Cheatline>
       <Offset>50DBB90</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>49-89-85-E8-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemies Don't Move">
+  <Cheat Text="Enemies Don'恐怖分子 招式">
     <Cheatline>
       <Offset>50DBA10</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>E9-AA-0D-BC-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Echoes">
+  <Cheat Text="Infinite Echoes｜《无尽回响》">
     <Cheatline>
       <Offset>50DB8A0</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>8B-82-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lucidity: No Dec. + Max (Get)">
+  <Cheat Text="Lucidity: No Dec. + 最大 (Get)">
     <Cheatline>
       <Offset>50DBB80</Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>89-88-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lucidity: No Dec. + Max (Buy)">
+  <Cheat Text="Lucidity: No Dec. + 最大 (Buy)">
     <Cheatline>
       <Offset>50DBB70</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>29-81-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Objects: No Dec. + Max. (Get/Buy)">
+  <Cheat Text="Objects: No Dec. + 最大. (Get/Buy)">
     <Cheatline>
       <Offset>50DB840</Offset>
       <Section>0</Section>
@@ -196,7 +204,7 @@
       <ValueOff>44-8B-63-08-45-01-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stats/Level Maxed (Buy Once)">
+  <Cheat Text="属性/等级 Maxed (Buy Once)">
     <Cheatline>
       <Offset>50DBAF0</Offset>
       <Section>0</Section>

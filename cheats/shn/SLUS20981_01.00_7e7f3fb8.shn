@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Teenage Mutant Ninja Turtles 2: Battle Nexus" Moder="Ali-mk" Cusa="SLUS20981" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="RETURN-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="RETURN-生命">
     <Cheatline>
       <Offset>8080170B68</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>7A</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="RETURN-Shurikens">
+    <Cheat Text="RETURN-Shurikens｜RETURN-手里剑">
     <Cheatline>
       <Offset>808038DCA8</Offset>
       <Section>0</Section>

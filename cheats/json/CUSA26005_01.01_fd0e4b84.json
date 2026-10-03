@@ -1,12 +1,17 @@
 {
-  "name": "Story of Seasons: Friends of Mineral Town",
+  "name": "Story of Seasons: Friends of Mineral Town｜《四季物语：矿石镇的朋友们》",
   "id": "CUSA26005",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Rich (Money Max)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Rich (金钱最大)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876250",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Sale Anything On Shiping Bin Money Max",
-      "type": "checkbox",
+      "name": "Sale Anything On Shiping Bin 金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F272C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Collapse",
-      "type": "checkbox",
+      "name": "No Collapse｜不坍塌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876290",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinte Stamina",
-      "type": "checkbox",
+      "name": "Infinte 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8762D0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinte Watering Can",
-      "type": "checkbox",
+      "name": "Infinte Watering Can｜无限浇水壶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876310",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "309087",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Friendship Max",
-      "type": "checkbox",
+      "name": "Friendship 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876350",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Love Max",
-      "type": "checkbox",
+      "name": "爱 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876390",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Animal Stats Max",
-      "type": "checkbox",
+      "name": "Animal 属性 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8763D0",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Tomorrow Weather Sunny",
-      "type": "checkbox",
+      "name": "明天 晴天",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876410",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Tomorrow Weather Rain",
-      "type": "checkbox",
+      "name": "Tomorrow 下雨天气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876450",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Tomorrow Weather Snow",
-      "type": "checkbox",
+      "name": "Tomorrow 下雪天气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876490",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Tomorrow Weather Typhon",
-      "type": "checkbox",
+      "name": "Tomorrow Weather Typhon｜明天天气 台风",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8764D0",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Tomorrow Weather Snowstorm",
-      "type": "checkbox",
+      "name": "Tomorrow Weather Snowstorm｜明天天气：暴风雪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "876510",

@@ -1,12 +1,17 @@
 {
-  "name": "inFamous: Second Son",
+  "name": "inFamous: Second Son｜《inFamous：Second Son》",
   "id": "CUSA00309",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BFC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Energy",
-      "type": "checkbox",
+      "name": "无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF90",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Ammo Capacity",
-      "type": "checkbox",
+      "name": "无限弹药 Capacity",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF70",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Get Max Shards x99",
-      "type": "checkbox",
+      "name": "Get 碎片最大 x99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BFE0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Karmic Streak Always Available",
-      "type": "checkbox",
+      "name": "Karmic Streak Always Available｜“业力连击”始终可用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF50",

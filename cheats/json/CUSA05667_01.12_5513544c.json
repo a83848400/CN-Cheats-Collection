@@ -1,13 +1,18 @@
 {
-  "name": "Rain World",
+  "name": "Rain World｜《雨之世界》",
   "id": "CUSA05667",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Cant Grab You",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Cant Grab You｜《无法抓住你》",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Easy Hp",
+      "name": "简单 手机",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F028",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Hp",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "804FC970",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Longest Time To Rain",
-      "description": "After Save",
-      "type": "checkbox",
+      "name": "Longest Time To Rain｜最长无雨时间",
+      "description": "After 保存",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F053",

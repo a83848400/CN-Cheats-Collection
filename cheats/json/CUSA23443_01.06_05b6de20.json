@@ -1,12 +1,17 @@
 {
-  "name": "Aragami 2",
+  "name": "Aragami 2｜《Aragami 2》",
   "id": "CUSA23443",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3700",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina / Enemey No Stamina (Master Code)",
-      "type": "checkbox",
+      "name": "无限耐力 / Enemey No 体力 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D37B0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Enemey No Stamina (MC)",
-      "type": "checkbox",
+      "name": "Enemey No 体力 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D37B7",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Gold (On Spend)",
-      "type": "checkbox",
+      "name": "金币最大 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19D3810",

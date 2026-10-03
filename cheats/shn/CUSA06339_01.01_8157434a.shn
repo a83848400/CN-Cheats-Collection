@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Twin Robots" Moder="Reddevil82 - FW 9.00" Cusa="CUSA06339" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Level Unlocker">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="等级 解锁器">
     <Cheatline>
       <Offset>139F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8B-47-28-83-F8-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>139FDB0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-10-87-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer">
+  <Cheat Text="Freeze 计时器">
     <Cheatline>
       <Offset>42F934</Offset>
       <Section>14</Section>
@@ -38,7 +46,7 @@
       <ValueOff>FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Timer">
+  <Cheat Text="Reset 计时器">
     <Cheatline>
       <Offset>139FDDD</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Spider-Man",
+  "name": "Marvel's 蜘蛛侠",
   "id": "CUSA11993",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A9FB05",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4FC17F",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A9FAF0",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Infinite Ressource/Web Shooter",
-      "type": "checkbox",
+      "name": "无限资源/Web Shooter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A9FB1F",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "MAX LVL/EXP",
-      "type": "checkbox",
+      "name": "最大 LVL/经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A9FB30",
@@ -90,8 +95,8 @@
       ]
     },
     {
-      "name": "99 x Combo",
-      "type": "checkbox",
+      "name": "99 艾克斯 Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A9FB4C",

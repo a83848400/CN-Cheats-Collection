@@ -1,12 +1,17 @@
 {
-  "name": "DAVE THE DIVER",
+  "name": "DAVE THE DIVER｜潜水员戴夫",
   "id": "CUSA45600",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf O2",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "0 Weight",
-      "type": "checkbox",
+      "name": "0 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F03F",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Bombs",
-      "type": "checkbox",
+      "name": "无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F078",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0A6",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0D3",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Items At Sell",
-      "type": "checkbox",
+      "name": "最大 Items At Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F10C",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Only Melee)",
-      "type": "checkbox",
+      "name": "一击必杀 (Only 近战)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F13F",

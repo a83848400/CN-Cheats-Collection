@@ -1,23 +1,28 @@
 {
-  "name": "Dino Crisis",
+  "name": "Dino Crisis｜恐龙危机",
   "id": "SLUS00922",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock All-Weapon",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "解锁 All-Weapon",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AC848",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "155E8A",

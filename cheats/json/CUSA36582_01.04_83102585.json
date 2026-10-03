@@ -1,13 +1,18 @@
 {
-  "name": "Prince of Persia: The Lost Crown",
+  "name": "波斯王子: The Lost 王冠",
   "id": "CUSA36582",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "Please note that you MUST read the comment on each individual cheat, if a comment is available, or your game/saves may have issues. Enjoy this incredible game! :-)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "Please 笔记 that you MUST read the comment on each individual cheat, if a comment is available, or your game/saves may have issues. Enjoy this incredible game! :-)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AA2000",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Currencies, Arrows and Consumables",
-      "description": "Must have at least one piece for the cheat to take effect to stop subtracting the remaining quantity.",
-      "type": "checkbox",
+      "name": "Infinite Currencies, Arrows and Consumables｜无限货币、箭矢和消耗品",
+      "description": "Must have at least 海贼王 for the cheat to take 效果 to 停止 subtracting the remaining quantity.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8278783C",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "No Purchase and Upgrade Limits",
-      "description": "Can purchase and upgrade anything, even if you dont have enough currencies. Best to enable/use together with Infinite Currencies, Arrows and Consumables cheat",
-      "type": "checkbox",
+      "name": "No Purchase and Upgrade Limits｜无购买和升级限制",
+      "description": "Can purchase and upgrade anything, even if you dont have enough currencies. Best to enable/use together with Infinite Currencies, Arrows and Consumables cheat｜可以购买和升级任何物品，即使你没有足够的货币。最好配合“无限货币、箭矢和消耗品”作弊码一起启用/使用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "809F0DC9",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "God Mode (Untouchable)",
-      "description": "Can still be frozen by enemies. That is intentional.",
-      "type": "checkbox",
+      "name": "神模式 (刀枪不入)",
+      "description": "Can still be 冰冻 by enemies. That is intentional.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8471A0A0",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Health｜无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80AC7254",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Infinite Jumps",
-      "description": "Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.",
-      "type": "checkbox",
+      "name": "Infinite Jumps｜无限跳跃",
+      "description": "Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that 意志 require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81B2E8B3",
@@ -97,9 +102,9 @@
       ]
     },
     {
-      "name": "Instant Athra Surge Charge",
+      "name": "Instant Athra Surge 冲锋",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8471A120",
@@ -114,9 +119,9 @@
       ]
     },
     {
-      "name": "No Athra Surge Cooldown",
+      "name": "No Athra Surge Cooldown｜无“阿特拉”爆发冷却时间",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8471A160",
@@ -131,9 +136,9 @@
       ]
     },
     {
-      "name": "Damage Multiplier (Master Code)",
-      "description": "RECOMMENDED to disable this cheat in boss fights. Enable this MC first and then choose only one of multipliers below. May cause progression issues when used when fighting some bosses, especially in the beginning of the game, before mount Qaf.",
-      "type": "checkbox",
+      "name": "输出 Multiplier (Master 密码)",
+      "description": "RECOMMENDED to disable this cheat in boss fights. Enable this MC first and then choose only one of multipliers below. May cause progression issues when used when fighting some bosses, especially in the beginning of the game, before mount Qaf.｜建议在BOSS战中禁用此作弊功能。请先启用此MC，然后仅选择以下倍率选项中的一项。在与某些BOSS战斗时使用此功能可能会导致通关受阻，尤其是在游戏初期、尚未获得坐骑“卡夫”之前。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8471A180",
@@ -158,9 +163,9 @@
       ]
     },
     {
-      "name": "--Damage x5",
+      "name": "--输出 x5",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8471A1A0",
@@ -170,9 +175,9 @@
       ]
     },
     {
-      "name": "--Damage x10",
+      "name": "--输出 x10",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8471A1A0",
@@ -182,9 +187,9 @@
       ]
     },
     {
-      "name": "--Damage x20",
+      "name": "--输出 x20",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8471A1A0",
@@ -194,9 +199,9 @@
       ]
     },
     {
-      "name": "--Damage x50",
+      "name": "--输出 乘以五十",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8471A1A0",
@@ -206,9 +211,9 @@
       ]
     },
     {
-      "name": "--Damage x100",
+      "name": "--输出 十倍",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8471A1A0",
@@ -218,9 +223,9 @@
       ]
     },
     {
-      "name": "Jump Height Multiplier (Master Code)",
-      "description": "Enable this MC first and then choose only one of multipliers below. Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that will require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.",
-      "type": "checkbox",
+      "name": "跳跃高度 Multiplier (Master 密码)",
+      "description": "Enable this MC first and then choose only one of multipliers below. Do NOT jump to places that you are not suppose to reach yet or you may mess up your game and saves with a progression issue that 意志 require to start the game from an earlier point or start from the beginning. Only use this cheat to easily reach places you have already been to before or you are suppose to reach and can reach even without the cheat.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AA2020",
@@ -235,9 +240,9 @@
       ]
     },
     {
-      "name": "--Jump x2",
+      "name": "--跳跃×2",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1AA203C",
@@ -247,9 +252,9 @@
       ]
     },
     {
-      "name": "--Jump x3",
+      "name": "--跳跃×3",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1AA203C",
@@ -259,9 +264,9 @@
       ]
     },
     {
-      "name": "--Jump x4",
+      "name": "--跳跃×4",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1AA203C",
@@ -271,9 +276,9 @@
       ]
     },
     {
-      "name": "--Jump x5",
+      "name": "--跳跃×5",
       "description": "",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1AA203C",

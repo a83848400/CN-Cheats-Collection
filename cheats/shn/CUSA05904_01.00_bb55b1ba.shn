@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Far Cry 5" Moder="DeathRGH" Cusa="CUSA05904" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>26157F7</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>3602297</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>44-89-BB-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil">
+  <Cheat Text="No Recoil｜消除后坐力">
     <Cheatline>
       <Offset>3224B59</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>C4-C1-7A-11-87-1C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Get Perk Points For Spending Them">
+  <Cheat Text="Get 技能 得分 For Spending Them">
     <Cheatline>
       <Offset>31CAB9C</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>44-29-BB-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money / Items On Pickup">
+  <Cheat Text="金钱最大 / Items On Pickup">
     <Cheatline>
       <Offset>1115B20</Offset>
       <Section>0</Section>

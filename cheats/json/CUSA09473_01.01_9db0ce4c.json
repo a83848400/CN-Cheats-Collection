@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 7: Biohazard: Gold Edition",
+  "name": "生化危机 7: Biohazard: 金币 Edition",
   "id": "CUSA09473",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4781CC2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "INF.Ammo No Reload",
-      "type": "checkbox",
+      "name": "Infinite.但是 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B4C1C9",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "INF.Items Spawn",
-      "type": "checkbox",
+      "name": "无限物品生成",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "31DF9D8",

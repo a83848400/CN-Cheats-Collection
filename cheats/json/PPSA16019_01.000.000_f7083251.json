@@ -1,13 +1,18 @@
 {
-  "name": "Double Dragon Gaiden: Rise of the Dragons",
+  "name": "Double 小龙 Gaiden: Rise of the Dragons",
   "id": "PPSA16019",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCC7000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCC7042",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Super",
+      "name": "无限超级",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCC7072",

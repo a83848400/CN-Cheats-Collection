@@ -1,12 +1,17 @@
 {
-  "name": "Back 4 Blood",
+  "name": "Back 4 Blood｜《Back 4 Blood》",
   "id": "CUSA14275",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo/Items/Throwables",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药/Items/可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EE00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "99999 Supply points (at the end of Mission)",
-      "type": "checkbox",
+      "name": "99999 供给 得分 (at the 末地 of Mission)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3EE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Copper(on buy)",
-      "type": "checkbox",
+      "name": "最大 Copper(on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3E40",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Supply points (at the end of Mission)",
-      "type": "checkbox",
+      "name": "最大 供给 得分 (at the 末地 of Mission)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EA40",

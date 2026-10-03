@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed Heat",
+  "name": "极品飞车 热",
   "id": "CUSA15090",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlock All Cars",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlock All Cars｜解锁全部赛车",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B483FB",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B4843A",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Damage (not working on cops)",
-      "type": "checkbox",
+      "name": "不受伤害 (not working on 警察)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B4844F",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Disable Garage Teleport when Busted (single cheat)",
-      "type": "checkbox",
+      "name": "Disable Garage 传送 when Busted (single cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B4846F",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Disable Reset Damage (Make Impact to cops / Single Cheat)",
-      "type": "checkbox",
+      "name": "Disable Reset 输出 (Make Impact to 警察 / Single Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B484A8",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Health 9999 (Enter Garage and exit, finish loading turn off cheat)",
-      "type": "checkbox",
+      "name": "生命 9999 (Enter Garage and 退出, finish 加载中 回合 off cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B484E1",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Nitro (Press Nitro Button)",
-      "type": "checkbox",
+      "name": "无限氮气 (Press 氮气 按钮)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48516",

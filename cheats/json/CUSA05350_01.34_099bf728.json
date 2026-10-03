@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball: Xenoverse 2",
+  "name": "龙珠: Xenoverse 2",
   "id": "CUSA05350",
   "version": "01.34",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AD3570",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Need MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AD3575",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AD3900",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Ki",
-      "type": "checkbox",
+      "name": "Infinite Ki｜无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AD37E0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Zeni",
-      "type": "checkbox",
+      "name": "最大 Zeni",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "86579F",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max TP",
-      "type": "checkbox",
+      "name": "最大 轮胎气压",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AD3B10",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Attribute Points",
-      "type": "checkbox",
+      "name": "最大/Infinite 属性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AD3A30",

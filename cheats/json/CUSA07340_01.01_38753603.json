@@ -1,87 +1,92 @@
 {
-  "name": "Dragon's Dogma: Dark Arisen",
+  "name": "龙之信条: Dark 觉醒者",
   "id": "CUSA07340",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
       "memory": []
     },
     {
-      "name": "Infinite Pawn Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite 随从 生命",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Infinite Pawn Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Player/Pawn Level Up on XP Gain",
-      "type": "checkbox",
+      "name": "Infinite 随从 体力",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "One/Two Hit Kill",
-      "type": "checkbox",
+      "name": "Player/随从 升级 on XP Gain",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Player/Pawn 0 Weight",
-      "type": "checkbox",
+      "name": "One/Two 命中击杀",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Max Items on Use",
-      "type": "checkbox",
+      "name": "Player/随从 0 重量",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "x2 Items on Use",
-      "type": "checkbox",
+      "name": "最大 Items on Use",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Max RC on Spend",
-      "type": "checkbox",
+      "name": "x2 Items on Use｜使用时获得2件物品",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "x2 RC on Spend",
-      "type": "checkbox",
+      "name": "最大 RC on Spend",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Max Gold on Spend",
-      "type": "checkbox",
+      "name": "x2 RC on Spend｜消费可获双倍返现",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "x2 Gold on Spend",
-      "type": "checkbox",
+      "name": "金币最大 on Spend",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Player/Pawn Max Vocation Rank on Gain",
-      "type": "checkbox",
+      "name": "x2 金币 on Spend",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "Max Discipline on Spend",
-      "type": "checkbox",
+      "name": "Player/随从 最大 职业 阶级 on Gain",
+      "type": "checkbox｜复选框",
       "memory": []
     },
     {
-      "name": "x2 Discipline on Spend",
-      "type": "checkbox",
+      "name": "最大 Discipline on Spend",
+      "type": "checkbox｜复选框",
+      "memory": []
+    },
+    {
+      "name": "x2 Discipline on Spend｜x2 支出管控",
+      "type": "checkbox｜复选框",
       "memory": []
     }
   ],

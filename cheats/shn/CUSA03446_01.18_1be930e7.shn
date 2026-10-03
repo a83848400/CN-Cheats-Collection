@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="7 Days to Die" Moder="Molly" Cusa="CUSA03446" Version="01.18" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Max Items ~When Thrown~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Items ~When Thrown~">
     <Cheatline>
       <Offset>1263800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-2B-CF-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ~When Picked Up~">
+  <Cheat Text="最大 Items ~When Picked Up~">
     <Cheatline>
       <Offset>1263810</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>03-CA-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ~When Gathering~">
+  <Cheat Text="最大 Items ~When Gathering~">
     <Cheatline>
       <Offset>126381F</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>03-CA-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ~When Crafting~">
+  <Cheat Text="最大 Items ~When Crafting~">
     <Cheatline>
       <Offset>126382E</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-2B-CF-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ~When Placing Items Down~">
+  <Cheat Text="最大 Items ~When Placing Items Down~">
     <Cheatline>
       <Offset>126383E</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>48-63-4C-24-30-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化">
     <Cheatline>
       <Offset>1263850</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>FF-C9-89-48-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up Skills">
+  <Cheat Text="Quick 升级 Skills">
     <Cheatline>
       <Offset>126385F</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>2B-44-24-58-89-43-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Point ~After Use~">
+  <Cheat Text="最大 Skill Point ~After Use~">
     <Cheatline>
       <Offset>1263870</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>41-89-86-44-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>1263881</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>41-89-86-3C-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health / Stamina">
+  <Cheat Text="无限生命 / 体力">
     <Cheatline>
       <Offset>1263892</Offset>
       <Section>0</Section>

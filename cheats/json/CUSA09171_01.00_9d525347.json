@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 2",
+  "name": "生化危机 2",
   "id": "CUSA09171",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10662A5",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FE4CD9",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EE073",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Ammo",
-      "type": "checkbox",
+      "name": "Max Ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EE079",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Clip Ammo",
-      "type": "checkbox",
+      "name": "最大 Clip 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FE4CE1",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite (Stackable-)Items",
-      "type": "checkbox",
+      "name": "Infinite (Stackable-)Items｜无限（可堆叠）物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3082FF4",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Items on Move (Storage)",
-      "type": "checkbox",
+      "name": "最大 Items on 招式 (存储)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "308290E",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Items on get",
-      "type": "checkbox",
+      "name": "最大 Items on get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34ED902",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Short Animationtime for Aiming",
-      "type": "checkbox",
+      "name": "Short Animationtime for Aiming｜瞄准时的短动画时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E204FB",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Instant Gun-Focus",
-      "type": "checkbox",
+      "name": "Instant Gun-棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32F7909",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Max Items on Use",
-      "type": "checkbox",
+      "name": "最大 Items on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FE4C92",

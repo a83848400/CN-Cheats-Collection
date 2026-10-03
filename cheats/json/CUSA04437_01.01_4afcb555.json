@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 5",
+  "name": "生化危机 5",
   "id": "CUSA04437",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "(HP On L3+T-Pad) (HP Off R3+T-Pad)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "(手机 On L3+恐怖分子-Pad) (手机 Off R3+恐怖分子-Pad)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11F3847",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Inf Health Always On",
-      "type": "checkbox",
+      "name": "无限生命 Always On",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6161B4",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7381E5",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Inf Ammo on Reload",
-      "type": "checkbox",
+      "name": "最大 无限弹药 on Reload",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7373D7",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Inf Grenade on Use",
-      "type": "checkbox",
+      "name": "最大 Infinite 手榴弹 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11F388C",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Money on Spend",
-      "type": "checkbox",
+      "name": "金钱最大 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11F387C",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Mx Resources On sell",
-      "type": "checkbox",
+      "name": "Mx Resources On sell｜Mx Resources 正在出售",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11F386D",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Run without Pressing X or L3",
-      "type": "checkbox",
+      "name": "Run without Pressing 艾克斯 or L3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C0114B",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Freeze Countup Timer - STORY-LIN-DS",
-      "type": "checkbox",
+      "name": "Freeze Countup 计时器 - STORY-LIN-DS",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "728A8E",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Freeze Countdown Timer - DS",
-      "type": "checkbox",
+      "name": "Freeze Countdown 计时器 - DS",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9A98",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Freeze Combo Count - Mercenaries",
-      "type": "checkbox",
+      "name": "Freeze Combo Count - 雇佣兵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A51A",
@@ -161,8 +166,8 @@
       ]
     },
     {
-      "name": "Freeze Bonus Combo Time - Mercenaries",
-      "type": "checkbox",
+      "name": "Freeze Bonus Combo Time - 雇佣兵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A591",
@@ -172,8 +177,8 @@
       ]
     },
     {
-      "name": "Freeze Countdown Timer - Mercenaries",
-      "type": "checkbox",
+      "name": "Freeze Countdown 计时器 - 雇佣兵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4621F",

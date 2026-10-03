@@ -1,13 +1,18 @@
 {
-  "name": "Puzzle Bobble 3D: Vacation Odyssey",
+  "name": "谜题 Bobble 3D: Vacation Odyssey",
   "id": "PPSA03712",
   "version": "01.006.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Bobbles ",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Bobbles ",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "132C295",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Coins",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB02F",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Max Score",
+      "name": "最大 比分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB05E",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Stop Timer",
+      "name": "停止 计时器",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1347AD6",

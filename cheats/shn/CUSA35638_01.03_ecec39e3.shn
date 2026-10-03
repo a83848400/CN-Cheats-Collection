@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last Faith" Moder="Wander FW9.00" Cusa="CUSA35638" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Master Code Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Master 密码 无限生命">
     <Cheatline>
       <Section>0</Section>
       <Offset>82DFE030</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>89-47-2C-74-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Power (M)">
+  <Cheat Text="Infinite 电力 (M)">
     <Cheatline>
       <Section>0</Section>
       <Offset>82DFE037</Offset>
@@ -24,7 +32,7 @@
       <ValueOff>75-16</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Section>0</Section>
       <Offset>82DFEB70</Offset>
@@ -38,7 +46,7 @@
       <ValueOff>89-48-2C-74-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items (on use)">
+  <Cheat Text="道具无限 (on use)">
     <Cheatline>
       <Section>0</Section>
       <Offset>82DFFB40</Offset>
@@ -52,7 +60,7 @@
       <ValueOff>41-89-46-30-49-8B-46-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Nycrux (on get)">
+  <Cheat Text="最大 Nycrux (on get)">
     <Cheatline>
       <Section>0</Section>
       <Offset>82DFFA60</Offset>

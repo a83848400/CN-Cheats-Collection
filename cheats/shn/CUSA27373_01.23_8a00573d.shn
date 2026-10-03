@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
- <Cheat Text="[Health] Immunity" Description="Enemies don't shoot and can't grab you (except Ferris; needed to continue). You can still die from instant deaths: big propellers, security trap, Mahler when hitting you with both hands, ...">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+ <Cheat Text="[生命] Immunity" Description="Enemies don't shoot and can't grab you (except Ferris; needed to continue). You can still die from instant deaths: big propellers, security trap, Mahler when hitting you with both hands, ...">
     <Cheatline>
       <Offset>7522380</Offset>
       <Section>0</Section>
@@ -77,7 +85,7 @@
       <ValueOff>C5-F8-2E-A0-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-   <Cheat Text="[Weapon] 1 Hit Kill">
+   <Cheat Text="[Weapon] 一击必杀">
     <Cheatline>
       <Offset>75222C0</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>C5-FA-5D-8F-1C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Weapon] Infinite Ammo">
+  <Cheat Text="[Weapon] 无限弹药">
     <Cheatline>
       <Offset>7522130</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>83-B9-B8-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Weapon] Infinite GRP">
+  <Cheat Text="[Weapon] Infinite GRP｜[武器] 无限GRP">
     <Cheatline>
       <Offset>7522190</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>C4-C1-7A-11-9F-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Item] Infinite Credits">
+  <Cheat Text="[物品] 无限积分">
     <Cheatline>
       <Offset>7522150</Offset>
       <Section>0</Section>
@@ -133,7 +141,7 @@
       <ValueOff>45-8B-7C-3C-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Game x0,5">
+  <Cheat Text="[速度] Game x0,5">
     <Cheatline>
       <Offset>7522200</Offset>
       <Section>0</Section>
@@ -147,7 +155,7 @@
       <ValueOff>C5-FA-10-87-F0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Game x1">
+  <Cheat Text="[速度] Game x1">
     <Cheatline>
       <Offset>7522200</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>C5-FA-10-87-F0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Game x2">
+  <Cheat Text="[速度] Game x2">
     <Cheatline>
       <Offset>7522200</Offset>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>C5-FA-10-87-F0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Game x4">
+  <Cheat Text="[速度] Game x4">
     <Cheatline>
       <Offset>7522200</Offset>
       <Section>0</Section>
@@ -189,7 +197,7 @@
       <ValueOff>C5-FA-10-87-F0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Player x0,5">
+  <Cheat Text="[速度] Player x0,5">
     <Cheatline>
       <Offset>7522220</Offset>
       <Section>0</Section>
@@ -215,7 +223,7 @@
       <ValueOff>C5-FA-10-8B-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Player x1">
+  <Cheat Text="[速度] Player x1">
     <Cheatline>
       <Offset>7522220</Offset>
       <Section>0</Section>
@@ -241,7 +249,7 @@
       <ValueOff>C5-FA-10-8B-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Player x2">
+  <Cheat Text="[速度] Player x2">
     <Cheatline>
       <Offset>7522220</Offset>
       <Section>0</Section>
@@ -267,7 +275,7 @@
       <ValueOff>C5-FA-10-8B-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Player x3">
+  <Cheat Text="[速度] Player x3">
     <Cheatline>
       <Offset>7522220</Offset>
       <Section>0</Section>
@@ -293,7 +301,7 @@
       <ValueOff>C5-FA-10-8B-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] Player x4">
+  <Cheat Text="[速度] Player x4">
     <Cheatline>
       <Offset>7522220</Offset>
       <Section>0</Section>
@@ -319,7 +327,7 @@
       <ValueOff>C5-FA-10-8B-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] NME x0,25">
+  <Cheat Text="[速度] NME x0,25">
     <Cheatline>
       <Offset>7522290</Offset>
       <Section>0</Section>
@@ -333,7 +341,7 @@
       <ValueOff>48-8B-81-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] NME x0,5">
+  <Cheat Text="[速度] NME x0,5">
     <Cheatline>
       <Offset>7522290</Offset>
       <Section>0</Section>
@@ -347,7 +355,7 @@
       <ValueOff>48-8B-81-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] NME x1">
+  <Cheat Text="[速度] NME x1">
     <Cheatline>
       <Offset>7522290</Offset>
       <Section>0</Section>
@@ -361,7 +369,7 @@
       <ValueOff>48-8B-81-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Speed] NME x2">
+  <Cheat Text="[速度] NME x2">
     <Cheatline>
       <Offset>7522290</Offset>
       <Section>0</Section>
@@ -375,7 +383,7 @@
       <ValueOff>48-8B-81-10-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Size] Player x0,5">
+  <Cheat Text="[Size] Player x0,5｜[尺寸] 播放器 x0.5">
     <Cheatline>
       <Offset>75221C0</Offset>
       <Section>0</Section>
@@ -389,7 +397,7 @@
       <ValueOff>C4-C1-78-11-95-E0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Size] Player x1">
+  <Cheat Text="[Size] Player x1｜[尺寸] 播放器 x1">
     <Cheatline>
       <Offset>75221C0</Offset>
       <Section>0</Section>
@@ -403,7 +411,7 @@
       <ValueOff>C4-C1-78-11-95-E0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Size] Player x2">
+  <Cheat Text="[Size] Player x2｜[尺寸] 播放器 x2">
     <Cheatline>
       <Offset>75221C0</Offset>
       <Section>0</Section>
@@ -417,7 +425,7 @@
       <ValueOff>C4-C1-78-11-95-E0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Size] Ammo Counter x1">
+  <Cheat Text="[Size] 但是 计数器 x1">
     <Cheatline>
       <Offset>7522310</Offset>
       <Section>0</Section>
@@ -431,7 +439,7 @@
       <ValueOff>C4-E2-79-18-83-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Size] Ammo Counter x2">
+  <Cheat Text="[Size] 但是 计数器 x2">
     <Cheatline>
       <Offset>7522310</Offset>
       <Section>0</Section>
@@ -445,7 +453,7 @@
       <ValueOff>C4-E2-79-18-83-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Size] Ammo Counter x4">
+  <Cheat Text="[Size] 但是 计数器 x4">
     <Cheatline>
       <Offset>7522310</Offset>
       <Section>0</Section>
@@ -459,7 +467,7 @@
       <ValueOff>C4-E2-79-18-83-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Size] Ammo Counter x8">
+  <Cheat Text="[Size] 但是 计数器 x8">
     <Cheatline>
       <Offset>7522310</Offset>
       <Section>0</Section>
@@ -473,7 +481,7 @@
       <ValueOff>C4-E2-79-18-83-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[ONLY DLC] Puzzle: Timer Stopped" Description="Remember: this is only for Final Transmission.">
+  <Cheat Text="[ONLY DLC] 谜题: 计时器 Stopped" Description="Remember: this is only for Final Transmission.">
     <Cheatline>
       <Offset>7522330</Offset>
       <Section>0</Section>
@@ -487,7 +495,7 @@
       <ValueOff>C5-FA-11-8F-0C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[ONLY DLC] Puzzle: Solved" Description="Remember: this is only for Final Transmission.">
+  <Cheat Text="[ONLY DLC] 谜题: Solved" Description="Remember: this is only for Final Transmission.">
     <Cheatline>
       <Offset>7522350</Offset>
       <Section>0</Section>

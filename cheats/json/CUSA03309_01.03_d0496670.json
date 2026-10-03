@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry Primal",
+  "name": "孤岛惊魂 Primal",
   "id": "CUSA03309",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Arrows/Clubs/spears",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "箭矢无限/Clubs/spears",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14EF920",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "244438E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Earn Skills On Spend",
-      "type": "checkbox",
+      "name": "Earn Skills On Spend｜消费即获技能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DC7580",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DC7592",

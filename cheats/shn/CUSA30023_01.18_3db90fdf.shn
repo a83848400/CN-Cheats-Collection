@@ -2,7 +2,15 @@
 <Trainer Game="Horizon Forbidden West" Moder="Dioniso, Pharaoh2k, Rizla, Fullcodes" Cusa="CUSA30023" Version="01.18" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="This is a selection of the best of the best cheats made for this incredible game, by Dioniso, Fullcode, Rizla and me (Pharaoh2k).
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="This is a selection of the best of the best cheats made for this incredible game, by Dioniso, Fullcode, Rizla and me (Pharaoh2k).
 The trainer is cross-region compatible (CUSA24705, CUSA28561, CUSA28563, CUSA30023).
 I have improved a few of the cheats made by others, but left the original credit. Also excluded some cheats which were redundant or unnecassry, in my opinion. Enjoy! :-)
 Pharaoh2k">
@@ -13,7 +21,7 @@ Pharaoh2k">
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code (Must be enabled first + all the time)" Description="Cheats with -- prefix depend on the Master Code">
+  <Cheat Text="Master 密码 (Must be enabled first + all the time)" Description="Cheats with -- prefix depend on the Master Code">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB000</Offset>
@@ -171,7 +179,7 @@ Pharaoh2k">
       <ValueOff>C5-FA-59-81-D0-00-00-00-C5-FA-59-81-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--One Hit Kill" Description="">
+  <Cheat Text="--一击必杀" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF10</Offset>
@@ -179,7 +187,7 @@ Pharaoh2k">
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="">
+  <Cheat Text="God Mode｜神模式" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB0AD</Offset>
@@ -205,7 +213,7 @@ Pharaoh2k">
       <ValueOff>31-C9-48-89-DA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jump and Glide" Description="">
+  <Cheat Text="Infinite Jump and Glide｜无限跳跃与滑翔" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>223ECEF</Offset>
@@ -213,7 +221,7 @@ Pharaoh2k">
       <ValueOff>41-80-BC-24-50-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Toggle_Mount_Invincible" Description="If using one hit your mount will also go down in one hit only for the first hit then it will be invincible after you revive it OR you can simply disable one hit then hit your mount once to get it invincible and enable one hit again to stop it from going down.
+  <Cheat Text="--切换坐骑无敌" Description="If using one hit your mount will also go down in one hit only for the first hit then it will be invincible after you revive it OR you can simply disable one hit then hit your mount once to get it invincible and enable one hit again to stop it from going down.
 
 Credit: Original version made by Rizla. I made my own improved version for cross console compatibility.">
     <Cheatline>
@@ -223,7 +231,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth Mode" Description="">
+  <Cheat Text="Stealth Mode｜隐身模式" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1416E10</Offset>
@@ -231,7 +239,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Heavy Weapons Ammo" Description="">
+  <Cheat Text="Infinite 重装兵 武器 但是" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB156</Offset>
@@ -245,7 +253,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>41-89-8C-24-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Max Items and Arrows" Description="Some will be 9999 after geting them, some after spendingusing 1.">
+  <Cheat Text="Infinite 最大 Items and Arrows" Description="Some will be 9999 after geting them, some after spendingusing 1.">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB19C</Offset>
@@ -283,7 +291,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>48-8B-8D-58-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Craft, Purchase, Upgrade Requirements" Description="">
+  <Cheat Text="No Craft, Purchase, Upgrade Requirements｜无需制作、购买或升级要求" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1F09820</Offset>
@@ -291,7 +299,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>41-3B-7E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Weapon] Instant Reload Speed" Description="This is the animation when Aloy takes an arrow.">
+  <Cheat Text="[Weapon] Instant 换弹速度" Description="This is the animation when Aloy takes an arrow.">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB23F</Offset>
@@ -305,7 +313,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C5-FA-11-83-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Weapon] Straight Shot With Little Tautness" Description="">
+  <Cheat Text="[Weapon] Straight Shot With Little Tautness｜[武器] 弹道笔直，后坐力较小" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB272</Offset>
@@ -319,7 +327,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C4-C1-7A-11-86-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Hour: 0" Description="Choose only one option">
+  <Cheat Text="--小时:0" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF24</Offset>
@@ -327,7 +335,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-40-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Hour: 6" Description="Choose only one option">
+  <Cheat Text="--小时:6" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF24</Offset>
@@ -335,7 +343,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-40-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Hour: 12" Description="Choose only one option">
+  <Cheat Text="--小时:12" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF24</Offset>
@@ -343,7 +351,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-40-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Hour: 18" Description="Choose only one option">
+  <Cheat Text="--小时:18" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF24</Offset>
@@ -351,7 +359,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-40-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Med Use Amount on Gain" Description="">
+  <Cheat Text="最大 Med Use Amount on Gain" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1C25055</Offset>
@@ -359,7 +367,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>0F-4E-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Stash Items Increase" Description="">
+  <Cheat Text="No Stash Items Increase｜背包内物品数量不会增加" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1F06957</Offset>
@@ -367,7 +375,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>01-F9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite Shards (Open Inventory)" Description="">
+  <Cheat Text="最大 Infinite Shards (Open 背包)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB2DE</Offset>
@@ -381,7 +389,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>45-8B-74-F2-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Valor Surge" Description="">
+  <Cheat Text="Infinite+最大 Valor Surge" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB30E</Offset>
@@ -395,7 +403,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C4-C1-7A-10-8F-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant End Valor Surge" Description="">
+  <Cheat Text="Instant 末地 Valor Surge" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1B1F186</Offset>
@@ -403,7 +411,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C5-FA-11-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen+Stamina" Description="">
+  <Cheat Text="无限氧气+体力" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DDB554</Offset>
@@ -411,7 +419,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C5-FA-5D-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf+Max Skill Points (Open Inventory)" Description="Skill points will be set as soon as you open the menu but you won't see the change until you open it a 2nd time.">
+  <Cheat Text="Infinite+最大 Skill 得分 (Open 背包)" Description="Skill points will be set as soon as you open the menu but you won't see the change until you open it a 2nd time.">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB340</Offset>
@@ -425,7 +433,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>8B-47-70-48-8D-B3-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP Multiplier x5" Description="Choose only one option">
+  <Cheat Text="--经验倍率×5" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF28</Offset>
@@ -433,7 +441,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>01-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP Multiplier x10" Description="Choose only one option">
+  <Cheat Text="--经验倍率×10" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF28</Offset>
@@ -441,7 +449,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>01-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP Multiplier x20" Description="Choose only one option">
+  <Cheat Text="--经验倍率×20" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF28</Offset>
@@ -449,7 +457,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>01-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP Multiplier x50" Description="Choose only one option">
+  <Cheat Text="--经验倍率×50" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF28</Offset>
@@ -457,7 +465,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>01-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP Multiplier x100" Description="Choose only one option">
+  <Cheat Text="--经验倍率×100" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF28</Offset>
@@ -465,7 +473,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>01-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Remove Effects" Description="">
+  <Cheat Text="Instant Remove Effects｜即时移除效果" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB3A8</Offset>
@@ -479,7 +487,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C4-C1-7A-10-87-4C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Mount Override Recovery" Description="">
+  <Cheat Text="Instant Mount Override 后摇" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB3D8</Offset>
@@ -493,7 +501,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>41-B6-01-C5-FA-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mount Never Gets Scared (Read Info)" Description="After some time of shooting your own mount you will notice the bar around will start decreasing and this cheat is what will stop it the bar from decreasing so your mount never runs away from you no matter how many times you shoot it.">
+  <Cheat Text="Mount Never Gets Scared (Read Info)｜《永不畏惧的山》（阅读信息）" Description="After some time of shooting your own mount you will notice the bar around will start decreasing and this cheat is what will stop it the bar from decreasing so your mount never runs away from you no matter how many times you shoot it.">
     <Cheatline>
       <Section>0</Section>
       <Offset>1C133BD</Offset>
@@ -501,7 +509,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Food Health Boost on Use" Description="">
+  <Cheat Text="食物无限 生命 Boost on Use" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB406</Offset>
@@ -515,7 +523,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C5-FA-11-40-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Aloy Speed x1" Description="Choose only one option">
+  <Cheat Text="--埃洛伊速度×1" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF40</Offset>
@@ -523,7 +531,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Aloy Speed x2" Description="Choose only one option">
+  <Cheat Text="--埃洛伊速度×2" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF40</Offset>
@@ -531,7 +539,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Aloy Speed x3" Description="Choose only one option">
+  <Cheat Text="--埃洛伊速度×3" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF40</Offset>
@@ -539,7 +547,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Others Speed x0.2" Description="Choose only one option">
+  <Cheat Text="--其他对象速度×0.2" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF44</Offset>
@@ -547,7 +555,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Others Speed x0.5" Description="Choose only one option">
+  <Cheat Text="--其他对象速度×0.5" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF44</Offset>
@@ -555,7 +563,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Others Speed x1" Description="Choose only one option">
+  <Cheat Text="--其他对象速度×1" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF44</Offset>
@@ -563,7 +571,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Others Speed x2" Description="Choose only one option">
+  <Cheat Text="--其他对象速度×2" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF44</Offset>
@@ -571,7 +579,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Others Speed x3" Description="Choose only one option">
+  <Cheat Text="--其他对象速度×3" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF44</Offset>
@@ -579,7 +587,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Game Speed x1" Description="Choose only one option">
+  <Cheat Text="--游戏速度×1" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF48</Offset>
@@ -587,7 +595,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Game Speed x2" Description="Choose only one option">
+  <Cheat Text="--游戏速度×2" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF48</Offset>
@@ -595,7 +603,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Game Speed x3" Description="Choose only one option">
+  <Cheat Text="--游戏速度×3" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF48</Offset>
@@ -603,7 +611,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Camera Zoom x0" Description="Choose only one option">
+  <Cheat Text="--相机 缩放 x0" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF4C</Offset>
@@ -611,7 +619,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Camera Zoom x1" Description="Choose only one option">
+  <Cheat Text="--相机 缩放 x1" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF4C</Offset>
@@ -619,7 +627,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Camera Zoom x2" Description="Choose only one option">
+  <Cheat Text="--相机 缩放 x2" Description="Choose only one option">
     <Cheatline>
       <Section>0</Section>
       <Offset>674FF4C</Offset>
@@ -627,7 +635,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Teleport] To Base (L1+L2+R1+R2)" Description="Since you have to come back to The Base many times during the game, you can use this cheat after having discovered it.">
+  <Cheat Text="[传送] To 基地 (L1+L2+R1+R2)" Description="Since you have to come back to The Base many times during the game, you can use this cheat after having discovered it.">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB52A</Offset>
@@ -665,7 +673,7 @@ Credit: Original version made by Rizla. I made my own improved version for cross
       <ValueOff>C5-F1-58-08-C5-F9-11-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Teleport] To map waypoint" Description="Press L2 while placing the Marker. If the Marker is on a reference place (building, fire, etc.) it will not work. Place it next to the reference place.">
+  <Cheat Text="[传送] To 地图 航点" Description="Press L2 while placing the Marker. If the Marker is on a reference place (building, fire, etc.) it will not work. Place it next to the reference place.">
     <Cheatline>
       <Section>0</Section>
       <Offset>2BDB5EF</Offset>

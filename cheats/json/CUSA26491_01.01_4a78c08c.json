@@ -1,12 +1,17 @@
 {
-  "name": "Rico: London",
+  "name": "里科: London",
   "id": "CUSA26491",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health Seryngs",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 Seryngs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D310",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5CB30",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D070",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Infinite Money [9999]",
-      "type": "checkbox",
+      "name": "最大 金钱无限 [9999]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D860",

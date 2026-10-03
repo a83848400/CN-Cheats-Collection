@@ -1,12 +1,17 @@
 {
-  "name": "Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles",
+  "name": "妖魔 Slayer: Kimetsu no Yaiba: The Hinokami Chronicles",
   "id": "CUSA27306",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health 1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81741E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health 2 for some enemies (turn off first 1)",
-      "type": "checkbox",
+      "name": "无限生命 2 for some enemies (回合 off first 1)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8174320",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Skill bar (blue)",
-      "type": "checkbox",
+      "name": "Infinite Skill bar (blue)｜无限技能条（蓝色）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81741A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Booster Bar ",
-      "type": "checkbox",
+      "name": "Infinite Booster Bar ｜无限助推器条",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8174280",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Kimetsu Points (on spend)",
-      "type": "checkbox",
+      "name": "最大 Kimetsu 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8174360",

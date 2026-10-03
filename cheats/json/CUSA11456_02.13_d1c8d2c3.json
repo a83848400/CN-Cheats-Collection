@@ -1,12 +1,17 @@
 {
-  "name": "Ghost of Tsushima",
+  "name": "Ghost of Tsushima｜对马岛之魂",
   "id": "CUSA11456",
   "version": "02.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA1D00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Resolve",
-      "type": "checkbox",
+      "name": "Infinite 决意",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA1D70",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Resource (On Get)",
-      "type": "checkbox",
+      "name": "最大 Resource (On Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA1DD0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Tech Points (Enable After Earn 1 point)",
-      "type": "checkbox",
+      "name": "Infinite 科技 得分 (Enable After Earn 1 point)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13333A0",

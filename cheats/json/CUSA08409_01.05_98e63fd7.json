@@ -1,12 +1,17 @@
 {
-  "name": "Rogue Trooper Redux",
+  "name": "潜行者 Trooper Redux",
   "id": "CUSA08409",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DBAF5",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FB96A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-Grenades",
-      "type": "checkbox",
+      "name": "Infinite-Grenades｜无限手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CAC8E",

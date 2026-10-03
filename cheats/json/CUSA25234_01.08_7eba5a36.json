@@ -1,12 +1,17 @@
 {
-  "name": "Dungeons & Dragons: Dark Alliance",
+  "name": "Dungeons & Dragons: Dark 联盟",
   "id": "CUSA25234",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Skill Points (On Spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Skill 得分 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFA11D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Feat Points",
-      "type": "checkbox",
+      "name": "Infinite Feat 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFA13A",

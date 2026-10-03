@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Rising 4: Frank's Big Package" Moder="Weysincha" Cusa="CUSA08558" Version="01.01" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>2B1700A</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>39-C8-0F-4F-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>1D1FB2B</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>C5-FA-11-43-28-48-8B-85</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Money to 8.999.999">
+  <Cheat Text="Set 金钱 to 8.999.999">
     <Cheatline>
       <Offset>20007962C</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>3F-54-89-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Skillpoints to 999">
+  <Cheat Text="Set Skillpoints to 999｜将技能点设为999">
     <Cheatline>
       <Offset>219DEE8A8</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>E7-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level">
+  <Cheat Text="Max Level｜等级最大">
     <Cheatline>
       <Offset>219DECD48</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>7F-96-98-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Kill series to 9.999.999">
+  <Cheat Text="Set Kill series to 9.999.999｜将“Kill”系列设置为 9.999.999">
     <Cheatline>
       <Offset>219DE9D44</Offset>
       <Section>0</Section>

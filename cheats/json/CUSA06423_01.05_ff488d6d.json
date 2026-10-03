@@ -1,12 +1,17 @@
 {
-  "name": "Xuan Yuan Sword: the Gate of Firmament",
+  "name": "Xuan Yuan 剑: the 大门 of Firmament",
   "id": "CUSA06423",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Infinite Items |Battle",
-      "type": "checkbox",
+      "name": "道具无限 |战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "EXP Boost",
-      "type": "checkbox",
+      "name": "经验 Boost",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "Extra EXP",
-      "type": "checkbox",
+      "name": "Extra 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -73,8 +78,8 @@
       ]
     },
     {
-      "name": "Even More EXP",
-      "type": "checkbox",
+      "name": "Even More 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "Lots Of EXP After Battle",
-      "type": "checkbox",
+      "name": "Lots Of 经验 After 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -105,8 +110,8 @@
       ]
     },
     {
-      "name": "Hella Exp After Battle",
-      "type": "checkbox",
+      "name": "Hella 经验 After 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -121,8 +126,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Skill Points On Spend",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max Items On Sell |Shops",
-      "type": "checkbox",
+      "name": "最大 Items On Sell |Shops",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Infinite Items On Sell |Shops",
-      "type": "checkbox",
+      "name": "道具无限 On Sell |Shops",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -177,8 +182,8 @@
       ]
     },
     {
-      "name": "Max Money On Sell/Buy",
-      "type": "checkbox",
+      "name": "金钱最大 On Sell/Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -193,8 +198,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -205,8 +210,8 @@
       ]
     },
     {
-      "name": "Inf Items |Forging + Possession Menu",
-      "type": "checkbox",
+      "name": "道具无限 |Forging + Possession 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -217,8 +222,8 @@
       ]
     },
     {
-      "name": "Max Spirit |Infusion Menu",
-      "type": "checkbox",
+      "name": "最大 精魄 |变质 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D3800",
@@ -233,8 +238,8 @@
       ]
     },
     {
-      "name": "Inf Spirit |Infusion Menu",
-      "type": "checkbox",
+      "name": "无限灵力 |变质 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",

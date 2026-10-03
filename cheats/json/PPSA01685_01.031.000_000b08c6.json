@@ -1,13 +1,18 @@
 {
-  "name": "Sniper Elite 5",
+  "name": "Sniper 精英 5",
   "id": "PPSA01685",
   "version": "01.031.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Exp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "简单 经验",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E53000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Heart Rate Sight",
+      "name": "无限心率瞄准镜",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1689CD",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Heart Rate",
+      "name": "无限心率",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "169648",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Inf HP",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E5302E",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "362215",

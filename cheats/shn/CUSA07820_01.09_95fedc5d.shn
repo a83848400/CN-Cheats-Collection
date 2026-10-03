@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Enable Dev Menu">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Enable Dev 菜单">
     <Cheatline>
       <Offset>7FC5FAA0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>80-B8-A1-3A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode">
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>12884C1</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>E8-CA-59-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1290A6A</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>41-FF-57-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath (UnderWater)">
+  <Cheat Text="无限呼吸 (UnderWater)">
     <Cheatline>
       <Offset>2DF32E0</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>C4-C1-7A-11-86-B0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>2DF37A0</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>0F-4C-C2-85-C0-89-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>1A4DB7B</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>66-41-89-8F-D8-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Silence Ammo">
+  <Cheat Text="Infinite Silence 但是">
     <Cheatline>
       <Offset>1A19357</Offset>
       <Section>0</Section>
@@ -77,7 +85,7 @@
       <ValueOff>41-FF-8E-14-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Health">
+  <Cheat Text="Infinite Weapon 生命">
     <Cheatline>
       <Offset>1A22B62</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>89-87-60-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Craft On Use">
+  <Cheat Text="道具无限/Craft On Use">
     <Cheatline>
       <Offset>2DF3A30</Offset>
       <Section>0</Section>

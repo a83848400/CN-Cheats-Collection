@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil Village" Moder="Super Death" Cusa="PPSA01556" Version="01.001.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite HP + OHK" Description="Story Mode Only">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 + OHK" Description="Story Mode Only">
     <Cheatline>
       <PS5Offset>7E2-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite HP" Description="Story Mode Only">
+  <Cheat Text="Infinite HP｜无限血量" Description="Story Mode Only">
     <Cheatline>
       <PS5Offset>7DE-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="Story Mode Only">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="Story Mode Only">
     <Cheatline>
       <PS5Offset>7DA-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="Works in all modes">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="Works in all modes">
     <Cheatline>
       <PS5Offset>66E8FE0-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>29-41-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x99 Crafting Materials" Description="Works in all modes">
+  <Cheat Text="x99 Crafting Materials｜x99 制作材料" Description="Works in all modes">
     <Cheatline>
       <PS5Offset>7D6-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="Works in all modes">
+  <Cheat Text="Infinite Money｜金钱无限" Description="Works in all modes">
     <Cheatline>
       <PS5Offset>7D2-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MERCENARIES MODE CHEATS" Description="Do not enable this. It does nothing">
+  <Cheat Text="雇佣兵 MODE CHEATS" Description="Do not enable this. It does nothing">
     <Cheatline>
       <PS5Offset>C6-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -177,7 +185,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{Mercenaries} Infinite HP + OHK All Characters">
+  <Cheat Text="{雇佣兵} 无限血量 + OHK All Characters">
     <Cheatline>
       <PS5Offset>7CE-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -207,7 +215,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{Mercenaries} Infinite HP All Characters">
+  <Cheat Text="{雇佣兵} 无限血量 All Characters">
     <Cheatline>
       <PS5Offset>7CA-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -237,7 +245,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{Mercenaries} One Hit Kill All Characters">
+  <Cheat Text="{雇佣兵} 一击必杀 All Characters">
     <Cheatline>
       <PS5Offset>7C6-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -267,7 +275,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="SHADOWS OF ROSE DLC CHEATS" Description="Do not enable this. It does nothing">
+  <Cheat Text="SHADOWS OF ROSE DLC CHEATS｜《玫瑰阴影》DLC 作弊码" Description="Do not enable this. It does nothing">
     <Cheatline>
       <PS5Offset>C4-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -276,7 +284,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{Shadows of Rose} Infinite HP + OHK">
+  <Cheat Text="{Shadows of Rose} 无限血量 + OHK">
     <Cheatline>
       <PS5Offset>7C2-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -306,7 +314,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{Shadows of Rose} Infinite HP">
+  <Cheat Text="{Shadows of Rose} 无限血量">
     <Cheatline>
       <PS5Offset>7BE-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -336,7 +344,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{Shadows of Rose} One Hit Kill">
+  <Cheat Text="{Shadows of Rose} 一击必杀">
     <Cheatline>
       <PS5Offset>7BA-executable[0]-5</PS5Offset>
       <Section>0</Section>

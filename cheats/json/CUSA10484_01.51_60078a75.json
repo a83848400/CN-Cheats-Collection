@@ -1,13 +1,18 @@
 {
-  "name": "Dead Cells",
+  "name": "Dead Cells｜《Dead Cells》",
   "id": "CUSA10484",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "--Infinite_Life",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF02F",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF037",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "God Mode｜神模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16743E",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF05F",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "No Cooldown",
+      "name": "No Cooldown｜无冷却",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "40CCF8",
@@ -87,9 +92,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF090",
@@ -114,9 +119,9 @@
       ]
     },
     {
-      "name": "Inf Cells",
+      "name": "无限细胞",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF0F0",

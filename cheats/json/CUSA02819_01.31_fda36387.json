@@ -1,12 +1,17 @@
 {
-  "name": "Tom Clancy's Ghost Recon: Wildlands",
+  "name": "Tom Clancy's 幽灵行动: Wildlands",
   "id": "CUSA02819",
   "version": "01.31",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Grenades (on use)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "手雷无限 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "255 Skill points (on spend)",
-      "type": "checkbox",
+      "name": "255 Skill 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Proximity Mine (on use)",
-      "type": "checkbox",
+      "name": "Infinite 感应地雷 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE625C0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "2 Millons supplies (exit to main menu and return)",
-      "type": "checkbox",
+      "name": "2 Millons 军粮 (退出 to 主菜单 and return)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE62620",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Land Mine (on use)",
-      "type": "checkbox",
+      "name": "Infinite 领土 Mine (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE626C0",

@@ -1,12 +1,17 @@
 {
-  "name": "Stranded Deep",
+  "name": "Stranded Deep｜《深海迷航》",
   "id": "CUSA18152",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80a4ad4d",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No Hunger",
-      "type": "checkbox",
+      "name": "No Hunger｜不会饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80765e07",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Thirst",
-      "type": "checkbox",
+      "name": "No Thirst｜不会口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80765d97",

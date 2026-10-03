@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Definitive Experience",
+  "name": "合金装备/潜龙谍影 V: The Definitive Experience",
   "id": "CUSA05662",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D22DA2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Grand",
-      "type": "checkbox",
+      "name": "Infinite Grand｜无限宏伟",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25D3800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C34950",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Reload",
-      "type": "checkbox",
+      "name": "Infinite Reload｜无限重装",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25D380D",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Enemy Cannot Reach You",
-      "type": "checkbox",
+      "name": "Enemy Cannot Reach You｜敌人无法接近你",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "136EE20",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Freeze Enemy",
-      "type": "checkbox",
+      "name": "Freeze Enemy｜冻结敌人",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "40CC00",

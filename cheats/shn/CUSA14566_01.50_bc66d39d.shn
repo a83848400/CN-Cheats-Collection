@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="PC Building Simulator" Moder="Reddevil82 - FW 9.00" Cusa="CUSA14566" Version="01.50" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>189FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8B-47-38-8B-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP Level">
+  <Cheat Text="最大 XP 等级">
     <Cheatline>
       <Offset>189FDD7</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>48-8B-47-38-8B-40-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Costs in Shop ( only Delivery )">
+  <Cheat Text="No Costs in Shop ( only Delivery )｜店内免收费用（仅收取配送费）">
     <Cheatline>
       <Offset>189FDF0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-89-87-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Delivery Cost">
+  <Cheat Text="No Delivery Cost｜免运费">
     <Cheatline>
       <Offset>189FE21</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-8B-BF-50-01-00-00-84-C0-74-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Star Rating">
+  <Cheat Text="最大 Star 评分">
     <Cheatline>
       <Offset>189FE10</Offset>
       <Section>0</Section>

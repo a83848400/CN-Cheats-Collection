@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Kingdom Hearts: HD 2.8 Final Chapter Prologue" Moder="Molly" Cusa="CUSA05787" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="9999 Ability Link ~Use 1 Point~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="9999 特性 林克 ~Use 1 Point~">
     <Cheatline>
       <Offset>89F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>66-0F-4E-C8-66-89-4F-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Munny~Buy Anything~">
+  <Cheat Text="最大 Munny~购买任何商品~">
     <Cheatline>
       <Offset>89F810</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>89-88-E8-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Item ~Buy 1 Potion~">
+  <Cheat Text="Have All 物品 ~Buy 1 药水~">
     <Cheatline>
       <Offset>89F830</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>41-88-7C-F0-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Training Toys~Buy 1 Toy~">
+  <Cheat Text="Have All 训练 Toys~Buy 1 Toy~">
     <Cheatline>
       <Offset>89F8AC</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>88-9C-88-82-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Dream Pieces ~Buy 1 Dream Piece~">
+  <Cheat Text="Have All Dream Pieces ~Buy 1 Dream Piece~｜集齐所有“梦想碎片” ~购买1个“梦想碎片”~">
     <Cheatline>
       <Offset>89FADF</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>88-9C-88-EE-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Recipes ~But 1 Dream Piece~">
+  <Cheat Text="Have All Recipes ~But 1 Dream Piece~｜拥有所有食谱～只缺一道梦想中的甜点～">
     <Cheatline>
       <Offset>89F8AC</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>88-9C-88-EE-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Flick Rush Tournaments Completed~Finish Or Lose~">
+  <Cheat Text="All Flick 快攻 Tournaments Completed~Finish Or Lose~">
     <Cheatline>
       <Offset>89FE3B</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>0F-4E-C8-89-4F-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Keyblades~Gain 1 Keyblade~">
+  <Cheat Text="解锁 All Keyblades~Gain 1 键刃~">
     <Cheatline>
       <Offset>89FED5</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>66-44-89-2C-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up~Leave Area Go Back~">
+  <Cheat Text="Quick 升级~Leave Area Go Back~">
     <Cheatline>
       <Offset>89FF51</Offset>
       <Section>0</Section>
@@ -188,7 +196,7 @@
       <ValueOff>41-FF-C8-88-57-27</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Affinity/Stats - All Spirits~Bond With Spirit~">
+  <Cheat Text="最大 牵绊/属性 - 全部精魄~Bond With 精魄~">
     <Cheatline>
       <Offset>89FF8D</Offset>
       <Section>0</Section>

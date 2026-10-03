@@ -7,7 +7,15 @@
   <Genres Name="Simulation" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Infinite Health (turn off when breaking Obstacles)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (回合 off when breaking Obstacles)">
     <Cheatline>
       <Offset>7FC5E160</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>C5-FA-11-4B-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Power (arrows use/spells etc..)">
+  <Cheat Text="Infinite 电力 (arrows use/spells etc..)">
     <Cheatline>
       <Offset>7FC5DB80</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>C5-FA-11-47-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max souls (on kill)">
+  <Cheat Text="灵魂最大 (on kill)">
     <Cheatline>
       <Offset>7FC5E1A0</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>0F-84-A6-00-00-00-44-01-73-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Flower (on planting)">
+  <Cheat Text="99 Flower (on planting)｜99 种花（种植篇）">
     <Cheatline>
       <Offset>7FC5D790</Offset>
       <Section>0</Section>

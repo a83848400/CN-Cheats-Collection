@@ -1,10 +1,10 @@
 {
-  "name": "The Witcher 3: Wild Hunt",
+  "name": "巫师3：狂猎: 狂猎",
   "id": "CUSA05574",
   "version": "01.50",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "24F3800",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3814",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F383B",
@@ -40,8 +45,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3819",
@@ -51,8 +56,8 @@
       ]
     },
     {
-      "name": "No Toxic",
-      "type": "checkbox",
+      "name": "No Toxic｜无毒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F381E",
@@ -62,8 +67,8 @@
       ]
     },
     {
-      "name": "Inf Adrenaline",
-      "type": "checkbox",
+      "name": "Infinite 肾上腺素",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3823",
@@ -73,8 +78,8 @@
       ]
     },
     {
-      "name": "Inf Oxygen",
-      "type": "checkbox",
+      "name": "无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3828",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "Inf Horse Run",
-      "type": "checkbox",
+      "name": "无限马跑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F382F",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Min Horse Panic",
-      "type": "checkbox",
+      "name": "Min Horse Panic｜迷你马惊慌失措",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3834",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "Inf Money 999999",
-      "type": "checkbox",
+      "name": "金钱无限 999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3868",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "Max Waight 999999",
-      "type": "checkbox",
+      "name": "最大 Waight 999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F38A5",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "XP x4 (Turn off first: x8, x16)",
-      "type": "checkbox",
+      "name": "XP ×4 (回合 off first: x8, x16)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F38E5",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "XP x8 (Turn off first: x4, x16)",
-      "type": "checkbox",
+      "name": "XP x8 (回合 off first: x4, x16)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F38E5",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "XP x16 (Turn off first: x4, x8)",
-      "type": "checkbox",
+      "name": "XP x16 (回合 off first: x4, x8)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F38E5",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F3914",
@@ -212,8 +217,8 @@
       ]
     },
     {
-      "name": "Durable Weapons and Armor",
-      "type": "checkbox",
+      "name": "Durable 武器 and Armor",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F393C",

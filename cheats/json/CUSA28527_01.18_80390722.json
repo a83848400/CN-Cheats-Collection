@@ -1,13 +1,18 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA28527",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. You may need to enable Player-No-Dead cheat to prevent dying from fall damage when using the Moon/Super-Jump cheat. For an even more advanced trainer, which also includes the stats cheats and other perks, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares. Enjoy! ;-)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. You may need to enable Player-No-Dead cheat to prevent dying from fall 输出 when using the Moon/Super-Jump cheat. For an even more advanced trainer, which also includes the 属性 cheats and 他 perks, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on 他 firmwares. Enjoy! ;-)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFAEB",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Master Code (Must be enabled ALL THE TIME)",
+      "name": "Master 密码 (Must be enabled ALL THE TIME)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFB00",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "---Infinite Health (Requires Master Code)",
-      "type": "checkbox",
+      "name": "---无限生命 (Requires Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFC08",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "---Infinite Horse Health (Requires Master Code)",
-      "type": "checkbox",
+      "name": "---Infinite Horse 生命 (Requires Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFC10",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "---One Hit Kill (Requires Master Code)",
-      "type": "checkbox",
+      "name": "---一击必杀 (Requires Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFC00",
@@ -157,9 +162,9 @@
       ]
     },
     {
-      "name": "Invincible",
+      "name": "Invincible｜无敌",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFC20",
@@ -174,9 +179,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFC60",
@@ -191,9 +196,9 @@
       ]
     },
     {
-      "name": "Infinite FP",
+      "name": "Infinite 专注值",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFC80",
@@ -208,9 +213,9 @@
       ]
     },
     {
-      "name": "No Effects",
+      "name": "No Effects｜无效果",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFCA0",
@@ -225,9 +230,9 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "description": "Enemies will be able to see you if and when you attack them.",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "description": "Enemies 意志 be able to see you if and when you 攻击 them.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CECF45",
@@ -237,9 +242,9 @@
       ]
     },
     {
-      "name": "Enemies Dont Attack",
+      "name": "Enemies Dont 攻击",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C27227",
@@ -254,9 +259,9 @@
       ]
     },
     {
-      "name": "Player No Dead",
-      "description": "May take health damage, but will remain alive, even when falling from heights.",
-      "type": "checkbox",
+      "name": "Player No Dead｜玩家编号：Dead",
+      "description": "May take 生命 输出, but 意志 remain alive, even when falling from heights.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E3CCF2",
@@ -266,9 +271,9 @@
       ]
     },
     {
-      "name": "Unlimited Jumps",
-      "description": "Can not be used if player speed is set too high.",
-      "type": "checkbox",
+      "name": "Unlimited Jumps｜无限跳跃",
+      "description": "Can not be used if player 速度 is set too high.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E04664",
@@ -278,9 +283,9 @@
       ]
     },
     {
-      "name": "100%% Loot Drop-Rate",
+      "name": "100%% 战利品 丢弃-Rate",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFCC0",
@@ -295,9 +300,9 @@
       ]
     },
     {
-      "name": "No Overloaded Weight Slowdown",
+      "name": "No Overloaded 重量 Slowdown",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFD00",
@@ -312,9 +317,9 @@
       ]
     },
     {
-      "name": "Infinite Runes",
+      "name": "Infinite Runes｜符文无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1268959",
@@ -324,9 +329,9 @@
       ]
     },
     {
-      "name": "Max Inf Items (on Get and Use)",
+      "name": "最大 道具无限 (on Get and Use)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B547E0",
@@ -336,9 +341,9 @@
       ]
     },
     {
-      "name": "Ignore Crafting Item Requirement",
+      "name": "Ignore Crafting 物品 Requirement",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "126982C",
@@ -348,9 +353,9 @@
       ]
     },
     {
-      "name": "Ignore Smithing Item Requirement",
+      "name": "Ignore 锻造 物品 Requirement",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12A6760",
@@ -360,9 +365,9 @@
       ]
     },
     {
-      "name": "Quick Buy and Sell Shop Items",
+      "name": "Quick Buy and Sell Shop Items｜快速买卖商店物品",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1237B75",
@@ -372,8 +377,8 @@
       ]
     },
     {
-      "name": "---x0.1 Player Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x0.1 Player 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7A",
@@ -383,8 +388,8 @@
       ]
     },
     {
-      "name": "---x0.5 Player Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x0.5 Player 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7A",
@@ -394,8 +399,8 @@
       ]
     },
     {
-      "name": "---x2 Player Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x2 Player 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7A",
@@ -405,8 +410,8 @@
       ]
     },
     {
-      "name": "---x3 Player Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x3 Player 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7A",
@@ -416,8 +421,8 @@
       ]
     },
     {
-      "name": "---x0.1 Horse Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x0.1 Horse 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7E",
@@ -427,8 +432,8 @@
       ]
     },
     {
-      "name": "---x0.5 Horse Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x0.5 Horse 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7E",
@@ -438,8 +443,8 @@
       ]
     },
     {
-      "name": "---x2 Horse Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x2 Horse 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7E",
@@ -449,8 +454,8 @@
       ]
     },
     {
-      "name": "---x3 Horse Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x3 Horse 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD7E",
@@ -460,8 +465,8 @@
       ]
     },
     {
-      "name": "---x0 Speed - Freeze Enemies (Requires Master Code)",
-      "type": "button",
+      "name": "---x0 速度 - 冻结敌人 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD76",
@@ -471,8 +476,8 @@
       ]
     },
     {
-      "name": "---x0.5 Enemy Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x0.5 Enemy 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD76",
@@ -482,8 +487,8 @@
       ]
     },
     {
-      "name": "---x2 Enemy Speed (Requires Master Code)",
-      "type": "button",
+      "name": "---x2 Enemy 速度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFD76",
@@ -493,9 +498,9 @@
       ]
     },
     {
-      "name": "Pause By Controller (read description)",
-      "description": "Pause Game: Press Options + Dpad Right. UnPause Game: Press Options + Dpad Left. Note: Some background elements like flowers may still move while the game is paused. Thats normal.",
-      "type": "checkbox",
+      "name": "暂停 By Controller (read description)",
+      "description": "暂停游戏: Press 选项 + Dpad Right. UnPause Game: Press 选项 + Dpad Left. 笔记: Some background elements like flowers may still 招式 while the game is paused. Thats 普通.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34EFD90",
@@ -510,8 +515,8 @@
       ]
     },
     {
-      "name": "---x2 Super Jump Height (Requires Master Code)",
-      "type": "button",
+      "name": "---x2 Super 跳跃高度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE7E",
@@ -526,8 +531,8 @@
       ]
     },
     {
-      "name": "---x5 Super Jump Height (Requires Master Code)",
-      "type": "button",
+      "name": "---x5 Super 跳跃高度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE7E",
@@ -542,8 +547,8 @@
       ]
     },
     {
-      "name": "---x10 Super Jump Height (Requires Master Code)",
-      "type": "button",
+      "name": "---x10 Super 跳跃高度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE7E",
@@ -558,8 +563,8 @@
       ]
     },
     {
-      "name": "---x20 Super Jump Height (Requires Master Code)",
-      "type": "button",
+      "name": "---x20 Super 跳跃高度 (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE7E",
@@ -574,8 +579,8 @@
       ]
     },
     {
-      "name": "---x2 Super Jump Distance (Requires Master Code)",
-      "type": "button",
+      "name": "---x2 超级跳跃 Distance (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE82",
@@ -585,8 +590,8 @@
       ]
     },
     {
-      "name": "---x5 Super Jump Distance (Requires Master Code)",
-      "type": "button",
+      "name": "---x5 超级跳跃 Distance (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE82",
@@ -596,8 +601,8 @@
       ]
     },
     {
-      "name": "---x10 Super Jump Distance (Requires Master Code)",
-      "type": "button",
+      "name": "---x10 超级跳跃 Distance (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE82",
@@ -607,8 +612,8 @@
       ]
     },
     {
-      "name": "---x20 Super Jump Distance (Requires Master Code)",
-      "type": "button",
+      "name": "---x20 超级跳跃 Distance (Requires Master 密码)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "34EFE82",

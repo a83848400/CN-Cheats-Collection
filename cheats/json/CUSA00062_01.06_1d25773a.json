@@ -1,12 +1,17 @@
 {
-  "name": "Alienation",
+  "name": "Alienation｜异化",
   "id": "CUSA00062",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Switch (enable this first)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "总开关 (enable this first)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01E9F86C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01E9F86D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01E9F86F",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Pause/Unpause Game (Click Touch-Pad+Dpad Right/Left)",
-      "type": "checkbox",
+      "name": "暂停/Unpause Game (Click Touch-Pad+Dpad Right/Left)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9F900",

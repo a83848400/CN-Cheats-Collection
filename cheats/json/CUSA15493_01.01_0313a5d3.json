@@ -1,12 +1,17 @@
 {
-  "name": "Ghostbusters: The Video Game Remastered",
+  "name": "Ghostbusters: The Video Game Remastered｜《捉鬼敢死队：游戏 重制版》",
   "id": "CUSA15493",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Team Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Team 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D2E9E",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Max Money (on gain)",
-      "type": "checkbox",
+      "name": "金钱最大 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9F3FD0",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Deactivate Pack Overheating",
-      "type": "checkbox",
+      "name": "Deactivate 卡包 Overheating",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CC4FE",

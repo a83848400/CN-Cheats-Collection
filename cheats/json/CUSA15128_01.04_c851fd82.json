@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (close combats only)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (close combats only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DC30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Experience (On kill Activate once and turn off)",
-      "type": "checkbox",
+      "name": "最大 Experience (On kill Activate once and 回合 off)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C980",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Alot of Items (on collect have 2 pieces of the item)",
-      "type": "checkbox",
+      "name": "Alot of Items (on collect have 2 pieces of the 物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB50",

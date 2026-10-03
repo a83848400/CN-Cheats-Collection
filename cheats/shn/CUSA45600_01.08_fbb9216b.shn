@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="DAVE THE DIVER" Moder="2B" Cusa="CUSA45600" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf O2">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 氧气">
     <Cheatline>
       <Section>14</Section>
       <Offset>4AFB800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-83-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="weight never Inc">
+  <Cheat Text="重量 never Inc">
     <Cheatline>
       <Section>14</Section>
       <Offset>4AFB819</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-48-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Dave Stamina at the Resturant ">
+  <Cheat Text="Infinite Dave 体力 at the Resturant ">
     <Cheatline>
       <Section>14</Section>
       <Offset>4AFB82C</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7A-11-47-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Speargun Ammo">
+  <Cheat Text="Infinite Speargun 但是">
     <Cheatline>
       <Section>14</Section>
       <Offset>4AFB841</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>89-43-74-E8-F3-EE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Itmes use only in resturant sell 1 item to restore it to x99">
+  <Cheat Text="无限项 use only in resturant sell 1 物品 to restore it to x99">
     <Cheatline>
       <Section>14</Section>
       <Offset>4AFB800</Offset>

@@ -1,12 +1,17 @@
 {
-  "name": "XIII",
+  "name": "XIII｜十三",
   "id": "CUSA19096",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186C600",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ammo/No Reload (Reload Once For Akimbo)",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹 (Reload Once For Akimbo)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186C620",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Oxygen",
-      "type": "checkbox",
+      "name": "无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186C660",

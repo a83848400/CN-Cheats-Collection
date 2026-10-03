@@ -1,12 +1,17 @@
 {
-  "name": "Blasphemous 2",
+  "name": "亵渎 2",
   "id": "CUSA44317",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Tears/Marks of Martyrdom",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Tears/Marks of Martyrdom",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FA3A3E",

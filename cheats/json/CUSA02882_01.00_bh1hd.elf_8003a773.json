@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Origins Collection",
+  "name": "生化危机: Origins Collection",
   "id": "CUSA02882",
   "version": "01.00",
   "process": "bh1hd.elf",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18C7BE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18C76A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34C67D",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Items/Ammo",
-      "type": "checkbox",
+      "name": "道具无限/但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AA7800",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Selfdefense Weapons",
-      "type": "checkbox",
+      "name": "Infinite Selfdefense 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33EA04",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Tapes / Save w/o Tapes",
-      "type": "checkbox",
+      "name": "无限磁带 / 保存 w/o Tapes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D0E77",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Freeze SaveCounter",
-      "type": "checkbox",
+      "name": "Freeze SaveCounter｜冻结 SaveCounter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A259",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Doors open w/o Keys",
-      "type": "checkbox",
+      "name": "Doors open w/o Keys｜无需钥匙即可开门",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D0AD0",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Doors open w/o Old-Keys",
-      "type": "checkbox",
+      "name": "Doors open w/o Old-Keys｜无需旧钥匙即可开门",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D0A4C",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Have All Item\\'s In Chest ~Swap Any Item From Inventory To Chest",
-      "type": "checkbox",
+      "name": "Have All 物品\\'s In 宝箱 ~Swap Any 物品 From 背包 To 宝箱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AA7822",

@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light: The Following: Enhanced Edition",
+  "name": "Dying Light: The Following: Enhanced Edition｜《消逝的光芒：追随者：增强版》",
   "id": "CUSA03977",
   "version": "01.19",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48930",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance (For Fight)",
-      "type": "checkbox",
+      "name": "Infinite 耐力 (For Fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48720",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Breathe (For Run)",
-      "type": "checkbox",
+      "name": "Infinite Breathe (For Run)｜无限呼吸（跑步专用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC49C20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite/Dupe Items (Need 2/Disable after you have enough)",
-      "type": "checkbox",
+      "name": "Infinite/Dupe Items (Need 2/Disable after you have enough)｜无限/可复制道具（需2个/数量足够后禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6296EB",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Items (Need 2 To Work)",
-      "type": "checkbox",
+      "name": "道具无限 (Need 2 To Work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6296EB",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo",
-      "type": "checkbox",
+      "name": "最大/无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48500",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48D60",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Arrows",
-      "type": "checkbox",
+      "name": "最大/箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC489B0",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Infinite Melee Durability",
-      "type": "checkbox",
+      "name": "Infinite Melee Durability｜近战武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC49170",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Infinite UV Flashlight",
-      "type": "checkbox",
+      "name": "Infinite UV 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48770",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Infinite Grappling Hook Stamina",
-      "type": "checkbox",
+      "name": "Infinite 抓钩 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48DA0",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Infinite Camouflage",
-      "type": "checkbox",
+      "name": "Infinite Camouflage｜无限伪装",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4B2E0",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Max Level All Skill Points On Gain",
-      "type": "checkbox",
+      "name": "等级最大 All Skill 得分 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48D70",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money On Gain",
-      "type": "checkbox",
+      "name": "最大/金钱无限 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48B40",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money On Buy",
-      "type": "checkbox",
+      "name": "最大/金钱无限 On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC491B0",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Weather Change",
-      "type": "checkbox",
+      "name": "Weather Change｜天气变化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC49170",

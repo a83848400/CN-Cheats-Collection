@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CB000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CB037",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Stop Book Timer",
-      "type": "checkbox",
+      "name": "停止 Book 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CB076",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Gold",
-      "type": "checkbox",
+      "name": "无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19CB0BE",

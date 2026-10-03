@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Assassin's Creed: The Ezio Collection" Moder="TLH" Cusa="CUSA04893" Version="01.00" Process="ScimitarACB.elf">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
   <Cheat Control="Toggel" Text="Godmode">
     <Cheatline>
       <Offset>18AB0E6</Offset>

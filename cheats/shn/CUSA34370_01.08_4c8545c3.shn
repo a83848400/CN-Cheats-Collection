@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Aliens: Dark Descent" Moder="d01v" Cusa="CUSA34370" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Stock Tools x99 (Mission)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="命数 Tools x99 (Mission)">
     <Cheatline>
       <Offset>83A7601</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-44-F2-08-41-89-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Armor (Mission)">
+  <Cheat Text="护甲最大值 (Mission)">
     <Cheatline>
       <Offset>83A75B1</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-83-40-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Stress Meter (Mission)">
+  <Cheat Text="Freeze Stress Meter (Mission)｜冻害计（任务）">
     <Cheatline>
       <Offset>2708156</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FA-11-07</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite and Max Health">
+    <Cheat Text="Infinite and 生命最大">
     <Cheatline>
       <Offset>83A7621</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>48-8B-95-B8-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Med Bay Patient Recovery 0 Days " Description="always turn on this cheat">
+  <Cheat Text="Med Bay Patient 后摇 0 Days " Description="always turn on this cheat">
     <Cheatline>
       <Offset>83A7661</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>48-8B-46-F8-39-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stock Tools from Otago" Description="go to workshop then turn off this cheat">
+  <Cheat Text="最大 命数 Tools from Otago" Description="go to workshop then turn off this cheat">
     <Cheatline>
       <Offset>83A7681</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>8B-44-B2-08-41-89-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Bravery and Accuracy (Otago)" Description="view squad in mission, turn off this cheat after">
+  <Cheat Text="最大 Bravery and Accuracy (Otago)" Description="view squad in mission, turn off this cheat after">
     <Cheatline>
       <Offset>83A76B1</Offset>
       <Section>0</Section>

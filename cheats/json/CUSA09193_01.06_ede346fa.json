@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 2",
+  "name": "生化危机 2",
   "id": "CUSA09193",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "161EDDB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62C7000",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FDE0BF",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Item Count (on use/combine/reload)",
-      "type": "checkbox",
+      "name": "最大 物品 Count (on use/组合/reload)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FDCD95",

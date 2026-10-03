@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Zero Dawn: Complete Edition",
+  "name": "地平线 杰洛 Dawn: Complete Edition",
   "id": "CUSA10212",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible Player (Even falling from Highest Places)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 Player (Even falling from Highest Places)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B0FB53",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincible Player + 1H2K for any",
-      "type": "checkbox",
+      "name": "无敌 Player + 1H2K for any",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B0FB53",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Player Max and Infinite Health",
-      "type": "checkbox",
+      "name": "Player 最大 and 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B18592",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Player Max and Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Player 最大 and 无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14A5E55",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Inventory When Craft",
-      "type": "checkbox",
+      "name": "Infinite 背包 When Craft",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "146AE8D",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Inventory When Sell",
-      "type": "checkbox",
+      "name": "Infinite 背包 When Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "149289F",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Inventory When Disassemble",
-      "type": "checkbox",
+      "name": "Infinite 背包 When Disassemble",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1224364",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Inventory When Drop",
-      "type": "checkbox",
+      "name": "Infinite 背包 When 丢弃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F34AB5",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Infinite Modifications When Use",
-      "type": "checkbox",
+      "name": "Infinite Modifications When Use｜使用时的无限种修改方式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16898D7",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "Infinite Metal Shards and Bluegleams When Buy",
-      "type": "checkbox",
+      "name": "Infinite 金属 Shards and Bluegleams When Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1492C85",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "Infinite Metal Shards When Repair",
-      "type": "checkbox",
+      "name": "Infinite 金属 Shards When Repair",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14766B6",
@@ -136,8 +141,8 @@
       ]
     },
     {
-      "name": "Infinite Potions When Use",
-      "type": "checkbox",
+      "name": "药水无限 When Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F6553F",
@@ -147,8 +152,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows, Ammo, Traps and Tripwires",
-      "type": "checkbox",
+      "name": "箭矢无限, 但是, 陷阱 and Tripwires",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DC86C",
@@ -158,8 +163,8 @@
       ]
     },
     {
-      "name": "Max Arrows Per Shot With Highest Rate of Fire (5 Arrows)",
-      "type": "checkbox",
+      "name": "最大 Arrows Per Shot With Highest 射速 (5 Arrows)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DC760",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "Infinite Duration of Concentration",
-      "type": "checkbox",
+      "name": "Infinite Duration of 专注",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "169F5B3",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "No Cooldown for Spear and Lance after override",
-      "type": "checkbox",
+      "name": "无冷却 for 长矛 and 骑枪 after override",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A8637D",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Infinite Rope Durability When Pindown Targets",
-      "type": "checkbox",
+      "name": "Infinite 绳子 耐用性 When Pindown Targets",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "149BB28",
@@ -202,8 +207,8 @@
       ]
     },
     {
-      "name": "Infinite Rope Durability When Attacking Pinned Targets",
-      "type": "checkbox",
+      "name": "Infinite 绳子 耐用性 When Attacking Pinned Targets",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "149FBCC",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Max and Infinite Skills Points When Spend (3 Pts)",
-      "type": "checkbox",
+      "name": "最大 and 无限技能 得分 When Spend (3 Pts)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15D7319",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Infinite Hunting Ground Trials Timer",
-      "type": "checkbox",
+      "name": "Infinite Hunting Ground Trials 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11BB85D",

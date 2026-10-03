@@ -1,12 +1,17 @@
 {
-  "name": "Chernobylite",
+  "name": "Chernobylite｜切尔诺贝利人",
   "id": "CUSA28037",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A94D70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Psyche",
-      "type": "checkbox",
+      "name": "Infinite Psyche｜无限心灵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A94F00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Resource (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Resource (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A94DB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A94E60",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight",
-      "type": "checkbox",
+      "name": "Infinite 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A94E90",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BA7830",

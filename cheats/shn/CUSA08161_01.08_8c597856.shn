@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry 5" Moder="gokusuper" Cusa="CUSA08161" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="inf devil trager">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限恶魔特拉格">
     <Cheatline>
       <Offset>858B800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-83-10-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf ammo pwoer">
+  <Cheat Text="无限弹药 pwoer">
     <Cheatline>
       <Offset>13702F4</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-89-87-20-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max exceed">
+  <Cheat Text="最大 exceed">
     <Cheatline>
       <Offset>2FC14A3</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>0F-87-83-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf exceed">
+  <Cheat Text="无限超越">
     <Cheatline>
       <Offset>A1D2CA</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>48-01-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf fired up">
+  <Cheat Text="Infinite 激情四射">
     <Cheatline>
       <Offset>10ED61C</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>48-85-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf gaurde">
+  <Cheat Text="无限守卫">
     <Cheatline>
       <Offset>38E21FB</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>C5-FA-11-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf red orbe">
+  <Cheat Text="无尽的红色圆球">
     <Cheatline>
       <Offset>36A9179</Offset>
       <Section>0</Section>

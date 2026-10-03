@@ -1,13 +1,18 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34388",
   "version": "06.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "nPlease be sure to read the comment on each individual cheat, if a comment is available. Enjoy!",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "nPlease be sure to read the comment on each individual cheat, if a comment is available. Enjoy!｜n请务必阅读每条秘籍下的评论（如有）。祝您玩得愉快！",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1786FFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Health Master Code (must be enabled)",
+      "name": "生命 Master 密码 (must be enabled)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1787000",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "--Enemy_Infinite_HP",
+      "name": "--敌人无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17870A0",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
-      "description": "Do NOT use One Hit Kill on the first bear(Bjorn).\r\nOtherwise you may not be able to complete the fight.\r\n\r\nAlso, OHK may cause an issue that certain enemies will not show up as they are programmed to be created when other enemies reach a certain HP level when they are getting hit, but OHK obviously just kills them instantly.\r\n\r\nIn such cases, if you are getting stuck, for example in the Old Friends quest, when reaching the cave with many Draugrs and can't pass the rocks-blocked door, \r\n\r\nI recommend you disable OHK, reload the checkpoint or reload a previous save and play that part again.",
-      "type": "checkbox",
+      "name": "--一击必杀",
+      "description": "Do NOT use 一击必杀 on the first bear(Bjorn).\r\nOtherwise you may not be able to complete the fight.\r\n\r\nAlso, OHK may cause an issue that certain enemies 意志 not show up as they are programmed to be created when 他 enemies reach a certain 手机 等级 when they are getting hit, but OHK obviously just kills them instantly.\r\n\r\nIn such cases, if you are getting stuck, for example in the Old Friends quest, when reaching the cave with many Draugrs and can'恐怖分子 pass the rocks-blocked door, \r\n\r\nI recommend you disable OHK, reload the 检查点 or reload a previous 保存 and play that part again.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17870A4",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "--Player_Infinite_HP",
+      "name": "--玩家无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "178709C",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Raiden III x Mikado Maniax" Moder="Ali-mk" Cusa="CUSA40312" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>A6F1D</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-lives">
+    <Cheat Text="最大-lives">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-89-07-BF-09-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Bomb">
+    <Cheat Text="Infinite-Bomb｜无限炸弹">
     <Cheatline>
       <Offset>A7FC8</Offset>
       <Section>0</Section>

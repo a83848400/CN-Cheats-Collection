@@ -1,13 +1,18 @@
 {
-  "name": "N++",
+  "name": "N++｜没有加号",
   "id": "CUSA00791",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God",
-      "description": "GODMODE Effects still very much active.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God｜上帝",
+      "description": "上帝模式 Effects still very much active.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45EF000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Jumps",
+      "name": "无限跳跃",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45EF025",
@@ -59,9 +64,9 @@
       ]
     },
     {
-      "name": "Inf Time",
+      "name": "无限时间",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45EF0B4",
@@ -76,9 +81,9 @@
       ]
     },
     {
-      "name": "L1R1_Complete_Lvl",
+      "name": "L1R1_Complete_Lvl｜第1级，第1轮：已完成",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45EF0F5",

@@ -4,7 +4,15 @@
   <Genres Name="Fighting" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>43B7DB0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E8-0A-B6-FC-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>43B7E30</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C4-C1-7A-11-87-1C-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>43B7690</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>41-89-B6-10-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>43B7700</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>41-FF-8E-14-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Durability">
+  <Cheat Text="Infinite Weapon Durability｜武器耐久无限">
     <Cheatline>
       <Offset>43B78E0</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>8B-87-70-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Tablets On Spend">
+  <Cheat Text="最大 Tablets On Spend">
     <Cheatline>
       <Offset>43B7A20</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>45-29-B7-D4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Manuscripts On Spend">
+  <Cheat Text="最大 Manuscripts On Spend">
     <Cheatline>
       <Offset>43B7220</Offset>
       <Section>0</Section>

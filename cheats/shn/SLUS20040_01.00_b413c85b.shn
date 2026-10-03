@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Gradius III and IV" Moder="Ali-mk" Cusa="SLUS20040" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Gradius-III-Inf-lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="宇宙巡航舰-III-无限生命">
     <Cheatline>
       <Offset>8080C01050</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>63-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gradius-III-Inf-SPEED-UP">
+  <Cheat Text="宇宙巡航舰-III-Infinite-速度-UP">
     <Cheatline>
       <Offset>8080C0106A</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>01-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-III-Inf-MISSILE">
+    <Cheat Text="宇宙巡航舰-III-Infinite-MISSILE">
     <Cheatline>
       <Offset>8080C0106A</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>02-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-III-Inf-DOUBLE">
+    <Cheat Text="宇宙巡航舰-III-Infinite-DOUBLE">
     <Cheatline>
       <Offset>8080C0106A</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>03-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-III-Inf-LASER">
+    <Cheat Text="宇宙巡航舰-III-Infinite-激光瞄准器">
     <Cheatline>
       <Offset>8080C0106A</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>04-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-III-Inf-OPTIONS">
+    <Cheat Text="宇宙巡航舰-III-Infinite-选项">
     <Cheatline>
       <Offset>8080C0106A</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>05-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-III-Inf-FUIL-POWER">
+    <Cheat Text="宇宙巡航舰-III-Infinite-FUIL-电力">
     <Cheatline>
       <Offset>8080C0106A</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>06-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-IV-Inf-lives">
+    <Cheat Text="宇宙巡航舰-个体值-无限生命">
     <Cheatline>
       <Offset>8080496008</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>63-00-00-00-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-IV-Inf-SPEED-UP">
+    <Cheat Text="宇宙巡航舰-个体值-Infinite-速度-UP">
     <Cheatline>
       <Offset>8080496042</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>01-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-IV-Inf-MISSILE">
+    <Cheat Text="宇宙巡航舰-个体值-Infinite-MISSILE">
     <Cheatline>
       <Offset>8080496042</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>02-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-IV-Inf-DOUBLE">
+    <Cheat Text="宇宙巡航舰-个体值-Infinite-DOUBLE">
     <Cheatline>
       <Offset>8080496042</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>03-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-IV-Inf-LASER">
+    <Cheat Text="宇宙巡航舰-个体值-Infinite-激光瞄准器">
     <Cheatline>
       <Offset>8080496042</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>04-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-IV-Inf-OPTIONS">
+    <Cheat Text="宇宙巡航舰-个体值-Infinite-选项">
     <Cheatline>
       <Offset>8080496042</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>05-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Gradius-IV-Inf-FUIL-POWER">
+    <Cheat Text="宇宙巡航舰-个体值-Infinite-FUIL-电力">
     <Cheatline>
       <Offset>8080496042</Offset>
       <Section>0</Section>

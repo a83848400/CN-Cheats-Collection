@@ -1,12 +1,17 @@
 {
-  "name": "Persona 4 Golden",
+  "name": "女神异闻录4 金色",
   "id": "CUSA33874",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "backport 9 to 505 only",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "backport 9 to 505 only｜仅将 9 向下移植到 505",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815731",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "infinite Health",
-      "type": "checkbox",
+      "name": "infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815739",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "infinite SP",
-      "type": "checkbox",
+      "name": "infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815761",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "All items",
-      "type": "checkbox",
+      "name": "All items｜所有商品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815791",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Player EXP",
-      "type": "checkbox",
+      "name": "最大 Player 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8157D1",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max exp persona",
-      "type": "checkbox",
+      "name": "经验值最大 人格面具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815811",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Max persona stats",
-      "type": "checkbox",
+      "name": "最大 人格面具 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815841",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Max Social Stats",
-      "type": "checkbox",
+      "name": "最大 人格指数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815871",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Max Exp Social Link",
-      "type": "checkbox",
+      "name": "经验值最大 社群",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815901",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Master Code Daytime",
-      "type": "checkbox",
+      "name": "Master 密码 Daytime",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815961",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Early morning (MC daytime)",
-      "type": "checkbox",
+      "name": "清晨 (MC daytime)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815968",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Afterschool (MC daytime)",
-      "type": "checkbox",
+      "name": "Afterschool (MC daytime)｜《放学后》（MC日间档）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815968",
@@ -182,8 +187,8 @@
       ]
     },
     {
-      "name": "Evening (MC daytime)",
-      "type": "checkbox",
+      "name": "Evening (MC daytime)｜晚间（MC 白天）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815968",
@@ -193,8 +198,8 @@
       ]
     },
     {
-      "name": "Master Code Date",
-      "type": "checkbox",
+      "name": "Master 密码 Date",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8159C1",
@@ -209,8 +214,8 @@
       ]
     },
     {
-      "name": "Decrease 1 day (MC Date)",
-      "type": "checkbox",
+      "name": "Decrease 1 day (MC Date)｜减少1天（MC日期）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8159C5",
@@ -220,8 +225,8 @@
       ]
     },
     {
-      "name": "Increase 1 day (MC Date)",
-      "type": "checkbox",
+      "name": "Increase 1 day (MC Date)｜增加 1 天（MC 日期）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8159C5",
@@ -231,8 +236,8 @@
       ]
     },
     {
-      "name": "Yen",
-      "type": "checkbox",
+      "name": "Yen｜如果",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815A01",
@@ -247,8 +252,8 @@
       ]
     },
     {
-      "name": "Master Code Persona id (skin)",
-      "type": "checkbox",
+      "name": "Master 密码 人格面具 id (皮肤)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815A51",
@@ -263,8 +268,8 @@
       ]
     },
     {
-      "name": "Increase id (MC id)",
-      "type": "checkbox",
+      "name": "Increase id (MC id)｜增加 ID（MC ID）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815A63",
@@ -274,8 +279,8 @@
       ]
     },
     {
-      "name": "Decrease id (MC id)",
-      "type": "checkbox",
+      "name": "Decrease id (MC id)｜减少 ID（MC ID）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "815A63",

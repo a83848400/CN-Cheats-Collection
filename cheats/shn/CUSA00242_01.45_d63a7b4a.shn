@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Diablo III: Reaper of Souls: Ultimate Evil Edition" Moder="d01v" Cusa="CUSA00242" Version="01.45" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>136C1C1</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-87-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina / Mana">
+  <Cheat Text="无限耐力 / 法力">
     <Cheatline>
       <Offset>136C211</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-75-C8-8B-43-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Magic Find (Legendary Drops / Req level 11)">
+  <Cheat Text="魔法 Find (传说宝可梦 Drops / Req 等级 11)">
     <Cheatline>
       <Offset>136C2B1</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>89-77-10-8B-42-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold">
+  <Cheat Text="Max Gold｜金币最大">
     <Cheatline>
       <Offset>136C2F1</Offset>
       <Section>0</Section>

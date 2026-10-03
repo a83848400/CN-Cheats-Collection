@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto: San Andreas - The Definitive Edition",
+  "name": "侠盗猎车手: San Andreas - The Definitive Edition",
   "id": "CUSA26619",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B87220",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Car Health (when driving it)",
-      "type": "checkbox",
+      "name": "Infinite Car 生命 (when driving it)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B87AB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Fast Car driving skill level up",
-      "type": "checkbox",
+      "name": "Fast Car driving skill 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11757CC",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Weapons/Muscles/Stamina skill level",
-      "type": "checkbox",
+      "name": "最大 武器/Muscles/体力 skill 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B87890",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Fast Motorcycle driving skill level up",
-      "type": "checkbox",
+      "name": "Fast Motorcycle driving skill 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1176B79",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Service vehicules timer",
-      "type": "checkbox",
+      "name": "Infinite Service vehicules 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "112E1EF",

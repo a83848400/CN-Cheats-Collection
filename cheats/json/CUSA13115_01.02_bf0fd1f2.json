@@ -1,12 +1,17 @@
 {
-  "name": "Watch Dogs: Legion",
+  "name": "看门狗: Legion",
   "id": "CUSA13115",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mod",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mod｜好心情",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85E3D62",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1809663",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85E3DBA",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Money increase on Spend",
-      "type": "checkbox",
+      "name": "金钱 increase on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85E3E13",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Tech Points on Spend",
-      "type": "checkbox",
+      "name": "科技点最大 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85E3E32",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Hack",
-      "type": "checkbox",
+      "name": "Infinite Hack｜无限作弊",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D7BD24",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "No Gadget Cooldown",
-      "type": "checkbox",
+      "name": "No 小道具 Cooldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10C3F58",

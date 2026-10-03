@@ -5,7 +5,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>18B3F50</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>8B-4C-24-F4-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Itens Infinitos">
+  <Cheat Text="Itens Infinitos｜无限道具">
     <Cheatline>
       <Offset>18B3DD0</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>8B-4C-24-F4-89-48-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dinheiro Infinito">
+  <Cheat Text="Dinheiro Infinito｜无限金钱">
     <Cheatline>
       <Offset>18B3DB0</Offset>
       <Section>0</Section>

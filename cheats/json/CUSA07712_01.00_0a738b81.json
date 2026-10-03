@@ -1,13 +1,18 @@
 {
-  "name": "Outlast Trinity: Outlast & Outlast Whistleblower",
+  "name": "《Outlast》 Trinity: 《Outlast》 & 《Outlast》 Whistleblower",
   "id": "CUSA07712",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "211FC1A",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite BatteryLife",
+      "name": "Infinite BatteryLife｜无限续航",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "211FC36",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Always Max Battery",
+      "name": "Always 最大 电池",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "211FC49",

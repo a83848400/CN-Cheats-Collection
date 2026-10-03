@@ -1,13 +1,18 @@
 {
-  "name": "Dead Island 2",
+  "name": "Dead 岛屿 2",
   "id": "CUSA27043",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "HP Master (Must Be ON for health/one hit)",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "手机 Master (Must Be ON for 生命/one hit)",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3421E8B",
@@ -42,9 +47,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Health｜无限生命",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9417026",
@@ -54,9 +59,9 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "One Hit Kill｜一击必杀",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9417020",
@@ -66,9 +71,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3012885",
@@ -78,9 +83,9 @@
       ]
     },
     {
-      "name": "Zombie No Stamina Recovery after Hit",
+      "name": "僵尸 No 体力 后摇 after Hit",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "30126E5",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "31693F6",
@@ -102,9 +107,9 @@
       ]
     },
     {
-      "name": "Max XP on Gain",
+      "name": "最大 XP on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "329F7C8",
@@ -114,9 +119,9 @@
       ]
     },
     {
-      "name": "Max Items on Gain",
+      "name": "最大 Items on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FA8EBC",
@@ -126,9 +131,9 @@
       ]
     },
     {
-      "name": "Infinite Items+Money (Disable to Sell Items)",
-      "hint": "This will also allow you to drop unlimited amount of weapons from your inventory but weapons you drop seem to not become usable after you pick them up. ",
-      "type": "checkbox",
+      "name": "道具无限+金钱 (Disable to Sell Items)",
+      "hint": "This 意志 also allow you to 丢弃 unlimited amount of 武器 from your 背包 but 武器 you 丢弃 seem to not become usable after you pick them up. ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FA9264",
@@ -138,9 +143,9 @@
       ]
     },
     {
-      "name": "9999999 Money (Open Player Menu or Workbench)",
+      "name": "9999999 金钱 (Open Player 菜单 or Workbench)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3622C82",
@@ -175,9 +180,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FEB869",
@@ -187,9 +192,9 @@
       ]
     },
     {
-      "name": "No Recoil",
+      "name": "No Recoil｜消除后坐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FD7934",
@@ -199,9 +204,9 @@
       ]
     },
     {
-      "name": "Less Bullet Spread",
+      "name": "Less Bullet Spread｜减少弹着散布",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FED79F",
@@ -211,9 +216,9 @@
       ]
     },
     {
-      "name": "Max Fury on Gain",
+      "name": "狂怒值最大 on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3269C74",
@@ -223,9 +228,9 @@
       ]
     },
     {
-      "name": "Max Infinite Fury on Use",
+      "name": "最大 无尽之怒 on Use",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "398FB5B",
@@ -235,9 +240,9 @@
       ]
     },
     {
-      "name": "No Fall Damage+Immune to Some Effects (Effects Also Applies to Some Zombies)",
-      "hint": "By Effects i mean Fire, Poison, Frozen... It does not work for every single one only some of them.",
-      "type": "checkbox",
+      "name": "无坠落伤害+Immune to Some Effects (该效果也适用于某些僵尸)",
+      "hint": "By Effects i mean 火, Poison, 冰冻... It does not work for every single one only some of them.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C61822",
@@ -247,9 +252,9 @@
       ]
     },
     {
-      "name": "Super Jump",
+      "name": "Super Jump｜超级跳跃",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E394E1",
@@ -259,9 +264,9 @@
       ]
     },
     {
-      "name": "Crazy Weapon Stats (May reset after buying a mod in shop for the weapon)",
-      "hint": "This does not work on every stat or on every weapon only works on some of them. ",
-      "type": "checkbox",
+      "name": "Crazy Weapon 属性 (May reset 购买后 a mod in shop for the weapon)",
+      "hint": "This does not work on every stat or on every weapon only works on some of them. ｜这并非对所有属性或所有武器都有效，仅对其中一部分有效。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "296BB14",
@@ -281,9 +286,9 @@
       ]
     },
     {
-      "name": "x2 Melee Weapon Attack Speed (Disable & Swap Weapon for Original Speed)",
+      "name": "x2 近战 Weapon 攻击速度 (Disable & Swap Weapon for Original 速度)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28D2F8F",
@@ -303,9 +308,9 @@
       ]
     },
     {
-      "name": "x3 Melee Weapon Attack Speed (Disable & Swap Weapon for Original Speed)",
+      "name": "x3 近战 Weapon 攻击速度 (Disable & Swap Weapon for Original 速度)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28D2F8F",
@@ -325,9 +330,9 @@
       ]
     },
     {
-      "name": "x4 Melee Weapon Attack Speed (Disable & Swap Weapon for Original Speed)",
+      "name": "x4 近战 Weapon 攻击速度 (Disable & Swap Weapon for Original 速度)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28D2F8F",

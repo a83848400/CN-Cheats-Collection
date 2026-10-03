@@ -1,12 +1,17 @@
 {
-  "name": "Car Mechanic Simulator 2021",
+  "name": "Car Mechanic Simulator 2021｜《汽车修理工模拟器 2021》",
   "id": "CUSA25706",
   "version": "01.31",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money ( on gain )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194FE10",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max XP Level + Skill Points ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP 等级 + Skill 得分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194FE30",

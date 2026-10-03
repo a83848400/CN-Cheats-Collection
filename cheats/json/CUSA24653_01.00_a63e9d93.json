@@ -1,12 +1,17 @@
 {
-  "name": "Alan Wake Remastered",
+  "name": "Alan Wake Remastered｜《艾伦·韦克 重制版》",
   "id": "CUSA24653",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EF1CA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EEC3A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EEC4C0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Shutgun No Reload",
-      "type": "checkbox",
+      "name": "Shutgun 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B189E",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight Energy",
-      "type": "checkbox",
+      "name": "Infinite 手电筒 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15AE14",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Batteries",
-      "type": "checkbox",
+      "name": "Infinite 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15D53C",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Flare",
-      "type": "checkbox",
+      "name": "Infinite Flare｜无限火花",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EF21A0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Green Hell" Moder="LMN" Cusa="CUSA26546" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="inf small building resources and resource stands and charcoal (build long sticks stands first)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite small 建造 resources and resource stands and 木炭 (构筑 long sticks stands first)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>FF-8B-8C-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="freeze stamina">
+  <Cheat Text="freeze 体力">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>C4-C1-7A-11-56-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="never gets tired">
+  <Cheat Text="never gets tired｜永远不会累">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>C4-C1-7A-11-46-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite fire fuel">
+  <Cheat Text="infinite 火 fuel">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>C4-C1-7A-11-86-80-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite torch fuel">
+  <Cheat Text="infinite 火把 fuel">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>C5-FA-11-40-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="full durability">
+  <Cheat Text="full durability｜完全耐用">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>C5-FA-11-40-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="set trust to 1000 (gain any)">
+  <Cheat Text="set 亲信 to 1000 (gain any)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -191,7 +199,7 @@
       <ValueOff>C5-FA-11-4B-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf carrying weight (press L1 to update your weight)">
+  <Cheat Text="Infinite carrying 重量 (press L1 to update your 重量)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

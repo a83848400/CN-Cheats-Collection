@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Vanguard" Moder="Celogamez" Cusa="CUSA24041" Version="01.26" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health (Campaign Mode)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (战役 Mode)">
     <Cheatline>
       <Offset>114B22B</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-2C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Zombie Mode)">
+  <Cheat Text="无限生命 (僵尸 Mode)">
     <Cheatline>
       <Offset>28C7DB0</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>29-86-C0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>28C7800</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>29-D9-89-48-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload/Infinite Grenades">
+  <Cheat Text="无需换弹/手雷无限">
     <Cheatline>
       <Offset>28C7C90</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>39-F2-0F-4D-DF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money (Make Money Before)">
+  <Cheat Text="金钱无限 (Make 金钱 Before)">
     <Cheatline>
       <Offset>B05F8</Offset>
       <Section>9</Section>

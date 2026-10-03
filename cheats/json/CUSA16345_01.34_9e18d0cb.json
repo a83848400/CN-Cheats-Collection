@@ -1,12 +1,17 @@
 {
-  "name": "Immortals Fenyx Rising",
+  "name": "Immortals Fenyx Rising｜渡神纪",
   "id": "CUSA16345",
   "version": "01.34",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Potions/Arrows",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "药水无限/Arrows",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37B350D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Fruits/Upgrade Materials Multiplier (On Gain)",
-      "type": "checkbox",
+      "name": "Fruits/Upgrade Materials Multiplier (On Gain)｜水果/升级材料倍率（获得时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37B2D71",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3220686",

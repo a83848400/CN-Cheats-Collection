@@ -1,12 +1,17 @@
 {
-  "name": "Valkyria Revolution",
+  "name": "Valkyria Revolution｜《苍蓝革命的瓦尔基里》",
   "id": "CUSA06810",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Refill + Infinite RP on Use| Selected Characters",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Refill + Infinite RP on Use| Selected Characters｜使用后补充 + 无限RP | 指定角色",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C7C39",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Refill + Infinite HP When Hit| Selected Characters",
-      "type": "checkbox",
+      "name": "Refill + 无限血量 When Hit| Selected Characters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F2E9D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F8226",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Money On Sell",
-      "type": "checkbox",
+      "name": "金钱最大 On Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F819F",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Items on Sell",
-      "type": "checkbox",
+      "name": "最大 Items on Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8B3F40",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F820F",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Max Materials on Sell",
-      "type": "checkbox",
+      "name": "材料最大 on Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8B3F40",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Materials",
-      "type": "checkbox",
+      "name": "Infinite Materials｜无限材料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F861F",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Infinite Sub Weapons| Long Arms",
-      "type": "checkbox",
+      "name": "Infinite Sub 武器| Long Arms",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F0947",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "Infinite Sub Weapons| Grenades",
-      "type": "checkbox",
+      "name": "Infinite Sub 武器| 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F09A7",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables Items in Battle",
-      "type": "checkbox",
+      "name": "无限消耗品 Items in 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F09E6",

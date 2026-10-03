@@ -1,12 +1,17 @@
 {
-  "name": "MLB The Show 18",
+  "name": "MLB The Show 18｜《MLB The Show 18》",
   "id": "CUSA09450",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Always Homerun",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Always Homerun｜永远本垒打",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1193379",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Autohit 1200.0MPH Incline 19.0deg Azimuth 5.5deg",
-      "type": "checkbox",
+      "name": "Autohit 1200.0MPH Incline 19.0deg Azimuth 5.5deg｜Autohit 1200.0MPH 仰角 19.0度 方位角 5.5度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1192F10",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Always Throw FB Middle",
-      "type": "checkbox",
+      "name": "Always 投技 FB Middle",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A221E2",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Always Swing and Miss",
-      "type": "checkbox",
+      "name": "Always 摆荡 and 未命中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A221E0",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Stop the Ball (and steal)",
-      "type": "checkbox",
+      "name": "停止 the Ball (and 抢断)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11923A0",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Just training (in calendar screen only)",
-      "type": "checkbox",
+      "name": "Just 训练 (in calendar screen only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "98BAEE7",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Add score 31 runs per hit",
-      "type": "checkbox",
+      "name": "Add 比分 31 runs per hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B0902D",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Maximum hitspeed 3500MPH",
-      "type": "checkbox",
+      "name": "Maximum hitspeed 3500MPH｜最大射速 3500英里/小时",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "163F5A0",

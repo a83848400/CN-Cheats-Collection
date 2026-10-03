@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Disgaea 1 Complete" Moder="Molly" Cusa="CUSA13171" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Quick Level Customer Rank">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Quick 等级 Customer 阶级">
     <Cheatline>
       <Offset>263800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-29-05-EF-F6-1E-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="9999 Monsters Killed">
+  <Cheat Text="9999 Monsters Killed｜击杀9999只怪物">
     <Cheatline>
       <Offset>263816</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-05-D4-8C-2A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mana (After 1 Kill)">
+  <Cheat Text="最大 法力 (After 1 Kill)">
     <Cheatline>
       <Offset>263826</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-89-8A-2C-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>263837</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>48-01-C2-49-01-12</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Level Up Weapons ">
+  <Cheat Text="Quickly 升级 武器 ">
     <Cheatline>
       <Offset>263848</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-84-B7-08-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Level Up Skills">
+  <Cheat Text="Quickly 升级 Skills">
     <Cheatline>
       <Offset>263859</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>01-94-9F-24-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Bonus Bar">
+  <Cheat Text="Quickly Gain Bonus Bar｜快速获得奖励条">
     <Cheatline>
       <Offset>26386B</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>66-89-0D-88-8D-2E-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up Items ~Item World~">
+  <Cheat Text="Quick 升级 Items ~物品 World~">
     <Cheatline>
       <Offset>26387C</Offset>
       <Section>0</Section>

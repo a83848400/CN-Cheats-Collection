@@ -1,10 +1,10 @@
 {
-  "name": "Nioh",
+  "name": "Nioh｜仁王",
   "id": "CUSA07123",
   "version": "01.00",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "10CB800",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10CB800",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "2 hit kill",
-      "type": "checkbox",
+      "name": "2 命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10CB81B",
@@ -45,8 +50,8 @@
       ]
     },
     {
-      "name": "infinit Ki",
-      "type": "checkbox",
+      "name": "infinit 气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10CB846",

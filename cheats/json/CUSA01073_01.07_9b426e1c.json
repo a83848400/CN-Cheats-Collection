@@ -1,12 +1,17 @@
 {
-  "name": "Ratchet & Clank",
+  "name": "Ratchet & Clank｜《瑞奇与叮当》",
   "id": "CUSA01073",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BB1B8",

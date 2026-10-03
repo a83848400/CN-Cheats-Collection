@@ -1,12 +1,17 @@
 {
-  "name": "2Dark",
+  "name": "2Dark｜《Two Dark》",
   "id": "CUSA04802",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "423800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "423810",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Flash Light / Lantern",
-      "type": "checkbox",
+      "name": "Infinite 闪现 Light / 灯笼",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "423822",

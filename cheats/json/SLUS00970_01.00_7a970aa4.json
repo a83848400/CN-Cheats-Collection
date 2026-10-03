@@ -1,12 +1,17 @@
 {
-  "name": "Gekido: Urban Fighters",
+  "name": "Gekido: Urban Fighters｜《Gekido：都市格斗家》",
   "id": "SLUS00970",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13BB36",

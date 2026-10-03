@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light 2: Stay Human",
+  "name": "《消逝的光芒》 2: Stay 人类",
   "id": "CUSA12584",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Melee Durability",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Melee Durability｜近战武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB20",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Items (on use and buy turn off when upgrading)",
-      "type": "checkbox",
+      "name": "Items (on use and buy 回合 off when upgrading)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB50",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Experience (use after escaping Waltz)",
-      "type": "checkbox",
+      "name": "最大 Experience (use after escaping Waltz)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EC90",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "A lot of money (on gain)",
-      "type": "checkbox",
+      "name": "A 用地 of 金钱 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ECD0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF10",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "A lot of Money (on buy)",
-      "type": "checkbox",
+      "name": "A 用地 of 金钱 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA3E40",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Items Multiplier (use at risk) Optional for Legendary upgrades",
-      "type": "checkbox",
+      "name": "物品倍率 (use at risk) Optional for 传说宝可梦 upgrades",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A51C10",

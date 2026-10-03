@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 3" Moder="Dioniso" Cusa="CUSA14123" Version="01.05" Process="eboot.bin">
   <Items />
-  <Cheat Text="[iNFO] If cheat [07] ON, Carlos has to take the key on the 3rd floor of the Police Station before setting the C4 Detonator. [10] and [11] use them and better turn them off if you don`t want to mess with items and weapons.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[iNFO] If cheat [07] ON, Carlos has to take the 钥匙 on the 3rd floor of the Police Station before setting the C4炸药 Detonator. [10] and [11] use them and better 回合 them off if you don`恐怖分子 want to mess with items and 武器.">
     <Cheatline>
       <Offset>0713B080</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[00] MASTER CODE - ALWAYS ENABLED!!!">
+  <Cheat Text="[00] MASTER 密码 - ALWAYS ENABLED!!!">
     <Cheatline>
       <Offset>0713AFB0</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>8B-49-54-41-39-4E-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[01] Immunity Against NMEs">
+  <Cheat Text="[01] Immunity Against NMEs｜[01] 对新分子实体（NMEs）的耐受性">
     <Cheatline>
       <Offset>0713AA30</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>FF-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02] Infinite Health">
+  <Cheat Text="[02] 无限生命">
     <Cheatline>
       <Offset>0713AA60</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>F7-D9-0F-4C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03] Player Can Stand On Fire">
+  <Cheat Text="[03] Player Can Stand On 火">
     <Cheatline>
       <Offset>0176C5A7</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>E8-A4-8C-BB-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04] 1 Hit Kill">
+  <Cheat Text="[04] 一击必杀">
     <Cheatline>
       <Offset>0713AC60</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>8B-46-58-89-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05a] Player`s Speed x2 (Recommended) (Need Weapon)">
+  <Cheat Text="[05a] Player`s 速度 x2 (Recommended) (Need Weapon)">
     <Cheatline>
       <Offset>0713AB60</Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>C5-FA-10-43-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06] Infinite Ammo / No Reload">
+  <Cheat Text="[06] 无限弹药 / 无需换弹">
     <Cheatline>
       <Offset>0713AA00</Offset>
       <Section>0</Section>
@@ -131,7 +139,7 @@
       <ValueOff>89-51-20-44-89-E3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07] Any Item Works (-Vaccine Sample, Tape + Player, Kendo`s Gate Key, Jewels)">
+  <Cheat Text="[07] Any 物品 Works (-Vaccine Sample, 磁带 + Player, Kendo`s 大门 钥匙, 珠子)">
     <Cheatline>
       <Offset>0713AD80</Offset>
       <Section>0</Section>
@@ -145,7 +153,7 @@
       <ValueOff>0F-84-B4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08] Bag Slots Maxed: Jill">
+  <Cheat Text="[08] Bag Slots Maxed: 吉尔">
     <Cheatline>
       <Offset>0713AB00</Offset>
       <Section>0</Section>
@@ -159,7 +167,7 @@
       <ValueOff>44-89-B3-28-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09] Bag Slots Maxed: Carlos">
+  <Cheat Text="[09] Bag Slots Maxed: Carlos｜[09] 背包槽位已满：卡洛斯">
     <Cheatline>
       <Offset>0713AF80</Offset>
       <Section>0</Section>
@@ -173,7 +181,7 @@
       <ValueOff>44-8B-A0-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10] Store/Pick Up Weapon Get A Different One">
+  <Cheat Text="[10] Store/拾取 Weapon Get A Different One">
     <Cheatline>
       <Offset>0713AEA0</Offset>
       <Section>0</Section>
@@ -193,7 +201,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11] Store/Pick Up Item And Get A Custom Part">
+  <Cheat Text="[11] Store/拾取 物品 And Get A Custom Part">
     <Cheatline>
       <Offset>0713AE30</Offset>
       <Section>0</Section>
@@ -213,7 +221,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12] Electric Generators No Reload Time">
+  <Cheat Text="[12] Electric Generators No 换弹时间">
     <Cheatline>
       <Offset>B39CC0</Offset>
       <Section>0</Section>
@@ -221,7 +229,7 @@
       <ValueOff>89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13] SAVES To Zero (When Saving)">
+  <Cheat Text="[13] SAVES To 杰洛 (When Saving)">
     <Cheatline>
       <Offset>0713AD60</Offset>
       <Section>0</Section>
@@ -235,7 +243,7 @@
       <ValueOff>8B-40-24-FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14] 666666 Points (Read Once)">
+  <Cheat Text="[14] 666666 得分 (Read Once)">
     <Cheatline>
       <Offset>0713AB20</Offset>
       <Section>0</Section>
@@ -249,7 +257,7 @@
       <ValueOff>48-8D-05-AB-CA-46-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[15a] Game Mode When Saved: Assisted">
+  <Cheat Text="[15a] Game Mode When Saved: Assisted｜[15a] 保存时的游戏模式：辅助模式">
     <Cheatline>
       <Offset>0713AAC0</Offset>
       <Section>0</Section>
@@ -263,7 +271,7 @@
       <ValueOff>48-8D-05-55-81-6A-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[16] Results - Clear Time = 00-00-00">
+  <Cheat Text="[16] Results - Clear Time = 00-00-00｜[16] 结果 - 清场时间 = 00-00-00">
     <Cheatline>
       <Offset>0713AF60</Offset>
       <Section>0</Section>
@@ -277,7 +285,7 @@
       <ValueOff>48-89-5E-50-48-8B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17] Results - Times Saved = 0">
+  <Cheat Text="[17] Results - Times Saved = 0｜[17] 结果 - 节省的时间 = 0">
     <Cheatline>
       <Offset>0713AF00</Offset>
       <Section>0</Section>
@@ -291,7 +299,7 @@
       <ValueOff>44-8B-68-24-44-89-6E-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18] Results - Deaths = 0">
+  <Cheat Text="[18] Results - Deaths = 0｜[18] 结果——死亡人数 = 0">
     <Cheatline>
       <Offset>0713AF40</Offset>
       <Section>0</Section>
@@ -305,7 +313,7 @@
       <ValueOff>8B-80-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19] Results - Rank = S">
+  <Cheat Text="[19] Results - 阶级 = S">
     <Cheatline>
       <Offset>0713AF20</Offset>
       <Section>0</Section>
@@ -319,7 +327,7 @@
       <ValueOff>89-5E-5C-48-8B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20a] Size x1.0">
+  <Cheat Text="[20a] Size x1.0｜[20a] 尺寸 x1.0">
     <Cheatline>
       <Offset>0713B000</Offset>
       <Section>0</Section>

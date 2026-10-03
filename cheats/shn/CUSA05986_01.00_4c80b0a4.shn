@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Need for Speed Payback" Moder="x3shakir" Cusa="CUSA05986" Version="01.00" Process="eboot.bin">
   <Genres Name="Racing" />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>03E17E50</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>41-8B-40-14-41-8B-77-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Tokens">
+  <Cheat Text="最大 Tokens">
     <Cheatline>
       <Offset>03E17F50</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>41-89-4C-24-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Rep Points">
+  <Cheat Text="最大 声望 得分">
     <Cheatline>
       <Offset>0295ED5A</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>44-89-73-08-44-89-43-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Nitro">
+  <Cheat Text="无限氮气">
     <Cheatline>
       <Offset>35AA940</Offset>
       <Section>0</Section>

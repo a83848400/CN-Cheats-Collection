@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War: Ragnarok" Moder="Celogamez" Cusa="CUSA34388" Version="06.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/Rage/Stum/Arrows/Throwables/Weapon Charge (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/怒气/Stum/Arrows/可投掷物品/Weapon 冲锋 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>1787DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1787DB7</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rage">
+  <Cheat Text="Infinite Rage｜怒气无限">
     <Cheatline>
       <Offset>1787DF8</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Stum">
+  <Cheat Text="1 Hit Stum｜1 热门风格">
     <Cheatline>
       <Offset>1787E19</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows/Throwables">
+  <Cheat Text="箭矢无限/投掷物">
     <Cheatline>
       <Offset>1787E3A</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Charge (L1+Triangle)">
+  <Cheat Text="Infinite Weapon 冲锋 (L1+Triangle)">
     <Cheatline>
       <Offset>1787EB0</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>1787F50</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>C4-C1-7A-10-4C-24-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite HS/Resources/Fleeting Echoes/Mastery Seal/Spirit Seal/Divine Triunph">
+  <Cheat Text="最大/Infinite HS/Resources/Fleeting Echoes/Mastery 圣印/精魄 圣印/超凡入圣 Triunph">
     <Cheatline>
       <Offset>1787C60</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>01-D0-89-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP (Do Not Use In Valhalla)">
+  <Cheat Text="最大 XP (请勿在VALHALLA中使用)">
     <Cheatline>
       <Offset>1787C90</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>F0-01-57-08-EB-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Crystalline Fragment (100/Use Only For It)">
+  <Cheat Text="Crystalline Fragment (100/Use Only For It)｜晶体碎片（100/仅限此用途）">
     <Cheatline>
       <Offset>1787CC0</Offset>
       <Section>0</Section>

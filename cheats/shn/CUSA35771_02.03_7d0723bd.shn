@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Daymare: 1994 Sandcastle" Moder="Saso_9.00" Cusa="CUSA35771" Version="02.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Health / Ammo / Frost (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命 / 但是 / Frost (Master 密码)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>8B-16-89-17-5D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload / Frost (MC)">
+  <Cheat Text="无限弹药 / 无需换弹 / Frost (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

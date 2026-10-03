@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed: Rogue Remastered",
+  "name": "刺客信条: 潜行者 Remastered",
   "id": "CUSA10123",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34DF80C",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health Ship",
-      "type": "checkbox",
+      "name": "无限生命 Ship",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21ED02C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Money on Pick",
-      "type": "checkbox",
+      "name": "Max Money on Pick｜拾取金钱最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2549CE0",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Money/Items",
-      "type": "checkbox",
+      "name": "金钱无限/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2549FF8",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Resources on Pick",
-      "type": "checkbox",
+      "name": "最大 Resources on Pick",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34DF800",

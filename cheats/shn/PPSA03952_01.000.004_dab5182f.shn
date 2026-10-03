@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 3" Moder="Super Death" Cusa="PPSA03952" Version="01.000.004" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Weapon Ammo" Description="Weapons never run out of ammo/ no reload">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Weapon 但是" Description="Weapons never run out of ammo/ no reload">
     <Cheatline>
       <PS5Offset>404A92B-executable[0]-5</PS5Offset>
       <Section>0</Section>

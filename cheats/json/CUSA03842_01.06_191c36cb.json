@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 7: Biohazard",
+  "name": "生化危机 7: Biohazard",
   "id": "CUSA03842",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE4F866",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B9D76E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Dupe Items on Use",
-      "type": "checkbox",
+      "name": "Dupe Items on Use｜使用时的重复物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B9D770",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F47046",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE4F820",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "One Hit Down Boss",
-      "type": "checkbox",
+      "name": "One Hit Down Boss｜一击必杀的BOSS",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE4F831",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Max Scrap on Spend (Nightmare)",
-      "type": "checkbox",
+      "name": "废料最大 on Spend (Nightmare)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE4F844",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max Total Score After All Waves (Nightmare)",
-      "type": "checkbox",
+      "name": "最大 Total 比分 After All Waves (Nightmare)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE4F855",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Compactor Always Drops Max Scraps (Nightmare)",
-      "type": "checkbox",
+      "name": "Compactor Always Drops 最大 Scraps (Nightmare)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE4F875",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Freeze Timer (Bedroom)",
-      "type": "checkbox",
+      "name": "Freeze 计时器 (Bedroom)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10696CB",
@@ -145,8 +150,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables (Not a Hero) ",
-      "type": "checkbox",
+      "name": "投掷物无限 (Not a 英雄) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36A5A77",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen (Not a Hero)",
-      "type": "checkbox",
+      "name": "无限氧气 (Not a 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AE4F886",

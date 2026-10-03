@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Space" Moder="Super Death" Cusa="PPSA03845" Version="01.000.004" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="100 Million Credits" Description="Buy or sell something and turn off the cheat. DO NOT move items into or out of storage. Doing this may crash your game and/or console. Do so at your own risk.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="100 Million Credits｜1亿积分" Description="Buy or sell something and turn off the cheat. DO NOT move items into or out of storage. Doing this may crash your game and/or console. Do so at your own risk.">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>

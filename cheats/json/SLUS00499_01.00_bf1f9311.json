@@ -1,12 +1,17 @@
 {
-  "name": "C: The Contra Adventure",
+  "name": "C: The 魂斗罗 冒险模式",
   "id": "SLUS00499",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives-All Levels",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命-All Levels",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D67B8",
@@ -16,19 +21,19 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E9DE9",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "10"
         }
       ]
     },
     {
-      "name": "Inf-Bombs-Need-1",
-      "type": "checkbox",
+      "name": "无限炸弹-需要-1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F42AE",
@@ -38,19 +43,19 @@
       ]
     },
     {
-      "name": "Infinite-Health-2-3D",
-      "type": "checkbox",
+      "name": "Infinite-生命-2-3D",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "120139",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "10"
         }
       ]
     },
     {
-      "name": "Inf-Bombs-Need-1-3D",
-      "type": "checkbox",
+      "name": "无限炸弹需要1-3D",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BE4A",

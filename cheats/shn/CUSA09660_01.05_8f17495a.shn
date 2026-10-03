@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>AC235E</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>49-0F-4F-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>AC1A3F</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>48-0F-4F-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Heat" Description="">
+  <Cheat Text="Infinite Heat｜无限热血槽" Description="">
     <Cheatline>
       <Offset>AB2CE8</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C5-F2-5D-88-84-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>5978A5</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>709CD5</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>44-01-FA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Durability" Description="">
+  <Cheat Text="Infinite Weapon Durability｜武器耐久无限" Description="">
     <Cheatline>
       <Offset>C2A9EA</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>41-2B-54-24-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>ACD19A</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money, Skillpoints / Easy Completition" Description="">
+  <Cheat Text="金钱最大, 技能点 / 简单 Completition" Description="">
     <Cheatline>
       <Offset>DA8F15</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>48-0F-4F-CF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Enhancements" Description="">
+  <Cheat Text="Infinite Enhancements｜无限增强" Description="">
     <Cheatline>
       <Offset>A9A042</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>FF-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alcohol: Sober" Description="">
+  <Cheat Text="Alcohol: Sober｜酒精：清醒" Description="">
     <Cheatline>
       <Offset>A9A00E</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>C5-EA-5F-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alcohol: Level 1" Description="">
+  <Cheat Text="Alcohol: 等级 1" Description="">
     <Cheatline>
       <Offset>A9A022</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>C5-E2-5D-D2-C5-FA-11-90-50-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alcohol: Level 2" Description="">
+  <Cheat Text="Alcohol: 等级 2" Description="">
     <Cheatline>
       <Offset>A9A022</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>C5-E2-5D-D2-C5-FA-11-90-50-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alcohol: Level 3" Description="">
+  <Cheat Text="Alcohol: 等级 3" Description="">
     <Cheatline>
       <Offset>A9A022</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>C5-E2-5D-D2-C5-FA-11-90-50-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alcohol: Level 4" Description="">
+  <Cheat Text="Alcohol: 等级 4" Description="">
     <Cheatline>
       <Offset>A9A022</Offset>
       <Section>0</Section>
@@ -121,7 +129,7 @@
       <ValueOff>C5-E2-5D-D2-C5-FA-11-90-50-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alcohol: Level 5" Description="">
+  <Cheat Text="Alcohol: 等级 5" Description="">
     <Cheatline>
       <Offset>A9A022</Offset>
       <Section>0</Section>
@@ -129,7 +137,7 @@
       <ValueOff>C5-E2-5D-D2-C5-FA-11-90-50-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alcohol: Level 6" Description="">
+  <Cheat Text="Alcohol: 等级 6" Description="">
     <Cheatline>
       <Offset>A9A022</Offset>
       <Section>0</Section>
@@ -137,7 +145,7 @@
       <ValueOff>C5-E2-5D-D2-C5-FA-11-90-50-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Troublr: Infinite Time" Description="">
+  <Cheat Text="Troublr: 无限时间" Description="">
     <Cheatline>
       <Offset>CA2E47</Offset>
       <Section>0</Section>
@@ -151,7 +159,7 @@
       <ValueOff>0F-46-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Darts: Easy X01" Description="">
+  <Cheat Text="Darts: 简单 X01" Description="">
     <Cheatline>
       <Offset>116F525</Offset>
       <Section>0</Section>
@@ -159,7 +167,7 @@
       <ValueOff>0F-85-B1-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Darts: Perfect Shot" Description="">
+  <Cheat Text="Darts: Perfect Shot｜飞镖：完美一投" Description="">
     <Cheatline>
       <Offset>602C45</Offset>
       <Section>0</Section>
@@ -167,7 +175,7 @@
       <ValueOff>C5-FA-58-C1-C5-F8-2E-05-DB-78-1A-02-C4-C1-7A-11-84-24-2C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Darts: Easy Score" Description="">
+  <Cheat Text="Darts: 简单 比分" Description="">
     <Cheatline>
       <Offset>116AB7A</Offset>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>8B-B4-88-C8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Batting Center: Infinite Balls" Description="">
+  <Cheat Text="Batting Center: 无限精灵球" Description="">
     <Cheatline>
       <Offset>10F6B04</Offset>
       <Section>0</Section>
@@ -183,7 +191,7 @@
       <ValueOff>41-FF-87-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Batting Center: Easy Max Score" Description="">
+  <Cheat Text="Batting Center: 简单 最大 比分" Description="">
     <Cheatline>
       <Offset>2947800</Offset>
       <Section>0</Section>
@@ -239,7 +247,7 @@
       <ValueOff>C7-80-20-01-00-00-00-00-00-00</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="RIZAP: Bench Press: Max Score" Description="">
+  <Cheat Text="RIZAP: 替补席 Press: 最大 比分" Description="">
     <Cheatline>
       <Offset>294780F</Offset>
       <Section>0</Section>
@@ -253,7 +261,7 @@
       <ValueOff>41-FF-87-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Live-Chat: Max Points on Buy" Description="">
+  <Cheat Text="Live-Chat: 最大 得分 on Buy" Description="">
     <Cheatline>
       <Offset>2530E5</Offset>
       <Section>0</Section>
@@ -261,7 +269,7 @@
       <ValueOff>0F-43-FA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Live-Chat: Infinite Points" Description="">
+  <Cheat Text="Live-Chat: Infinite 得分" Description="">
     <Cheatline>
       <Offset>2504C7</Offset>
       <Section>0</Section>
@@ -269,7 +277,7 @@
       <ValueOff>29-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Live-Chat: Max Score" Description="">
+  <Cheat Text="Live-Chat: 最大 比分" Description="">
     <Cheatline>
       <Offset>241980</Offset>
       <Section>0</Section>
@@ -289,7 +297,7 @@
       <ValueOff>C5-F2-5D-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Live-Chat: Infinite Time" Description="">
+  <Cheat Text="Live-Chat: 无限时间" Description="">
     <Cheatline>
       <Offset>24058B</Offset>
       <Section>0</Section>
@@ -297,7 +305,7 @@
       <ValueOff>C5-FA-5C-05-91-25-81-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Cabaret: Hostess Max Score" Description="">
+  <Cheat Text="Cabaret: 陪酒女郎 最大 比分" Description="">
     <Cheatline>
       <Offset>34B610</Offset>
       <Section>0</Section>
@@ -305,7 +313,7 @@
       <ValueOff>41-0F-42-C4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nyan-Nyan Cafe: Instant Cat-Friendship" Description="">
+  <Cheat Text="Nyan-Nyan Cafe: Instant Cat-Friendship｜喵喵咖啡馆：瞬间结交猫咪朋友" Description="">
     <Cheatline>
       <Offset>9F33B4</Offset>
       <Section>0</Section>
@@ -313,7 +321,7 @@
       <ValueOff>44-0F-46-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spearfishing: Infinite Ammo" Description="">
+  <Cheat Text="Spearfishing: 无限弹药" Description="">
     <Cheatline>
       <Offset>6BD995</Offset>
       <Section>0</Section>
@@ -321,7 +329,7 @@
       <ValueOff>41-89-4C-24-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spearfishing: Easy Score" Description="">
+  <Cheat Text="Spearfishing: 简单 比分" Description="">
     <Cheatline>
       <Offset>6C6B6E</Offset>
       <Section>0</Section>
@@ -329,7 +337,7 @@
       <ValueOff>0F-42-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spearfishing: Infinite Air" Description="">
+  <Cheat Text="Spearfishing: 无限之空" Description="">
     <Cheatline>
       <Offset>6BEC7F</Offset>
       <Section>0</Section>
@@ -337,7 +345,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spearfishing: Max Level" Description="">
+  <Cheat Text="Spearfishing: 等级最大" Description="">
     <Cheatline>
       <Offset>6BFB6B</Offset>
       <Section>0</Section>
@@ -345,7 +353,7 @@
       <ValueOff>0F-42-D3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Clan Creator: Infinite Time" Description="">
+  <Cheat Text="帮派创建者: 无限时间" Description="">
     <Cheatline>
       <Offset>5DC30B</Offset>
       <Section>0</Section>
@@ -353,7 +361,7 @@
       <ValueOff>C5-F2-5C-4C-24-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Clan Creator: Infinite Deployment-Gauge" Description="">
+  <Cheat Text="帮派创建者: Infinite Deployment-Gauge" Description="">
     <Cheatline>
       <Offset>5DEA35</Offset>
       <Section>0</Section>
@@ -361,7 +369,7 @@
       <ValueOff>0F-4E-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Clan Creator: Max XP on Get" Description="">
+  <Cheat Text="帮派创建者: 最大 XP on Get" Description="">
     <Cheatline>
       <Offset>113D5D0</Offset>
       <Section>0</Section>
@@ -369,7 +377,7 @@
       <ValueOff>41-39-47-10-0F-8C-DD-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Clan Creator: 1 Hit Kills (Both Sides)" Description="">
+  <Cheat Text="帮派创建者: 一击必杀 (Both Sides)" Description="">
     <Cheatline>
       <Offset>AC1A38</Offset>
       <Section>0</Section>
@@ -377,7 +385,7 @@
       <ValueOff>49-0F-49-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="New Gaudi: Stay Sober" Description="">
+  <Cheat Text="New Gaudi: Stay Sober｜新高迪：保持清醒" Description="">
     <Cheatline>
       <Offset>12F1DF8</Offset>
       <Section>0</Section>
@@ -391,7 +399,7 @@
       <ValueOff>C5-FA-5D-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="New Gaudi: Max Liveliness Gauge" Description="">
+  <Cheat Text="New Gaudi: 最大 Liveliness Gauge" Description="">
     <Cheatline>
       <Offset>6A179F</Offset>
       <Section>0</Section>
@@ -411,7 +419,7 @@
       <ValueOff>41-0F-4C-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Baseball: Max Level on 2nd XP Gain" Description="">
+  <Cheat Text="Baseball: 等级最大 on 2nd XP Gain" Description="">
     <Cheatline>
       <Offset>294781F</Offset>
       <Section>0</Section>
@@ -425,7 +433,7 @@
       <ValueOff>44-89-9C-08-D4-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Baseball: Infinite Pitches" Description="">
+  <Cheat Text="Baseball: Infinite Pitches｜棒球：《无限投球》" Description="">
     <Cheatline>
       <Offset>402F3D</Offset>
       <Section>0</Section>
@@ -445,7 +453,7 @@
       <ValueOff>83-C2-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Baseball: No Strikes" Description="">
+  <Cheat Text="Baseball: No Strikes｜棒球：无好球" Description="">
     <Cheatline>
       <Offset>4519FF</Offset>
       <Section>0</Section>

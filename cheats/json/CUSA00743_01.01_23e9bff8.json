@@ -1,13 +1,18 @@
 {
-  "name": "Peggle 2",
+  "name": "Peggle 2｜《Peggle 2》",
   "id": "CUSA00743",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Balls",
-      "description": "You can activate it at any time in the game (Puedes activarlo en cualquier momento del juego)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Balls｜无限精灵球",
+      "description": "You can activate it at any time in the game (Puedes activarlo en cualquier momento del juego)｜你可以在游戏中的任何时候激活它（Puedes activarlo en cualquier momento del juego）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2398B0",

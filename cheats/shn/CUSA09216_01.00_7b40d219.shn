@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Sims 4" Moder="Molly" Cusa="CUSA09216" Version="01.00" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Max Simoleon -Load Your House-">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 模拟币 -读取 Your House-">
     <Cheatline>
       <Offset>1F57800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-83-8E-D4-00-00-00-10-49-89-46-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Aspiration Points -Load Your House-">
+  <Cheat Text="最大 抱负 得分 -读取 Your House-">
     <Cheatline>
       <Offset>1F57818</Offset>
       <Section>0</Section>

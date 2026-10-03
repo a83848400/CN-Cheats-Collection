@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Advanced Warfare" Moder="DeathRGH" Cusa="CUSA00851" Version="01.00" Process="default_mp.elf">
   <Items />
-  <Cheat Text="All Client Infinite Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="All Client 无限弹药">
     <Cheatline>
       <Offset>1768EF</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>44-29-7C-81-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Client Godmode">
+  <Cheat Text="All Client 上帝模式">
     <Cheatline>
       <Offset>31389A</Offset>
       <Section>0</Section>

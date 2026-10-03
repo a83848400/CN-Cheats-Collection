@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Inf HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量" Description="">
     <Cheatline>
       <Offset>15CF800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-4F-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo - Res" Description="">
+  <Cheat Text="无限弹药 - Res" Description="">
     <Cheatline>
       <Offset>88751C</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>66-89-58-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>8EB263</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil" Description="">
+  <Cheat Text="No Recoil｜消除后坐力" Description="">
     <Cheatline>
       <Offset>15CF830</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>C5-FA-10-8B-90-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapid Fire" Description="">
+  <Cheat Text="Rapid Fire｜快速射击" Description="">
     <Cheatline>
       <Offset>A09D51</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>C4-C1-7A-11-85-FC-10-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points on Use" Description="">
+  <Cheat Text="最大 Skill 得分 on Use" Description="">
     <Cheatline>
       <Offset>15CF822</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>44-0F-42-F1-44-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="">
+  <Cheat Text="Super Jump｜超级跳跃" Description="">
     <Cheatline>
       <Offset>15CF85B</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C5-F8-29-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Moon Jump" Description="">
+  <Cheat Text="Moon Jump｜月球超级跳跃" Description="">
     <Cheatline>
       <Offset>15CF800</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>C5-F8-29-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Bonus Time" Description="">
+  <Cheat Text="无限奖励时间" Description="">
     <Cheatline>
       <Offset>90B8E9</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>C4-C1-7A-11-85-C4-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Combo Time" Description="">
+  <Cheat Text="无限连击 Time" Description="">
     <Cheatline>
       <Offset>908E46</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>C5-FA-11-83-C8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Hunger Meter" Description="">
+  <Cheat Text="Full Hunger Meter｜饥饿值满格" Description="">
     <Cheatline>
       <Offset>8F8706</Offset>
       <Section>0</Section>
@@ -121,7 +129,7 @@
       <ValueOff>C5-FA-11-47-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Cold Meter" Description="">
+  <Cheat Text="Full Cold Meter｜全冷计" Description="">
     <Cheatline>
       <Offset>8F7135</Offset>
       <Section>0</Section>
@@ -129,7 +137,7 @@
       <ValueOff>C5-FA-11-47-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Hunger and Cold Meter" Description="">
+  <Cheat Text="Full Hunger and Cold Meter｜饥饿和寒冷值已满" Description="">
     <Cheatline>
       <Offset>DAA141</Offset>
       <Section>0</Section>

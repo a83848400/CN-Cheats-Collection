@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Parts, Skills, Items On Use (x999)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Parts, Skills, Items On Use (x999)｜零件、技能、使用型道具（x999）">
     <Cheatline>
       <Offset>7FC5B5A0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>66-42-89-84-47-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tools Level 5 On Gain">
+  <Cheat Text="Tools 等级 5 On Gain">
     <Cheatline>
       <Offset>68462</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>FF-84-BB-48-64-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Flashlight Does Not Turn Off">
+  <Cheat Text="手电筒 Does Not 回合 Off">
     <Cheatline>
       <Offset>7FC5BDB0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C4-C1-7A-11-95-D4-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Dev Menu">
+  <Cheat Text="Enable Dev 菜单">
     <Cheatline>
       <Offset>7FC5AE00</Offset>
       <Section>0</Section>

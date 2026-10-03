@@ -1,12 +1,17 @@
 {
-  "name": "Baldo: The Guardian Owls",
+  "name": "Baldo: The 守护者 Owls",
   "id": "CUSA27312",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max HP (Get heart)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命值最大 (Get heart)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A27",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite HP",
-      "type": "checkbox",
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A33",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Stamina",
-      "type": "checkbox",
+      "name": "Stamina｜体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A3E",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Stamina Always Show",
-      "type": "checkbox",
+      "name": "体力 Always Show",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A4B",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "99 Potion Items / Collectibles use",
-      "type": "checkbox",
+      "name": "99 药水 Items / Collectibles use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A5B",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Magic Orb (use)",
-      "type": "checkbox",
+      "name": "魔法 Orb (use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A66",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Gold (shop)",
-      "type": "checkbox",
+      "name": "金币 (shop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A77",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Sacred Fire Full Bar",
-      "type": "checkbox",
+      "name": "Sacred 火 Full Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A87",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Item Timer",
-      "type": "checkbox",
+      "name": "物品 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D5A98",

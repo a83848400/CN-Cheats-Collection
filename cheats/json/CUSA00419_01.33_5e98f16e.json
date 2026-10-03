@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto V",
+  "name": "侠盗猎车手 V",
   "id": "CUSA00419",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible [On]",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 [On]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55140",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincible [Off]",
-      "type": "checkbox",
+      "name": "无敌 [Off]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55140",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Full Player Health",
-      "type": "checkbox",
+      "name": "Full Player 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55159",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Full Player Armor",
-      "type": "checkbox",
+      "name": "Full Player Armor｜全身玩家护甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14409C",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Full Player Special Ability",
-      "type": "checkbox",
+      "name": "Full Player Special 特性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E5516E",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Full Player Oxygen",
-      "type": "checkbox",
+      "name": "Full Player Oxygen｜全员供氧",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E5517D",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Player Stamina",
-      "type": "checkbox",
+      "name": "Infinite Player 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E5518E",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E551A3",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "015E1830",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Vehicle Engine Durable [On]",
-      "type": "checkbox",
+      "name": "Vehicle 引擎 Durable [On]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55287",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Vehicle Engine Durable [Off]",
-      "type": "checkbox",
+      "name": "Vehicle 引擎 Durable [Off]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55287",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Run Speed Faster [1.5]",
-      "type": "checkbox",
+      "name": "Run 速度 Faster [1.5]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55225",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Swim Speed Faster [2.5]",
-      "type": "checkbox",
+      "name": "Swim 速度 Faster [2.5]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E552B4",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Powerful Shot [On]",
-      "type": "checkbox",
+      "name": "强力射门 [On]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55255",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "Shot Power [Normal-Off]",
-      "type": "checkbox",
+      "name": "射门力量 [普通-Off]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55255",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Super Power Punch [On]",
-      "type": "checkbox",
+      "name": "Super 电力 Punch [On]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55270",
@@ -251,8 +256,8 @@
       ]
     },
     {
-      "name": "Power Punch [Normal-Off]",
-      "type": "checkbox",
+      "name": "电力 Punch [普通-Off]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E55270",
@@ -267,8 +272,8 @@
       ]
     },
     {
-      "name": "Reset Wanted Star Level",
-      "type": "checkbox",
+      "name": "Reset Wanted Star Level｜重置通缉星级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E551B7",
@@ -283,8 +288,8 @@
       ]
     },
     {
-      "name": "Remove Noise On Wanted",
-      "type": "checkbox",
+      "name": "Remove Noise On Wanted｜消除通缉提示噪音",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63C380",
@@ -294,8 +299,8 @@
       ]
     },
     {
-      "name": "Have 2.1 B Money [Don't Freez It]",
-      "type": "checkbox",
+      "name": "Have 2.1 B 金钱 [Don'恐怖分子 Freez It]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E551EF",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Super Jump {On}",
-      "type": "checkbox",
+      "name": "超级跳跃 {On}",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E5529E",
@@ -326,8 +331,8 @@
       ]
     },
     {
-      "name": "Explosive Ammo {On}",
-      "type": "checkbox",
+      "name": "Explosive 但是 {On}",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E5529E",
@@ -342,8 +347,8 @@
       ]
     },
     {
-      "name": "Super Jump-Expl. Ammo {On}",
-      "type": "checkbox",
+      "name": "超级跳跃-Expl. 但是 {On}",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "02E5529E",

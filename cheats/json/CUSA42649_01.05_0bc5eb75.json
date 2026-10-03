@@ -1,12 +1,17 @@
 {
-  "name": "Disney Epic Mickey: Rebrushed",
+  "name": "Disney Epic 米奇: Rebrushed",
   "id": "CUSA42649",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "GodMode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "GodMode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E82A4A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Ink",
-      "type": "checkbox",
+      "name": "Infinite 墨水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4805E1",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Life",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A1F40",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf Tickets",
-      "type": "checkbox",
+      "name": "无限门票",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FA3000",

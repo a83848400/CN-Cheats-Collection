@@ -1,12 +1,17 @@
 {
-  "name": "Evil West",
+  "name": "Evil West｜邪恶的西部",
   "id": "CUSA25569",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (only after the bar shows up)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (only after the bar shows up)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6BABB40",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Coins (on buy turn on after first purchase)",
-      "type": "checkbox",
+      "name": "最大 角落 (on buy 回合 on after first purchase)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6BAB710",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience (turn on after the first level up)",
-      "type": "checkbox",
+      "name": "最大 Experience (回合 on after the first 升级)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6BAB600",

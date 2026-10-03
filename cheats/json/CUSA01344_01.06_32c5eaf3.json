@@ -1,13 +1,18 @@
 {
-  "name": "The Binding of Isaac: Rebirth",
+  "name": "The Binding of Isaac: Rebirth｜《以撒的献祭：重生》",
   "id": "CUSA01344",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8037FDB5",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Bombs",
+      "name": "Infinite Bombs｜无限炸弹",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8038EA76",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Coins",
+      "name": "Infinite Coins｜无限金币",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8036E88C",

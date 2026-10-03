@@ -1,12 +1,17 @@
 {
-  "name": "Outward",
+  "name": "Outward｜向外",
   "id": "CUSA10853",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health(100)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命(100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Health (100)",
-      "type": "checkbox",
+      "name": "生命最大 (100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (100)",
-      "type": "checkbox",
+      "name": "无限耐力 (100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Stamina (100)",
-      "type": "checkbox",
+      "name": "体力最大 (100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF90",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (200)",
-      "type": "checkbox",
+      "name": "无限法力 (200)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FD70",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Durability (Armor/weapons/food)",
-      "type": "checkbox",
+      "name": "最大 耐用性 (Armor/武器/food)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F940",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "No Hunger",
-      "type": "checkbox",
+      "name": "No Hunger｜不会饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FCD0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "No Thirst",
-      "type": "checkbox",
+      "name": "No Thirst｜不会口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF40",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "No Sleep",
-      "type": "checkbox",
+      "name": "No Sleep｜不睡觉",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FD00",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "2000 Coins (on buy needs 50 Capacity )",
-      "type": "checkbox",
+      "name": "2000 角落 (on buy 需求 50 Capacity )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FBD0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "4000 Coins (On buy Needs 50 Capacity Bag)",
-      "type": "checkbox",
+      "name": "4000 角落 (On buy 需求 50 Capacity Bag)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAF0",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "9000 Coins on Buy (Needs 100 Capacity bag)",
-      "type": "checkbox",
+      "name": "9000 角落 on Buy (需求 100 Capacity bag)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAC0",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "1 weight (doesnt work on silver coins)",
-      "type": "checkbox",
+      "name": "1 重量 (doesnt work on silver 角落)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FEC0",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "No Cooldown (Skills/Spells)",
-      "type": "checkbox",
+      "name": "无冷却 (Skills/Spells)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE30",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/items except food(turn off when removing traps or tents)",
-      "type": "checkbox",
+      "name": "无限弹药/items except food(回合 off when removing 陷阱 or tents)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FD30",

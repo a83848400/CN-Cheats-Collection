@@ -1,12 +1,17 @@
 {
-  "name": "Dead Cells",
+  "name": "Dead Cells｜《Dead Cells》",
   "id": "CUSA11253",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "--Infinite_Life",
-      "type": "checkbox",
+      "name": "--无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF02F",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
-      "type": "checkbox",
+      "name": "--一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF037",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16743E",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF05F",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "40CCF8",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF090",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Inf Cells",
-      "type": "checkbox",
+      "name": "无限细胞",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AAF0F0",

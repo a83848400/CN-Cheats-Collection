@@ -1,12 +1,17 @@
 {
-  "name": "Super Robot Taisen OG: The Moon Dwellers",
+  "name": "Super Robot Taisen OG: The Moon Dwellers｜《超机器人大战OG：月之居民》",
   "id": "CUSA04713",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money Gain on spend",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱 Gain on spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EB997",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "AP Gain on spend",
-      "type": "checkbox",
+      "name": "行动点 Gain on spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F41DC",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "PP Gain on spend",
-      "type": "checkbox",
+      "name": "招式点数 Gain on spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12DD64",

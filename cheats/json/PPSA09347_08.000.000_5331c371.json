@@ -1,13 +1,18 @@
 {
-  "name": "The Last Faith",
+  "name": "The Last 信仰",
   "id": "PPSA09347",
   "version": "08.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD9FF00",
@@ -42,9 +47,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD9FF00",
@@ -54,9 +59,9 @@
       ]
     },
     {
-      "name": "--Inf_Mind",
+      "name": "--无限心智",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD9FF01",
@@ -66,9 +71,9 @@
       ]
     },
     {
-      "name": "--Inf_Power",
+      "name": "--无限力量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD9FF02",
@@ -78,9 +83,9 @@
       ]
     },
     {
-      "name": "--One_hit_kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD9FF03",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Inf Items and Money",
+      "name": "道具无限 and 金钱",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1709F",

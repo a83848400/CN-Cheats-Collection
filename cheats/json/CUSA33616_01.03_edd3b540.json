@@ -1,12 +1,17 @@
 {
-  "name": "The Lord of the Rings: Gollum",
+  "name": "The 领主 of the 金环: Gollum",
   "id": "CUSA33616",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "686BF20",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "686BEE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Food use",
-      "type": "checkbox",
+      "name": "食物无限 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12A27E7",

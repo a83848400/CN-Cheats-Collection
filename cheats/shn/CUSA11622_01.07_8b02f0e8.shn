@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Agony" Moder="Reddevil82 - FW 9.00" Cusa="CUSA11622" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>4CC7800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-8B-F0-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>4CC7DB0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-83-88-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath">
+  <Cheat Text="Infinite Breath｜无限呼吸">
     <Cheatline>
       <Offset>4CC7833</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-83-94-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Astral Timer">
+  <Cheat Text="Infinite Astral 计时器">
     <Cheatline>
       <Offset>4CC784A</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C4-C1-7A-11-87-10-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health">
+  <Cheat Text="Max Health｜生命最大">
     <Cheatline>
       <Offset>4CC7863</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C5-FA-10-83-5C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stamina">
+  <Cheat Text="Max Stamina｜体力最大">
     <Cheatline>
       <Offset>4CC787C</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C5-FA-10-9B-20-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Breath">
+  <Cheat Text="最大 Breath">
     <Cheatline>
       <Offset>4CC7895</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C5-FA-10-83-24-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Astral Timer">
+  <Cheat Text="最大 Astral 计时器">
     <Cheatline>
       <Offset>4CC78AE</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>C5-FA-5E-87-0C-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skills">
+  <Cheat Text="最大 Skills">
     <Cheatline>
       <Offset>4CC7DC5</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>E8-C5-A0-0C-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Knowledge">
+  <Cheat Text="最大 Knowledge">
     <Cheatline>
       <Offset>4CC7DD9</Offset>
       <Section>0</Section>

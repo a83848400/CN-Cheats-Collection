@@ -5,7 +5,15 @@
   <Genres Name="Horror" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Bottomless Clip">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Bottomless Clip｜无底夹">
     <Cheatline>
       <Offset>407358</Offset>
       <Section>0</Section>
@@ -13,7 +21,7 @@
       <ValueOff>41-89-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>7D9558</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>41-89-4D-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money (Raid)">
+  <Cheat Text="金钱无限 (团本)">
     <Cheatline>
       <Offset>153F800</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>4C-89-A3-C8-C4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite BP">
+  <Cheat Text="Infinite 战斗点数">
     <Cheatline>
       <Offset>153F813</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>89-87-B0-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>153F823</Offset>
       <Section>0</Section>
@@ -63,7 +71,7 @@
       <ValueOff>75-03-8B-53-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>410210</Offset>
       <Section>0</Section>

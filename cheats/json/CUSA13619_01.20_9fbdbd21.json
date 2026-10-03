@@ -1,12 +1,17 @@
 {
-  "name": "NBA 2K Playgrounds 2",
+  "name": "NBA 2K Playgrounds 2｜《NBA 2K Playgrounds 2》",
   "id": "CUSA13619",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Spend it to Get Max Baller Coin",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Spend it to Get 最大 Baller Coin",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4DB7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "SPEND GOLD COIN TO MAX",
-      "type": "checkbox",
+      "name": "SPEND 金币 COIN TO 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4DB7811",

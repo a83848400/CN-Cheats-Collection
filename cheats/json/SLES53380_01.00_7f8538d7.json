@@ -1,28 +1,33 @@
 {
-  "name": "Metal Slug 4",
+  "name": "金属 Slug 4",
   "id": "SLES53380",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808034D880",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "808034D881",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808034DD49",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite-bomb",
-      "type": "checkbox",
+      "name": "Infinite-bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80807B1107",
@@ -43,18 +48,18 @@
       ]
     },
     {
-      "name": "Infinite-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-Weapon｜无限武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80807B110C",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "80807B110D",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     }

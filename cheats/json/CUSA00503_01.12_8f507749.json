@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Age: Inquisition",
+  "name": "龙腾世纪: 审判庭",
   "id": "CUSA00503",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Disable Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Disable 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213813",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Disable Max Health",
-      "type": "checkbox",
+      "name": "Disable 生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321381A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Disable Infinite Stamina / Mana",
-      "type": "checkbox",
+      "name": "Disable 无限耐力 / 法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213824",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Disable Max Stamina / Mana",
-      "type": "checkbox",
+      "name": "Disable 体力最大 / 法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321382E",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Disable Infinite Focus",
-      "type": "checkbox",
+      "name": "Disable 无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213838",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Disable Max Focus",
-      "type": "checkbox",
+      "name": "Disable 最大 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213842",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Disable Max EXP",
-      "type": "checkbox",
+      "name": "Disable 经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321384C",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Disable Max Ability Points",
-      "type": "checkbox",
+      "name": "Disable 最大 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213856",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Disable Max Cooldown",
-      "type": "checkbox",
+      "name": "Disable 最大 Cooldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213860",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Disable Max STR",
-      "type": "checkbox",
+      "name": "Disable 最大 STR",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321386A",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Disable Max DEX",
-      "type": "checkbox",
+      "name": "Disable 最大 DEX",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213874",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Disable Max MAG",
-      "type": "checkbox",
+      "name": "Disable 最大 弹匣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321387E",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Disable Max Cunning",
-      "type": "checkbox",
+      "name": "Disable 最大 Cunning",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213888",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Disable Max Willpower",
-      "type": "checkbox",
+      "name": "Disable 意志力最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213892",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Disable Max CON",
-      "type": "checkbox",
+      "name": "Disable 最大 CON",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321389C",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Disable Max Attack",
-      "type": "checkbox",
+      "name": "Disable 攻击力最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138A6",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Disable Max Guard Damage",
-      "type": "checkbox",
+      "name": "Disable 最大 防御 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138B0",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "Disable Max Penetration",
-      "type": "checkbox",
+      "name": "Disable 最大 Penetration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138BA",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Disable Max Barrier Damage Bonus",
-      "type": "checkbox",
+      "name": "Disable 最大 屏障 输出 Bonus",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138C4",
@@ -214,8 +219,8 @@
       ]
     },
     {
-      "name": "Disable Max Critical Damage Bonus",
-      "type": "checkbox",
+      "name": "Disable 暴击伤害最大 Bonus",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138CE",
@@ -225,8 +230,8 @@
       ]
     },
     {
-      "name": "Disable Max Critical Chance",
-      "type": "checkbox",
+      "name": "Disable 最大 暴击 Chance",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138D8",
@@ -236,8 +241,8 @@
       ]
     },
     {
-      "name": "Disable Max Main Hand Bonus",
-      "type": "checkbox",
+      "name": "Disable 最大 Main 手牌 Bonus",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138E2",
@@ -247,8 +252,8 @@
       ]
     },
     {
-      "name": "Disable Max Off Hand Bonus",
-      "type": "checkbox",
+      "name": "Disable 最大 Off 手牌 Bonus",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138EC",
@@ -258,8 +263,8 @@
       ]
     },
     {
-      "name": "Disable Max Sunder On Hit",
-      "type": "checkbox",
+      "name": "Disable 最大 Sunder On Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32138F6",
@@ -269,8 +274,8 @@
       ]
     },
     {
-      "name": "Disable Max Stagger On Hit",
-      "type": "checkbox",
+      "name": "Disable 最大 硬直 On Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213900",
@@ -280,8 +285,8 @@
       ]
     },
     {
-      "name": "Disable Heal On Kill",
-      "type": "checkbox",
+      "name": "Disable 治疗 On Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321390A",
@@ -291,8 +296,8 @@
       ]
     },
     {
-      "name": "Disable Max Flanking Damage",
-      "type": "checkbox",
+      "name": "Disable 最大 Flanking 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213914",
@@ -302,8 +307,8 @@
       ]
     },
     {
-      "name": "Disable Max Magic Defense",
-      "type": "checkbox",
+      "name": "Disable 魔法防御力最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321391E",
@@ -313,8 +318,8 @@
       ]
     },
     {
-      "name": "Disable Max Melee Defense",
-      "type": "checkbox",
+      "name": "Disable 最大 近战 防御",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213928",
@@ -324,8 +329,8 @@
       ]
     },
     {
-      "name": "Disable Max Range Defense",
-      "type": "checkbox",
+      "name": "Disable 最大 射程 防御",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213932",
@@ -335,8 +340,8 @@
       ]
     },
     {
-      "name": "Disable Max Cold Resistance",
-      "type": "checkbox",
+      "name": "Disable 最大 Cold Resistance",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321393C",
@@ -346,8 +351,8 @@
       ]
     },
     {
-      "name": "Disable Max Electric Resistance",
-      "type": "checkbox",
+      "name": "Disable 最大 Electric Resistance",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213946",
@@ -357,8 +362,8 @@
       ]
     },
     {
-      "name": "Disable Max Fire Resistance",
-      "type": "checkbox",
+      "name": "Disable 最大 火焰抗性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213950",
@@ -368,8 +373,8 @@
       ]
     },
     {
-      "name": "Disable Max Spirit Resistance",
-      "type": "checkbox",
+      "name": "Disable 最大 精魄 Resistance",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321395A",
@@ -379,8 +384,8 @@
       ]
     },
     {
-      "name": "Disable Max Guard (Auto Cast)",
-      "type": "checkbox",
+      "name": "Disable 最大 防御 (Auto 施法)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3213961",
@@ -390,8 +395,8 @@
       ]
     },
     {
-      "name": "Disable Max Barrier (Auto Cast)",
-      "type": "checkbox",
+      "name": "Disable 最大 屏障 (Auto 施法)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "321396B",
@@ -401,8 +406,8 @@
       ]
     },
     {
-      "name": "Max Item",
-      "type": "checkbox",
+      "name": "最大 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D2653",
@@ -412,8 +417,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32139E0",

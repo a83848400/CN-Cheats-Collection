@@ -1,12 +1,17 @@
 {
-  "name": "Stellaris: Console Edition",
+  "name": "Stellaris: Console Edition｜《Stellaris：主机版》",
   "id": "CUSA07254",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Stellaris Backport 5.05 Game Version 01.52",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Stellaris Backport 5.05 Game Version 01.52｜《Stellaris》5.05 回溯移植版 游戏版本 01.52",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17FD9F1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Resources",
-      "type": "checkbox",
+      "name": "Infinite Resources｜资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17FD9D1",

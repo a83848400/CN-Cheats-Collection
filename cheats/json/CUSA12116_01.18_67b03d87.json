@@ -1,12 +1,17 @@
 {
-  "name": "Dead or Alive 6",
+  "name": "死或生 6",
   "id": "CUSA12116",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1413432",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Gauge Bar",
-      "type": "checkbox",
+      "name": "最大 Gauge Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14B8BB9",

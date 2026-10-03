@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (Mastercode/Must Be On)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (主代码/Must Be On)">
     <Cheatline>
       <Offset>103FDB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-4B-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>103FDB6</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C5-FA-11-4B-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>103FDB4</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>75-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/No Reload">
+  <Cheat Text="无限弹药/无需换弹">
     <Cheatline>
       <Offset>7DC742</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>FF-4B-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite EP (On Gain)">
+  <Cheat Text="最大/《Infinite》EP (On Gain)">
     <Cheatline>
       <Offset>103FA00</Offset>
       <Section>0</Section>

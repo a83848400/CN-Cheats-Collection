@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Phantom Pain",
+  "name": "合金装备/潜龙谍影 V: The 灵体 Pain",
   "id": "CUSA01140",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max GMP",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 GMP",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37E78D4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Fuel Resources",
-      "type": "button",
+      "name": "最大 Fuel Resources",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D60",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Biological Material",
-      "type": "button",
+      "name": "最大 Biological Material",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D64",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Common Metal",
-      "type": "button",
+      "name": "最大 Common 金属",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D68",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Minor Metal",
-      "type": "button",
+      "name": "最大 Minor 金属",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D6C",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max Precious Metal",
-      "type": "button",
+      "name": "最大 Precious 金属",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D70",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Max Wormwood",
-      "type": "button",
+      "name": "最大 Wormwood",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D74",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Max Black Carrot",
-      "type": "button",
+      "name": "最大 黑色 Carrot",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D78",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Max Golden Crescent",
-      "type": "button",
+      "name": "最大 金色 Crescent",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D7C",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Max Tarragon",
-      "type": "button",
+      "name": "最大 Tarragon",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D80",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Max African Peach",
-      "type": "button",
+      "name": "最大 African 桃花公主",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D84",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Max Digitalis Purpurea",
-      "type": "button",
+      "name": "最大 Digitalis Purpurea",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D88",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Max Digitalis Lutea",
-      "type": "button",
+      "name": "最大 Digitalis Lutea",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D8C",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Max Haoma",
-      "type": "button",
+      "name": "最大 Haoma",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5D90",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Mist Parasites",
-      "type": "button",
+      "name": "Mist Parasites｜雾寄生虫",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5DD8",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Camouflage Parasites",
-      "type": "button",
+      "name": "Camouflage Parasites｜伪装 寄生虫",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5DDC",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Armor Parasites",
-      "type": "button",
+      "name": "Armor Parasites｜装甲寄生虫",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5DE0",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "CCCP-WG TYPE-C",
-      "type": "button",
+      "name": "CCCP-WG 属性-C",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5DC0",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "CCCP-WG TYPE-A",
-      "type": "button",
+      "name": "CCCP-WG 属性-A",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5DC4",
@@ -214,8 +219,8 @@
       ]
     },
     {
-      "name": "CFA-WG TYPE-C",
-      "type": "button",
+      "name": "CFA-WG 属性-C",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5DC8",
@@ -225,8 +230,8 @@
       ]
     },
     {
-      "name": "CFA-WG TYPE-A",
-      "type": "button",
+      "name": "CFA-WG 属性-A",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "37F5DCC",

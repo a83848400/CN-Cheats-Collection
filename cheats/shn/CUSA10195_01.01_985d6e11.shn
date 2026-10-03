@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Inf Coins (On Spend, On Get Crashes)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限金币 (On Spend, On Get Crashes)">
     <Cheatline>
       <Offset>527800</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-93-BC-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Bombs(On Use)">
+  <Cheat Text="无限炸弹(On Use)">
     <Cheatline>
       <Offset>19479B</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-FF-8D-B8-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Red Hearts">
+  <Cheat Text="Infinite Red 心">
     <Cheatline>
       <Offset>527800</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-8A-98-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Keys(On Get)">
+  <Cheat Text="钥匙无限(On Get)">
     <Cheatline>
       <Offset>527810</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-8F-B0-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pedestal Items Dont Disappear (Pedestal item will go invis but its there)">
+  <Cheat Text="Pedestal Items Dont Disappear (Pedestal 物品 意志 go invis but its there)">
     <Cheatline>
       <Offset>157DB0</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>41-C7-45-40-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Active Item">
+  <Cheat Text="Infinite Active 物品">
     <Cheatline>
       <Offset>16D38E</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>45-89-BD-F8-29-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Blue Hearts">
+  <Cheat Text="Infinite Blue 心">
     <Cheatline>
       <Offset>527800</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>41-89-94-24-A0-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Cards(On Use)">
+  <Cheat Text="Infinite Cards(On Use)">
     <Cheatline>
       <Offset>19AEDC</Offset>
       <Section>0</Section>

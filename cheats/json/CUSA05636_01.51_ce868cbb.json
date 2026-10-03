@@ -1,12 +1,17 @@
 {
-  "name": "Ace Combat 7: Skies Unknown",
+  "name": "皇牌空战 7: Skies 未知",
   "id": "CUSA05636",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Missile and Special Weapons",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限导弹 and Special 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16ED3F9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Dont lose MRP on spend",
-      "type": "checkbox",
+      "name": "Dont lose MRP on spend｜不要因支出而损失MRP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "126C347",

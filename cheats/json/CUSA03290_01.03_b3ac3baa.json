@@ -1,13 +1,18 @@
 {
-  "name": "Dead Island: Riptide: Definitive Edition",
+  "name": "Dead 岛屿: Riptide: Definitive Edition",
   "id": "CUSA03290",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6372C",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C7C71D",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B51C24",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Rage",
+      "name": "Infinite Rage｜怒气无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B7F23F",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D2156",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Get Money For Spending It",
+      "name": "Get Money For Spending It｜赚点钱来花花",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B79480",
@@ -77,9 +82,9 @@
       ]
     },
     {
-      "name": "Get Max XP For 1 Kill",
+      "name": "Get 最大 XP For 1 Kill",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC5E47",

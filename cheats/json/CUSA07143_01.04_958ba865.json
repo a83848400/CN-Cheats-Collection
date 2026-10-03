@@ -1,12 +1,17 @@
 {
-  "name": "Bulletstorm: Full Clip Edition",
+  "name": "Bulletstorm: Full Clip Edition｜《子弹风暴：全弹匣版》",
   "id": "CUSA07143",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C4FE60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BF3B9",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BF3B2",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max/SP On Gain (Disable Inf Health B4 And Gain SP/Disable)",
-      "type": "checkbox",
+      "name": "最大/精神值 On Gain (Disable 无限生命 B4 And Gain 精神值/Disable)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C4FE00",

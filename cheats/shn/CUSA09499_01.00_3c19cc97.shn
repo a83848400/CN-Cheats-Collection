@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Cat Quest" Moder="DeathRGH" Cusa="CUSA09499" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>20E390C94</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>C0-9E-F8-7F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fill Health">
+  <Cheat Text="Fill 生命">
     <Cheatline>
       <Offset>20E390794</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C0-9E-F8-7F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fill Mana">
+  <Cheat Text="Fill 法力">
     <Cheatline>
       <Offset>20E390694</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C0-9E-F8-7F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health Capacity">
+  <Cheat Text="生命最大 Capacity">
     <Cheatline>
       <Offset>20E390B90</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>C0-9E-F8-7F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Attack Value">
+  <Cheat Text="攻击力最大 Value">
     <Cheatline>
       <Offset>20E390B10</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>E0-0F-CC-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mana Attack Value">
+  <Cheat Text="最大 法力 攻击 Value">
     <Cheatline>
       <Offset>20E390A90</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>E0-0F-CC-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP">
+  <Cheat Text="最大 XP">
     <Cheatline>
       <Offset>20E390CD4</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer Game="The Witcher 3: Wild Hunt" Moder="Pharaoh2k" Cusa="CUSA05572" Version="04.06" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="This is my v04.06 port for Cosmaty's excellent v01.50 trainer. I have added a teleport cheat, reset horse fear bar and No toxicity from decoctions. Important! Please be sure to read the cheats' comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. This version is multiCUSA compatible and since it is AOB based it should be fully or partially working on past and future versions of the game. Enjoy! :)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="This is my v04.06 port for Cosmaty's excellent v01.50 trainer. I have added a teleport cheat, reset horse fear bar and No toxicity from decoctions. Important! Please be sure to read the cheats' comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. This version is multiCUSA compatible and since it is AOB based it should be fully or partially working on past and future versions of the game. Enjoy! :)">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EEFFF</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Codes (Must be enabled!)" Description="">
+  <Cheat Text="Master Codes (Must be enabled!)｜主代码（必须启用！）" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF000</Offset>
@@ -60,7 +68,7 @@
       <ValueOff>C7-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Easy_Kill" Description="">
+  <Cheat Text="--简易击杀" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0B5</Offset>
@@ -68,7 +76,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite_Adrenaline" Description="">
+  <Cheat Text="--无限肾上腺素" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0C5</Offset>
@@ -76,7 +84,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite_HP" Description="">
+  <Cheat Text="--无限生命" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0B1</Offset>
@@ -84,7 +92,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite_Horse_Run" Description="">
+  <Cheat Text="--马匹无限奔跑" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0BD</Offset>
@@ -92,7 +100,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite_Oxygen" Description="">
+  <Cheat Text="--无限氧气" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0C1</Offset>
@@ -100,7 +108,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Inifinite_Stamina" Description="">
+  <Cheat Text="--无限体力" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0CD</Offset>
@@ -108,7 +116,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Min_Horse_Panic" Description="Enable this together with Reset Horse Fear Bar cheat">
+  <Cheat Text="--马匹恐慌最小" Description="Enable this together with Reset Horse Fear Bar cheat">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0B9</Offset>
@@ -116,7 +124,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--No_Toxicity" Description="">
+  <Cheat Text="--无毒性" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0C9</Offset>
@@ -124,7 +132,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Toxicity From Decoctions 4.06" Description="">
+  <Cheat Text="No Toxicity From Decoctions 4.06｜煎剂无毒性 4.06" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF0F1</Offset>
@@ -138,7 +146,7 @@
       <ValueOff>C4-C1-7A-11-04-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Horse Fear Bar" Description="Enable this together with MinHorsePanic cheat">
+  <Cheat Text="Reset Horse Fear Bar｜重置“对马的恐惧”进度条" Description="Enable this together with MinHorsePanic cheat">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF126</Offset>
@@ -152,7 +160,7 @@
       <ValueOff>C5-FA-58-45-D4-C4-C1-7A-11-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Teleport to Map Waypoint" Description="Must enable God Mode otherwise the teleport will kill you. Note that teleporting may break some quests.">
+  <Cheat Text="传送 to 地图 航点" Description="Must enable God Mode otherwise the teleport will kill you. Note that teleporting may break some quests.">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF179</Offset>
@@ -178,7 +186,7 @@
       <ValueOff>C4-C1-7A-11-AD-90-01-00-00-C4-C1-7A-11-B5-94-01-00-00-C4-C1-7A-11-85-98-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP_Multiplier x1" Description="">
+  <Cheat Text="--经验倍率×1" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF288</Offset>
@@ -186,7 +194,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP_Multiplier x5" Description="">
+  <Cheat Text="--经验倍率×5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF288</Offset>
@@ -194,7 +202,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP_Multiplier x10" Description="">
+  <Cheat Text="--经验倍率×10" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF288</Offset>
@@ -202,7 +210,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP_Multiplier x20" Description="">
+  <Cheat Text="--经验倍率×20" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF288</Offset>
@@ -210,7 +218,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP_Multiplier x50" Description="">
+  <Cheat Text="--经验倍率×50" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF288</Offset>
@@ -218,7 +226,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP_Multiplier x999" Description="">
+  <Cheat Text="--经验倍率×999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF288</Offset>
@@ -226,7 +234,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Game Speed x1" Description="">
+  <Cheat Text="--游戏速度×1" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF2C0</Offset>
@@ -234,7 +242,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Game Speed x2" Description="">
+  <Cheat Text="--游戏速度×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF2C0</Offset>
@@ -242,7 +250,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Game Speed x3" Description="">
+  <Cheat Text="--游戏速度×3" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF2C0</Offset>
@@ -250,7 +258,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items 4.06 " Description="In some rare cases you may not be able to clear a loot when the cheat is enabled. Disable the cheat and clear that specific loot.">
+  <Cheat Text="道具无限 4.06 " Description="In some rare cases you may not be able to clear a loot when the cheat is enabled. Disable the cheat and clear that specific loot.">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF2E4</Offset>
@@ -276,7 +284,7 @@
       <ValueOff>42-8B-54-33-54-29-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Potions" Description="">
+  <Cheat Text="Infinite Potions｜药水无限" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF357</Offset>
@@ -290,7 +298,7 @@
       <ValueOff>8B-45-AC-89-42-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Crafting and Alchemy Requirements" Description="">
+  <Cheat Text="No Crafting and 炼丹 Requirements" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>AEEB4</Offset>
@@ -298,7 +306,7 @@
       <ValueOff>8B-42-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money 4.06" Description="Takes effect when buying or selling">
+  <Cheat Text="金钱无限 4.06" Description="Takes effect when buying or selling">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF389</Offset>
@@ -312,7 +320,7 @@
       <ValueOff>45-03-6C-0A-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Walking Speed x1" Description="">
+  <Cheat Text="--行走速度×1" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF3C9</Offset>
@@ -320,7 +328,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Walking Speed x2" Description="">
+  <Cheat Text="--行走速度×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF3C9</Offset>
@@ -328,7 +336,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Walking Speed x3" Description="">
+  <Cheat Text="--行走速度×3" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF3C9</Offset>
@@ -336,7 +344,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points" Description="">
+  <Cheat Text="Infinite Skill 得分" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF3ED</Offset>
@@ -350,7 +358,7 @@
       <ValueOff>41-8B-04-24-2B-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Durable Weapons And Armor" Description="">
+  <Cheat Text="Durable 武器 And Armor" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF435</Offset>
@@ -364,7 +372,7 @@
       <ValueOff>89-44-19-64-49-8B-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Weight 99999" Description="">
+  <Cheat Text="最大 重量 99999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>24EF465</Offset>

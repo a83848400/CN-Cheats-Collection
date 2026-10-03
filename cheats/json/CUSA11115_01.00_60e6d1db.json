@@ -1,12 +1,17 @@
 {
-  "name": "Team Sonic Racing",
+  "name": "Team 索尼克 Racing",
   "id": "CUSA11115",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mod pod credits to 65535",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mod 辅助机 credits to 65535",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4107AF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Unlimited Bonus In Race (exchange bonus to reset)",
-      "type": "checkbox",
+      "name": "Unlimited Bonus In Race (exchange bonus to reset)｜比赛中的无限奖励（兑换奖励后重置）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "70A09A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Unlimited Bonus Boxes",
-      "type": "checkbox",
+      "name": "Unlimited Bonus Boxes｜无限奖励宝箱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CC9E9",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Change score to max for daredevil",
-      "type": "checkbox",
+      "name": "Change 比分 to 最大 for daredevil",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EAEB1",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Ring challenge platinum win",
-      "type": "checkbox",
+      "name": "戒指 challenge platinum win",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CE378",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Team Ultimate Max (add extendedtime box to enable)",
-      "type": "checkbox",
+      "name": "Team 必杀技 最大 (add extendedtime box to enable)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E825A",

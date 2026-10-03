@@ -1,12 +1,17 @@
 {
-  "name": "Shooting Love: Trizeal",
+  "name": "射门 爱: Trizeal",
   "id": "SLPM62726",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "FUIL-power",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "FUIL-电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFC71F4",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Inf-Lives-Player 1",
-      "type": "checkbox",
+      "name": "无限生命玩家1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFC7200",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Inf-Bombs-Player 1",
-      "type": "checkbox",
+      "name": "无限炸弹-玩家1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFC7200",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf-Credits",
-      "type": "checkbox",
+      "name": "无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808004B240",

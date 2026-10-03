@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Modern Warfare",
+  "name": "使命召唤: Modern Warfare",
   "id": "CUSA08829",
   "version": "01.67",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Dev Features",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Dev Features｜开发者功能",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "6AB0EF0",
@@ -15,14 +20,14 @@
         },
         {
           "offset": "6AC0EF4",
-          "on": "0C",
-          "off": "0C"
+          "on": "0C｜0℃",
+          "off": "0C｜0℃"
         }
       ]
     },
     {
-      "name": "All Gamemodes",
-      "type": "button",
+      "name": "All Gamemodes｜所有游戏模式",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "6AB0EF0",
@@ -31,14 +36,14 @@
         },
         {
           "offset": "6AC0EF4",
-          "on": "0B",
-          "off": "0B"
+          "on": "0B｜零黑",
+          "off": "0B｜零黑"
         }
       ]
     },
     {
-      "name": "Third Person",
-      "type": "button",
+      "name": "Third Person｜第三人称",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "6AB0EF0",
@@ -47,14 +52,14 @@
         },
         {
           "offset": "6AC0EF4",
-          "on": "0C",
-          "off": "0C"
+          "on": "0C｜0℃",
+          "off": "0C｜0℃"
         }
       ]
     },
     {
-      "name": "Fov",
-      "type": "button",
+      "name": "Fov｜前言",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "6AB0EF0",
@@ -64,7 +69,7 @@
         {
           "offset": "6AC0EF4",
           "on": "0D",
-          "off": "0C"
+          "off": "0C｜0℃"
         }
       ]
     }

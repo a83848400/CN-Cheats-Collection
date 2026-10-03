@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hollow Knight: Silksong" Moder="Super Death" Cusa="CUSA39420" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health ｜无限生命">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>2C147E3-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -12,7 +20,7 @@
       <ValueOff>89-43-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No hit Detection" Description="Do NOT open the inventory screen with this cheat on. It will soft crash the game">
+  <Cheat Text="未命中 Detection" Description="Do NOT open the inventory screen with this cheat on. It will soft crash the game">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>2DBEE6D-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -30,7 +38,7 @@
       <ValueOff>E8-11-85-9F-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>79A-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -64,7 +72,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Silk">
+  <Cheat Text="Infinite 丝绸">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>7EA-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -114,7 +122,7 @@
       <ValueOff>89-83-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Prayer Beads">
+  <Cheat Text="Infinite Prayer Beads｜无尽的念珠">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>7C2-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -164,7 +172,7 @@
       <ValueOff>89-87-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shell Shards">
+  <Cheat Text="Infinite 贝壳 Shards">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>800-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -198,7 +206,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tool Use" Description="Disable cheat before switching tools">
+  <Cheat Text="Infinite Tool Use｜无限工具使用" Description="Disable cheat before switching tools">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>17A2778-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
@@ -208,7 +216,7 @@
       <ValueOff>4F-89-6C-E7-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Consumables">
+  <Cheat Text="Infinite Consumables｜无限消耗品">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>787-Il2CppUserAssemblies.prx[0]-5</PS5Offset>

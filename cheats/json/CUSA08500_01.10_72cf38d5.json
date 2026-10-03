@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Earn skillpoints to add 9.999.999",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Earn 技能点 to add 9.999.999",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16C2F62",

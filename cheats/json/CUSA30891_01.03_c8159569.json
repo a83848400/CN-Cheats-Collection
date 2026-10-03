@@ -1,12 +1,17 @@
 {
-  "name": "Kao the Kangaroo",
+  "name": "Kao the Kangaroo｜考考袋鼠",
   "id": "CUSA30891",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "infinite special attack bar",
-      "type": "checkbox",
+      "name": "《无限特辑》 攻击 bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B43A70",
@@ -39,8 +44,8 @@
       ]
     },
     {
-      "name": "Max Coins,Runes,Crystals,Scrolls",
-      "type": "checkbox",
+      "name": "最大 角落,铭文,Crystals,Scrolls",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B43A20",
@@ -55,8 +60,8 @@
       ]
     },
     {
-      "name": "Infinite lives (on gain)",
-      "type": "checkbox",
+      "name": "无限生命 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B40E00",

@@ -1,12 +1,17 @@
 {
-  "name": "9 Monkeys of Shaolin",
+  "name": "9 Monkeys of Shaolin｜少林九猴",
   "id": "CUSA16644",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5800000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Auto Fill Qi energy",
-      "type": "checkbox",
+      "name": "Auto Fill Qi 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5800100",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Rewadrs",
-      "type": "checkbox",
+      "name": "无限奖励",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "392A17",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Inf Green Tea",
-      "type": "checkbox",
+      "name": "无限绿茶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5800180",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Inf Red Tea",
-      "type": "checkbox",
+      "name": "无限红茶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5800140",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Inf White Tea",
-      "type": "checkbox",
+      "name": "无限白茶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "58001C0",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Inf Yellow Tea",
-      "type": "checkbox",
+      "name": "无限黄茶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5800200",

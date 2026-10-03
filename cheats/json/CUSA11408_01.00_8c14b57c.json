@@ -1,12 +1,17 @@
 {
-  "name": "Metro Exodus",
+  "name": "Metro Exodus｜《地铁：离去》",
   "id": "CUSA11408",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Clip Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "弹夹子弹无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3B20",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Air Filter",
-      "type": "checkbox",
+      "name": "无限之空 Filter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "58D676",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "type": "checkbox",
+      "name": "道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43C7C0",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf Medkit",
-      "type": "checkbox",
+      "name": "Infinite 医疗包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5947BF",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "No reload",
-      "type": "checkbox",
+      "name": "No reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "512626",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Weapon Dont stuck",
-      "type": "checkbox",
+      "name": "Weapon Dont stuck｜武器不会卡住",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "523503",

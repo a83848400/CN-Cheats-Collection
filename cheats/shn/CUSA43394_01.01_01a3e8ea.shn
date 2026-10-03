@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Achilles: Legends Untold" Moder="wander fw 90" Cusa="CUSA43394" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite usables" Description="on use pick up 2">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite usables｜无限消耗品" Description="on use pick up 2">
     <Cheatline>
       <Offset>5C93CF6</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>44-89-40-F4-89-50-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level,Gold,Skill points, upgrade items" Description="pick up 2 items to get max">
+  <Cheat Text="等级最大,金币,Skill 得分, upgrade items" Description="pick up 2 items to get max">
     <Cheatline>
       <PS5Offset>30A-executable[0]-5</PS5Offset>
       <Offset>5C93CF6</Offset>

@@ -1,12 +1,17 @@
 {
-  "name": "Mortal Kombat: Shaolin Monks",
+  "name": "Mortal Kombat: Shaolin Monks｜《真人快打：少林僧侣》",
   "id": "SLUS21087",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080808928",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-EXP",
-      "type": "checkbox",
+      "name": "Infinite-经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808082E224",

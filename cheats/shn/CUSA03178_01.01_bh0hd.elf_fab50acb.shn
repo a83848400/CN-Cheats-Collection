@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil: Origins Collection" Moder="Saso" Cusa="CUSA03178" Version="01.01" Process="bh0hd.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP / Easy Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 / 轻松击杀 (Master 密码)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-B7-50-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Kill (MC)">
+  <Cheat Text="轻松击杀 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>EB-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload">
+  <Cheat Text="无限弹药 / 无需换弹">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>29-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Ink Needed">
+  <Cheat Text="No 墨水 Needed">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

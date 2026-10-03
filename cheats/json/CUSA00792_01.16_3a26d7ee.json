@@ -1,12 +1,17 @@
 {
-  "name": "The Binding of Isaac: Rebirth",
+  "name": "The Binding of Isaac: Rebirth｜《以撒的献祭：重生》",
   "id": "CUSA00792",
   "version": "01.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP Blue Hearts (J1 and J2) ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 Blue 心 (J1 and J2) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "11",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Inf HP Red Hearts (J1 and J2)",
-      "type": "checkbox",
+      "name": "无限血量 Red 心 (J1 and J2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "11",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Coins x99 or x999",
-      "type": "checkbox",
+      "name": "Coins x99 or x999｜金币 x99 或 x999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "11",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Bombs x99",
-      "type": "checkbox",
+      "name": "Bombs x99｜炸弹 x99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "11",
@@ -54,7 +59,7 @@
     },
     {
       "name": "Keys x99",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "11",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite energy on Active Item",
-      "type": "checkbox",
+      "name": "无限能量 on Active 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "11",
@@ -77,8 +82,8 @@
       ]
     },
     {
-      "name": "Add DMG +100",
-      "type": "checkbox",
+      "name": "Add DMG +100｜增加DMG +100",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "810B6140",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Add Luck +25",
-      "type": "checkbox",
+      "name": "Add 幸运 +25",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "810BFDC0",
@@ -109,8 +114,8 @@
       ]
     },
     {
-      "name": "Add Range +40",
-      "type": "checkbox",
+      "name": "Add 射程 +40",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "810BADC7",
@@ -125,8 +130,8 @@
       ]
     },
     {
-      "name": "Add Death Certificate(Enable and Disable after obtain)",
-      "type": "checkbox",
+      "name": "Add 死亡 Certificate(Enable and Disable after obtain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "810B3BE0",

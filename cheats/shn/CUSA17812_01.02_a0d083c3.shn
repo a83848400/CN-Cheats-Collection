@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7FC5D6B0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-11-85-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>7FC5CC30</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>29-D3-29-54-C8-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/No Reload (Use Infinite Items)">
+  <Cheat Text="无限弹药/无需换弹 (Use 道具无限)">
     <Cheatline>
       <Offset>7FC5CBF0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>41-29-84-24-B0-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP On 2° Kill">
+  <Cheat Text="最大 XP On 2° Kill">
     <Cheatline>
       <Offset>7FC5F0D0</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>41-89-8E-1C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points">
+  <Cheat Text="Infinite Skill 得分">
     <Cheatline>
       <Offset>7FC5E140</Offset>
       <Section>0</Section>

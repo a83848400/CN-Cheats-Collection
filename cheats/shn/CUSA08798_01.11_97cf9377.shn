@@ -4,7 +4,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>48B9500</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-8B-14-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Souls / Consumables (On Pick)">
+  <Cheat Text="灵魂最大 / Consumables (On Pick)">
     <Cheatline>
       <Offset>494F800</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>01-CA-89-10-C7-45-C8-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Wrath/Havoc Bar Refill (L1+R2 To Deactivate Havoc)">
+  <Cheat Text="Instant Wrath/Havoc Bar Refill (L1+R2 To Deactivate Havoc)｜“瞬发怒火/浩劫”能量条补充（按L1+R2可取消“浩劫”）">
     <Cheatline>
       <Offset>48B9550</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-11-93-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>494F2E0</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-11-8B-14-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>494F830</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C5-FA-10-87-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump">
+  <Cheat Text="Super Jump｜超级跳跃">
     <Cheatline>
       <Offset>494F490</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>89-83-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mega Jump">
+  <Cheat Text="Mega Jump｜超级跳跃">
     <Cheatline>
       <Offset>494FA10</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>89-83-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Consumables/Cristals/Igredients/Tokens On Buy/Pick/Sell (x2 To Work)">
+  <Cheat Text="最大 Consumables/Cristals/Igredients/Tokens On Buy/Pick/Sell (x2 To Work)">
     <Cheatline>
       <Offset>494F900</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>8B-75-C0-8B-48-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Souls/Ingredients/Cristals/Tokens On Buy/Use (x2 To Work)">
+  <Cheat Text="最大/灵魂无限/Ingredients/Cristals/Tokens On Buy/Use (x2 To Work)">
     <Cheatline>
       <Offset>494F780</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>45-31-ED-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant/Infinite Wrath Attack+Havoc Form (1 Hit)">
+  <Cheat Text="Instant/无尽之怒 攻击+Havoc 状态 (1 Hit)">
     <Cheatline>
       <Offset>494CC80</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>C5-FA-11-93-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Consumables On Use">
+  <Cheat Text="无限消耗品 On Use">
     <Cheatline>
       <Offset>494FAF0</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>74-03-89-70-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Attribute Points">
+  <Cheat Text="Infinite 属性 得分">
     <Cheatline>
       <Offset>3FDFF4</Offset>
       <Section>0</Section>

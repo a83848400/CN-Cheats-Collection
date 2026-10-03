@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Warriors Orochi 4" Moder="Q8Despair" Cusa="CUSA12641" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Health｜生命最大">
     <Cheatline>
       <Section>11</Section>
       <Offset>1303800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ko count easy max">
+  <Cheat Text="击飞 count 简单 最大">
     <Cheatline>
       <Section>11</Section>
       <Offset>1303800</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>89-9F-9C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Growth points x2">
+  <Cheat Text="Growth 得分 x2">
     <Cheatline>
       <Section>11</Section>
       <Offset>1303800</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>89-88-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="skill points x2">
+  <Cheat Text="skill 得分 x2">
     <Cheatline>
       <Section>11</Section>
       <Offset>1303810</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>66-89-48-78-41-8B-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="weapon Gems x2">
+  <Cheat Text="weapon Gems x2｜武器宝石 ×2">
     <Cheatline>
       <Section>11</Section>
       <Offset>1303822</Offset>

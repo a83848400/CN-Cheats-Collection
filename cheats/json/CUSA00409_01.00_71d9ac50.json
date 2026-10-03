@@ -1,13 +1,18 @@
 {
-  "name": "Outlast",
+  "name": "Outlast｜《Outlast》",
   "id": "CUSA00409",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "211BC1A",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Battery Life",
+      "name": "Infinite 电池 生活",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "211BC47",

@@ -1,12 +1,17 @@
 {
-  "name": "Streets of Rage 4",
+  "name": "Streets of 怒气 4",
   "id": "CUSA16221",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34BEB00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34BEB06",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Stars",
-      "type": "checkbox",
+      "name": "最大 Stars",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34C2600",

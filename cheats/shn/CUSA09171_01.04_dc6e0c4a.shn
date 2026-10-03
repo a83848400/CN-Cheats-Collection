@@ -18,7 +18,15 @@
       <ValueOff>C5-FA-10-40-1C</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1D62385</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>74-0D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>315214D</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>29-F2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>2FBB459</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>44-29-F2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Clip Ammo" Description="">
+  <Cheat Text="最大 Clip 但是" Description="">
     <Cheatline>
       <Offset>2FBB461</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>0F-4E-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>1115663</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>44-01-F2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo on Reload" Description="">
+  <Cheat Text="弹药最大化 on Reload" Description="">
     <Cheatline>
       <Offset>1115670</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>0F-4E-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Move (Storage)" Description="">
+  <Cheat Text="最大 Items on 招式 (存储)" Description="">
     <Cheatline>
       <Offset>EA6479</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>44-29-78-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Combine/Get" Description="">
+  <Cheat Text="最大 Items on 组合/Get" Description="">
     <Cheatline>
       <Offset>1115373</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>44-0F-4E-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Get" Description="">
+  <Cheat Text="最大 Items on Get" Description="">
     <Cheatline>
       <Offset>2FBBB39</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>44-0F-4E-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>2FBB2AB</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>E8-20-54-33-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items (Dupe into Storage)" Description="">
+  <Cheat Text="道具无限 (Dupe into 存储)" Description="">
     <Cheatline>
       <Offset>6064A1</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>C5-F8-11-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items swap 1st Aid Spray on Get or Move" Description="">
+  <Cheat Text="Items swap 1st Aid 喷漆 on Get or 招式" Description="">
     <Cheatline>
       <Offset>7E2B800</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>0F-84-A4-00-00-00-89-41-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Short Animationtime for Aiming" Description="">
+  <Cheat Text="Short Animationtime for Aiming｜瞄准时的短动画时间" Description="">
     <Cheatline>
       <Offset>1B06F5B</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Gun-Focus" Description="">
+  <Cheat Text="Instant Gun-棍势" Description="">
     <Cheatline>
       <Offset>F0BA19</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>C5-FA-5D-05-B8-73-9F-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Zombies Can't Grab Player">
+  <Cheat Text="Zombies Can'恐怖分子 Grab Player">
     <Cheatline>
       <Offset>3151ED7</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>FF-90-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="20 Inventory Slots" Description="">
+  <Cheat Text="20 背包 Slots" Description="">
     <Cheatline>
       <Offset>7E2B813</Offset>
       <Section>0</Section>
@@ -188,7 +196,7 @@
       <ValueOff>44-8B-A0-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack" Description="">
+  <Cheat Text="速度 Hack" Description="">
     <Cheatline>
       <Offset>7E2B825</Offset>
       <Section>0</Section>
