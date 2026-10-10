@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon Ball Z: Kakarot" Moder="Muhanned" Cusa="CUSA14835" Version="01.10" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Inf MAX Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 生命最大">
    <Cheatline>
       <Offset>A4C5DF</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>89-81-58-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-<Cheat Text="INF Max Ki">
+<Cheat Text="Infinite 最大 气">
     <Cheatline>
       <Offset>A4C61F</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-81-5C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
- <Cheat Text="Inf Max rag">
+ <Cheat Text="Infinite 最大 rag">
     <Cheatline>
       <Offset>9D1442</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-89-86-60-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-<Cheat Text="Max Lv when get xp">
+<Cheat Text="最大 Lv when get xp">
     <Cheatline>
       <Offset>A4CAF0</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>8B-91-50-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="items Incressed ">
+  <Cheat Text="items Incressed ｜项目增加">
     <Cheatline>
       <Offset>D7CAE2</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>44-29-EA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX orbs on get/ when you get Max for all Orbs Stop it">
+  <Cheat Text="最大 orbs on get/ when you get 最大 for all Orbs 停止 it">
     <Cheatline>
       <Offset>145AE56</Offset>
       <Section>0</Section>

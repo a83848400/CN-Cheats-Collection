@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Forbidden West",
+  "name": "地平线 Forbidden West",
   "id": "CUSA30023",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDAFFF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Master Code (Must be enabled first + all the time)",
-      "type": "checkbox",
+      "name": "Master 密码 (Must be enabled first + all the time)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB000",
@@ -152,8 +157,8 @@
       ]
     },
     {
-      "name": "--One Hit Kill",
-      "type": "checkbox",
+      "name": "--一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF10",
@@ -163,8 +168,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB0AD",
@@ -189,8 +194,8 @@
       ]
     },
     {
-      "name": "Infinite Jump and Glide",
-      "type": "checkbox",
+      "name": "Infinite Jump and Glide｜无限跳跃与滑翔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "223ECEF",
@@ -200,8 +205,8 @@
       ]
     },
     {
-      "name": "--Toggle_Mount_Invincible",
-      "type": "checkbox",
+      "name": "--切换坐骑无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF20",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1416E10",
@@ -222,8 +227,8 @@
       ]
     },
     {
-      "name": "Infinite Heavy Weapons Ammo",
-      "type": "checkbox",
+      "name": "Infinite 重装兵 武器 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB156",
@@ -238,8 +243,8 @@
       ]
     },
     {
-      "name": "Infinite Max Items and Arrows",
-      "type": "checkbox",
+      "name": "Infinite 最大 Items and Arrows",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB19C",
@@ -274,8 +279,8 @@
       ]
     },
     {
-      "name": "No Craft, Purchase, Upgrade Requirements",
-      "type": "checkbox",
+      "name": "No Craft, Purchase, Upgrade Requirements｜无需制作、购买或升级要求",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F09820",
@@ -285,8 +290,8 @@
       ]
     },
     {
-      "name": "[Weapon] Instant Reload Speed",
-      "type": "checkbox",
+      "name": "[Weapon] Instant 换弹速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB23F",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "[Weapon] Straight Shot With Little Tautness",
-      "type": "checkbox",
+      "name": "[Weapon] Straight Shot With Little Tautness｜[武器] 弹道笔直，后坐力较小",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB272",
@@ -317,8 +322,8 @@
       ]
     },
     {
-      "name": "--Hour: 0",
-      "type": "checkbox",
+      "name": "--小时:0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF24",
@@ -328,8 +333,8 @@
       ]
     },
     {
-      "name": "Max Med Use Amount on Gain",
-      "type": "checkbox",
+      "name": "最大 Med Use Amount on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C25055",
@@ -339,8 +344,8 @@
       ]
     },
     {
-      "name": "No Stash Items Increase",
-      "type": "checkbox",
+      "name": "No Stash Items Increase｜背包内物品数量不会增加",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F06957",
@@ -350,8 +355,8 @@
       ]
     },
     {
-      "name": "Max Infinite Shards (Open Inventory)",
-      "type": "checkbox",
+      "name": "最大 Infinite Shards (Open 背包)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB2DE",
@@ -366,8 +371,8 @@
       ]
     },
     {
-      "name": "Inf+Max Valor Surge",
-      "type": "checkbox",
+      "name": "Infinite+最大 Valor Surge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB30E",
@@ -382,8 +387,8 @@
       ]
     },
     {
-      "name": "Instant End Valor Surge",
-      "type": "checkbox",
+      "name": "Instant 末地 Valor Surge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B1F186",
@@ -393,8 +398,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen+Stamina",
-      "type": "checkbox",
+      "name": "无限氧气+体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDB554",
@@ -404,8 +409,8 @@
       ]
     },
     {
-      "name": "Inf+Max Skill Points (Open Inventory)",
-      "type": "checkbox",
+      "name": "Infinite+最大 Skill 得分 (Open 背包)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB340",
@@ -420,8 +425,8 @@
       ]
     },
     {
-      "name": "--XP Multiplier x5",
-      "type": "checkbox",
+      "name": "--经验倍率×5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF28",
@@ -431,8 +436,8 @@
       ]
     },
     {
-      "name": "Instant Remove Effects",
-      "type": "checkbox",
+      "name": "Instant Remove Effects｜即时移除效果",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB3A8",
@@ -447,8 +452,8 @@
       ]
     },
     {
-      "name": "Instant Mount Override Recovery",
-      "type": "checkbox",
+      "name": "Instant Mount Override 后摇",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB3D8",
@@ -463,8 +468,8 @@
       ]
     },
     {
-      "name": "Mount Never Gets Scared (Read Info)",
-      "type": "checkbox",
+      "name": "Mount Never Gets Scared (Read Info)｜《永不畏惧的山》（阅读信息）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C133BD",
@@ -474,8 +479,8 @@
       ]
     },
     {
-      "name": "Infinite Food Health Boost on Use",
-      "type": "checkbox",
+      "name": "食物无限 生命 Boost on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB406",
@@ -490,8 +495,8 @@
       ]
     },
     {
-      "name": "--Aloy Speed x1",
-      "type": "checkbox",
+      "name": "--埃洛伊速度×1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF40",
@@ -501,8 +506,8 @@
       ]
     },
     {
-      "name": "--Others Speed x0.2",
-      "type": "checkbox",
+      "name": "--其他对象速度×0.2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF44",
@@ -512,8 +517,8 @@
       ]
     },
     {
-      "name": "--Game Speed x1",
-      "type": "checkbox",
+      "name": "--游戏速度×1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF48",
@@ -523,8 +528,8 @@
       ]
     },
     {
-      "name": "--Camera Zoom x0",
-      "type": "checkbox",
+      "name": "--相机 缩放 x0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF4C",
@@ -534,8 +539,8 @@
       ]
     },
     {
-      "name": "[Teleport] To Base (L1+L2+R1+R2)",
-      "type": "checkbox",
+      "name": "[传送] To 基地 (L1+L2+R1+R2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB52A",
@@ -570,8 +575,8 @@
       ]
     },
     {
-      "name": "[Teleport] To map waypoint",
-      "type": "checkbox",
+      "name": "[传送] To 地图 航点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB5EF",

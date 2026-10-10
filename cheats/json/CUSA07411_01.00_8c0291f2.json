@@ -1,13 +1,18 @@
 {
-  "name": "God of War (2018)",
+  "name": "战神 (2018)",
   "id": "CUSA07411",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1059400",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Rage",
+      "name": "Infinite Rage｜怒气无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "105941E",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Refill Health",
+      "name": "Refill 生命",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1146B473C8",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Refill Rage",
+      "name": "Refill 怒气",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1146B47428",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "9999999 Experience",
+      "name": "9999999 Experience｜9999999 体验",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "10831BD8E0",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "9999999 Money",
+      "name": "9999999 金钱",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "10831BDAA0",

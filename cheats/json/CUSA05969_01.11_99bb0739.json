@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: WWII",
+  "name": "使命召唤: WWII",
   "id": "CUSA05969",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "72B698",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9553B9",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Specialist (Zombies)",
-      "type": "checkbox",
+      "name": "Infinite 专家 (Zombies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "488093",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C73800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "933902",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9261D7",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8FFFFC",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Medkits",
-      "type": "checkbox",
+      "name": "Infinite Medkits｜无限医疗包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "726D47",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Infinite AA Gun Health",
-      "type": "checkbox",
+      "name": "Infinite AA Gun 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C73800",

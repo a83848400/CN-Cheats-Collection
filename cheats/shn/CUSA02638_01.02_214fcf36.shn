@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Curses 'N Chaos" Moder="Ali-mk" Cusa="CUSA02638" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无敌-(MC)">
     <Cheatline>
       <Offset>7320E</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-2D-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Hearts">
+    <Cheat Text="Infinite-心">
     <Cheatline>
       <Offset>735D2</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-11</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="max-lives + Infinite-(MC)">
+    <Cheat Text="最大-lives + Infinite-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>89-88-28-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-GOLD-(MC)">
+    <Cheat Text="最大-金币-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-B7-AC-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Time">
+    <Cheat Text="Infinite-Time｜无限时间">
     <Cheatline>
       <Offset>36BD0</Offset>
       <Section>0</Section>

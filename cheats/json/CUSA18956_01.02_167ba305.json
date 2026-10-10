@@ -1,12 +1,17 @@
 {
-  "name": "Cobra Kai: The Karate Kid Saga Continues",
+  "name": "Cobra Kai: The Karate Kid 沙加 Continues",
   "id": "CUSA18956",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2CC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ultimate",
-      "type": "checkbox",
+      "name": "Infinite 必杀技",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2D40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Parry /  Dojo / Personal (Skill)",
-      "type": "checkbox",
+      "name": "Infinite 振刀 /  Dojo / Personal (Skill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2D90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Currency (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Currency (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2E00",

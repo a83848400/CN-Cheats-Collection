@@ -1,12 +1,17 @@
 {
-  "name": "Paw Patrol: On a Roll!",
+  "name": "Paw 巡逻: On a Roll!",
   "id": "CUSA11095",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Pup Bones ~Grab One~",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Pup Bones ~Grab One~",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1557800",

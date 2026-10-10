@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts: HD 2.8 Final Chapter Prologue",
+  "name": "王国之心: HD 2.8 Final Chapter Prologue",
   "id": "CUSA05787",
   "version": "01.00",
   "process": "kh02.elf",
   "mods": [
     {
-      "name": "No MP reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No MP reload｜无需MP重新加载",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19A655",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33AE1C",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42508D",

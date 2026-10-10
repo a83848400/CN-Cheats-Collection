@@ -1,12 +1,17 @@
 {
-  "name": "Mortal Kombat XL",
+  "name": "Mortal Kombat XL｜《真人快打 XL》",
   "id": "CUSA03679",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC3330",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Opponent Health (25%) (MC)",
-      "type": "checkbox",
+      "name": "Opponent 生命 (25%) (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC3339",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Super Meter Bars (Master Code)",
-      "type": "checkbox",
+      "name": "无限超级 Meter Bars (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC1FF0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Opponent Super Meter Bars (0) (MC)",
-      "type": "checkbox",
+      "name": "Opponent Super Meter Bars (0) (MC)｜对手超级计量表条 (0) (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC1FF4",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry 4: Special Edition" Moder="Weysincha" Cusa="CUSA01708" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>EE7232</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-43-40-C5-FA-5C-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nero Inf Max Act">
+  <Cheat Text="Nero Infinite 最大 Act">
     <Cheatline>
       <Offset>5E050A</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>89-83-10-0D-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nero Instant Charge Shot">
+  <Cheat Text="Nero Instant 蓄力射击">
     <Cheatline>
       <Offset>60C9B4</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>0F-B7-42-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dante Inf Round Trip">
+  <Cheat Text="Dante Infinite 回合 Trip">
     <Cheatline>
       <Offset>5AE92E</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-FA-11-83-20-99-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dante Inf Disaster Gauge">
+  <Cheat Text="但丁无限灾厄计量表">
     <Cheatline>
       <Offset>C0909</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-10-83-D4-9E-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dante Inf Royal Guard">
+  <Cheat Text="Dante Infinite Royal 防御">
     <Cheatline>
       <Offset>C07BE</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-10-83-40-99-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vergil Inf Concentration Gauge">
+  <Cheat Text="维吉尔 Infinite 专注 Gauge">
     <Cheatline>
       <Offset>1140F3</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-F8-2E-83-60-91-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vergil Inf Round Trip">
+  <Cheat Text="维吉尔 Infinite 回合 Trip">
     <Cheatline>
       <Offset>11FCA4</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C5-FA-11-83-8C-91-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Vergil Instant Charge Round Trip">
+  <Cheat Text="维吉尔 Instant 冲锋 回合 Trip">
     <Cheatline>
       <Offset>EE7817</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>C7-43-10-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lady Instant Charge Shot">
+  <Cheat Text="蕾蒂 Instant 蓄力射击">
     <Cheatline>
       <Offset>60C9AF</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C5-FA-10-A3-B4-20-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Trish Inf Round Trip">
+  <Cheat Text="翠西 Infinite 回合 Trip">
     <Cheatline>
       <Offset>106B90</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>C5-FA-10-83-FC-B4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy SSS Style">
+  <Cheat Text="简单 SSS评价 Style">
     <Cheatline>
       <Offset>22428A</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>C4-C1-7A-11-86-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Mission Time">
+  <Cheat Text="Freeze Mission Time｜冻结任务时间">
     <Cheatline>
       <Offset>1AC83D</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Devil Trigger">
+  <Cheat Text="无限恶魔触发">
     <Cheatline>
       <Offset>5977D4</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>C5-FA-11-8B-64-2A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Red Orbs">
+  <Cheat Text="无限红球">
     <Cheatline>
       <Offset>203BE4</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>8B-83-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Proud Souls">
+  <Cheat Text="Infinite Proud 结界突破">
     <Cheatline>
       <Offset>22004C</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>3D-3F-42-0F-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Devilstar L in Inventory">
+  <Cheat Text="Infinite Devilstar L in 背包">
     <Cheatline>
       <Offset>21FC55</Offset>
       <Section>0</Section>
@@ -192,7 +200,7 @@
       <ValueOff>83-FB-0A-0F-4E-D3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Gold Orbs Hell and Hell">
+  <Cheat Text="无限金币 Orbs Hell and Hell">
     <Cheatline>
       <Offset>167B76</Offset>
       <Section>0</Section>
@@ -200,7 +208,7 @@
       <ValueOff>FF-88-BC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Gold Orbs in Inventory">
+  <Cheat Text="无限金币 Orbs in 背包">
     <Cheatline>
       <Offset>21F98B</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>41-89-57-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health Enemy and Player for Practice">
+  <Cheat Text="无限生命 Enemy and Player 用于练习">
     <Cheatline>
       <Offset>295CEC</Offset>
       <Section>0</Section>
@@ -216,7 +224,7 @@
       <ValueOff>C5-FA-11-5B-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mission Red Orbs Pick One at Least">
+  <Cheat Text="最大 Mission Red Orbs Pick One at Least">
     <Cheatline>
       <Offset>EE7800</Offset>
       <Section>0</Section>
@@ -230,7 +238,7 @@
       <ValueOff>44-01-B3-8C-01-00-00-41-8A-04-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mission Red Orbsx99">
+  <Cheat Text="Mission Red Orbsx99｜任务：红色魔珠×99">
     <Cheatline>
       <Offset>203CAD</Offset>
       <Section>0</Section>

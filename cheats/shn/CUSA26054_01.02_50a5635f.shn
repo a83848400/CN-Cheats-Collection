@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="SaGa Frontier Remastered" Moder="Wander FW9.00" Cusa="CUSA26054" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>823E72A0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>85-F6-89-72-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite LP">
+  <Cheat Text="Infinite 生命值">
     <Cheatline>
       <Offset>823E7890</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8B-7D-BC-66-29-7E-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite JP">
+  <Cheat Text="Infinite 职业点">
     <Cheatline>
       <Offset>823E79D0</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>8B-4D-C0-66-29-4E-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Credits (on buy)">
+  <Cheat Text="最大 Credits (on buy)">
     <Cheatline>
       <Offset>823E7A10</Offset>
       <Section>0</Section>

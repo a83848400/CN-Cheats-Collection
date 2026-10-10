@@ -1,12 +1,17 @@
 {
-  "name": "Trine 4: The Nightmare Prince",
+  "name": "Trine 4: The Nightmare 王子级",
   "id": "CUSA09869",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Upgrade Points",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Upgrade 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21B2B68",

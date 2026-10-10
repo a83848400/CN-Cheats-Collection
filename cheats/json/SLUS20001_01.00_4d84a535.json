@@ -1,12 +1,17 @@
 {
-  "name": "Tekken Tag Tournament",
+  "name": "铁拳 Tag 锦标赛",
   "id": "SLUS20001",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health-P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命-P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080479A34",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Unlock-Characters",
-      "type": "checkbox",
+      "name": "解锁-Characters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080039C70",

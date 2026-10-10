@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF00",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF00",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF01",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Mp",
+      "name": "无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB06A",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Money And Items",
+      "name": "金钱无限 And Items",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB096",
@@ -100,9 +105,9 @@
       ]
     },
     {
-      "name": "Stop Timer",
+      "name": "停止 计时器",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80DF900F",
@@ -112,9 +117,9 @@
       ]
     },
     {
-      "name": "Godmode",
+      "name": "Godmode｜上帝模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "829EE3DF",

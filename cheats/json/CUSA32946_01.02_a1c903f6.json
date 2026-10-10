@@ -1,12 +1,17 @@
 {
-  "name": "Final Vendetta",
+  "name": "Final Vendetta｜《最终复仇》",
   "id": "CUSA32946",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F7E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Super",
-      "type": "checkbox",
+      "name": "Infinite Super｜无限超级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F990",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FA60",

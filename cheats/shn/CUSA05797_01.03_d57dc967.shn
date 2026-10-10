@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Toukiden 2" Moder="GamerX2 &amp; DanteClaus" Cusa="CUSA05797" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max Money On Spend">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱最大 On Spend">
     <Cheatline>
       <Offset>D7F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-90-94-C5-04-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>73D4EC</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>89-90-94-C5-04-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item on Use">
+  <Cheat Text="最大 物品 on Use">
     <Cheatline>
       <Offset>D7F800</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>66-89-44-8F-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>46F569</Offset>
       <Section>0</Section>

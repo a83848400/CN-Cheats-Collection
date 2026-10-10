@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Umbrella Corps" Moder="Reddevil82 - FW 9.00" Cusa="CUSA03109" Version="01.06" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Max Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Ammo｜弹药最大化">
     <Cheatline>
       <Offset>11ABDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>49-63-86-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload ( Ammo )">
+  <Cheat Text="无需换弹 ( 但是 )">
     <Cheatline>
       <Offset>11ABDDB</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>49-63-86-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Grenades">
+  <Cheat Text="最大 手榴弹">
     <Cheatline>
       <Offset>11ABDE7</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "West of Dead",
+  "name": "West of Dead｜《死亡以西》",
   "id": "CUSA16084",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1859040",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Iron (on spend and gain)",
-      "type": "checkbox",
+      "name": "铁最大 (on spend and gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1858FF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Sin (on spend and gain)",
-      "type": "checkbox",
+      "name": "最大 Sin (on spend and gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "185B6C0",

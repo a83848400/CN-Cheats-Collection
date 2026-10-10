@@ -1,12 +1,17 @@
 {
-  "name": "Hollow Knight",
+  "name": "空洞 骑士",
   "id": "CUSA13285",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567DD0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Geos",
-      "type": "checkbox",
+      "name": "最大 Geos",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1567E40",

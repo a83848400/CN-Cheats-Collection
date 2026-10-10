@@ -1,12 +1,17 @@
 {
-  "name": "Team Sonic Racing",
+  "name": "Team 索尼克 Racing",
   "id": "CUSA11115",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Mod-Capsules ( You need 10 caps )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Mod-Capsules ( You need 10 瓶盖 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C37800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Box Item ( after collect )",
-      "type": "checkbox",
+      "name": "Infinite Box 物品 ( after collect )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7145FC",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Rings ( on collect )",
-      "type": "checkbox",
+      "name": "最大 金环 ( on collect )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FC859",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Freeze Timer ( Grand Prix )",
-      "type": "checkbox",
+      "name": "Freeze 计时器 ( Grand Prix )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608F5C",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Freeze Timer ( Time Trial )",
-      "type": "checkbox",
+      "name": "Freeze 计时器 ( 计时赛 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68D5F3",

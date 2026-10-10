@@ -1,12 +1,17 @@
 {
-  "name": "Disney Classic Games: Aladdin and the Lion King",
+  "name": "Disney Classic Games: Aladdin and the Lion 金",
   "id": "CUSA16968",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "(Aladdin) - (The Jungle Book)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "(Aladdin) - (The Jungle Book)｜(阿拉丁) - (森林王子)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "00000000",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "HP/ Lives / Fruit / ",
-      "type": "checkbox",
+      "name": "手机/ Lives / 水果 / ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "487800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "(Lion King)",
-      "type": "checkbox",
+      "name": "(Lion King)｜(狮子王)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "00000000",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "HP / Lives / Roar ",
-      "type": "checkbox",
+      "name": "手机 / Lives / Roar ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "487880",

@@ -1,12 +1,17 @@
 {
-  "name": "DOOM 3",
+  "name": "毁灭战士 3",
   "id": "CUSA16286",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D330",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Endurence",
-      "type": "checkbox",
+      "name": "Infinite Endurence｜无尽的耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Infinite Ammo/No Reload",
-      "type": "checkbox",
+      "name": "最大 无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F540",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Granades",
-      "type": "checkbox",
+      "name": "Infinite Granades｜无限手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDA0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight Battery",
-      "type": "checkbox",
+      "name": "Infinite 手电筒 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E050",

@@ -2,7 +2,15 @@
 <Trainer Game="Resident Evil 4" Moder="Super Death" Cusa="PPSA07411" Version="01.100.000" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="God Mode + OHK" Description="Do not use with other health/kill codes">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="神模式 + OHK" Description="Do not use with other health/kill codes">
     <Cheatline>
       <Section>0</Section>
       <Offset>1A07E5D</Offset>
@@ -22,7 +30,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="Do not use with other health/kill codes">
+  <Cheat Text="God Mode｜神模式" Description="Do not use with other health/kill codes">
     <Cheatline>
       <Section>0</Section>
       <Offset>1A07E5D</Offset>
@@ -42,7 +50,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="Do not use with other health/kill codes">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="Do not use with other health/kill codes">
     <Cheatline>
       <Section>0</Section>
       <Offset>1A07E5D</Offset>
@@ -62,7 +70,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Ammo" Description="No reload">
+  <Cheat Text="Infinite Weapon 但是" Description="No reload">
     <Cheatline>
       <Section>0</Section>
       <Offset>46D0534</Offset>
@@ -82,7 +90,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Knife Durability" Description="Infinite Knife Durability">
+  <Cheat Text="Infinite Knife Durability｜小刀耐久无限" Description="Infinite Knife Durability">
     <Cheatline>
       <Section>0</Section>
       <Offset>3E46739</Offset>
@@ -102,7 +110,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Island Terminal Power Skip" Description="Move the tetris pieces once for max power">
+  <Cheat Text="岛屿 Terminal 电力 Skip" Description="Move the tetris pieces once for max power">
     <Cheatline>
       <Section>0</Section>
       <Offset>58A0595</Offset>
@@ -110,7 +118,7 @@
       <ValueOff>41-C7-87-24-02-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="Buy/sell/obtain money">
+  <Cheat Text="Infinite Money｜金钱无限" Description="Buy/sell/obtain money">
     <Cheatline>
       <Section>0</Section>
       <Offset>3840571</Offset>
@@ -130,7 +138,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Spinels" Description="Infinite Spinels">
+  <Cheat Text="Infinite Spinels｜无限尖晶石" Description="Infinite Spinels">
     <Cheatline>
       <Section>0</Section>
       <Offset>354F535</Offset>
@@ -150,7 +158,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x99 Gold Tokens/ Silver Tokens" Description="Must have at least 1 of each">
+  <Cheat Text="x99 金币 Tokens/ Silver Tokens" Description="Must have at least 1 of each">
     <Cheatline>
       <Section>0</Section>
       <Offset>569FA4A</Offset>
@@ -170,7 +178,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shop Points" Description="Buy something in the shop">
+  <Cheat Text="Infinite Shop 得分" Description="Buy something in the shop">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -200,7 +208,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="50,000 Shooting Range Points" Description="50,000 Shooting Range Points">
+  <Cheat Text="50,000 射门 射程 得分" Description="50,000 Shooting Range Points">
     <Cheatline>
       <Section>0</Section>
       <Offset>389DC37</Offset>
@@ -220,7 +228,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Skull Emblems Hit in Shooting Range" Description="Must hit at least 1 ">
+  <Cheat Text="All Skull Emblems Hit in 射门 射程" Description="Must hit at least 1 ">
     <Cheatline>
       <Section>0</Section>
       <Offset>389E975</Offset>
@@ -240,7 +248,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - Seperate Ways} God Mode + OHK">
+  <Cheat Text="{DLC - Seperate Ways} 神模式 + OHK">
     <Cheatline>
       <PS5Offset>7E8-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - Seperate Ways} God Mode" Description="Seperate Ways ONLY - Do not use with other health/kill codes">
+  <Cheat Text="{DLC - Seperate Ways} 神模式" Description="Seperate Ways ONLY - Do not use with other health/kill codes">
     <Cheatline>
       <PS5Offset>7E4-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -300,7 +308,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - Seperate Ways} One Hit Kill" Description="Seperate Ways ONLY - Do not use with other health/kill codes">
+  <Cheat Text="{DLC - Seperate Ways} 一击必杀" Description="Seperate Ways ONLY - Do not use with other health/kill codes">
     <Cheatline>
       <PS5Offset>7E0-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -330,7 +338,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - Seperate Ways} Anxiety Mode" Description="1 hit brings you down to 1 hp. A mode in case you hate yourself. ">
+  <Cheat Text="{DLC - Seperate Ways} Anxiety Mode｜{DLC - 各奔前程} 焦虑模式" Description="1 hit brings you down to 1 hp. A mode in case you hate yourself. ">
     <Cheatline>
       <PS5Offset>7DC-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -360,7 +368,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - The Mercenaries} All characters God Mode + OHK">
+  <Cheat Text="{DLC - The 雇佣兵} All characters 神模式 + OHK">
     <Cheatline>
       <PS5Offset>7E4-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -390,7 +398,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - The Mercenaries} All characters God Mode" Description="Mercenaries Mode ONLY - Do not use with other health/kill codes">
+  <Cheat Text="{DLC - The 雇佣兵} All characters 神模式" Description="Mercenaries Mode ONLY - Do not use with other health/kill codes">
     <Cheatline>
       <PS5Offset>7E0-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -420,7 +428,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - The Mercenaries} All characters One Hit Kill" Description="Mercenaries Mode ONLY - Do not use with other health/kill codes">
+  <Cheat Text="{DLC - The 雇佣兵} All characters 一击必杀" Description="Mercenaries Mode ONLY - Do not use with other health/kill codes">
     <Cheatline>
       <PS5Offset>7DC-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -450,7 +458,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - Mercenaries Mode} Infinite Timer">
+  <Cheat Text="{DLC - 雇佣兵 Mode} Infinite 计时器">
     <Cheatline>
       <PS5Offset>6DAE667-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -459,7 +467,7 @@
       <ValueOff>C4-C1-7A-11-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="{DLC - The Mercenaries} End Mercenaries Mode" Description="Disable Infinite Timer before activating">
+  <Cheat Text="{DLC - The 雇佣兵} 末地 雇佣兵 Mode" Description="Disable Infinite Timer before activating">
     <Cheatline>
       <PS5Offset>7D8-executable[0]-5</PS5Offset>
       <Section>0</Section>

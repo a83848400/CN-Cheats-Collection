@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="35MM" Moder="Reddevil82" Cusa="CUSA26882" Version="01.03" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Mastercode ( must be enable for MC Cheats )" Description="Mastercode ( must be enable for MC Cheats )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Mastercode ( must be enable for MC Cheats )｜主代码（必须启用才能使用MC作弊码）" Description="Mastercode ( must be enable for MC Cheats )">
     <Cheatline>
       <Offset>7FC5F05D</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>45-8B-76-1C-48-89-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>7FC5F000</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C4-C1-7A-11-8F-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="Infinite Stamina">
     <Cheatline>
       <Offset>7FC5F030</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C4-C1-7A-11-47-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Eat [ MC ]" Description="Max Eat is 20">
+  <Cheat Text="最大 Eat [ MC ]" Description="Max Eat is 20">
     <Cheatline>
       <Offset>7FC73F04</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max First Aid [ MC ]" Description="Max First Aid is 20">
+  <Cheat Text="最大 First Aid [ MC ]" Description="Max First Aid is 20">
     <Cheatline>
       <Offset>7FC73F00</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo [ MC ]" Description="Max Ammo">
+  <Cheat Text="弹药最大化 [ MC ]" Description="Max Ammo">
     <Cheatline>
       <Offset>7FC73F08</Offset>
       <Section>0</Section>

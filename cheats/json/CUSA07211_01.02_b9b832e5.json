@@ -1,13 +1,18 @@
 {
-  "name": "Final Fantasy VII Remake",
+  "name": "最终幻想 VII Remake",
   "id": "CUSA07211",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "Enjoy!",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "Enjoy!｜请尽情享用！",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60D2FFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
+      "name": "1 Hit Kill｜一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60D3000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "All Existing Inventory Items - 99pcs",
+      "name": "All Existing 背包 Items - 99pcs",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60D302E",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Current BP x2",
+      "name": "Current 战斗点数 x2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E717CF",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Darts - Top Score",
+      "name": "Darts - Top 比分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10E2F29",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Easy BP (~L50)",
+      "name": "简单 战斗点数 (~L50)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E717CF",
@@ -87,9 +92,9 @@
       ]
     },
     {
-      "name": "Easy Complete Quests v102",
+      "name": "简单 Complete 任务 v102",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0D661",
@@ -99,9 +104,9 @@
       ]
     },
     {
-      "name": "Easy FP (Materia)",
+      "name": "简单 专注值 (魔晶石)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E74AAF",
@@ -111,9 +116,9 @@
       ]
     },
     {
-      "name": "Easy Skillmaster",
+      "name": "简单 Skillmaster",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0D050",
@@ -123,9 +128,9 @@
       ]
     },
     {
-      "name": "Freeze PlayTime",
-      "description": "Do Not use together with Null PlayTime cheat!",
-      "type": "checkbox",
+      "name": "Freeze PlayTime｜暂停“PlayTime”",
+      "description": "Do Not use together with Null PlayTime cheat!｜请勿与“Null PlayTime”作弊码同时使用！",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6A045",
@@ -135,9 +140,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "description": "HealthPoisonBikeXIII (Time)XIII (Hit)Bike (Allies)",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "description": "HealthPoisonBikeXIII (Time)XIII (Hit)Bike (Allies)｜健康·毒药·自行车·XIII（时间）·XIII（命中）·自行车（盟友）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BB5EA0",
@@ -167,9 +172,9 @@
       ]
     },
     {
-      "name": "Infinite Limit",
+      "name": "Infinite Limit｜无限极限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B98C18",
@@ -194,9 +199,9 @@
       ]
     },
     {
-      "name": "Infinite MP",
+      "name": "Infinite MP｜无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B8474E",
@@ -206,9 +211,9 @@
       ]
     },
     {
-      "name": "Infinite Special Attacks",
-      "description": "CloudOthers, Barret",
-      "type": "checkbox",
+      "name": "《无限特辑》 Attacks",
+      "description": "CloudOthers, 巴雷特",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C0BC8D",
@@ -223,9 +228,9 @@
       ]
     },
     {
-      "name": "Infinite StackItems",
+      "name": "Infinite StackItems｜无限的 StackItems",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E4D7A0",
@@ -240,9 +245,9 @@
       ]
     },
     {
-      "name": "Instant ButtonHold Actions",
+      "name": "Instant ButtonHold Actions｜即时按住按钮操作",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153ED96",
@@ -252,9 +257,9 @@
       ]
     },
     {
-      "name": "Invulnerable Enemys",
+      "name": "无敌 Enemys",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BF15D4",
@@ -264,9 +269,9 @@
       ]
     },
     {
-      "name": "Max ATB Gauge",
+      "name": "最大 ATB槽",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60D3065",
@@ -281,9 +286,9 @@
       ]
     },
     {
-      "name": "Max Gil on Get",
+      "name": "金钱最大 on Get",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E560D8",
@@ -294,8 +299,8 @@
     },
     {
       "name": "Null PlayTime",
-      "description": "Do Not use together with Freeze PlayTime cheat!",
-      "type": "checkbox",
+      "description": "Do Not use together with Freeze PlayTime cheat!｜请勿与“Freeze PlayTime”作弊码同时使用！",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6A045",
@@ -305,9 +310,9 @@
       ]
     },
     {
-      "name": "Stats - Luck 9999",
+      "name": "属性 - 幸运 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC69B",
@@ -317,9 +322,9 @@
       ]
     },
     {
-      "name": "Stats - Magic 9999",
+      "name": "属性 - 魔法 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC23D",
@@ -329,9 +334,9 @@
       ]
     },
     {
-      "name": "Stats - Magical Damage 9999",
+      "name": "属性 - 魔法伤害 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC4BB",
@@ -341,9 +346,9 @@
       ]
     },
     {
-      "name": "Stats - Magical Defense 9999",
+      "name": "属性 - Magical 防御 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC5FB",
@@ -353,9 +358,9 @@
       ]
     },
     {
-      "name": "Stats - MP 9999",
+      "name": "属性 - MP 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17B04B1",
@@ -375,9 +380,9 @@
       ]
     },
     {
-      "name": "Stats - Physical Damage 9999",
+      "name": "属性 - 物理伤害 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC41B",
@@ -387,9 +392,9 @@
       ]
     },
     {
-      "name": "Stats - Physical Defense 9999",
+      "name": "属性 - 身体 防御 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC4BB",
@@ -399,9 +404,9 @@
       ]
     },
     {
-      "name": "Stats - Speed 9999",
+      "name": "属性 - 速度 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E79902",
@@ -416,9 +421,9 @@
       ]
     },
     {
-      "name": "Stats - Strength 9999",
+      "name": "属性 - 力量 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC19D",
@@ -428,9 +433,9 @@
       ]
     },
     {
-      "name": "Stats - Vitality 9999",
+      "name": "属性 - Vitality 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC2DD",
@@ -440,9 +445,9 @@
       ]
     },
     {
-      "name": "Stats - Will 9999",
+      "name": "属性 - 意志 9999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DFC37D",

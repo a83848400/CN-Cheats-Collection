@@ -1,12 +1,17 @@
 {
-  "name": "Ratchet & Clank",
+  "name": "Ratchet & Clank｜《瑞奇与叮当》",
   "id": "CUSA01073",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mastercode ( must be activated )｜主代码（必须激活）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "350B900",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Bolts [MC] ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Bolts [MC] ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "350B908",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Raritanium [MC] ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Raritanium [MC] ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "350B91A",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "28 Gold Bolts [MC] ( collect 1 to unlock Debug Menu )",
-      "type": "checkbox",
+      "name": "28 金币 Bolts [MC] ( collect 1 to 解锁 Debug 菜单 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "350B92C",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "350B970",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Invincibility ",
-      "type": "checkbox",
+      "name": "Invincibility ｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EDEA0B",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "One Hit Kill + Invisible",
-      "type": "checkbox",
+      "name": "一击必杀 + 不可见",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EDEA0B",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BB208",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Infinite Air under Water",
-      "type": "checkbox",
+      "name": "无限之空 under 水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35A744",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Infinite Jet Pack",
-      "type": "checkbox",
+      "name": "无限喷气机 卡包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "421C5E",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Infinite Hoverboard Boost",
-      "type": "checkbox",
+      "name": "Infinite Hoverboard Boost｜无限悬浮滑板加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "350B9A0",

@@ -1,12 +1,17 @@
 {
-  "name": "DOOM",
+  "name": "DOOM｜毁灭战士",
   "id": "CUSA02092",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + Shield",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 盾牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6F910",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6F7A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades (Frag+Holograms+Siphon)",
-      "type": "checkbox",
+      "name": "手雷无限 (Frag+Holograms+Siphon)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6F890",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Infinite Praetor Points (Need Buy Once)",
-      "type": "checkbox",
+      "name": "Infinite Praetor 得分 (Need Buy Once)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6F8D0",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Points (Need Buy Once)",
-      "type": "checkbox",
+      "name": "Infinite Weapon 得分 (Need Buy Once)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6F860",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Infinite Jump (Need Delta V Jump-Boots)",
-      "type": "checkbox",
+      "name": "无限跳跃 (Need Delta V Jump-靴子)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6F820",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Infinite Rune Trial Time",
-      "type": "checkbox",
+      "name": "Infinite Rune 审判 Time",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6FC9F",

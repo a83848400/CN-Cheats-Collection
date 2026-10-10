@@ -4,7 +4,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Max Score after 1 Kill (Do not use with other cheats)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 比分 after 1 Kill (Do not use with 他 cheats)">
     <Cheatline>
       <Offset>461F800</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>74-0A-8B-06-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode">
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>9A3D0</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C4-C1-7A-11-8D-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Overcharge on Pickup">
+  <Cheat Text="最大 Overcharge on Pickup">
     <Cheatline>
       <Offset>8AEE2</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>C5-FA-11-8B-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Overcharge Keep Pressin UP to deplete">
+  <Cheat Text="无限过充 持续按住“上”键以耗尽能量">
     <Cheatline>
       <Offset>461F800</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-11-8B-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Special Weapons">
+  <Cheat Text="《无限特辑》 武器">
     <Cheatline>
       <Offset>8ADC0</Offset>
       <Section>0</Section>

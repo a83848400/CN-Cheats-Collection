@@ -1,13 +1,18 @@
 {
-  "name": "Uncharted 4: A Thief's End",
+  "name": "神秘海域 4: A 盗贼's 末地",
   "id": "CUSA00917",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enable Debug Menu",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Enable Debug Menu｜开启调试菜单",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "5F52C5",

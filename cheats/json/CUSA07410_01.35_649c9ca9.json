@@ -1,12 +1,17 @@
 {
-  "name": "God of War (2018)",
+  "name": "战神 (2018)",
   "id": "CUSA07410",
   "version": "01.35",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5A720",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Instant Infinite Rage On First Hit (Disable Infinite Health)",
-      "type": "checkbox",
+      "name": "Instant 怒气无限 On First Hit (Disable 无限生命)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BEA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Inf XP,HS,Crafting Materials On Gain/Buy",
-      "type": "checkbox",
+      "name": "最大/无限经验值,HS,Crafting Materials On Gain/Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BFD0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDD0",

@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Revelations 2",
+  "name": "生化危机: Revelations 2",
   "id": "CUSA00924",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153FEB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance",
-      "type": "checkbox",
+      "name": "Infinite 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BF40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BE90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BB80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BF00",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight",
-      "type": "checkbox",
+      "name": "Infinite 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BBE0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max/Infinite BP",
-      "type": "checkbox",
+      "name": "最大/Infinite 战斗点数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BF20",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Gold (Raid)",
-      "type": "checkbox",
+      "name": "最大/无限金币 (团本)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BC10",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points (Raid)",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分 (团本)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BAB0",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Infinite Bottles (Raid)",
-      "type": "checkbox",
+      "name": "Infinite 玻璃瓶 (团本)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BA30",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Stop Time (Raid)",
-      "type": "checkbox",
+      "name": "停止 Time (团本)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BF80",

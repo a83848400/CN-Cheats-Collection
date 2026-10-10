@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Crystar" Moder="GamerX2" Cusa="CUSA15257" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite HP｜无限血量">
     <Cheatline>
       <Offset>1535000</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>85-C0-41-89-46-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SP">
+  <Cheat Text="Infinite 精神值">
     <Cheatline>
       <Offset>4903DD</Offset>
       <Section>15</Section>
@@ -24,7 +32,7 @@
       <ValueOff>89-53-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tears Gauge">
+  <Cheat Text="Infinite Tears Gauge｜无尽泪水计量表">
     <Cheatline>
       <Offset>1535165</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FA-11-40-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money On Gain">
+  <Cheat Text="金钱最大 On Gain">
     <Cheatline>
       <Offset>1535023</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>41-89-86-28-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>58166B</Offset>
       <Section>15</Section>
@@ -60,7 +68,7 @@
       <ValueOff>E9-B3-F9-10-81</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items on Use">
+  <Cheat Text="道具无限 on Use">
     <Cheatline>
       <Offset>454FC0</Offset>
       <Section>15</Section>
@@ -68,7 +76,7 @@
       <ValueOff>89-50-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Buy">
+  <Cheat Text="最大 Items On Buy">
     <Cheatline>
       <Offset>1535082</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>45-89-7C-24-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit = 50 Chain  | Unlocks Impulse Trophy">
+  <Cheat Text="1 Hit = 50 Chain  | Unlocks Impulse Trophy｜1 次命中 = 50 连击  | 解锁“冲动”奖杯">
     <Cheatline>
       <Offset>1535036</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>41-89-86-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit = 100 Chain| Unlocks Unending Impulse">
+  <Cheat Text="1 Hit = 100 Chain| Unlocks Unending Impulse｜1 次命中 = 100 连击 | 解锁“无尽冲动”">
     <Cheatline>
       <Offset>1535049</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>41-89-86-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit = 200 Chain| Unlocks Wild Impulse">
+  <Cheat Text="1 Hit = 200 Chain| Unlocks Wild Impulse｜1 次命中 = 200 连击 | 解锁“狂野冲动”">
     <Cheatline>
       <Offset>153505C</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>41-89-86-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Chain Hit">
+  <Cheat Text="最大 Chain Hit">
     <Cheatline>
       <Offset>153506F</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>41-89-86-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Boost EXP| 50 Per Kill">
+  <Cheat Text="Boost 经验| 50 Per Kill">
     <Cheatline>
       <Offset>15350AA</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>0F-84-14-02-00-00-01-58-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Extra EXP| 150 Per Kill">
+  <Cheat Text="Extra 经验| 150 Per Kill">
     <Cheatline>
       <Offset>15350BD</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>0F-84-14-02-00-00-01-58-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Even More EXP| 400 Per Kill">
+  <Cheat Text="Even More 经验| 400 Per Kill">
     <Cheatline>
       <Offset>15350D3</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>0F-84-14-02-00-00-01-58-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lots Of EXP| 2000 Per Kill">
+  <Cheat Text="Lots Of 经验| 2000 Per Kill">
     <Cheatline>
       <Offset>15350E9</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>0F-84-14-02-00-00-01-58-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hella EXP| 25000 Per Kill">
+  <Cheat Text="Hella 经验| 25000 Per Kill">
     <Cheatline>
       <Offset>15350FF</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>0F-84-14-02-00-00-01-58-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="EXP OVERLORD| 1 Kill Max Level">
+  <Cheat Text="经验 OVERLORD| 1 Kill 等级最大">
     <Cheatline>
       <Offset>1535094</Offset>
       <Section>0</Section>
@@ -222,7 +230,7 @@
       <ValueOff>0F-84-14-02-00-00-01-58-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Splendor Master| Enhanced ATK">
+  <Cheat Text="Splendor Master| Enhanced 攻击力">
     <Cheatline>
       <Offset>1535115</Offset>
       <Section>0</Section>
@@ -236,7 +244,7 @@
       <ValueOff>01-D1-41-89-4F-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Falconer| Powerful ATK">
+  <Cheat Text="Falconer| Powerful 攻击力">
     <Cheatline>
       <Offset>1535125</Offset>
       <Section>0</Section>
@@ -250,7 +258,7 @@
       <ValueOff>01-D1-41-89-4F-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kendo Master| Double ATK">
+  <Cheat Text="Kendo Master| Double 攻击力">
     <Cheatline>
       <Offset>1535135</Offset>
       <Section>0</Section>
@@ -264,7 +272,7 @@
       <ValueOff>01-D1-41-89-4F-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Shaolin Master| Supreme ATK">
+  <Cheat Text="Shaolin Master| Supreme 攻击力">
     <Cheatline>
       <Offset>1535145</Offset>
       <Section>0</Section>
@@ -278,7 +286,7 @@
       <ValueOff>01-D1-41-89-4F-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Plastic Slipper| Max ATK">
+  <Cheat Text="Plastic Slipper| 最大 攻击力">
     <Cheatline>
       <Offset>1535155</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Contra: Legacy of War",
+  "name": "魂斗罗: Legacy of War",
   "id": "SLUS00288",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "infinite lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11B6B2",
@@ -16,18 +21,18 @@
       ]
     },
     {
-      "name": "Invincible P1",
-      "type": "checkbox",
+      "name": "无敌 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "116FE8",
           "on": "65",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "116FE9",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "116FEA",

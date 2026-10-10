@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="One Piece: Pirate Warriors 4" Moder="أبراهيم " Cusa="CUSA17226" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="max inf skills charge">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 无限技能 冲锋">
     <Cheatline>
       <Offset>193CA8</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-F9-EF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max combo">
+  <Cheat Text="最大 combo">
     <Cheatline>
       <Offset>18D3C8</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>81-F9-9F-86-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INFINITE STAMINA">
+  <Cheat Text="INFINITE STAMINA｜无限耐力">
     <Cheatline>
       <Offset>16CC12</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C4-C1-7A-11-47-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max money on use">
+  <Cheat Text="金钱最大 on use">
     <Cheatline>
       <Offset>69F804</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>8B-51-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite materials">
+  <Cheat Text="infinite materials｜无限材料">
     <Cheatline>
       <Offset>69F971</Offset>
       <Section>0</Section>

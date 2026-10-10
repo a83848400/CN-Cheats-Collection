@@ -1,12 +1,17 @@
 {
-  "name": "Toukiden 2",
+  "name": "讨鬼传 2",
   "id": "CUSA05797",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money On Spend",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "73D4EC",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Item on Use",
-      "type": "checkbox",
+      "name": "最大 物品 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7F800",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "46F569",

@@ -1,13 +1,18 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34388",
   "version": "04.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode (Untouchable+No Effects)",
-      "hint": "May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "神模式 (刀枪不入+无效果)",
+      "hint": "May cause progression issues with some bosses. Disable and restart from 检查点 if and when it does",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17779EB",
@@ -42,9 +47,9 @@
       ]
     },
     {
-      "name": "No Damage Taken",
+      "name": "No Damage Taken｜不受伤害",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777800",
@@ -59,9 +64,9 @@
       ]
     },
     {
-      "name": "No XP,HS, Resources subtracted",
+      "name": "No XP,HS, Resources subtracted｜不扣除经验值、HS和资源",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777820",
@@ -76,9 +81,9 @@
       ]
     },
     {
-      "name": "No Crafting And Upgrade Limits",
+      "name": "No Crafting And Upgrade Limits｜无制作和升级限制",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C364F6",
@@ -88,9 +93,9 @@
       ]
     },
     {
-      "name": "Infinite Arrows & Throwables",
+      "name": "箭矢无限 & 可投掷物品",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777874",
@@ -115,9 +120,9 @@
       ]
     },
     {
-      "name": "Infinite Rage",
+      "name": "Infinite Rage｜怒气无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17778A8",
@@ -132,9 +137,9 @@
       ]
     },
     {
-      "name": "Damage Multiplier(Master Code)",
-      "hint": "Enable this first and then only one of the damage levels",
-      "type": "checkbox",
+      "name": "输出 Multiplier(Master 密码)",
+      "hint": "Enable this first and then only one of the 输出 levels",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17778F9",
@@ -149,9 +154,9 @@
       ]
     },
     {
-      "name": "5x damage",
+      "name": "5x damage｜5倍伤害",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -161,9 +166,9 @@
       ]
     },
     {
-      "name": "10x damage",
+      "name": "10x damage｜10倍伤害",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -173,9 +178,9 @@
       ]
     },
     {
-      "name": "20x damage",
+      "name": "20x damage｜20倍伤害",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -185,9 +190,9 @@
       ]
     },
     {
-      "name": "30x damage",
+      "name": "30x damage｜30倍伤害",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -197,9 +202,9 @@
       ]
     },
     {
-      "name": "40x damage",
+      "name": "40x damage｜40倍伤害",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -209,9 +214,9 @@
       ]
     },
     {
-      "name": "50x damage",
+      "name": "50x damage｜50倍伤害",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -221,9 +226,9 @@
       ]
     },
     {
-      "name": "One Hit Stun",
-      "hint": "This cheat may cause progression issues with some enemies.If and when it does, be sure to disable it and reload the checkpoint.",
-      "type": "checkbox",
+      "name": "One Hit Stun｜一击眩晕",
+      "hint": "This cheat may cause progression issues with some enemies.If and when it does, be sure to disable it and reload the 检查点.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777950",
@@ -238,9 +243,9 @@
       ]
     },
     {
-      "name": "No Talisman and Relic Cooldown",
+      "name": "No 符箓 and 遗物 Cooldown",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777B40",
@@ -255,9 +260,9 @@
       ]
     },
     {
-      "name": "Infinite Weapon Charge (L1+Triangle)",
+      "name": "Infinite Weapon 冲锋 (L1+Triangle)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777AEB",

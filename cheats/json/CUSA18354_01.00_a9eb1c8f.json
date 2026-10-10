@@ -1,12 +1,17 @@
 {
-  "name": "Yet Another Zombie Defense HD",
+  "name": "Yet Another 僵尸 防御 HD",
   "id": "CUSA18354",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Infinite Shop Items (On Get)",
-      "type": "checkbox",
+      "name": "Infinite Shop Items (On Get)｜无限商店商品（获取时生效）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Max Ammo (99)",
-      "type": "checkbox",
+      "name": "弹药最大化 (99)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18FBA00",

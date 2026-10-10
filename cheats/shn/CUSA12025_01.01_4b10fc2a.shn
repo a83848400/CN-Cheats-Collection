@@ -5,7 +5,15 @@
   <Genres Name="Family" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infinite HP (Sora)" Description="Inf HP Sora">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 (索拉)" Description="Inf HP Sora">
     <Cheatline>
       <Offset>83E3842</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>45-85-F6-0F-49-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP" Description="Inf Mana">
+  <Cheat Text="Infinite MP｜无限魔力" Description="Inf Mana">
     <Cheatline>
       <Offset>83E3862</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>45-85-FF-0F-49-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>83E3800</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>0F-8E-EE-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max LvL/EXP" Description="No Fun">
+  <Cheat Text="最大 LvL/经验" Description="No Fun">
     <Cheatline>
       <Offset>83E3832</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>0F-8E-2C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats V1">
+  <Cheat Text="最大 属性 V1">
     <Cheatline>
       <Offset>83E387C</Offset>
       <Section>0</Section>

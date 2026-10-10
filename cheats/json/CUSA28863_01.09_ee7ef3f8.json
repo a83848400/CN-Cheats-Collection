@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA28863",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5CE30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Magic",
-      "type": "checkbox",
+      "name": "最大/Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DE00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Endurance",
-      "type": "checkbox",
+      "name": "最大/Infinite 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DE50",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Items/Potions/Arrows",
-      "type": "checkbox",
+      "name": "最大/道具无限/Potions/Arrows",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0F0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Runes On Start",
-      "type": "checkbox",
+      "name": "最大/符文无限 On Start",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F880",

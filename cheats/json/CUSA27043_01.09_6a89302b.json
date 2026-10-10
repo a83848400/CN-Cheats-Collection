@@ -1,12 +1,17 @@
 {
-  "name": "Dead Island 2",
+  "name": "Dead 岛屿 2",
   "id": "CUSA27043",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BC3DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Activate After Killing The First Zombie)",
-      "type": "checkbox",
+      "name": "一击必杀 (Activate After Killing The First 僵尸)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BC3DB8",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Medkits Don't Decrease",
-      "type": "checkbox",
+      "name": "Medkits Don'恐怖分子 Decrease",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6606948",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6602EF3",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24F1720",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Weapons Durability",
-      "type": "checkbox",
+      "name": "Infinite 武器 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BC3900",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Items On Gain (x2 To Work)",
-      "type": "checkbox",
+      "name": "最大 Items On Gain (x2 To Work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BC39B0",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Max Money On Sell (Sell N Disable)",
-      "type": "checkbox",
+      "name": "金钱最大 On Sell (Sell N Disable)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BC37E0",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Fury On Kill",
-      "type": "checkbox",
+      "name": "最大/无尽之怒 On Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BC1720",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8BC3B90",

@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza Kiwami 2",
+  "name": "如龙 Kiwami 2",
   "id": "CUSA10706",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23B3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Health",
-      "type": "checkbox",
+      "name": "Max Health｜生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23B380E",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Money and Skill Point on Buy ",
-      "type": "checkbox",
+      "name": "金钱无限 and Skill Point on Buy ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23B3800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23B3800",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Raiden V: Director's Cut" Moder="Molly" Cusa="CUSA07673" Version="01.02" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite bombs">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite bombs｜无限炸弹">
     <Cheatline>
       <Offset>293806</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>74-04-FE-C8-88-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Player Score">
+  <Cheat Text="最大 Player 比分">
     <Cheatline>
       <Offset>293815</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>0F-47-C1-89-47-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stage Score">
+  <Cheat Text="最大 Stage 比分">
     <Cheatline>
       <Offset>293825</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>45-89-6F-0C-41-89-7F-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cheer Call Gauge">
+  <Cheat Text="最大 Cheer Call Gauge">
     <Cheatline>
       <Offset>293837</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>05-73-DF-FF-FF-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode">
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>293857</Offset>
       <Section>0</Section>

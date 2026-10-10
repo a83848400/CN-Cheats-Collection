@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mortal Kombat X" Moder="hejran7" Cusa="CUSA00967" Version="01.14" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="P1 Infinite HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="P1 无限血量" Description="">
     <Cheatline>
       <Offset>2DD7819</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-93-38-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P1 Easy Kill" Description="">
+  <Cheat Text="P1 轻松击杀" Description="">
     <Cheatline>
       <Offset>2DD7800</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-93-38-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P1 Infinite X-Ray" Description="">
+  <Cheat Text="P1 Infinite 艾克斯-Ray" Description="">
     <Cheatline>
       <Offset>2DD7832</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-83-8C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P1 Infinite Energy" Description="">
+  <Cheat Text="P1 无限能量" Description="">
     <Cheatline>
       <Offset>2DD7856</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C4-C1-7A-11-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Krypt Koins" Description="">
+  <Cheat Text="最大 Krypt Koins" Description="">
     <Cheatline>
       <Offset>2DD786D</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>0F-48-DF-41-89-59-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Fatality Koins + Skip Koins" Description="">
+  <Cheat Text="最大 Fatality Koins + Skip Koins" Description="">
     <Cheatline>
       <Offset>2DD787E</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>44-01-BC-98-F4-87-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer - Tower + Story" Description="">
+  <Cheat Text="Freeze 计时器 - 防御塔 + Story" Description="">
     <Cheatline>
       <Offset>369432</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>41-89-8F-48-19-00-00</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Freeze Timer - Test your Might" Description="">
+  <Cheat Text="Freeze 计时器 - Test your Might" Description="">
     <Cheatline>
       <Offset>1EBD89F</Offset>
       <Section>0</Section>

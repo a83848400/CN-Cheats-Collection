@@ -1,12 +1,17 @@
 {
-  "name": "Dishonored 2",
+  "name": "Dishonored 2｜《耻辱2》",
   "id": "CUSA03604",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Mana",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B330",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Items/Bullets/Runes (on use)",
-      "type": "checkbox",
+      "name": "道具无限/项目符号/铭文 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B080",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Breeath",
-      "type": "checkbox",
+      "name": "Infinite Breeath｜无尽之息",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B7A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Money(on grab disable before leaving places)",
-      "type": "checkbox",
+      "name": "金钱最大(on grab disable before leaving places)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B7E0",

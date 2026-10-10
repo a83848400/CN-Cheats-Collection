@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Air Filter ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限之空 Filter ">
     <Cheatline>
       <Offset>16D2551</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
     </Cheatline>
   </Cheat>
   
-  <Cheat Text="no reload">
+  <Cheat Text="no reload｜无需换弹">
     <Cheatline>
       <Offset>16D258B</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>41-89-84-24-C0-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Medkit On Use">
+  <Cheat Text="Infinite 医疗包 On Use">
     <Cheatline>
       <Offset>5D249F</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>FF-8B-44-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite Health ">
+  <Cheat Text="infinite Health ｜无限生命">
     <Cheatline>
       <Offset>16D2525</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
   </Cheat>
   
   
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>16D2566</Offset>
       <Section>0</Section>

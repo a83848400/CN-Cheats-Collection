@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza Kiwami",
+  "name": "如龙 Kiwami",
   "id": "CUSA07615",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D47E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Heat Gauge",
-      "type": "checkbox",
+      "name": "无限热血槽 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D47F4",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11D4800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Money, CP",
-      "type": "checkbox",
+      "name": "金钱无限, CP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7567DD",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "754B08",

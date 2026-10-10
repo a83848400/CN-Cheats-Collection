@@ -4,6 +4,14 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
   <Cheat Control="Toggel" Text="Godmode">
     <Cheatline>
       <Offset>5CC779</Offset>

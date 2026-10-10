@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Curse of the Sea Rats" Moder="Wander / Reddevil82 - FW 9.00" Cusa="CUSA25757" Version="01.01" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Invulnerable">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invulnerable｜无敌">
     <Cheatline>
       <Offset>19ABDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-80-BE-A0-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>19ABDE8</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-83-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>19ABDFE</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-8B-B6-C0-00-00-00-44-29-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite EP">
+  <Cheat Text="Infinite EP｜《Infinite》EP">
     <Cheatline>
       <Offset>19ABE1D</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>41-89-47-1C-48-8B-39</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins">
+  <Cheat Text="最大 角落">
     <Cheatline>
       <Offset>19ABE30</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>44-01-73-20-48-8B-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Spirit">
+  <Cheat Text="最大 精魄">
     <Cheatline>
       <Offset>19ABE45</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>44-01-73-1C-48-8B-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>19ABEB2</Offset>
       <Section>0</Section>

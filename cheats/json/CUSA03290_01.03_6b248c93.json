@@ -1,12 +1,17 @@
 {
-  "name": "Dead Island: Riptide: Definitive Edition",
+  "name": "Dead 岛屿: Riptide: Definitive Edition",
   "id": "CUSA03290",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76372c",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87c71d",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "751c24",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
+      "name": "Infinite Rage｜怒气无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77f23f",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3d2156",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Get Money For Spending It",
-      "type": "checkbox",
+      "name": "Get Money For Spending It｜赚点钱来花花",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "779480",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Get Max XP For 1 Kill",
-      "type": "checkbox",
+      "name": "Get 最大 XP For 1 Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7c5e47",

@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil Village",
+  "name": "生化危机 Village",
   "id": "CUSA18008",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[01] Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[01] 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAA40",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "[02] 1 Hit Kill",
-      "type": "checkbox",
+      "name": "[02] 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAAC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "[03] Turbo Speed",
-      "type": "checkbox",
+      "name": "[03] 涡轮 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EACA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "[04] NMEs Don't Move (Exceptions Needed)",
-      "type": "checkbox",
+      "name": "[04] NMEs Don'恐怖分子 招式 (Exceptions Needed)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAE40",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "[05] No Reload",
-      "type": "checkbox",
+      "name": "[05] 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAC00",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "[06] Infinite Ammo",
-      "type": "checkbox",
+      "name": "[06] 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAA20",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "[07] Tamed NMEs",
-      "type": "checkbox",
+      "name": "[07] Tamed NMEs｜[07] 已驯服的新分子实体",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAF50",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "[08] No Baby + No Moreau In Water",
-      "type": "checkbox",
+      "name": "[08] No Baby + No Moreau In 水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAD40",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "[09] Infinite Leis",
-      "type": "checkbox",
+      "name": "[09] Infinite Leis｜[09] 无限花环",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAA70",
@@ -174,8 +179,8 @@
       ]
     },
     {
-      "name": "[10] Infinite Collectables",
-      "type": "checkbox",
+      "name": "[10] Infinite Collectables｜[10] 无限收藏品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAB20",
@@ -190,8 +195,8 @@
       ]
     },
     {
-      "name": "[11] Torchlight ON",
-      "type": "checkbox",
+      "name": "[11] Torchlight ON｜[11] 《火炬之光》已开启",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAC90",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "[12] Torchlight OFF",
-      "type": "checkbox",
+      "name": "[12] Torchlight OFF｜[12] 手电筒关闭",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAC80",
@@ -227,8 +232,8 @@
       ]
     },
     {
-      "name": "[13] Cannon - Infinite Health",
-      "type": "checkbox",
+      "name": "[13] Cannon - 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAA50",
@@ -243,8 +248,8 @@
       ]
     },
     {
-      "name": "[14] Cannon - Inmediate Reload",
-      "type": "checkbox",
+      "name": "[14] Cannon - Inmediate Reload｜[14] 加农炮——即时装填",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EABB0",
@@ -259,8 +264,8 @@
       ]
     },
     {
-      "name": "[15] Target Locator - Instant Reload",
-      "type": "checkbox",
+      "name": "[15] Target Locator - Instant Reload｜[15] 目标定位器——即时重装",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAB40",
@@ -275,8 +280,8 @@
       ]
     },
     {
-      "name": "[16] Target Locator - Instant Fire",
-      "type": "checkbox",
+      "name": "[16] Target Locator - Instant 火",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EABE0",
@@ -291,8 +296,8 @@
       ]
     },
     {
-      "name": "[17] Infinite Completion Points",
-      "type": "checkbox",
+      "name": "[17] Infinite Completion 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAA30",
@@ -307,8 +312,8 @@
       ]
     },
     {
-      "name": "[18a] Torchlight Intensity x1",
-      "type": "checkbox",
+      "name": "[18a] Torchlight Intensity x1｜[18a] 火把亮度 ×1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAC20",
@@ -328,8 +333,8 @@
       ]
     },
     {
-      "name": "[18b] Torchlight Intensity x4",
-      "type": "checkbox",
+      "name": "[18b] Torchlight Intensity x4｜[18b] 火把亮度 ×4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAC20",
@@ -349,8 +354,8 @@
       ]
     },
     {
-      "name": "[18c] Torchlight Intensity x8",
-      "type": "checkbox",
+      "name": "[18c] Torchlight Intensity x8｜[18c] 火把亮度 ×8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EAC20",
@@ -370,8 +375,8 @@
       ]
     },
     {
-      "name": "[19a] [Game Mode] Darker",
-      "type": "checkbox",
+      "name": "[19a] [Game Mode] Darker｜[19a] [游戏模式] 更暗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB0D0",
@@ -386,8 +391,8 @@
       ]
     },
     {
-      "name": "[19b] [Game Mode] Ultrashine",
-      "type": "checkbox",
+      "name": "[19b] [Game Mode] Ultrashine｜[19b] [游戏模式] 超闪耀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB0D0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sky Force Anniversary" Moder="hejran7" Cusa="CUSA04411" Version="01.03" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>80217B26</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>48-63-0C-24-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Laser">
+  <Cheat Text="Infinite 激光瞄准器">
     <Cheatline>
       <Offset>80247F8D</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-63-34-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield">
+  <Cheat Text="Infinite Shield｜无限护盾">
     <Cheatline>
       <Offset>8023F5BD</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>48-63-34-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mega Bome">
+  <Cheat Text="Infinite Mega Bome｜无限巨树">
     <Cheatline>
       <Offset>8022AF3C</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>48-63-34-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Press R3 to Refill Energy Shield Timer">
+  <Cheat Text="Press R3 to Refill 能量 盾牌 计时器">
     <Cheatline>
       <Offset>125B81E</Offset>
       <Section>0</Section>

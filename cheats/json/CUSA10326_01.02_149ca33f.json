@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 3: Classic Edition",
+  "name": "孤岛惊魂 3: Classic Edition",
   "id": "CUSA10326",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6BDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincibility",
-      "type": "checkbox",
+      "name": "Invincibility｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6BDF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Breath (Underwater)",
-      "type": "checkbox",
+      "name": "无限呼吸 (Underwater)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6BE40",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health Syringes",
-      "type": "checkbox",
+      "name": "无限生命 Syringes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1316584",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "126FE2E",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "119DF20",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables (After Getting Throwables)",
-      "type": "checkbox",
+      "name": "投掷物无限 (After Getting 可投掷物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12C4FF3",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Lot Of Infinite Money On First Buy",
-      "type": "checkbox",
+      "name": "用地 Of 金钱无限 On First Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12963E3",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6BE20",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Stop Time",
-      "type": "checkbox",
+      "name": "停止 Time",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6BEE0",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "Stop Time Seringues",
-      "type": "checkbox",
+      "name": "停止 Time Seringues",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6B9E0",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "No Damage To The Helicopter",
-      "type": "checkbox",
+      "name": "不受伤害 To The 直升机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B6BA30",

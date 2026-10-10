@@ -1,12 +1,17 @@
 {
-  "name": "Dead Rising",
+  "name": "Dead Rising｜丧尸围城",
   "id": "CUSA04513",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Batteries",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FC15",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Quick Level Up ~Take One Picture~",
-      "type": "checkbox",
+      "name": "Quick 升级 ~Take One Picture~",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FC3E",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Godmode",
-      "type": "checkbox",
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FC5B",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FC6E",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Quickly Kill Zombies",
-      "type": "checkbox",
+      "name": "Quickly Kill Zombies｜快速消灭僵尸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FC95",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Have  Real Mega Blaster ~Swap Items~",
-      "type": "checkbox",
+      "name": "Have  Real Mega 爆能枪 ~Swap Items~",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FCA7",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Have Laser Sword ~Swap Items~",
-      "type": "checkbox",
+      "name": "Have 激光瞄准器 剑 ~Swap Items~",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FCBB",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Have Queen\\'s ~Swap Items~",
-      "type": "checkbox",
+      "name": "Have Queen\\'s ~Swap Items~｜拥有皇后乐队的《交换物品》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FCCF",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "Weapon Durability",
-      "type": "checkbox",
+      "name": "Weapon Durability｜武器耐久度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FCE8",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Novelty Masks On Zombies (10) ",
-      "type": "checkbox",
+      "name": "Novelty Masks On Zombies (10) ｜僵尸佩戴的创意面具（10）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FD01",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "Shots Taken (1000) ",
-      "type": "checkbox",
+      "name": "Shots Taken (1000) ｜投篮次数（1000）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FD10",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Barehanded Kills (1000)",
-      "type": "checkbox",
+      "name": "Barehanded Kills (1000)｜徒手击杀 (1000)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FD20",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "Item Smasher (1000)",
-      "type": "checkbox",
+      "name": "物品 Smasher (1000)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FD30",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "Max Photo PP Score",
-      "type": "checkbox",
+      "name": "最大 照片 招式点数 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181FD56",

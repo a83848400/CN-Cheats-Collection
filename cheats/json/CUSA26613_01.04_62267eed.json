@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto III - The Definitive Edition",
+  "name": "侠盗猎车手 III - The Definitive Edition",
   "id": "CUSA26613",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (WIP/Experimental)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (WIP/Experimental)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10F1775",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinte Armour",
-      "type": "checkbox",
+      "name": "Infinte Armour｜无限铠甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10F1624",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinte Ammo",
-      "type": "checkbox",
+      "name": "Infinte Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11976BF",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11976A5",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Get $99.999.999 (Upon Mission Completion)",
-      "type": "checkbox",
+      "name": "Get $99.999.999 (Upon Mission Completion)｜获得 99,999,999 美元（完成任务后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57CFEC0",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Freeze Money (for Pay N Spray/Ammu-Nation)",
-      "type": "checkbox",
+      "name": "Freeze 金钱 (for Pay N 喷漆/Ammu-Nation)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F85F16",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Free PainSpray",
-      "type": "checkbox",
+      "name": "Free PainSpray｜免费止痛喷雾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F85EF1",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Disable all incoming damage",
-      "type": "checkbox",
+      "name": "Disable all incoming 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10F098A",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Disable vehicle incoming damage",
-      "type": "checkbox",
+      "name": "Disable vehicle incoming 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "118A1AC",
@@ -114,8 +119,8 @@
       ]
     },
     {
-      "name": "Disable insta vehicle blowup",
-      "type": "checkbox",
+      "name": "Disable insta vehicle blowup｜禁用车辆瞬间爆炸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "118A19A",

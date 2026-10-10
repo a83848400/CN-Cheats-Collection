@@ -1,13 +1,18 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA13910",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Speed MC (Must Be On)",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "速度 MC (Must Be On)",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF067",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Super HP Bar On Reload",
-      "description": "(permanent hp bar works on save file as well)",
-      "type": "checkbox",
+      "name": "Super 手机 Bar On Reload",
+      "description": "(permanent hp bar works on save file as well)｜生命槽永久生效(存档同样保留)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF15E",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Health｜无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF0B4",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "One Hit Kill｜一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01762316",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Untouchable",
-      "description": "cant be hit",
-      "type": "checkbox",
+      "name": "Untouchable｜刀枪不入",
+      "description": "cant be hit｜无法被击中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF136",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Auto Block Target",
+      "name": "自动格挡 Target",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AD3800",
@@ -112,9 +117,9 @@
       ]
     },
     {
-      "name": "Parry Always On Time",
-      "description": "Parry when holdeing L1",
-      "type": "checkbox",
+      "name": "振刀 Always On Time",
+      "description": "振刀 when holdeing L1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "014C710F",
@@ -124,9 +129,9 @@
       ]
     },
     {
-      "name": "Player Infinite Posture",
+      "name": "Player Infinite Posture｜玩家：无限姿态",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01769A25",
@@ -136,9 +141,9 @@
       ]
     },
     {
-      "name": "Quick Deathblow",
+      "name": "快速 忍杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF08E",
@@ -153,9 +158,9 @@
       ]
     },
     {
-      "name": "Enemy Infinite posture",
-      "description": "for practice",
-      "type": "checkbox",
+      "name": "Enemy Infinite posture｜敌人“无限”架势",
+      "description": "for practice｜用于练习",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0182F7AF",
@@ -165,9 +170,9 @@
       ]
     },
     {
-      "name": "100% Drop Rate",
+      "name": "100% Drop Rate｜百分百掉宝率",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF170",
@@ -187,9 +192,9 @@
       ]
     },
     {
-      "name": "Max Money",
+      "name": "Max Money｜金钱最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "014C448A",
@@ -199,9 +204,9 @@
       ]
     },
     {
-      "name": "Max Items On Use",
-      "description": "max items on use or when items get transfer to Storage, must have 1 at least",
-      "type": "checkbox",
+      "name": "最大 Items On Use",
+      "description": "最大 items on use or when items get 转会 to 存储, must have 1 at least",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "011AE809",
@@ -211,9 +216,9 @@
       ]
     },
     {
-      "name": "Infinite Quick Items",
+      "name": "Infinite Quick Items｜无限快捷道具",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "014904AF",
@@ -223,9 +228,9 @@
       ]
     },
     {
-      "name": "Infinite Merchant Items",
-      "description": "turn off after use or when traveling, does not apply to (Prosthetic) upgrade materials",
-      "type": "checkbox",
+      "name": "Infinite 商人 Items",
+      "description": "回合 off after use or when traveling, does not apply to (Prosthetic) upgrade materials",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0107FFD8",
@@ -235,9 +240,9 @@
       ]
     },
     {
-      "name": "Auto Pick Enemy Drops",
+      "name": "Auto Pick Enemy Drops｜自动拾取敌人掉落物",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01378334",
@@ -247,9 +252,9 @@
       ]
     },
     {
-      "name": "Exp Quick lvl Up",
+      "name": "经验 Quick lvl Up",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF10C",
@@ -264,9 +269,9 @@
       ]
     },
     {
-      "name": "High Jump",
+      "name": "High Jump｜跳高",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF0C5",
@@ -281,9 +286,9 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "description": "turn off when traveling",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "description": "回合 off when traveling",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF0C5",
@@ -298,9 +303,9 @@
       ]
     },
     {
-      "name": "Undetected",
+      "name": "Undetected｜未被检测到",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0182DFE1",
@@ -315,9 +320,9 @@
       ]
     },
     {
-      "name": "Enemy Location",
+      "name": "Enemy Location｜敌人位置",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F579BC",
@@ -327,9 +332,9 @@
       ]
     },
     {
-      "name": "Enemy Don't Move",
+      "name": "Enemy Don'恐怖分子 招式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "011FEC4B",
@@ -339,9 +344,9 @@
       ]
     },
     {
-      "name": "Enemy Don't Attack",
+      "name": "Enemy Don'恐怖分子 攻击",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E84E9E",
@@ -351,9 +356,9 @@
       ]
     },
     {
-      "name": "No Fall Damage",
+      "name": "No Fall Damage｜无坠落伤害",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "017C7FD3",
@@ -363,9 +368,9 @@
       ]
     },
     {
-      "name": "No Status Effects",
-      "description": "Poison\\Terror\\Burn\\Enfeeblement\\Shock\\Stepping into the fire",
-      "type": "checkbox",
+      "name": "No Status Effects｜无状态效果",
+      "description": "Poison\\Terror\\Burn\\Enfeeblement\\Shock\\Stepping into the 火",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0145EB43",
@@ -400,9 +405,9 @@
       ]
     },
     {
-      "name": "No Money\\Exp loss Upon Death",
+      "name": "No 金钱\\经验 loss Upon 死亡",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01FC8949",
@@ -417,9 +422,9 @@
       ]
     },
     {
-      "name": "Practice Mode (No One Dies)",
+      "name": "练习模式 (No One Dies)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01768B15",
@@ -429,9 +434,9 @@
       ]
     },
     {
-      "name": "Resurrection Charge No Cooldown",
+      "name": "复活 冲锋 无冷却",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF180",
@@ -446,9 +451,9 @@
       ]
     },
     {
-      "name": "Infinite Resurrection",
-      "description": "you need one resurrection charge at least",
-      "type": "checkbox",
+      "name": "Infinite 复活",
+      "description": "you need one 复活 冲锋 at least",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "014BD532",
@@ -458,9 +463,9 @@
       ]
     },
     {
-      "name": "Player Speed 1.50",
+      "name": "Player 速度 1.50",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF070",
@@ -470,9 +475,9 @@
       ]
     },
     {
-      "name": "Player Speed 2.00",
+      "name": "Player 速度 2.00",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF070",
@@ -482,9 +487,9 @@
       ]
     },
     {
-      "name": "Enemy Speed 0.00",
+      "name": "Enemy 速度 0.00",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AAF07F",
@@ -494,9 +499,9 @@
       ]
     },
     {
-      "name": "Untouchable v2",
-      "description": "cant be hit",
-      "type": "checkbox",
+      "name": "刀枪不入 v2",
+      "description": "cant be hit｜无法被击中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AD3830",
@@ -511,9 +516,9 @@
       ]
     },
     {
-      "name": "Mikiri Counter Always On Time Test",
+      "name": "Mikiri 计数器 Always On Time Test",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03AD3842",

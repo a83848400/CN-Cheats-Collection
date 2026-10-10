@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ys: Memories of Celceta" Moder="GamerX2" Cusa="CUSA18056" Version="01.01" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite HP｜无限血量">
     <Cheatline>
       <Offset>43F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-9D-58-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold On Gain| Battle">
+  <Cheat Text="金币最大 On Gain| 战斗">
     <Cheatline>
       <Offset>43CC42</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-89-85-B4-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max+ Inf Gold On Buy">
+  <Cheat Text="最大+ 无限金币 On Buy">
     <Cheatline>
       <Offset>43CCC0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>89-91-B4-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level | Kill  Few Monsters">
+  <Cheat Text="等级最大 | Kill  Few Monsters">
     <Cheatline>
       <Offset>43CC00</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-83-64-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max SP Slots On Hit ">
+  <Cheat Text="最大 精神值 Slots On Hit ">
     <Cheatline>
       <Offset>43CC19</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>41-89-85-B8-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant EXTRA Skill Gauge">
+  <Cheat Text="Instant EXTRA Skill Gauge｜即时额外技能槽">
     <Cheatline>
       <Offset>43CCAD</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>89-94-88-FC-AB-1D-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Skill Level Up| Use Skill Once">
+  <Cheat Text="瞬发技能 升级| Use Skill Once">
     <Cheatline>
       <Offset>43CC55</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>41-89-4C-B7-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze GamePlay Timer">
+  <Cheat Text="Freeze GamePlay 计时器">
     <Cheatline>
       <Offset>57C26</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>89-8F-BC-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rest GamePlay Timer">
+  <Cheat Text="休息 GamePlay 计时器">
     <Cheatline>
       <Offset>43CC30</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>89-8F-BC-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max+ Inf  Items On Use">
+  <Cheat Text="最大+ Infinite  Items On Use">
     <Cheatline>
       <Offset>43CC67</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>66-41-89-84-4E-C8-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Weapons/Armour/Usable Items">
+  <Cheat Text="解锁全部武器/Armour/Usable Items">
     <Cheatline>
       <Offset>43CC7B</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>0F-B7-84-47-C8-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Consumables/Weapons/Minerals/Materials">
+  <Cheat Text="最大 Consumables/武器/晶体矿/Materials">
     <Cheatline>
       <Offset>43CC94</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>0F-BF-84-77-C8-56-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max+ Inf Minerals and Materials | Blacksmith Shop">
+  <Cheat Text="最大+ Infinite 晶体矿 and Materials | 铁匠 Shop">
     <Cheatline>
       <Offset>43CCD6</Offset>
       <Section>0</Section>

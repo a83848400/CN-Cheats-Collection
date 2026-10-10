@@ -1,12 +1,17 @@
 {
-  "name": "Metal Slug 4",
-  "id": "SLPS66666",
+  "name": "金属 Slug 4",
+  "id": "SLPS66666｜小型、低功耗、单芯片 66666",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801A6B14",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf-lives-99",
-      "type": "checkbox",
+      "name": "无限生命-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD5C3FC",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf-credits-99",
-      "type": "checkbox",
+      "name": "无限积分-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD530B8",

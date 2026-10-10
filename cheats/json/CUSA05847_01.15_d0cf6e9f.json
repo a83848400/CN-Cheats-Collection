@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 5",
+  "name": "孤岛惊魂 5",
   "id": "CUSA05847",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28AF535",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Invincibility",
-      "type": "checkbox",
+      "name": "Invincibility｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28BE434",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance",
-      "type": "checkbox",
+      "name": "Infinite 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28A7284",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28B6A83",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/Money/Throwables",
-      "type": "checkbox",
+      "name": "最大/无限弹药/金钱/可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FCFDC0",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3871A27",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "343336C",

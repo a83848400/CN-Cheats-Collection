@@ -1,13 +1,18 @@
 {
-  "name": "Spyro: Reignited Trilogy",
+  "name": "Spyro: Reignited Trilogy｜《斯派罗：重燃三部曲》",
   "id": "CUSA12085",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D2169",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Moon Jump",
+      "name": "Moon Jump｜月球超级跳跃",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2418822",

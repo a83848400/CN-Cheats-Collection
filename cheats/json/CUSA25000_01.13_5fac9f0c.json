@@ -1,12 +1,17 @@
 {
-  "name": "Kena: Bridge of Spirits",
+  "name": "Kena: Bridge of Spirits｜《凯娜：灵桥》",
   "id": "CUSA25000",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9999 Crystal",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "9999 水晶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7147800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Arrow",
-      "type": "checkbox",
+      "name": "无限之箭",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -39,8 +44,8 @@
       ]
     },
     {
-      "name": "inf HP & 2 Hit Kill Enemy",
-      "type": "checkbox",
+      "name": "无限血量 & 2 命中击杀 Enemy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "Inf Rot Use",
-      "type": "checkbox",
+      "name": "《无限腐朽》使用说明",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Grand Theft Auto: Vice City - The Definitive Edition" Moder="2pt" Cusa="CUSA26616" Version="01.06" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>585BBDA</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-83-D4-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Vehicle Collision Damage">
+  <Cheat Text="No Vehicle Collision 输出">
     <Cheatline>
       <Offset>11A530B</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C4-C1-7A-11-85-20-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>11FEE32</Offset>
       <Section>0</Section>

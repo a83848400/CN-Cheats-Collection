@@ -1,12 +1,17 @@
 {
-  "name": "Silent Hill 2: Director's Cut",
+  "name": "寂静岭 2: Director's 居合斩",
   "id": "SLES51156",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All-Items",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All-Items｜所有商品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDDF798",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Inf-Ammo-And-Item",
-      "type": "checkbox",
+      "name": "无限弹药-And-物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDB78A8",

@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Valhalla",
+  "name": "刺客信条 Valhalla",
   "id": "CUSA18522",
   "version": "06.30",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ED80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "All Ressource/Arrows/money(on use/buy)",
-      "type": "checkbox",
+      "name": "All Ressource/Arrows/金钱(on use/buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EC50",

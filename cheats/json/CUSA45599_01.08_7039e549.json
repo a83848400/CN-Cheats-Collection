@@ -1,12 +1,17 @@
 {
-  "name": "DAVE THE DIVER",
+  "name": "DAVE THE DIVER｜潜水员戴夫",
   "id": "CUSA45599",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf O2",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AFB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "weight never Inc",
-      "type": "checkbox",
+      "name": "重量 never Inc",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AFB819",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Dave Stamina at the Resturant ",
-      "type": "checkbox",
+      "name": "Infinite Dave 体力 at the Resturant ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AFB82C",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Speargun Ammo",
-      "type": "checkbox",
+      "name": "Infinite Speargun 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AFB841",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Itmes use only in resturant sell 1 item to restore it to x99",
-      "type": "checkbox",
+      "name": "无限项 use only in resturant sell 1 物品 to restore it to x99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AFB800",

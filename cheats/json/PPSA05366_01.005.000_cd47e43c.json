@@ -1,13 +1,18 @@
 {
-  "name": "A Plague Tale: Requiem",
+  "name": "A Plague Tale: Requiem｜《瘟疫传说：安魂曲》",
   "id": "PPSA05366",
   "version": "01.005.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Items",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204F000",

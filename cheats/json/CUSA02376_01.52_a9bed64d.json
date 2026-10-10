@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Syndicate",
+  "name": "刺客信条 Syndicate",
   "id": "CUSA02376",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP & Easy Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 & 轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14D1890",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5543800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Resources",
-      "type": "checkbox",
+      "name": "资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "554380E",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "554381C",

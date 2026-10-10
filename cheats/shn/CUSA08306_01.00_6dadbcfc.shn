@@ -18,7 +18,15 @@
       <ValueOff>41-89-17-74-2B</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>5F3800</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>5F3801</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gauge" Description="">
+  <Cheat Text="Infinite Gauge｜无限量规" Description="">
     <Cheatline>
       <Offset>5F3802</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items (Storage)" Description="">
+  <Cheat Text="最大 Items (存储)" Description="">
     <Cheatline>
       <Offset>18954D</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>89-FA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items (Inventory)" Description="">
+  <Cheat Text="最大 Items (背包)" Description="">
     <Cheatline>
       <Offset>46F9C</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>89-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items (Sale)" Description="">
+  <Cheat Text="道具无限 (Sale)" Description="">
     <Cheatline>
       <Offset>1898AD</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Berry on Get" Description="">
+  <Cheat Text="最大 浆果 on Get" Description="">
     <Cheatline>
       <Offset>5F3875</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>89-4E-08-C6-46-04-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Berry" Description="">
+  <Cheat Text="Infinite 浆果" Description="">
     <Cheatline>
       <Offset>1896C4</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>29-F2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Pirate Points" Description="">
+  <Cheat Text="最大 Pirate 得分" Description="">
     <Cheatline>
       <Offset>141401</Offset>
       <Section>0</Section>

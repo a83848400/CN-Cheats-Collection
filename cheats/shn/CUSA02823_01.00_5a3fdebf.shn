@@ -6,7 +6,15 @@
   <Genres Name="RPG" />
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>2FCDB0</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>C5-F2-5D-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill" Description="">
+  <Cheat Text="1 Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>ADAF7</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>C5-F2-5C-D0</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Infinite AP" Description="">
+  <Cheat Text="Infinite AP｜无限能力点" Description="">
     <Cheatline>
       <Offset>A1D35</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>EEB69</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-F2-5D-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Yuld" Description="">
+  <Cheat Text="Infinite Yuld｜无限尤尔德" Description="">
     <Cheatline>
       <Offset>3CCFC6</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Yuld" Description="">
+  <Cheat Text="最大 Yuld" Description="">
     <Cheatline>
       <Offset>3CBC48</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>41-0F-46-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>3CC899</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>44-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max XP" Description="">
+  <Cheat Text="Instant 最大 XP" Description="">
     <Cheatline>
       <Offset>7055A</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>41-89-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Union Gauge" Description="">
+  <Cheat Text="Infinite Union Gauge｜无限联合量表" Description="">
     <Cheatline>
       <Offset>304B0A</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Union Gauge" Description="">
+  <Cheat Text="最大 Union Gauge" Description="">
     <Cheatline>
       <Offset>EF14D</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>C5-F2-5D-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skills via Menu" Description="">
+  <Cheat Text="最大 Skills via 菜单" Description="">
     <Cheatline>
       <Offset>70376</Offset>
       <Section>0</Section>

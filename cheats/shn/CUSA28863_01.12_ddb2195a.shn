@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Elden Ring" Moder="Celogamez" Cusa="CUSA28863" Version="01.12" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>39C7DD0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-85-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Magic">
+  <Cheat Text="最大/Infinite 魔法">
     <Cheatline>
       <Offset>39C7DB0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-89-85-58-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Stamina">
+  <Cheat Text="最大/无限耐力">
     <Cheatline>
       <Offset>39C7E00</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-89-86-64-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Items/Potions/Arrows">
+  <Cheat Text="最大/道具无限/Potions/Arrows">
     <Cheatline>
       <Offset>39C7E40</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>43-89-44-A7-0C-44-89-31</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Runes On Start">
+  <Cheat Text="最大/符文无限 On Start">
     <Cheatline>
       <Offset>39C7E70</Offset>
       <Section>0</Section>

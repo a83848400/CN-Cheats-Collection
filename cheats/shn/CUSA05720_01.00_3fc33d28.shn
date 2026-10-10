@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rise of the Tomb Raider" Moder="hejran7" Cusa="CUSA05720" Version="01.00" Process="eboot.bin">
-  <Cheat Text="Inf HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量" Description="">
     <Cheatline>
       <Offset>0156F800</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>C5-FA-11-4F-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo - Res" Description="">
+  <Cheat Text="无限弹药 - Res" Description="">
     <Cheatline>
       <Offset>8565CC</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>66-89-50-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>8B516D</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil" Description="">
+  <Cheat Text="No Recoil｜消除后坐力" Description="">
     <Cheatline>
       <Offset>0156F830</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-10-8B-90-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapid Fire" Description="">
+  <Cheat Text="Rapid Fire｜快速射击" Description="">
     <Cheatline>
       <Offset>9C5C61</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C4-C1-7A-11-85-EC-10-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points on Use" Description="">
+  <Cheat Text="最大 Skill 得分 on Use" Description="">
     <Cheatline>
       <Offset>0156F822</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>44-0F-42-F1-44-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="">
+  <Cheat Text="Super Jump｜超级跳跃" Description="">
     <Cheatline>
       <Offset>0156F88F</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-F8-29-50-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Time Bonus" Description="">
+  <Cheat Text="无限时间 Bonus" Description="">
     <Cheatline>
       <Offset>8D19B0</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C4-C1-7A-11-45-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Time Combo" Description="">
+  <Cheat Text="无限时间 Combo" Description="">
     <Cheatline>
       <Offset>8CF8BA</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>C5-FA-11-83-CC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Hunger Meter" Description="">
+  <Cheat Text="Full Hunger Meter｜饥饿值满格" Description="">
     <Cheatline>
       <Offset>8C0A14</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Cold Meter" Description="">
+  <Cheat Text="Full Cold Meter｜全冷计" Description="">
     <Cheatline>
       <Offset>8BFBC3</Offset>
       <Section>0</Section>

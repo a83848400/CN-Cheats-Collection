@@ -1,12 +1,17 @@
 {
-  "name": "Stray",
+  "name": "Stray｜流浪",
   "id": "CUSA24899",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9E660",

@@ -1,12 +1,17 @@
 {
-  "name": "Blasphemous",
+  "name": "Blasphemous｜亵渎",
   "id": "CUSA16275",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FEA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincibility",
-      "type": "checkbox",
+      "name": "Invincibility｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FF40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Fervor",
-      "type": "checkbox",
+      "name": "Infinite Fervor｜无尽的热情",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FE00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Health/Fervor/Blood Penitence On Use",
-      "type": "checkbox",
+      "name": "生命最大/Fervor/Blood Penitence On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FF50",

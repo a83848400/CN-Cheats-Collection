@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Demon's Souls" Moder="hejran7" Cusa="PPSA01341" Version="01.004.000" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinity Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinity 生命" Description="">
     <Cheatline>
       <Offset>1FF7E6C</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-8B-B6-30-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>1FF7E9C</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-8B-86-30-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Stamina" Description="">
+  <Cheat Text="Infinity 体力" Description="">
     <Cheatline>
       <Offset>34A996</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>45-89-7D-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Magic Power" Description="">
+  <Cheat Text="Infinity 魔法 电力" Description="">
     <Cheatline>
       <Offset>34A7C0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>44-89-AB-3C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Weapon Durability" Description="">
+  <Cheat Text="Infinity 武器耐久度" Description="">
     <Cheatline>
       <Offset>4702EA</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-3A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinity Souls" Description="">
+  <Cheat Text="Infinity 结界突破" Description="">
     <Cheatline>
       <Offset>D2A87</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>8B-80-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Souls loss Upon Death" Description="">
+  <Cheat Text="No 结界突破 loss Upon 死亡" Description="">
     <Cheatline>
       <Offset>21D982</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>41-89-8D-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items (On Use, Move)" Description="">
+  <Cheat Text="最大 Items (On Use, 招式)" Description="">
     <Cheatline>
       <Offset>469CFB</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>44-89-29</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Duplicate Items (On Use, Drop)" Description="">
+  <Cheat Text="重复项目 (On Use, 丢弃)" Description="">
     <Cheatline>
       <Offset>469C9F</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>45-01-E5</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Infinity Health (for training)" Description="">
+  <Cheat Text="All Infinity 生命 (for 训练)" Description="">
     <Cheatline>
       <Offset>344870</Offset>
       <Section>0</Section>

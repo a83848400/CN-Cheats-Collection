@@ -32,7 +32,15 @@
       <ValueOff>F3-45-0F-11-BC-24-14-03-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>11CF800</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>11CF801</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gift-Points" Description="">
+  <Cheat Text="Infinite Gift-得分" Description="">
     <Cheatline>
       <Offset>4B0137</Offset>
       <Section>15</Section>
@@ -56,7 +64,7 @@
       <ValueOff>2B-0C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Regeneration" Description="">
+  <Cheat Text="Instant Regeneration｜即时再生" Description="">
     <Cheatline>
       <Offset>11CF856</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>F3-45-0F-11-BF-14-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown" Description="">
+  <Cheat Text="No Cooldown｜无冷却" Description="">
     <Cheatline>
       <Offset>509B6D</Offset>
       <Section>15</Section>
@@ -84,7 +92,7 @@
       <ValueOff>F2-0F-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Heal-Skill Usage" Description="">
+  <Cheat Text="Infinite 治疗-Skill Usage" Description="">
     <Cheatline>
       <Offset>11CF841</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>41-89-86-AC-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>1FA24A2</Offset>
       <Section>15</Section>
@@ -106,7 +114,7 @@
       <ValueOff>F3-44-0F-11-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Blood on Get" Description="">
+  <Cheat Text="最大 Blood on Get" Description="">
     <Cheatline>
       <Offset>4AFE1D</Offset>
       <Section>15</Section>
@@ -114,7 +122,7 @@
       <ValueOff>8B-08-03-4C-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold on Get" Description="">
+  <Cheat Text="金币最大 on Get" Description="">
     <Cheatline>
       <Offset>4B02D6</Offset>
       <Section>15</Section>
@@ -122,7 +130,7 @@
       <ValueOff>8B-08-03-0C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Iron on Get" Description="">
+  <Cheat Text="铁最大 on Get" Description="">
     <Cheatline>
       <Offset>4B0429</Offset>
       <Section>15</Section>
@@ -130,7 +138,7 @@
       <ValueOff>8B-08-03-0C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Wood on Get" Description="">
+  <Cheat Text="木材最大 on Get" Description="">
     <Cheatline>
       <Offset>4B0579</Offset>
       <Section>15</Section>
@@ -138,7 +146,7 @@
       <ValueOff>8B-08-03-0C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Blood" Description="">
+  <Cheat Text="Infinite Blood｜无尽之血" Description="">
     <Cheatline>
       <Offset>4B0230</Offset>
       <Section>15</Section>
@@ -146,7 +154,7 @@
       <ValueOff>2B-4C-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gold" Description="">
+  <Cheat Text="Infinite Gold｜无限金币" Description="">
     <Cheatline>
       <Offset>4B039C</Offset>
       <Section>15</Section>
@@ -154,7 +162,7 @@
       <ValueOff>2B-0C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Iron" Description="">
+  <Cheat Text="Infinite Iron｜铁无限" Description="">
     <Cheatline>
       <Offset>4B04EF</Offset>
       <Section>15</Section>
@@ -162,7 +170,7 @@
       <ValueOff>2B-0C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Wood" Description="">
+  <Cheat Text="Infinite Wood｜木材无限" Description="">
     <Cheatline>
       <Offset>4B063F</Offset>
       <Section>15</Section>

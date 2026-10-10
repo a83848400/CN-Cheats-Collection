@@ -1,12 +1,17 @@
 {
-  "name": "The Evil Within 2",
+  "name": "《恶灵附身》 2",
   "id": "CUSA06164",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F284EE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C3A6E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10648D6",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Parts",
-      "type": "checkbox",
+      "name": "Infinite Weapon Parts｜无限武器部件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C056E",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Items on 2nd Pick",
-      "type": "checkbox",
+      "name": "最大 Items on 2nd Pick",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C10A6",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Bottles",
-      "type": "checkbox",
+      "name": "Infinite 玻璃瓶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C0B19",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Resources",
-      "type": "checkbox",
+      "name": "Infinite Resources｜资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11C1709",

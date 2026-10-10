@@ -1,12 +1,17 @@
 {
-  "name": "Immortals Fenyx Rising",
+  "name": "Immortals Fenyx Rising｜渡神纪",
   "id": "CUSA16345",
   "version": "01.34",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBDDB",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Items ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBDF2",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Items ( on use )",
-      "type": "checkbox",
+      "name": "最大 Items ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBE01",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Jumps ( with Wings )",
-      "type": "checkbox",
+      "name": "无限跳跃 ( with Wings )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBE10",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Sword",
-      "type": "checkbox",
+      "name": "最大 剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBE1D",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Axe",
-      "type": "checkbox",
+      "name": "最大 斧",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBE32",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Helmet",
-      "type": "checkbox",
+      "name": "最大 头盔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBE47",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Armor",
-      "type": "checkbox",
+      "name": "Max Armor｜护甲最大值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBE5C",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max Bow",
-      "type": "checkbox",
+      "name": "最大 弓",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FCBE71",

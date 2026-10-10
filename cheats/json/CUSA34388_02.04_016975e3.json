@@ -1,12 +1,17 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34388",
   "version": "02.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
+      "name": "Infinite Rage｜怒气无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F0F0",
@@ -48,7 +53,7 @@
     },
     {
       "name": "Instant R3",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F0A0",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "No Cooldown",
-      "type": "checkbox",
+      "name": "No Cooldown｜无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A47B02",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Infinite Projectiles",
-      "type": "checkbox",
+      "name": "Infinite Projectiles｜无限弹丸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F220",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "Resources up (on craft/sell)",
-      "type": "checkbox",
+      "name": "Resources up (on craft/sell)｜资源增加（制作/出售）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F190",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "XP/HS/Resource Multiplier (on get) (default: 2x)",
-      "type": "checkbox",
+      "name": "XP/HS/Resource Multiplier (on get) (default: 2x)｜经验值/健康值/资源倍率（获取时）（默认：2倍）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F260",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "5x",
-      "type": "button",
+      "name": "5x｜五次",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F520",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "10x",
-      "type": "button",
+      "name": "10x｜十倍",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F520",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "25x",
-      "type": "button",
+      "name": "25x｜25倍",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F520",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Damage Multiplier (default: 2x)",
-      "type": "checkbox",
+      "name": "输出 Multiplier (默认: 2x)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "172F050",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "* 0.5x",
-      "type": "button",
+      "name": "* 0.五次",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F510",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "* 3x",
-      "type": "button",
+      "name": "* 3x｜三次",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F510",
@@ -218,8 +223,8 @@
       ]
     },
     {
-      "name": "* 5x",
-      "type": "button",
+      "name": "* 5x｜五次",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "172F510",

@@ -1,13 +1,18 @@
 {
-  "name": "The Binding of Isaac: Afterbirth+",
+  "name": "The Binding of Isaac: Afterbirth+｜《以撒的结合：Afterbirth+》",
   "id": "CUSA10195",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57EC3C",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Bombs/ Coins/ Keys",
-      "hint": "Use 1 bomb to activate.",
-      "type": "checkbox",
+      "name": "无限炸弹/ 角落/ Keys",
+      "hint": "Use 1 bomb to activate.｜使用1枚炸弹即可激活。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "927000",

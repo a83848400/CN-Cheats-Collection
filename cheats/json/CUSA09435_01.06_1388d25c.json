@@ -1,12 +1,17 @@
 {
-  "name": "Trials Rising",
+  "name": "Trials 崛起",
   "id": "CUSA09435",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C9873E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Freeze Crash Counter",
-      "type": "checkbox",
+      "name": "Freeze Crash 计数器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C01AF4",

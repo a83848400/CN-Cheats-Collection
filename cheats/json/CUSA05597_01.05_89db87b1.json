@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Definitive Experience",
+  "name": "合金装备/潜龙谍影 V: The Definitive Experience",
   "id": "CUSA05597",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Resources",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A56ECB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2147121",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Steady Aim - No Recoil",
-      "type": "checkbox",
+      "name": "Steady Aim - 消除后坐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D4177A",

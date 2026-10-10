@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Cuphead" Moder="Celogamez" Cusa="CUSA20499" Version="01.05" Process="eboot.bin">
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>01587DB0</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>44-0F-49-E3-45-89-66-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Extra Special" Description="">
+  <Cheat Text="Infinite Extra Special｜无限特别版" Description="">
     <Cheatline>
       <Offset>01587A50</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-11-83-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Plane Extra Special" Description="">
+  <Cheat Text="Infinite Plane Extra Special｜《无限平面》特别版" Description="">
     <Cheatline>
       <Offset>01587770</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-11-83-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gold" Description="">
+  <Cheat Text="Infinite Gold｜无限金币" Description="">
     <Cheatline>
       <Offset>015878E0</Offset>
       <Section>0</Section>

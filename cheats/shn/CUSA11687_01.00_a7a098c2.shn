@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Extinction" Moder="Rizla" Cusa="CUSA11687" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>46D7800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-87-8C-1C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rune Energy">
+  <Cheat Text="Infinite Rune 能量">
     <Cheatline>
       <Offset>46D7829</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-87-CC-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill points">
+  <Cheat Text="最大 Skill 得分">
     <Cheatline>
       <Offset>46D7817</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>44-8B-B8-8C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Earn SP on Spend">
+  <Cheat Text="Earn 精神值 on Spend">
     <Cheatline>
       <Offset>1DF14C</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>89-87-8C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Mission Timer">
+  <Cheat Text="Freeze Mission Timer｜冻结任务计时器">
     <Cheatline>
       <Offset>281DE3</Offset>
       <Section>0</Section>

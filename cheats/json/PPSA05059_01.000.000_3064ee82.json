@@ -1,13 +1,18 @@
 {
-  "name": "RoboCop: Rogue City",
+  "name": "RoboCop: 潜行者 城市",
   "id": "PPSA05059",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo and Repair Kit",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 and Repair Kit",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18C05E9",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4DEF000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AD8132",

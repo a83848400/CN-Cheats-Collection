@@ -1,12 +1,17 @@
 {
-  "name": "The Sinking City",
+  "name": "The Sinking 城市",
   "id": "CUSA13152",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CD4558",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Minds Eye",
-      "type": "checkbox",
+      "name": "Infinite Minds Eye｜无限心灵之眼",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CD457C",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Ammo (99)",
-      "type": "checkbox",
+      "name": "Ammo (99)｜但是 (99)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CD45A0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Craft Materials (99)",
-      "type": "checkbox",
+      "name": "Craft Materials (99)｜手工材料 (99)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7AAF7B",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Item Gadget (99)",
-      "type": "checkbox",
+      "name": "物品 小道具 (99)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CD45B4",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Experience 99k (on get)",
-      "type": "checkbox",
+      "name": "Experience 99k (on get)｜获得99k经验值（获取时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CD45CC",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Knowledge Points (50)",
-      "type": "checkbox",
+      "name": "Knowledge 得分 (50)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4CD45EC",

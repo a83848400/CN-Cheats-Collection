@@ -1,12 +1,17 @@
 {
-  "name": "Mass Effect: Legendary Edition",
+  "name": "质量效应: 传说宝可梦 Edition",
   "id": "CUSA19515",
   "version": "01.03",
   "process": "LTCG-BioGame.elf",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7B1774",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "No one can shoot",
-      "type": "checkbox",
+      "name": "No one can shoot｜没人能投篮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "833592",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "x2 Credits(Enable before gain, disable after gain)",
-      "type": "checkbox",
+      "name": "x2 Credits(Enable before gain, disable after gain)｜x2 积分（增益前启用，增益后禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8335AC",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Resources(Fuel,Credits,Platinum,Probes, etc)",
-      "type": "checkbox",
+      "name": "最大 Resources(Fuel,Credits,Platinum,Probes, etc)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2165FC0",

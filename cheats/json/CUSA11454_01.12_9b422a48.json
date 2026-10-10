@@ -1,12 +1,17 @@
 {
-  "name": "Control",
+  "name": "Control｜控制",
   "id": "CUSA11454",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Health ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 生命 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FE2C",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FE35",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [ MC ]",
-      "type": "checkbox",
+      "name": "一击必杀 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FE46",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FDF1",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FDB0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FDD9",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F800",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FE02",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Max Jukebox Coins",
-      "type": "checkbox",
+      "name": "最大 Jukebox 角落",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7FE17",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Hover Mode activated",
-      "type": "checkbox",
+      "name": "悬浮模式 activated",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F814",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Hover Mode deactivated",
-      "type": "checkbox",
+      "name": "悬浮模式 deactivated",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F814",

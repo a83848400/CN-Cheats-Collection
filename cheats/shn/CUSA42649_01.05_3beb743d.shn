@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Disney Epic Mickey: Rebrushed" Moder="Bandicootmonito" Cusa="CUSA42649" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health / Hearts (Some traps and thinner rivers can hurts you)" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 / 心 (Some 陷阱 and thinner rivers can hurts you)" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>516-executable[0]-5</PS5Offset>
@@ -20,7 +28,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tickets x9999999" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
+  <Cheat Text="无限门票 x9999999" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
     <Cheatline>
       <PS5Offset>4C5-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>41-89-06-74-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Thinner and Paint" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
+  <Cheat Text="Infinite Thinner and 喷漆" Description="You must activate it once you're already in the game, whether it's a loaded game or a new one, otherwise, the cheat won't work.. (Debes activarlo cuando ya estes dentro de la partida, ya sea una partida cargada o una partida nueva, sino el truco no funcionará.).">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>4B1-executable[0]-5</PS5Offset>

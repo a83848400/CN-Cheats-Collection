@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Zero Dawn: Complete Edition",
+  "name": "地平线 杰洛 Dawn: Complete Edition",
   "id": "CUSA10237",
   "version": "01.54",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F27E50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Enable MC)",
-      "type": "checkbox",
+      "name": "无限生命 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F27E56",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F27E54",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Health Regeneration",
-      "type": "checkbox",
+      "name": "无限生命 Regeneration",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDE0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Weaver Armour",
-      "type": "checkbox",
+      "name": "最大/无限织者铠甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B810",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Items/Shards/Resources On Use/Buy",
-      "type": "checkbox",
+      "name": "道具无限/Shards/Resources On Use/Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BFD0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Infinite Aim Focus",
-      "type": "checkbox",
+      "name": "Infinite Aim 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BAB0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Breath (Underwater)",
-      "type": "checkbox",
+      "name": "无限呼吸 (Underwater)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BA40",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Max Shards On Buy (Disable After Buy)",
-      "type": "checkbox",
+      "name": "碎片最大 On Buy (Disable After Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F27E4D",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points On Use",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF60",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Stop Time Trial",
-      "type": "checkbox",
+      "name": "停止 计时赛",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B890",

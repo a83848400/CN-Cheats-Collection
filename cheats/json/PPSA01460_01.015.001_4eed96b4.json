@@ -1,13 +1,18 @@
 {
-  "name": "Marvel's Spider-Man: Miles Morales",
+  "name": "Marvel's 蜘蛛侠: 迈尔斯·莫拉莱斯",
   "id": "PPSA01460",
   "version": "01.015.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F0F217",
@@ -18,9 +23,9 @@
       ]
     },
     {
-      "name": "Inf Venon",
+      "name": "无限胜利",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E0FDA",
@@ -31,9 +36,9 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "God Mode｜神模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1EE65F0",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "503B1",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Inf Hab Points",
+      "name": "无限家园 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65C21",
@@ -82,9 +87,9 @@
       ]
     },
     {
-      "name": "Easy Combo",
+      "name": "简单 Combo",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B15D1",
@@ -101,9 +106,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F1DB41",

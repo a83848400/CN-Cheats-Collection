@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sonic Mania" Moder="Ali-mk" Cusa="CUSA07010" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>2DDCB</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>E8-4A-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-lives-99">
+    <Cheat Text="最大-lives-99">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>41-89-97-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-lives">
+    <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>119174</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>41-89-97-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Rings">
+    <Cheat Text="Infinite-金环">
     <Cheatline>
       <Offset>E1EDB</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>48-89-83-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Time">
+    <Cheat Text="Infinite-Time｜无限时间">
     <Cheatline>
       <Offset>2B9DA3</Offset>
       <Section>0</Section>

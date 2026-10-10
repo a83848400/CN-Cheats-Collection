@@ -3,7 +3,15 @@
   <Genres Name="RPG" />
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>34AFD8C</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-86-88-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ">
+  <Cheat Text="最大 Items ">
     <Cheatline>
       <Offset>34AFD9D</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>45-89-75-78-48-8B-1C-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Stamina">
+  <Cheat Text="Unlimited 体力">
     <Cheatline>
       <Offset>34AFDAE</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>F3-45-0F-11-BF-60-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Total Earnings">
+  <Cheat Text="最大 Total Earnings">
     <Cheatline>
       <Offset>34AFDC8</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>41-89-86-90-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Watering Can">
+  <Cheat Text="Unlimited Watering Can｜无限浇水壶">
     <Cheatline>
       <Offset>34AFDD9</Offset>
       <Section>0</Section>

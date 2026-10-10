@@ -1,13 +1,18 @@
 {
-  "name": "Rime",
+  "name": "Rime｜韵脚",
   "id": "CUSA05796",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Air Underwater",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限之空 Underwater",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "149A5D",

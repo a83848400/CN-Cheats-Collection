@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>6B7B38</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Chaos Form" Description="Instant Chaos Form">
+  <Cheat Text="Instant 混沌 状态" Description="Instant Chaos Form">
     <Cheatline>
       <Offset>1F96C6</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>0F-4C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite Wrath" Description="Max Infinite Wrath">
+  <Cheat Text="最大 无尽之怒" Description="Max Infinite Wrath">
     <Cheatline>
       <Offset>1783800</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>C5-FA-58-43-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Souls on PickUp" Description="Max Souls on PickUp">
+  <Cheat Text="灵魂最大 on PickUp" Description="Max Souls on PickUp">
     <Cheatline>
       <Offset>178380E</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>C5-FA-58-83-00-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Horse Bursts" Description="Inf Horse Bursts">
+  <Cheat Text="无限马群爆发" Description="Inf Horse Bursts">
     <Cheatline>
       <Offset>33F0A9</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Pang Adventures",
+  "name": "Pang Adventures｜《探险之旅》",
   "id": "CUSA05906",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "High Score",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "High 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60FC11",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60FC29",

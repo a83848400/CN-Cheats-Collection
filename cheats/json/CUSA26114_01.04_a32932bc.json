@@ -1,12 +1,17 @@
 {
-  "name": "Ender Lilies: Quietus of the Knights",
+  "name": "Ender Lilies: 寂灭 of the Knights",
   "id": "CUSA26114",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinte Jump ON",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinte Jump ON｜《无限跳跃》ON",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "555DA70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinte Jump OFF",
-      "type": "checkbox",
+      "name": "Infinte Jump OFF｜无限跳跃 OFF",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "555DAC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Prayers Use",
-      "type": "checkbox",
+      "name": "Infinite Prayers Use｜《无限祈祷》的使用方法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D5F0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Instant Level Up",
-      "type": "checkbox",
+      "name": "Instant Level Up｜瞬间升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB90",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Health/1 Hit kill",
-      "type": "checkbox",
+      "name": "无限生命/一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDA0",

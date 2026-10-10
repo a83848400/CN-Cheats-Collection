@@ -1,12 +1,17 @@
 {
-  "name": "Sword Art Online: Hollow Realization",
+  "name": "刀剑神域: 空洞 Realization",
   "id": "CUSA05033",
   "version": "03.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7A9746",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite AP",
-      "type": "checkbox",
+      "name": "Infinite AP｜无限能力点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76D3B3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Fast Exp/Leveling",
-      "type": "checkbox",
+      "name": "Fast 经验/Leveling",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7804FB",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D71EE",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Get 200+ Skillpoints on spend",
-      "type": "checkbox",
+      "name": "Get 200+ Skillpoints on spend｜消费即送200+技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E97C8",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Get Max Col/Money on buy",
-      "type": "checkbox",
+      "name": "Get 最大 Col/金钱 on buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9736B3",

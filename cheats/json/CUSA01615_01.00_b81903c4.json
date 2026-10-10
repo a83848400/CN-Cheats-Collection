@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy XV",
+  "name": "最终幻想 XV",
   "id": "CUSA01615",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DE4EA",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "413F000",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite FP/AP",
-      "type": "checkbox",
+      "name": "Infinite 专注值/行动点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "413F4EC",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Money/Gil",
-      "type": "checkbox",
+      "name": "金钱无限/基尔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "413F12C",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Exp ",
-      "type": "checkbox",
+      "name": "Exp ｜经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BB4274",

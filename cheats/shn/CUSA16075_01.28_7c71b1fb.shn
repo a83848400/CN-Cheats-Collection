@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Max/Infinite Health/1 Shot Kills (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命/1 Shot Kills (Master 密码)">
     <Cheatline>
       <Offset>1277DB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-4B-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Health (Need MC)">
+  <Cheat Text="最大/无限生命 (这些MC)">
     <Cheatline>
       <Offset>1277DB9</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C5-FA-11-4B-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Shot Kills (Need MC)">
+  <Cheat Text="1 Shot Kills (Need MC)｜一击毙命（需MC）">
     <Cheatline>
       <Offset>1277DB7</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>75-12</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina (For Running)">
+  <Cheat Text="无限耐力 (For Running)">
     <Cheatline>
       <Offset>E07C5E</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>C4-C1-7A-11-4F-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Offset>12777B0</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>C4-C1-7A-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ammo/Items">
+  <Cheat Text="最大/无限弹药/Items">
     <Cheatline>
       <Offset>12777E0</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>85-F6-89-43-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>1277780</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>0F-46-FE-89-79-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Levels/Skill Points On Gain (Disable/Restart The Game)">
+  <Cheat Text="最大 XP/Levels/Skill 得分 On Gain (Disable/Restart The Game)">
     <Cheatline>
       <Offset>1277760</Offset>
       <Section>0</Section>

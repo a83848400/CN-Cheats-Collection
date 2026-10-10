@@ -1,12 +1,17 @@
 {
-  "name": "Monster Hunter: World",
+  "name": "怪物猎人: World",
   "id": "CUSA07708",
   "version": "11.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "425E0FB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FA9084",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Item in use",
-      "type": "checkbox",
+      "name": "Infinite 物品 in use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3677D04",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf Pts",
-      "type": "checkbox",
+      "name": "无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B30384",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Money on buy",
-      "type": "checkbox",
+      "name": "金钱最大 on buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F4D3E7",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "matrials increaseing on crafting",
-      "type": "checkbox",
+      "name": "matrials increaseing on crafting｜制作所需材料增加",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3677BBE",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Max matrials and items on sell",
-      "type": "checkbox",
+      "name": "最大 matrials and items on sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3677BBE",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "item max when move from box to pouch",
-      "type": "checkbox",
+      "name": "物品 最大 when 招式 from box to 皮袋",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DDBB7B",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "item max when move from pouch to box",
-      "type": "checkbox",
+      "name": "物品 最大 when 招式 from 皮袋 to box",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DDBB7B",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Money Incress on purchase 2",
-      "type": "checkbox",
+      "name": "金钱 Incress on purchase 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4093318",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "items incress when get ",
-      "type": "checkbox",
+      "name": "items incress when get ｜获取时项目数量增加",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3677D26",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "matrials change when move it in sell box",
-      "type": "checkbox",
+      "name": "matrials change when 招式 it in sell box",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DE387B",

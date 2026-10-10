@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>25A598</Offset>
       <Section>14</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-45-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="5000 Moedas">
+  <Cheat Text="5000 Moedas｜5000枚硬币">
     <Cheatline>
       <Offset>185FDC0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>44-01-F3-89-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bala Especial Infinita">
+  <Cheat Text="Bala Especial Infinita｜无限特制子弹">
     <Cheatline>
       <Offset>4EEFF3</Offset>
       <Section>14</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Power UP Infinito">
+  <Cheat Text="电力 UP Infinito">
     <Cheatline>
       <Offset>2156B7</Offset>
       <Section>14</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-11-83-C4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Power Down Infinito">
+  <Cheat Text="电力 Down Infinito">
     <Cheatline>
       <Offset>21571F</Offset>
       <Section>14</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C5-FA-11-83-C0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Arma Raio Eletrico Infinita">
+  <Cheat Text="Arma Raio Eletrico Infinita｜无限电光武器">
     <Cheatline>
       <Offset>4EE0CA</Offset>
       <Section>14</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-F2-5C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Paralisar o Tempo">
+  <Cheat Text="Paralisar o Tempo｜让时间静止">
     <Cheatline>
       <Offset>25195A</Offset>
       <Section>14</Section>

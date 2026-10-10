@@ -1,12 +1,17 @@
 {
-  "name": "Balan Wonderworld",
+  "name": "Balan Wonderworld｜巴兰的奇幻世界",
   "id": "CUSA24814",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Crystals (while on Act)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "水晶最大 (while on Act)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "954ADC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Crystals (on gather after throwing them at feeding ground)",
-      "type": "checkbox",
+      "name": "水晶最大 (on gather after throwing them at feeding ground)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "954AE00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Keys (in level after gaining a  key)",
-      "type": "checkbox",
+      "name": "最大 Keys (in 等级 after gaining a  钥匙)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "954AE40",

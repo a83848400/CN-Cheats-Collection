@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metal Gear Solid V: The Definitive Experience" Moder="Saso_9.00" Cusa="CUSA05597" Version="01.11" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1D1CE3E</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C4-C1-7A-11-6C-8C-CC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo / No Relaod">
+  <Cheat Text="无限弹药 / 来自Relaod">
     <Cheatline>
       <Offset>2164BB1</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>89-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Suppressor">
+  <Cheat Text="Infinite 消音器">
     <Cheatline>
       <Offset>1FA5CBD</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>40-8A-7C-72-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades">
+  <Cheat Text="Infinite Grenades｜手雷无限">
     <Cheatline>
       <Offset>34EA100</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>39-CE-66-0F-46-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max GMP (5000000)">
+  <Cheat Text="最大 GMP (5000000)">
     <Cheatline>
       <Offset>3452300</Offset>
       <Section>0</Section>

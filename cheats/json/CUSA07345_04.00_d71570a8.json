@@ -1,12 +1,17 @@
 {
-  "name": "Ni no Kuni II: Revenant Kingdom",
+  "name": "Ni no Kuni II: Revenant Kingdom｜《二之国II：复仇王国》",
   "id": "CUSA07345",
   "version": "04.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Items x99 (on use have 2)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "物品 x99 (on use have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B0A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE77BF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Money (on gain)",
-      "type": "checkbox",
+      "name": "金钱最大 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE77C20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B0B0",

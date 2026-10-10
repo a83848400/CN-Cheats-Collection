@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Lords of the Fallen" Moder="cjwine" Cusa="CUSA02468" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="GOD MODE">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="GOD MODE｜神模式">
     <Cheatline>
       <Offset>1AB38C7</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-54-24-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>231E31</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-5B-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX XP">
+  <Cheat Text="最大 XP">
     <Cheatline>
       <Offset>1AB381F</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C4-C1-7A-11-87-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic">
+  <Cheat Text="Infinite 魔法">
     <Cheatline>
       <Offset>1AB3841</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-10-95-70-FF-FF-FF-C5-FA-5D-DA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="ap max after used">
+  <Cheat Text="行动点 最大 after used">
     <Cheatline>
       <Offset>1AB385E</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>89-88-E8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="sp max after used">
+  <Cheat Text="精神值最大 after used">
     <Cheatline>
       <Offset>1AB386D</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>89-88-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max luck after used">
+  <Cheat Text="幸运最大 after used">
     <Cheatline>
       <Offset>1AB387C</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>89-B7-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX Agility after used">
+  <Cheat Text="敏捷最大 after used">
     <Cheatline>
       <Offset>1AB388B</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>89-B7-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max Strength after used">
+  <Cheat Text="力量最大 after used">
     <Cheatline>
       <Offset>1AB389A</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>89-B7-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max Faith after used">
+  <Cheat Text="信仰最大 after used">
     <Cheatline>
       <Offset>1AB38A9</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>89-B7-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max Life Force after used">
+  <Cheat Text="最大 生活 原力 after used">
     <Cheatline>
       <Offset>1AB38B8</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>89-B7-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Runes 999 after used">
+  <Cheat Text="铭文 999 after used">
     <Cheatline>
       <Offset>1AB38E3</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>0F-4E-C1-89-47-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="SPEED RUN">
+  <Cheat Text="速度 RUN">
     <Cheatline>
       <Offset>1AB38F2</Offset>
       <Section>0</Section>
@@ -178,7 +186,7 @@
       <ValueOff>C5-FA-11-83-74-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="FLY MODE(jumper fly turn off down then turn on walk air down)">
+  <Cheat Text="飞行模式(jumper 飞行 回合 off down then 回合 on walk air down)">
     <Cheatline>
       <Offset>1AB392C</Offset>
       <Section>0</Section>
@@ -204,7 +212,7 @@
       <ValueOff>44-89-2B-41-83-FD-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="one hit kill">
+  <Cheat Text="one hit kill｜一击必杀">
     <Cheatline>
       <Offset>1AB3953</Offset>
       <Section>0</Section>

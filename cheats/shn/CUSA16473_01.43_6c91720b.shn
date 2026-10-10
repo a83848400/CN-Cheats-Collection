@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Astroneer" Moder="LMN" Cusa="CUSA16473" Version="01.43" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="infinite oxygen">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="infinite oxygen｜无限氧气">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>E8-B1-CD-F2-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="printing material never disappears">
+  <Cheat Text="printing material never disappears｜印刷品永远不会消失">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>E8-20-AB-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf fuel">
+  <Cheat Text="燃料无限">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>E8-84-D4-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="bytes never decrease">
+  <Cheat Text="bytes never decrease｜字节数永远不会减少">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FB-11-80-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf soil canister">
+  <Cheat Text="无限土壤罐">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>E8-31-C6-FC-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf jetpack fuel">
+  <Cheat Text="Infinite 喷气背包 fuel">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

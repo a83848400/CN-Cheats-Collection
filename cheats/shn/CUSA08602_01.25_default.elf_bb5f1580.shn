@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: WWII" Moder="Saso" Cusa="CUSA08602" Version="01.25" Process="default.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-97-2C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload">
+  <Cheat Text="无限弹药 / 无需换弹">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>44-29-64-88-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Throwables">
+  <Cheat Text="投掷物无限">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>FF-48-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sherman Tank (Inf HP)">
+  <Cheat Text="Sherman 坦克 (无限血量)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>45-29-AF-2C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tank MG (No Overheating)">
+  <Cheat Text="坦克 MG (不会过热)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>49-8B-06-48-89-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P-47 (Inf HP)">
+  <Cheat Text="P-47 (无限血量)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -77,7 +85,7 @@
       <ValueOff>C5-FA-2C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="P-47  MG (No Overheating) ">
+  <Cheat Text="P-47  MG (不会过热) ">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

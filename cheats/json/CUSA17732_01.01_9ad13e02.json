@@ -1,12 +1,17 @@
 {
-  "name": "Empire of Sin - Deluxe Edition Pre-Order",
+  "name": "帝国 of Sin - Deluxe Edition Pre-Order",
   "id": "CUSA17732",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max HP (Get Hit To Activate)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命值最大 (Get Hit To Activate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84195F00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Mony / Ammo / AP (Master Code)",
-      "type": "checkbox",
+      "name": "Mony / 但是 / 行动点 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84196000",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (Enable In Your Turn Only)",
-      "type": "checkbox",
+      "name": "无限弹药 (Enable In Your 回合 Only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "31",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite AP Pistol/Moves (Enable In your Turn Only)",
-      "type": "checkbox",
+      "name": "无限能力点 手枪/Moves (Enable In your 回合 Only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "31",
@@ -61,8 +66,8 @@
       ]
     },
     {
-      "name": "Max Money (Disable After Maxed)",
-      "type": "checkbox",
+      "name": "金钱最大 (Disable After Maxed)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "31",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>363F800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-10-97-A4-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>363F819</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-C1-7A-10-87-A8-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>363F832</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-10-83-AC-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Nourishment">
+  <Cheat Text="Infinite Nourishment｜无尽的滋养">
     <Cheatline>
       <Offset>363F849</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-10-83-B0-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="0 Weight">
+  <Cheat Text="0 重量">
     <Cheatline>
       <Offset>2E1C8D1</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>C4-C1-7A-11-46-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money On Buy/Sell">
+  <Cheat Text="金钱最大 On Buy/Sell">
     <Cheatline>
       <Offset>363F800</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>75-08-8B-41-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Money/Items on Spend/Drop">
+  <Cheat Text="x2 金钱/Items on Spend/丢弃">
     <Cheatline>
       <Offset>1D09F6E</Offset>
       <Section>0</Section>

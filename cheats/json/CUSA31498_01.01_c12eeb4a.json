@@ -1,12 +1,17 @@
 {
-  "name": "Street Fighter 6",
+  "name": "Street Fighter 6｜街头霸王6",
   "id": "CUSA31498",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5331B39",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite money",
-      "type": "checkbox",
+      "name": "Infinite money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2435DE8",

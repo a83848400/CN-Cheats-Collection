@@ -1,12 +1,17 @@
 {
-  "name": "Tunic",
+  "name": "Tunic｜束腰上衣",
   "id": "CUSA26967",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/throwables/Magic)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/可投掷物品/魔法)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BEB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BCE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Cons (on get activate and kill monsters)",
-      "type": "checkbox",
+      "name": "最大 Cons (on get activate and kill monsters)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BC90",

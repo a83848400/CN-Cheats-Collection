@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid: Master Collection Vol. 1",
+  "name": "合金装备/潜龙谍影: Master Collection Vol. 1",
   "id": "CUSA41305",
   "version": "01.40",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Life｜生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FD609",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Grenades",
-      "type": "checkbox",
+      "name": "Grenades｜手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11AEEB",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Medical",
-      "type": "checkbox",
+      "name": "Medical｜医疗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11B69F",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11AEC4",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Bullets",
-      "type": "checkbox",
+      "name": "Bullets｜项目符号",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11AECA",

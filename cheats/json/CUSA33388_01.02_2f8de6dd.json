@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 4",
+  "name": "生化危机 4",
   "id": "CUSA33388",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B8238F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite ammo box/Items",
-      "type": "checkbox",
+      "name": "无限弹药 box/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B823C00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Knife Durability",
-      "type": "checkbox",
+      "name": "Infinite Knife Durability｜小刀耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B823CE0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B823B90",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Ptas (on collect)",
-      "type": "checkbox",
+      "name": "最大 Ptas (on collect)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B823C40",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Spinel (on get)",
-      "type": "checkbox",
+      "name": "最大 Spinel (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B823ED0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Score (at shooting range)",
-      "type": "checkbox",
+      "name": "最大 比分 (at 射门 射程)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B823DF0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Golden Coin Multiplier",
-      "type": "checkbox",
+      "name": "金色 硬币倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50A31CA",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Max CP (on spend)",
-      "type": "checkbox",
+      "name": "最大 CP (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B823920",

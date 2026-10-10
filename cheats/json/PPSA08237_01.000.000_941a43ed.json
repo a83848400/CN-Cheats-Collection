@@ -1,13 +1,18 @@
 {
-  "name": "Immortals of Aveum",
+  "name": "Immortals of Aveum｜阿维姆的不朽者",
   "id": "PPSA08237",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP Cristals",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 Cristals",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F63000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf HP",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F6302F",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Magic",
+      "name": "Infinite 魔法",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F63066",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Resources",
+      "name": "资源无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F630A6",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Whip",
+      "name": "Infinite 鞭",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F630D7",

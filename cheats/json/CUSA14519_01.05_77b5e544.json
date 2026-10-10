@@ -1,12 +1,17 @@
 {
-  "name": "Maneater",
+  "name": "Maneater｜食人兽",
   "id": "CUSA14519",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "2 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "2 命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587EC20",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587EB80",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587EBD0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Level on Gain",
-      "type": "checkbox",
+      "name": "等级最大 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587E8F0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "9,999,999 Protein on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 Protein on Gain｜9,999,999 增肌蛋白",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587E780",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "9,999,999 Fats on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 Fats on Gain｜9,999,999 个《Fats on Gain》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5885FD0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "9,999,999 Minerals on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 晶体矿 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587E5C0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "9,999,999 Mutagens on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 Mutagens on Gain｜9,999,999 种致突变剂上架",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587EA10",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Faster Game Speed",
-      "type": "button",
+      "name": "Faster Game 速度",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "587EC70",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Game Speed Normal",
-      "type": "button",
+      "name": "Game 速度 普通",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "587ECA0",

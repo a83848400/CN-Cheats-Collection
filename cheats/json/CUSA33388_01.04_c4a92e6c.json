@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 4",
+  "name": "生化危机 4",
   "id": "CUSA33388",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF960",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF9B0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Items (on craft)",
-      "type": "checkbox",
+      "name": "道具无限 (on craft)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFA30",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Knife Durability",
-      "type": "checkbox",
+      "name": "Infinite Knife Durability｜小刀耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFA80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Ptas (on get)",
-      "type": "checkbox",
+      "name": "Infinite Ptas (on get)｜无限Ptas（在获取时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFAE0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Spinel (on Spend have 2)",
-      "type": "checkbox",
+      "name": "最大 Spinel (on Spend have 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFCE0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Shoot range coins (on spend)",
-      "type": "checkbox",
+      "name": "Infinite Shoot 射程 角落 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF940",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Score at Shoot range ",
-      "type": "checkbox",
+      "name": "最大 比分 at Shoot 射程 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CF8C0",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max CP (on spend)",
-      "type": "checkbox",
+      "name": "最大 CP (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFB10",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Mercenaries)",
-      "type": "checkbox",
+      "name": "无限生命 (雇佣兵)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFDC0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Infinite timer (Mercenaries)",
-      "type": "checkbox",
+      "name": "Infinite 计时器 (雇佣兵)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3CFFB0",

@@ -1,12 +1,17 @@
 {
-  "name": "Monster Boy and the Cursed Kingdom",
+  "name": "妖兽 Boy and the 诅咒 Kingdom",
   "id": "CUSA05011",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Coins x999999 (on gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Coins x999999 (on gain)｜金币 x999999（获得时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Magic Cast",
-      "type": "checkbox",
+      "name": "Infinite 魔法 施法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E360",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Potions x99(on buy)",
-      "type": "checkbox",
+      "name": "Potions x99(on buy)｜药水 x99（购买时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Potion x147( on use)",
-      "type": "checkbox",
+      "name": "药水 x147( on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE40",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EEA0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Legendary Gems x50 (on spent have 2 units)",
-      "type": "checkbox",
+      "name": "传说宝可梦 Gems 乘以五十 (已用 have 2 units)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EC80",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Rain Drops x99 (on gain/buy)",
-      "type": "checkbox",
+      "name": "Rain Drops x99 (on gain/buy)｜雨滴 x99（增益/购买）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7DD0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Rain Drops x99 (on spent for gold)",
-      "type": "checkbox",
+      "name": "Rain Drops x99 (已用 for 金币)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7E30",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Rain Drops x99 (on spent for treasure maps)",
-      "type": "checkbox",
+      "name": "Rain Drops x99 (已用 for 宝藏 maps)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7EE0",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Power Gems x99 (on gain have 2 units)",
-      "type": "checkbox",
+      "name": "电力 Gems x99 (on gain have 2 units)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA5EC0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Golden Gems x99 (on gain have 2 units)",
-      "type": "checkbox",
+      "name": "金色 Gems x99 (on gain have 2 units)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7E10",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Multi Jump (Choose One)",
-      "type": "checkbox",
+      "name": "Multi Jump (Choose One)｜多跳（任选一项）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D889A",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "Moon Jump (Choose One )",
-      "type": "checkbox",
+      "name": "月球超级跳跃 (Choose One )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D8886",

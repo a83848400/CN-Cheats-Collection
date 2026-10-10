@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon Ball: Xenoverse 2" Moder="Celogamez" Cusa="CUSA05350" Version="01.36" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Max/Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命/一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>2AE3DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-87-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Enable MC)">
+  <Cheat Text="一击必杀 (Enable MC)">
     <Cheatline>
       <Offset>2AE3DB5</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-1A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Stamina">
+  <Cheat Text="最大/无限耐力">
     <Cheatline>
       <Offset>2AE3850</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C4-C1-7A-11-86-58-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ki">
+  <Cheat Text="最大/无限气">
     <Cheatline>
       <Offset>2AE3800</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C4-C1-7A-11-97-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Zeni">
+  <Cheat Text="最大/无限泽尼">
     <Cheatline>
       <Offset>872FFF</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>3D-00-CA-9A-3B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite TP On Activation">
+  <Cheat Text="最大/无限TP On Activation">
     <Cheatline>
       <Offset>2AE38B0</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>8B-4F-70-39-4F-6C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Attribute Points (Activate/Exit/Enter)">
+  <Cheat Text="最大/Infinite 属性 得分 (Activate/退出/Enter)">
     <Cheatline>
       <Offset>2AE30F0</Offset>
       <Section>0</Section>

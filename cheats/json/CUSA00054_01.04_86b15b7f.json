@@ -1,12 +1,17 @@
 {
-  "name": "Mad Max",
+  "name": "Mad 最大",
   "id": "CUSA00054",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CC779",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57D1E2",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44B83F",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Griffasigns",
-      "type": "checkbox",
+      "name": "Infinite Griffasigns｜无限格里法符号",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64B6D0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Parts (99999 on Use)",
-      "type": "checkbox",
+      "name": "Parts (99999 on Use)｜零件（使用次数：99999）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134BF30",

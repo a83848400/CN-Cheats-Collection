@@ -1,12 +1,17 @@
 {
-  "name": "Styx: Shards of Darkness",
+  "name": "Styx: Shards of Darkness｜《斯提克斯：黑暗碎片》",
   "id": "CUSA03877",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3E10",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Amber",
-      "type": "checkbox",
+      "name": "Infinite Amber｜无尽琥珀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3E00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Items ( on gain )",
-      "type": "checkbox",
+      "name": "道具无限 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3E30",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Skill Points ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3E20",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Pure Quartz ( on gain )",
-      "type": "checkbox",
+      "name": "Pure Quartz ( on gain )｜纯石英（增益）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3800",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3E90",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Zero Kill Counts",
-      "type": "checkbox",
+      "name": "杰洛 Kill Counts",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3E50",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Zero Alert Counts",
-      "type": "checkbox",
+      "name": "杰洛 Alert Counts",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45D3E60",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Perfect Mission Time ( Reset to 0 )",
-      "type": "checkbox",
+      "name": "Perfect Mission Time ( Reset to 0 )｜完美任务时间（重置为0）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2341B4",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Perfect Mission Time ( Stop Timer )",
-      "type": "checkbox",
+      "name": "Perfect Mission Time ( 停止 计时器 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2341BC",

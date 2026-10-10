@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Slay the Spire" Moder="Reddevil82 - FW 9.00" Cusa="CUSA15289" Version="02.30" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Mastercode Shield (  must be activated )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="主代码 盾牌 (  must be activated )">
     <Cheatline>
       <Offset>36DB817</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>83-B8-90-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max HP">
+  <Cheat Text="Max HP｜生命值最大">
     <Cheatline>
       <Offset>36DBDB0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>8B-80-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Energy">
+  <Cheat Text="最大 能量">
     <Cheatline>
       <Offset>36DB800</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8B-35-44-9D-1F-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield [ MC ]">
+  <Cheat Text="无限护盾 [ MC ]">
     <Cheatline>
       <Offset>36DB81D</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>83-B8-90-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Zero Shield Enemies [ MC ]">
+  <Cheat Text="杰洛 盾牌 Enemies [ MC ]">
     <Cheatline>
       <Offset>36DB82A</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>83-B8-90-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold">
+  <Cheat Text="Max Gold｜金币最大">
     <Cheatline>
       <Offset>36DBDE1</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>E8-D0-E0-4F-FF-8B-40-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>36DBDF5</Offset>
       <Section>0</Section>

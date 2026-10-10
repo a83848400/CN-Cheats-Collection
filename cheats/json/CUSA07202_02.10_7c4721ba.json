@@ -1,12 +1,17 @@
 {
-  "name": "Ace Combat 7: Skies Unknown",
+  "name": "皇牌空战 7: Skies 未知",
   "id": "CUSA07202",
   "version": "02.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Missles (on fire)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Missles (on 火)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B790",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max MRP (on spen)",
-      "type": "checkbox",
+      "name": "最大 MRP (on spen)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B7B0",

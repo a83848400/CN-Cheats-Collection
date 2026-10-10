@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health/Shield">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/盾牌">
     <Cheatline>
       <Offset>3357E80</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-E3-79-17-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Lives On Gain">
+  <Cheat Text="最大/无限生命 On Gain">
     <Cheatline>
       <Offset>3357CE0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>84-D2-89-77-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/No Reload/Fuel">
+  <Cheat Text="无限弹药/无需换弹/Fuel">
     <Cheatline>
       <Offset>3357DF0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>4C-89-F7-41-89-46-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dash">
+  <Cheat Text="Infinite Dash｜无限冲刺">
     <Cheatline>
       <Offset>3357DB0</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Radiation/Dive Suit">
+  <Cheat Text="Infinite Radiation/潜水 战衣">
     <Cheatline>
       <Offset>3357D60</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>C4-C1-7A-11-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades">
+  <Cheat Text="Infinite Grenades｜手雷无限">
     <Cheatline>
       <Offset>3357ED0</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>41-FF-8C-C4-30-6F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flame Belch">
+  <Cheat Text="Infinite Flame Belch｜无尽火焰喷涌">
     <Cheatline>
       <Offset>3357EF0</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>41-FF-8C-24-80-6F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Blood Punch">
+  <Cheat Text="无尽之血 Punch">
     <Cheatline>
       <Offset>3357F50</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>C4-C1-7A-11-87-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Crucible Sword">
+  <Cheat Text="Infinite Crucible 剑">
     <Cheatline>
       <Offset>3357BF0</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Sentinel Hammer">
+  <Cheat Text="Infinite Sentinel 锤">
     <Cheatline>
       <Offset>3357F10</Offset>
       <Section>0</Section>
@@ -155,7 +163,7 @@
       <ValueOff>C5-FA-10-87-74-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumps">
+  <Cheat Text="Infinite Jumps｜无限跳跃">
     <Cheatline>
       <Offset>33578E0</Offset>
       <Section>0</Section>
@@ -169,7 +177,7 @@
       <ValueOff>83-BB-80-41-00-00-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Inf Weapons/Praetorian Points/Mastery Tokens/Sentinel Batteries">
+  <Cheat Text="最大/Infinite 武器/Praetorian 得分/Mastery Tokens/Sentinel 电池">
     <Cheatline>
       <Offset>3357EB0</Offset>
       <Section>0</Section>

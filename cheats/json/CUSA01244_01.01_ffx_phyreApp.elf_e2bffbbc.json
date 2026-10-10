@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy X | X-2: HD Remaster",
+  "name": "最终幻想 艾克斯 | 艾克斯-2: HD Remaster",
   "id": "CUSA01244",
   "version": "01.01",
   "process": "ffx_phyreApp.elf",
   "mods": [
     {
-      "name": "--Final Fantasy X--",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "--最终幻想 艾克斯--",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD151",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD159",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD17C",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Overdrive",
-      "type": "checkbox",
+      "name": "Infinite 超必杀技",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD194",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite AP",
-      "type": "checkbox",
+      "name": "Infinite AP｜无限能力点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD1A8",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Gil",
-      "type": "checkbox",
+      "name": "Infinite Gil｜无限金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "297224",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Items x99 (auto sort item)",
-      "type": "checkbox",
+      "name": "物品 x99 (auto sort 物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD1C8",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "4 slot Equips (open item equip list)",
-      "type": "checkbox",
+      "name": "4 slot Equips (open 物品 equip list)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD1DC",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Blitzball Arena Max Stat (need breakthrough/enemies)",
-      "type": "checkbox",
+      "name": "Blitzball 竞技场 最大 Stat (need 突破/enemies)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD1F4",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Blitzball Time 5:00",
-      "type": "checkbox",
+      "name": "Blitzball Time 5:00｜闪电球时间 5:00",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD280",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Disabled Battle Encounter",
-      "type": "checkbox",
+      "name": "Disabled 战斗 遭遇",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD2A8",
@@ -176,8 +181,8 @@
       ]
     },
     {
-      "name": "Encounter Battle",
-      "type": "checkbox",
+      "name": "遭遇 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD2A8",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "200 Lightning Dodge (dodge 1)",
-      "type": "checkbox",
+      "name": "200 闪电 闪避 (闪避 1)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD2C8",
@@ -208,8 +213,8 @@
       ]
     },
     {
-      "name": "Chocobo Training Timer 0",
-      "type": "checkbox",
+      "name": "陆行鸟 训练 计时器 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD2DC",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Increase Time Butterfly Catch (turn off when done / wait)",
-      "type": "checkbox",
+      "name": "Increase Time 蝴蝶 Catch (回合 off when done / 待机)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9DD304",
@@ -240,8 +245,8 @@
       ]
     },
     {
-      "name": "--Final Fantasy X-2--",
-      "type": "checkbox",
+      "name": "--最终幻想 艾克斯-2--",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B2C2C4",
@@ -251,8 +256,8 @@
       ]
     },
     {
-      "name": "Infinite Health (master code)",
-      "type": "checkbox",
+      "name": "无限生命 (master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B2C2D0",
@@ -267,8 +272,8 @@
       ]
     },
     {
-      "name": "Infinite MP (need MC)",
-      "type": "checkbox",
+      "name": "无限魔力 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B2C2E8",
@@ -278,8 +283,8 @@
       ]
     },
     {
-      "name": "Max Gil buy / sell",
-      "type": "checkbox",
+      "name": "金钱最大 buy / sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B2C320",
@@ -294,8 +299,8 @@
       ]
     },
     {
-      "name": "All Items 99 (auto sort)",
-      "type": "checkbox",
+      "name": "所有商品 99 (auto sort)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B2C340",

@@ -1,12 +1,17 @@
 {
-  "name": "Hungry Shark World",
+  "name": "Hungry Shark World｜《饥饿鲨鱼世界》",
   "id": "CUSA12378",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C900",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max coins (on gain activate once alone)",
-      "type": "checkbox",
+      "name": "最大 角落 (on gain activate once alone)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE7BE70",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience (on second round)",
-      "type": "checkbox",
+      "name": "最大 Experience (on second 回合)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE7BEC0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health(underwater)",
-      "type": "checkbox",
+      "name": "无限生命(underwater)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DE50",

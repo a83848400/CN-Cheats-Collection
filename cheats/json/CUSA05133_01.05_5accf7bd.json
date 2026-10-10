@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza 0",
+  "name": "如龙 0",
   "id": "CUSA05133",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12F17FC",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Heat Gauge",
-      "type": "checkbox",
+      "name": "无限热血槽 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12F17F0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Money, CP",
-      "type": "checkbox",
+      "name": "金钱无限, CP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D6F2F",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D5DA9",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Dance Battle Max Points",
-      "type": "checkbox",
+      "name": "Dance 战斗 最大 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CEE99",

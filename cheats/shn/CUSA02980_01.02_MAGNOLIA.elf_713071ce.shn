@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Borderlands: The Handsome Collection" Moder="hejran7" Cusa="CUSA02980" Version="01.02" Process="MAGNOLIA.elf">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Instant lvl 72 - Inf Ammo - Inf HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Instant lvl 72 - 无限弹药 - 无限血量" Description="">
     <Cheatline>
       <Offset>73DD6A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-93-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Credits-Eridium-Seraph-Torgue" Description="">
+  <Cheat Text="无限积分-镒矿-Seraph-Torgue" Description="">
     <Cheatline>
       <Offset>1EC380E</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-8B-84-86-78-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Skill Points - Badass Tokens On Use" Description="">
+  <Cheat Text="Infinite Skill 得分 - Badass Tokens On Use" Description="">
     <Cheatline>
       <Offset>5BBFB</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>2B-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Redeem Taken By 20%" Description="">
+  <Cheat Text="Increase Redeem Taken By 20%｜将“已兑换”的数量增加20%" Description="">
     <Cheatline>
       <Offset>1EC3827</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>49-FF-47-28-8B-03-FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo - Grenades" Description="">
+  <Cheat Text="无限弹药 - 手榴弹" Description="">
     <Cheatline>
       <Offset>73DD32</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C5-F2-5C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload- Inf Ammo must be On" Description="">
+  <Cheat Text="无需换弹- 无限弹药 must be On" Description="">
     <Cheatline>
       <Offset>5B77E</Offset>
       <Section>0</Section>

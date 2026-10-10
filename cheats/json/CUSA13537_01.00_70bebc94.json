@@ -1,12 +1,17 @@
 {
-  "name": "Hell Warders",
+  "name": "Hell Warders｜地狱守卫",
   "id": "CUSA13537",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Units Point Multiplier (upgrade/add soldier)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Units Point Multiplier (upgrade/add 士兵)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Skill points x999 (will take effect after the fight)",
-      "type": "checkbox",
+      "name": "Skill 得分 x999 (意志 take 效果 after the fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDF0",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Infinite Health/Sphere",
-      "type": "checkbox",
+      "name": "无限生命/Sphere",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D362",

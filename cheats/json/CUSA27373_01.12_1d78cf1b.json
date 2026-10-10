@@ -1,12 +1,17 @@
 {
-  "name": "The Callisto Protocol",
+  "name": "The Callisto Protocol｜《卡利斯托协议》",
   "id": "CUSA27373",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[00] iNFO: Cheat [05] must be ON if Player`s Speed Change is ON. Use cheat [12e] to avoid long cutscenes. If Player`s Speed Doesn't Work at the beginning, Restart Checkpoint once for it to work.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[00] iNFO: Cheat [05] must be ON if Player`s 速度 Change is ON. Use cheat [12e] to avoid long cutscenes. If Player`s 速度 Doesn'恐怖分子 Work at the beginning, Restart 检查点 once for it to work.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B73c",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "[01] Immunity Against Fists",
-      "type": "checkbox",
+      "name": "[01] Immunity Against 拳套",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B650",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "[02] Infinite Health (-Grabbing, Sentinel Shot)",
-      "type": "checkbox",
+      "name": "[02] 无限生命 (-Grabbing, Sentinel Shot)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B6C0",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "[03] 1 Hit Kill (-Captain Ferris)",
-      "type": "checkbox",
+      "name": "[03] 一击必杀 (-Captain Ferris)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B740",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "[04] Ungrab Automatically (-Bloodworm)",
-      "type": "checkbox",
+      "name": "[04] Ungrab Automatically (-Bloodworm)｜[04] 自动取消拾取（-血虫）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B7C0",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "[05] Bloodworm Doesn't Attack (Must Be ON If Speed Change)",
-      "type": "checkbox",
+      "name": "[05] Bloodworm Doesn'恐怖分子 攻击 (Must Be ON If 速度 Change)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738BA00",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "[06] Big Mouth + Sentinel Don't Shoot",
-      "type": "checkbox",
+      "name": "[06] Big Mouth + Sentinel Don'恐怖分子 Shoot",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "29DC150",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "[07] 666 Bullets",
-      "type": "checkbox",
+      "name": "[07] 666 Bullets｜[07] 666 颗子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B800",
@@ -144,7 +149,7 @@
     },
     {
       "name": "[08] Infinite GRP",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B840",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "[09] Infinite Credits",
-      "type": "checkbox",
+      "name": "[09] 无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B880",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "[10a] Player`s Speed x1",
-      "type": "checkbox",
+      "name": "[10a] Player`s 速度 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B940",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "[10b] Player`s Speed x2",
-      "type": "checkbox",
+      "name": "[10b] Player`s 速度 x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B940",
@@ -207,8 +212,8 @@
       ]
     },
     {
-      "name": "[10c] Player`s Speed x3",
-      "type": "checkbox",
+      "name": "[10c] Player`s 速度 x3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B940",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "[11a] NME`s Speed x0.1",
-      "type": "checkbox",
+      "name": "[11a] NME`s 速度 x0.1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B9A0",
@@ -239,8 +244,8 @@
       ]
     },
     {
-      "name": "[11b] NME`s Speed x0.25",
-      "type": "checkbox",
+      "name": "[11b] NME`s 速度x0.25",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B9A0",
@@ -255,8 +260,8 @@
       ]
     },
     {
-      "name": "[11c] NME`s Speed x0.5",
-      "type": "checkbox",
+      "name": "[11c] NME`s 速度 x0.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B9A0",
@@ -271,8 +276,8 @@
       ]
     },
     {
-      "name": "[11d] NME`s Speed x1",
-      "type": "checkbox",
+      "name": "[11d] NME`s 速度 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B9A0",
@@ -287,8 +292,8 @@
       ]
     },
     {
-      "name": "[12a] Game Speed x0.5",
-      "type": "checkbox",
+      "name": "[12a] Game 速度 x0.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B8C0",
@@ -303,8 +308,8 @@
       ]
     },
     {
-      "name": "[12b] Game Speed x1",
-      "type": "checkbox",
+      "name": "[12b] 游戏速度×1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B8C0",
@@ -319,8 +324,8 @@
       ]
     },
     {
-      "name": "[12c] Game Speed x1.5",
-      "type": "checkbox",
+      "name": "[12c] 游戏速度×1.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B8C0",
@@ -335,8 +340,8 @@
       ]
     },
     {
-      "name": "[12d] Game Speed x2",
-      "type": "checkbox",
+      "name": "[12d] 游戏速度×2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B8C0",
@@ -351,8 +356,8 @@
       ]
     },
     {
-      "name": "[12e] Game Speed x3",
-      "type": "checkbox",
+      "name": "[12e] 游戏速度×3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B8C0",
@@ -367,8 +372,8 @@
       ]
     },
     {
-      "name": "[13a] Player`s Size x0.5",
-      "type": "checkbox",
+      "name": "[13a] Player`s Size x0.5｜[13a] 玩家体型 × 0.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B900",
@@ -383,8 +388,8 @@
       ]
     },
     {
-      "name": "[13b] Player`s Size x1",
-      "type": "checkbox",
+      "name": "[13b] Player`s Size x1｜[13b] 玩家体型 x1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B900",
@@ -399,8 +404,8 @@
       ]
     },
     {
-      "name": "[13c] Player`s Size x1.5",
-      "type": "checkbox",
+      "name": "[13c] Player`s Size x1.5｜[13c] 玩家体型 ×1.5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B900",
@@ -415,8 +420,8 @@
       ]
     },
     {
-      "name": "[13d] Player`s Size x2",
-      "type": "checkbox",
+      "name": "[13d] Player`s Size x2｜[13d] 玩家体型 ×2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "738B900",

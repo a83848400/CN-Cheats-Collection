@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="2Dark" Moder="DeathRGH" Cusa="CUSA04802" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>171D96</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>41-FF-8C-24-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flashlight">
+  <Cheat Text="Infinite 手电筒">
     <Cheatline>
       <Offset>14F6CB</Offset>
       <Section>0</Section>

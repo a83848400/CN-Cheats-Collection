@@ -1,12 +1,17 @@
 {
-  "name": "Okami HD",
+  "name": "大神 HD",
   "id": "CUSA08418",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CB87D",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Small enemies only)",
-      "type": "checkbox",
+      "name": "一击必杀 (Small enemies only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CB800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Yen On Gain",
-      "type": "checkbox",
+      "name": "最大 如果 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CB860",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Karma On Gain",
-      "type": "checkbox",
+      "name": "善恶值最大 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CB900",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Demon Fangs On Gain",
-      "type": "checkbox",
+      "name": "最大 妖魔 Fangs On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CB86E",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Double Jump (After It Is Unlocked)",
-      "type": "checkbox",
+      "name": "无限二段跳 (After It Is Unlocked)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4704",

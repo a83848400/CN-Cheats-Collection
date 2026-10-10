@@ -1,12 +1,17 @@
 {
-  "name": "Ultra Street Fighter IV",
+  "name": "Ultra 街头霸王 个体值",
   "id": "CUSA01839",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "INF SUPER BOTH PLAYER",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限超级 BOTH PLAYER",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Super Player 1",
-      "type": "checkbox",
+      "name": "无限超级 Player 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5B800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Ultra Combo PLAYER 2",
-      "type": "checkbox",
+      "name": "Infinite 终极连招 PLAYER 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5B820",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Ultra Combo Player 1",
-      "type": "checkbox",
+      "name": "Infinite 终极连招 Player 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5B820",

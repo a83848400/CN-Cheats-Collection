@@ -1,13 +1,18 @@
 {
-  "name": "The Callisto Protocol",
+  "name": "The Callisto Protocol｜《卡利斯托协议》",
   "id": "PPSA03352",
   "version": "01.029.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7083000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Credits",
+      "name": "无限积分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7083030",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf HP",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7083060",

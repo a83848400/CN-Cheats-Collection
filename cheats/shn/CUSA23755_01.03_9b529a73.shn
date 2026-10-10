@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Asterix &amp; Obelix: Slap Them All" Moder="TLH" Cusa="CUSA23755" Version="01.03" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Hacky Max Score">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Hacky 最大 比分">
     <Cheatline>
       <Offset>687110</Offset>
       <Section>15</Section>
@@ -10,7 +18,7 @@
       <ValueOff>01-77-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>396538</Offset>
       <Section>15</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-5C-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwing">
+  <Cheat Text="Infinite Throwing｜无限投掷">
     <Cheatline>
       <Offset>68DF4F</Offset>
       <Section>15</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Two Point Hospital",
+  "name": "Two Point Hospital｜《Two Point Hospital》",
   "id": "CUSA15884",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9,999,999 Money on Spend",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "9,999,999 金钱 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1857C00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Reputation on Gain",
-      "type": "checkbox",
+      "name": "声望拉满 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1857C60",

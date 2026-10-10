@@ -1,12 +1,17 @@
 {
-  "name": "Ancestors: The Humankind Odyssey",
+  "name": "Ancestors: The Humankind Odyssey｜《祖先：人类的奥德赛》",
   "id": "CUSA13248",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6A43C4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6A46AC",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "370BB57",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Broken bones Protection",
-      "type": "checkbox",
+      "name": "Infinite Broken bones Protection｜无限骨折保护",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E890",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Cold  Protection",
-      "type": "checkbox",
+      "name": "Infinite Cold  Protection｜无限寒冰防护",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8B0",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Food Poisoning/ Venom Protection",
-      "type": "checkbox",
+      "name": "食物无限 Poisoning/ 毒液 Protection",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8F0",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Bleeding Protection",
-      "type": "checkbox",
+      "name": "Infinite 流血 Protection",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E910",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Minimum negative effect ",
-      "type": "checkbox",
+      "name": "Minimum negative 效果 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8D0",

@@ -16,7 +16,15 @@
       <ValueOff>44-29-E1-89-48-4C</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Hit Me SM = Story Mode...MM = Mercenary Mode...One Hit Kill when playing as Chris please turn cheat off when marking the 1st target......">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Hit Me SM = 剧情模式...MM = 佣兵 Mode...一击必杀 when playing as Chris please 回合 cheat off when marking the 1st target......">
     <Cheatline>
       <Offset>D1</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health" Description="">
+  <Cheat Text="Max Health｜生命最大" Description="">
     <Cheatline>
       <Offset>B19F150</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FA-10-41-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>B19F15F</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-10-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max CP" Description="">
+  <Cheat Text="最大 CP" Description="">
     <Cheatline>
       <Offset>1C94B07</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>41-0F-4C-CF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Lei" Description="">
+  <Cheat Text="最大 Lei" Description="">
     <Cheatline>
       <Offset>30ED3FA</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>41-8B-4F-48-01-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="">
+  <Cheat Text="无限弹药" Description="">
     <Cheatline>
       <Offset>B19F1AC</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>4A98FA6</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>B9-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items" Description="">
+  <Cheat Text="道具无限" Description="">
     <Cheatline>
       <Offset>311C679</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>41-29-5C-24-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Crafting Materials" Description="">
+  <Cheat Text="无限制作 Materials" Description="">
     <Cheatline>
       <Offset>B19F1B1</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Combo Timer" Description="">
+  <Cheat Text="Freeze Combo 计时器" Description="">
     <Cheatline>
       <Offset>B19F224</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>C5-FA-11-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pause Menu Inc (SM) Timer Dec (MM)" Description="">
+  <Cheat Text="暂停菜单 Inc (SM) 计时器 Dec (MM)" Description="">
     <Cheatline>
       <Offset>63BE64F</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>E8-EC-D2-D5-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pause Menu Freeze Timer (SM+MM)" Description="">
+  <Cheat Text="暂停菜单 Freeze 计时器 (SM+MM)" Description="">
     <Cheatline>
       <Offset>63BE65D</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>75-DB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pause Menu Inc (MM)Timer Dec (SM)" Description="">
+  <Cheat Text="暂停菜单 Inc (MM)计时器 Dec (SM)" Description="">
     <Cheatline>
       <Offset>63BE58C</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>49-89-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tank Gun No Cooldown" Description="">
+  <Cheat Text="坦克 Gun 无冷却" Description="">
     <Cheatline>
       <Offset>B19F187</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>C5-FA-11-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Show Nearby Items" Description="">
+  <Cheat Text="Show Nearby Items｜显示附近的项目" Description="">
     <Cheatline>
       <Offset>3107D70</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>C5-FA-10-85-60-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Interact With Nearby Items" Description="">
+  <Cheat Text="互动 With Nearby Items" Description="">
     <Cheatline>
       <Offset>3107F16</Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>C5-FA-10-85-60-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Shop Items Sell or Buy">
+  <Cheat Text="无限商店商品 Sell or Buy">
     <Cheatline>
       <Offset>B19F1BE</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>39-48-18-41-0F-9D-C5</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf ammo v4">
+  <Cheat Text="无限弹药 v4">
     <Cheatline>
       <Offset>434ECEF</Offset>
       <Section>0</Section>

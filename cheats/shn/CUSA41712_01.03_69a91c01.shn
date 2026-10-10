@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Soulstice" Moder="Wander FW9.00" Cusa="CUSA41712" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Section>0</Section>
       <Offset>635F400</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-43-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Crimson/Cobalt tears on get">
+  <Cheat Text="最大 Crimson/Cobalt tears on get">
     <Cheatline>
       <Section>0</Section>
       <Offset>635F660</Offset>

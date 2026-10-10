@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Code: Veronica X",
+  "name": "生化危机: 密码: Veronica 艾克斯",
   "id": "SLES50306",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Magnum",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-Magnum｜无限伟大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080049BAE",
@@ -17,7 +22,7 @@
     },
     {
       "name": "rocket-Launeher",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080049BAA",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-Shotgun",
-      "type": "checkbox",
+      "name": "Infinite-霰弹枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080049BAE",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite-Health",
-      "type": "checkbox",
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080048F2C",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Grenade-Launcher",
-      "type": "checkbox",
+      "name": "手榴弹-挑空技",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080049BAE",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Inf-Enhanced-Handgun",
-      "type": "checkbox",
+      "name": "Infinite-Enhanced-手枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080049BAE",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Inf-Assault-Rifle",
-      "type": "checkbox",
+      "name": "无限突击步枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080049BAE",

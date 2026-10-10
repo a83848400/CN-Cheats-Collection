@@ -1,12 +1,17 @@
 {
-  "name": "Mafia III",
+  "name": "黑手党 III",
   "id": "CUSA03617",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "233D2FD",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "233D338",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16C2888",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Adrenaline Syringes",
-      "type": "checkbox",
+      "name": "Infinite 肾上腺素 Syringes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "233DFC3",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Get 9.999 Ammo per Reload",
-      "type": "checkbox",
+      "name": "Get 9.999 但是 per Reload",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48E3FA0",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Get 9.999 Throwables (with each throw)",
-      "type": "checkbox",
+      "name": "Get 9.999 可投掷物品 (with each 投技)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48E3C40",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Get $9.999.999 (with every earnings)",
-      "type": "checkbox",
+      "name": "Get $9.999.999 (with every earnings)｜每次获得收益时，即可获得 9,999,999 美元",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48E3DB0",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Get 9.999 Adrenaline Syringes (with each use)",
-      "type": "checkbox",
+      "name": "Get 9.999 肾上腺素 Syringes (with each use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48E3DE0",

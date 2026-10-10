@@ -1,12 +1,17 @@
 {
-  "name": "Deadpool",
+  "name": "Deadpool｜死侍",
   "id": "CUSA03245",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinte Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E125A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E125A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Momentum Bars (On Use)",
-      "type": "checkbox",
+      "name": "Infinite 状态 Bars (On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo / Grenades / Mines",
-      "type": "checkbox",
+      "name": "无限弹药 / 手榴弹 / Mines",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E12570",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max DP Pointes",
-      "type": "checkbox",
+      "name": "最大 DP Pointes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E12550",

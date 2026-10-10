@@ -1,12 +1,17 @@
 {
-  "name": "Transformers: Rise of the Dark Spark",
+  "name": "Transformers: Rise of the Dark Spark｜《变形金刚：暗火崛起》",
   "id": "CUSA00472",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "b6e610",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Fast Exp/Leveling",
-      "type": "checkbox",
+      "name": "Fast 经验/Leveling",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "b97822",

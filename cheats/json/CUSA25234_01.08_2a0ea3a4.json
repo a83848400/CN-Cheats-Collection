@@ -1,12 +1,17 @@
 {
-  "name": "Dungeons & Dragons: Dark Alliance",
+  "name": "Dungeons & Dragons: Dark 联盟",
   "id": "CUSA25234",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Stamina (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 体力 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "817B500",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Ability / Easy Kill (Master Code)",
-      "type": "checkbox",
+      "name": "特性 / 轻松击杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "817B507",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Max Resorce (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Resorce (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E4D61",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Max Fate Points",
-      "type": "checkbox",
+      "name": "最大 Fate 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "817B700",

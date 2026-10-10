@@ -1,12 +1,17 @@
 {
-  "name": "No Man's Sky",
+  "name": "No Man's 光·遇",
   "id": "CUSA03952",
   "version": "01.38",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "set 99999 resources (craft)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "set 99999 resources (craft)｜设置 99999 个资源（合成）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1603800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "set 99999 res (tools) ",
-      "type": "checkbox",
+      "name": "set 99999 res (tools) ｜设置 99999 分辨率（工具）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "160380E",

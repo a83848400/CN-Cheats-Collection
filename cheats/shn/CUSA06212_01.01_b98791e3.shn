@@ -7,7 +7,15 @@
   <Genres Name="Horror" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>F8384F</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>C5-FA-10-83-48-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>2168AB</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>0F-4E-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>21BAE5</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>44-29-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>21BB1A</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite BP" Description="">
+  <Cheat Text="Infinite 战斗点数" Description="">
     <Cheatline>
       <Offset>F83800</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>89-8B-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables" Description="">
+  <Cheat Text="Infinite Throwables｜投掷物无限" Description="">
     <Cheatline>
       <Offset>212715</Offset>
       <Section>0</Section>
@@ -79,7 +87,7 @@
       <ValueOff>89-94-87-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Level" Description="">
+  <Cheat Text="Instant 等级最大" Description="">
     <Cheatline>
       <Offset>F83832</Offset>
       <Section>0</Section>
@@ -93,7 +101,7 @@
       <ValueOff>0F-4F-C1-41-89-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max BP on Gain" Description="">
+  <Cheat Text="最大 战斗点数 on Gain" Description="">
     <Cheatline>
       <Offset>F83840</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball Z: Kakarot",
+  "name": "龙珠 Z: Kakarot",
   "id": "CUSA14835",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf MAX Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A4C5DF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "INF Max Ki",
-      "type": "checkbox",
+      "name": "Infinite 最大 气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A4C61F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Max rag",
-      "type": "checkbox",
+      "name": "Infinite 最大 rag",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9D1442",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Lv when get xp",
-      "type": "checkbox",
+      "name": "最大 Lv when get xp",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A4CAF0",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "items Incressed ",
-      "type": "checkbox",
+      "name": "items Incressed ｜项目增加",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7CAE2",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "MAX orbs on get/ when you get Max for all Orbs Stop it",
-      "type": "checkbox",
+      "name": "最大 orbs on get/ when you get 最大 for all Orbs 停止 it",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "145AE56",

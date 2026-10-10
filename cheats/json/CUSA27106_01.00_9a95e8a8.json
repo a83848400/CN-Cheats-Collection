@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Budget (Use the budget slider to adjust)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 预算 (Use the 预算 slider to adjust)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE3640",

@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 4",
+  "name": "生化危机 4",
   "id": "CUSA04885",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "208A26",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2e208e",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Inventory Ammo",
-      "type": "checkbox",
+      "name": "Infinite 背包 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2e0dee",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "99999999 PTAS",
-      "type": "button",
+      "name": "99999999 PTAS｜9,999,999 个家长教师协会",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1031C7C",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Inventory Ammo (NOP)",
-      "type": "checkbox",
+      "name": "Infinite 背包 但是 (NOP)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E0DEC",

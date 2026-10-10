@@ -1,12 +1,17 @@
 {
-  "name": "Secret of Mana",
+  "name": "Secret of Mana｜圣剑传说",
   "id": "CUSA09537",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1426D1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125E62",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Exp/Level",
-      "type": "checkbox",
+      "name": "经验值最大/等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34C656",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Set GM (Money) to 9.999.999",
-      "type": "button",
+      "name": "Set GM (金钱) to 9.999.999",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "BCD65C",

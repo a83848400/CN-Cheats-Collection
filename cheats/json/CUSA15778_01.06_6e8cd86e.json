@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 6",
+  "name": "孤岛惊魂 6",
   "id": "CUSA15778",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Full Ammo (On Weapon change)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Full 但是 (On Weapon change)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F3BF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite item on use/sell (Heal/Ammo/Materials)",
-      "type": "checkbox",
+      "name": "Infinite 物品 on use/sell (治疗/但是/Materials)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F333",

@@ -30,7 +30,15 @@
       <ValueOff>45-89-A5-48-01-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Inf Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命" Description="">
     <Cheatline>
       <Offset>162A14A</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>80-BD-B0-FE-FF-FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP + OHK" Description="">
+  <Cheat Text="无限血量 + OHK" Description="">
     <Cheatline>
       <Offset>162A14A</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>41-89-86-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Undetected" Description="">
+  <Cheat Text="Undetected｜未被检测到" Description="">
     <Cheatline>
       <Offset>E332EC</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>8D-48-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemies Location" Description="">
+  <Cheat Text="Enemies Location｜敌人位置" Description="">
     <Cheatline>
       <Offset>E332EC</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>41-89-87-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Posture" Description="">
+  <Cheat Text="Unlimited Posture｜无限姿势" Description="">
     <Cheatline>
       <Offset>38A7855</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Deathblow" Description="">
+  <Cheat Text="快速 忍杀" Description="">
     <Cheatline>
       <Offset>38A7868</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>45-89-A5-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Fall Damage" Description="">
+  <Cheat Text="No Fall Damage｜无坠落伤害" Description="">
     <Cheatline>
       <Offset>1689253</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>44-29-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Status Effects" Description="Poison\Terror\Burn\Enfeeblement\Shock\Stepping into the fire">
+  <Cheat Text="No Status Effects｜无状态效果" Description="Poison\Terror\Burn\Enfeeblement\Shock\Stepping into the fire">
     <Cheatline>
       <Offset>132D123</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>44-0F-4E-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Money" Description="">
+  <Cheat Text="最大 金钱无限" Description="">
     <Cheatline>
       <Offset>139222A</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>0F-4C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Items" Description="">
+  <Cheat Text="最大 道具无限" Description="">
     <Cheatline>
       <Offset>1083056</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>41-39-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Exp Quick lvl Up" Description="">
+  <Cheat Text="经验 Quick lvl Up" Description="">
     <Cheatline>
       <Offset>38A7824</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>41-8B-8D-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="">
+  <Cheat Text="Super Jump｜超级跳跃" Description="">
     <Cheatline>
       <Offset>38A7874</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>C4-C1-79-10-86-C0-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack 1.25" Description="">
+  <Cheat Text="速度 Hack 1.25" Description="">
     <Cheatline>
       <Offset>38A7806</Offset>
       <Section>0</Section>
@@ -188,7 +196,7 @@
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack 1.50" Description="">
+  <Cheat Text="速度 Hack 1.50" Description="">
     <Cheatline>
       <Offset>38A7806</Offset>
       <Section>0</Section>
@@ -196,7 +204,7 @@
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack 2.00" Description="">
+  <Cheat Text="速度 Hack 2.00" Description="">
     <Cheatline>
       <Offset>38A7806</Offset>
       <Section>0</Section>
@@ -204,7 +212,7 @@
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Every1 Inf HP 4 Practice" Description="">
+  <Cheat Text="Every1 无限血量 4 Practice" Description="">
     <Cheatline>
       <Offset>162A5C5</Offset>
       <Section>0</Section>
@@ -212,7 +220,7 @@
       <ValueOff>41-89-86-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Money\Exp loss Upon Death" Description="">
+  <Cheat Text="No 金钱\经验 loss Upon 死亡" Description="">
     <Cheatline>
       <Offset>1E44746</Offset>
       <Section>0</Section>
@@ -226,7 +234,7 @@
       <ValueOff>0F-4F-F9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Auto Pick Enemy Drops" Description="">
+  <Cheat Text="Auto Pick Enemy Drops｜自动拾取敌人掉落物" Description="">
     <Cheatline>
       <Offset>124B827</Offset>
       <Section>0</Section>

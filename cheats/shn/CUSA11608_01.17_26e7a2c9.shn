@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="FIFA 19" Moder="Wander FW9.00" Cusa="CUSA11608" Version="01.17" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="Max Score (at training )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 比分 (at 训练 )">
     <Cheatline>
       <Offset>6CEBB40</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>01-CA-89-50-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Budget (after buying a Player)">
+  <Cheat Text="最大 预算 (购买后 a Player)">
     <Cheatline>
       <Offset>6CEBE30</Offset>
       <Section>0</Section>

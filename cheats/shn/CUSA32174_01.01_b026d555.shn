@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Like a Dragon: Ishin!" Moder="Reddevil82 - FW 9.00" Cusa="CUSA32174" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>4725B96</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-A5-D8-FD-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>6E1BBB0</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-0F-B7-46-16</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2 Hit Kill">
+  <Cheat Text="2 命中击杀">
     <Cheatline>
       <Offset>6E1BBD8</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>41-0F-B7-5E-16</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Heat">
+  <Cheat Text="Max Heat｜热血槽拉满">
     <Cheatline>
       <Offset>6E1B800</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-F8-10-0D-93-E0-E2-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>6E1BC09</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C4-C1-7A-11-86-AC-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gauge ( Soldier Squad )">
+  <Cheat Text="无限量规 ( 士兵 小队 )">
     <Cheatline>
       <Offset>6E1BC19</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-FA-10-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>6E1BC2D</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>8B-94-8A-68-78-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Virtue">
+  <Cheat Text="最大 五行">
     <Cheatline>
       <Offset>6E1B817</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>8B-35-3D-3C-66-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Brawler Orbs">
+  <Cheat Text="最大 Brawler Orbs">
     <Cheatline>
       <Offset>6E1B800</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>0F-B6-15-5C-DF-65-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Swordsman Orbs">
+  <Cheat Text="最大 剑士 Orbs">
     <Cheatline>
       <Offset>6E1B858</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>0F-B6-35-6C-DE-65-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gunman Orbs">
+  <Cheat Text="最大 Gunman Orbs">
     <Cheatline>
       <Offset>6E1B82E</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>0F-B6-0D-24-DF-65-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Wild Dancer Orbs">
+  <Cheat Text="最大 Wild Dancer Orbs">
     <Cheatline>
       <Offset>6E1B843</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>0F-B6-15-1B-DF-65-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Training Orbs">
+  <Cheat Text="最大 训练 Orbs">
     <Cheatline>
       <Offset>6E1B82E</Offset>
       <Section>0</Section>
@@ -178,7 +186,7 @@
       <ValueOff>0F-B6-0D-0D-DF-65-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP ( on gain )">
+  <Cheat Text="最大 XP ( on gain )">
     <Cheatline>
       <Offset>6E1B843</Offset>
       <Section>0</Section>
@@ -192,7 +200,7 @@
       <ValueOff>41-89-74-87-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Enhanced Ammo">
+  <Cheat Text="最大 Enhanced 但是">
     <Cheatline>
       <Offset>6E1B853</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>41-0F-B7-4F-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Flame Ammo">
+  <Cheat Text="最大 Flame 但是">
     <Cheatline>
       <Offset>6E1B866</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>66-89-11-0F-B7-40-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Combo">
+  <Cheat Text="最大 Combo">
     <Cheatline>
       <Offset>6E1B87A</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>89-1D-B6-52-AB-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock all ( Produce - Seafood - Materials )">
+  <Cheat Text="解锁 all ( Produce - Seafood - Materials )">
     <Cheatline>
       <Offset>6E1B800</Offset>
       <Section>0</Section>
@@ -260,7 +268,7 @@
       <ValueOff>66-83-78-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ( Produce - Seafood - Materials )">
+  <Cheat Text="最大 Items ( Produce - Seafood - Materials )">
     <Cheatline>
       <Offset>6E1B800</Offset>
       <Section>0</Section>
@@ -274,7 +282,7 @@
       <ValueOff>0F-B7-48-06-42-89-4C-3A-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ( Warehouse )">
+  <Cheat Text="最大 Items ( 仓库 )">
     <Cheatline>
       <Offset>6E1B816</Offset>
       <Section>0</Section>
@@ -288,7 +296,7 @@
       <ValueOff>4D-89-FD-0F-B7-43-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Lottery Tickets">
+  <Cheat Text="最大 Lottery Tickets">
     <Cheatline>
       <Offset>6E1B82A</Offset>
       <Section>0</Section>
@@ -302,7 +310,7 @@
       <ValueOff>4C-63-35-DD-43-2A-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Wodden Tags">
+  <Cheat Text="最大 Wodden Tags">
     <Cheatline>
       <Offset>6E1B842</Offset>
       <Section>0</Section>
@@ -316,7 +324,7 @@
       <ValueOff>4C-63-35-D1-47-2A-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Shogi - Mahjong ">
+  <Cheat Text="最大 Shogi - Mahjong ">
     <Cheatline>
       <Offset>6E1B85A</Offset>
       <Section>0</Section>
@@ -330,7 +338,7 @@
       <ValueOff>8B-94-8A-68-78-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Third Eyes ( Rock - Paper - Scissors )">
+  <Cheat Text="Infinite Third Eyes ( Rock - 纸张 - Scissors )">
     <Cheatline>
       <Offset>6E1B87C</Offset>
       <Section>0</Section>
@@ -344,7 +352,7 @@
       <ValueOff>41-8B-5F-10-E8-AD-A3-B2-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score Wood Chooping">
+  <Cheat Text="最大 比分 木 Chooping">
     <Cheatline>
       <Offset>6E1B894</Offset>
       <Section>0</Section>
@@ -358,7 +366,7 @@
       <ValueOff>41-8B-8C-24-A4-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sensual Healing ( Godmode )">
+  <Cheat Text="Sensual Healing ( 上帝模式 )">
     <Cheatline>
       <Offset>6E1B8AF</Offset>
       <Section>0</Section>
@@ -372,7 +380,7 @@
       <ValueOff>45-8B-AC-24-10-1A-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dancing Max Score ( on gain )">
+  <Cheat Text="Dancing 最大 比分 ( on gain )">
     <Cheatline>
       <Offset>6E1B8CA</Offset>
       <Section>0</Section>
@@ -386,7 +394,7 @@
       <ValueOff>89-B0-E8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Cannon Coaching Max Score ( on gain )">
+  <Cheat Text="Cannon Coaching 最大 比分 ( on gain )">
     <Cheatline>
       <Offset>6E1B8DB</Offset>
       <Section>0</Section>

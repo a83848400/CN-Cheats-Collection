@@ -1,12 +1,17 @@
 {
-  "name": "Gravity Rush 2",
+  "name": "Gravity 快攻 2",
   "id": "CUSA04943",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Gravity Power",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限重力 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B820",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Gems [on gain]",
-      "type": "checkbox",
+      "name": "宝石最大 [on gain]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE30",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11385A1",

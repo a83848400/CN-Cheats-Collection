@@ -3,7 +3,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Health / 1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命 / 一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>7FC5C510</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-40-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
+  <Cheat Text="一击必杀 (MC)">
     <Cheatline>
       <Offset>5C51A</Offset>
       <Section>3</Section>
@@ -25,7 +33,7 @@
       <ValueOff>74-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold">
+  <Cheat Text="Max Gold｜金币最大">
     <Cheatline>
       <Offset>7FC5C540</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>48-8B-44-24-F8-8B-4C-24-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Points">
+  <Cheat Text="Infinite 得分">
     <Cheatline>
       <Offset>7FC5C550</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>8B-4C-24-F4-89-48-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="X2 Speed">
+  <Cheat Text="X2 Speed｜速度×2">
     <Cheatline>
       <Offset>7FC5C570</Offset>
       <Section>0</Section>

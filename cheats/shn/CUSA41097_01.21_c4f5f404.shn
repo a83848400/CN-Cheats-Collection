@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Afterimage" Moder="Bandicootmonito" Cusa="CUSA41097" Version="01.21" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health + Invincible (Turn OFF when enter to the first boss, die is needed to continue the gameplay)" Description="You can turn ON in any moment of the game. (Activalo en cualquier momento del juego).">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 + 无敌 (回合 OFF when enter to the first boss, die is needed to 继续游戏 the gameplay)" Description="You can turn ON in any moment of the game. (Activalo en cualquier momento del juego).">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>800-executable[0]-5</PS5Offset>
@@ -20,7 +28,7 @@
       <ValueOff>C5-F9-7E-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic / Mana (You obtain magic when collect the Book of Hydro)" Description="You can turn ON in any moment of the game, if you save your progress just kill an enemy to restore the infinite magic again. (Activalo en cualquier momento del juego, si guardas tu progreso, solo derrota a un enemigo para reparar la magia infinita).">
+  <Cheat Text="Infinite 魔法 / 法力 (You obtain 魔法 when collect the Book of Hydro)" Description="You can turn ON in any moment of the game, if you save your progress just kill an enemy to restore the infinite magic again. (Activalo en cualquier momento del juego, si guardas tu progreso, solo derrota a un enemigo para reparar la magia infinita).">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>7DF-executable[0]-5</PS5Offset>
@@ -38,7 +46,7 @@
       <ValueOff>E9-AF-F2-E2-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money (Dew) x999999" Description="You can turn ON in any moment of the game. (Activalo en cualquier momento del juego).">
+  <Cheat Text="金钱无限 (Dew) x999999" Description="You can turn ON in any moment of the game. (Activalo en cualquier momento del juego).">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>7BB-executable[0]-5</PS5Offset>

@@ -1,12 +1,17 @@
 {
-  "name": "My Friend Pedro - Blood Bullets Bananas",
+  "name": "My Friend Pedro - Blood Bullets Bananas｜《我的朋友佩德罗》——鲜血、子弹、香蕉",
   "id": "CUSA18145",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ED60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FA80",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Reload Double Pistols Ammo (Activate Infinite Ammo)",
-      "type": "checkbox",
+      "name": "无需换弹 Double Pistols 但是 (Activate 无限弹药)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F2A0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Reload Submachine Ammo (Activate Infinite Ammo)",
-      "type": "checkbox",
+      "name": "无需换弹 Submachine 但是 (Activate 无限弹药)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAF0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Grenade Launcher Ammo",
-      "type": "checkbox",
+      "name": "Infinite Grenade Launcher Ammo｜榴弹发射器弹药无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",

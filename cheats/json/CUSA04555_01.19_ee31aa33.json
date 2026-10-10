@@ -1,12 +1,17 @@
 {
-  "name": "Dead or Alive Xtreme 3: Fortune",
+  "name": "死或生 Xtreme 3: Fortune",
   "id": "CUSA04555",
   "version": "01.19",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Girl and Owner Money on Spend",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Girl and Owner 金钱 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "897800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Satisfaction Rate All Girl on Gift Accept",
-      "type": "checkbox",
+      "name": "最大 满意度 Rate All Girl on Gift Accept",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "897800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Owner Level 110 on a Mission Complete",
-      "type": "checkbox",
+      "name": "最大 Owner 等级 110 on a Mission Complete",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "897800",

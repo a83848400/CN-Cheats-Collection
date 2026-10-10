@@ -1,12 +1,17 @@
 {
-  "name": "Airport Simulator: Day & Night",
+  "name": "Airport Simulator: Day & 夜晚",
   "id": "CUSA29671",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BE80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Buy Task",
-      "type": "checkbox",
+      "name": "Infinite Buy Task｜无限购买任务",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BE9A",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Unlimited Player Upgrades ( after 1st successful task )",
-      "type": "checkbox",
+      "name": "Unlimited Player Upgrades ( after 1st successful task )｜无限玩家升级（完成首个任务后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Unlimited XP Points ( after 1st successful task )",
-      "type": "checkbox",
+      "name": "无限经验 得分 ( after 1st successful task )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BEAC",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Level ( after 1st successful task )",
-      "type": "checkbox",
+      "name": "等级最大 ( after 1st successful task )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BEC7",

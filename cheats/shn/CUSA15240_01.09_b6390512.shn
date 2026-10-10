@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Modern Warfare" Moder="Celogamez" Cusa="CUSA15240" Version="01.09" Process="eboot.bin">
   <Items />
-  <Cheat Text="Infinite Health (Campaign)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (战役)">
     <Cheatline>
       <Offset>01F07E00</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>48-8B-03-49-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Multiplayer)">
+  <Cheat Text="无限生命 (多人模式)">
     <Cheatline>
       <Offset>7FC5FDB0</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>41-29-86-B8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>01F07EB0</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>44-01-F1-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>01F07E50</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>48-8B-95-A0-FD-FF-FF-89-4C-90-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades">
+  <Cheat Text="Infinite Grenades｜手雷无限">
     <Cheatline>
       <Offset>01F07E80</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>FF-C9-89-48-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil">
+  <Cheat Text="No Recoil｜消除后坐力">
     <Cheatline>
       <Offset>01F07EE0</Offset>
       <Section>0</Section>

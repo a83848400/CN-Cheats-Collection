@@ -1,12 +1,17 @@
 {
-  "name": "Two Point Campus",
+  "name": "Two Point Campus｜两点校园",
   "id": "CUSA24605",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Kudos on use",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "使用体验极佳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "989D6E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Increase Money on Use",
-      "type": "checkbox",
+      "name": "Increase 金钱 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "197D550",

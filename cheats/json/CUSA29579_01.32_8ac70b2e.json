@@ -1,12 +1,17 @@
 {
-  "name": "Stranger of Paradise: Final Fantasy Origin",
+  "name": "Stranger of Paradise: 最终幻想 Origin",
   "id": "CUSA29579",
   "version": "01.32",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBDE1",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Break Gauge",
-      "type": "checkbox",
+      "name": "Infinite 破防 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2771EC",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite MP + Max MP",
-      "type": "checkbox",
+      "name": "无限魔力 + 最大 MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBDFA",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBE1B",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Potion",
-      "type": "checkbox",
+      "name": "Max Potion｜秘药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBE33",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Max Abilities ( if available )",
-      "type": "checkbox",
+      "name": "最大 Abilities ( if available )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBE42",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Max Anima ( Job Menu - you need one )",
-      "type": "checkbox",
+      "name": "最大 Anima ( Job 菜单 - you need one )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBE59",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Max Anima, Maginit ( Items Inventory - you need one )",
-      "type": "checkbox",
+      "name": "最大 Anima, Maginit ( Items 背包 - you need one )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBE72",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Max Job Points ( on use )",
-      "type": "checkbox",
+      "name": "最大 Job 得分 ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33DBE85",

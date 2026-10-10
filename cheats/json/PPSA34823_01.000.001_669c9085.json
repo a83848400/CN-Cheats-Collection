@@ -1,13 +1,18 @@
 {
-  "name": "New Super Lucky's Tale",
+  "name": "New Super Lucky's Tale｜《新·超级幸运儿的故事》",
   "id": "PPSA34823",
   "version": "01.000.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FDABF00",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "--Inf_Coins",
+      "name": "--无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FDABF00",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "--Inf_Lives",
+      "name": "--无限命数",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FDABF01",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Hp",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80541958",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Inf Jumps",
+      "name": "无限跳跃",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1F068",

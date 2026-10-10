@@ -1,12 +1,17 @@
 {
-  "name": "Unknown 9: Awakening",
+  "name": "Unknown 9: Awakening｜《未知9：觉醒》",
   "id": "CUSA34016",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68B7000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "--Inf_Life",
-      "type": "checkbox",
+      "name": "--无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68B7094",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "--Inf_Possession",
-      "type": "checkbox",
+      "name": "--无限附身",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68B70A4",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "--Inf_Stamina",
-      "type": "checkbox",
+      "name": "--无限体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68B709C",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "--Two_Hit_Kill",
-      "type": "checkbox",
+      "name": "--两击击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68B70AC",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68B70D4",

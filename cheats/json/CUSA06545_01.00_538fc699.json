@@ -1,12 +1,17 @@
 {
-  "name": "Prototype Biohazard Bundle",
+  "name": "Prototype Biohazard Bundle｜《原型：生化危机》套装",
   "id": "CUSA06545",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1043990",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DC822",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max/Infinite EP (Disable After First Buy)",
-      "type": "checkbox",
+      "name": "最大/《Infinite》EP (Disable After First Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1043B10",

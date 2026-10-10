@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="MLB 17: The Show" Moder="nolberto82" Cusa="CUSA06387" Version="01.03" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="Hold Right-Dpad To Hit Homerun">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="领地 Right-Dpad To Hit Homerun">
     <Cheatline>
       <Offset>18C3800</Offset>
       <Section>0</Section>

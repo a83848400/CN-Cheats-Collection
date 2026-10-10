@@ -1,13 +1,18 @@
 {
-  "name": "DAVE THE DIVER",
+  "name": "DAVE THE DIVER｜潜水员戴夫",
   "id": "CUSA45600",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf O2",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 氧气",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "0 Weight",
+      "name": "0 重量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F03F",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Bombs",
+      "name": "无限炸弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F078",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0A6",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0D3",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Max Items At Sell",
+      "name": "最大 Items At Sell",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F10C",
@@ -107,9 +112,9 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Only Melee)",
-      "description": "Don't use it too much or the enemies will respawn dead",
-      "type": "checkbox",
+      "name": "一击必杀 (Only 近战)",
+      "description": "Don'恐怖分子 use it too much or the enemies 意志 respawn dead",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F13F",

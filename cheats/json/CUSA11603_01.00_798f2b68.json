@@ -1,12 +1,17 @@
 {
-  "name": "Shikhondo - Soul Eater",
+  "name": "Shikhondo - Soul Eater｜希孔多——《噬魂者》",
   "id": "CUSA11603",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80744C9D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Bomb",
-      "type": "checkbox",
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8074B93D",

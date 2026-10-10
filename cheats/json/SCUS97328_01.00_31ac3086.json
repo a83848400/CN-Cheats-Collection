@@ -1,12 +1,17 @@
 {
-  "name": "Gran Turismo 4",
-  "id": "SCUS97328",
+  "name": "Gran Turismo 4｜《Gran Turismo 4》",
+  "id": "SCUS97328｜打扰一下，对不起",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Billion Credits",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "1 Billion Credits｜10亿积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808061FCA8",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Days",
-      "type": "checkbox",
+      "name": "最大 Days",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080617AB8",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Races Won With No Losses",
-      "type": "checkbox",
+      "name": "最大 Races Won With No Losses",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808060C22C",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Max Total Prize Credits",
-      "type": "checkbox",
+      "name": "最大 Total Prize Credits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808060C220",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Buying Items Doesnt Decrease Credits",
-      "type": "checkbox",
+      "name": "Buying Items Doesnt Decrease Credits｜购买物品不会减少积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808003AFD0",

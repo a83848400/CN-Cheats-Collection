@@ -1,13 +1,18 @@
 {
-  "name": "Ghostrunner 2",
+  "name": "《幽灵跑者》 2",
   "id": "PPSA09911",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Stamina",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限耐力",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6133000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Max Score",
+      "name": "最大 比分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6133031",
