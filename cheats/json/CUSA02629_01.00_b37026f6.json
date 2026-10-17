@@ -1,12 +1,17 @@
 {
-  "name": "Disgaea 5: Alliance of Vengeance",
+  "name": "Disgaea 5: 联盟 of Vengeance",
   "id": "CUSA02629",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Mana \"Use Skill Shop\"",
-      "type": "checkbox",
+      "name": "最大 法力 \"Use Skill Shop\"",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587816",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Quick Level Up",
-      "type": "checkbox",
+      "name": "Quick 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587826",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Heal SP In Hospital",
-      "type": "checkbox",
+      "name": "最大 治疗 精神值 In Hospital",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587836",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Heal HP In Hospital",
-      "type": "checkbox",
+      "name": "最大 治疗 手机 In Hospital",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587846",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Revive In Hospital ",
-      "type": "checkbox",
+      "name": "最高复活药 In Hospital ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587856",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Quick Level Up Skill Power ",
-      "type": "checkbox",
+      "name": "Quick 升级 Skill 电力 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587867",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Quickly Gain Customer Rank",
-      "type": "checkbox",
+      "name": "Quickly Gain Customer 阶级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587872",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Quickly Gain \"Item World\" Prizes",
-      "type": "checkbox",
+      "name": "Quickly Gain \"物品 World\" Prizes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587885",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Quickly Gain \"Range\" Skill Shop",
-      "type": "checkbox",
+      "name": "Quickly Gain \"射程\" Skill Shop",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587898",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Max Item Points \"Item World\"",
-      "type": "checkbox",
+      "name": "最大 物品 得分 \"物品 World\"",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5878A3",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Quickly Level Up Squads ",
-      "type": "checkbox",
+      "name": "Quickly 升级 Squads ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "587800",

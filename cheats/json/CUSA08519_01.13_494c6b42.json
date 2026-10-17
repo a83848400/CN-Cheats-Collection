@@ -1,12 +1,17 @@
 {
-  "name": "Red Dead Redemption II",
+  "name": "荒野大镖客 II",
   "id": "CUSA08519",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Player/Horse Infinite Health/Stamina/Deadeye",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Player/马匹无限生命/体力/Deadeye",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "962B27",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A4B3A5",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A94964",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C04BDB",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1F800",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max Item",
-      "type": "checkbox",
+      "name": "最大 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1F800",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BF8710",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Infinite Max Objects",
-      "type": "checkbox",
+      "name": "Infinite 最大 Objects",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BF8701",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Extra horse affinity gain",
-      "type": "checkbox",
+      "name": "Extra horse 牵绊 gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D1F810",

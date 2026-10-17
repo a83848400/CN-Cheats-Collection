@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mortal Kombat II" Moder="Ali-mk" Cusa="SLPS00444" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>1308DC</Offset>
       <Section>11</Section>
@@ -16,7 +24,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health+1-Hit">
+  <Cheat Text="Infinite-生命+1-Hit">
     <Cheatline>
       <Offset>1308C0</Offset>
       <Section>11</Section>
@@ -30,7 +38,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fatality Time">
+  <Cheat Text="Infinite Fatality Time｜无限致命时间">
     <Cheatline>
       <Offset>117F8A</Offset>
       <Section>11</Section>
@@ -44,7 +52,7 @@
       <ValueOff>AC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Time">
+  <Cheat Text="Infinite Time｜无限时间">
     <Cheatline>
       <Offset>1183BE</Offset>
       <Section>11</Section>

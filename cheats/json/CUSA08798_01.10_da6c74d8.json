@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders III",
+  "name": "Darksiders III｜《暗黑血统3》",
   "id": "CUSA08798",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F822",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F82E",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Instant Fill Wrath and Havoc",
-      "type": "checkbox",
+      "name": "Instant Fill Wrath and Havoc｜即时施放“愤怒”和“浩劫”",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F83A",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Souls on Spend",
-      "type": "checkbox",
+      "name": "灵魂最大 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F851",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Consumables On Use",
-      "type": "checkbox",
+      "name": "最大 Consumables On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F85D",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Ingredients On Use",
-      "type": "checkbox",
+      "name": "最大 Ingredients On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F86A",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Souls and Crystals (Turn off Max cheat before use)",
-      "type": "checkbox",
+      "name": "灵魂无限 and Crystals (回合 off 最大 cheat before use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38CBBB",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables (Turn off Max cheat before use)",
-      "type": "checkbox",
+      "name": "无限消耗品 (回合 off 最大 cheat before use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "390AB0",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Infinite Ingredients (Turn off Max cheat before use)",
-      "type": "checkbox",
+      "name": "无限食材 (回合 off 最大 cheat before use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38CD6E",

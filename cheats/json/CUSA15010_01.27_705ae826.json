@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops Cold War",
+  "name": "使命召唤: 黑色 Ops Cold War",
   "id": "CUSA15010",
   "version": "01.27",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1253e30",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
-      "type": "checkbox",
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "f03440",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "All Client Infinite Points",
-      "type": "checkbox",
+      "name": "All Client Infinite 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12e438e",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "All Client 1-Hit Kill",
-      "type": "checkbox",
+      "name": "All Client 1-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14f6bf7",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "No Recoil",
-      "type": "checkbox",
+      "name": "No Recoil｜消除后坐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "f3bc54",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "No Gun Shake",
-      "type": "checkbox",
+      "name": "No Gun Shake｜无枪抖动",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "e69ad9",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Rapid Fire",
-      "type": "checkbox",
+      "name": "Rapid Fire｜快速射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "e652e6",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Vehicle Godmode",
-      "type": "checkbox",
+      "name": "Vehicle 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12d72dc",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Objective Godmode",
-      "type": "checkbox",
+      "name": "Objective 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "74b221",
@@ -154,8 +159,8 @@
       ]
     },
     {
-      "name": "Objective Godmode (OLD)",
-      "type": "checkbox",
+      "name": "Objective 上帝模式 (OLD)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "74b21e",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Movement Speed 500",
-      "type": "button",
+      "name": "移动速度 500",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "751c3c0",
@@ -175,14 +180,14 @@
         },
         {
           "offset": "753b7c4",
-          "on": "0B",
-          "off": "0B"
+          "on": "0B｜零黑",
+          "off": "0B｜零黑"
         }
       ]
     },
     {
-      "name": "Movement Speed 1000",
-      "type": "button",
+      "name": "移动速度 1000",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "751c3c0",
@@ -191,14 +196,14 @@
         },
         {
           "offset": "753b7c4",
-          "on": "0C",
-          "off": "0C"
+          "on": "0C｜0℃",
+          "off": "0C｜0℃"
         }
       ]
     },
     {
-      "name": "Reset Movement Speed",
-      "type": "button",
+      "name": "Reset 移动速度",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "751c3c0",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Give Porters X2 Ray Gun",
-      "type": "button",
+      "name": "Give Porters X2 Ray Gun｜给波特斯一把X2射线枪",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "ad38380",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Give CRBR-S",
-      "type": "button",
+      "name": "Give CRBR-S｜吉夫 CRBR-S",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "ad38380",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Give RAI K-84",
-      "type": "button",
+      "name": "Give RAI K-84｜吉夫 RAI K-84",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "ad38380",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "Force Start Match",
-      "type": "button",
+      "name": "原力 Start 对局",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "751c3c0",
@@ -256,14 +261,14 @@
         },
         {
           "offset": "753b7c4",
-          "on": "0F",
-          "off": "0F"
+          "on": "0F｜华氏零度",
+          "off": "0F｜华氏零度"
         }
       ]
     },
     {
-      "name": "Restart Match",
-      "type": "button",
+      "name": "Restart 对局",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "751c3c0",
@@ -278,8 +283,8 @@
       ]
     },
     {
-      "name": "Disconnect",
-      "type": "button",
+      "name": "Disconnect｜断开连接",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "751c3c0",
@@ -288,18 +293,18 @@
         },
         {
           "offset": "753b7c4",
-          "on": "0A",
-          "off": "0A"
+          "on": "0A｜零A",
+          "off": "0A｜零A"
         }
       ]
     },
     {
-      "name": "Draw Lobby Debug",
-      "type": "checkbox",
+      "name": "抽牌 Lobby Debug",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81bc29",
-          "on": "EB",
+          "on": "EB｜早上好",
           "off": "75"
         }
       ]

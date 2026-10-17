@@ -1,12 +1,17 @@
 {
-  "name": "25 to Life",
+  "name": "25 to 生活",
   "id": "SLUS21016",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Grenades",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-Grenades｜无限手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDA7844",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf-Ammo-Never-Reload",
-      "type": "checkbox",
+      "name": "无限子弹-无需装弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDA4200",

@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Godmode (Zombies mode)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="上帝模式 (丧尸模式)">
     <Cheatline>
       <Offset>151F810</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>4F-8D-84-35-C8-02-00-00-44-29-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold on Gain (Zombies mode)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="金币最大 on Gain (丧尸模式)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>151F850</Offset>

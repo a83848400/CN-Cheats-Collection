@@ -1,12 +1,17 @@
 {
-  "name": "Clid The Snail",
+  "name": "Clid The Snail｜蜗牛克利德",
   "id": "CUSA25087",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3DBB",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3DB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Grenades ( on use )",
-      "type": "checkbox",
+      "name": "最大 手榴弹 ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3DE8",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max First Aid Kits ( on use )",
-      "type": "checkbox",
+      "name": "最大 First Aid Kits ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3E30",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D3E0A",

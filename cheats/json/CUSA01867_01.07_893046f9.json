@@ -1,12 +1,17 @@
 {
-  "name": "Shovel Knight",
+  "name": "Shovel 骑士",
   "id": "CUSA01867",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Gold",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F1F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Life",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F1F031",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "913F96",

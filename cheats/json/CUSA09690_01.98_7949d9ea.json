@@ -1,12 +1,17 @@
 {
-  "name": "The Long Dark",
+  "name": "The Long Dark｜《漫漫长夜》",
   "id": "CUSA09690",
   "version": "01.98",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84437828",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "inf lantern fuel",
-      "type": "checkbox",
+      "name": "Infinite 灯笼 fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81E3D170",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "inf stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81CD070E",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "NO Reload",
-      "type": "checkbox",
+      "name": "NO Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8259C282",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "inf items",
-      "type": "checkbox",
+      "name": "道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84437815",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "inf drinking water",
-      "type": "checkbox",
+      "name": "Infinite drinking 水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81AD822E",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "inf crafting",
-      "type": "checkbox",
+      "name": "无限制作",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8213C62C",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "inf climing",
-      "type": "checkbox",
+      "name": "无尽攀登",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81A85831",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Inf weight",
-      "type": "checkbox",
+      "name": "Infinite 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84437800",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "inf durability for all items and weapons",
-      "type": "checkbox",
+      "name": "装备耐久无限 for 所有商品 and 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81B27244",

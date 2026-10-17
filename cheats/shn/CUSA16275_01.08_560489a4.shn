@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Blasphemous" Moder="Celogamez" Cusa="CUSA16275" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>157FEA0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-56-AF-29-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincibility">
+  <Cheat Text="Invincibility｜无敌">
     <Cheatline>
       <Offset>157FF40</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>FF-90-80-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fervor">
+  <Cheat Text="Infinite Fervor｜无尽的热情">
     <Cheatline>
       <Offset>157FE00</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>E8-C7-94-E4-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health/Fervor/Blood Penitence On Use">
+  <Cheat Text="生命最大/Fervor/Blood Penitence On Use">
     <Cheatline>
       <Offset>157FF50</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-47-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Blood Penitence">
+  <Cheat Text="最大/无尽之血 Penitence">
     <Cheatline>
       <Offset>157F960</Offset>
       <Section>0</Section>

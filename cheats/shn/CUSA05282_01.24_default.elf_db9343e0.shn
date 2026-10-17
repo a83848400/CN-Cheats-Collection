@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Infinite Warfare" Moder="Rizla" Cusa="CUSA05282" Version="01.24" Process="default.elf">
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>14BB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-8B-86-E0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>8CEBD1</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>44-29-E3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>8CE687</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>44-29-E2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Exo Jump">
+  <Cheat Text="Infinite Exo Jump｜无限外骨骼跳跃">
     <Cheatline>
       <Offset>315239</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-F8-2E-05-F7-75-FB-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Equipment">
+  <Cheat Text="Infinite 装备">
     <Cheatline>
       <Offset>8BF4E0</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>89-50-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tactical Equipment">
+  <Cheat Text="Infinite Tactical 装备">
     <Cheatline>
       <Offset>BD5601</Offset>
       <Section>0</Section>

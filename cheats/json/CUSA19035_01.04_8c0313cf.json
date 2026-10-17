@@ -1,12 +1,17 @@
 {
-  "name": "Crash Bandicoot 4: It's About Time",
+  "name": "古惑狼 4: It's About Time",
   "id": "CUSA19035",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Apples on Gain",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Apples on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B781E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Lock Death Count to 0",
-      "type": "checkbox",
+      "name": "Lock 死亡 Count to 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B78260",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Jumps",
-      "type": "checkbox",
+      "name": "Infinite Jumps｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B5D620",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "x2 Running Speed",
-      "type": "checkbox",
+      "name": "x2 Running 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B84A80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Boxes and Apples",
-      "type": "checkbox",
+      "name": "最大 Boxes and Apples",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6757870",

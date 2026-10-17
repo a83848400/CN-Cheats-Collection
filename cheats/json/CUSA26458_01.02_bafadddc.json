@@ -1,12 +1,17 @@
 {
-  "name": "Saints Row",
+  "name": "Saints Row｜《圣徒行传》",
   "id": "CUSA26458",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code [MC]",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F460",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Activate MC)",
-      "type": "checkbox",
+      "name": "无限生命 (Activate MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "1Hit kill (Activate MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Activate MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -45,8 +50,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (needs bullets)",
-      "type": "checkbox",
+      "name": "无限弹药 (需求 项目符号)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "180DBD7",
@@ -56,8 +61,8 @@
       ]
     },
     {
-      "name": "Max Cash/Experience (on gain from killing)",
-      "type": "checkbox",
+      "name": "最大 Cash/Experience (on gain from killing)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E380",
@@ -72,8 +77,8 @@
       ]
     },
     {
-      "name": "Infinite Car Nitro",
-      "type": "checkbox",
+      "name": "Infinite Car 氮气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A7BA05",

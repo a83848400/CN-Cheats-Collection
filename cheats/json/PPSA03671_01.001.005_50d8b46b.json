@@ -1,0 +1,231 @@
+{
+  "name": "Marvel's Wolverine",
+  "id": "PPSA03671",
+  "version": "01.001.005",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "hint": "Wolverine takes no 普通 输出.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "01BAD908",
+          "on": "909090909090909090",
+          "off": "C4E2719D8FF0010000"
+        },
+        {
+          "offset": "01BAD911",
+          "on": "C5F828C1",
+          "off": "C5F25DC0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite 物品 Charges",
+      "hint": "Prevents supported 物品 and 小道具 charges from being consumed.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "04C4F486",
+          "on": "E9C600000090909090",
+          "off": "8B4748483D00001000"
+        }
+      ]
+    },
+    {
+      "name": "最大 Resources / XP",
+      "hint": "Maxes supported resources, XP and player 等级. Disable after leveling up.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "05CC0A91",
+          "on": "4C8B184D8B5B30E9E4060000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC1181",
+          "on": "4D85DB0F84D72D0000E932060000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC17C1",
+          "on": "450FB65370E9F6050000",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC1DC1",
+          "on": "4584D20F8497210000E942010000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC1F11",
+          "on": "837808000F8E46200000E9111E0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC3D31",
+          "on": "C740089F860100C3",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC3F61",
+          "on": "C3",
+          "off": "CC"
+        },
+        {
+          "offset": "05CC4091",
+          "on": "E8FBC9FFFF8B4808E97D7F0100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CDC014",
+          "on": "E97880FEFF",
+          "off": "8B4808EB02"
+        },
+        {
+          "offset": "05CC5041",
+          "on": "E84BBAFFFF8B4808E99D700100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CDC0E4",
+          "on": "E9588FFEFF",
+          "off": "8B4808EB02"
+        },
+        {
+          "offset": "05CC50A1",
+          "on": "E8EBB9FFFF8B7008E91E710100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CDC1C5",
+          "on": "E9D78EFEFF",
+          "off": "8B7008EB02"
+        },
+        {
+          "offset": "05CC7A81",
+          "on": "4C8B5B30E907000000",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC7A91",
+          "on": "4D85DB0F84570F0000E922020000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC7CC1",
+          "on": "450FB65370E926030000",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC7FF1",
+          "on": "4584D20F84F7090000E952000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC8051",
+          "on": "41BD9F860100E995090000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CC89F1",
+          "on": "4489EB45896F08E9F73F0100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "05CDC9ED",
+          "on": "E98FB0FEFF9090",
+          "off": "4489EB45896F08"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Rage｜怒气无限",
+      "hint": "Keeps the 怒气/Feral meter full.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "01E7B070",
+          "on": "90909090",
+          "off": "C5F25DCB"
+        },
+        {
+          "offset": "01E7BEE1",
+          "on": "90909090",
+          "off": "C5FA5DC1"
+        },
+        {
+          "offset": "01E7C20F",
+          "on": "90909090",
+          "off": "C5FA5DC1"
+        },
+        {
+          "offset": "01E7C2FD",
+          "on": "90909090",
+          "off": "C5FA5DC1"
+        },
+        {
+          "offset": "01E7C5D0",
+          "on": "90909090",
+          "off": "C5FA5DC1"
+        },
+        {
+          "offset": "01E7DAEA",
+          "on": "C5FA1001",
+          "off": "C5FA5D01"
+        },
+        {
+          "offset": "01E80265",
+          "on": "90909090",
+          "off": "C5FA5DC1"
+        },
+        {
+          "offset": "01E8042C",
+          "on": "C5F828C3",
+          "off": "C5E25DC1"
+        },
+        {
+          "offset": "01E80A01",
+          "on": "90909090",
+          "off": "C5FA5DC2"
+        },
+        {
+          "offset": "01E81241",
+          "on": "C5FA1001",
+          "off": "C5FA5D01"
+        },
+        {
+          "offset": "01E8500C",
+          "on": "90909090",
+          "off": "C5FA5DC1"
+        }
+      ]
+    },
+    {
+      "name": "《无限特辑》 Techniques",
+      "hint": "Removes cooldown from Special Techniques so they can be used repeatedly.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "01F88C6D",
+          "on": "C5F857C09090909090",
+          "off": "C5FA588402C8000000"
+        },
+        {
+          "offset": "01F8429A",
+          "on": "C5F057C99090909090",
+          "off": "C5FA104DACC5F25CC8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "zer0day"
+  ]
+}

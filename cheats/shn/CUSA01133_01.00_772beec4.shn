@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil: Revelations 2" Moder="hejran7" Cusa="CUSA01133" Version="01.00" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Max INF HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 无限血量" Description="">
     <Cheatline>
       <Offset>41021B</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>89-83-38-1F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max INF Ammo" Description="">
+  <Cheat Text="最大 无限弹药" Description="">
     <Cheatline>
       <Offset>7D9551</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-8B-4D-10-44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mag + No Reload" Description="">
+  <Cheat Text="最大 弹匣 + 无需换弹" Description="">
     <Cheatline>
       <Offset>407358</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-89-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF Flashlight Battery" Description="">
+  <Cheat Text="Infinite 手电筒 电池" Description="">
     <Cheatline>
       <Offset>3FCD10</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>45-89-6F-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Timer Up (Main + Invisible Mode)" Description="">
+  <Cheat Text="停止 计时器 Up (Main + 不可见 Mode)" Description="">
     <Cheatline>
       <Offset>7B1643</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-11-84-07-D4-F0-10-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Timer Up (Countdown Mode)" Description="Countdown Mode">
+  <Cheat Text="停止 计时器 Up (倒计时模式)" Description="Countdown Mode">
     <Cheatline>
       <Offset>7B1D60</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>C5-FA-11-87-10-8E-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Timer Down (CD + The Struggle)" Description="Countdown Mode">
+  <Cheat Text="停止 计时器 Down (CD + The 挣扎)" Description="Countdown Mode">
     <Cheatline>
       <Offset>7B1D20</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-87-14-8E-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Timer Up (Raid Mode)" Description="">
+  <Cheat Text="停止 计时器 Up (团本 Mode)" Description="">
     <Cheatline>
       <Offset>8620F6</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C5-FA-11-83-34-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add 0 Time for Orange Hourglasses" Description="Countdown Mode">
+  <Cheat Text="Add 0 Time for Orange Hourglasses｜为橙色沙漏添加 0 时间" Description="Countdown Mode">
     <Cheatline>
       <Offset>7B1CE8</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C5-FA-11-87-14-8E-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold on Buy (Raid Mode)" Description="">
+  <Cheat Text="金币最大 on Buy (团本 Mode)" Description="">
     <Cheatline>
       <Offset>153F81D</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>4C-89-A3-C8-C4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF Blue Life Crystal (Raid Mode)" Description="">
+  <Cheat Text="Infinite Blue 生活 水晶 (团本 Mode)" Description="">
     <Cheatline>
       <Offset>7BF138</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>44-01-AB-6C-5F-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Bonus Points on Use" Description="">
+  <Cheat Text="最大 Bonus 得分 on Use" Description="">
     <Cheatline>
       <Offset>153F800</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>89-87-B0-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points on Use" Description="">
+  <Cheat Text="最大 Skill 得分 on Use" Description="">
     <Cheatline>
       <Offset>153F80F</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>44-89-B8-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items" Description="">
+  <Cheat Text="最大 Items" Description="">
     <Cheatline>
       <Offset>153F82C</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>75-03-8B-53-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF Items x99" Description="">
+  <Cheat Text="道具无限 x99" Description="">
     <Cheatline>
       <Offset>153F840</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>75-03-8B-53-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Kill" Description="">
+  <Cheat Text="Easy Kill｜轻松击杀" Description="">
     <Cheatline>
       <Offset>153F852</Offset>
       <Section>0</Section>

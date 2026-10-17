@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Kingdom Hearts: HD 1.5 + 2.5 ReMIX" Moder="Molly" Cusa="CUSA05933" Version="01.00" Process="kingdom1.elf">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Have All Items ~Buy 1 Potion~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Have 所有商品 ~Buy 1 药水~">
     <Cheatline>
       <Offset>3CB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>40-88-B4-0B-99-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Equipment ~Buy 1 Potion~">
+  <Cheat Text="Have All 装备 ~Buy 1 药水~">
     <Cheatline>
       <Offset>3CB800</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>40-88-B4-0B-99-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Gummi ~Go To Gummi Garage~">
+  <Cheat Text="Have All Gummi ~Go To Gummi Garage~｜《Have All Gummi》~前往Gummi车库~">
     <Cheatline>
       <Offset>3CBBF7</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>0F-B6-84-08-78-9A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Summons~Leave Area~">
+  <Cheat Text="Have All Summons~Leave Area~｜拥有所有传送令~离开该区域~">
     <Cheatline>
       <Offset>3CBC2E</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>0F-BE-B8-D0-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have all Weapons ~Buy 1 Potion~">
+  <Cheat Text="Have all 武器 ~Buy 1 药水~">
     <Cheatline>
       <Offset>3CB800</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>40-88-B4-0B-99-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Trinities~Walk To trinity Location~">
+  <Cheat Text="Have All Trinities~Walk To trinity Location~｜收集所有三位一体~前往三位一体地点~">
     <Cheatline>
       <Offset>3CBC9C</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>0F-B6-BC-10-C0-F2-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money ~Pick up/Sell~">
+  <Cheat Text="金钱最大 ~拾取/Sell~">
     <Cheatline>
       <Offset>3CBBD8</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>29-F9-89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump~Just Jump~">
+  <Cheat Text="超级跳跃~Just Jump~">
     <Cheatline>
       <Offset>3CBC0C</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>C5-FA-10-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>3CBC1D</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>45-89-74-05-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats ~Leave Area~">
+  <Cheat Text="最大 属性 ~Leave Area~">
     <Cheatline>
       <Offset>3CBCB4</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>0F-B6-74-1A-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Gummi Score">
+  <Cheat Text="High Gummi 比分">
     <Cheatline>
       <Offset>3CBCFF</Offset>
       <Section>0</Section>

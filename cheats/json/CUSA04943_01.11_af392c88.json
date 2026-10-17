@@ -1,14 +1,19 @@
 {
-  "name": "Gravity Rush 2",
+  "name": "Gravity 快攻 2",
   "id": "CUSA04943",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Allow gestures in episodes 22, 24 and 27",
-      "description": "Allows you to use your unlocked gestures in episodes 22, 24 and 27, and in Delvool Trench Mine when playing as the unlockable character. Note that when playing as said character food items in food-related gestures will not appear and gestures will play without sounds or voicelines. In order for the cheat to work properly you need to play as Kat first and then play the relevant episode or select it from the Replay Missions menu. Does not work in the DLC.",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Allow gestures in episodes 22, 24 and 27｜在第22、24和27集中允许使用手势",
+      "description": "Allows you to use your unlocked gestures in episodes 22, 24 and 27, and in Delvool Trench Mine when playing as the unlockable character. 笔记 that when playing as said character food items in food-related gestures 意志 not appear and gestures 意志 play without sounds or voicelines. In order for the cheat to work properly you need to play as Kat first and then play the relevant 章节 or select it from the 回放 Missions 菜单. Does not work in the DLC.",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15D8362",

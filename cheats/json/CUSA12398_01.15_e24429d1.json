@@ -1,13 +1,18 @@
 {
-  "name": "The Forest",
+  "name": "The 森林",
   "id": "CUSA12398",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": "This is not 100% done! Some special enemies can still damage you.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": "This is not 100% done! Some special enemies can still 输出 you.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80EC4590",
@@ -27,9 +32,9 @@
       ]
     },
     {
-      "name": "No Hunger",
+      "name": "No Hunger｜不会饥饿",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80EC034B",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "No Thirst",
+      "name": "No Thirst｜不会口渴",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80EC1309",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
+      "name": "Infinite Stamina｜无限耐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80EBDD55",
@@ -83,9 +88,9 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "hint": "Items that would be used for crafting/building will stay in your inventory or holders.",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "hint": "Items that would be used for crafting/建造 意志 stay in your 背包 or holders.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81BCC551",
@@ -100,9 +105,9 @@
       ]
     },
     {
-      "name": "Infinite Logs On Shoulder",
+      "name": "Infinite Logs On Shoulder｜肩上的无尽原木",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81BCC7DE",
@@ -112,9 +117,9 @@
       ]
     },
     {
-      "name": "Instant Build",
+      "name": "Instant Build｜瞬间建造",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80F1B514",
@@ -134,9 +139,9 @@
       ]
     },
     {
-      "name": "Instant Kill",
+      "name": "Instant Kill｜一击必杀",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "818FAA99",
@@ -146,9 +151,9 @@
       ]
     },
     {
-      "name": "Super Jump",
+      "name": "Super Jump｜超级跳跃",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C4C2DA",
@@ -168,9 +173,9 @@
       ]
     },
     {
-      "name": "Super Speed",
+      "name": "Super Speed｜超级移速",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81773FDE",
@@ -180,9 +185,9 @@
       ]
     },
     {
-      "name": "Infinite Jump/Fly",
-      "hint": "This option is buggy. Sometimes you bounce, sometimes you fly up forever...",
-      "type": "checkbox",
+      "name": "无限跳跃/飞行",
+      "hint": "This option is buggy. Sometimes you bounce, sometimes you 飞行 up forever...",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C4C2DA",
@@ -202,9 +207,9 @@
       ]
     },
     {
-      "name": "0 Days Survived",
-      "hint": "Set the days you have survived to 0.",
-      "type": "button",
+      "name": "0 Days Survived｜生存天数：0 天",
+      "hint": "Set the days you have survived to 0.｜将你的生存天数设为0。",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "80EBEA5E",
@@ -219,9 +224,9 @@
       ]
     },
     {
-      "name": "100 Days Survived",
-      "hint": "Set the days you have survived to 100.",
-      "type": "button",
+      "name": "100 Days Survived｜坚持了100天",
+      "hint": "Set the days you have survived to 100.｜将你的生存天数设为100。",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "80EBEA5E",
@@ -236,9 +241,9 @@
       ]
     },
     {
-      "name": "9999 Days Survived",
-      "hint": "Set the days you have survived to 9999.",
-      "type": "button",
+      "name": "9999 Days Survived｜生存了9999天",
+      "hint": "Set the days you have survived to 9999.｜将你的生存天数设置为9999。",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "80EBEA5E",
@@ -253,9 +258,9 @@
       ]
     },
     {
-      "name": "Disable Grass",
+      "name": "Disable Grass｜禁用草地",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82177CC0",
@@ -265,9 +270,9 @@
       ]
     },
     {
-      "name": "No Under Water Blur",
+      "name": "No Under 水 Blur",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "819B7980",

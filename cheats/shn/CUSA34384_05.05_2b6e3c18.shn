@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War: Ragnarok" Moder="Celogamez-JustGotenks" Cusa="CUSA34384" Version="05.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1787DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-4C-24-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rage">
+  <Cheat Text="Infinite Rage｜怒气无限">
     <Cheatline>
       <Offset>17878A0</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C5-FA-58-43-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows">
+  <Cheat Text="Infinite Arrows｜箭矢无限">
     <Cheatline>
       <Offset>1787930</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>C4-C1-7A-10-56-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>1787A20</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>C4-C1-7A-10-4C-24-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite HS/Resources/Fleeting Echoes/Mastery Seal/Spirit Seal/Divine Triunph">
+  <Cheat Text="最大/Infinite HS/Resources/Fleeting Echoes/Mastery 圣印/精魄 圣印/超凡入圣 Triunph">
     <Cheatline>
       <Offset>17876F0</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>01-D0-89-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP">
+  <Cheat Text="最大 XP">
     <Cheatline>
       <Offset>1787B00</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>F0-01-57-08-EB-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Crystalline Fragment (100/Use Only For It)">
+  <Cheat Text="Crystalline Fragment (100/Use Only For It)｜晶体碎片（100/仅限此用途）">
     <Cheatline>
       <Offset>1787B60</Offset>
       <Section>0</Section>

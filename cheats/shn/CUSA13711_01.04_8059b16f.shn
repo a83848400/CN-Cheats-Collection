@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vigor Infinito">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命力 Infinito">
     <Cheatline>
       <Offset>5E9FD8</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>C5-FA-11-83-10-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Velocidade Infinita">
+  <Cheat Text="Velocidade Infinita｜无限速度">
     <Cheatline>
       <Offset>32B3E8</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>C4-C1-7A-11-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frutas Infinitas">
+  <Cheat Text="Frutas Infinitas｜无限水果">
     <Cheatline>
       <Offset>5D4AE6</Offset>
       <Section>0</Section>

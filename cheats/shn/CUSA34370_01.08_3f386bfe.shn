@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Aliens: Dark Descent" Moder="Wander FW9.00" Cusa="CUSA34370" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Ammo (squad and turret)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药 (小队 and 防御塔)">
     <Cheatline>
       <Section>0</Section>
       <Offset>83A7B60</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-86-D8-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite item use (on the mission)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite 物品 use (on the mission)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>83A7A50</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>89-54-F0-08-74-27</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Materials (on spend)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="材料最大 (on spend)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>83A76C0</Offset>

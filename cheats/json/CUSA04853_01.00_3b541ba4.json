@@ -1,12 +1,17 @@
 {
-  "name": "Fairy Fencer F: Advent Dark Force",
+  "name": "妖精 Fencer F: Advent Dark 原力",
   "id": "CUSA04853",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Buy Item Add 1000 Money V2",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Buy 物品 增加1000金钱 V2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23CB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Current Sp",
-      "type": "checkbox",
+      "name": "Infinite Current 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E5B",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Party Exp Multiplier x 8",
-      "type": "checkbox",
+      "name": "队伍 经验 Multiplier 艾克斯 8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23CB800",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Party Exp Multiplier x 16",
-      "type": "checkbox",
+      "name": "队伍 经验 Multiplier 艾克斯 16",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23CB800",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Party Exp Multiplier x 32",
-      "type": "checkbox",
+      "name": "队伍 经验 Multiplier 艾克斯 32",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23CB800",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Party Exp Multiplier x 64",
-      "type": "checkbox",
+      "name": "队伍 经验 Multiplier 艾克斯 64",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23CB800",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Party Exp Multiplier x 128",
-      "type": "checkbox",
+      "name": "队伍 经验 Multiplier 艾克斯 128",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23CB800",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Fang WP Turn 500 Upon Usage",
-      "type": "checkbox",
+      "name": "Fang WP 回合 500 Upon Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23CB800",

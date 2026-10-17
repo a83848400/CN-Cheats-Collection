@@ -3,7 +3,15 @@
   <Genres Name="Simulation" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Max/Infinite Water/Foods/Nanites On Spend">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/水无限/Foods/Nanites On Spend">
     <Cheatline>
       <Offset>50AFDB0</Offset>
       <Section>0</Section>

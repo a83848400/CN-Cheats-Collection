@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sky Force Anniversary" Moder="Ali-mk" Cusa="CUSA04445" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>80217B26</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>F3-45-0F-11-BF-74-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="max+Infinite-money">
+    <Cheat Text="最大+Infinite-金钱">
     <Cheatline>
       <Offset>8022AA64</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>48-63-0C-24</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Bomb">
+    <Cheat Text="Infinite-Bomb｜无限炸弹">
     <Cheatline>
       <Offset>8022AF40</Offset>
       <Section>0</Section>

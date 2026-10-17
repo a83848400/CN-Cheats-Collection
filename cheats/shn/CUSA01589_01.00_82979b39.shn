@@ -58,7 +58,15 @@
       <ValueOff>83-BA-2C-06-00-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Invincible" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌" Description="">
     <Cheatline>
       <Offset>2077847</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C7-81-F0-05-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health" Description="">
+  <Cheat Text="无限生命" Description="">
     <Cheatline>
       <Offset>2077808</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>2077806</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>75-15</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina" Description="">
+  <Cheat Text="无限耐力" Description="">
     <Cheatline>
       <Offset>2077829</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>C5-FA-11-88-B4-01-00-00-EB-79</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Spells" Description="">
+  <Cheat Text="无限法术" Description="">
     <Cheatline>
       <Offset>1E0CC4</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>44-0F-4F-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items" Description="">
+  <Cheat Text="道具无限" Description="">
     <Cheatline>
       <Offset>107CDF9</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>44-29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Shop Items" Description="">
+  <Cheat Text="无限商店商品" Description="">
     <Cheatline>
       <Offset>1ED0DE</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>45-28-B4-C7-F3-8F-FD-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Durability" Description="">
+  <Cheat Text="装备耐久无限" Description="">
     <Cheatline>
       <Offset>1DF840</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Souls" Description="when spend_and get">
+  <Cheat Text="灵魂无限" Description="when spend_and get">
     <Cheatline>
       <Offset>403C50</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>89-8F-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pass Through Any Door" Description="">
+  <Cheat Text="Pass Through Any Door｜穿过任何一扇门" Description="">
     <Cheatline>
       <Offset>207788E</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>C7-82-2C-06-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Souls loss Upon Death" Description="">
+  <Cheat Text="No 结界突破 loss Upon 死亡" Description="">
     <Cheatline>
       <Offset>2AC503</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>C7-80-EC-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Memory Souls" Description="">
+  <Cheat Text="Freeze Memory 结界突破" Description="">
     <Cheatline>
       <Offset>403BCF</Offset>
       <Section>0</Section>
@@ -178,7 +186,7 @@
       <ValueOff>89-87-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Memory Souls to 125" Description="">
+  <Cheat Text="Reset Memory 结界突破 to 125" Description="">
     <Cheatline>
       <Offset>403BCF</Offset>
       <Section>0</Section>
@@ -186,7 +194,7 @@
       <ValueOff>89-87-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack 1.25" Description="">
+  <Cheat Text="速度 Hack 1.25" Description="">
     <Cheatline>
       <Offset>2077870</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>C7-83-B0-02-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack 1.50" Description="">
+  <Cheat Text="速度 Hack 1.50" Description="">
     <Cheatline>
       <Offset>2077870</Offset>
       <Section>0</Section>
@@ -202,7 +210,7 @@
       <ValueOff>C7-83-B0-02-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack 2.00" Description="">
+  <Cheat Text="速度 Hack 2.00" Description="">
     <Cheatline>
       <Offset>2077870</Offset>
       <Section>0</Section>

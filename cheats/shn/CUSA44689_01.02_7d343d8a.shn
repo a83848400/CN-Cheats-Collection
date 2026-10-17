@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Warm Snow" Moder="Celogamez" Cusa="CUSA44689" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1A340ED</Offset>
       <Section>14</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-83-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rage Burst">
+  <Cheat Text="怒气无限 Burst">
     <Cheatline>
       <Offset>1F4FA65</Offset>
       <Section>14</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-5D-47-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>22BF169</Offset>
       <Section>14</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-10-83-88-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Souls">
+  <Cheat Text="Max Souls｜灵魂最大">
     <Cheatline>
       <Offset>1A96860</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-B7-CC-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Red Souls On Use">
+  <Cheat Text="Infinite Red 结界突破 On Use">
     <Cheatline>
       <Offset>1A97B60</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-B7-C8-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time">
+  <Cheat Text="停止 Time">
     <Cheatline>
       <Offset>10C32B4</Offset>
       <Section>14</Section>
@@ -62,7 +70,7 @@
       <ValueOff>C5-FA-11-43-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Time">
+  <Cheat Text="Reset Time｜重置时间">
     <Cheatline>
       <Offset>1A97940</Offset>
       <Section>0</Section>

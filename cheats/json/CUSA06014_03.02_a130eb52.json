@@ -1,12 +1,17 @@
 {
-  "name": "Tekken 7",
+  "name": "铁拳 7",
   "id": "CUSA06014",
   "version": "03.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite rage rt",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "怒气无限 rt",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1499C63",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "max rage art",
-      "type": "checkbox",
+      "name": "最大 怒气爆发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14994FD",

@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 6",
+  "name": "孤岛惊魂 6",
   "id": "CUSA15717",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Damage",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Damage｜不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "47BA510",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Infinite Sprint",
-      "type": "checkbox",
+      "name": "Infinite Sprint｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "382E380",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Throwables",
-      "type": "checkbox",
+      "name": "无限弹药/可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "133B1F3",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7030",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C863FC",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "No Supressor Overheat",
-      "type": "checkbox",
+      "name": "No Supressor Overheat｜无消音器过热",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7070",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "No Recoil",
-      "type": "checkbox",
+      "name": "No Recoil｜消除后坐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C830EA",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Super Accuracy",
-      "type": "checkbox",
+      "name": "Super Accuracy｜超级精准度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7090",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD7170",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Teleport to sky",
-      "type": "checkbox",
+      "name": "传送 to 光·遇",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD70F0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Never Wanted",
-      "type": "checkbox",
+      "name": "Never Wanted｜从未想要过",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD70C0",
@@ -186,8 +191,8 @@
       ]
     },
     {
-      "name": "Always Wanted",
-      "type": "checkbox",
+      "name": "Always Wanted｜一直想要",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CD70C0",

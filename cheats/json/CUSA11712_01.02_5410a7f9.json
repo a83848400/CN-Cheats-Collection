@@ -1,12 +1,17 @@
 {
-  "name": "Senran Kagura Burst Re:Newal",
+  "name": "Senran Kagura Burst Re:Newal｜《闪乱神乐 Burst Re:Newal》",
   "id": "CUSA11712",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + Max HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 生命值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F37E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ninja Art",
-      "type": "checkbox",
+      "name": "Infinite Ninja Art｜《无限忍者术》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F3810",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Burst",
-      "type": "checkbox",
+      "name": "Infinite Burst｜无限爆发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EF922",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Exp Battle",
-      "type": "checkbox",
+      "name": "经验值最大 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "102818",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Exp Ninja Room (growth med)",
-      "type": "checkbox",
+      "name": "经验值最大 Ninja Room (growth med)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A14CA",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Zen (buy)",
-      "type": "checkbox",
+      "name": "Zen (buy)｜Zen（购买）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A12B7",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Secret Growth Med",
-      "type": "checkbox",
+      "name": "奥秘 Growth Med",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F3828",

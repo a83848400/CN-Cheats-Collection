@@ -15,7 +15,15 @@
       <ValueOff>89-88-84-01-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Max Inf HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 无限血量" Description="">
     <Cheatline>
       <Offset>DE0541</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>89-8B-90-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf NPC HP" Description="">
+  <Cheat Text="Infinite 非玩家角色 手机" Description="">
     <Cheatline>
       <Offset>752C2B</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>BE-64-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>56C0F</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>29-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf 1st Jump" Description="">
+  <Cheat Text="无限第一次跳跃" Description="">
     <Cheatline>
       <Offset>72462B</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>41-FF-86-58-4E-09-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf 2nd Jump" Description="">
+  <Cheat Text="无限二次跳跃" Description="">
     <Cheatline>
       <Offset>724417</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>72-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Halos" Description="">
+  <Cheat Text="最大 Infinite Halos" Description="">
     <Cheatline>
       <Offset>DE052C</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>8B-B8-A4-F0-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Arcade Inf Bullets" Description="">
+  <Cheat Text="街机厅 无限子弹" Description="">
     <Cheatline>
       <Offset>A7D49D</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>41-89-86-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Arcade Max Score" Description="">
+  <Cheat Text="街机厅 最大 比分" Description="">
     <Cheatline>
       <Offset>DE04F7</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>41-01-86-AC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always Max Magic" Description="">
+  <Cheat Text="Always 最大 魔法" Description="">
     <Cheatline>
       <Offset>DE0554</Offset>
       <Section>0</Section>
@@ -111,7 +119,7 @@
       <ValueOff>C5-FA-10-87-9C-F0-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Witch Time Always On" Description="">
+  <Cheat Text="Infinite 女巫 Time Always On" Description="">
     <Cheatline>
       <Offset>70F44E</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>C5-FA-10-83-DC-79-09-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Witch Time when Get" Description="">
+  <Cheat Text="Infinite 女巫 Time when Get" Description="">
     <Cheatline>
       <Offset>DE0508</Offset>
       <Section>0</Section>
@@ -133,7 +141,7 @@
       <ValueOff>C5-FA-10-88-DC-79-09-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Witch Time L3 On R3 Off" Description="">
+  <Cheat Text="女巫 Time L3 On R3 Off" Description="">
     <Cheatline>
       <Offset>DE05CE</Offset>
       <Section>0</Section>
@@ -147,7 +155,7 @@
       <ValueOff>C5-FA-10-83-DC-79-09-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Weapon Durability" Description="">
+  <Cheat Text="武器耐久无限" Description="">
     <Cheatline>
       <Offset>DE051F</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>8B-86-7C-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Countdown Timer" Description="">
+  <Cheat Text="Freeze Countdown 计时器" Description="">
     <Cheatline>
       <Offset>16CDC5</Offset>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>C4-C1-7A-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Death Counter Always 0" Description="">
+  <Cheat Text="死亡 计数器 Always 0" Description="">
     <Cheatline>
       <Offset>DE05F1</Offset>
       <Section>0</Section>
@@ -213,7 +221,7 @@
       <ValueOff>FF-83-E4-FD-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Craft Items WO Material" Description="">
+  <Cheat Text="Craft Items WO Material｜工艺品 所需材料" Description="">
     <Cheatline>
       <Offset>DE048D</Offset>
       <Section>0</Section>
@@ -227,7 +235,7 @@
       <ValueOff>8B-84-81-B8-F0-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemies Inf HP For Training" Description="">
+  <Cheat Text="Enemies 无限血量 For 训练" Description="">
     <Cheatline>
       <Offset>56C11</Offset>
       <Section>0</Section>
@@ -235,7 +243,7 @@
       <ValueOff>89-83-90-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Result No Damage Taken" Description="">
+  <Cheat Text="Result 不受伤害" Description="">
     <Cheatline>
       <Offset>A7AAED</Offset>
       <Section>0</Section>
@@ -243,7 +251,7 @@
       <ValueOff>41-01-86-FC-FD-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Chapter No Damages Taken" Description="">
+  <Cheat Text="Chapter No Damages Taken｜第“未受损”章" Description="">
     <Cheatline>
       <Offset>A6F654</Offset>
       <Section>0</Section>
@@ -251,7 +259,7 @@
       <ValueOff>01-98-AC-FD-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Result 0:00.00 Time Cleared" Description="">
+  <Cheat Text="Result 0:00.00 Time Cleared｜成绩 0:00.00 通过时间" Description="">
     <Cheatline>
       <Offset>A7A9BF</Offset>
       <Section>0</Section>
@@ -259,7 +267,7 @@
       <ValueOff>FF-83-F4-FD-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Chapter 0:00.00 Time Cleared " Description="">
+  <Cheat Text="Chapter 0:00.00 Time Cleared ｜第 0:00.00 章 时间已清零" Description="">
     <Cheatline>
       <Offset>A6F600</Offset>
       <Section>0</Section>
@@ -267,7 +275,7 @@
       <ValueOff>FF-80-A4-FD-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Combos Multiplier x99" Description="">
+  <Cheat Text="Combos Multiplier x99｜连击倍率 x99" Description="">
     <Cheatline>
       <Offset>DE04D2</Offset>
       <Section>0</Section>
@@ -281,7 +289,7 @@
       <ValueOff>01-83-4C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Result Max 999,999 Combos" Description="">
+  <Cheat Text="Result 最大 999,999 Combos" Description="">
     <Cheatline>
       <Offset>DE04D2</Offset>
       <Section>0</Section>
@@ -295,7 +303,7 @@
       <ValueOff>01-83-4C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Chapter Max 9,999,999 Combos" Description="">
+  <Cheat Text="Chapter 最大 9,999,999 Combos" Description="">
     <Cheatline>
       <Offset>DE04E2</Offset>
       <Section>0</Section>
@@ -309,7 +317,7 @@
       <ValueOff>44-89-57-08-7E-31</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Megatons Gigatons Easy Max" Description="">
+  <Cheat Text="Megatons Gigatons 简单 最大" Description="">
     <Cheatline>
       <Offset>CB66F</Offset>
       <Section>0</Section>
@@ -329,7 +337,7 @@
       <ValueOff>C5-FA-10-43-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Megatons Gigatons Extra Time" Description="">
+  <Cheat Text="Megatons Gigatons 加时" Description="">
     <Cheatline>
       <Offset>CB318</Offset>
       <Section>0</Section>
@@ -337,7 +345,7 @@
       <ValueOff>FF-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alfheim 0 Damage Taken" Description="">
+  <Cheat Text="Alfheim 0 输出 Taken" Description="">
     <Cheatline>
       <Offset>A7AAE5</Offset>
       <Section>0</Section>
@@ -345,7 +353,7 @@
       <ValueOff>B8-90-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Alfheim Always Full HP" Description="">
+  <Cheat Text="Alfheim 永远满血" Description="">
     <Cheatline>
       <Offset>70D504</Offset>
       <Section>0</Section>
@@ -353,7 +361,7 @@
       <ValueOff>FF-8B-24-89-09-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Sai Fung for Completing 100 Chapters" Description="">
+  <Cheat Text="解锁 Sai Fung for Completing 100 Chapters" Description="">
     <Cheatline>
       <Offset>DE0576</Offset>
       <Section>0</Section>
@@ -367,7 +375,7 @@
       <ValueOff>41-FF-86-5C-EF-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Megatons Gigatons Easy Max" Description="">
+  <Cheat Text="Megatons Gigatons 简单 最大" Description="">
     <Cheatline>
       <Offset>CB679</Offset>
       <Section>0</Section>
@@ -375,7 +383,7 @@
       <ValueOff>C5-FA-58-05-33-3A-BC-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Halos Earned Max Halos Must Be On" Description="">
+  <Cheat Text="最大 Halos Earned 最大 Halos Must Be On" Description="">
     <Cheatline>
       <Offset>147E8B</Offset>
       <Section>0</Section>
@@ -383,7 +391,7 @@
       <ValueOff>01-B7-A8-F0-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Character Scaling 0.75" Description="">
+  <Cheat Text="Character Scaling 0.75｜角色缩放比例 0.75" Description="">
     <Cheatline>
       <Offset>DE061D</Offset>
       <Section>0</Section>
@@ -397,7 +405,7 @@
       <ValueOff>C5-F8-11-83-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Character Scaling 1.25" Description="">
+  <Cheat Text="Character Scaling 1.25｜字符缩放比例 1.25" Description="">
     <Cheatline>
       <Offset>DE061D</Offset>
       <Section>0</Section>
@@ -411,7 +419,7 @@
       <ValueOff>C5-F8-11-83-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Character Scaling 1.50" Description="">
+  <Cheat Text="Character Scaling 1.50｜角色缩放 1.50" Description="">
     <Cheatline>
       <Offset>DE061D</Offset>
       <Section>0</Section>
@@ -425,7 +433,7 @@
       <ValueOff>C5-F8-11-83-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Character Scaling 2.00" Description="">
+  <Cheat Text="Character Scaling 2.00｜角色缩放 2.00" Description="">
     <Cheatline>
       <Offset>DE061D</Offset>
       <Section>0</Section>

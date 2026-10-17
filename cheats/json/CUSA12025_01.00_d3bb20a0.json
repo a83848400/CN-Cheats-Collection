@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts III",
+  "name": "Kingdom Hearts III｜王国之心3",
   "id": "CUSA12025",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "720p Resolution",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "720p Resolution｜720p 分辨率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "528DD60",

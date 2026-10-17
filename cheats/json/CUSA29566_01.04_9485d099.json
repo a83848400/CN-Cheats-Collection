@@ -1,12 +1,17 @@
 {
-  "name": "Eiyuden Chronicle: Hundred Heroes",
+  "name": "Eiyuden Chronicle: Hundred Heroes｜《Eiyuden Chronicle：百英雄》",
   "id": "CUSA29566",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EFFF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf HP",
-      "type": "checkbox",
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf HP + One Hit Kill",
-      "type": "checkbox",
+      "name": "无限血量 + 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F035",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Inf SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F085",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0B6",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Inf Items (No Battle)",
-      "type": "checkbox",
+      "name": "道具无限 (No 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0E6",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Frostpunk" Moder="LMN" Cusa="CUSA15690" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="coal never decrease">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="coal never decrease｜煤炭储备永不减少">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>E8-9B-A4-26-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf overdrive">
+  <Cheat Text="Infinite 超必杀技">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>E8-28-DC-9C-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="no build cost">
+  <Cheat Text="no build cost｜建造无消耗">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>E8-6A-F5-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="no tech upgrade cost">
+  <Cheat Text="no 科技 upgrade cost">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>E8-C5-F8-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="food never decrease">
+  <Cheat Text="food never decrease｜食物永远不会减少">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>E8-F7-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf stockpiles (disable to be able to remove one)">
+  <Cheat Text="Infinite stockpiles (disable to be able to remove one)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>89-48-58-48-C1-E3-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="set all resources to 200 OR">
+  <Cheat Text="set all resources to 200 OR｜将所有资源值设为200，或者">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>45-89-7C-0E-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="set all resources to 9999">
+  <Cheat Text="set all resources to 9999｜将所有资源值设为9999">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

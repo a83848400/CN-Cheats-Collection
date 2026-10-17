@@ -1,13 +1,18 @@
 {
-  "name": "inFamous: Second Son",
+  "name": "inFamous: Second Son｜《inFamous：Second Son》",
   "id": "CUSA00004",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "615c17",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Energy",
+      "name": "Infinite Energy｜无限能量",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60c7f9",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Bombs / Rockets",
+      "name": "Infinite Bombs / Rockets｜无限炸弹/火箭",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5e35a8",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints / Shards",
+      "name": "无限技能点 / Shards",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E22A4",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Max Level True Hero (turn off Infamous)",
+      "name": "等级最大 True 英雄 (回合 off Infamous)",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "12FADB8",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Max Level Infamous (turn off True Hero)",
+      "name": "等级最大 Infamous (回合 off True 英雄)",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "12FADB8",
@@ -77,8 +82,8 @@
       ]
     },
     {
-      "name": "Inf finisher",
-      "type": "button",
+      "name": "Infinite 终结技",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "CC7800",

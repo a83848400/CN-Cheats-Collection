@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Guardians of the Galaxy",
+  "name": "Marvel's Guardians of the Galaxy｜漫威的《银河护卫队》",
   "id": "CUSA24103",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Component After Upgrading in WorkBench",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Component After Upgrading in WorkBench",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B42407",

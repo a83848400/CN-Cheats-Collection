@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Come: Deliverance - Royal Edition",
+  "name": "Kingdom Come: Deliverance - Royal Edition｜《王国来临：救赎》——皇家版",
   "id": "CUSA15436",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Coins (Have 1 Coin Before Activating)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 角落 (Have 1 Coin Before Activating)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E0C0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10C208C",

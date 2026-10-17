@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Armored Core VI: Fires of Rubicon" Moder="Celogamez" Cusa="CUSA32599" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>32B37A0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-F7-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite AP/1 Hit Kill (Master Code/Must Be On)">
+  <Cheat Text="最大 无限能力点/一击必杀 (Master 密码/Must Be On)">
     <Cheatline>
       <Offset>32B3DB0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>85-C0-41-89-45-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AP">
+  <Cheat Text="Infinite AP｜无限能力点">
     <Cheatline>
       <Offset>32B3DBC</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>41-89-45-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>32B3DBA</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>75-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>32B3740</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>8B-43-5C-83-F8-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>FC40AC</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>41-89-44-24-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Overheat">
+  <Cheat Text="No Overheat｜不会过热">
     <Cheatline>
       <Offset>32B38F0</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>41-C6-84-24-D8-00-00-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Repairs">
+  <Cheat Text="Infinite Repairs｜无限维修">
     <Cheatline>
       <Offset>AC2EDA</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>89-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Boost">
+  <Cheat Text="Infinite Boost｜无限加速">
     <Cheatline>
       <Offset>32B3500</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>C4-C1-7A-11-47-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite COAM">
+  <Cheat Text="最大/Infinite COAM">
     <Cheatline>
       <Offset>32B3820</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>89-4A-74-29-F9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time Missions">
+  <Cheat Text="停止 Time Missions">
     <Cheatline>
       <Offset>16BFCAE</Offset>
       <Section>0</Section>

@@ -3,7 +3,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Dev Menu Hold L3">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Dev 菜单 领地 L3">
     <Cheatline>
       <Offset>2CA9A53</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>80-B8-A1-3A-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Show All Dev Menu Details">
+  <Cheat Text="Show All Dev 菜单 Details">
     <Cheatline>
       <Offset>252BAB</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>44-8B-A0-B4-3A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hide All Dev Menu Details">
+  <Cheat Text="兽皮 All Dev 菜单 Details">
     <Cheatline>
       <Offset>252B8A</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>0F-85-F0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Silencer Ammo">
+  <Cheat Text="无限消音器 但是">
     <Cheatline>
       <Offset>15DF257</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>41-FF-8E-14-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Dev Menu">
+  <Cheat Text="Enable Dev 菜单">
     <Cheatline>
       <Offset>252B90</Offset>
       <Section>0</Section>

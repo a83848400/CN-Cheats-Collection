@@ -5,7 +5,15 @@
   <Genres Name="FPS" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="God Mode" Description="God Mode1">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式" Description="God Mode1">
     <Cheatline>
       <Offset>812620</Offset>
       <Section>16</Section>
@@ -19,7 +27,7 @@
       <ValueOff>41-89-87-F4-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina" Description="Inf Stamina">
+  <Cheat Text="无限耐力" Description="Inf Stamina">
     <Cheatline>
       <Offset>39CF7E</Offset>
       <Section>16</Section>
@@ -27,7 +35,7 @@
       <ValueOff>F3-45-0F-11-BF-28-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo Gun" Description="Inf Ammo Gun">
+  <Cheat Text="无限弹药 Gun" Description="Inf Ammo Gun">
     <Cheatline>
       <Offset>3B5789</Offset>
       <Section>16</Section>
@@ -35,7 +43,7 @@
       <ValueOff>41-89-86-40-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo ShotGun" Description="Inf Ammo ShotGun">
+  <Cheat Text="无限弹药 霰弹枪" Description="Inf Ammo ShotGun">
     <Cheatline>
       <Offset>81C22B</Offset>
       <Section>16</Section>
@@ -43,7 +51,7 @@
       <ValueOff>41-89-86-44-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo Bazooka" Description="Inf Ammo Bazooka">
+  <Cheat Text="无限弹药 Bazooka" Description="Inf Ammo Bazooka">
     <Cheatline>
       <Offset>81C351</Offset>
       <Section>16</Section>

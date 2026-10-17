@@ -1,13 +1,18 @@
 {
-  "name": "Transformers: Devastation",
+  "name": "Transformers: Devastation｜《变形金刚：毁灭》",
   "id": "CUSA01410",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "515884",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "x2 Money",
+      "name": "x2 金钱",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "488E37",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "God-Mode +1 Every Hit/Kill",
+      "name": "God-Mode +1 Every Hit/Kill｜神模式：每次命中/击杀+1",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "488AEE",

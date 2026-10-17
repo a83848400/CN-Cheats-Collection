@@ -6,7 +6,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5EFF800</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Botnet">
+  <Cheat Text="Infinite Botnet｜无限僵尸网络">
     <Cheatline>
       <Offset>E3BE3C</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-11-47-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip">
+  <Cheat Text="Bottomless Clip｜无底夹">
     <Cheatline>
       <Offset>136E1C5</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>FF-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>132A10A</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>89-41-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money -Duplicate x2-">
+  <Cheat Text="金钱无限 -Duplicate x2-">
     <Cheatline>
       <Offset>184BFBF</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>48-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Follower">
+  <Cheat Text="最大 随从">
     <Cheatline>
       <Offset>5EFF813</Offset>
       <Section>0</Section>

@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Black Ops Cold War",
+  "name": "使命召唤: 黑色 Ops Cold War",
   "id": "CUSA15010",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "170AE7B",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "All Client 无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13F9477",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Points",
+      "name": "Infinite 得分",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "178C92C",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "1-Hit Kill",
+      "name": "1-命中击杀",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1949AB4",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Load Zombies Step 1",
-      "hint": "Go to the main menu and navigate to \"Multiplayer\"\nthen hit Step 1.",
-      "type": "button",
+      "name": "读取 Zombies Step 1",
+      "hint": "Go to the 主菜单 and navigate to \"多人模式\"\nthen hit Step 1.",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "B994B58",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Load Zombies Step 2",
-      "hint": "Wait for the error to pop up then hit Step 2.",
-      "type": "button",
+      "name": "读取 Zombies Step 2",
+      "hint": "待机 for the error to pop up then hit Step 2.",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2870620",
@@ -76,15 +81,15 @@
         },
         {
           "offset": "28705EC",
-          "on": "0A",
-          "off": "0A"
+          "on": "0A｜零A",
+          "off": "0A｜零A"
         }
       ]
     },
     {
-      "name": "Load Zombies Step 3",
-      "hint": "Close the error popup then hit Step 3.",
-      "type": "button",
+      "name": "读取 Zombies Step 3",
+      "hint": "Close the error popup then hit Step 3.｜关闭错误弹窗，然后点击“步骤 3”。",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "B994B58",
@@ -94,9 +99,9 @@
       ]
     },
     {
-      "name": "Load Zombies Step 4",
-      "hint": "Navigate to \"Setup Game\" > \"Change Mode\" >\n\"Round Based\" > \"Round Based\".\nConfirm the selection and then hit Step 4.",
-      "type": "button",
+      "name": "读取 Zombies Step 4",
+      "hint": "Navigate to \"前置任务 Game\" > \"Change Mode\" >\n\"回合 Based\" > \"回合 Based\".\nConfirm the selection and then hit Step 4.",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2870620",
@@ -105,15 +110,15 @@
         },
         {
           "offset": "28705EC",
-          "on": "0A",
-          "off": "0A"
+          "on": "0A｜零A",
+          "off": "0A｜零A"
         }
       ]
     },
     {
-      "name": "Load Zombies Step 5",
-      "hint": "Wait for the black screen to end then hit Step 5.",
-      "type": "button",
+      "name": "读取 Zombies Step 5",
+      "hint": "待机 for the 黑色 screen to 末地 then hit Step 5.",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2870620",
@@ -122,8 +127,8 @@
         },
         {
           "offset": "28705EC",
-          "on": "0F",
-          "off": "0F"
+          "on": "0F｜华氏零度",
+          "off": "0F｜华氏零度"
         }
       ]
     }

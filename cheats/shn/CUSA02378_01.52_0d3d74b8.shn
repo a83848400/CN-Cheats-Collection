@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Assassin's Creed Syndicate" Moder="Saso" Cusa="CUSA02378" Version="01.52" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-37-C3-66-66-66-66-2E-0F-1F-84-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>41-89-44-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Resources">
+  <Cheat Text="资源无限">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-47-28-B0-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload">
+  <Cheat Text="无限弹药 / 无需换弹">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>0F-44-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Bombs">
+  <Cheat Text="无限炸弹">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>41-89-44-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Point (On Spend)">
+  <Cheat Text="最大 Skill Point (On Spend)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

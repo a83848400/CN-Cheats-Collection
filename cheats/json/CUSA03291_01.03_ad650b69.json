@@ -1,12 +1,17 @@
 {
-  "name": "Dead Island: Definitive Collection",
+  "name": "Dead 岛屿: Definitive Collection",
   "id": "CUSA03291",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "760519",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "751BF8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite  Flash Light",
-      "type": "checkbox",
+      "name": "Infinite  闪现 Light",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8272EB",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Cash",
-      "type": "checkbox",
+      "name": "最大 Cash",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "73B8AD",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Xp",
-      "type": "checkbox",
+      "name": "最大 Xp",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C5E27",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76C27A",

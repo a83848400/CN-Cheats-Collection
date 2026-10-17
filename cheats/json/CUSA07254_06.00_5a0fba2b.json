@@ -1,12 +1,17 @@
 {
-  "name": "Stellaris: Console Edition",
+  "name": "Stellaris: Console Edition｜《Stellaris：主机版》",
   "id": "CUSA07254",
   "version": "06.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ressources",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ressources｜无限资源",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE40",

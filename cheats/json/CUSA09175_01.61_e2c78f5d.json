@@ -1,12 +1,17 @@
 {
-  "name": "Days Gone",
+  "name": "Days Gone｜《Days Gone》",
   "id": "CUSA09175",
   "version": "01.61",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1286B97",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15C6C3F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12756C3",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12795E0",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Molotov: Ignore Crafting Limit",
-      "type": "checkbox",
+      "name": "燃烧瓶: Ignore Crafting Limit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01278C95",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "015E2417",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Nitrogen",
-      "type": "checkbox",
+      "name": "Infinite Nitrogen｜无限氮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01525696",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Infinite Motor Oil",
-      "type": "checkbox",
+      "name": "Infinite Motor 油",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "014F2D42",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Infinite Silencer",
-      "type": "checkbox",
+      "name": "Infinite Silencer｜无限消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01612A7E",

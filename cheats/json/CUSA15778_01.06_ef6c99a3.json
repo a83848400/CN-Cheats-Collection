@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 6",
+  "name": "孤岛惊魂 6",
   "id": "CUSA15778",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F336",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades/Throwables",
-      "type": "checkbox",
+      "name": "手榴弹无限/投掷物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F336",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Camp Resources",
-      "type": "checkbox",
+      "name": "Infinite 扎营 Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F336",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Inventory",
-      "type": "checkbox",
+      "name": "最大 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F329",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F336",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BDE163",

@@ -1,12 +1,17 @@
 {
-  "name": "DOOM Eternal",
+  "name": "毁灭战士 Eternal",
   "id": "CUSA13275",
   "version": "01.23",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Shield",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/盾牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379390",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (except some Bosses -necessary-)",
-      "type": "checkbox",
+      "name": "一击必杀 (except some Bosses -necessary-)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379410",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Player: Double Speed",
-      "type": "checkbox",
+      "name": "Player: Double 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379590",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Player: Double Height (Jump)",
-      "type": "checkbox",
+      "name": "Player: Double Height (Jump)｜玩家：双倍高度（跳跃）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33795E0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Lives (no need to pick one)",
-      "type": "checkbox",
+      "name": "无限生命 (no need to pick one)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379240",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Dash",
-      "type": "checkbox",
+      "name": "Infinite Dash｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379270",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Infinite Jump",
-      "type": "checkbox",
+      "name": "Infinite Jump｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379290",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Infinite Blood Punch",
-      "type": "checkbox",
+      "name": "无尽之血 Punch",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33793D0",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "Infinite Bullets",
-      "type": "checkbox",
+      "name": "Infinite Bullets｜无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33792B0",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "Infinite Keys",
-      "type": "checkbox",
+      "name": "Infinite Keys｜钥匙无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379500",
@@ -195,8 +200,8 @@
       ]
     },
     {
-      "name": "Revenant (Player): Infinite Health",
-      "type": "checkbox",
+      "name": "Revenant (Player): 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379370",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "Charged: Grenades",
-      "type": "checkbox",
+      "name": "Charged: Grenades｜装填：手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33792D0",
@@ -227,8 +232,8 @@
       ]
     },
     {
-      "name": "Charged: Flame Belch",
-      "type": "checkbox",
+      "name": "Charged: Flame Belch｜蓄力技能：火焰喷吐",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379200",
@@ -253,8 +258,8 @@
       ]
     },
     {
-      "name": "Charged: Radiation Suit",
-      "type": "checkbox",
+      "name": "Charged: Radiation 战衣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379300",
@@ -269,8 +274,8 @@
       ]
     },
     {
-      "name": "Charged: Crucible",
-      "type": "checkbox",
+      "name": "Charged: Crucible｜《Charged：Crucible》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33793B0",
@@ -285,8 +290,8 @@
       ]
     },
     {
-      "name": "Charged: Diving Suit",
-      "type": "checkbox",
+      "name": "Charged: Diving 战衣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379530",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "Charged: Sentinel Hammer",
-      "type": "checkbox",
+      "name": "Charged: Sentinel 锤",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379550",
@@ -317,8 +322,8 @@
       ]
     },
     {
-      "name": "Campaign: Most NMEs Don't Move",
-      "type": "checkbox",
+      "name": "战役: Most NMEs Don'恐怖分子 招式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379610",
@@ -338,8 +343,8 @@
       ]
     },
     {
-      "name": "or DLCs: Most NMEs Don't Move (Green Dog Yes)",
-      "type": "checkbox",
+      "name": "or DLCs: Most NMEs Don'恐怖分子 招式 (Green Dog 是的)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379610",
@@ -359,8 +364,8 @@
       ]
     },
     {
-      "name": "Some NMEs Don't Shoot",
-      "type": "checkbox",
+      "name": "Some NMEs Don'恐怖分子 Shoot",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3379680",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Star Wars: Squadrons" Moder="Reddevil82 -  FW 9.00" Cusa="CUSA15089" Version="01.03" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>46CFDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-43-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy / Ammo">
+  <Cheat Text="无限能量 / 但是">
     <Cheatline>
       <Offset>46CFDD0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-F8-10-46-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Missiles / Warheads ( you need 1 )">
+  <Cheat Text="最大 Missiles / Warheads ( you need 1 )">
     <Cheatline>
       <Offset>46CFDE1</Offset>
       <Section>0</Section>

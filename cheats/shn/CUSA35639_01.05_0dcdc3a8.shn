@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Heath/Power (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无垠荒原/电力 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>1A97DB0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>3B-47-2C-89-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Heath">
+  <Cheat Text="Infinite Heath｜无垠荒原">
     <Cheatline>
       <Offset>1A97DB9</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Power">
+  <Cheat Text="Infinite 电力">
     <Cheatline>
       <Offset>1A97DD2</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>89-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Offset>1A97930</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>39-F1-89-48-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>1A97B80</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>FF-11-41-8B-4E-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Nycrux On Gain">
+  <Cheat Text="最大 Nycrux On Gain">
     <Cheatline>
       <Offset>1A97A70</Offset>
       <Section>0</Section>

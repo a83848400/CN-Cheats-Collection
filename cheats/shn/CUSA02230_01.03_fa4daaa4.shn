@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>1CB3DB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-86-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1CB3DB7</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>41-89-86-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>1CB3DB5</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>75-15</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Elixirs/Spiritual Remedy">
+  <Cheat Text="无限生命 Elixirs/Spiritual Remedy">
     <Cheatline>
       <Offset>88F9F6</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>41-FF-8C-85-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>88FB85</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>89-14-CB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Powers">
+  <Cheat Text="Infinite Powers｜无限之力">
     <Cheatline>
       <Offset>1CB3AF0</Offset>
       <Section>0</Section>
@@ -63,7 +71,7 @@
       <ValueOff>89-8B-68-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen">
+  <Cheat Text="Infinite Oxygen｜无限氧气">
     <Cheatline>
       <Offset>6F7512</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>C5-FA-11-93-F0-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Runes on gain (x2 Runes To Work)">
+  <Cheat Text="金钱最大/铭文 on gain (x2 铭文 To Work)">
     <Cheatline>
       <Offset>1CB3990</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>48-8B-45-98-01-54-18-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Jump Height">
+  <Cheat Text="Increase 跳跃高度">
     <Cheatline>
       <Offset>1CB3BA0</Offset>
       <Section>0</Section>

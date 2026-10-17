@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil Village",
+  "name": "生化危机 Village",
   "id": "CUSA18017",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "544B6A3",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "544B695",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "311D264",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A98FA6",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Rapid Fire",
-      "type": "checkbox",
+      "name": "Rapid Fire｜快速射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10C0380",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Lei (1 million)",
-      "type": "checkbox",
+      "name": "最大 Lei (1 million)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "30ED3FA",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Max Crafting Items (on craft)",
-      "type": "checkbox",
+      "name": "最大 Crafting Items (on craft)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "311D260",

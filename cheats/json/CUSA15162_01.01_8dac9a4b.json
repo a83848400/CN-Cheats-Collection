@@ -1,12 +1,17 @@
 {
-  "name": "Toki",
+  "name": "Toki｜当然",
   "id": "CUSA15162",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Lives / Coins (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Lives / 角落 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17CEF00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Coins x99 (MC) Turn Off To Collect More",
-      "type": "checkbox",
+      "name": "角落 x99 (MC) 回合 Off To Collect More",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17CEF21",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Freeze Time (Arcade Mode) Pause To Activate",
-      "type": "checkbox",
+      "name": "冻结时间 (街机模式) 暂停 To Activate",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17CF000",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Resume Time (Use With Freeze Time)",
-      "type": "checkbox",
+      "name": "继续 Time (Use With 冻结时间)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17CF02B",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Freeze Time (SpeedRun Mode)",
-      "type": "checkbox",
+      "name": "冻结时间 (速通模式)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rebel Galaxy Outlaw" Moder="Master Studios" Cusa="CUSA20605" Version="01.04" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Schild Unzerstörbar">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Schild Unzerstörbar｜“坚不可摧”的盾牌">
     <Cheatline>
       <Offset>7EC083E8</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>E8-F4-45-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hülle Unzerstörbar">
+  <Cheat Text="Hülle Unzerstörbar｜坚不可摧的外壳">
     <Cheatline>
       <Offset>7EC003E8</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>C4-C1-7A-11-84-9D-B0-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Waffenenergie Maximum">
+  <Cheat Text="Waffenenergie Maximum｜武器能量上限">
     <Cheatline>
       <Offset>C89F44</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Raketen Maximum">
+  <Cheat Text="Raketen Maximum｜“马克西姆”导弹">
     <Cheatline>
       <Offset>C875D4</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nachbrenner Maximum">
+  <Cheat Text="Nachbrenner Maximum｜加力燃烧室最大功率">
     <Cheatline>
       <Offset>C6DEFE</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C4-C1-7A-11-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sprungantrieb Maximum">
+  <Cheat Text="Sprungantrieb Maximum｜最大跳跃推进器">
     <Cheatline>
       <Offset>D150ED</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C5-FA-11-80-CC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Geld x2 Beim Andocken">
+  <Cheat Text="金钱 x2 Beim Andocken">
     <Cheatline>
       <Offset>D137E3</Offset>
       <Section>0</Section>

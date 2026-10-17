@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Zero Dawn: Complete Edition",
+  "name": "地平线 杰洛 Dawn: Complete Edition",
   "id": "CUSA10212",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A38B42",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A38B47",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "x2 Skill Points Each Use",
-      "type": "checkbox",
+      "name": "x2 Skill 得分 Each Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15D7324",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "x2 Items Each Use",
-      "type": "checkbox",
+      "name": "x2 Items Each Use｜x2 每项使用次数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F2F020",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F2F020",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Blue Reflection: Second Light" Moder="Wander FW9.00" Cusa="CUSA25335" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>141B5C0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-83-14-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite EP (turn off at the tutorial)">
+  <Cheat Text="《Infinite》EP (回合 off at the tutorial)">
     <Cheatline>
       <Offset>141B9B0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-83-50-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Experience Multiplier by 500">
+  <Cheat Text="经验值倍增器 by 500">
     <Cheatline>
       <Offset>141B950</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>01-77-08-48-89-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="80 items (on pickup and Craft)">
+  <Cheat Text="80 items (on pickup and Craft)｜80件商品（自提和手工艺品）">
     <Cheatline>
       <Offset>141BBD0</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>66-89-77-06-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="90 TP (on spend )">
+  <Cheat Text="90 轮胎气压 (on spend )">
     <Cheatline>
       <Offset>141BC10</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Long Dark" Moder="LMN" Cusa="CUSA09690" Version="01.98" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf lantern fuel">
+  <Cheat Text="Infinite 灯笼 fuel">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>E8-9B-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf stamina">
+  <Cheat Text="无限耐力">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>C4-C1-7A-11-46-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="NO Reload">
+  <Cheat Text="NO Reload｜无需换弹">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>E8-C9-A4-AD-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf items">
+  <Cheat Text="道具无限">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C5-E2-2A-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf drinking water">
+  <Cheat Text="Infinite drinking 水">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>C5-FA-11-43-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf crafting">
+  <Cheat Text="无限制作">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -107,7 +115,7 @@
       <ValueOff>E8-E5-ED-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf climing">
+  <Cheat Text="无尽攀登">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -123,7 +131,7 @@
       <ValueOff>C5-FA-11-43-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf weight">
+  <Cheat Text="Infinite 重量">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -139,7 +147,7 @@
       <ValueOff>C4-C1-7A-11-47-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf durability for all items and weapons">
+  <Cheat Text="装备耐久无限 for 所有商品 and 武器">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

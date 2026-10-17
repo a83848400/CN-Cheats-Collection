@@ -1,12 +1,17 @@
 {
-  "name": "Mortal Kombat XL",
+  "name": "Mortal Kombat XL｜《真人快打 XL》",
   "id": "CUSA03679",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode Left Player",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "上帝模式 Left Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D57810",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D57800",

@@ -7,7 +7,15 @@
   <Genres Name="Shooter" />
   <Genres Name="Strategy" />
   <Items />
-  <Cheat Text="Debug Menu (Enable)" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Debug 菜单 (Enable)" Description="">
     <Cheatline>
       <Offset>4108</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>0F-84-8E-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Debug Menu (Enable, No Overlay)" Description="">
+  <Cheat Text="Debug 菜单 (Enable, No Overlay)" Description="">
     <Cheatline>
       <Offset>4108</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>0F-84-8E-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Debug Menu (Disable)" Description="">
+  <Cheat Text="Debug 菜单 (Disable)" Description="">
     <Cheatline>
       <Offset>4108</Offset>
       <Section>0</Section>

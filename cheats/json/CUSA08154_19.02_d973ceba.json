@@ -1,12 +1,17 @@
 {
-  "name": "Tropico 6",
+  "name": "Tropico 6｜《Tropico 6》",
   "id": "CUSA08154",
   "version": "19.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Bilion (On Spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "1 Bilion (On Spend)｜10亿（已支出）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6ABBDB0",

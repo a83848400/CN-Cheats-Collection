@@ -1,13 +1,18 @@
 {
-  "name": "Crash Bandicoot 4: It's About Time",
+  "name": "古惑狼 4: It's About Time",
   "id": "CUSA23470",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Jump in midair",
-      "description": "none",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Jump in midair｜在半空中跳跃",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19A7C0",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Untouchable (Use with Jump in midair code)",
-      "description": "Falling into the void you'll not die, use it with the Jump in midair code. Only works when you're on foot, not when you slide.",
-      "type": "checkbox",
+      "name": "刀枪不入 (Use with 在半空中跳跃 密码)",
+      "description": "Falling into the void you'll not die, use it with the 在半空中跳跃 密码. Only works when you're on foot, not when you slide.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BBB3B0",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Untouchable - Third AkuAku mask effect",
-      "description": "Don't need the Jump in midair code, falling into the void you'll die.",
-      "type": "checkbox",
+      "name": "刀枪不入 - Third AkuAku 面具 效果",
+      "description": "Don'恐怖分子 need the 在半空中跳跃 密码, falling into the void you'll die.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BCFB73",
@@ -45,7 +50,7 @@
         },
         {
           "offset": "BB8BEE",
-          "on": "EB",
+          "on": "EB｜早上好",
           "off": "75"
         }
       ]

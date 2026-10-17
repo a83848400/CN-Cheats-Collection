@@ -1,12 +1,17 @@
 {
-  "name": "Tails of Iron",
+  "name": "塔尔斯 of Iron",
   "id": "CUSA28465",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Turn Off In 2nd Battle)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (回合 Off In 2nd 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8191B430",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8191B470",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8191B4D0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Currency",
-      "type": "checkbox",
+      "name": "Infinite Currency｜无限货币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8191B510",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Bolts / Poison",
-      "type": "checkbox",
+      "name": "无限螺栓 / Poison",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8191B530",

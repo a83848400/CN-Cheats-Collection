@@ -1,12 +1,17 @@
 {
-  "name": "Fury Unleashed",
+  "name": "Fury Unleashed｜狂怒爆发",
   "id": "CUSA15927",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1817800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1817830",

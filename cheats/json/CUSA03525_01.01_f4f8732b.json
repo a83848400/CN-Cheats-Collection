@@ -1,12 +1,17 @@
 {
-  "name": "God Eater Resurrection",
+  "name": "上帝 Eater 复活",
   "id": "CUSA03525",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FDF0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite OP ( Ammo )",
-      "type": "checkbox",
+      "name": "Infinite OP ( Ammo )｜无限OP（弹药）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FDD8",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FE00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Burst Gauge ",
-      "type": "checkbox",
+      "name": "Infinite Burst Gauge ｜无限连发计量表",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FDE2",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FDB0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max AP",
-      "type": "checkbox",
+      "name": "Max AP｜能力点最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FE10",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max GAP",
-      "type": "checkbox",
+      "name": "最大 GAP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FE30",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Items ( on use )",
-      "type": "checkbox",
+      "name": "最大 Items ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B6FE56",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "44",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>13F7800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>49-8B-46-20-89-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite KI">
+  <Cheat Text="Infinite KI｜无限气">
     <Cheatline>
       <Offset>13F780F</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-58-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1/2 Hit Kill (Lock-On for 1 Hit)">
+  <Cheat Text="1/2 命中击杀 (Lock-On for 1 Hit)">
     <Cheatline>
       <Offset>13F7822</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>49-8B-4F-20-49-8B-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="0 Enemy KI (Showing Bar/Lock-On)">
+  <Cheat Text="0 Enemy 气 (Showing Bar/Lock-On)">
     <Cheatline>
       <Offset>13F7836</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C5-FA-10-4B-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Effects">
+  <Cheat Text="No Effects｜无效果">
     <Cheatline>
       <Offset>13F7904</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>C4-C1-7A-11-46-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Amrita Gauge on Gain/Use">
+  <Cheat Text="Infinite 精华槽 on Gain/Use">
     <Cheatline>
       <Offset>13F7873</Offset>
       <Section>0</Section>
@@ -135,7 +143,7 @@
       <ValueOff>C5-FA-11-53-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Living Weapon">
+  <Cheat Text="Infinite 九十九武器">
     <Cheatline>
       <Offset>13F7859</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>C5-FA-11-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill to Max Weapons/Armour Familiarity">
+  <Cheat Text="Kill to 最大 武器/Armour Familiarity">
     <Cheatline>
       <Offset>4D6AF3</Offset>
       <Section>0</Section>
@@ -169,7 +177,7 @@
       <ValueOff>44-89-73-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill to Max Weapons Proficiency">
+  <Cheat Text="Kill to 最大 武器 熟练">
     <Cheatline>
       <Offset>13F7917</Offset>
       <Section>0</Section>
@@ -183,7 +191,7 @@
       <ValueOff>89-94-83-40-E6-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Use">
+  <Cheat Text="最大 Items on Use">
     <Cheatline>
       <Offset>13F7847</Offset>
       <Section>0</Section>
@@ -197,7 +205,7 @@
       <ValueOff>66-43-89-84-2E-18-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Items on Use">
+  <Cheat Text="x2 Items on Use｜使用时获得2件物品">
     <Cheatline>
       <Offset>3050C9</Offset>
       <Section>0</Section>
@@ -205,7 +213,7 @@
       <ValueOff>29-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Special Items">
+  <Cheat Text="x2 Special Items｜x2 特殊道具">
     <Cheatline>
       <Offset>305F69</Offset>
       <Section>0</Section>
@@ -213,7 +221,7 @@
       <ValueOff>01-F2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Materials on Use">
+  <Cheat Text="x2 Materials on Use｜x2 材料使用说明">
     <Cheatline>
       <Offset>3056C9</Offset>
       <Section>0</Section>
@@ -221,7 +229,7 @@
       <ValueOff>29-F2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Amrita on Use">
+  <Cheat Text="最大 精华 on Use">
     <Cheatline>
       <Offset>13F7891</Offset>
       <Section>0</Section>
@@ -247,7 +255,7 @@
       <ValueOff>49-89-46-08-41-C6-06-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Amrita on Use">
+  <Cheat Text="x2 精华 on Use">
     <Cheatline>
       <Offset>63FAE6</Offset>
       <Section>0</Section>
@@ -261,7 +269,7 @@
       <ValueOff>48-2B-83-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold on Spend">
+  <Cheat Text="金币最大 on Spend">
     <Cheatline>
       <Offset>13F78A4</Offset>
       <Section>0</Section>
@@ -323,7 +331,7 @@
       <ValueOff>49-89-4F-10-41-C6-07-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Gold on Spend">
+  <Cheat Text="x2 金币 on Spend">
     <Cheatline>
       <Offset>634D3E</Offset>
       <Section>0</Section>
@@ -361,7 +369,7 @@
       <ValueOff>48-29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Glory on Trade">
+  <Cheat Text="最大 荣耀 on 交换">
     <Cheatline>
       <Offset>13F7928</Offset>
       <Section>0</Section>
@@ -375,7 +383,7 @@
       <ValueOff>89-90-F4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Glory on Trade">
+  <Cheat Text="x2 荣耀 on 交换">
     <Cheatline>
       <Offset>2F9928</Offset>
       <Section>0</Section>
@@ -383,7 +391,7 @@
       <ValueOff>29-FA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Samurai SP">
+  <Cheat Text="x2 武士 精神值">
     <Cheatline>
       <Offset>6DD370</Offset>
       <Section>0</Section>
@@ -391,7 +399,7 @@
       <ValueOff>01-B7-F4-E5-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Ninja SP">
+  <Cheat Text="x2 Ninja 精神值">
     <Cheatline>
       <Offset>6DD380</Offset>
       <Section>0</Section>
@@ -399,7 +407,7 @@
       <ValueOff>01-B7-00-E6-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Onmyo Magic SP">
+  <Cheat Text="x2 阴阳术 精神值">
     <Cheatline>
       <Offset>6DD390</Offset>
       <Section>0</Section>
@@ -407,7 +415,7 @@
       <ValueOff>01-B7-0C-E6-0A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Agyo/Ungyo Prestige Points">
+  <Cheat Text="x2 Agyo/Ungyo 转生 得分">
     <Cheatline>
       <Offset>6E995F</Offset>
       <Section>0</Section>
@@ -415,7 +423,7 @@
       <ValueOff>43-FF-84-A6-A4-C2-15-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ninjutsu Capacity">
+  <Cheat Text="Infinite 忍术 Capacity">
     <Cheatline>
       <Offset>13F78B9</Offset>
       <Section>0</Section>
@@ -429,7 +437,7 @@
       <ValueOff>45-03-B4-24-1C-50-0B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Onmyo Magic Capacity">
+  <Cheat Text="Infinite 阴阳术 Capacity">
     <Cheatline>
       <Offset>13F78CC</Offset>
       <Section>0</Section>

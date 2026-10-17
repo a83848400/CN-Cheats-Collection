@@ -1,12 +1,17 @@
 {
-  "name": "The Last of Us: Remastered",
+  "name": "最后生还者: Remastered",
   "id": "CUSA00557",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Parts, Pills",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "零件无限, 药丸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89022",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Flashlight Never Dies",
-      "type": "checkbox",
+      "name": "手电筒 Never Dies",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "697B88",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "All Tools Pickup Level 5",
-      "type": "checkbox",
+      "name": "All Tools Pickup 等级 5",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68462",

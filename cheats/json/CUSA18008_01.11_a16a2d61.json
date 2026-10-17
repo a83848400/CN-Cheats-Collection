@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil Village",
+  "name": "生化危机 Village",
   "id": "CUSA18008",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "544B69F",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D0F0",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Infinite money",
-      "type": "checkbox",
+      "name": "Infinite money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F020",
@@ -68,8 +73,8 @@
       ]
     },
     {
-      "name": "infinite items",
-      "type": "checkbox",
+      "name": "infinite items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ECE0",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "Rose - Infinite Magic",
-      "type": "checkbox",
+      "name": "Rose - Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0A0",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "Rose - Infinite Plants",
-      "type": "checkbox",
+      "name": "Rose - 无限植物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D2A0",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "Info crafting materials by LMN",
-      "type": "checkbox",
+      "name": "Info crafting materials by LMN｜LMN 提供的工艺材料信息",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Inf white flower and First Aid Med usage by LMN",
-      "type": "checkbox",
+      "name": "LMN对“无限白花”和“急救药”的使用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "Inf Pipe Bombs by LMN",
-      "type": "checkbox",
+      "name": "LMN 的《无限管道炸弹》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -152,8 +157,8 @@
       ]
     },
     {
-      "name": "Godmode by JustGotenks",
-      "type": "checkbox",
+      "name": "上帝模式 by JustGotenks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "544B6A3",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "One-hit Kill by JustGotenks",
-      "type": "checkbox",
+      "name": "One-命中击杀 by JustGotenks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "544B695",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "No Reload by JustGotenks",
-      "type": "checkbox",
+      "name": "无需换弹 by JustGotenks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A98FA6",

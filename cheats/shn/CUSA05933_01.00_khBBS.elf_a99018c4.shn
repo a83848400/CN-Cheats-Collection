@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Kingdom Hearts: HD 1.5 + 2.5 ReMIX" Moder="Molly" Cusa="CUSA05933" Version="01.00" Process="khBBS.elf">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max Munny">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Munny">
     <Cheatline>
       <Offset>69F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-88-3C-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Item Commands">
+  <Cheat Text="Have All 物品 指令">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>88-C3-88-5C-51-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Magic Commands ~Buy 1 Potion~">
+  <Cheat Text="Have All 魔法 指令 ~Buy 1 药水~">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>88-C3-88-5C-51-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Block Commands">
+  <Cheat Text="Have All 格挡 指令">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>88-C3-88-5C-51-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Reprisal Commands">
+  <Cheat Text="Have All Reprisal 指令">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>88-C3-88-5C-51-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Movement Commands">
+  <Cheat Text="Have All Movement 指令">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>88-C3-88-5C-51-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Attack Commands">
+  <Cheat Text="Have All 攻击 指令">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>88-C3-88-5C-51-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>69F93C</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>89-88-38-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mirage Medals">
+  <Cheat Text="最大 Mirage Medals">
     <Cheatline>
       <Offset>69F94C</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>89-88-40-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up Commands/Shotlock">
+  <Cheat Text="Quick 升级 指令/Shotlock">
     <Cheatline>
       <Offset>69F95C</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>0F-B7-C8-66-89-47-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Shotlock Commands">
+  <Cheat Text="Have All Shotlock 指令">
     <Cheatline>
       <Offset>69F812</Offset>
       <Section>0</Section>

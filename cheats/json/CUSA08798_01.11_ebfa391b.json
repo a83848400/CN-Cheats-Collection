@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders III",
+  "name": "Darksiders III｜《暗黑血统3》",
   "id": "CUSA08798",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48B9500",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Souls / Consumables (On Pick)",
-      "type": "checkbox",
+      "name": "灵魂最大 / Consumables (On Pick)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Instant Wrath/Havoc Bar Refill (L1+R2 To Deactivate Havoc)",
-      "type": "checkbox",
+      "name": "Instant Wrath/Havoc Bar Refill (L1+R2 To Deactivate Havoc)｜“瞬发怒火/浩劫”能量条补充（按L1+R2可取消“浩劫”）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48B9550",

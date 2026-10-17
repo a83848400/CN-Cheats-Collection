@@ -1,12 +1,17 @@
 {
-  "name": "Wolfenstein: The Old Blood",
+  "name": "Wolfenstein: The 旧血",
   "id": "CUSA01540",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BFC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Gold Health",
-      "type": "checkbox",
+      "name": "无限金币 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BF80",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Armor",
-      "type": "checkbox",
+      "name": "Infinite Armor｜护甲无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BFA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Granades/No Reload",
-      "type": "checkbox",
+      "name": "无限弹药/Granades/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BFE0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Knife",
-      "type": "checkbox",
+      "name": "Infinite Knife｜无限小刀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BF60",

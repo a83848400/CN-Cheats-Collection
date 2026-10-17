@@ -1,12 +1,17 @@
 {
-  "name": "Metro Exodus",
+  "name": "Metro Exodus｜《地铁：离去》",
   "id": "CUSA11407",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freez Mask Filter Time",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Freez 面具 Filter Time",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D2551",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Weapon Jamp On Shoot",
-      "type": "checkbox",
+      "name": "No Weapon Jamp On Shoot｜射击时无武器卡弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55D4F3",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Gun Without Clip",
-      "type": "checkbox",
+      "name": "Gun Without Clip｜没有弹匣的枪",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D258B",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "No Medkit Decrease",
-      "type": "checkbox",
+      "name": "No 医疗包 Decrease",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D249F",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Invincible Character",
-      "type": "checkbox",
+      "name": "无敌 Character",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D2525",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "No Ammo Decrease",
-      "type": "checkbox",
+      "name": "No 但是 Decrease",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D2566",

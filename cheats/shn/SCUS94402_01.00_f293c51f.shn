@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Raiden Project" Moder="Ali-mk" Cusa="SCUS94402" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Raiden=1-Infinite-lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="雷电=1-无限生命">
     <Cheatline>
       <Offset>FE688</Offset>
       <Section>11</Section>
@@ -16,7 +24,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Raiden=1-Infinite-Bomb">
+    <Cheat Text="雷电=1-无限炸弹">
     <Cheatline>
       <Offset>10BFD8</Offset>
       <Section>11</Section>
@@ -30,7 +38,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Raiden=2-Infinite-lives">
+    <Cheat Text="雷电=2-无限生命">
     <Cheatline>
       <Offset>FE814</Offset>
       <Section>11</Section>
@@ -44,7 +52,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Raiden=2-Infinite-Bomb">
+    <Cheat Text="雷电=2-无限炸弹">
     <Cheatline>
       <Offset>14625C</Offset>
       <Section>11</Section>

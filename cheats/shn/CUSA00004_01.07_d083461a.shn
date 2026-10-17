@@ -6,7 +6,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>215C17</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>C4-C1-7A-11-96-50-EE-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>20C7F9</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>C4-C1-7A-11-84-24-E8-A1-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bombs / Rockets">
+  <Cheat Text="Infinite Bombs / Rockets｜无限炸弹/火箭">
     <Cheatline>
       <Offset>1E35A8</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-B7-DC-00-00-00-80-BF-C9-0A-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints / Shards">
+  <Cheat Text="无限技能点 / Shards">
     <Cheatline>
       <Offset>1E22A4</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>89-9F-E0-00-00-00-80-BF-C9-0A-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level True Hero">
+  <Cheat Text="等级最大 True 英雄">
     <Cheatline>
       <Offset>EFADB8</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>A0-E6-87-45</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Air Dash">
+  <Cheat Text="Infinite Air Dash｜无限空中冲刺">
     <Cheatline>
       <Offset>CC7800</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>89-94-87-78-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gauge">
+  <Cheat Text="Infinite Gauge｜无限量规">
     <Cheatline>
       <Offset>CC7817</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>0F-49-C8-89-4B-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy read">
+  <Cheat Text="无限能量 read">
     <Cheatline>
       <Offset>CC7824</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C5-FA-10-83-E8-A1-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rockets read">
+  <Cheat Text="Infinite Rockets read｜《无限火箭》阅读">
     <Cheatline>
       <Offset>CC783B</Offset>
       <Section>0</Section>

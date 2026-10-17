@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Gas">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Gas｜无限气体">
     <Cheatline>
       <Offset>110B800</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>C4-C1-7A-11-8E-14-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Blade Bar">
+  <Cheat Text="Infinite 异刃 Bar">
     <Cheatline>
       <Offset>110B82E</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>C5-FA-11-88-FC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>110B843</Offset>
       <Section>0</Section>
@@ -93,7 +101,7 @@
       <ValueOff>0F-47-CA-89-4B-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Usage Items">
+  <Cheat Text="Infinite Usage Items｜无限使用道具">
     <Cheatline>
       <Offset>110B884</Offset>
       <Section>0</Section>
@@ -107,7 +115,7 @@
       <ValueOff>66-43-89-9C-67-7C-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always 99 Titan Kills">
+  <Cheat Text="Always 99 泰坦 Kills">
     <Cheatline>
       <Offset>110B896</Offset>
       <Section>0</Section>

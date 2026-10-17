@@ -1,13 +1,18 @@
 {
-  "name": "Outlast 2",
+  "name": "《Outlast》 2",
   "id": "CUSA06633",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Battery",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 电池",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1EBDC48",

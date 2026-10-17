@@ -1,12 +1,17 @@
 {
-  "name": "Super Bomberman R",
+  "name": "Super 炸弹人 R",
   "id": "CUSA10667",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives (Turn Off Max Gold)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (回合 Off 金币最大)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Gold On Buy [999999999]",
-      "type": "checkbox",
+      "name": "金币最大 On Buy [999999999]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E3800",

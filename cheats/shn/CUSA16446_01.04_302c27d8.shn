@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Gunvolt Chronicles: Luminous Avenger iX" Moder="Ali-mk" Cusa="CUSA16446" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf-Health + Bullits(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命 + Bullits(MC)">
     <Cheatline>
       <Offset>867ED</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>80-7D-B8-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-All-Weapon + Bullits-Jumps">
+  <Cheat Text="无限全武器 + Bullits-Jumps">
     <Cheatline>
       <Offset>81E48</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX + Inf-CREDITS">
+  <Cheat Text="最大 + 无限积分">
     <Cheatline>
       <Offset>28DE3</Offset>
       <Section>0</Section>

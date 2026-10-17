@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Infinite Tears Gauge",
-      "type": "checkbox",
+      "name": "Infinite Tears Gauge｜无尽泪水计量表",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535165",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Money On Gain",
-      "type": "checkbox",
+      "name": "金钱最大 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535023",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -77,8 +82,8 @@
       ]
     },
     {
-      "name": "Infinite Items on Use",
-      "type": "checkbox",
+      "name": "道具无限 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "Max Items On Buy",
-      "type": "checkbox",
+      "name": "最大 Items On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535082",
@@ -105,8 +110,8 @@
       ]
     },
     {
-      "name": "1 Hit = 50 Chain  | Unlocks Impulse Trophy",
-      "type": "checkbox",
+      "name": "1 Hit = 50 Chain  | Unlocks Impulse Trophy｜1 次命中 = 50 连击  | 解锁“冲动”奖杯",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535036",
@@ -121,8 +126,8 @@
       ]
     },
     {
-      "name": "1 Hit = 100 Chain| Unlocks Unending Impulse",
-      "type": "checkbox",
+      "name": "1 Hit = 100 Chain| Unlocks Unending Impulse｜1 次命中 = 100 连击 | 解锁“无尽冲动”",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535049",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "1 Hit = 200 Chain| Unlocks Wild Impulse",
-      "type": "checkbox",
+      "name": "1 Hit = 200 Chain| Unlocks Wild Impulse｜1 次命中 = 200 连击 | 解锁“狂野冲动”",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153505C",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "Max Chain Hit",
-      "type": "checkbox",
+      "name": "最大 Chain Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "153506F",
@@ -169,8 +174,8 @@
       ]
     },
     {
-      "name": "Boost EXP| 50 Per Kill",
-      "type": "checkbox",
+      "name": "Boost 经验| 50 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15350AA",
@@ -185,8 +190,8 @@
       ]
     },
     {
-      "name": "Extra EXP| 150 Per Kill",
-      "type": "checkbox",
+      "name": "Extra 经验| 150 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15350BD",
@@ -201,8 +206,8 @@
       ]
     },
     {
-      "name": "Even More EXP| 400 Per Kill",
-      "type": "checkbox",
+      "name": "Even More 经验| 400 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15350D3",
@@ -217,8 +222,8 @@
       ]
     },
     {
-      "name": "Lots Of EXP| 2000 Per Kill",
-      "type": "checkbox",
+      "name": "Lots Of 经验| 2000 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15350E9",
@@ -233,8 +238,8 @@
       ]
     },
     {
-      "name": "Hella EXP| 25000 Per Kill",
-      "type": "checkbox",
+      "name": "Hella 经验| 25000 Per Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15350FF",
@@ -249,8 +254,8 @@
       ]
     },
     {
-      "name": "EXP OVERLORD| 1 Kill Max Level",
-      "type": "checkbox",
+      "name": "经验 OVERLORD| 1 Kill 等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535094",
@@ -265,8 +270,8 @@
       ]
     },
     {
-      "name": "Splendor Master| Enhanced ATK",
-      "type": "checkbox",
+      "name": "Splendor Master| Enhanced 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535115",
@@ -281,8 +286,8 @@
       ]
     },
     {
-      "name": "Falconer| Powerful ATK",
-      "type": "checkbox",
+      "name": "Falconer| Powerful 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535125",
@@ -297,8 +302,8 @@
       ]
     },
     {
-      "name": "Kendo Master| Double ATK",
-      "type": "checkbox",
+      "name": "Kendo Master| Double 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535135",
@@ -313,8 +318,8 @@
       ]
     },
     {
-      "name": "Shaolin Master| Supreme ATK",
-      "type": "checkbox",
+      "name": "Shaolin Master| Supreme 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535145",
@@ -329,8 +334,8 @@
       ]
     },
     {
-      "name": "Plastic Slipper| Max ATK",
-      "type": "checkbox",
+      "name": "Plastic Slipper| 最大 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1535155",

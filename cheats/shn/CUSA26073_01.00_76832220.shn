@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Natsuki Chronicles" Moder="Ali-mk" Cusa="CUSA26073" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-    <Cheat Text="Invincible-ARCADE-Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+    <Cheat Text="无敌-街机厅-Mode">
     <Cheatline>
       <Offset>298389</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF-90-88-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-SHELD-ARCADE-Mode">
+    <Cheat Text="Infinite-SHELD-街机厅-Mode">
     <Cheatline>
       <Offset>2983DA</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-58-05-F2-7E-69-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-credits-ARCADE-Mode">
+    <Cheat Text="无限积分-街机厅-Mode">
     <Cheatline>
       <Offset>36F86D</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>FF-8B-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-SP-ARCADE-Mode">
+    <Cheat Text="Infinite-精神值-街机厅-Mode">
     <Cheatline>
       <Offset>29D7B0</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-87-1C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Invincible-STORY-Mode">
+    <Cheat Text="无敌-STORY-Mode">
     <Cheatline>
       <Offset>28A571</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>E8-F5-1F-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-SHELD-STORY-Mode">
+    <Cheat Text="Infinite-SHELD-STORY-Mode｜无限-神盾局-故事-模式">
     <Cheatline>
       <Offset>28A5CE</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-SP-STORY-Mode">
+    <Cheat Text="Infinite-精神值-STORY-Mode">
     <Cheatline>
       <Offset>28FF40</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>C5-FA-11-87-1C-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-CR-Points-STORY-Mode-1-buy">
+    <Cheat Text="最大-CR-得分-STORY-Mode-1-buy">
     <Cheatline>
       <Offset>40DAF1</Offset>
       <Section>0</Section>

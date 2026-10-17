@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max+ Inf HP | Battle ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大+ 无限血量 | 战斗 ">
     <Cheatline>
       <Offset>1DDE400</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>48-89-83-30-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max+ Inf MP | Battle">
+  <Cheat Text="最大+ 无限魔力 | 战斗">
     <Cheatline>
       <Offset>1DDE417</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>41-89-86-8C-0F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Pts/Rings On Spend/Gain">
+  <Cheat Text="金钱最大/Pts/金环 On Spend/Gain">
     <Cheatline>
       <Offset>CBAADD</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>48-89-1C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items On Sell/Use">
+  <Cheat Text="道具无限 On Sell/Use">
     <Cheatline>
       <Offset>CBB5BC</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>44-89-7A-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lots Of Items And Materials on Buy/Sell/Use/Gain">
+  <Cheat Text="Lots Of Items And Materials on Buy/Sell/Use/Gain｜大量物品和材料可通过购买、出售、使用或获得">
     <Cheatline>
       <Offset>1DDE5BE</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>0F-8E-89-00-00-00-44-89-7A-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Bond Level On Gain| All In Party">
+  <Cheat Text="最大 Bond 等级 On Gain| All In 队伍">
     <Cheatline>
       <Offset>1DDE597</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>48-0F-4F-D8-48-89-1C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MiniGame| Claw Machine| Infinte Turns">
+  <Cheat Text="MiniGame| Claw 机械生命体| Infinte Turns">
     <Cheatline>
       <Offset>1DDE54C</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>45-89-74-24-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MiniGame| Movie Theatre | Max Score">
+  <Cheat Text="MiniGame| Movie Theatre | 最大 比分">
     <Cheatline>
       <Offset>1DDE55E</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>03-43-38-89-43-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MiniGame| EVocational Tests| Stop Timer">
+  <Cheat Text="MiniGame| EVocational Tests| 停止 计时器">
     <Cheatline>
       <Offset>1DDE56E</Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>C4-C1-7A-11-85-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MiniGame| Dragon Kart| Infinite Ammo">
+  <Cheat Text="MiniGame| 小龙 Kart| 无限弹药">
     <Cheatline>
       <Offset>139D62A</Offset>
       <Section>0</Section>
@@ -125,7 +133,7 @@
       <ValueOff>89-83-04-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MiniGame| Dragon Kart| Max Score">
+  <Cheat Text="MiniGame| 小龙 Kart| 最大 比分">
     <Cheatline>
       <Offset>1DDE5AD</Offset>
       <Section>0</Section>
@@ -139,7 +147,7 @@
       <ValueOff>FF-83-48-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Boost EXP">
+  <Cheat Text="Boost 经验">
     <Cheatline>
       <Offset>1DDE456</Offset>
       <Section>0</Section>
@@ -153,7 +161,7 @@
       <ValueOff>48-01-C6-48-89-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Extra EXP">
+  <Cheat Text="Extra 经验">
     <Cheatline>
       <Offset>1DDE468</Offset>
       <Section>0</Section>
@@ -167,7 +175,7 @@
       <ValueOff>48-01-C6-48-89-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Even More EXP">
+  <Cheat Text="Even More 经验">
     <Cheatline>
       <Offset>1DDE47C</Offset>
       <Section>0</Section>
@@ -181,7 +189,7 @@
       <ValueOff>48-01-C6-48-89-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lots Of EXP">
+  <Cheat Text="Lots Of 经验">
     <Cheatline>
       <Offset>1DDE490</Offset>
       <Section>0</Section>
@@ -195,7 +203,7 @@
       <ValueOff>48-01-C6-48-89-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hella EXP">
+  <Cheat Text="Hella 经验">
     <Cheatline>
       <Offset>1DDE4A4</Offset>
       <Section>0</Section>
@@ -209,7 +217,7 @@
       <ValueOff>48-01-C6-48-89-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="EXP OVERLORD | MAX LEVEL">
+  <Cheat Text="经验 OVERLORD | 等级最大">
     <Cheatline>
       <Offset>1DDE530</Offset>
       <Section>0</Section>
@@ -223,7 +231,7 @@
       <ValueOff>48-01-C6-48-89-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Brand Awareness| Boost Job Points">
+  <Cheat Text="Brand Awareness| Boost Job 得分">
     <Cheatline>
       <Offset>1DDE4CC</Offset>
       <Section>0</Section>
@@ -237,7 +245,7 @@
       <ValueOff>8B-47-04-01-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Retail | Extra Job Points">
+  <Cheat Text="Retail | Extra Job 得分">
     <Cheatline>
       <Offset>1DDE4DB</Offset>
       <Section>0</Section>
@@ -251,7 +259,7 @@
       <ValueOff>8B-47-04-01-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ecommerce | Even More Points">
+  <Cheat Text="Ecommerce | Even More 得分">
     <Cheatline>
       <Offset>1DDE4EC</Offset>
       <Section>0</Section>
@@ -265,7 +273,7 @@
       <ValueOff>8B-47-04-01-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="HR | Lots Of Points">
+  <Cheat Text="猎人等级 | Lots Of 得分">
     <Cheatline>
       <Offset>1DDE4FD</Offset>
       <Section>0</Section>
@@ -279,7 +287,7 @@
       <ValueOff>8B-47-04-01-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enterprise | Hella Points">
+  <Cheat Text="Enterprise | Hella 得分">
     <Cheatline>
       <Offset>1DDE50E</Offset>
       <Section>0</Section>
@@ -293,7 +301,7 @@
       <ValueOff>8B-47-04-01-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Steve Jobs | MAX Job Rank">
+  <Cheat Text="史蒂夫 Jobs | 最大 Job 阶级">
     <Cheatline>
       <Offset>1DDE51F</Offset>
       <Section>0</Section>

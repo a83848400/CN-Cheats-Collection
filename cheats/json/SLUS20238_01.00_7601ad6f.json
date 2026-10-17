@@ -1,12 +1,17 @@
 {
-  "name": "Crash Bandicoot: The Wrath of Cortex",
+  "name": "古惑狼: The Wrath of Cortex",
   "id": "SLUS20238",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincibility-1-Get-mask",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌-1-Get-面具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801A5D9A",
@@ -15,30 +20,30 @@
         },
         {
           "offset": "80801A5D9B",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "80801A5D9C",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Energy-250-Stage-2",
-      "type": "checkbox",
+      "name": "能量-250-Stage-2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80801C30A4",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-lives-99",
-      "type": "checkbox",
+      "name": "无限生命-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080248D30",

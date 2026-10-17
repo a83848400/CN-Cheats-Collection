@@ -1,12 +1,17 @@
 {
-  "name": "Golden Force",
+  "name": "金色 原力",
   "id": "CUSA25791",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Lives",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One Hit Kill ( dont use on boss )",
-      "type": "checkbox",
+      "name": "一击必杀 ( dont use on boss )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7DD6",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Coins ( on gain )",
-      "type": "checkbox",
+      "name": "最大 角落 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7DF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Combo",
-      "type": "checkbox",
+      "name": "最大 Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E03",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Medailles",
-      "type": "checkbox",
+      "name": "最大 Medailles",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E16",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Cokiajs",
-      "type": "checkbox",
+      "name": "最大 Cokiajs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E2C",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Combo Time",
-      "type": "checkbox",
+      "name": "无限连击 Time",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E42",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Mastercode: Infinite Items Time ( after use )",
-      "type": "checkbox",
+      "name": "主代码: 道具无限 Time ( after use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E63",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Infinite Fire Boost Time [MC] ( after use  )",
-      "type": "checkbox",
+      "name": "Infinite 火 Boost Time [MC] ( after use  )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E69",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Infinite Ice Boost Time [MC] ( after use  )",
-      "type": "checkbox",
+      "name": "Infinite Ice Boost Time [MC] ( after use  )｜无限冰霜增益持续时间 [MC]（使用后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E79",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Infinite Invincible Time [MC] ( after use  )",
-      "type": "checkbox",
+      "name": "Infinite 无敌 Time [MC] ( after use  )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E89",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "Infinite Attack Boost Time [MC] ( after use  )",
-      "type": "checkbox",
+      "name": "Infinite 攻击 Boost Time [MC] ( after use  )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E99",
@@ -177,8 +182,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7E50",

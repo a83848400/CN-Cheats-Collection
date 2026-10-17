@@ -1,13 +1,18 @@
 {
-  "name": "Black Skylands",
+  "name": "黑色 Skylands",
   "id": "CUSA40851",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81771185",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Life Boat",
+      "name": "无限生命 船",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Fuel",
+      "name": "燃料无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F048",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F077",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Inf Bombs and Items from Boat",
+      "name": "无限炸弹 and Items from 船",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0F0",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F124",
