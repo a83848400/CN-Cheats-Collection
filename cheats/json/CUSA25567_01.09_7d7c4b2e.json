@@ -1,12 +1,17 @@
 {
-  "name": "Necromunda: Hired Gun",
+  "name": "Necromunda: Hired Gun｜《内克罗蒙达：雇佣兵》",
   "id": "CUSA25567",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health+Armor (Enable Only When Start A Mission)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命+Armor (Enable Only When Start A Mission)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68DFDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stimms On Use (You Don't Die)",
-      "type": "checkbox",
+      "name": "Infinite Stimms On Use (You Don'恐怖分子 Die)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68DFA20",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Medkits On Use",
-      "type": "checkbox",
+      "name": "无限医疗包 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68DFA40",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13B0CF2",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13FAD73",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14430CA",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "No Wasting Time To Use Mastiff",
-      "type": "checkbox",
+      "name": "No Wasting Time To Use Mastiff｜别再浪费时间，赶紧用Mastiff吧",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68DF990",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money",
-      "type": "checkbox",
+      "name": "最大/金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68DFB60",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinite Take down",
-      "type": "checkbox",
+      "name": "Infinite Take down｜无限击倒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "68DF6B0",

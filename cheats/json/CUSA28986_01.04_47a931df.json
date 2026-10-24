@@ -1,0 +1,28 @@
+{
+  "name": "Fatal Frame: Maiden of 黑色 水",
+  "id": "CUSA28986",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "得分 999999",
+      "type": "checkbox｜复选框",
+      "description": "Define 得分 as 999999 (activate once; active again to replenish).",
+      "memory": [
+        {
+          "offset": "1EE0898",
+          "on": "3F420F00",
+          "off": "3F420F00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "phantomsystem"
+  ]
+}

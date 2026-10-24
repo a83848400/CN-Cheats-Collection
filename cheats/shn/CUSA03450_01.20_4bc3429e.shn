@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fallout 4" Moder="Talixme/Weysincha" Cusa="CUSA03450" Version="01.20" Process="eboot.bin">
   <Items />
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>AB7D26</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>89-D3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Item Each use (Use and deactivate)">
+  <Cheat Text="x2 物品 Each use (Use and deactivate)">
     <Cheatline>
       <Offset>109491</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>89-4A-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="256 Skill Points (After one use)">
+  <Cheat Text="256 Skill 得分 (After one use)">
     <Cheatline>
       <Offset>AF5D21</Offset>
       <Section>0</Section>

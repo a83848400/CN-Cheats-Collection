@@ -1,12 +1,17 @@
 {
-  "name": "Watch Dogs 2",
+  "name": "看门狗 2",
   "id": "CUSA04294",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F8FF9C",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Botnet",
-      "type": "checkbox",
+      "name": "无限僵尸网络",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E4E3CE",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Research Points",
-      "type": "checkbox",
+      "name": "Infinite 研究点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186662A",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1381275",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Money (On Spend)",
-      "type": "checkbox",
+      "name": "金钱最大 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F8FD60",

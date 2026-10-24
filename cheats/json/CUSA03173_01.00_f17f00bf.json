@@ -1,12 +1,17 @@
 {
-  "name": "Bloodborne: Game of the Year Edition",
+  "name": "血源诅咒: Game of the Year Edition",
   "id": "CUSA03173",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A0D894",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A29C55",

@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy VII Remake",
+  "name": "最终幻想 VII Remake",
   "id": "CUSA07211",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Quick Level Up",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Quick 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EAE73F",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Level After Battle",
-      "type": "checkbox",
+      "name": "等级最大 After 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EAE73F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite HP",
-      "type": "checkbox",
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E343C1",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E346C8",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite ATB",
-      "type": "checkbox",
+      "name": "Infinite 主动时间战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E34146",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Full+Infinte ATB",
-      "type": "checkbox",
+      "name": "Full+Infinte 主动时间战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFFFFFFFFFC04000",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Gil",
-      "type": "checkbox",
+      "name": "Infinite Gil｜无限金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90CEA",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Infinite Items On Sell | Works on Key Items",
-      "type": "checkbox",
+      "name": "道具无限 On Sell | Works on 钥匙 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F88",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Gain Items on Sell | Works on Key Items",
-      "type": "checkbox",
+      "name": "Gain Items on Sell | Works on 钥匙 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F7B",
@@ -109,8 +114,8 @@
       ]
     },
     {
-      "name": "Infinite Moogle Medals | Turn Off When You're Done",
-      "type": "checkbox",
+      "name": "Infinite 莫古力 Medals | 回合 Off When You're Done",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F88",
@@ -120,8 +125,8 @@
       ]
     },
     {
-      "name": "Doubles Moogle Medals On Spend | Turn Off When You're Done",
-      "type": "checkbox",
+      "name": "双打 莫古力 Medals On Spend | 回合 Off When You're Done",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F88",
@@ -131,8 +136,8 @@
       ]
     },
     {
-      "name": "Max Moogle Medals On Spend | Turn Off When You're Done ",
-      "type": "checkbox",
+      "name": "最大 莫古力 Medals On Spend | 回合 Off When You're Done ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F7E",

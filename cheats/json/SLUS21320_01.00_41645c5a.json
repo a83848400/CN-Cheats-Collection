@@ -1,17 +1,22 @@
 {
-  "name": "Rogue Trooper",
+  "name": "潜行者 Trooper",
   "id": "SLUS21320",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8081A11F2E",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "8081A11F2F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite-Items/Grenades",
-      "type": "checkbox",
+      "name": "Infinite-Items/Grenades｜无限道具/手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE7CD60",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite-Supplies",
-      "type": "checkbox",
+      "name": "Infinite-军粮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808094D837",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Never-Reload-Shotgun-ALL",
-      "type": "checkbox",
+      "name": "无需重新加载-霰弹枪-ALL",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFA3158",

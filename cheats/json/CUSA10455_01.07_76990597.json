@@ -1,13 +1,18 @@
 {
-  "name": "Borderlands: Game of the Year Edition",
+  "name": "无主之地: Game of the Year Edition",
   "id": "CUSA10455",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "Activate only one option",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "Activate only one option｜仅勾选一个选项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "--Inf_Ammo",
+      "name": "--无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B099",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "--Inf_Life_and_Ammo",
+      "name": "--无限生命和弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B0A1",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "--Infinite_Life",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B091",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B0C9",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Easy Money",
+      "name": "简单 金钱",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B10C",
@@ -92,9 +97,9 @@
       ]
     },
     {
-      "name": "Inf Money Shopping",
+      "name": "金钱无限 Shopping",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B13C",
@@ -109,9 +114,9 @@
       ]
     },
     {
-      "name": "Inf Exp Points",
+      "name": "无限经验 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B16C",
@@ -126,9 +131,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B19C",
@@ -143,9 +148,9 @@
       ]
     },
     {
-      "name": "--Max exp",
+      "name": "--经验值最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E6B1B1",

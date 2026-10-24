@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA28863",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Heath",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无垠荒原",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39CBDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Health+1 Hit Kill",
-      "type": "checkbox",
+      "name": "最大/无限生命+一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39CBDB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Magic",
-      "type": "checkbox",
+      "name": "最大/Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39CBA50",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Stamina",
-      "type": "checkbox",
+      "name": "最大/无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39CBBC0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Items/Potions/Arrows (On Pick Up/x2 To Work)",
-      "type": "checkbox",
+      "name": "最大/道具无限/Potions/Arrows (On 拾取/x2 To Work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39CB930",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Runes On Start",
-      "type": "checkbox",
+      "name": "最大/符文无限 On Start",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "39CBC90",

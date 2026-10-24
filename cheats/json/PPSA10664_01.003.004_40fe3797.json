@@ -1,13 +1,18 @@
 {
-  "name": "Final Fantasy XVI",
+  "name": "最终幻想 XVI",
   "id": "PPSA10664",
   "version": "01.003.004",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP & One Hit kill",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 & 一击必杀",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1557000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf HP",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1557049",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B64B59",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "155708D",

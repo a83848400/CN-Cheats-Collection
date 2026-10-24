@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Cyber Shadow" Moder="Ali-mk" Cusa="CUSA24216" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="invisible to all things (MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="不可见 to all things (MC)">
     <Cheatline>
       <Offset>9B87DD</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E8-C2-18-67-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max-Coins">
+  <Cheat Text="最大-角落">
     <Cheatline>
       <Offset>15AE44</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C4-C1-7B-11-96-38-27-0B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-All-Weapon-SP">
+  <Cheat Text="无限全武器-精神值">
     <Cheatline>
       <Offset>1168213</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>C4-C1-7B-11-85-58-27-0B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health to all things (MC)">
+  <Cheat Text="Infinite-生命 to all things (MC)">
     <Cheatline>
       <Offset>9B274B</Offset>
       <Section>0</Section>

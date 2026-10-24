@@ -1,16 +1,21 @@
 {
-  "name": "Xena: Warrior Princess",
+  "name": "Xena: 战士 Princess",
   "id": "SLUS00977",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11DBDA",
-          "on": "6F",
+          "on": "6F｜6 F",
           "off": "65"
         }
       ]

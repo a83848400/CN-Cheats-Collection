@@ -1,12 +1,17 @@
 {
-  "name": "Minecraft: PlayStation 4 Edition",
+  "name": "我的世界: PlayStation 4 Edition",
   "id": "CUSA00283",
   "version": "02.35",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[\uF8EE]\uF8F9 Reach 14 Attack & Blocks",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[] Reach 14 攻击 & Blocks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6C19254",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Unfair Attack ",
-      "type": "checkbox",
+      "name": "[] Unfair 攻击 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6C1957C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Rapid Hit & Fast Place",
-      "type": "checkbox",
+      "name": "[] Rapid Hit & Fast Place｜[] 快速击中与快速放置",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6A19FB2",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Hidden Attack",
-      "type": "checkbox",
+      "name": "[] Hidden 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5A6FE60",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Player Speed x2 & Low Gravity ",
-      "type": "checkbox",
+      "name": "[] 玩家速度×2 & 低重力 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24FBD7A",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Velocity Off XYZ",
-      "type": "checkbox",
+      "name": "[] Velocity Off XYZ｜[] XYZ 方向速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2607aa0",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Forward jump x4",
-      "type": "checkbox",
+      "name": "[] Forward 跳跃×4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6C18D88",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Multi jump",
-      "type": "checkbox",
+      "name": "[] Multi jump｜[] 多跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8B63000",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Zero Gravity & Speed",
-      "type": "checkbox",
+      "name": "[] 杰洛 Gravity & 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24FBD7A",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Smooth Walk",
-      "type": "checkbox",
+      "name": "[] Smooth Walk｜[] 轻松漫步",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2032444",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Fast Break",
-      "type": "checkbox",
+      "name": "[] 快攻",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6C175f4",
@@ -161,8 +166,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 No Fog",
-      "type": "checkbox",
+      "name": "[] No Fog",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "06C1DFCC",
@@ -172,8 +177,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Critical attack(Host Only)",
-      "type": "checkbox",
+      "name": "[] 暴击 攻击(Host Only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FEBF51",
@@ -181,15 +186,15 @@
           "off": "762D"
         },
         {
-          "offset": "0x1FEBF5B",
+          "offset": "0x1FEBF5B｜黎明时分天空的颜色",
           "on": "9090",
           "off": "7521"
         }
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 One Punchman(Host Only)",
-      "type": "checkbox",
+      "name": "[] One Punchman(Host Only)｜[] 《一拳超人》（仅限主持人）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "06C17390",
@@ -199,8 +204,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Change Specified Color To Red",
-      "type": "checkbox",
+      "name": "[] Change Specified Color To Red｜[] 将指定颜色更改为红色",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9489590",
@@ -210,8 +215,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Change Specified Color To Green",
-      "type": "checkbox",
+      "name": "[] Change Specified Color To Green｜[] 将指定颜色更改为绿色",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9489594",
@@ -221,8 +226,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Change Specified Color To Blue",
-      "type": "checkbox",
+      "name": "[] Change Specified Color To Blue｜[] 将指定颜色更改为蓝色",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9489598",
@@ -232,8 +237,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Set Entity Color Aqua",
-      "type": "checkbox",
+      "name": "[] Set Entity Color Aqua｜[] 将实体颜色设置为水蓝色",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9489620",
@@ -243,8 +248,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8F9 Show Dev Strings",
-      "type": "checkbox",
+      "name": "[] Show Dev Strings｜[] 显示开发字符串",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12ae8da",
@@ -254,8 +259,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8EF Change Minecraft Platform Xbox/One/X/S",
-      "type": "checkbox",
+      "name": "[] Change 我的世界 Platform Xbox/One/艾克斯/S",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34E5AC0",
@@ -270,8 +275,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8EF Bypass Signin",
-      "type": "checkbox",
+      "name": "[] Bypass Signin｜[] 跳过登录",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6d0f54",
@@ -291,8 +296,8 @@
       ]
     },
     {
-      "name": "[\uF8EE]\uF8EF Enable LAN Play",
-      "type": "checkbox",
+      "name": "[] Enable LAN Play｜[] 启用局域网游戏",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34E2620",

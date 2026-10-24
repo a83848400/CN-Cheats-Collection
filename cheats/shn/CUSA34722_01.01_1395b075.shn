@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Scars Above" Moder="Celogamez" Cusa="CUSA34722" Version="01.01" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>103970F</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-9C-4B-FC-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>68E3E70</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>C4-A1-7A-11-44-20-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Battery/No Toxicity (MASTERCODE/MUST BE ON)">
+  <Cheat Text="Infinite 电池/无毒性 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>68E3E90</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>C4-A1-7A-11-44-20-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Battery">
+  <Cheat Text="Infinite 电池">
     <Cheatline>
       <Offset>68E3E96</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C4-A1-7A-11-44-20-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Toxicity">
+  <Cheat Text="No Toxicity｜无毒性">
     <Cheatline>
       <Offset>68E3EB4</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C4-A1-7A-11-44-20-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>112AC76</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>41-FF-8D-C0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo/Consumables/Fibers On Pick">
+  <Cheat Text="弹药最大化/Consumables/Fibers On Pick">
     <Cheatline>
       <Offset>68E3350</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>48-89-85-68-FD-FF-FF-44-89-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/Consumables/Skill Points On USe">
+  <Cheat Text="无限弹药/Consumables/Skill 得分 On USe">
     <Cheatline>
       <Offset>68E3300</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>44-29-D8-41-89-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>7FC5FB10</Offset>
       <Section>0</Section>

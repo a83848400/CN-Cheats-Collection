@@ -1,13 +1,18 @@
 {
-  "name": "Dredge",
+  "name": "Dredge｜挖泥船",
   "id": "CUSA35761",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "For the \"Easy Money\" code to work, activate it only when selling. If you travel with it on, years will pass.Activate Stop time OR Easy Money.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "For the \"简单 金钱\" 密码 to work, activate it only when selling. If you 旅行 with it on, years 意志 pass.Activate 停止 time OR 简单 金钱.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EFFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "No Damage",
+      "name": "No Damage｜不受伤害",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Stop Time Clock",
-      "description": "Desactivate Selling.",
-      "type": "checkbox",
+      "name": "停止 Time Clock",
+      "description": "Desactivate Selling.｜停用销售功能。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8685A0C2",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Easy Money",
-      "description": "IMPORTANT ONLY ACTIVATE AT THE MOMENT OF SELLING,later desactivate.",
-      "type": "checkbox",
+      "name": "简单 金钱",
+      "description": "IMPORTANT ONLY ACTIVATE AT THE MOMENT OF SELLING,later desactivate.｜重要提示：请仅在出售时激活，之后请取消激活。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8685A0C2",

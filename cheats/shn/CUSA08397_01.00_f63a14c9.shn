@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon Quest XI: Echoes of an Elusive Age" Moder="cjwine" Cusa="CUSA08397" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="god mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="god mode｜神模式">
     <Cheatline>
       <Offset>6AEF800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-0F-4D-DE-41-89-5F-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="money max">
+  <Cheat Text="money max｜金钱最大">
     <Cheatline>
       <Offset>6AEF81F</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>7C-04-41-89-45-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="one hit kill">
+  <Cheat Text="one hit kill｜一击必杀">
     <Cheatline>
       <Offset>6AEF833</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>29-D8-44-29-EB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf mp">
+  <Cheat Text="无限魔力">
     <Cheatline>
       <Offset>F36211</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>41-89-46-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max lv99">
+  <Cheat Text="最大 lv99">
     <Cheatline>
       <Offset>6AEF853</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>44-89-AB-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="add point after used">
+  <Cheat Text="add point after used｜使用后添加点">
     <Cheatline>
       <Offset>1025302</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>41-89-95-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="item buy get max">
+  <Cheat Text="物品 buy get 最大">
     <Cheatline>
       <Offset>6AEF865</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>41-89-D6-41-89-51-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="item  used get more">
+  <Cheat Text="物品  used get more">
     <Cheatline>
       <Offset>6AEF875</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>44-0F-4D-F2-41-89-45-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="SPPED UP">
+  <Cheat Text="SPPED UP｜加速">
     <Cheatline>
       <Offset>6AEF887</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>C5-F8-10-96-80-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="fly to sky (wall pass)">
+  <Cheat Text="飞行 to 光·遇 (wall pass)">
     <Cheatline>
       <Offset>6AEF8A7</Offset>
       <Section>0</Section>

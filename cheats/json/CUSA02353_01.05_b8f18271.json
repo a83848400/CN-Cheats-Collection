@@ -1,12 +1,17 @@
 {
-  "name": "Salt and Sanctuary",
+  "name": "盐 and Sanctuary",
   "id": "CUSA02353",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BC5B4",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina / Focus",
-      "type": "checkbox",
+      "name": "无限耐力 / 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BBC80",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables / Consumables (On Use)",
-      "type": "checkbox",
+      "name": "投掷物无限 / Consumables (On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4F900",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Max Salt (On Spend)",
-      "type": "checkbox",
+      "name": "最大 盐 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4FC00",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Max Gold (On Spend)",
-      "type": "checkbox",
+      "name": "金币最大 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4FA00",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Black Pearl (On Spend)",
-      "type": "checkbox",
+      "name": "Infinite 黑色 Pearl (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "65C5B3",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "Infinite Upgrade Materials (On Spend)",
-      "type": "checkbox",
+      "name": "Infinite Upgrade Materials (On Spend)｜无限升级材料（消费时获取）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D4F800",

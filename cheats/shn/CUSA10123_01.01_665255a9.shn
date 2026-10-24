@@ -5,7 +5,15 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>34DF80C</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>BE-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Ship">
+  <Cheat Text="无限生命 Ship">
     <Cheatline>
       <Offset>21ED02C</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C5-FA-11-80-48-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Pick">
+  <Cheat Text="Max Money on Pick｜拾取金钱最大化">
     <Cheatline>
       <Offset>2549CE0</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>41-89-4C-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money/Items">
+  <Cheat Text="金钱无限/Items">
     <Cheatline>
       <Offset>2549FF8</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>41-89-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Resources on Pick">
+  <Cheat Text="最大 Resources on Pick">
     <Cheatline>
       <Offset>34DF800</Offset>
       <Section>0</Section>

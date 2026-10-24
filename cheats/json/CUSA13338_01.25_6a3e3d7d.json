@@ -1,12 +1,17 @@
 {
-  "name": "DOOM Eternal",
+  "name": "毁灭战士 Eternal",
   "id": "CUSA13338",
   "version": "01.25",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Shield",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/盾牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357E80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Lives On Gain",
-      "type": "checkbox",
+      "name": "最大/无限生命 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357CE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload/Fuel",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹/Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357DF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Dash",
-      "type": "checkbox",
+      "name": "Infinite Dash｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357DB0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Radiation/Dive Suit",
-      "type": "checkbox",
+      "name": "Infinite Radiation/潜水 战衣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357D60",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357ED0",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Infinite Flame Belch",
-      "type": "checkbox",
+      "name": "Infinite Flame Belch｜无尽火焰喷涌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357EF0",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Infinite Blood Punch",
-      "type": "checkbox",
+      "name": "无尽之血 Punch",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357F50",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "Infinite Crucible Sword",
-      "type": "checkbox",
+      "name": "Infinite Crucible 剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357BF0",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Infinite Sentinel Hammer",
-      "type": "checkbox",
+      "name": "Infinite Sentinel 锤",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357F10",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "Infinite Jumps",
-      "type": "checkbox",
+      "name": "Infinite Jumps｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33578E0",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Max/Inf Weapons/Praetorian Points/Mastery Tokens/Sentinel Batteries",
-      "type": "checkbox",
+      "name": "最大/Infinite 武器/Praetorian 得分/Mastery Tokens/Sentinel 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3357EB0",

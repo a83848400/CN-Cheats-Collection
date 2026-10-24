@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>17986AE</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>C5-FA-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Resistance">
+  <Cheat Text="Max Resistance｜抗性最大">
     <Cheatline>
       <Offset>17A1FE6</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>C4-C1-7A-11-8C-24-04-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Resistance walking wather">
+  <Cheat Text="无限阻力步行水">
     <Cheatline>
       <Offset>17A53FD</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C4-C1-7A-11-84-24-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Hold Air">
+  <Cheat Text="Infinite 领地 Air">
     <Cheatline>
       <Offset>17A41A4</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>C4-C1-7A-11-84-24-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Water">
+  <Cheat Text="水无限">
     <Cheatline>
       <Offset>1849599</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-48-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Boots durability">
+  <Cheat Text="Infinite 靴子 耐用性">
     <Cheatline>
       <Offset>17A6FE6</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C4-C1-7A-11-8D-0C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Resin">
+  <Cheat Text="无限树脂">
     <Cheatline>
       <Offset>2C6AB78</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>48-89-48-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Metal">
+  <Cheat Text="Infinite 金属">
     <Cheatline>
       <Offset>2C6AB96</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>48-89-48-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Crystals">
+  <Cheat Text="水晶无限">
     <Cheatline>
       <Offset>2C6AB5A</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>48-89-48-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Energy vehicules">
+  <Cheat Text="无限能量 vehicules">
     <Cheatline>
       <Offset>28AB4B3</Offset>
       <Section>0</Section>

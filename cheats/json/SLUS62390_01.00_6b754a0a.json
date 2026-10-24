@@ -1,12 +1,17 @@
 {
-  "name": "Super Mario -64",
+  "name": "Super 马力欧 -64",
   "id": "SLUS62390",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max-GOLD",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大-金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080AF2040",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf-Energy",
-      "type": "checkbox",
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080AF2047",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Invincible",
-      "type": "checkbox",
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080AF1FBF",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080AF2045",

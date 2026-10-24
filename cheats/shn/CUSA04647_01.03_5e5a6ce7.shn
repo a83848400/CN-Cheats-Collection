@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="World of Final Fantasy" Moder="GamerX2" Cusa="CUSA04647" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>1F44D8</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-8E-48-7F-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Buy/Sell">
+  <Cheat Text="金钱最大 on Buy/Sell">
     <Cheatline>
       <Offset>233F800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-89-8E-48-7F-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>31942A</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>89-48-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Use/Sell| Turn Off When Done ">
+  <Cheat Text="最大 Items on Use/Sell| 回合 Off When Done ">
     <Cheatline>
       <Offset>233F800</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>89-48-04-85-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items | Battle ">
+  <Cheat Text="道具无限 | 战斗 ">
     <Cheatline>
       <Offset>1C3F7</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>89-50-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max SP On Spend">
+  <Cheat Text="最大 精神值 On Spend">
     <Cheatline>
       <Offset>233F800</Offset>
       <Section>0</Section>

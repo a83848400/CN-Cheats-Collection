@@ -1,12 +1,17 @@
 {
-  "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+  "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge｜《忍者龟：施莱德的复仇》",
   "id": "CUSA30991",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + 99 lives (master code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 99 lives (master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4FAF000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Super Attack (need MC)",
-      "type": "checkbox",
+      "name": "无限超级 攻击 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4FAF03B",

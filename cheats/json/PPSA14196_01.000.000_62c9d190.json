@@ -1,13 +1,18 @@
 {
-  "name": "Sker Ritual",
+  "name": "Sker 仪式",
   "id": "PPSA14196",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF00",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF00",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF01",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB054",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80564A67",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB084",
@@ -107,9 +112,9 @@
       ]
     },
     {
-      "name": "Inf Wishes",
+      "name": "无尽的愿望",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB0B4",

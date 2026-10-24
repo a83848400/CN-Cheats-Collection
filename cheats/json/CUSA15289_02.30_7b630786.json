@@ -1,12 +1,17 @@
 {
-  "name": "Slay the Spire",
+  "name": "狩猎 the Spire",
   "id": "CUSA15289",
   "version": "02.30",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Shield (  must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 盾牌 (  must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36DB817",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max HP",
-      "type": "checkbox",
+      "name": "Max HP｜生命值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36DBDB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Energy",
-      "type": "checkbox",
+      "name": "最大 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36DB800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Shield [ MC ]",
-      "type": "checkbox",
+      "name": "无限护盾 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36DB81D",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Zero Shield Enemies [ MC ]",
-      "type": "checkbox",
+      "name": "杰洛 盾牌 Enemies [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36DB82A",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36DBDE1",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36DBDF5",

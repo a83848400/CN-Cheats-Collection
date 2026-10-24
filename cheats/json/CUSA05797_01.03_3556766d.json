@@ -1,12 +1,17 @@
 {
-  "name": "Toukiden 2",
+  "name": "讨鬼传 2",
   "id": "CUSA05797",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Stam",
-      "type": "checkbox",
+      "name": "无限斯塔姆",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7F822",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Money (On Buy)",
-      "type": "checkbox",
+      "name": "金钱无限 (On Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7F841",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Items (On Sell need 2+)",
-      "type": "checkbox",
+      "name": "道具无限 (On Sell need 2+)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D7F852",

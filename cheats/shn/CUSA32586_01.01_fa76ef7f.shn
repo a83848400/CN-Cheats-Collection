@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Wonder Boy Anniversary Collection" Moder="Wander FW9.00" Cusa="CUSA32586" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Master code" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Master 密码" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>502050</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>40-88-34-07-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="wonder boy in monster land Infinite Health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 boy in 妖兽 领土 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>50206A</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>0F-84-9D-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="wonder boy in monster land Infinite bomb" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 boy in 妖兽 领土 无限炸弹" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>502084</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>0F-84-83-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="wonder boy in monster land Infinite Turnado" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 boy in 妖兽 领土 Infinite Turnado" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>502091</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>74-7A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="wonder boy in monster land Infinite Fire ball" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 boy in 妖兽 领土 Infinite 火 ball" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5020A3</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>74-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="wonder boy in monster land Infinite Thunder" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 boy in 妖兽 领土 Infinite Thunder" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>50209A</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>74-71</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wonder Boy Infinite Health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 Boy 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>50205D</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>0F-84-AA-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wonder Boy Infinite Lives" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 Boy 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5020BE</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>74-4D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code for Monster Lair/monster world III/IV" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Master 密码 for 妖兽 Lair/妖兽 world III/个体值" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5031A0</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>44-88-34-08-5B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="WonderBoy Monster Lair Infinite Health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="WonderBoy 妖兽 Lair 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5031D7</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>74-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Monster Lair Infinite Lives" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="妖兽 Lair 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5031CE</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>74-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wonder Boy in Monster World III Infinite health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 Boy in 妖兽 World III 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5031AD</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>74-45</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wonder boy in Monster World IV Max Crystals" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 boy in 妖兽 World 个体值 水晶最大" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5031C5</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>74-2D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Wonder Boy in Monster World IV infinite Health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="奇观 Boy in 妖兽 World 个体值 无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>5031BC</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>74-36</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Monster World II Infinite health (No need a Master Code)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="妖兽 World II 无限生命 (No need a Master 密码)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>502D40</Offset>
       <Section>0</Section>

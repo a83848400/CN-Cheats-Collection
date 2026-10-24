@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Legend of Heroes: Trails into Reverie" Moder="Wander FW9.00" Cusa="CUSA28907" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3E920</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-9C-24-14-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite EP">
+  <Cheat Text="Infinite EP｜《Infinite》EP">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3F730</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>66-89-8B-1C-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite CP">
+  <Cheat Text="Infinite CP｜无限CP">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3F9B0</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>66-89-8B-20-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Level up">
+  <Cheat Text="Fast 升级">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3F310</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>41-89-86-64-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Quarz Level up">
+  <Cheat Text="Fast Quarz 升级">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3F010</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>89-83-6C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mira (on spend)">
+  <Cheat Text="最大 Mira (on spend)">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3F650</Offset>
@@ -86,7 +94,7 @@
       <ValueOff>89-88-40-F6-7A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Exchange Items (in spend)">
+  <Cheat Text="最大 Exchange Items (in spend)">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3F530</Offset>
@@ -100,7 +108,7 @@
       <ValueOff>89-B4-88-A0-F5-7A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items (In battle have 2)">
+  <Cheat Text="道具无限 (In 战斗 have 2)">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3F1D0</Offset>
@@ -114,7 +122,7 @@
       <ValueOff>89-01-45-84-F6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Purple Shards (on spent in the Corridor)">
+  <Cheat Text="最大 Purple Shards (已用 in the Corridor)">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3E680</Offset>
@@ -128,7 +136,7 @@
       <ValueOff>89-01-45-84-F6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max U Materials (on spend)" Description="turn off after getting the max U Materials">
+  <Cheat Text="最大 U Materials (on spend)" Description="turn off after getting the max U Materials">
     <Cheatline>
       <Section>0</Section>
       <Offset>F3EA70</Offset>

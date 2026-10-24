@@ -1,12 +1,17 @@
 {
-  "name": "7 Days to Die",
+  "name": "7 Days to Die｜《7天求生》",
   "id": "CUSA03455",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "804a60fb",

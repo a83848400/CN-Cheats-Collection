@@ -1,12 +1,17 @@
 {
-  "name": "Ace Combat 7: Skies Unknown",
+  "name": "皇牌空战 7: Skies 未知",
   "id": "CUSA05636",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4ECEAA0",

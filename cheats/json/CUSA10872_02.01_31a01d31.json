@@ -1,12 +1,17 @@
 {
-  "name": "Shadow of the Tomb Raider",
+  "name": "暗影 of the 古墓丽影",
   "id": "CUSA10872",
   "version": "02.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BEB6",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health + One Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 + 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BEDB",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BDD5",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Ammo",
-      "type": "checkbox",
+      "name": "Max Ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BDB0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BDFA",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Potion",
-      "type": "checkbox",
+      "name": "Max Potion｜秘药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BE4E",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BE63",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Skillpoints",
-      "type": "checkbox",
+      "name": "最大 技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BE17",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BDE5",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Max XP ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BE90",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "XP Multiplier ( x 10 )",
-      "type": "checkbox",
+      "name": "经验值倍率 ( 艾克斯 10 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BEA5",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Max Score ( Challenge )",
-      "type": "checkbox",
+      "name": "最大 比分 ( Challenge )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183BE38",

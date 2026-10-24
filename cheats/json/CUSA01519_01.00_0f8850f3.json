@@ -1,12 +1,17 @@
 {
-  "name": "LEGO Jurassic World",
+  "name": "LEGO Jurassic World｜乐高《侏罗纪世界》",
   "id": "CUSA01519",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Hearts",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DBBDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Studs ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Studs ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DBBDD9",

@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA28863",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (master code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2321",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite FP + Max (need MC)",
-      "type": "checkbox",
+      "name": "Infinite 专注值 + 最大 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA234A",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina + Max (need MC)",
-      "type": "checkbox",
+      "name": "无限耐力 + 最大 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2356",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Items 99",
-      "type": "checkbox",
+      "name": "Items 99｜商品 99 件",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA23A0",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "99 Stats",
-      "type": "checkbox",
+      "name": "99 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA23B8",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "999m Runes",
-      "type": "checkbox",
+      "name": "999m 铭文",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA23E8",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Kill all in Area (include NPC / single cheat)",
-      "type": "checkbox",
+      "name": "杀光所有 in Area (include 非玩家角色 / single cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2400",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Enemy HP 1 (single cheat)",
-      "type": "checkbox",
+      "name": "Enemy 手机 1 (single cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA2400",

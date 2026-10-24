@@ -1,12 +1,17 @@
 {
-  "name": "New Super Lucky's Tale",
+  "name": "New Super Lucky's Tale｜《新·超级幸运儿的故事》",
   "id": "CUSA20302",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Coins/Lives ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mastercode Coins/Lives ( must be activated )｜主代码金币/生命值（必须激活）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "Max Coins ( on gain ) [MC]",
-      "type": "checkbox",
+      "name": "最大 角落 ( on gain ) [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -35,8 +40,8 @@
       ]
     },
     {
-      "name": "Max Lives [MC]",
-      "type": "checkbox",
+      "name": "最大 Lives [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Infinite Hearts",
-      "type": "checkbox",
+      "name": "Infinite 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1583E00",

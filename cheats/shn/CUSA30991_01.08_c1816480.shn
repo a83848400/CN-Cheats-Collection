@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Teenage Mutant Ninja Turtles: Shredder's Revenge" Moder="d01v" Cusa="CUSA30991" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>59DF800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>85-C0-0F-9E-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="credits 99" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="credits 99｜学分 99" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>59DF870</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>C5-DA-2A-C0-48-89-DF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Super Atack" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="无限超级 Atack" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>59DF8F0</Offset>

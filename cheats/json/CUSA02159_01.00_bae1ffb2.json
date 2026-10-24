@@ -1,12 +1,17 @@
 {
-  "name": "Onechanbara Z2: Chaos",
+  "name": "Onechanbara Z2: 混沌",
   "id": "CUSA02159",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B40FD",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Blood Bar (No Refill)",
-      "type": "checkbox",
+      "name": "Blood Bar (No Refill)｜“血吧”（不续杯）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B422B",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Energy Bar",
-      "type": "checkbox",
+      "name": "无限能量 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63E200",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Blood On Weapon",
-      "type": "checkbox",
+      "name": "No Blood On Weapon｜武器上没有血迹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3F22",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Orbs",
-      "type": "checkbox",
+      "name": "最大 Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63E230",

@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Unity",
+  "name": "刺客信条 Unity",
   "id": "CUSA00605",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Cooldown Eagle-Vision",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无冷却 Eagle-视野",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A66CFA",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CEE39E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26502EF",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Money, Items, Credo Points",
-      "type": "checkbox",
+      "name": "金钱无限, Items, Credo 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2646667",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Instant Max XP",
-      "type": "checkbox",
+      "name": "Instant 最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27ACABD",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max on Pick: Money, Items, Credo Points",
-      "type": "checkbox",
+      "name": "最大 on Pick: 金钱, Items, Credo 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26460E2",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Max Skillpoints",
-      "type": "checkbox",
+      "name": "最大 技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "514BEF0",

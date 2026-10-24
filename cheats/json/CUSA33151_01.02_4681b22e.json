@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Mirage",
+  "name": "Assassin's Creed Mirage｜刺客信条：幻景",
   "id": "CUSA33151",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FE30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1Hit kill",
-      "type": "checkbox",
+      "name": "1Hit kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FDE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (Basim)",
-      "type": "checkbox",
+      "name": "无限耐力 (Basim)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FDA2",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FEE0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Focus use",
-      "type": "checkbox",
+      "name": "无限专注值 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FF70",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Mount Infinite Stamina",
-      "type": "checkbox",
+      "name": "Mount Infinite Stamina｜坐骑耐力无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FF20",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Skill Points (on Gain)keep the cheat on ",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 (on Gain)keep the cheat on ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FFB0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Dirhams/Tokens/Tools/Resources(on use/spend)",
-      "type": "checkbox",
+      "name": "最大 Dirhams/Tokens/Tools/Resources(on use/spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666FE70",

@@ -1,12 +1,17 @@
 {
-  "name": "Dishonored: Definitive Edition",
+  "name": "Dishonored: Definitive Edition｜《耻辱：终极版》",
   "id": "CUSA02231",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16B18C",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88C205",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8CC0DA",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88C076",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D7ADB",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88CE85",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Runes Code",
-      "type": "checkbox",
+      "name": "铭文 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CB0730",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mickey Storm and the Cursed Mask" Moder="Reddevil82 - FW 9.00" Cusa="CUSA25924" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>18D7DF2</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Blue Lightning ( on gain )">
+  <Cheat Text="最大 Blue 闪电 ( on gain )">
     <Cheatline>
       <Offset>18D7DCA</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>8B-4C-24-F4-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Hearts - Battery ( on gain )">
+  <Cheat Text="最大 心 - 电池 ( on gain )">
     <Cheatline>
       <Offset>18D7DE0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8B-4C-24-F4-89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer">
+  <Cheat Text="Freeze 计时器">
     <Cheatline>
       <Offset>18D7DB0</Offset>
       <Section>0</Section>

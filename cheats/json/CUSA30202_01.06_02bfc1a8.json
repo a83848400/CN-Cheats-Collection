@@ -1,12 +1,17 @@
 {
-  "name": "Sifu",
+  "name": "Sifu｜大师",
   "id": "CUSA30202",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Experience and Score (causes aging)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Experience and 比分 (causes aging)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE70",

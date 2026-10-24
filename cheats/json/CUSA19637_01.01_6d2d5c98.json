@@ -1,12 +1,17 @@
 {
-  "name": "The Legend of Heroes: Trails of Cold Steel IV",
+  "name": "The 传奇 of Heroes: Trails of Cold Steel 个体值",
   "id": "CUSA19637",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Sephit",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Sephit｜坑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3175E8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Item",
-      "type": "checkbox",
+      "name": "Item｜物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "30FDD3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Item1",
-      "type": "checkbox",
+      "name": "Item1｜另外，第一项。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "30FCF8",

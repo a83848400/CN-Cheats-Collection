@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Marvel's Spider-Man" Moder="M3hdi PS" Cusa="CUSA11995" Version="01.17" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>3BEF85F</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-89-DF-89-43-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Focus">
+  <Cheat Text="最大/无限专注值">
     <Cheatline>
       <Offset>51A87F</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>C5-FA-11-9C-F3-10-01-00-00</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Infinite Ressource / Web Shooter">
+  <Cheat Text="Infinite Ressource / Web Shooter｜无限资源 / 网络发射器">
     <Cheatline>
       <Offset>3BEF890</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>E8-66-5D-FF-FF-44-89-68-18</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Max EXP/LvL 49">
+  <Cheat Text="经验值最大/LvL 49">
     <Cheatline>
       <Offset>3BEF84E</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>41-89-9D-48-B8-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99x Combo">
+  <Cheat Text="99x Combo｜九十九连击">
     <Cheatline>
       <Offset>3BEF8B5</Offset>
       <Section>0</Section>

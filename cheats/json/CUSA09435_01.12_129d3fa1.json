@@ -1,13 +1,18 @@
 {
-  "name": "Trials Rising",
+  "name": "Trials 崛起",
   "id": "CUSA09435",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Stop Timer",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "停止 计时器",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D134D1",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Restart Counter",
+      "name": "Restart 计数器",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3147000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "--number",
-      "description": "0 Restarts",
-      "type": "checkbox",
+      "name": "--数值",
+      "description": "0 Restarts｜0 重启",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3147019",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Multiplier Gold",
+      "name": "Multiplier 金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3147041",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "--gold",
-      "description": "999999 Each race",
-      "type": "checkbox",
+      "name": "--金币",
+      "description": "999999 Each race｜999999 每场比赛",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3147051",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Easy Exp",
+      "name": "简单 经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3147079",
@@ -92,9 +97,9 @@
       ]
     },
     {
-      "name": "--exper",
-      "description": "999999 ExpEach Race",
-      "type": "checkbox",
+      "name": "--经验",
+      "description": "999999 ExpEach Race｜999999 每次比赛获得的经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "314708B",

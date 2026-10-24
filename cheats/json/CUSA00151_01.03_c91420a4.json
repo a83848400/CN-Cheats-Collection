@@ -1,13 +1,18 @@
 {
-  "name": "Guacamelee! Super Turbo Championship Edition",
+  "name": "Guacamelee! Super 涡轮 锦标赛 Edition",
   "id": "CUSA00151",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "description": "\"Inf Life\" OR \"Inf Life+Easy Kill\"",
-      "name": "Inf Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "description": "\"无限生命\" OR \"无限生命+轻松击杀\"",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B73000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "description": "\"Inf Life\" OR \"Inf Life+Easy Kill\"",
-      "name": "Inf Life + Easy Kill",
-      "type": "checkbox",
+      "description": "\"无限生命\" OR \"无限生命+轻松击杀\"",
+      "name": "无限生命 + 轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B73040",
@@ -40,8 +45,8 @@
     },
     {
       "description": "",
-      "name": "Inf Money at kill",
-      "type": "checkbox",
+      "name": "金钱无限 at kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FD9E5",
@@ -52,8 +57,8 @@
     },
     {
       "description": "",
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22636F",

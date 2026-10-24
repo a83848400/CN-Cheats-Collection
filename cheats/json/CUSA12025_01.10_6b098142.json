@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts III",
+  "name": "Kingdom Hearts III｜王国之心3",
   "id": "CUSA12025",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Munny",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Munny",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CED3C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "+1 Discard item",
-      "type": "checkbox",
+      "name": "+1 Discard item｜+1个丢弃物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1EE32A3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13B63D1",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "99 items buy / pick (Do Not Use With Ultima Weapon)",
-      "type": "checkbox",
+      "name": "99 件商品 buy / pick (Do Not Use With 终极武器)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8EF7800",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "99 items / sell",
-      "type": "checkbox",
+      "name": "99 件商品 / sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8EF780E",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "99 Materials",
-      "type": "checkbox",
+      "name": "99 Materials｜99 种材料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8EF781B",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "No Mana Recharge Time",
-      "type": "checkbox",
+      "name": "No 法力 Recharge Time",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CDC0A",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Inf MP",
-      "type": "checkbox",
+      "name": "无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8EF782F",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Synthesis Mats needed 999",
-      "type": "checkbox",
+      "name": "合成 Mats needed 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "222BD91",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Upgrade Weapon Mats 999",
-      "type": "checkbox",
+      "name": "升级武器 Mats 999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21F7FEE",
@@ -185,8 +190,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CDE9F",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Potion buy / pick = Ultima Weapon (Do Not Use With 99 item buy / pick)",
-      "type": "checkbox",
+      "name": "药水 buy / pick = 终极武器 (Do Not Use With 99 物品 buy / pick)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8EF7846",

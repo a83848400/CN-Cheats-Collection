@@ -1,12 +1,17 @@
 {
-  "name": "Streets of Rage 4",
+  "name": "Streets of 怒气 4",
   "id": "CUSA16221",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Decreased Star",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Decreased Star｜无星级降低",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EB43A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Lives For All Players",
-      "type": "checkbox",
+      "name": "无限生命 For All Players",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3267FE",

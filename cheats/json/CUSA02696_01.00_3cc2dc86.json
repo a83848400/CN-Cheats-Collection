@@ -1,12 +1,17 @@
 {
-  "name": "This War of Mine: The Little Ones",
+  "name": "This War of Mine: The Little Ones｜《这是我的战争：小不点们》",
   "id": "CUSA02696",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Items Backpack",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "787800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ammo and Items Consumables",
-      "type": "checkbox",
+      "name": "无限弹药 and Items Consumables",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "787811",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Day never increased (Use after Day1)",
-      "type": "checkbox",
+      "name": "Day never increased (Use after Day1)｜天数从未增加（第1天后使用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110096",

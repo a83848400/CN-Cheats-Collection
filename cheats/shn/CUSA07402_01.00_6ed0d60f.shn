@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Crash Bandicoot: N. Sane Trilogy" Moder="Ali-mk" Cusa="CUSA07402" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="god-mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="god-mode｜神模式">
     <Cheatline>
       <Offset>1FD05E</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-7D-0E-B6-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-lives">
+    <Cheat Text="最大-lives">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>7ED-executable[0]-5</PS5Offset>
@@ -28,7 +36,7 @@
       <ValueOff>41-89-76-0C-8B-38</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-lives">
+    <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>1CF254</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>41-89-76-0C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-MASK">
+    <Cheat Text="Infinite-面具">
     <Cheatline>
       <Offset>1FCD63</Offset>
       <Section>0</Section>

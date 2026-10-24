@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry Primal",
+  "name": "孤岛惊魂 Primal",
   "id": "CUSA03309",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Movement Faster MasterCode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "动作更快 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B832",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Run/Swim Faster MasterCode",
-      "type": "checkbox",
+      "name": "Run/Swim Faster MasterCode｜跑得更快/游得更快 MasterCode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B877",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Gravity MasterCode",
-      "type": "checkbox",
+      "name": "Gravity MasterCode｜《重力大师代码》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B8BC",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Super Jump MasterCode",
-      "type": "checkbox",
+      "name": "超级跳跃 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B8F7",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Reduce Slipp. MasterCode",
-      "type": "checkbox",
+      "name": "Reduce Slipp. MasterCode｜减少打滑。MasterCode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B93F",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Forward Day Time MasterCode",
-      "type": "checkbox",
+      "name": "Forward 白天 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B978",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player",
-      "type": "checkbox",
+      "name": "无限生命 Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "142E438",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B800",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B80F",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Movement Faster",
-      "type": "checkbox",
+      "name": "Movement Faster｜动作更快",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B836",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Run/Swim Faster (Press L3)",
-      "type": "checkbox",
+      "name": "Run/Swim Faster (Press L3)｜更快地奔跑/游泳（按L3键）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B87B",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "Low Gravity",
-      "type": "checkbox",
+      "name": "Low Gravity｜低重力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B8C0",
@@ -177,8 +182,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B8FE",
@@ -188,8 +193,8 @@
       ]
     },
     {
-      "name": "Easy Climb (Reduce Slipp.)",
-      "type": "checkbox",
+      "name": "简单 Climb (Reduce Slipp.)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B946",
@@ -199,8 +204,8 @@
       ]
     },
     {
-      "name": "No Cooldown Owl",
-      "type": "checkbox",
+      "name": "无冷却 Owl",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "898164",
@@ -210,8 +215,8 @@
       ]
     },
     {
-      "name": "Forward Day Time",
-      "type": "checkbox",
+      "name": "Forward 白天",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "355B97C",
@@ -221,8 +226,8 @@
       ]
     },
     {
-      "name": "Floating/Fly [Multi Tap X (Jump)]",
-      "type": "checkbox",
+      "name": "Floating/飞行 [Multi Tap 艾克斯 (Jump)]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28D2AFD",
@@ -232,8 +237,8 @@
       ]
     },
     {
-      "name": "Stealth",
-      "type": "checkbox",
+      "name": "Stealth｜潜行",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "142DFE8",

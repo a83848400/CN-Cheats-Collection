@@ -1,28 +1,33 @@
 {
-  "name": "Spyro: Year of the Dragon",
-  "id": "SCUS94467",
+  "name": "Spyro: Year of the 小龙",
+  "id": "SCUS94467｜打扰一下，对不起",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BD04",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "12BD05",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "134CF2",

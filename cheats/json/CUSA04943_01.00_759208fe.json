@@ -1,13 +1,18 @@
 {
-  "name": "Gravity Rush 2",
+  "name": "Gravity 快攻 2",
   "id": "CUSA04943",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16BB140",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Gravity",
+      "name": "Infinite Gravity｜无限重力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92D7F2",

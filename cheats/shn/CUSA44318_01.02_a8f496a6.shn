@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Blasphemous 2" Moder="Celogamez" Cusa="CUSA44318" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health+Fervor+Bile Flask (MASTER CODE)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命+Fervor+Bile 圣杯瓶 (MASTER 密码)">
     <Cheatline>
       <Offset>7FC5FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>89-88-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5FDB9</Offset>
       <Section>3</Section>
@@ -24,7 +32,7 @@
       <ValueOff>89-88-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fervor">
+  <Cheat Text="Infinite Fervor｜无尽的热情">
     <Cheatline>
       <Offset>5FDDE</Offset>
       <Section>3</Section>
@@ -32,7 +40,7 @@
       <ValueOff>89-88-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flasks">
+  <Cheat Text="Infinite Flasks｜无限烧瓶">
     <Cheatline>
       <Offset>5FDFB</Offset>
       <Section>3</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-88-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Marks Of Martyrdom/Tears">
+  <Cheat Text="最大 Marks Of Martyrdom/Tears">
     <Cheatline>
       <Offset>7FC5FB50</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <Section>0</Section>
       <ValueOn>E9-AC-0D-28-FC-90-90</ValueOn>
       <ValueOff>48-8B-45-A8-89-48-78</ValueOff>
-    </Cheatline>  </Cheat>  <Cheat Text="Infinite Jumps">
+    </Cheatline>  </Cheat>  <Cheat Text="Infinite Jumps｜无限跳跃">
     <Cheatline>
       <Offset>3DD672A</Offset>
       <Section>14</Section>

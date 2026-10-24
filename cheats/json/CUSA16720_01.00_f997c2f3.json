@@ -1,12 +1,17 @@
 {
-  "name": "Corpse Killer: 25th Anniversary Edition",
+  "name": "Corpse Killer: 25th Anniversary Edition｜《尸体杀手：25周年纪念版》",
   "id": "CUSA16720",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81205F32",

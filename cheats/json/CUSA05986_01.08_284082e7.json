@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed Payback",
+  "name": "极品飞车 Payback",
   "id": "CUSA05986",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EAB00B",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Tokens",
-      "type": "checkbox",
+      "name": "Infinite Tokens｜无限代币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3EAB000",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Nitro",
-      "type": "checkbox",
+      "name": "Infinite Nitro｜无限氮气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "240582B",

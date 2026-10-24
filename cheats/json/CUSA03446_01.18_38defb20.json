@@ -1,12 +1,17 @@
 {
-  "name": "7 Days to Die",
+  "name": "7 Days to Die｜《7天求生》",
   "id": "CUSA03446",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Skill points (on spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Skill 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1263CA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max items (on gain by smashing)",
-      "type": "checkbox",
+      "name": "最大 items (on gain by smashing)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1263D20",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items (on pick up)",
-      "type": "checkbox",
+      "name": "最大 Items (on 拾取)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1263D60",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Items (on Use)",
-      "type": "checkbox",
+      "name": "最大 Items (on Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1263D90",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max items (on use in Quick short)",
-      "type": "checkbox",
+      "name": "最大 items (on use in Quick short)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1263DF0",

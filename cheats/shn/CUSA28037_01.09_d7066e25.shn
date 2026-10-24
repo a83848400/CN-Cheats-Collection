@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Chernobylite" Moder="Reddevil82 - FW 9.00" Cusa="CUSA28037" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5B2FDD2</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-86-44-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health ( Zero Radiation )">
+  <Cheat Text="无限生命 ( 杰洛 Radiation )">
     <Cheatline>
       <Offset>5B2FE50</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-86-4C-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Psyche">
+  <Cheat Text="Infinite Psyche｜无限心灵">
     <Cheatline>
       <Offset>5B2FDE9</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7C-10-46-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield">
+  <Cheat Text="Infinite Shield｜无限护盾">
     <Cheatline>
       <Offset>5B2FDFC</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-10-8E-C8-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Flashlight">
+  <Cheat Text="Infinite 手电筒">
     <Cheatline>
       <Offset>BBCF79</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C5-FA-11-83-4C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>5B2FE13</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C4-C1-7A-11-86-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth Mode">
+  <Cheat Text="Stealth Mode｜隐身模式">
     <Cheatline>
       <Offset>5B2FE67</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C4-C1-7A-11-8D-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload ( Weapon )">
+  <Cheat Text="无需换弹 ( Weapon )">
     <Cheatline>
       <Offset>5B2FDB0</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>89-B7-70-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Buildings Requirements Money ( on use )">
+  <Cheat Text="最大 Buildings Requirements 金钱 ( on use )">
     <Cheatline>
       <Offset>5B2FE24</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>C5-FA-11-44-18-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items ( don?t decrease )">
+  <Cheat Text="道具无限 ( don?恐怖分子 decrease )">
     <Cheatline>
       <Offset>C5B40C</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>C4-A1-7A-11-44-28-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Duplicate Items">
+  <Cheat Text="Duplicate Items｜重复项目">
     <Cheatline>
       <Offset>5B2FE3D</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>C4-A1-7A-10-44-2B-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer">
+  <Cheat Text="Freeze 计时器">
     <Cheatline>
       <Offset>BB8128</Offset>
       <Section>0</Section>

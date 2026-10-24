@@ -1,12 +1,17 @@
 {
-  "name": "Tales of Vesperia: Definitive Edition",
+  "name": "传说系列 Vesperia: Definitive Edition",
   "id": "CUSA12287",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Gald x999999 (on gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "剩下的 x999999 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E810",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Items x99 (on spend)",
-      "type": "checkbox",
+      "name": "物品 x99 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E850",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",

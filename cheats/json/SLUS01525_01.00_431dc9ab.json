@@ -1,12 +1,17 @@
 {
-  "name": "Mobile Light Force",
+  "name": "Mobile Light 原力",
   "id": "SLUS01525",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Bomb",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-Bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17E07E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17E20E",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Invincible-1-HIT",
-      "type": "checkbox",
+      "name": "无敌-1-HIT",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17E0AE",

@@ -1,12 +1,17 @@
 {
-  "name": "Atelier Ryza: Ever Darkness & the Secret Hideout",
+  "name": "莱莎的炼金工房: Ever Darkness & the 奥秘 Hideout",
   "id": "CUSA16458",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Stats (in battle keep it on)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 属性 (in 战斗 keep it on)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F1A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Alot of Stocked Items in shop (after buying)",
-      "type": "checkbox",
+      "name": "Alot of Stocked Items in shop (after buying)｜店内有大量现货商品（购买后）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F150",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Coins (on buy)",
-      "type": "checkbox",
+      "name": "最大 角落 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F180",

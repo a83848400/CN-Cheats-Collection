@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodstained: Ritual of the Night" Moder="Bandicootmonito " Cusa="CUSA07953" Version="01.60" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health + One hit kill" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 + 一击必杀" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>89-83-40-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="Infinite 魔法" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF81C</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>89-8B-44-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gold x999999" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="无限金币 x999999" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF82D</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>89-B7-30-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items x99 (Need 2 to work)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="物品 x99 (Need 2 to work)" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF83E</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>44-89-6A-48-0F-88-F2-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bullets x99" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
+  <Cheat Text="无限子弹 x99" Description="You can activate it at any time of the game (Puedes activarlo en cualquier parte del juego)">
     <Cheatline>
       <Section>0</Section>
       <Offset>CFDF84C</Offset>

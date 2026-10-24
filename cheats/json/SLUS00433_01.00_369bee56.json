@@ -1,12 +1,17 @@
 {
-  "name": "Fighting Force",
+  "name": "Fighting 原力",
   "id": "SLUS00433",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health Player 1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 Player 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19F5FA",
@@ -16,38 +21,38 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110774",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "110775",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "1106A8",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "1106A9",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "110838",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "110839",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

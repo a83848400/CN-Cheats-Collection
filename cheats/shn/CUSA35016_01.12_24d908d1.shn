@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sonic Racing: CrossWorlds" Moder="Bandicootmonito" Cusa="CUSA35016" Version="01.12" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Money / Tickets x999999" Description="You can turn On in every moment of the game. (Puedes activarlo en cualquier momento del juego.)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱无限 / Tickets x999999" Description="You can turn On in every moment of the game. (Puedes activarlo en cualquier momento del juego.)">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>

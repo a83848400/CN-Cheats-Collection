@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE9F5B0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Attribute Points(on use)",
-      "type": "checkbox",
+      "name": "属性 得分(on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E050",

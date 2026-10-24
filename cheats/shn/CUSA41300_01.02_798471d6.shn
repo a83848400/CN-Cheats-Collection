@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Metal Gear Solid: Master Collection Vol. 1" Moder="Sondio" Cusa="CUSA41300" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="[ENG] Master Code">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[ENG] Master 密码">
     <Cheatline>
       <Offset>885EFF</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-FF-C7-41-83-C6-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[FRA] Master Code">
+  <Cheat Text="[FRA] Master 密码">
     <Cheatline>
       <Offset>885EFF</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-FF-C7-41-83-C6-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[DEU] Master Code">
+  <Cheat Text="[DEU] Master 密码">
     <Cheatline>
       <Offset>885EFF</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-FF-C7-41-83-C6-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[ITA] Master Code">
+  <Cheat Text="[ITA] Master 密码">
     <Cheatline>
       <Offset>885EFF</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-FF-C7-41-83-C6-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[ESP] Master Code">
+  <Cheat Text="[ESP] Master 密码">
     <Cheatline>
       <Offset>885EFF</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>41-FF-C7-41-83-C6-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Life">
+  <Cheat Text="Life｜生活">
     <Cheatline>
       <Offset>88608F</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>00-01-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="O2">
+  <Cheat Text="O2｜氧气">
     <Cheatline>
       <Offset>88609A</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>00-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapons">
+  <Cheat Text="Weapons｜武器">
     <Cheatline>
       <Offset>885F0D</Offset>
       <Section>0</Section>
@@ -210,7 +218,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Cigs">
+  <Cheat Text="Cigs｜香烟">
     <Cheatline>
       <Offset>885FC0</Offset>
       <Section>0</Section>
@@ -218,7 +226,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Scope">
+  <Cheat Text="Scope｜瞄准镜">
     <Cheatline>
       <Offset>885FC7</Offset>
       <Section>0</Section>
@@ -266,7 +274,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="GasMask">
+  <Cheat Text="GasMask｜防毒面具">
     <Cheatline>
       <Offset>885FF1</Offset>
       <Section>0</Section>
@@ -274,7 +282,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Body Armor">
+  <Cheat Text="Body Armor｜身体护甲">
     <Cheatline>
       <Offset>885FF8</Offset>
       <Section>0</Section>
@@ -282,7 +290,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ketchup">
+  <Cheat Text="Ketchup｜番茄酱">
     <Cheatline>
       <Offset>885FFF</Offset>
       <Section>0</Section>
@@ -290,7 +298,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth">
+  <Cheat Text="Stealth｜潜行">
     <Cheatline>
       <Offset>886006</Offset>
       <Section>0</Section>
@@ -298,7 +306,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bandana">
+  <Cheat Text="Bandana｜头带">
     <Cheatline>
       <Offset>88600D</Offset>
       <Section>0</Section>
@@ -306,7 +314,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Camera">
+  <Cheat Text="Camera｜相机">
     <Cheatline>
       <Offset>886014</Offset>
       <Section>0</Section>
@@ -314,7 +322,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ration">
+  <Cheat Text="Ration｜口粮">
     <Cheatline>
       <Offset>88601C</Offset>
       <Section>0</Section>
@@ -328,7 +336,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Medicine">
+  <Cheat Text="Medicine｜医学">
     <Cheatline>
       <Offset>886025</Offset>
       <Section>0</Section>
@@ -342,7 +350,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Diazepam">
+  <Cheat Text="Diazepam｜地西泮">
     <Cheatline>
       <Offset>88602E</Offset>
       <Section>0</Section>
@@ -356,7 +364,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Pal Key (Select One Color At A Time)">
+  <Cheat Text="Enable Pal 钥匙 (Select One Color At A Time)">
     <Cheatline>
       <Offset>886036</Offset>
       <Section>0</Section>
@@ -364,7 +372,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pal Key Yellow">
+  <Cheat Text="Pal 钥匙 Yellow">
     <Cheatline>
       <Offset>8860A3</Offset>
       <Section>0</Section>
@@ -372,7 +380,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pal Key Red">
+  <Cheat Text="Pal 钥匙 Red">
     <Cheatline>
       <Offset>8860A3</Offset>
       <Section>0</Section>
@@ -380,7 +388,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Pal Key Cyan">
+  <Cheat Text="Pal 钥匙 Cyan">
     <Cheatline>
       <Offset>8860A3</Offset>
       <Section>0</Section>
@@ -388,7 +396,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Card LV.255">
+  <Cheat Text="卡牌 LV.255">
     <Cheatline>
       <Offset>88603E</Offset>
       <Section>0</Section>
@@ -396,7 +404,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Timer Bomb">
+  <Cheat Text="计时器 Bomb">
     <Cheatline>
       <Offset>886047</Offset>
       <Section>0</Section>
@@ -404,7 +412,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mine D">
+  <Cheat Text="Mine D｜前往 D">
     <Cheatline>
       <Offset>88604F</Offset>
       <Section>0</Section>
@@ -412,7 +420,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disc">
+  <Cheat Text="Disc｜光盘">
     <Cheatline>
       <Offset>886056</Offset>
       <Section>0</Section>
@@ -420,7 +428,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rope">
+  <Cheat Text="Rope｜绳子">
     <Cheatline>
       <Offset>88605D</Offset>
       <Section>0</Section>
@@ -436,7 +444,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Suppressor Socom">
+  <Cheat Text="消音器 Socom">
     <Cheatline>
       <Offset>88606C</Offset>
       <Section>0</Section>

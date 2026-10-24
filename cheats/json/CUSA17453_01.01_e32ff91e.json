@@ -1,12 +1,17 @@
 {
-  "name": "Zombie Driver: Immortal Edition",
+  "name": "僵尸 御刃者: 不死 Edition",
   "id": "CUSA17453",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Dont Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Dont Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1261B00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1 Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1261B00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1261BA0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Nitro",
-      "type": "checkbox",
+      "name": "无限氮气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1261C00",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Money (On Spend)",
-      "type": "checkbox",
+      "name": "金钱无限 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1261D60",

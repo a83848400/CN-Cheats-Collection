@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Little Dragons Cafe" Moder="Molly" Cusa="CUSA12126" Version="01.02" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Unlock All Ingredients">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Unlock All Ingredients｜解锁所有食材">
     <Cheatline>
       <Offset>12CB811</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>44-8B-60-10-48-8B-5A-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dragons Hp">
+  <Cheat Text="Dragons 手机">
     <Cheatline>
       <Offset>12CB827</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>75-4C-45-8B-77-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Char Walk Speed x2">
+  <Cheat Text="Char Walk 速度 x2">
     <Cheatline>
       <Offset>12CB83E</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>C4-C1-7A-10-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Jump">
+  <Cheat Text="High Jump｜跳高">
     <Cheatline>
       <Offset>12CB851</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>C4-C1-7A-10-47-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dragon Walk Speed X2">
+  <Cheat Text="小龙 Walk 速度 X2">
     <Cheatline>
       <Offset>12CB864</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>C4-C1-7A-10-47-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dragon Manure">
+  <Cheat Text="Infinite 小龙 Manure">
     <Cheatline>
       <Offset>12CB877</Offset>
       <Section>0</Section>

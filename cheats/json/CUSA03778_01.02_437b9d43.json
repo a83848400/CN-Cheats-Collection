@@ -1,12 +1,17 @@
 {
-  "name": "Shadow Blade: Reload",
+  "name": "暗影 异刃: Reload",
   "id": "CUSA03778",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze Timer (00:00)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Freeze 计时器 (00:00)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "124C930",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Shuriken",
-      "type": "checkbox",
+      "name": "Infinite 手里剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "124C900",

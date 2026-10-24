@@ -1,12 +1,17 @@
 {
-  "name": "Umbrella Corps",
+  "name": "Umbrella Corps｜《伞兵小队》",
   "id": "CUSA03109",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Ammo｜弹药最大化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11ABDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Reload ( Ammo )",
-      "type": "checkbox",
+      "name": "无需换弹 ( 但是 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11ABDDB",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Grenades",
-      "type": "checkbox",
+      "name": "最大 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11ABDE7",

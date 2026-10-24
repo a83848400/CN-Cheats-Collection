@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed IV: Black Flag",
+  "name": "刺客信条 个体值: 黑色 Flag",
   "id": "CUSA00009",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E25D00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F976EC",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Money/Ammo/Consumables/Ship Ammo",
-      "type": "checkbox",
+      "name": "金钱无限/但是/Consumables/Ship 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E25CA0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B45AEB",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Ship Health",
-      "type": "checkbox",
+      "name": "Infinite Ship 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E25C20",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Cargo",
-      "type": "checkbox",
+      "name": "最大 Cargo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E25C60",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Swivel Ammo",
-      "type": "checkbox",
+      "name": "最大 Swivel 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E25CD0",

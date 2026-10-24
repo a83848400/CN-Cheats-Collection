@@ -1,12 +1,17 @@
 {
-  "name": "Super Star Wars",
+  "name": "无敌星 Wars",
   "id": "CUSA03292",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5CB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "325BE",

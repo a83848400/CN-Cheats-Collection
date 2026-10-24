@@ -1,12 +1,17 @@
 {
-  "name": "Wo Long: Fallen Dynasty",
+  "name": "Wo Long: Fallen Dynasty｜卧龙：苍天陨落",
   "id": "CUSA36846",
   "version": "01.27",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Dragon Cure Potion",
-      "type": "checkbox",
+      "name": "最大/Infinite 小龙 Cure 药水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399FA20",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables/Items",
-      "type": "checkbox",
+      "name": "投掷物无限/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F7E0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Instant Infinite Divine Beast Gauge (Hit Enemy)",
-      "type": "checkbox",
+      "name": "Instant Infinite 神兽 Gauge (Hit Enemy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F750",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Tiger Beast Gauge",
-      "type": "checkbox",
+      "name": "Infinite Tiger 野兽 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F370",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Wizardry Spell",
-      "type": "checkbox",
+      "name": "Infinite 仙术 法术",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "489066",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Infinite Wizardry Spell Points",
-      "type": "checkbox",
+      "name": "Infinite 仙术 法术 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F550",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Max Moral",
-      "type": "checkbox",
+      "name": "最大 Moral",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F2C0",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinite Buffs",
-      "type": "checkbox",
+      "name": "Infinite Buffs｜无限增益",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399E5E0",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Accolades On Buy",
-      "type": "checkbox",
+      "name": "最大/Infinite Accolades On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F0C0",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Coppers",
-      "type": "checkbox",
+      "name": "最大/Infinite Coppers",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F520",
@@ -176,8 +181,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Genuine Qi (Gain/Use)",
-      "type": "checkbox",
+      "name": "最大/Infinite Genuine Qi (Gain/Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "399F9A0",

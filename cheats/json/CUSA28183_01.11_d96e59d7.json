@@ -1,12 +1,17 @@
 {
-  "name": "Lost Judgment",
+  "name": "Lost Judgment｜《失落的审判》",
   "id": "CUSA28183",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9,999,999 SP, Yen, Shogi Points on gain",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "9,999,999 精神值, 如果, Shogi 得分 on gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F8A0E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite EX Gauge",
-      "type": "checkbox",
+      "name": "Infinite EX槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F8A1C0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F8A230",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "9,999,999 Items (MUST Buy 1 from store FIRST)(Turn off to use items)",
-      "type": "checkbox",
+      "name": "9,999,999 件商品 (MUST Buy 1 from store FIRST)(回合 off to use items)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F8A300",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Items increase on use (Buy from store first)",
-      "type": "checkbox",
+      "name": "Items increase on use (Buy from store first)｜使用后物品数量会增加（请先从商店购买）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F337F",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Items don't decrease (Buy from store first)",
-      "type": "checkbox",
+      "name": "Items don'恐怖分子 decrease (Buy from store first)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F337F",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "9,999,999 VR Credits on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 VR Credits on Gain｜Gain 平台上的 9,999,999 VR 积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F8A3C0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Extract Duration",
-      "type": "checkbox",
+      "name": "Infinite Extract Duration｜无限提取时长",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F8BDD0",

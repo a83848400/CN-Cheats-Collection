@@ -1,12 +1,17 @@
 {
-  "name": "God Eater 2: Rage Burst",
+  "name": "上帝 Eater 2: 怒气 Burst",
   "id": "CUSA01714",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "FC points use doubled",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "FC 得分 use doubled",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "19",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "AP points use doubled",
-      "type": "checkbox",
+      "name": "行动点 得分 use doubled",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "19",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "GAP points use doubled",
-      "type": "checkbox",
+      "name": "GAP 得分 use doubled",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "19",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Godmode",
-      "type": "checkbox",
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "19",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "lnfinite Stamina",
-      "type": "checkbox",
+      "name": "lnfinite 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "19",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "lnfinite OP",
-      "type": "checkbox",
+      "name": "lnfinite OP｜无限OP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "19",
@@ -77,8 +82,8 @@
       ]
     },
     {
-      "name": "ltems use doubled",
-      "type": "checkbox",
+      "name": "ltems use doubled｜项目使用量翻了一番",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "19",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "ltems sold doubled",
-      "type": "checkbox",
+      "name": "ltems sold doubled｜销量翻了一番",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15603C",

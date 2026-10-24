@@ -1,12 +1,17 @@
 {
-  "name": "Kamiwaza: Way of the Thief",
+  "name": "Kamiwaza: Way of the 盗贼",
   "id": "CUSA32577",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health(Red)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命(Red)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55FBBB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (yellow)",
-      "type": "checkbox",
+      "name": "无限耐力 (yellow)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55FBB70",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max coins (on Buy)",
-      "type": "checkbox",
+      "name": "最大 角落 (on Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55FBAF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Style points (on buy)",
-      "type": "checkbox",
+      "name": "最大 Style 得分 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55FBB30",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max experience gain",
-      "type": "checkbox",
+      "name": "最大 experience gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55FBBE0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Disgaea 5: Alliance of Vengeance" Moder="Molly" Cusa="CUSA02629" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>587800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-89-87-18-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Mana ~Use Skill Shop~">
+  <Cheat Text="最大 法力 ~Use Skill Shop~">
     <Cheatline>
       <Offset>587816</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-81-F8-2D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up ~Enable In Battle~">
+  <Cheat Text="Quick 升级 ~Enable In 战斗~">
     <Cheatline>
       <Offset>587826</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-0F-4F-D8-49-89-5E-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hospital Max HP/SP/Revive ~After Gain~">
+  <Cheat Text="Hospital 生命值最大/精神值/Revive ~增益后~">
     <Cheatline>
       <Offset>587836</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>41-89-86-68-A7-5A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Level Up Skill Power ">
+  <Cheat Text="Quickly 升级 Skill 电力 ">
     <Cheatline>
       <Offset>587867</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>48-0F-4D-C2-41-88-47-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Item World ~Prizes~">
+  <Cheat Text="Quickly Gain 物品 World ~Prizes~">
     <Cheatline>
       <Offset>587885</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>48-89-87-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Range ~Skill Shop~">
+  <Cheat Text="Quickly Gain 射程 ~Skill Shop~">
     <Cheatline>
       <Offset>587898</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>48-0F-4D-C2-41-88-47-0B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Points &quot;Item World&quot;">
+  <Cheat Text="最大 物品 得分 &quot;物品 World&quot;">
     <Cheatline>
       <Offset>5878A3</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>48-89-98-30-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Item Bonus">
+  <Cheat Text="Quickly Gain 物品 Bonus">
     <Cheatline>
       <Offset>5878B6</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>4C-8D-73-08-83-7B-08-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change Game Timer to 0">
+  <Cheat Text="Change Game 计时器 to 0">
     <Cheatline>
       <Offset>5878DD</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>FE-C2-88-50-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Customer Rank">
+  <Cheat Text="Quickly Gain Customer 阶级">
     <Cheatline>
       <Offset>5878F1</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>4D-01-A7-20-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Level Up Squads">
+  <Cheat Text="Quickly 升级 Squads">
     <Cheatline>
       <Offset>587904</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>46-89-84-3B-C8-C5-87-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Character Creation ~Add Points To Stats Points Will Show 0~">
+  <Cheat Text="最大 角色创建 ~Add 得分 To 属性 得分 意志 Show 0~">
     <Cheatline>
       <Offset>587917</Offset>
       <Section>0</Section>
@@ -232,7 +240,7 @@
       <ValueOff>01-D6-29-CE-89-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item World Add 100 Levels ~Do Not Enable With Other Levels~">
+  <Cheat Text="物品 World Add 100 Levels ~Do Not Enable With 他 Levels~">
     <Cheatline>
       <Offset>587947</Offset>
       <Section>0</Section>
