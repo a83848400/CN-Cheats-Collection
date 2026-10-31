@@ -1,12 +1,17 @@
 {
-  "name": "God of War",
+  "name": "God of War｜战神",
   "id": "SCES53133",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf-Health-On Easy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命-On 简单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF3802C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max-Orbs",
-      "type": "checkbox",
+      "name": "最大-Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF04DA8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF04D9C",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf-Health-On-Normal",
-      "type": "checkbox",
+      "name": "Infinite-生命-On-普通",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF38038",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Inf-Health-On-Hard",
-      "type": "checkbox",
+      "name": "Infinite-生命-On-困难",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF38044",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Inf-Health-On-God-Mode",
-      "type": "checkbox",
+      "name": "Infinite-生命-On-神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF38050",

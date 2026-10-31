@@ -5,7 +5,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Frutas Infinitas 999">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Frutas Infinitas 999｜无限水果 999">
     <Cheatline>
       <Offset>593E80</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>0F-4F-C1-41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Itens Infinito">
+  <Cheat Text="Itens Infinito｜无限物品">
     <Cheatline>
       <Offset>593F20</Offset>
       <Section>0</Section>

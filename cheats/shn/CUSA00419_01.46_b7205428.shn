@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>30EFE60</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C4-C1-7A-11-86-50-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Muni??o Infinita">
+  <Cheat Text="Muni??o Infinita｜无限弹药">
     <Cheatline>
       <Offset>15F8C5B</Offset>
       <Section>0</Section>

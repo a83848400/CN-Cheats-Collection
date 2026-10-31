@@ -1,12 +1,17 @@
 {
-  "name": "Bloodborne: Game of the Year Edition",
+  "name": "血源诅咒: Game of the Year Edition",
   "id": "CUSA03173",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DB860",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill -Bosses",
-      "type": "checkbox",
+      "name": "一击必杀 -Bosses",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DBBB0",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DB800",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Player's Speed x2",
-      "type": "checkbox",
+      "name": "Player's 速度 x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DB900",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Speed Attack R1/R2 x8",
-      "type": "checkbox",
+      "name": "速度 攻击 R1/R2 x8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DB940",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "SD Hunter",
-      "type": "checkbox",
+      "name": "SD 猎人",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DBB90",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Enemies Don't Move",
-      "type": "checkbox",
+      "name": "Enemies Don'恐怖分子 招式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DBA10",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Infinite Echoes",
-      "type": "checkbox",
+      "name": "Infinite Echoes｜《无尽回响》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DB8A0",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "Lucidity: No Dec. + Max (Get)",
-      "type": "checkbox",
+      "name": "Lucidity: No Dec. + 最大 (Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DBB80",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "Lucidity: No Dec. + Max (Buy)",
-      "type": "checkbox",
+      "name": "Lucidity: No Dec. + 最大 (Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DBB70",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "Objects: No Dec. + Max. (Get/Buy)",
-      "type": "checkbox",
+      "name": "Objects: No Dec. + 最大. (Get/Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DB840",
@@ -191,8 +196,8 @@
       ]
     },
     {
-      "name": "Stats/Level Maxed (Buy Once)",
-      "type": "checkbox",
+      "name": "属性/等级 Maxed (Buy Once)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "50DBAF0",

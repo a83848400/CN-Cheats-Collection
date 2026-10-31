@@ -1,13 +1,18 @@
 {
-  "name": "Lawn Mowing Simulator",
+  "name": "草坪 Mowing Simulator",
   "id": "CUSA29809",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Mower Fuel",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Mower Fuel｜无限割草机燃料",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "835AE8BA",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Strimmer Fuel",
+      "name": "Infinite Strimmer Fuel｜无限割草机燃料",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "824DB705",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Instant Ground Check Completion",
+      "name": "Instant Ground Check Completion｜即时地面检查完成",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "821C2FF8",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Instant Mowing Completion",
+      "name": "Instant Mowing Completion｜即时完成割草",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "821B5BB1",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "£999.999.999 Contract Rewards",
+      "name": "£999.999.999 合同 Rewards",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81AEBFDB",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "999.999.999 RP Contract Rewards",
+      "name": "999.999.999 RP 合同 Rewards",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81AECEB0",

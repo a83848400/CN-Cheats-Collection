@@ -1,12 +1,17 @@
 {
-  "name": "Wildcat Gun Machine",
+  "name": "Wildcat Gun 机械生命体",
   "id": "CUSA29645",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Inf Shield",
-      "type": "checkbox",
+      "name": "无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "16",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Super",
-      "type": "checkbox",
+      "name": "最大 Super",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Enemies Instant Death",
-      "type": "checkbox",
+      "name": "Enemies Instant 死亡",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "Inf Grenades",
-      "type": "checkbox",
+      "name": "手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Inf Dash",
-      "type": "checkbox",
+      "name": "无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Currency",
-      "type": "checkbox",
+      "name": "最大 Currency",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

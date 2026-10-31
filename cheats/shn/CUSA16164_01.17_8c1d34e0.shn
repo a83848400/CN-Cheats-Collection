@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>127B640</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-4B-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>127B5B0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>0F-46-FE-89-79-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Experience Multiplier">
+  <Cheat Text="Experience Multiplier｜经验值倍增器">
     <Cheatline>
       <Offset>6E40DA</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>49-89-45-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max items(turn on grabbing items and turn off to use items)">
+  <Cheat Text="最大 items(回合 on grabbing items and 回合 off to use items)">
     <Cheatline>
       <Offset>C4170F</Offset>
       <Section>0</Section>

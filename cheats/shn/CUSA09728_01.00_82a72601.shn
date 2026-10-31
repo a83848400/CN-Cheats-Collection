@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health (when haunting the other will get inf hp)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (when haunting the 他 意志 get 无限血量)">
     <Cheatline>
       <Offset>473CA0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-83-F4-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>34F66B</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>FF-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Golden Cube">
+  <Cheat Text="最大 金色 Cube">
     <Cheatline>
       <Offset>473DE0</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hogwarts Legacy" Moder="Pharaoh2k" Cusa="CUSA12771" Version="01.05" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. You may need to enable Player-No-Dead cheat to prevent dying from fall damage when using the Moon/Super-Jump cheat. For an even more advanced trainer, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares. Credits: Some cheats were ported or derived from older game versions cheats made by TLH and/or Rizla and from the PC trainer made by FLiNG. Enjoy! ;-)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="BE SURE TO READ ALL the comments where available. As a rule of thumb (for all games), ALWAYS enable only cheats that are needed and disable when they are not. You may need to enable Player-No-Dead cheat to prevent dying from fall damage when using the Moon/Super-Jump cheat. For an even more advanced trainer, check out my MultiTrainer2 ShnExt trainer. This trainer was made and tested on PS4 Firmware 9.00, but should also work on other firmwares. Credits: Some cheats were ported or derived from older game versions cheats made by TLH and/or Rizla and from the PC trainer made by FLiNG. Enjoy! ;-)">
     <Cheatline>
       <Section>0</Section>
       <Offset>813E9F0</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Codes - Must always enable" Description="">
+  <Cheat Text="Master Codes - Must always enable｜主代码 - 必须始终启用" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EA00</Offset>
@@ -96,7 +104,7 @@
       <ValueOff>80-BF-D9-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Infinite Health (requires MC)" Description="">
+  <Cheat Text="---无限生命 (requires MC)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EA64</Offset>
@@ -104,7 +112,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---One Hit Kill (requires MC)" Description="Using OHK on specific bosses, such as the first Goblin in Hogsmeade will cause progression issues. Also, deactive the cheat when practicing in Hogwarts, especially with dummies (eg. The Chinese chomping cabbage practice) as you may not be able to complete the training. If you get stuck after killing an enemy, disable OHK and reload the last save to complete the fight without it, then you may re-activate the cheat.">
+  <Cheat Text="---一击必杀 (requires MC)" Description="Using OHK on specific bosses, such as the first Goblin in Hogsmeade will cause progression issues. Also, deactive the cheat when practicing in Hogwarts, especially with dummies (eg. The Chinese chomping cabbage practice) as you may not be able to complete the training. If you get stuck after killing an enemy, disable OHK and reload the last save to complete the fight without it, then you may re-activate the cheat.">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EA66</Offset>
@@ -112,7 +120,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ancient Magic" Description="Using OHK on specific bosses, such as the first Goblin in Hogsmeade will cause progression issues. Also, deactive the cheat when practicing in Hogwarts, especially with dummies (eg. The Chinese chomping cabbage practice) as you may not be able to complete the training. If you get stuck after killing an enemy, disable OHK and reload the last save to complete the fight without it, then you may re-activate the cheat.">
+  <Cheat Text="Infinite Ancient 魔法" Description="Using OHK on specific bosses, such as the first Goblin in Hogsmeade will cause progression issues. Also, deactive the cheat when practicing in Hogwarts, especially with dummies (eg. The Chinese chomping cabbage practice) as you may not be able to complete the training. If you get stuck after killing an enemy, disable OHK and reload the last save to complete the fight without it, then you may re-activate the cheat.">
     <Cheatline>
       <Section>0</Section>
       <Offset>29D9602</Offset>
@@ -120,7 +128,7 @@
       <ValueOff>C5-FA-5D-8B-18-1D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="Works for most items, including potions, resources etc">
+  <Cheat Text="Infinite Items｜道具无限" Description="Works for most items, including potions, resources etc">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EF00</Offset>
@@ -134,7 +142,7 @@
       <ValueOff>44-89-85-34-FD-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items Usage" Description="Takes effect when you use an item, the item amount won't decrease. Works for most usable items, such as potios.">
+  <Cheat Text="道具无限 Usage" Description="Takes effect when you use an item, the item amount won't decrease. Works for most usable items, such as potios.">
     <Cheatline>
       <Section>0</Section>
       <Offset>3312004</Offset>
@@ -142,7 +150,7 @@
       <ValueOff>B9-FF-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Brew Potions" Description="Activate before brewing a potion.">
+  <Cheat Text="Instant Brew Potions｜速溶魔药" Description="Activate before brewing a potion.">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EAC0</Offset>
@@ -156,7 +164,7 @@
       <ValueOff>48-03-47-58-48-89-47-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Grow Plants" Description="Active before planting seeds.">
+  <Cheat Text="Instant Grow Plants｜速生植物" Description="Active before planting seeds.">
     <Cheatline>
       <Section>0</Section>
       <Offset>32DEC64</Offset>
@@ -164,7 +172,7 @@
       <ValueOff>0F-4C-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Ignore Conjuration Requirements (requires MC)" Description="When activated, you can craft items using the conjuring spell even if you don't have enough resources. If you do have resources, they will be used.">
+  <Cheat Text="---Ignore 咒法学派 Requirements (requires MC)" Description="When activated, you can craft items using the conjuring spell even if you don't have enough resources. If you do have resources, they will be used.">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EAF6</Offset>
@@ -172,7 +180,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x5" Description="">
+  <Cheat Text="---经验倍率×5" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB23</Offset>
@@ -180,7 +188,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x10" Description="">
+  <Cheat Text="---经验倍率×10" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB23</Offset>
@@ -188,7 +196,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x50" Description="">
+  <Cheat Text="---经验倍率×50" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB23</Offset>
@@ -196,7 +204,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x100" Description="">
+  <Cheat Text="---经验倍率×100" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB23</Offset>
@@ -204,7 +212,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---XP Multiplier x999" Description="">
+  <Cheat Text="---经验倍率×999" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB23</Offset>
@@ -212,7 +220,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Player Speed x2" Description="">
+  <Cheat Text="---玩家速度×2" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB7D</Offset>
@@ -220,7 +228,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Player Speed x3" Description="">
+  <Cheat Text="---玩家速度×3" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB7D</Offset>
@@ -228,7 +236,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Player Speed x4" Description="">
+  <Cheat Text="---玩家速度×4" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EB7D</Offset>
@@ -236,7 +244,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Teleport To Map Waypoint" Description="Enable Infinite HP cheat as a precaution. After being teleported, wait a few seconds for rendering to complete. When its done, press X + DPAD DOWN to continue. If you get teleported BELOW THE MAP after the game completes rendering, first press X + DPAD UP to lift you above the map and then press X + DPAD DOWN to continue. If for any reason you end up falling infinitely below the map, exit the game and re-launch it. AVOID teleporting yourself to places that are still locked, which you are not suppose to be able to reach yet, as this may cause game progession issue or other issues. DOESNT WORK IN FLY MODE.">
+  <Cheat Text="传送 To 地图 航点" Description="Enable Infinite HP cheat as a precaution. After being teleported, wait a few seconds for rendering to complete. When its done, press X + DPAD DOWN to continue. If you get teleported BELOW THE MAP after the game completes rendering, first press X + DPAD UP to lift you above the map and then press X + DPAD DOWN to continue. If for any reason you end up falling infinitely below the map, exit the game and re-launch it. AVOID teleporting yourself to places that are still locked, which you are not suppose to be able to reach yet, as this may cause game progession issue or other issues. DOESNT WORK IN FLY MODE.">
     <Cheatline>
       <Section>0</Section>
       <Offset>813F000</Offset>
@@ -274,7 +282,7 @@
       <ValueOff>C5-F8-10-88-F0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---Unlock All Fast Travel Locations (requires MC)" Description="When activated, you can fast travel to any fast travel locations, even if they're still locked. If you fast traveled to a locked location, it will then be unlocked.">
+  <Cheat Text="---解锁 All Fast 旅行 Locations (requires MC)" Description="When activated, you can fast travel to any fast travel locations, even if they're still locked. If you fast traveled to a locked location, it will then be unlocked.">
     <Cheatline>
       <Section>0</Section>
       <Offset>813ED06</Offset>
@@ -282,7 +290,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Spells - No Cooldown" Description="">
+  <Cheat Text="无限法术 - 无冷却" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>29CCC79</Offset>
@@ -290,7 +298,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite Potion Duration" Description="">
+  <Cheat Text="最大 Infinite 药水 Duration" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3676966</Offset>
@@ -298,7 +306,7 @@
       <ValueOff>C5-FA-5C-85-6C-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth Mode" Description="Enemies will be able to see you only after they get attacked. Note that this cheat has not been thoroughly tested and might cause progression issues, especially in case a fight is required to progress, thus enemies need to detect you first (boss fights likely).In such cases, you may need to disable the cheat and continue or restart from the last checkpoint with the cheat disabled.">
+  <Cheat Text="Stealth Mode｜隐身模式" Description="Enemies will be able to see you only after they get attacked. Note that this cheat has not been thoroughly tested and might cause progression issues, especially in case a fight is required to progress, thus enemies need to detect you first (boss fights likely).In such cases, you may need to disable the cheat and continue or restart from the last checkpoint with the cheat disabled.">
     <Cheatline>
       <Section>0</Section>
       <Offset>2AFAA1C</Offset>
@@ -306,7 +314,7 @@
       <ValueOff>C5-F2-58-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Undetectable" Description="Enemies can not detect you and will not attack back when being hit. Note that this cheat has not been thoroughly tested and might cause progression issues, especially in case a fight is required to progress, thus enemies need to detect you first (boss fights likely). In such cases, you may need to disable the cheat and continue or restart from the last checkpoint with the cheat disabled.">
+  <Cheat Text="Undetectable｜无法检测到" Description="Enemies can not detect you and will not attack back when being hit. Note that this cheat has not been thoroughly tested and might cause progression issues, especially in case a fight is required to progress, thus enemies need to detect you first (boss fights likely). In such cases, you may need to disable the cheat and continue or restart from the last checkpoint with the cheat disabled.">
     <Cheatline>
       <Section>0</Section>
       <Offset>2AF9FF9</Offset>
@@ -314,7 +322,7 @@
       <ValueOff>84-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Broom Boost" Description="">
+  <Cheat Text="Infinite Broom Boost｜无限扫帚加速" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>317F754</Offset>
@@ -322,7 +330,7 @@
       <ValueOff>C5-FA-58-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Combo (on gain)" Description="">
+  <Cheat Text="最大 Combo (on gain)" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813ED20</Offset>
@@ -336,7 +344,7 @@
       <ValueOff>C4-C1-7A-11-85-88-3E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="0 Quidditch Trial Timer" Description="Scoreboard will display 1 Second">
+  <Cheat Text="0 Quidditch 审判 计时器" Description="Scoreboard will display 1 Second">
     <Cheatline>
       <Section>0</Section>
       <Offset>319C63B</Offset>
@@ -344,7 +352,7 @@
       <ValueOff>C4-C1-7A-58-86-78-03-00-00-C4-C1-7A-11-86-78-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Complete Duelling" Description="">
+  <Cheat Text="Fast Complete Duelling｜快速完整决斗" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813ED40</Offset>
@@ -358,7 +366,7 @@
       <ValueOff>FF-87-58-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Complete Challenges" Description="">
+  <Cheat Text="Fast Complete Challenges｜快速完成挑战" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>813ED60</Offset>
@@ -372,7 +380,7 @@
       <ValueOff>89-46-0C-3B-43-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gain Max Money (READ INFO)" Description="When activated, shop items will cost negative money, which mean you will gain money when buying from shops. This is a one time use cheat. Be sure to enable it ONLY right before starting shopping and disable it immediately after completing shopping. Do not enable the cheat after gaining sufficient funds. 10 million coins are usually enough for the entire game.">
+  <Cheat Text="Gain 金钱最大 (READ INFO)" Description="When activated, shop items will cost negative money, which mean you will gain money when buying from shops. This is a one time use cheat. Be sure to enable it ONLY right before starting shopping and disable it immediately after completing shopping. Do not enable the cheat after gaining sufficient funds. 10 million coins are usually enough for the entire game.">
     <Cheatline>
       <Section>0</Section>
       <Offset>813ED80</Offset>
@@ -386,7 +394,7 @@
       <ValueOff>C5-FA-10-77-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Talent Points" Description="Takes effect when you open the Talents menu or when you spend talent points.">
+  <Cheat Text="99 Talent 得分" Description="Takes effect when you open the Talents menu or when you spend talent points.">
     <Cheatline>
       <Section>0</Section>
       <Offset>813EDD0</Offset>

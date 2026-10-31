@@ -1,12 +1,17 @@
 {
-  "name": "Salamander Deluxe Pack Plus",
-  "id": "SLPM86037",
+  "name": "Salamander Deluxe 卡包 Plus",
+  "id": "SLPM86037｜单车道被动模式",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Salamander Inf Lives P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Salamander 无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1479F2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Salamander 2 Inf Lives P1",
-      "type": "checkbox",
+      "name": "Salamander 2 无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "133306",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Lifeforce Inf Lives P1",
-      "type": "checkbox",
+      "name": "Lifeforce 无限生命 P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14719A",

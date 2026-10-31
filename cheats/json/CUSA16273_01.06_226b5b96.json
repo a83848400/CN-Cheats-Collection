@@ -1,12 +1,17 @@
 {
-  "name": "The Survivalists",
+  "name": "The Survivalists｜《生存者》",
   "id": "CUSA16273",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80BDC526",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80A0F601",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "809D553F",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "One-hit Destroy (trees, rocks, etc)",
-      "type": "checkbox",
+      "name": "One-hit 拆除 (trees, rocks, etc)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80BDC52F",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "No Hunger",
-      "type": "checkbox",
+      "name": "No Hunger｜不会饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80E0626E",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "No Item Damage",
-      "type": "checkbox",
+      "name": "No 物品 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80E0F856",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Max Coins (on get)",
-      "type": "checkbox",
+      "name": "最大 角落 (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8074E5A3",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Lock Item (buggy)",
-      "type": "checkbox",
+      "name": "Lock 物品 (buggy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80E0C47D",

@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders II: Deathinitive Edition",
+  "name": "Darksiders II: Deathinitive Edition｜《暗黑血统2：死亡终极版》",
   "id": "CUSA02419",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AAB5D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
+      "name": "Infinite Rage｜怒气无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24D597",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BACB3",

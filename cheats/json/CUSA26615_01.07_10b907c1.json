@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto: Vice City - The Definitive Edition",
+  "name": "侠盗猎车手: Vice 城市 - The Definitive Edition",
   "id": "CUSA26615",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5903800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Armor",
-      "type": "checkbox",
+      "name": "Infinite Armor｜护甲无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5903808",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (Need Total Bullets ON)",
-      "type": "checkbox",
+      "name": "无限弹药 (Need Total 项目符号 ON)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5903818",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Total Bullets",
-      "type": "checkbox",
+      "name": "Total 项目符号",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5903810",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Wanted Level always 1",
-      "type": "checkbox",
+      "name": "Wanted 等级 always 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5903820",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Max Money Instantly",
-      "type": "checkbox",
+      "name": "Infinite 金钱最大 Instantly",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "590382E",

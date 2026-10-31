@@ -1,12 +1,17 @@
 {
-  "name": "Code Vein",
+  "name": "密码 Vein",
   "id": "CUSA10246",
   "version": "01.52",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode: Infinite Health / One Hit Kill ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码: 无限生命 / 一击必杀 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BDF0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health [MC]",
-      "type": "checkbox",
+      "name": "无限生命 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BDF8",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [MC]",
-      "type": "checkbox",
+      "name": "一击必杀 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BE0D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BE30",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BE53",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Items ( on gain / use )",
-      "type": "checkbox",
+      "name": "最大 Items ( on gain / use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BDB0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Haze ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Haze ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BDC0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Ichor",
-      "type": "checkbox",
+      "name": "Infinite Ichor｜无尽的伊科尔",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "668BDD1",

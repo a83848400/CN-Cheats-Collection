@@ -1,12 +1,17 @@
 {
-  "name": "Mount & Blade: Warband",
+  "name": "Mount & 异刃: Warband",
   "id": "CUSA03263",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Attribute(nop)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 属性(nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BDE077",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Skill Points(nop)",
-      "type": "checkbox",
+      "name": "最大 Skill 得分(nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BDD0FF",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Weapon Points(nop)",
-      "type": "checkbox",
+      "name": "最大 Weapon 得分(nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BDDAB0",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Free Purchase(nop, anything you can spend denars on)",
-      "type": "checkbox",
+      "name": "Free Purchase(nop, anything you can spend denars on)｜免费购买（不，任何可以用第纳尔购买的东西）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C69E2B",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Relationship Max(activate when you abort a quest, not before accepting it)",
-      "type": "checkbox",
+      "name": "关系 最大(activate when you abort a quest, not before accepting it)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DB1168",

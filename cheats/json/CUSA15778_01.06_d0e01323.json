@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 6",
+  "name": "孤岛惊魂 6",
   "id": "CUSA15778",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No reload & Inf Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无需换弹 & 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BDE163",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Hp",
-      "type": "checkbox",
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7C53822",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Never Dec Items",
-      "type": "checkbox",
+      "name": "Never Dec Items｜“永不打折”商品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F333",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Yaran Pesos/Items 9999999",
-      "type": "checkbox",
+      "name": "Yaran Pesos/Items 9999999｜雅兰比索/物品 9999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "131F2B9",

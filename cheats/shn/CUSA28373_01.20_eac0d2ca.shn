@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="F.I.S.T.: Forged In Shadow Torch" Moder="Reddevil82 - FW 9.00" Cusa="CUSA28373" Version="01.20" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>8C37DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>66-83-7F-58-00-78-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>8C37DED</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>8B-87-60-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>8C37E04</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-87-60-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SP">
+  <Cheat Text="Infinite 精神值">
     <Cheatline>
       <Offset>8C37E1B</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>44-8B-B8-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite EP">
+  <Cheat Text="Infinite EP｜《Infinite》EP">
     <Cheatline>
       <Offset>8C37E35</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>44-8B-B8-EC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>8C37E50</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>41-8B-86-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Data Disk">
+  <Cheat Text="最大 Data Disk">
     <Cheatline>
       <Offset>8C37E67</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>41-8B-86-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Plant Seeds">
+  <Cheat Text="最大 埋包 Seeds">
     <Cheatline>
       <Offset>8C37E7E</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>44-8B-74-88-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Multi Jump">
+  <Cheat Text="Multi Jump｜多跳">
     <Cheatline>
       <Offset>8C37E90</Offset>
       <Section>0</Section>

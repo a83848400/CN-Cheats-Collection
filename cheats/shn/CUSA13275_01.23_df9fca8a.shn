@@ -4,7 +4,15 @@
   <Genres Name="FPS" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="[01a][Game] Speed x2" Description="It also affects the cutscenes and pressing the square button.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[01a][Game] 速度 x2" Description="It also affects the cutscenes and pressing the square button.">
     <Cheatline>
       <Offset>3379820</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>42-8B-54-31-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[01b][Game] Speed x1">
+  <Cheat Text="[01b][Game] 速度 x1">
     <Cheatline>
       <Offset>3379820</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>42-8B-54-31-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[01c][Game] Speed x0.5">
+  <Cheat Text="[01c][Game] 速度 x0.5">
     <Cheatline>
       <Offset>3379820</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>42-8B-54-31-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02][Player] Immunity">
+  <Cheat Text="[02][Player] Immunity｜[02][玩家] 免疫">
     <Cheatline>
       <Offset>4F9650</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>48-83-7F-78-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03][Player] No Death When Falling/Going Out Of Limits">
+  <Cheat Text="[03][Player] 不会死亡 When Falling/Going Out Of Limits">
     <Cheatline>
       <Offset>22D1E10</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04][Player] Infinite Health/Shield">
+  <Cheat Text="[04][Player] 无限生命/盾牌">
     <Cheatline>
       <Offset>3379390</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>C4-E3-79-17-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05][Player] Revenant: Infinite Health">
+  <Cheat Text="[05][Player] Revenant: 无限生命">
     <Cheatline>
       <Offset>3379370</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C5-FA-10-47-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06][Player] Infinite Lives">
+  <Cheat Text="[06][Player] 无限生命">
     <Cheatline>
       <Offset>3379240</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>8B-47-38-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07a][Player] Speed x1 (Normal)">
+  <Cheat Text="[07a][Player] 速度 x1 (普通)">
     <Cheatline>
       <Offset>3379800</Offset>
       <Section>0</Section>
@@ -178,7 +186,7 @@
       <ValueOff>C5-E2-59-9B-80-42-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07b][Player] Speed x1.75 (Blood Fueled Rune)">
+  <Cheat Text="[07b][Player] 速度 x1.75 (Blood Fueled Rune)">
     <Cheatline>
       <Offset>3379800</Offset>
       <Section>0</Section>
@@ -192,7 +200,7 @@
       <ValueOff>C5-E2-59-9B-80-42-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07c][Player] Speed x2">
+  <Cheat Text="[07c][Player] 速度 x2">
     <Cheatline>
       <Offset>3379800</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>C5-E2-59-9B-80-42-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07d][Player] Speed x3">
+  <Cheat Text="[07d][Player] 速度 x3">
     <Cheatline>
       <Offset>3379800</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>C5-E2-59-9B-80-42-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07e][Player] Speed x4">
+  <Cheat Text="[07e][Player] 速度 x4">
     <Cheatline>
       <Offset>3379800</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>C5-E2-59-9B-80-42-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08][Ability] Infinite Dash">
+  <Cheat Text="[08][特性] 无限冲刺">
     <Cheatline>
       <Offset>3379270</Offset>
       <Section>0</Section>
@@ -248,7 +256,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09][Ability] Infinite Jump">
+  <Cheat Text="[09][特性] 无限跳跃">
     <Cheatline>
       <Offset>3379290</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>83-BB-80-41-00-00-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10][Ability] Double Height (Jump)">
+  <Cheat Text="[10][特性] Double Height (Jump)">
     <Cheatline>
       <Offset>33795E0</Offset>
       <Section>0</Section>
@@ -276,7 +284,7 @@
       <ValueOff>E8-25-10-EA-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11][Weapon] 1 Hit Kill" Description="Except some bosses: necessary.">
+  <Cheat Text="[11][Weapon] 一击必杀" Description="Except some bosses: necessary.">
     <Cheatline>
       <Offset>3379410</Offset>
       <Section>0</Section>
@@ -290,7 +298,7 @@
       <ValueOff>C4-E3-79-17-08-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12][Weapon] Rapid Fire: Unmaker, Rocket Launcher, Plasma Rifle, Heavy Cannon, Shotgun">
+  <Cheat Text="[12][Weapon] 快速射击: Unmaker, 火箭发射器, 等离子 Rifle, 重装兵 Cannon, 霰弹枪">
     <Cheatline>
       <Offset>33798B0</Offset>
       <Section>0</Section>
@@ -304,7 +312,7 @@
       <ValueOff>E9-A5-FB-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13][Weapon] Infinite Bullets">
+  <Cheat Text="[13][Weapon] 无限子弹">
     <Cheatline>
       <Offset>33792B0</Offset>
       <Section>0</Section>
@@ -318,7 +326,7 @@
       <ValueOff>39-C1-0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14][Weapon] Infinite Blood Punch">
+  <Cheat Text="[14][Weapon] 无尽之血 Punch">
     <Cheatline>
       <Offset>33793D0</Offset>
       <Section>0</Section>
@@ -344,7 +352,7 @@
       <ValueOff>C5-FA-2C-8F-40-64-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[15][Weapon] Charged: Grenades">
+  <Cheat Text="[15][Weapon] 装填：手榴弹">
     <Cheatline>
       <Offset>33792D0</Offset>
       <Section>0</Section>
@@ -358,7 +366,7 @@
       <ValueOff>41-FF-8C-C4-30-6F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[16][Weapon] Charged: Flame Belch">
+  <Cheat Text="[16][Weapon] 蓄力技能：火焰喷吐">
     <Cheatline>
       <Offset>3379200</Offset>
       <Section>0</Section>
@@ -384,7 +392,7 @@
       <ValueOff>8B-83-B0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17][Weapon] Charged: Crucible">
+  <Cheat Text="[17][Weapon] 《Charged：Crucible》">
     <Cheatline>
       <Offset>33793B0</Offset>
       <Section>0</Section>
@@ -398,7 +406,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18][Weapon] Charged: Sentinel Hammer">
+  <Cheat Text="[18][Weapon] Charged: Sentinel 锤">
     <Cheatline>
       <Offset>3379550</Offset>
       <Section>0</Section>
@@ -412,7 +420,7 @@
       <ValueOff>C5-FA-10-87-74-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19][Weapon] Charged: Ballista">
+  <Cheat Text="[19][Weapon] Charged: Ballista｜[19][武器] 蓄力：弩">
     <Cheatline>
       <Offset>3379900</Offset>
       <Section>0</Section>
@@ -426,7 +434,7 @@
       <ValueOff>C4-C1-7A-11-87-58-31-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[20][Item] Infinite Keys">
+  <Cheat Text="[20][物品] 钥匙无限">
     <Cheatline>
       <Offset>3379500</Offset>
       <Section>0</Section>
@@ -452,7 +460,7 @@
       <ValueOff>42-01-94-BF-94-CA-04-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[21][Item] Charged: Radiation Suit">
+  <Cheat Text="[21][物品] Charged: Radiation 战衣">
     <Cheatline>
       <Offset>3379300</Offset>
       <Section>0</Section>
@@ -466,7 +474,7 @@
       <ValueOff>C4-C1-7A-11-46-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[22][Item] Charged: Diving Suit">
+  <Cheat Text="[22][物品] Charged: Diving 战衣">
     <Cheatline>
       <Offset>3379530</Offset>
       <Section>0</Section>
@@ -480,7 +488,7 @@
       <ValueOff>C4-C1-7A-11-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[23a][NME] Speed x0.25" Description="Speed changes when ON before loading or when NME attacks.">
+  <Cheat Text="[23a][NME] 速度x0.25" Description="Speed changes when ON before loading or when NME attacks.">
     <Cheatline>
       <Offset>3379850</Offset>
       <Section>0</Section>
@@ -494,7 +502,7 @@
       <ValueOff>C5-FA-59-80-B0-B4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[23b][NME] Speed x0.5">
+  <Cheat Text="[23b][NME] 速度 x0.5">
     <Cheatline>
       <Offset>3379850</Offset>
       <Section>0</Section>
@@ -508,7 +516,7 @@
       <ValueOff>C5-FA-59-80-B0-B4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[23c][NME] Speed x1">
+  <Cheat Text="[23c][NME] 速度 x1">
     <Cheatline>
       <Offset>3379850</Offset>
       <Section>0</Section>
@@ -522,7 +530,7 @@
       <ValueOff>C5-FA-59-80-B0-B4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[23d][NME] Speed x2">
+  <Cheat Text="[23d][NME] 速度 x2">
     <Cheatline>
       <Offset>3379850</Offset>
       <Section>0</Section>
@@ -536,7 +544,7 @@
       <ValueOff>C5-FA-59-80-B0-B4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[24][NME] Enemy Doesn`t Attack" Description="You have to look for all the enemies to clear the stage. Sometimes you have to turn it OFF to be able to continue (DLC 1, for example, the first eye won`t appear if it`s ON.">
+  <Cheat Text="[24][NME] Enemy Doesn`恐怖分子 攻击" Description="You have to look for all the enemies to clear the stage. Sometimes you have to turn it OFF to be able to continue (DLC 1, for example, the first eye won`t appear if it`s ON.">
     <Cheatline>
       <Offset>573AB0</Offset>
       <Section>0</Section>

@@ -1,13 +1,18 @@
 {
-  "name": "Infinity Strash: DRAGON QUEST The Adventure of Dai",
+  "name": "Infinity Strash: 勇者斗恶龙 The 冒险模式 of Dai",
   "id": "PPSA09453",
   "version": "01.000.002",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Consumables",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限消耗品",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1428ED4",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf HP + 1 Hit Kill",
+      "name": "无限血量 + 一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCC7000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf HP",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCC7051",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf money And Cristals",
+      "name": "金钱无限 And Cristals",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCC70A2",

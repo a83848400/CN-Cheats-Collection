@@ -1,12 +1,17 @@
 {
-  "name": "Metal Gear Solid V: The Definitive Experience",
+  "name": "合金装备/潜龙谍影 V: The Definitive Experience",
   "id": "CUSA05597",
   "version": "01.09",
   "process": "gz.elf",
   "mods": [
     {
-      "name": "Infinite Silencer",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Silencer｜无限消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D240EE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B03C91",

@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Black Ops 4",
+  "name": "使命召唤: 黑色 Ops 4",
   "id": "CUSA12443",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BA5C7C",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "All Client Godmode",
+      "name": "All Client 上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F9DB04",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Points",
+      "name": "Infinite 得分",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12E670D",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Specialist / Grenades",
+      "name": "Infinite 专家 / 手榴弹",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B0A8DA",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Infinite Shield Durability",
+      "name": "无限护盾 耐用性",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C39F52",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "1-Hit Kill",
+      "name": "1-命中击杀",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A887FE",
@@ -87,9 +92,9 @@
       ]
     },
     {
-      "name": "Draw Lobby Debug",
+      "name": "抽牌 Lobby Debug",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16AE857",

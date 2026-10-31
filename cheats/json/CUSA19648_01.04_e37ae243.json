@@ -1,12 +1,17 @@
 {
-  "name": "Blaster Master Zero II",
+  "name": "爆能枪 Master 杰洛 II",
   "id": "CUSA19648",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24E7CFB",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Sub Weapon (Pilot)",
-      "type": "checkbox",
+      "name": "无限副武器 (铁驭)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24E7D25",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Counter Bar Refill",
-      "type": "checkbox",
+      "name": "计数器 Bar Refill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24E7D33",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "All Guns",
-      "type": "checkbox",
+      "name": "All Guns｜所有枪支",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A485F9",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "SP Refill (Gaia)",
-      "type": "checkbox",
+      "name": "精神值 Refill (Gaia)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24E7D42",

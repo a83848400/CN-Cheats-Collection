@@ -1,12 +1,17 @@
 {
-  "name": "Hades",
+  "name": "Hades｜哈迪斯",
   "id": "CUSA27387",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Health / Money (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命最大 / 金钱 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90C600",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money (9999)",
-      "type": "checkbox",
+      "name": "金钱最大 (9999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90C635",

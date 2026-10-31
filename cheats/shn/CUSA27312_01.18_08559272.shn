@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Baldo: The Guardian Owls" Moder="Saso_9.00" Cusa="CUSA27312" Version="01.18" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>81BE2F69</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>44-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina">
+  <Cheat Text="无限耐力">
     <Cheatline>
       <Offset>81ACDA0F</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-5C-80-18-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Dindi (999)">
+  <Cheat Text="最大 Dindi (999)">
     <Cheatline>
       <Offset>81BC3B32</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C4-E2-78-F2-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freez Timer">
+  <Cheat Text="Freez 计时器">
     <Cheatline>
       <Offset>81B2F533</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>C5-FA-5C-80-18-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Consumables">
+  <Cheat Text="无限消耗品">
     <Cheatline>
       <Offset>823AB800</Offset>
       <Section>0</Section>

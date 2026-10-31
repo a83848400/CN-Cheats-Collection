@@ -1,12 +1,17 @@
 {
-  "name": "Divinity: Original Sin: Enhanced Edition",
+  "name": "神兽: Original Sin: Enhanced Edition",
   "id": "CUSA02762",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1457800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Inf HP + 1 Hit Kill",
-      "type": "checkbox",
+      "name": "最大 无限血量 + 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1457822",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items On Pickup-Must Have 1",
-      "type": "checkbox",
+      "name": "最大 Items On Pickup-Must Have 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3D95A0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Items x99-Must Have 1",
-      "type": "checkbox",
+      "name": "最大 物品 x99-Must Have 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1457848",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "10000 XP On Get",
-      "type": "checkbox",
+      "name": "10000 XP On Get｜获得时+10000 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1457883",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Unlimited Actions",
-      "type": "checkbox",
+      "name": "Unlimited Actions｜无限行动",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1457892",

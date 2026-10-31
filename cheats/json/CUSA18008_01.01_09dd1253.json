@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil Village",
+  "name": "生化危机 Village",
   "id": "CUSA18008",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Easy Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 轻松击杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB806",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "999 Ammo (On Reload) /  Items",
-      "type": "checkbox",
+      "name": "999 Ammo (On Reload) /  Items｜999 发弹药（重新装弹时） /  物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB880",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables / Lock Pick (on Use)",
-      "type": "checkbox",
+      "name": "投掷物无限 / Lock Pick (on Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB8B0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Lei",
-      "type": "checkbox",
+      "name": "最大 Lei",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB8E0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Tank Canon No Cooldown",
-      "type": "checkbox",
+      "name": "坦克 Canon 无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10ADB4F",

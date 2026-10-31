@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B03AA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Coins (on buy/sell)",
-      "type": "checkbox",
+      "name": "最大 角落 (on buy/sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B03B50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "99 item/food turn off when doing missions",
-      "type": "checkbox",
+      "name": "99 物品/food 回合 off when doing missions",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B03510",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max learning Points/stats/skill (on spend)",
-      "type": "checkbox",
+      "name": "最大 learning 得分/属性/skill (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B03AC0",

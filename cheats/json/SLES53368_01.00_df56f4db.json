@@ -1,12 +1,17 @@
 {
-  "name": "Splatter Master",
+  "name": "Splatter Master｜《血溅大师》",
   "id": "SLES53368",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE83F00",
@@ -17,7 +22,7 @@
     },
     {
       "name": "Infinite-GAS",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE83F05",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-GOLD",
-      "type": "checkbox",
+      "name": "Infinite-金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE83F08",

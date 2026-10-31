@@ -1,12 +1,17 @@
 {
-  "name": "Hogwarts Legacy",
+  "name": "Hogwarts Legacy｜《霍格沃茨：遗产》",
   "id": "CUSA12771",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8443CD0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Special power",
-      "type": "checkbox",
+      "name": "《无限特辑》 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8443E50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Broom boost",
-      "type": "checkbox",
+      "name": "Infinite Broom boost｜无限扫帚加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8443660",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Spells No Cooldown (in Fight only)",
-      "type": "checkbox",
+      "name": "Spells 无冷却 (in Fight only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "272687A",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Level After Doing few Experience tasks ",
-      "type": "checkbox",
+      "name": "等级最大 After Doing few Experience tasks ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8443C50",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "infinite Gold/Items",
-      "type": "checkbox",
+      "name": "无限金币/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7B4ACD",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Talent Points do not decrease when spent",
-      "type": "checkbox",
+      "name": "Talent 得分 do not decrease when spent",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84431C0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Potions do not decrease when drinking them",
-      "type": "checkbox",
+      "name": "Potions do not decrease when drinking them｜喝下魔药后，魔药的数量不会减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8442DA0",

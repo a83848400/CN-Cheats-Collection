@@ -5,7 +5,15 @@
   <Genres Name="FPS" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>A1059B</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>70C038</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>29-82-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>752544</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>41-89-87-14-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenates">
+  <Cheat Text="Infinite Grenates｜无限手榴弹">
     <Cheatline>
       <Offset>15BB800</Offset>
       <Section>0</Section>

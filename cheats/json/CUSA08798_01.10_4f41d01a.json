@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders III",
+  "name": "Darksiders III｜《暗黑血统3》",
   "id": "CUSA08798",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Crystals",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Crystals｜水晶无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38CBBB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Souls on Spend",
-      "type": "checkbox",
+      "name": "灵魂最大 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Souls | Activate One Code Only",
-      "type": "checkbox",
+      "name": "灵魂无限 | Activate One 密码 Only",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38CBBB",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Consumables On Use",
-      "type": "checkbox",
+      "name": "最大 Consumables On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables |Activate One Code Only",
-      "type": "checkbox",
+      "name": "无限消耗品 |Activate One 密码 Only",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "390AB0",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Ingredients",
-      "type": "checkbox",
+      "name": "Infinite Ingredients｜无限食材",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38CD6E",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Ingredients On Use",
-      "type": "checkbox",
+      "name": "最大 Ingredients On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494F800",

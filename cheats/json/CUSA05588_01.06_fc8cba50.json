@@ -1,12 +1,17 @@
 {
-  "name": "Nex Machina",
+  "name": "Nex Machina｜这台机器真不错",
   "id": "CUSA05588",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AC60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Dash",
-      "type": "checkbox",
+      "name": "Infinite Dash｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AC70",

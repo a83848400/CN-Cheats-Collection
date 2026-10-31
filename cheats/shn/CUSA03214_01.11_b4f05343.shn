@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="FIFA 17" Moder="Wander FW9.00" Cusa="CUSA03214" Version="01.11" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="max Score (while training)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 比分 (while 训练)">
     <Cheatline>
       <Offset>58D8910</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>01-91-B8-7B-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill points (on use) Journey Mode">
+  <Cheat Text="最大 Skill 得分 (on use) Journey Mode">
     <Cheatline>
       <Offset>58D8980</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>0F-44-C8-41-01-4E-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Budget (after selling Players)">
+  <Cheat Text="最大 预算 (售出后 Players)">
     <Cheatline>
       <Offset>58D89E0</Offset>
       <Section>0</Section>

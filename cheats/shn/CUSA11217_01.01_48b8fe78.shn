@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="SINNER: Sacrifice for Redemption" Moder="Reddevil82 - FW 9.00" Cusa="CUSA11217" Version="01.01" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Mastercode Health ( must be activated )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="主代码 生命 ( must be activated )">
     <Cheatline>
       <Offset>4703E16</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-87-84-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]">
     <Cheatline>
       <Offset>4703E1F</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-89-87-84-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill [ MC ]">
+  <Cheat Text="一击必杀 [ MC ]">
     <Cheatline>
       <Offset>4703E31</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-89-87-84-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>4703DB0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-11-83-8C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Resistance ( Ice )">
+  <Cheat Text="抗性最大 ( Ice )">
     <Cheatline>
       <Offset>4703DD3</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-10-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Resistance ( Poison )">
+  <Cheat Text="抗性最大 ( Poison )">
     <Cheatline>
       <Offset>4703DE4</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C5-FA-10-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ( on use )">
+  <Cheat Text="最大 Items ( on use )">
     <Cheatline>
       <Offset>4703DF5</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>44-89-4C-C1-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Challenger Timer to 1">
+  <Cheat Text="Set Challenger 计时器 to 1">
     <Cheatline>
       <Offset>4703E05</Offset>
       <Section>0</Section>

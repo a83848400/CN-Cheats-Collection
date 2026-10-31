@@ -1,12 +1,17 @@
 {
-  "name": "Star Ocean: The Divine Force",
+  "name": "Star Ocean: The Divine Force｜星之海洋：神圣力量",
   "id": "CUSA31855",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Main Player)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Main Player)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235BEC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite AP (5 bars)",
-      "type": "checkbox",
+      "name": "无限能力点 (5 bars)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235A4B0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Coins (on gain)",
-      "type": "checkbox",
+      "name": "最大 角落 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235A4F0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max skill Points (on level up)",
-      "type": "checkbox",
+      "name": "最大 skill 得分 (on 升级)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235A560",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Items (on pick up)",
-      "type": "checkbox",
+      "name": "最大 Items (on 拾取)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235A5C0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max DUMA points (on gain)",
-      "type": "checkbox",
+      "name": "最大 DUMA 得分 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235A630",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite DUMA charge Bar (in Battle)",
-      "type": "checkbox",
+      "name": "Infinite DUMA 冲锋 Bar (in 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "235A670",

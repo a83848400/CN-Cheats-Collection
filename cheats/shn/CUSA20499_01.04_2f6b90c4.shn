@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7FC5FE80</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>0F-85-55-FF-FF-FF-FF-4B-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Extra Special (On Use)">
+  <Cheat Text="Infinite Extra Special (On Use)｜无限特级（使用时生效）">
     <Cheatline>
       <Offset>7FC5FEB0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-11-80-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Plane Extra Special (On Use)">
+  <Cheat Text="Infinite Plane Extra Special (On Use)｜无限平面·特级（使用型）">
     <Cheatline>
       <Offset>7FC5FF50</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-11-80-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins">
+  <Cheat Text="最大 角落">
     <Cheatline>
       <Offset>7FC5FF10</Offset>
       <Section>0</Section>

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>32045E2</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>89-B7-34-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>6D1A330</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>C4-C1-7A-11-85-B8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill * Basic Damage/Def = 10K">
+  <Cheat Text="一击必杀 * Basic 输出/守备力 = 10K">
     <Cheatline>
       <Offset>6D1A500</Offset>
       <Section>0</Section>
@@ -63,7 +71,7 @@
       <ValueOff>C4-E3-79-21-42-0C-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Stun (No Effect If 1HK On)">
+  <Cheat Text="1 次击晕 (没有效果 If 1港元 On)">
     <Cheatline>
       <Offset>6D1A300</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>41-89-84-24-6C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-   <Cheat Text="Flying Turbo Speed x5">
+   <Cheat Text="Flying 涡轮 速度 x5">
     <Cheatline>
       <Offset>6D1A600</Offset>
       <Section>0</Section>
@@ -115,7 +123,7 @@
       <ValueOff>C4-C1-7A-11-8C-24-48-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Maxed Sword">
+  <Cheat Text="Maxed 剑">
     <Cheatline>
       <Offset>6D1A580</Offset>
       <Section>0</Section>
@@ -129,7 +137,7 @@
       <ValueOff>8B-80-A4-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Maxed Axe">
+  <Cheat Text="Maxed 斧">
     <Cheatline>
       <Offset>6D1A5A0</Offset>
       <Section>0</Section>
@@ -143,7 +151,7 @@
       <ValueOff>8B-80-A8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Maxed Bow">
+  <Cheat Text="Maxed 弓">
     <Cheatline>
       <Offset>6D1A5C0</Offset>
       <Section>0</Section>
@@ -157,7 +165,7 @@
       <ValueOff>8B-80-AC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Maxed Armour">
+  <Cheat Text="Maxed Armour｜护甲满值">
     <Cheatline>
       <Offset>6D1A540</Offset>
       <Section>0</Section>
@@ -171,7 +179,7 @@
       <ValueOff>8B-80-B4-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Maxed Helmet">
+  <Cheat Text="Maxed 头盔">
     <Cheatline>
       <Offset>6D1A560</Offset>
       <Section>0</Section>
@@ -185,7 +193,7 @@
       <ValueOff>8B-80-B0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Collectables (Pick Up +3 Times)">
+  <Cheat Text="Infinite Collectables (拾取 +3 Times)">
     <Cheatline>
       <Offset>6D1A360</Offset>
       <Section>0</Section>
@@ -199,7 +207,7 @@
       <ValueOff>41-03-44-24-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Combo 666 + 4th Level (Blue)">
+  <Cheat Text="Combo 666 + 4th 等级 (Blue)">
     <Cheatline>
       <Offset>6D1A460</Offset>
       <Section>0</Section>

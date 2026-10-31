@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="DC League of Super-Pets: The Adventures of Krypto and Ace" Moder="Wander FW9.00" Cusa="CUSA30005" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>348F520</Offset>
       <Section>14</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-40-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ability Instant recharge " Description="Can glitch some visual">
+  <Cheat Text="特性 瞬间冷却 " Description="Can glitch some visual">
     <Cheatline>
       <Offset>348F900</Offset>
       <Section>14</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-80-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points">
+  <Cheat Text="Infinite Skill 得分">
     <Cheatline>
       <Offset>348F3E0</Offset>
       <Section>14</Section>

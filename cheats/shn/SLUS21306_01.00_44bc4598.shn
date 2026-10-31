@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Ghost Rider" Moder="Ali-mk" Cusa="SLUS21306" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Return-to-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Return-to-生命">
     <Cheatline>
       <Offset>8081126380</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>00-00-00-FF-</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-SOULS-(9999999)">
+    <Cheat Text="最大-结界突破-(9999999)">
     <Cheatline>
       <Offset>808112636C</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>63</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health-2">
+    <Cheat Text="Infinite-生命-2">
     <Cheatline>
       <Offset>8080BC25F2</Offset>
       <Section>0</Section>

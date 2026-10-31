@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Persona 3 Reload" Moder="d01v" Cusa="CUSA37521" Version="01.02" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinte Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinte 生命">
     <Cheatline>
       <Offset>65527C1</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>0F-4F-D8-41-89-5E-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SP">
+  <Cheat Text="Infinite 精神值">
     <Cheatline>
       <Offset>65527F1</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>0F-4F-D8-41-89-5E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all consumable misc event items" Description="open menu">
+  <Cheat Text="all consumable misc event items｜所有消耗型其他活动道具" Description="open menu">
     <Cheatline>
       <Offset>6552821</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8A-84-08-00-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all skill items" Description="open menu">
+  <Cheat Text="all skill items｜所有技能道具" Description="open menu">
     <Cheatline>
       <Offset>6552851</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>8A-84-08-00-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all weapons" Description="open menu">
+  <Cheat Text="all 武器" Description="open menu">
     <Cheatline>
       <Offset>6552881</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>0F-B7-CB-8A-04-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all armors" Description="open menu">
+  <Cheat Text="all armors｜所有护甲" Description="open menu">
     <Cheatline>
       <Offset>65528B1</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>8A-84-08-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all footwear" Description="open menu">
+  <Cheat Text="all footwear｜所有鞋类" Description="open menu">
     <Cheatline>
       <Offset>65528E1</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>8A-84-08-00-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all outfit" Description="open menu">
+  <Cheat Text="all outfit｜整套穿搭" Description="open menu">
     <Cheatline>
       <Offset>6552911</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>8A-84-08-00-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all accessories" Description="open menu">
+  <Cheat Text="all accessories｜所有配件" Description="open menu">
     <Cheatline>
       <Offset>6552941</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>8A-84-08-00-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="yen" Description="open menu">
+  <Cheat Text="yen｜如果" Description="open menu">
     <Cheatline>
       <Offset>6552971</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>8B-88-F8-3C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="date (master code)" Description="only for events not for quest">
+  <Cheat Text="date (master 密码)" Description="only for events not for quest">
     <Cheatline>
       <Offset>65529A1</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>44-89-B8-80-A3-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="decrease 1 day (MC / date)">
+  <Cheat Text="decrease 1 day (MC / date)｜减少 1 天（MC / 日期）">
     <Cheatline>
       <Offset>65529A8</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>EB-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="increase 1 day (MC / date)">
+  <Cheat Text="increase 1 day (MC / date)｜增加 1 天（MC / 日期）">
     <Cheatline>
       <Offset>65529A8</Offset>
       <Section>0</Section>
@@ -172,7 +180,7 @@
       <ValueOff>EB-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="daytime (master code)" Description="only for events not for quest">
+  <Cheat Text="daytime (master 密码)" Description="only for events not for quest">
     <Cheatline>
       <Offset>65529F1</Offset>
       <Section>0</Section>
@@ -186,7 +194,7 @@
       <ValueOff>44-88-B0-7C-A3-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="early morning (MC / daytime)">
+  <Cheat Text="清晨 (MC / daytime)">
     <Cheatline>
       <Offset>65529F8</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>EB-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="after school (MC / daytime)">
+  <Cheat Text="after school (MC / daytime)｜放学后（MC / 白天）">
     <Cheatline>
       <Offset>65529F8</Offset>
       <Section>0</Section>
@@ -202,7 +210,7 @@
       <ValueOff>EB-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="evening (MC / daytime)">
+  <Cheat Text="傍晚 (MC / daytime)">
     <Cheatline>
       <Offset>65529F8</Offset>
       <Section>0</Section>
@@ -210,7 +218,7 @@
       <ValueOff>EB-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max exp player only">
+  <Cheat Text="经验值最大 player only">
     <Cheatline>
       <Offset>6552A51</Offset>
       <Section>0</Section>
@@ -224,7 +232,7 @@
       <ValueOff>8B-86-84-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max exp persona and party" Description="view your persona u want to level up in menu or in battle note if u view your party persona so does the party member will level up">
+  <Cheat Text="经验值最大 人格面具 and 队伍" Description="view your persona u want to level up in menu or in battle note if u view your party persona so does the party member will level up">
     <Cheatline>
       <Offset>6552A81</Offset>
       <Section>0</Section>
@@ -238,7 +246,7 @@
       <ValueOff>48-89-E5-8B-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="persona id (master code)" Description="equip any persona from 2nd slot to 6th slot then exit it will change instantly">
+  <Cheat Text="人格面具 id (master 密码)" Description="equip any persona from 2nd slot to 6th slot then exit it will change instantly">
     <Cheatline>
       <Offset>6552AB1</Offset>
       <Section>0</Section>
@@ -252,7 +260,7 @@
       <ValueOff>C5-FC-11-40-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="increase persona id (MC / id)">
+  <Cheat Text="increase 人格面具 id (MC / id)">
     <Cheatline>
       <Offset>6552AB6</Offset>
       <Section>0</Section>
@@ -260,7 +268,7 @@
       <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="decrease persona id (MC / id)">
+  <Cheat Text="decrease 人格面具 id (MC / id)">
     <Cheatline>
       <Offset>6552AB6</Offset>
       <Section>0</Section>
@@ -268,7 +276,7 @@
       <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max social stats" Description="view stats from menu or play any stats events">
+  <Cheat Text="最大 人格指数" Description="view stats from menu or play any stats events">
     <Cheatline>
       <Offset>6552AF1</Offset>
       <Section>0</Section>
@@ -282,7 +290,7 @@
       <ValueOff>31-FF-8B-74-C2-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max social links" Description="view social link from menu or spend time from link event">
+  <Cheat Text="最大 social links" Description="view social link from menu or spend time from link event">
     <Cheatline>
       <Offset>6552B1F</Offset>
       <Section>0</Section>

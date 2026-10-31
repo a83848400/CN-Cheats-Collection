@@ -1,12 +1,17 @@
 {
-  "name": "Solar Ash",
+  "name": "Solar Ash｜《太阳灰》",
   "id": "CUSA26035",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Pink Orb Multiplier When Repairing",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Pink Orb Multiplier When Repairing｜维修时粉色光球倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "188DF5E",

@@ -1,12 +1,17 @@
 {
-  "name": "Dark Souls: Remastered",
+  "name": "黑暗之魂: Remastered",
   "id": "CUSA08495",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP Master Code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1837800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Stamina Master Code",
-      "type": "checkbox",
+      "name": "体力 Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1837851",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Speed Hack Master Code",
-      "type": "checkbox",
+      "name": "速度 Hack Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1837878",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Drop Rate Master Code",
-      "type": "checkbox",
+      "name": "掉落率 Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183789B",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Player Infinite Health",
-      "type": "checkbox",
+      "name": "Player 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183780A",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Player + Enemy Inf HP",
-      "type": "checkbox",
+      "name": "Player + Enemy 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27738D",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Player Only Inf Stamina",
-      "type": "checkbox",
+      "name": "Player Only 无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183785A",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Player + NPC Inf Stamina",
-      "type": "checkbox",
+      "name": "Player + 非玩家角色 无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1837851",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Everyone Else 0 Stamina",
-      "type": "checkbox",
+      "name": "Everyone Else 0 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1837858",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Max Infinite Spell Uses",
-      "type": "checkbox",
+      "name": "最大 Infinite 法术 Uses",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EC089",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Max Humanity on Use",
-      "type": "checkbox",
+      "name": "最大 人性 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27CE6E",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "Max Infinite Souls",
-      "type": "checkbox",
+      "name": "最大 灵魂无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F6423",
@@ -157,8 +162,8 @@
       ]
     },
     {
-      "name": "Dupe Anything (Storage) + Max Items",
-      "type": "checkbox",
+      "name": "Dupe Anything (存储) + 最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E825E",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "Never Lose Humanity when Die",
-      "type": "checkbox",
+      "name": "Never Lose 人性 when Die",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E414F",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "Never Lose Souls when Die",
-      "type": "checkbox",
+      "name": "Never Lose 结界突破 when Die",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E4131",
@@ -190,8 +195,8 @@
       ]
     },
     {
-      "name": "Bleed Resistance",
-      "type": "checkbox",
+      "name": "Bleed Resistance｜抗渗性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27D36A",
@@ -201,8 +206,8 @@
       ]
     },
     {
-      "name": "Poison Resistance",
-      "type": "checkbox",
+      "name": "Poison Resistance｜抗毒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27D2EC",
@@ -212,8 +217,8 @@
       ]
     },
     {
-      "name": "Curse Resistance",
-      "type": "checkbox",
+      "name": "紧箍咒 Resistance",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27D3E8",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "Speed Hack x1.25",
-      "type": "checkbox",
+      "name": "速度 Hack x1.25",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183787F",
@@ -234,8 +239,8 @@
       ]
     },
     {
-      "name": "Speed Hack x1.50",
-      "type": "checkbox",
+      "name": "速度 Hack x1.50",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183787F",
@@ -245,8 +250,8 @@
       ]
     },
     {
-      "name": "Speed Hack x2.00",
-      "type": "checkbox",
+      "name": "速度 Hack x2.00",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "183787F",
@@ -256,8 +261,8 @@
       ]
     },
     {
-      "name": "100% Drop Rate Press L3+R3",
-      "type": "checkbox",
+      "name": "百分百掉宝率 Press L3+R3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B0794",

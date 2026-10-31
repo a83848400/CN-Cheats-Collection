@@ -4,7 +4,15 @@
   <Genres Name="Horror" />
   <Genres Name="Puzzele" />
   <Items />
-  <Cheat Text="Skipping always Enabled" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Skipping always Enabled｜“跳过”始终处于启用状态" Description="">
     <Cheatline>
       <Offset>2BAA20</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>0F-84-A2-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Autoplay always Enabled" Description="">
+  <Cheat Text="Autoplay always Enabled｜始终启用自动播放" Description="">
     <Cheatline>
       <Offset>2C7191</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>0F-85-CF-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Undo" Description="">
+  <Cheat Text="最大 Undo" Description="">
     <Cheatline>
       <Offset>2DFBEE</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>0F-4C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Undo" Description="">
+  <Cheat Text="Infinite Undo｜无限撤销" Description="">
     <Cheatline>
       <Offset>2DFBDC</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>FF-4A-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer" Description="">
+  <Cheat Text="Freeze 计时器" Description="">
     <Cheatline>
       <Offset>2CDFF3</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>C4-C1-7A-58-85-E8-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>263C10</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>89-83-FC-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stepchain-Time" Description="">
+  <Cheat Text="Infinite Stepchain-Time｜无限步链时间" Description="">
     <Cheatline>
       <Offset>254481</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-5C-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score" Description="">
+  <Cheat Text="最大 比分" Description="">
     <Cheatline>
       <Offset>25CF7D</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>44-0F-4C-E2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mysterious Meter: Evil">
+  <Cheat Text="Mysterious Meter: Evil｜神秘计数器：邪恶">
     <Cheatline>
       <Offset>DCF8C</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>01-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mysterious Meter: Neutral">
+  <Cheat Text="Mysterious Meter: Neutral｜神秘仪表：中性">
     <Cheatline>
       <Offset>DCF8C</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>01-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mysterious Meter: Good">
+  <Cheat Text="Mysterious Meter: Good｜神秘仪表：良好">
     <Cheatline>
       <Offset>DCF8C</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>01-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapunzel: Infinite Coins" Description="">
+  <Cheat Text="Rapunzel: 无限金币" Description="">
     <Cheatline>
       <Offset>2832A1</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>FF-CB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapunzel: Infinite Power" Description="">
+  <Cheat Text="Rapunzel: Infinite 电力" Description="">
     <Cheatline>
       <Offset>1A1A37</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>66-FF-88-58-CE-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapunzel: Infinite Undo" Description="">
+  <Cheat Text="Rapunzel: Infinite Undo｜《长发公主：无限撤销》" Description="">
     <Cheatline>
       <Offset>2DFBDC</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>FF-4A-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapunzel: Max Score" Description="">
+  <Cheat Text="Rapunzel: 最大 比分" Description="">
     <Cheatline>
       <Offset>2E6B1F</Offset>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>45-89-BE-50-CE-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapunzel: Unlock All Stages (Temporairly)" Description="">
+  <Cheat Text="Rapunzel: 解锁全部关卡 (Temporairly)" Description="">
     <Cheatline>
       <Offset>286B2E</Offset>
       <Section>0</Section>
@@ -204,7 +212,7 @@
       <ValueOff>8B-80-8C-7B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: White 3x3">
+  <Cheat Text="物品: White 3x3">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>
@@ -218,7 +226,7 @@
       <ValueOff>41-8B-9E-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: Dark Block">
+  <Cheat Text="物品: Dark 格挡">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>
@@ -232,7 +240,7 @@
       <ValueOff>41-8B-9E-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: Bible">
+  <Cheat Text="物品: Bible">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>
@@ -246,7 +254,7 @@
       <ValueOff>41-8B-9E-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: Energy Drink (Double Jump)">
+  <Cheat Text="物品: 活力剂 (Double Jump)">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>
@@ -260,7 +268,7 @@
       <ValueOff>41-8B-9E-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: Power Drink (Triple Jump)">
+  <Cheat Text="物品: 电力 Drink (Triple Jump)">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>
@@ -274,7 +282,7 @@
       <ValueOff>41-8B-9E-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: Bell (Block Repair)">
+  <Cheat Text="物品: Bell (格挡 Repair)">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>
@@ -288,7 +296,7 @@
       <ValueOff>41-8B-9E-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: Invisibility">
+  <Cheat Text="物品: Invisibility">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>
@@ -302,7 +310,7 @@
       <ValueOff>41-8B-9E-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item: Shield?">
+  <Cheat Text="物品: 盾牌?">
     <Cheatline>
       <Offset>7DB822</Offset>
       <Section>0</Section>

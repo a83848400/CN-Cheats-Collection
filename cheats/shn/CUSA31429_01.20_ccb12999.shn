@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health (battle network 4 Red Sun)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (战斗 network 4 Red 阳光)">
     <Cheatline>
       <Offset>6E97720</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>83-C0-24-66-89-0C-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (battle network 4 Blue moon)">
+  <Cheat Text="无限生命 (战斗 network 4 Blue moon)">
     <Cheatline>
       <Offset>6E97920</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>83-C0-24-66-89-0C-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Battle Network 5 Team Protoman)">
+  <Cheat Text="无限生命 (战斗 Network 5 Team Protoman)">
     <Cheatline>
       <Offset>6E97820</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>83-C1-24-66-89-04-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (battle network 5 Team Colonel)">
+  <Cheat Text="无限生命 (战斗 network 5 Team Colonel)">
     <Cheatline>
       <Offset>6E978D0</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>83-C1-24-66-89-04-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (battle Network 6 Cybeast falzar)">
+  <Cheat Text="无限生命 (战斗 Network 6 Cybeast falzar)">
     <Cheatline>
       <Offset>6E979E0</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>83-C0-24-66-89-0C-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (battle Network 6 Cybeast Gregar)">
+  <Cheat Text="无限生命 (战斗 Network 6 Cybeast Gregar)">
     <Cheatline>
       <Offset>6E97A60</Offset>
       <Section>0</Section>

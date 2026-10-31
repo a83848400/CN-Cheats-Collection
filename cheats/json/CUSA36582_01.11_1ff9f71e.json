@@ -1,10 +1,10 @@
 {
-  "name": "Prince of Persia: The Lost Crown",
+  "name": "波斯王子: The Lost 王冠",
   "id": "CUSA36582",
   "version": "01.11",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "8477F840",
@@ -50,19 +50,24 @@
   },
   "mods": [
     {
-      "name": "Invincible Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 Mode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8477F8B8",
-          "on": "0B",
+          "on": "0B｜零黑",
           "off": "00"
         }
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8477F885",
@@ -72,8 +77,8 @@
       ]
     },
     {
-      "name": "Infinite Dash",
-      "type": "checkbox",
+      "name": "Infinite Dash｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81189CB7",
@@ -83,13 +88,13 @@
       ]
     },
     {
-      "name": "Infinite Athra Surges",
-      "type": "checkbox",
+      "name": "Infinite Athra Surges｜无尽的阿特拉奔涌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C39B6B",
-          "on": "EB",
-          "off": "7D"
+          "on": "EB｜早上好",
+          "off": "7D｜七天"
         },
         {
           "offset": "80C39C30",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Infinite Healing Potion",
-      "type": "checkbox",
+      "name": "Infinite Healing 药水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "819785A1",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Infinite Memory Shard",
-      "type": "checkbox",
+      "name": "Infinite Memory 碎片",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80AC7E21",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8196D259",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Half Screen Arrow Attack",
-      "type": "checkbox",
+      "name": "半场 Screen Arrow 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8196CE5A",
@@ -158,8 +163,8 @@
       ]
     },
     {
-      "name": "Full Screen Arrow Attack",
-      "type": "checkbox",
+      "name": "Full Screen Arrow 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8196CE5A",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80EC2ECD",
@@ -190,30 +195,30 @@
       ]
     },
     {
-      "name": "Moon Jump",
-      "type": "checkbox",
+      "name": "Moon Jump｜月球超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8477F96D",
           "on": "75",
-          "off": "EB"
+          "off": "EB｜早上好"
         }
       ]
     },
     {
-      "name": "Infinite Double Jumps",
-      "type": "checkbox",
+      "name": "Infinite Double Jumps｜无限连跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "818CA279",
-          "on": "EB",
+          "on": "EB｜早上好",
           "off": "7C"
         }
       ]
     },
     {
-      "name": "Full Screen Collection",
-      "type": "checkbox",
+      "name": "Full Screen Collection｜全屏合集",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C47A99",
@@ -223,8 +228,8 @@
       ]
     },
     {
-      "name": "Unlock Six Powers",
-      "type": "checkbox",
+      "name": "解锁 Six Powers",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8108187A",
@@ -249,24 +254,24 @@
       ]
     },
     {
-      "name": "All Amulets Can Be Equip",
-      "type": "checkbox",
+      "name": "All Amulets Can Be Equip｜所有护身符均可装备",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80CB01B6",
           "on": "13",
-          "off": "1C"
+          "off": "1C｜一个C"
         },
         {
           "offset": "80EC5899",
           "on": "13",
-          "off": "1C"
+          "off": "1C｜一个C"
         }
       ]
     },
     {
-      "name": "Ignore Buy & Upgrades Requirements",
-      "type": "checkbox",
+      "name": "Ignore Buy & Upgrades Requirements｜忽略购买和升级要求",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80EBF8A6",

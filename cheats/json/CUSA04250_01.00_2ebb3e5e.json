@@ -1,13 +1,18 @@
 {
-  "name": "Aegis of Earth: Protonovus Assault",
+  "name": "不朽盾 of 土: Protonovus Assault",
   "id": "CUSA04250",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Get Money For Spending it",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Get Money For Spending it｜赚点钱来花花",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D9F352",

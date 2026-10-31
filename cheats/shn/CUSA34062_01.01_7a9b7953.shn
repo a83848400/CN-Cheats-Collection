@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Itorah" Moder="Ali-mk" Cusa="CUSA34062" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(mc)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C4-C1-7A-11-47-24</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Stamina">
+    <Cheat Text="Infinite-体力">
     <Cheatline>
       <Offset>805C1380</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-43-28</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="one-Hit-Kill-us-inf-hp">
+    <Cheat Text="一击必杀-us-Infinite-手机">
     <Cheatline>
       <Offset>805CF2E5</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>C4-C1-7A-10-4F-24</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Invincible-1-HIT">
+    <Cheat Text="无敌-1-HIT">
     <Cheatline>
       <Offset>805CF32A</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C4-C1-7A-10-46-28</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Healing-Power">
+    <Cheat Text="Infinite-Healing-电力">
     <Cheatline>
       <Offset>8175D63F</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>41-FF-4E-28</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Gems + blue-Crystal-items">
+    <Cheat Text="Infinite-Gems + blue-水晶-items">
     <Cheatline>
       <Offset>8077BB9B</Offset>
       <Section>0</Section>

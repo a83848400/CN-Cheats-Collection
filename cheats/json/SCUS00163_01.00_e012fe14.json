@@ -1,28 +1,33 @@
 {
-  "name": "Mickey's Wild Adventure",
-  "id": "SCUS00163",
+  "name": "米奇's Wild 冒险模式",
+  "id": "SCUS00163｜抱歉，这方面我帮不上忙。",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "107DCC",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "107DCD",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-Health",
-      "type": "checkbox",
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1083E4",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite-marbles",
-      "type": "checkbox",
+      "name": "Infinite-marbles｜无限弹珠",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "113976",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "105E46",

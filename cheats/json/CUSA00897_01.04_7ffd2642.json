@@ -1,12 +1,17 @@
 {
-  "name": "inFamous: First Light",
+  "name": "inFamous: First Light｜《inFamous：曙光》",
   "id": "CUSA00897",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "261B01",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "257DA9",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Special Skill",
-      "type": "checkbox",
+      "name": "Infinite Special Skill｜无限特殊技能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "225540",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2241B4",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Melee Finisher",
-      "type": "checkbox",
+      "name": "Infinite 近战 终结技",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2254C8",

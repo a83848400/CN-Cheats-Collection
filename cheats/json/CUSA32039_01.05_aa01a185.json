@@ -1,12 +1,17 @@
 {
-  "name": "The Lord of the Rings: Gollum",
+  "name": "The 领主 of the 金环: Gollum",
   "id": "CUSA32039",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "686F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf HP",
-      "type": "checkbox",
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "686F819",

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Frozen Free Fall: Snowball Fight" Moder="DeathRGH" Cusa="CUSA02396" Version="01.01" Process="eboot.bin">
   <Items />
-  <Cheat Text="Max Score Multiplier">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 比分 Multiplier">
     <Cheatline>
       <Offset>ADCE6E</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>41-89-46-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Moves">
+  <Cheat Text="Infinite Moves｜无限招式">
     <Cheatline>
       <Offset>AED75E</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-89-47-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Hearts">
+  <Cheat Text="Infinite 心">
     <Cheatline>
       <Offset>B51976</Offset>
       <Section>0</Section>

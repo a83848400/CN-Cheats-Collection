@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Valhalla",
+  "name": "刺客信条 Valhalla",
   "id": "CUSA18534",
   "version": "05.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Disable When World Travelling)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Disable When World Travelling)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26EB573",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinte Stamina",
-      "type": "checkbox",
+      "name": "Infinte 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BE04E5",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Resources",
-      "type": "checkbox",
+      "name": "Infinite Resources｜资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CADCD9",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Adrenaline Bar (Disable When World Travelling)",
-      "type": "checkbox",
+      "name": "Infinite 肾上腺素 Bar (Disable When World Travelling)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26E0A7D",

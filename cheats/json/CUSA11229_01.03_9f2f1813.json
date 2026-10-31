@@ -1,12 +1,17 @@
 {
-  "name": "Left Alive",
+  "name": "Left Alive｜《Left Alive》",
   "id": "CUSA11229",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "V1| Infinite Ammo No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "V1| 无限弹药 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89C636",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "V1| Max+ Inf Clip Ammo On Reload",
-      "type": "checkbox",
+      "name": "V1| 最大+ 弹夹子弹无限 On Reload",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89FB49",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "V1| Inf Equipped Items/Crossbow/Grenades",
-      "type": "checkbox",
+      "name": "V1| Infinite Equipped Items/弩/手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89C774",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "V1| Infinite Box Items",
-      "type": "checkbox",
+      "name": "V1| Infinite Box Items｜V1| 无限宝箱道具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B4208B",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "V1| Max Box Items on Move",
-      "type": "checkbox",
+      "name": "V1| 最大 Box Items on 招式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1653800",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "V2| Infinite Ammo No Reload.",
-      "type": "checkbox",
+      "name": "V2| 无限弹药 无需换弹.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "2",
@@ -77,8 +82,8 @@
       ]
     },
     {
-      "name": "V2| Max+ Inf Clip Ammo On Realod.",
-      "type": "checkbox",
+      "name": "V2| 最大+ 弹夹子弹无限 On Realod.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "2",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "V2| Inf Equipped Items/Crossbow/Grenades.",
-      "type": "checkbox",
+      "name": "V2| Infinite Equipped Items/弩/手榴弹.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "2",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "V2| Infinite Box Items.",
-      "type": "checkbox",
+      "name": "V2| Infinite Box Items.｜V2| 无限宝箱道具。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "2",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "V2| Max Box Items on Move.",
-      "type": "checkbox",
+      "name": "V2| 最大 Box Items on 招式.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "2",
@@ -131,8 +136,8 @@
       ]
     },
     {
-      "name": "V3| Infinite Ammo No Reload!",
-      "type": "checkbox",
+      "name": "V3| 无限弹药 无需换弹!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "4",
@@ -143,8 +148,8 @@
       ]
     },
     {
-      "name": "V3| Max+ Inf Clip Ammo On Realod!",
-      "type": "checkbox",
+      "name": "V3| 最大+ 弹夹子弹无限 On Realod!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "4",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "V3| Inf Equipped Items/Crossbow/Grenades!",
-      "type": "checkbox",
+      "name": "V3| Infinite Equipped Items/弩/手榴弹!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "4",
@@ -167,8 +172,8 @@
       ]
     },
     {
-      "name": "V3| Infinite Box Items!",
-      "type": "checkbox",
+      "name": "V3| Infinite Box Items!｜V3| 无限宝箱道具！",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "4",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "V3| Max Box Items on Move!",
-      "type": "checkbox",
+      "name": "V3| 最大 Box Items on 招式!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "4",

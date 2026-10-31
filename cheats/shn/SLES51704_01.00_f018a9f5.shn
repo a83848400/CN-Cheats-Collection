@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="XII Stag" Moder="Ali-mk" Cusa="SLES51704" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Infinite-lives">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>807FE4ED94</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Bomb">
+  <Cheat Text="Infinite-Bomb｜无限炸弹">
     <Cheatline>
       <Offset>807FE4EDAC</Offset>
       <Section>0</Section>

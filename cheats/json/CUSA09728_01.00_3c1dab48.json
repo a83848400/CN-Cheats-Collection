@@ -1,12 +1,17 @@
 {
-  "name": "Ghost 1.0",
+  "name": "幽灵 1.0",
   "id": "CUSA09728",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (when haunting the other will get inf hp)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (when haunting the 他 意志 get 无限血量)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473CA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34F66B",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Golden Cube",
-      "type": "checkbox",
+      "name": "最大 金色 Cube",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473DE0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragon Ball: Xenoverse 2" Moder="Celogamez" Cusa="CUSA05350" Version="01.50" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>1CC7DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-87-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1CC7DB5</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>EB-1A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Vigor">
+  <Cheat Text="Infinite 生命力">
     <Cheatline>
       <Offset>1CC7600</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C4-C1-7A-11-86-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ki">
+  <Cheat Text="Infinite Ki｜无限气">
     <Cheatline>
       <Offset>1CC7A50</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C4-C1-7A-11-97-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Zeni On Use">
+  <Cheat Text="最大/无限泽尼 On Use">
     <Cheatline>
       <Offset>1CC7A90</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>89-4F-64-89-4F-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite TPs On Use">
+  <Cheat Text="最大/Infinite TPs On Use">
     <Cheatline>
       <Offset>1CC7A30</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>31-C8-41-89-47-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Attribute Points (Activate/Spend 1/Exit/Enter)">
+  <Cheat Text="最大 属性 得分 (Activate/Spend 1/退出/Enter)">
     <Cheatline>
       <Offset>1CC7490</Offset>
       <Section>0</Section>

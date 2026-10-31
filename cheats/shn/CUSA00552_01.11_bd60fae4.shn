@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Dev Menu (L3 + Upper L or R Touch Pad)" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Dev 菜单 (L3 + Upper L or R Touch Pad)" Description="">
     <Cheatline>
       <Offset>1473800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>41-80-BD-81-2E-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hide FPS Counter" Description="">
+  <Cheat Text="兽皮 FPS 计数器" Description="">
     <Cheatline>
       <Offset>4102</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>0F-85-9B-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hide on Screen Details" Description="">
+  <Cheat Text="兽皮 on Screen Details" Description="">
     <Cheatline>
       <Offset>80AD75</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>0F-85-8C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game Speed" Description="">
+  <Cheat Text="Game 速度" Description="">
     <Cheatline>
       <Offset>9B4111</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>C5-FA-10-90-D8-2E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Parts, Pills" Description="Pickup any amount for high value.">
+  <Cheat Text="零件无限, 药丸" Description="Pickup any amount for high value.">
     <Cheatline>
       <Offset>89022</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>66-45-89-B4-5F-F4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Flashlight Never Dies">
+  <Cheat Text="手电筒 Never Dies">
     <Cheatline>
       <Offset>697B88</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>c4-c1-7a-11-95-d4-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Tools Pickup Level 5">
+  <Cheat Text="All Tools Pickup 等级 5">
     <Cheatline>
       <Offset>68462</Offset>
       <Section>0</Section>

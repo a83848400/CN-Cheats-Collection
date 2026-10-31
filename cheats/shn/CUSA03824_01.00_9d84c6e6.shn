@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>CF3800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>48-8D-BB-38-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Powers">
+  <Cheat Text="无限之力">
     <Cheatline>
       <Offset>4B517C</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C5-FA-11-87-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gain Money after Shop / Gain Items after Usage">
+  <Cheat Text="Gain 金钱 after Shop / Gain Items after Usage">
     <Cheatline>
       <Offset>536891</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>29-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Weight Items">
+  <Cheat Text="No 重量 Items">
     <Cheatline>
       <Offset>53555E</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 3: Classic Edition",
+  "name": "孤岛惊魂 3: Classic Edition",
   "id": "CUSA10326",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "126FE2E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12963E3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Health Syringes",
-      "type": "checkbox",
+      "name": "无限生命 Syringes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1316584",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables (After Getting Throwables)",
-      "type": "checkbox",
+      "name": "投掷物无限 (After Getting 可投掷物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12C4FF3",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17B76C",

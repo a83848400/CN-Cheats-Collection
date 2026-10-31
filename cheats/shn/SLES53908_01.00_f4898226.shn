@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Lara Croft Tomb Raider: Legend" Moder="Ali-mk" Cusa="SLES53908" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Inf-Health-Packs-999">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-Packs-999">
     <Cheatline>
       <Offset>808157D534</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>99-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>807FE8D110</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>24-A2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Air-Never Drown">
+  <Cheat Text="无限之气·永不溺亡">
     <Cheatline>
       <Offset>807FEC27AC</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Time-Trials">
+  <Cheat Text="无限时间挑战">
     <Cheatline>
       <Offset>807FF923A0</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>46-FA-B1-6F</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="All-Weapons-Press-Down">
+    <Cheat Text="全武器-Press-Down">
     <Cheatline>
       <Offset>807FFE405C</Offset>
       <Section>0</Section>

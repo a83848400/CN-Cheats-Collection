@@ -1,12 +1,17 @@
 {
-  "name": "Devil May Cry 5",
+  "name": "Devil May Cry 5｜鬼泣5",
   "id": "CUSA08161",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3432C69",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite devil trager",
-      "type": "checkbox",
+      "name": "Infinite devil trager｜无限恶魔特拉格",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite ammo pwoer",
-      "type": "checkbox",
+      "name": "无限弹药 pwoer",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13702F4",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max exceed",
-      "type": "checkbox",
+      "name": "最大 exceed",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FC14A3",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite exceed",
-      "type": "checkbox",
+      "name": "Infinite exceed｜无限超越",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A1D2CA",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite fired up",
-      "type": "checkbox",
+      "name": "Infinite fired up｜Infinite 激情四射",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10ED61C",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Gaurde",
-      "type": "checkbox",
+      "name": "Infinite Gaurde｜无限守卫",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38E21FB",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Max Gaurde",
-      "type": "checkbox",
+      "name": "最大 Gaurde",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858B800",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Infinite red orbe",
-      "type": "checkbox",
+      "name": "Infinite red orbe｜无尽的红色圆球",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36A9179",

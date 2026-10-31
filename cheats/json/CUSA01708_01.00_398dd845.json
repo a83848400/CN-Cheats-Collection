@@ -1,13 +1,18 @@
 {
-  "name": "Devil May Cry 4: Special Edition",
+  "name": "鬼泣 4: Special Edition",
   "id": "CUSA01708",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12E7232",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Nero Blade Trigger",
-      "hint": "Fill the trigger first then activate.",
-      "type": "checkbox",
+      "name": "Infinite Nero 异刃 Trigger",
+      "hint": "Fill the trigger first then activate.｜先拉满扳机，然后再扣动。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9E050A",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite Vergil Devil Trigger",
-      "hint": "Fill the trigger first then activate.",
-      "type": "checkbox",
+      "name": "Infinite 维吉尔 Devil Trigger",
+      "hint": "Fill the trigger first then activate.｜先拉满扳机，然后再扣动。",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9977D4",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Infinite Devilstar Item",
-      "hint": "Use the item to activate.",
-      "type": "checkbox",
+      "name": "Infinite Devilstar 物品",
+      "hint": "Use the 物品 to activate.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61FC55",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Infinite Red Orbs",
+      "name": "Infinite Red Orbs｜无限红球",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "603BE4",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Infinite Blue Orbs/Rose",
+      "name": "Infinite Blue Orbs/Rose｜无尽的蓝色光球/玫瑰",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62004C",

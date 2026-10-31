@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>825CFA70</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>0F-4E-F2-89-70-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>825CFAE0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>44-29-F2-89-50-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Durability">
+  <Cheat Text="Infinite Weapon Durability｜武器耐久无限">
     <Cheatline>
       <Offset>825CFD60</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>0F-4F-CB-29-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Items (on use/get have 2 at least)">
+  <Cheat Text="99 件商品 (on use/get have 2 at least)">
     <Cheatline>
       <Offset>825CFB30</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>0F-84-5F-01-00-00-44-29-70-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max character level">
+  <Cheat Text="最大 character 等级">
     <Cheatline>
       <Offset>825CFB80</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>74-17-01-59-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Sword level">
+  <Cheat Text="最大 剑 等级">
     <Cheatline>
       <Offset>825CFC60</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>44-8B-7B-50-44-01-63-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Safe saving when depositing">
+  <Cheat Text="最大 保险箱 saving when depositing">
     <Cheatline>
       <Offset>825CFE90</Offset>
       <Section>0</Section>

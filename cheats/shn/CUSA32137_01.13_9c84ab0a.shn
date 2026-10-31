@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Like a Dragon: Infinite Wealth" Moder="Q8Despair" Cusa="CUSA32137" Version="01.13" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Money/Stats x2">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱/属性 x2">
     <Cheatline>
       <Section>0</Section>
       <Offset>258F800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>4A-89-1C-E8-48-8B-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Current Exp x2">
+  <Cheat Text="Current 经验 x2">
     <Cheatline>
       <Section>0</Section>
       <Offset>258F812</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>4C-89-2A-74-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health">
+  <Cheat Text="Max Health｜生命最大">
     <Cheatline>
       <Section>0</Section>
       <Offset>258F826</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>48-89-83-70-1E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items x99">
+  <Cheat Text="Items x99｜物品 x99">
     <Cheatline>
       <Section>0</Section>
       <Offset>258F838</Offset>

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health (Main Hero)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (Main 英雄)">
     <Cheatline>
       <Offset>1283E70</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>0F-4F-D8-41-89-5E-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SP">
+  <Cheat Text="Infinite 精神值">
     <Cheatline>
       <Offset>1283D20</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>0F-4F-D8-41-89-5E-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Experience (main hero)">
+  <Cheat Text="最大 Experience (main 英雄)">
     <Cheatline>
       <Offset>1283C60</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>89-58-1C-48-83-C4-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>8A3C2F</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>66-89-8F-94-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items x90 (On use/get/buy)">
+  <Cheat Text="Items x90 (On use/get/buy)｜物品 x90（使用/获取/购买）">
     <Cheatline>
       <Offset>1283860</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>42-88-9C-38-00-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Yen (on buy)">
+  <Cheat Text="最大 如果 (on buy)">
     <Cheatline>
       <Offset>886A3A</Offset>
       <Section>0</Section>

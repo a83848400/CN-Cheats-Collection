@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 3" Moder="Ali-mk" Cusa="CUSA14123" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>1C164FC</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-5F-A2-BA-FE</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Ammo-Never-Reload">
+    <Cheat Text="无限子弹-无需装弹">
     <Cheatline>
       <Offset>22DB20A</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-51-20</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Items">
+    <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>2347D0C</Offset>
       <Section>0</Section>

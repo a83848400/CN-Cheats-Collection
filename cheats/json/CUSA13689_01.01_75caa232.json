@@ -1,12 +1,17 @@
 {
-  "name": "The Outer Worlds",
+  "name": "The Outer Worlds｜《外世界》",
   "id": "CUSA13689",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E77DBE",

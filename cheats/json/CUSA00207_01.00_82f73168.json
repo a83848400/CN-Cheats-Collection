@@ -1,13 +1,18 @@
 {
-  "name": "Bloodborne",
+  "name": "Bloodborne｜血源诅咒",
   "id": "CUSA00207",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E29C55",

@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Jumps",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限跳跃",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FF36569",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Time",
+      "name": "无限时间",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FDCC902",

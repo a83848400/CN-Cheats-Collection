@@ -1,12 +1,17 @@
 {
-  "name": "Ghostrunner",
+  "name": "Ghostrunner｜《幽灵跑者》",
   "id": "CUSA24169",
   "version": "01.14",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP (Don't use with Focus or Time Cheat, Also Don't work with DLC)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 (Don'恐怖分子 use with 棍势 or Time Cheat, Also Don'恐怖分子 work with DLC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Focus Regen (Press PS4 pad once then exit and deactivate cheat after if use HP cheat)",
-      "type": "checkbox",
+      "name": "无限专注值 Regen (Press PS4 pad once then 退出 and deactivate cheat after if use 手机 cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713F800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Time (Use in Kill Run Mode)",
-      "type": "checkbox",
+      "name": "无限时间 (Use in Kill Run Mode)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "713F800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Shuriken Time (Till Run out of Shurikens)",
-      "type": "checkbox",
+      "name": "Infinite 手里剑 Time (Till Run out of Shurikens)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9BF86",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Inf Time (Jump Till You Jump)",
-      "type": "checkbox",
+      "name": "无限时间 (Jump Till You Jump)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9BE91",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Stealth (Enemies Don't Attack)",
-      "type": "checkbox",
+      "name": "潜行 (Enemies Don'恐怖分子 攻击)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "434C499",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "OHK Commander Bakunin (Use Surge)",
-      "type": "checkbox",
+      "name": "OHK 指挥官 Bakunin (Use Surge)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

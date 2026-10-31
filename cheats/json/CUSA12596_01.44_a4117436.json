@@ -1,12 +1,17 @@
 {
-  "name": "Zombie Army 4: Dead War",
+  "name": "僵尸 军队 4: Dead War",
   "id": "CUSA12596",
   "version": "01.44",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1237930",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1237941",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1237980",

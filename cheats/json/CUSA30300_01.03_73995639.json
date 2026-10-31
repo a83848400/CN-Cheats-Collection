@@ -1,12 +1,17 @@
 {
-  "name": "Krut: The Mythic Wings",
+  "name": "Krut: The Mythic Wings｜《克鲁特：神话之翼》",
   "id": "CUSA30300",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ECC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Land Heavy Attack",
-      "type": "checkbox",
+      "name": "Infinite 领土 重攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ED10",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Super Form",
-      "type": "checkbox",
+      "name": "无限超级 状态",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ED30",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Arial Heavy Attacks",
-      "type": "checkbox",
+      "name": "Infinite Arial 重装兵 Attacks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ED80",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Alot of Rubies (on gain)",
-      "type": "checkbox",
+      "name": "Alot of Rubies (on gain)｜大量的红宝石（增益效果）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB40",

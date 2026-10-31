@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry: HD Collection" Moder="Celogamez" Cusa="CUSA09263" Version="01.01" Process="dmc3.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (Master Code DMC3)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (Master 密码 DMC3)">
     <Cheatline>
       <Offset>5CFDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-52-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5CFDB6</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-52-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>5CFDB4</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-0D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items (DMC3)">
+  <Cheat Text="道具无限 (DMC3)">
     <Cheatline>
       <Offset>788CA</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>88-4C-32-3D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Devil Trigger (DMC3)">
+  <Cheat Text="无限恶魔触发 (DMC3)">
     <Cheatline>
       <Offset>5CFA80</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C5-FA-11-87-78-3E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Red Orbs (DMC3)">
+  <Cheat Text="最大/无限红球 (DMC3)">
     <Cheatline>
       <Offset>5CFB20</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>85-C0-89-51-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP/Levels On Kill (DMC3)">
+  <Cheat Text="最大 XP/Levels On Kill (DMC3)">
     <Cheatline>
       <Offset>5CFBA0</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C5-FA-11-83-24-63-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Jump(DMC3) ">
+  <Cheat Text="跳高(DMC3) ">
     <Cheatline>
       <Offset>5CF510</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>89-97-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump (DMC3)">
+  <Cheat Text="超级跳跃 (DMC3)">
     <Cheatline>
       <Offset>5CF550</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>89-97-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mega Jump (DMC3)">
+  <Cheat Text="超级跳跃 (DMC3)">
     <Cheatline>
       <Offset>5CF590</Offset>
       <Section>0</Section>

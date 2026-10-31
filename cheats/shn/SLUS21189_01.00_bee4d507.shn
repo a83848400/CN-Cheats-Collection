@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Suffering: Ties That Bind" Moder="Ali-mk" Cusa="SLUS21189" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Inf-AMMO-ShotGun">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药-霰弹枪">
     <Cheatline>
       <Offset>80806F9024</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>24-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-Ammo-Gun-Cdt-1911/No-Reloads">
+  <Cheat Text="无限子弹枪-Cdt-1911/No-Reloads">
     <Cheatline>
       <Offset>808130AB94</Offset>
       <Section>0</Section>

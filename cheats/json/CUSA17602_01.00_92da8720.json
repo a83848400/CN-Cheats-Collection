@@ -1,12 +1,17 @@
 {
-  "name": "Planet Coaster: Console Edition",
+  "name": "Planet Coaster: Console Edition｜《过山车之星：主机版》",
   "id": "CUSA17602",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAB0",

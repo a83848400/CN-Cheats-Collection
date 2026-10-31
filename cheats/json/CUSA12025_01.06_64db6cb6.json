@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts III",
+  "name": "Kingdom Hearts III｜王国之心3",
   "id": "CUSA12025",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8493800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max XP all characters",
-      "type": "checkbox",
+      "name": "最大 XP all characters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8493800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite SORA HP",
-      "type": "checkbox",
+      "name": "Infinite 索拉 手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8493800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite SORA MP",
-      "type": "checkbox",
+      "name": "Infinite 索拉 MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "849380F",

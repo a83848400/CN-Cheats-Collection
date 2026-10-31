@@ -1,12 +1,17 @@
 {
-  "name": "Wolfenstein II: The New Colossus",
+  "name": "Wolfenstein II: The New Colossus｜《狼穴2：新巨像》",
   "id": "CUSA07377",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E7BBD5",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1192BA3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "No Reload / Enemies Don't Shoot",
-      "type": "checkbox",
+      "name": "无需换弹 / Enemies Don'恐怖分子 Shoot",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "118B41B",

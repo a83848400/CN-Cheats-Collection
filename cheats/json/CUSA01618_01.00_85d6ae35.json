@@ -1,12 +1,17 @@
 {
-  "name": "Yu-Gi-Oh! Legacy of the Duelist",
+  "name": "游戏王! Legacy of the 决斗者",
   "id": "CUSA01618",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money After Battle",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 After 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E47800",

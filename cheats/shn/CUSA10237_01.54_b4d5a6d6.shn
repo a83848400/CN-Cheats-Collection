@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Horizon Zero Dawn: Complete Edition" Moder="Celogamez" Cusa="CUSA10237" Version="01.54" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max/Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命/一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>1F27800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-43-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Health (Enable MC)">
+  <Cheat Text="最大/无限生命 (Enable MC)">
     <Cheatline>
       <Offset>1F27806</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-43-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Enable MC">
+  <Cheat Text="一击必杀 (Enable MC">
     <Cheatline>
       <Offset>1F27804</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-12</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Health Regeneration">
+  <Cheat Text="最大/无限生命 Regeneration">
     <Cheatline>
       <Offset>1F27910</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Aim Focus">
+  <Cheat Text="Infinite Aim 棍势">
     <Cheatline>
       <Offset>7FC5BAB0</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-11-43-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath (Underwater)">
+  <Cheat Text="无限呼吸 (Underwater)">
     <Cheatline>
       <Offset>7FC5BA40</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C4-C1-7A-11-46-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Weaver Armour">
+  <Cheat Text="最大/无限织者铠甲">
     <Cheatline>
       <Offset>7FC5B810</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C4-C1-7A-11-47-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Shards/Resources On Use/Buy">
+  <Cheat Text="道具无限/Shards/Resources On Use/Buy">
     <Cheatline>
       <Offset>7FC5BFD0</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>44-29-F0-41-89-45-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Shards On Gain/Sell">
+  <Cheat Text="碎片最大 On Gain/Sell">
     <Cheatline>
       <Offset>1F27950</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>45-01-74-24-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Skill Points On Use">
+  <Cheat Text="最大/Infinite Skill 得分 On Use">
     <Cheatline>
       <Offset>7FC5BF60</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>41-29-44-24-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time Trial">
+  <Cheat Text="停止 计时赛">
     <Cheatline>
       <Offset>7FC5B890</Offset>
       <Section>0</Section>

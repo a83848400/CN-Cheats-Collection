@@ -1,12 +1,17 @@
 {
-  "name": "Wasteland 2: Director's Cut",
+  "name": "废土 2: Director's 居合斩",
   "id": "CUSA02431",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Items x20 (on use)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Items x20 (on use)｜物品 x20（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABD80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite AP While Moving",
-      "type": "checkbox",
+      "name": "无限能力点 While Moving",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABDD0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABE20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite AP While Shooting",
-      "type": "checkbox",
+      "name": "无限能力点 While 射门",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABE60",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite AP While Loading",
-      "type": "checkbox",
+      "name": "无限能力点 While 加载中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABEA0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite AP while using items",
-      "type": "checkbox",
+      "name": "无限能力点 while using items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABF00",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Water on the Map (turn off scrap cheat)",
-      "type": "checkbox",
+      "name": "水无限 on the 地图 (回合 off scrap cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABF80",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Experience (at the end of battle)",
-      "type": "checkbox",
+      "name": "最大 Experience (at the 末地 of 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABB00",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Infinite Skill points after Commiting points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分 after Commiting 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABB60",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Infinite Perk points",
-      "type": "checkbox",
+      "name": "Infinite 技能 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABBC0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Infinite Attribute points after Commiting points",
-      "type": "checkbox",
+      "name": "Infinite 属性 得分 after Commiting 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831ABC20",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Max Scrap on buy (turn off water cheat)",
-      "type": "checkbox",
+      "name": "废料最大 on buy (回合 off 水 cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "831AB520",

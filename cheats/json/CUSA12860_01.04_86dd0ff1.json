@@ -1,12 +1,17 @@
 {
-  "name": "Bud Spencer & Terence Hill: Slaps And Beans",
+  "name": "Bud Spencer & Terence 丘陵: Slaps And Beans",
   "id": "CUSA12860",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + Fast Die Opponent",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + Fast Die Opponent",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1818BA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Power",
-      "type": "checkbox",
+      "name": "Infinite 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181BFD0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Coins ( on gain )",
-      "type": "checkbox",
+      "name": "最大 角落 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "181B360",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Unlimited Shoots",
-      "type": "checkbox",
+      "name": "Unlimited Shoots｜无限次拍摄",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1819330",

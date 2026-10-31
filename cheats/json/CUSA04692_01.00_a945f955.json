@@ -1,12 +1,17 @@
 {
-  "name": "10 Second Ninja X",
+  "name": "10 Second Ninja 艾克斯",
   "id": "CUSA04692",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Timer",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DF800",

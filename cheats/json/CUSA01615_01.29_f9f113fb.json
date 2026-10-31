@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy XV",
+  "name": "最终幻想 XV",
   "id": "CUSA01615",
   "version": "01.29",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlimited QP (get 1 qp time quest) + 99 items use / sell",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlimited QP (get 1 qp time quest) + 99 件商品 use / sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "104651A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Unlimited Gil on Shop buy / sell",
-      "type": "checkbox",
+      "name": "Unlimited 基尔 on Shop buy / sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DD5913",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Unlimited AP get / spend",
-      "type": "checkbox",
+      "name": "Unlimited 行动点 get / spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "223E5E0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Level",
-      "type": "checkbox",
+      "name": "Max Level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "100858D",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Unlimited MP",
-      "type": "checkbox",
+      "name": "Unlimited MP｜无限MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFD0AF",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "1 Max HP (Gray Bar Press Main Menu)",
-      "type": "checkbox",
+      "name": "1 生命值最大 (Gray Bar Press 主菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFD16D",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max HP (Gray Bar Press Main Menu)",
-      "type": "checkbox",
+      "name": "生命值最大 (Gray Bar Press 主菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFD167",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Max Status (Base stats cap lvl 99)",
-      "type": "checkbox",
+      "name": "最大 Status (基地 属性 cap lvl 99)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FFF44D",

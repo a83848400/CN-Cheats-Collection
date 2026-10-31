@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Timothy vs the Aliens" Moder="d01v" Cusa="CUSA11586" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health (MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (MC)">
     <Cheatline>
       <Offset>3CD8A81</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-0F-49-83-C0-FC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dead / Invincible (MC)">
+  <Cheat Text="Dead / 无敌 (MC)">
     <Cheatline>
       <Offset>3CD8A92</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C7-07-00-C0-79-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Money (MC1)">
+  <Cheat Text="金钱 (MC1)">
     <Cheatline>
       <Offset>3CD8AC1</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>48-83-C7-04-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hyper Speed (must fill / get money 1st / MC1)">
+  <Cheat Text="Hyper 速度 (must fill / get 金钱 1st / MC1)">
     <Cheatline>
       <Offset>3CD8AD6</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C7-00-0F-27-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Revolver 357 (force glitch / MC wep)">
+  <Cheat Text="左轮手枪 357 (原力 glitch / MC wep)">
     <Cheatline>
       <Offset>3CD8B81</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>0F-B6-11-48-FF-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="ShotGun (force glitch / MC wep)">
+  <Cheat Text="霰弹枪 (原力 glitch / MC wep)">
     <Cheatline>
       <Offset>3CD8B91</Offset>
       <Section>0</Section>

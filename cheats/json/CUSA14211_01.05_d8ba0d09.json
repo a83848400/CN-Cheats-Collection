@@ -1,12 +1,17 @@
 {
-  "name": "GreedFall",
+  "name": "GreedFall｜《GreedFall》",
   "id": "CUSA14211",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All items x99 (on use)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "所有商品 x99 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F550",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money (on gain disable after getting max money)",
-      "type": "checkbox",
+      "name": "金钱最大 (on gain disable after getting 金钱最大)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F5D0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "0 Weight",
-      "type": "checkbox",
+      "name": "0 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023FDC0",

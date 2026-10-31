@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Silent Hill 2" Moder="Yharnam" Cusa="PPSA08710" Version="01.005.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infi HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量">
     <Cheatline>      
       <Section>0</Section>
       <Offset>2166F83</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-83-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill" Description="Turn Off OHK Cheat During Boss Battles.">
+  <Cheat Text="1 Hit Kill｜一击必杀" Description="Turn Off OHK Cheat During Boss Battles.">
     <Cheatline>      
       <Section>0</Section>
       <Offset>9A1BEE</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-10-4D-BC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infi Ammo &amp; Items">
+  <Cheat Text="无限弹药 &amp; Items">
     <Cheatline>
       <Section>0</Section>
       <Offset>A0FD580</Offset>

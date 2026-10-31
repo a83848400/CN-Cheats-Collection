@@ -1,13 +1,18 @@
 {
-  "name": "The Witcher 3: Wild Hunt",
+  "name": "巫师3：狂猎: 狂猎",
   "id": "CUSA05571",
   "version": "04.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "This is my v04.06 port for Cosmaty's excellent v01.50 trainer. I have added a teleport cheat, reset horse fear bar and No toxicity from decoctions. Important! Please be sure to read the cheats' comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. This version is multiCUSA compatible and since it is AOB based it should be fully or partially working on past and future versions of the game. Enjoy! :)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "This is my v04.06 port for Cosmaty's excellent v01.50 trainer. I have added a 传送 cheat, 重置“对马的恐惧”进度条 and 无毒性 from decoctions. Important! Please be sure to read the cheats' comments, where available! I have partially tested it and it seems to be working fine, but please let me know if there is any issue. This version is multiCUSA compatible and since it is AOB based it should be fully or partially working on past and future versions of the game. Enjoy! :)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EEFFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Master Codes (Must be enabled!)",
+      "name": "Master Codes (Must be enabled!)｜主代码（必须启用！）",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF000",
@@ -64,9 +69,9 @@
       ]
     },
     {
-      "name": "--Easy_Kill",
+      "name": "--简易击杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0B5",
@@ -76,9 +81,9 @@
       ]
     },
     {
-      "name": "--Infinite_Adrenaline",
+      "name": "--无限肾上腺素",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0C5",
@@ -88,9 +93,9 @@
       ]
     },
     {
-      "name": "--Infinite_HP",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0B1",
@@ -100,9 +105,9 @@
       ]
     },
     {
-      "name": "--Infinite_Horse_Run",
+      "name": "--马匹无限奔跑",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0BD",
@@ -112,9 +117,9 @@
       ]
     },
     {
-      "name": "--Infinite_Oxygen",
+      "name": "--无限氧气",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0C1",
@@ -124,9 +129,9 @@
       ]
     },
     {
-      "name": "--Inifinite_Stamina",
+      "name": "--无限体力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0CD",
@@ -136,9 +141,9 @@
       ]
     },
     {
-      "name": "--Min_Horse_Panic",
-      "description": "Enable this together with Reset Horse Fear Bar cheat",
-      "type": "checkbox",
+      "name": "--马匹恐慌最小",
+      "description": "Enable this together with Reset Horse Fear Bar cheat｜请将此功能与“重置马匹恐惧值”作弊码一起启用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0B9",
@@ -148,9 +153,9 @@
       ]
     },
     {
-      "name": "--No_Toxicity",
+      "name": "--无毒性",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0C9",
@@ -160,9 +165,9 @@
       ]
     },
     {
-      "name": "No Toxicity From Decoctions 4.06",
+      "name": "No Toxicity From Decoctions 4.06｜煎剂无毒性 4.06",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF0F1",
@@ -177,9 +182,9 @@
       ]
     },
     {
-      "name": "Reset Horse Fear Bar",
-      "description": "Enable this together with MinHorsePanic cheat",
-      "type": "checkbox",
+      "name": "Reset Horse Fear Bar｜重置“对马的恐惧”进度条",
+      "description": "Enable this together with MinHorsePanic cheat｜请与“MinHorsePanic”作弊码一起启用此功能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF126",
@@ -194,9 +199,9 @@
       ]
     },
     {
-      "name": "Teleport to Map Waypoint",
-      "description": "Must enable God Mode otherwise the teleport will kill you. Note that teleporting may break some quests.",
-      "type": "checkbox",
+      "name": "传送 to 地图 航点",
+      "description": "Must enable 神模式 otherwise the 传送 意志 kill you. 笔记 that teleporting may 破防 some 任务.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF179",
@@ -221,9 +226,9 @@
       ]
     },
     {
-      "name": "--XP_Multiplier x1",
+      "name": "--经验倍率×1",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF288",
@@ -233,9 +238,9 @@
       ]
     },
     {
-      "name": "--XP_Multiplier x5",
+      "name": "--经验倍率×5",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF288",
@@ -245,9 +250,9 @@
       ]
     },
     {
-      "name": "--XP_Multiplier x10",
+      "name": "--经验倍率×10",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF288",
@@ -257,9 +262,9 @@
       ]
     },
     {
-      "name": "--XP_Multiplier x20",
+      "name": "--经验倍率×20",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF288",
@@ -269,9 +274,9 @@
       ]
     },
     {
-      "name": "--XP_Multiplier x50",
+      "name": "--经验倍率×50",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF288",
@@ -281,9 +286,9 @@
       ]
     },
     {
-      "name": "--XP_Multiplier x999",
+      "name": "--经验倍率×999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF288",
@@ -293,9 +298,9 @@
       ]
     },
     {
-      "name": "--Game Speed x1",
+      "name": "--游戏速度×1",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF2C0",
@@ -305,9 +310,9 @@
       ]
     },
     {
-      "name": "--Game Speed x2",
+      "name": "--游戏速度×2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF2C0",
@@ -317,9 +322,9 @@
       ]
     },
     {
-      "name": "--Game Speed x3",
+      "name": "--游戏速度×3",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF2C0",
@@ -329,9 +334,9 @@
       ]
     },
     {
-      "name": "Infinite Items 4.06 ",
-      "description": "In some rare cases you may not be able to clear a loot when the cheat is enabled. Disable the cheat and clear that specific loot.",
-      "type": "checkbox",
+      "name": "道具无限 4.06 ",
+      "description": "In some rare cases you may not be able to clear a 战利品 when the cheat is enabled. Disable the cheat and clear that specific 战利品.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF2E4",
@@ -356,9 +361,9 @@
       ]
     },
     {
-      "name": "Infinite Potions",
+      "name": "Infinite Potions｜药水无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF357",
@@ -373,9 +378,9 @@
       ]
     },
     {
-      "name": "No Crafting and Alchemy Requirements",
+      "name": "No Crafting and 炼丹 Requirements",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AEEB4",
@@ -385,9 +390,9 @@
       ]
     },
     {
-      "name": "Infinite Money 4.06",
-      "description": "Takes effect when buying or selling",
-      "type": "checkbox",
+      "name": "金钱无限 4.06",
+      "description": "Takes 效果 when buying or selling",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF389",
@@ -402,9 +407,9 @@
       ]
     },
     {
-      "name": "--Walking Speed x1",
+      "name": "--行走速度×1",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF3C9",
@@ -414,9 +419,9 @@
       ]
     },
     {
-      "name": "--Walking Speed x2",
+      "name": "--行走速度×2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF3C9",
@@ -426,9 +431,9 @@
       ]
     },
     {
-      "name": "--Walking Speed x3",
+      "name": "--行走速度×3",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF3C9",
@@ -438,9 +443,9 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
+      "name": "Infinite Skill 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF3ED",
@@ -455,9 +460,9 @@
       ]
     },
     {
-      "name": "Durable Weapons And Armor",
+      "name": "Durable 武器 And Armor",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF435",
@@ -472,9 +477,9 @@
       ]
     },
     {
-      "name": "Max Weight 99999",
+      "name": "最大 重量 99999",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24EF465",

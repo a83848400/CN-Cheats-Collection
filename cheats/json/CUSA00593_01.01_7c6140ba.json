@@ -1,13 +1,18 @@
 {
-  "name": "Metro Redux",
+  "name": "Metro Redux｜《Metro Redux》",
   "id": "CUSA00593",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "610E9D",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Reload Ammo / Bullet Currency",
+      "name": "Infinite Reload Ammo / Bullet Currency｜无限重装弹药 / 子弹货币",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5EC11A",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Gasmask Filter",
+      "name": "Infinite Gasmask Filter｜无限防毒面具滤芯",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6513AE",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Air Pressure In Gun",
+      "name": "Infinite Air Pressure In Gun｜喷枪内气压无限大",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "626D7A",

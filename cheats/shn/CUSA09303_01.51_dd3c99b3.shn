@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>3A6423F</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>0F-4E-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Adrenaline" Description="">
+  <Cheat Text="Infinite 肾上腺素" Description="">
     <Cheatline>
       <Offset>3A4EA00</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>0F-42-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ability Points" Description="">
+  <Cheat Text="Infinite 特性 得分" Description="">
     <Cheatline>
       <Offset>3DEF116</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>2B-41-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Ability Points on Get" Description="">
+  <Cheat Text="99 特性 得分 on Get" Description="">
     <Cheatline>
       <Offset>3E98102</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>8B-88-0C-06-00-00-44-01-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Kills" Description="">
+  <Cheat Text="简单 Kills" Description="">
     <Cheatline>
       <Offset>3A3BF10</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>8B-87-58-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath" Description="">
+  <Cheat Text="Infinite Breath｜无限呼吸" Description="">
     <Cheatline>
       <Offset>6B66116</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>C5-FA-5C-81-80-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Breath" Description="">
+  <Cheat Text="最大 Breath" Description="">
     <Cheatline>
       <Offset>6B6610E</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>C5-FA-10-80-F0-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hunter: High Damage" Description="">
+  <Cheat Text="猎人: High 输出" Description="">
     <Cheatline>
       <Offset>485C6BD</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>C4-E1-FA-2C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Assassin: High Damage" Description="">
+  <Cheat Text="刺客: High 输出" Description="">
     <Cheatline>
       <Offset>485C858</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>C4-E1-FA-2C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Warrior: High Damage" Description="">
+  <Cheat Text="战士: High 输出" Description="">
     <Cheatline>
       <Offset>485CB69</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>C4-E1-FA-2C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money/Resources" Description="">
+  <Cheat Text="金钱无限/Resources" Description="">
     <Cheatline>
       <Offset>429DB21</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>29-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Resources" Description="">
+  <Cheat Text="金钱最大/Resources" Description="">
     <Cheatline>
       <Offset>42980B1</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>0F-47-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ship-Stamina/Adrenaline__" Description="">
+  <Cheat Text="Infinite Ship-体力/Adrenaline__" Description="">
     <Cheatline>
       <Offset>5DAED87</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C4-C1-7A-11-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Level" Description="">
+  <Cheat Text="Instant 等级最大" Description="">
     <Cheatline>
       <Offset>87FB800</Offset>
       <Section>0</Section>

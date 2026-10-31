@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1297800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>6032E5</Offset>
       <Section>16</Section>
@@ -32,7 +40,7 @@
       <ValueOff>F3-0F-10-00-F3-0F-5A-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic" Description="">
+  <Cheat Text="Infinite 魔法" Description="">
     <Cheatline>
       <Offset>84D4A8</Offset>
       <Section>16</Section>
@@ -40,7 +48,7 @@
       <ValueOff>F2-0F-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Score x1" Description="">
+  <Cheat Text="比分 x1" Description="">
     <Cheatline>
       <Offset>1297812</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>F3-0F-10-50-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Score x2" Description="">
+  <Cheat Text="比分 x2" Description="">
     <Cheatline>
       <Offset>1297812</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>F3-0F-10-50-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Score x10" Description="">
+  <Cheat Text="比分 x10" Description="">
     <Cheatline>
       <Offset>1297812</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>F3-0F-10-50-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Score x20" Description="">
+  <Cheat Text="比分 x20" Description="">
     <Cheatline>
       <Offset>1297812</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>F3-0F-10-50-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Score x100" Description="">
+  <Cheat Text="比分 十倍" Description="">
     <Cheatline>
       <Offset>1297812</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>F3-0F-10-50-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items for Collection Quests" Description="">
+  <Cheat Text="最大 Items for Collection 任务" Description="">
     <Cheatline>
       <Offset>605FF4</Offset>
       <Section>16</Section>
@@ -118,7 +126,7 @@
       <ValueOff>49-63-47-60-FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Time" Description="">
+  <Cheat Text="Infinite Time｜无限时间" Description="">
     <Cheatline>
       <Offset>5F5E49</Offset>
       <Section>16</Section>
@@ -126,7 +134,7 @@
       <ValueOff>F2-0F-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Magic Crystalls on Get" Description="">
+  <Cheat Text="最大 魔法 Crystalls on Get" Description="">
     <Cheatline>
       <Offset>61F1B9</Offset>
       <Section>16</Section>
@@ -134,7 +142,7 @@
       <ValueOff>48-63-08-03-4C-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock Magic Items" Description="">
+  <Cheat Text="解锁 魔法 Items" Description="">
     <Cheatline>
       <Offset>1297823</Offset>
       <Section>0</Section>
@@ -148,7 +156,7 @@
       <ValueOff>48-8D-44-88-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99x Combo" Description="">
+  <Cheat Text="99x Combo｜九十九连击" Description="">
     <Cheatline>
       <Offset>90CBEA</Offset>
       <Section>16</Section>

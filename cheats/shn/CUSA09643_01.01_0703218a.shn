@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 7: Biohazard: Gold Edition" Moder="Rizla" Cusa="CUSA09643" Version="01.01" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>AE4F800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-40-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>B9D76E</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dupe Items on Use">
+  <Cheat Text="Dupe Items on Use｜使用时的重复物品">
     <Cheatline>
       <Offset>B9D770</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>89-86-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>F47046</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-FF-CF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>AE4F820</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C5-FA-10-41-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Down Boss">
+  <Cheat Text="One Hit Down Boss｜一击必杀的BOSS">
     <Cheatline>
       <Offset>AE4F831</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C4-C1-7A-11-5D-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Scrap on Spend (Nightmare)">
+  <Cheat Text="废料最大 on Spend (Nightmare)">
     <Cheatline>
       <Offset>AE4F844</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>44-89-63-6C-31-D2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Total Score After All Waves (Nightmare)">
+  <Cheat Text="最大 Total 比分 After All Waves (Nightmare)">
     <Cheatline>
       <Offset>AE4F855</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>89-53-24-80-7B-22-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Compactor Always Drops Max (Nightmare)">
+  <Cheat Text="Compactor Always Drops 最大 (Nightmare)">
     <Cheatline>
       <Offset>AE4F866</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>41-8B-86-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer (Bedroom)">
+  <Cheat Text="Freeze 计时器 (Bedroom)">
     <Cheatline>
       <Offset>10696CB</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FA-11-40-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible Player (Ethan/Mia/Clancy)">
+  <Cheat Text="无敌 Player (Ethan/Mia/Clancy)">
     <Cheatline>
       <Offset>8617BFF</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>C4-C1-7A-10-85-20-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible Player (Joe - End of Zoe)">
+  <Cheat Text="无敌 Player (Joe - 末地 of Zoe)">
     <Cheatline>
       <Offset>8617D94</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>C4-C1-7A-10-85-20-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible Player (Chris - Not A Hero)">
+  <Cheat Text="无敌 Player (Chris - Not A 英雄)">
     <Cheatline>
       <Offset>8617C7B</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>C4-C1-7A-10-87-20-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max and Infinite Ammo (NO RELOAD)">
+  <Cheat Text="最大 and 无限弹药 (无需换弹)">
     <Cheatline>
       <Offset>F4704C</Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>44-0F-4E-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables (Chris - Not A Hero)">
+  <Cheat Text="投掷物无限 (Chris - Not A 英雄)">
     <Cheatline>
       <Offset>36A7147</Offset>
       <Section>0</Section>
@@ -176,7 +184,7 @@
       <ValueOff>41-FF-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Inventory When USE (items,tools,weapons,ammo)">
+  <Cheat Text="Infinite 背包 When USE (items,tools,武器,但是)">
     <Cheatline>
       <Offset>B9D748</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>0F-84-F1-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Crafting Items When Use">
+  <Cheat Text="无限制作 Items When Use">
     <Cheatline>
       <Offset>B9D831</Offset>
       <Section>0</Section>
@@ -192,7 +200,7 @@
       <ValueOff>0F-84-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Crafting Items When Use IF &gt; 1">
+  <Cheat Text="无限制作 Items When Use IF &gt; 1">
     <Cheatline>
       <Offset>B9D853</Offset>
       <Section>0</Section>
@@ -200,7 +208,7 @@
       <ValueOff>29-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable X-ray">
+  <Cheat Text="Enable 艾克斯-ray">
     <Cheatline>
       <Offset>324E93F</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>0F-84-27-02-00-00-C5-FA-10-83-44-02-00-00-C5-F8-2E-83-40-02-00-00-73-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Scrap When Spend">
+  <Cheat Text="废料无限 When Spend">
     <Cheatline>
       <Offset>1F66C63</Offset>
       <Section>0</Section>
@@ -216,7 +224,7 @@
       <ValueOff>44-29-E2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instantly Max and Infinite Scrap (99,999)">
+  <Cheat Text="Instantly 最大 and 废料无限 (99,999)">
     <Cheatline>
       <Offset>F1D0B7</Offset>
       <Section>0</Section>

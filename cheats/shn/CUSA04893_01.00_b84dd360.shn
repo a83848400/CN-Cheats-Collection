@@ -6,7 +6,15 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>18AB0E6</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>41-89-84-24-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money / Items">
+  <Cheat Text="金钱无限 / Items">
     <Cheatline>
       <Offset>1BCEB16</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>89-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode">
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>018E8D06</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>41-89-84-24-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money, Items">
+  <Cheat Text="金钱无限, Items">
     <Cheatline>
       <Offset>1CA4536</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>21E7800</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>89-8B-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money / Items">
+  <Cheat Text="金钱无限 / Items">
     <Cheatline>
       <Offset>DC305A</Offset>
       <Section>0</Section>
