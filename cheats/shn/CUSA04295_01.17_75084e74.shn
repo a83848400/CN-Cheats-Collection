@@ -6,7 +6,15 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>5F8F800</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Botnet" Description="">
+  <Cheat Text="Infinite Botnet｜无限僵尸网络" Description="">
     <Cheatline>
       <Offset>E4CBDC</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-11-47-74</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>13812C5</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>FF-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>133CFBA</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>89-41-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Wanted" Description="">
+  <Cheat Text="Never Wanted｜从未想要过" Description="">
     <Cheatline>
       <Offset>5F8F813</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>0F-4E-DA-89-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Gain/Use" Description="">
+  <Cheat Text="金钱最大 on Gain/Use" Description="">
     <Cheatline>
       <Offset>5F8F81F</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>49-8B-8E-A0-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Followers on 2nd Gain" Description="">
+  <Cheat Text="最大 Followers on 2nd Gain" Description="">
     <Cheatline>
       <Offset>5F8F832</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>49-8B-8E-B8-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Followers After Missions" Description="">
+  <Cheat Text="最大 Followers After Missions" Description="">
     <Cheatline>
       <Offset>5F8F845</Offset>
       <Section>0</Section>

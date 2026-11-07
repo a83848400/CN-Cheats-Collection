@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Messenger" Moder="Ali-mk" Cusa="CUSA15271" Version="02.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>810704F9</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>45-29-BE-D0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-shurikens">
+    <Cheat Text="Infinite-shurikens｜无限手里剑">
     <Cheatline>
       <Offset>81090733</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-5E-3C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-money">
+    <Cheat Text="Infinite-金钱">
     <Cheatline>
       <Offset>81C3F96B</Offset>
       <Section>0</Section>

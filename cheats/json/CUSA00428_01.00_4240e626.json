@@ -1,12 +1,17 @@
 {
-  "name": "Toy Soldiers: War Chest",
+  "name": "Toy 士兵: War 宝箱",
   "id": "CUSA00428",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EA3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Token",
-      "type": "checkbox",
+      "name": "最大 衍生物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EA3800",

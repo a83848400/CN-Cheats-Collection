@@ -1,12 +1,17 @@
 {
-  "name": "Sackboy: A Big Adventure",
+  "name": "Sackboy: A Big 冒险模式",
   "id": "CUSA06313",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2319266",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max score (Each gray orb is worth 1000)",
-      "type": "checkbox",
+      "name": "最大 比分 (Each gray orb is worth 1000)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84A3DB0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Each golden orb doubles the total (Deactivate after reaching a large sum)",
-      "type": "checkbox",
+      "name": "Each 金色 orb 双打 the total (Deactivate after reaching a large sum)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22C5F77",

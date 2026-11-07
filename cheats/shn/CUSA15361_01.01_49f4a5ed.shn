@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Yakuza 4 Remastered" Moder="IMnoob" Cusa="CUSA15361" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Money on Buy">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱最大 on Buy">
     <Cheatline>
       <Offset>19E3800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>45-89-AC-87-50-84-00-00-7E-39</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Exp After Get">
+  <Cheat Text="经验值最大 After Get">
     <Cheatline>
       <Offset>AE7978</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>45-89-7E-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ability Point">
+  <Cheat Text="Infinite 特性 Point">
     <Cheatline>
       <Offset>AE7A80</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>8A-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>82D8C</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-0F-B7-46-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Heats">
+  <Cheat Text="Infinite Heats｜无尽的热浪">
     <Cheatline>
       <Offset>65517</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-10-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit KILL">
+  <Cheat Text="1 Hit KILL｜一击必杀">
     <Cheatline>
       <Offset>654F7</Offset>
       <Section>0</Section>

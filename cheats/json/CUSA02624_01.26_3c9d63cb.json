@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Black Ops III",
+  "name": "使命召唤: 黑色 Ops III",
   "id": "CUSA02624",
   "version": "01.26",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D9BF80",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "All Client Demi Godmode",
+      "name": "All Client Demi 上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D9D06F",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "All Client Infinite Ammo",
+      "name": "All Client 无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15719DA",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Bypass Death Barriers",
+      "name": "Bypass 死亡 Barriers",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "184F843",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Infinite Jetpack",
+      "name": "Infinite 喷气背包",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "96ABDC",
@@ -80,9 +85,9 @@
       ]
     },
     {
-      "name": "Super Jump",
+      "name": "Super Jump｜超级跳跃",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1693570",
@@ -92,9 +97,9 @@
       ]
     },
     {
-      "name": "Player 1 Give Points (Zombies)",
+      "name": "Player 1 Give 得分 (Zombies)",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8450A94",
@@ -104,9 +109,9 @@
       ]
     },
     {
-      "name": "Player 2 Give Points (Zombies)",
+      "name": "Player 2 Give 得分 (Zombies)",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8467CA4",
@@ -116,9 +121,9 @@
       ]
     },
     {
-      "name": "Player 3 Give Points (Zombies)",
+      "name": "Player 3 Give 得分 (Zombies)",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "847EEB4",
@@ -128,9 +133,9 @@
       ]
     },
     {
-      "name": "Player 4 Give Points (Zombies)",
+      "name": "Player 4 Give 得分 (Zombies)",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "84960C4",

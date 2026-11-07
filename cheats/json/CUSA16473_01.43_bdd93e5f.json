@@ -1,12 +1,17 @@
 {
-  "name": "Astroneer",
+  "name": "Astroneer｜《Astroneer》",
   "id": "CUSA16473",
   "version": "01.43",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infinite oxygen",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "infinite oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "190322A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "printing material never disappears",
-      "type": "checkbox",
+      "name": "printing material never disappears｜印刷品永远不会消失",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "188445B",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "inf fuel",
-      "type": "checkbox",
+      "name": "燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1831587",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "bytes never decrease",
-      "type": "checkbox",
+      "name": "bytes never decrease｜字节数永远不会减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A2DF2B",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "inf soil canister",
-      "type": "checkbox",
+      "name": "无限土壤罐",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AA9B3A",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "inf jetpack fuel",
-      "type": "checkbox",
+      "name": "Infinite 喷气背包 fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18256F8",

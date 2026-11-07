@@ -1,12 +1,17 @@
 {
-  "name": "Red Dead Redemption II",
+  "name": "荒野大镖客 II",
   "id": "CUSA03041",
   "version": "01.29",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "MASTER CODE for god mode and honor always max",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "MASTER 密码 for 神模式 and 荣誉值 always 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "779B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "God Mode (player and horse)",
-      "type": "checkbox",
+      "name": "神模式 (player and horse)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "779B87C",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "infinite dead eye",
-      "type": "checkbox",
+      "name": "infinite dead eye｜死亡之眼无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "144E525",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "infinite stamina (horse/player)",
-      "type": "checkbox",
+      "name": "infinite stamina (horse/player)｜无限耐力(玩家/坐骑)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "100F487",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "never wanted and zero bounty",
-      "type": "checkbox",
+      "name": "从未想要过 and 杰洛 悬赏",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DB2116",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite items and consumables(disable during unique mission items like bounty posters...)",
-      "type": "checkbox",
+      "name": "道具无限 and consumables(disable during unique mission items like 悬赏 posters...)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C8C303",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "HONOR always maxed",
-      "type": "checkbox",
+      "name": "荣誉值 always maxed",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "779B87D",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "MAX Honor updated(set honor to max one time, do an honor related task to see the difference)",
-      "type": "checkbox",
+      "name": "最大 荣誉值 updated(set 荣誉值 to 最大 one time, do an 荣誉值 related task to see the difference)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25F469D40",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "add 30 pelts(enable after skinning pelt disable after putting on horse!)",
-      "type": "checkbox",
+      "name": "add 30 pelts(enable after skinning pelt disable after putting on horse!)｜添加 30 张兽皮（剥皮后生效，上马后失效！）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C8C2FF",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "infinite ammo (in game cheat)",
-      "type": "checkbox",
+      "name": "无限弹药 (in game cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "779B867",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "no reload",
-      "type": "checkbox",
+      "name": "no reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C11E3B",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "fast shooting (no bullet loading , skips the animation of loading bullets)",
-      "type": "checkbox",
+      "name": "fast 射门 (no bullet 加载中 , skips the animation of 加载中 项目符号)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48D52CD",
@@ -157,8 +162,8 @@
       ]
     },
     {
-      "name": "weapons always clean",
-      "type": "checkbox",
+      "name": "武器 always clean",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "779B856",
@@ -173,8 +178,8 @@
       ]
     },
     {
-      "name": "infinite ammo ,throwables ,arrows ,no reload ,weapons stay clean",
-      "type": "checkbox",
+      "name": "无限弹药 ,可投掷物品 ,arrows ,无需换弹 ,武器 stay clean",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B95803",
@@ -189,8 +194,8 @@
       ]
     },
     {
-      "name": "freeze all(ammo,throwables,money,items,trapper and pearson stock)disable during unique mission items like bounty posters...",
-      "type": "checkbox",
+      "name": "freeze all(但是,可投掷物品,金钱,items,捕兽人 and pearson 命数)disable during unique mission items like 悬赏 posters...",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C8637F",

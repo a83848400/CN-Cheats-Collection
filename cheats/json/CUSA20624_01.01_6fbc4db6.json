@@ -1,12 +1,17 @@
 {
-  "name": "Gryphon Knight Epic: Definitive Edition",
+  "name": "Gryphon 骑士 Epic: Definitive Edition",
   "id": "CUSA20624",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186C5C0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186C630",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186C5F0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Modern Warfare II" Moder="Saso_9.00" Cusa="CUSA34029" Version="01.33" Process="sp23-cod.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>C5-FA-2C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Armor ">
+  <Cheat Text="护甲无限 ">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>0F-B6-9D-05-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / Grenade / No Reload">
+  <Cheat Text="无限弹药 / 手榴弹 / 无需换弹">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

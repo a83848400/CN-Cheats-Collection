@@ -1,12 +1,17 @@
 {
-  "name": "Disney's Hercules Action Game",
+  "name": "Disney's Hercules Action Game｜迪士尼《大力士》动作游戏",
   "id": "SLUS00529",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14828E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Health",
-      "type": "checkbox",
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "148101",

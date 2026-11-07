@@ -1,12 +1,17 @@
 {
-  "name": "Uncharted: The Nathan Drake Collection",
+  "name": "神秘海域: The 内森·德雷克 Collection",
   "id": "CUSA02320",
   "version": "01.02",
   "process": "big2-ps4_Shipping.elf",
   "mods": [
     {
-      "name": "Enable Dev Menu",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Enable Dev 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4FDE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No FPS On Screen",
-      "type": "checkbox",
+      "name": "No FPS On Screen｜屏幕上未显示帧率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F8F78",

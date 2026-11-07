@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>614FDB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-11-47-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina/Breath">
+  <Cheat Text="无限耐力/Breath">
     <Cheatline>
       <Offset>614FAB0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-C1-7A-11-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Arrows/Craft On Use (Need 2 To work)">
+  <Cheat Text="道具无限/Arrows/Craft On Use (Need 2 To work)">
     <Cheatline>
       <Offset>2F095F8</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>E8-63-B8-D3-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables">
+  <Cheat Text="Infinite Throwables｜投掷物无限">
     <Cheatline>
       <Offset>2F09900</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>E8-5B-B5-D3-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload Crossbow/Boomstick">
+  <Cheat Text="无需换弹 弩/Boomstick">
     <Cheatline>
       <Offset>2C44ED5</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>89-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Durability">
+  <Cheat Text="Infinite Weapon Durability｜武器耐久无限">
     <Cheatline>
       <Offset>614F330</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>C5-FA-11-83-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Immunity/Chemical Area">
+  <Cheat Text="无限免疫力/Chemical Area">
     <Cheatline>
       <Offset>614F700</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C4-C1-7A-11-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite UV Flashlight">
+  <Cheat Text="Infinite UV 手电筒">
     <Cheatline>
       <Offset>614F720</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>C4-C1-7A-11-84-24-80-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP (Use After Escaping Waltz)">
+  <Cheat Text="最大 XP (Use After Escaping Waltz)">
     <Cheatline>
       <Offset>3161C8D</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>49-89-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Money">
+  <Cheat Text="最大/金钱无限">
     <Cheatline>
       <Offset>614F740</Offset>
       <Section>0</Section>
@@ -131,7 +139,7 @@
       <ValueOff>29-D8-89-47-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Time Missions (Disable B4 Finishing)">
+  <Cheat Text="冻结时间 Missions (Disable B4 Finishing)">
     <Cheatline>
       <Offset>3575198</Offset>
       <Section>0</Section>
@@ -139,7 +147,7 @@
       <ValueOff>C5-FA-11-43-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Time For Parkour And Fighting Challenge">
+  <Cheat Text="冻结时间 For Parkour And Fighting Challenge">
     <Cheatline>
       <Offset>2563161</Offset>
       <Section>0</Section>

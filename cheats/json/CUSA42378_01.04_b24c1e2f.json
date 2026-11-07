@@ -1,12 +1,17 @@
 {
-  "name": "Contra: Operation Galuga",
+  "name": "魂斗罗: Operation Galuga",
   "id": "CUSA42378",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C2972A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "MAX-CREDITS",
-      "type": "checkbox",
+      "name": "最大-CREDITS",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81681E93",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Invincible-not all-enemy",
-      "type": "checkbox",
+      "name": "无敌-not all-enemy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80F4227B",

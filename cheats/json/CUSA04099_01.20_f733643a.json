@@ -1,12 +1,17 @@
 {
-  "name": "Sniper Elite 4",
+  "name": "Sniper 精英 4",
   "id": "CUSA04099",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BC90",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BEA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BCE0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Ammo/Items",
-      "type": "checkbox",
+      "name": "最大/无限弹药/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BBF0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BC10",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Game Time",
-      "type": "checkbox",
+      "name": "Infinite Game Time｜无限游戏时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BDB0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max XP On Gain",
-      "type": "checkbox",
+      "name": "最大 XP On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5BF00",

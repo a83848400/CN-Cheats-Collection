@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Modern Warfare",
+  "name": "使命召唤: Modern Warfare",
   "id": "CUSA08829",
   "version": "01.01",
-  "process": "default.elf",
+  "process": "默认.elf",
   "mods": [
     {
-      "name": "Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE9675",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Reload Ammo",
+      "name": "无限重装 但是",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C16C7A",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
+      "name": "Infinite Grenades｜手雷无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE4D7B",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Godmode",
+      "name": "Godmode｜上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CEABCC",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Death-Barrier Godmode",
+      "name": "死亡-屏障 上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CEB1E0",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "No Recoil",
+      "name": "No Recoil｜消除后坐力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C00D00",

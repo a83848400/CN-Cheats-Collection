@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="IMMORTAL: UNCHAINED" Moder="Saso_9.00" Cusa="CUSA10161" Version="01.17" Process="eboot.bin">
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="Health / All (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="生命 / All (Master 密码)">
     <Cheatline>
       <Offset>1D77800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>4D-89-1A-8B-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ammo / Stamina / Energy / Consumable (MC)">
+  <Cheat Text="但是 / 体力 / 能量 / 耗材 (MC)">
     <Cheatline>
       <Offset>1D77804</Offset>
       <Section>0</Section>

@@ -1,13 +1,18 @@
 {
-  "name": "The Outer Worlds 2",
+  "name": "The Outer Worlds 2｜《外世界2》",
   "id": "PPSA24588",
   "version": "01.100.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17118AC",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17164C5",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Inf Energy",
+      "name": "无限能量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B035",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "No Toxicity",
+      "name": "No Toxicity｜无毒性",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B06A",
@@ -80,9 +85,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B099",
@@ -97,9 +102,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B0D8",
@@ -114,9 +119,9 @@
       ]
     },
     {
-      "name": "Inf Talents Points",
+      "name": "Infinite Talents 得分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B106",
@@ -131,9 +136,9 @@
       ]
     },
     {
-      "name": "Inf Advantages Poitns",
+      "name": "无限优势积分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B135",
@@ -148,9 +153,9 @@
       ]
     },
     {
-      "name": "Max Exp",
+      "name": "Max Exp｜经验值最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6F4B164",

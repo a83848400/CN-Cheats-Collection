@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Divinity: Original Sin II: Definitive Edition" Moder="EvilGoku" Cusa="CUSA11898" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP SP AP 1 hit kill" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 精神值 行动点 一击必杀" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>24A7800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>8B-80-F8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Exp (Max 35 Level ) Get by kill 1 enemy" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="经验值最大 (最大 35 等级 ) Get by kill 1 enemy" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>24A786F</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>41-03-9E-18-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Max Money｜金钱最大" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>24A7882</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>89-B7-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Attribute Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="99 属性 得分 (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>24A7894</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>89-88-00-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Combat Ability Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="99 Combat 特性 得分 (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>24A78B8</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>89-88-04-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 civil Ability Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="99 civil 特性 得分 (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>24A78C9</Offset>
@@ -86,7 +94,7 @@
       <ValueOff>89-88-08-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Talents Ability Points (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="99 Talents 特性 得分 (after using 1 point)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>24A78DA</Offset>

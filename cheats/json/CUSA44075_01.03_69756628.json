@@ -1,13 +1,18 @@
 {
-  "name": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
+  "name": "Teenage Mutant Ninja Turtles: Mutants Unleashed｜《忍者龟：变种大暴走》",
   "id": "CUSA44075",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "GodMode",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "GodMode｜上帝模式",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80AADC62",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80BA3030",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "One hit Kill",
+      "name": "One hit Kill｜一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",

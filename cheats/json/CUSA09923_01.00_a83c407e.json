@@ -1,12 +1,17 @@
 {
-  "name": "Digimon Story Cyber Sleuth: Hacker's Memory",
+  "name": "Digimon Story Cyber Sleuth: Hacker's Memory｜《数码宝贝物語 网络侦探：黑客的记忆》",
   "id": "CUSA09923",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Yen x9999999 (on buy)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "如果 x9999999 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB3E30",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Items x50 (on sell/use)",
-      "type": "checkbox",
+      "name": "Items x50 (on sell/use)｜物品 x50（出售/使用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FF0BF00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE30",

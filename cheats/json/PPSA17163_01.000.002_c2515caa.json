@@ -1,13 +1,18 @@
 {
-  "name": "Jets'n'Guns 2",
+  "name": "Jets'n'Guns 2｜《Jets'n'Guns 2》",
   "id": "PPSA17163",
   "version": "01.000.002",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3683F00",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "--In_Hp",
+      "name": "--当前生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3683F00",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "--One_Hit_Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3683F01",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Bombs",
+      "name": "无限炸弹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2443078",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Super",
+      "name": "无限超级",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F094F",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Easy Score",
+      "name": "简单 比分",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24430AD",

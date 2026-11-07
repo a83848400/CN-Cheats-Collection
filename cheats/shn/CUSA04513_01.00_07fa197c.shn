@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Max Batteries">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 电池">
     <Cheatline>
       <Offset>181FC15</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>44-89-A8-F0-92-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up ~Take One Picture~">
+  <Cheat Text="Quick 升级 ~Take One Picture~">
     <Cheatline>
       <Offset>181FC3E</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>8B-44-87-14-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode">
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>181FC5B</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>89-83-F4-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>181FC6E</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>66-8B-83-3C-2E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Kill Zombies">
+  <Cheat Text="Quickly Kill Zombies｜快速消灭僵尸">
     <Cheatline>
       <Offset>181FC95</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>41-89-9E-88-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have  Real Mega Blaster ~Swap Items~">
+  <Cheat Text="Have  Real Mega 爆能枪 ~Swap Items~">
     <Cheatline>
       <Offset>181FCA7</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>66-44-8B-BC-88-D0-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Laser Sword ~Swap Items~">
+  <Cheat Text="Have 激光瞄准器 剑 ~Swap Items~">
     <Cheatline>
       <Offset>181FCBB</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>66-44-8B-BC-88-D0-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Queen's ~Swap Items~">
+  <Cheat Text="Have Queen's ~Swap Items~｜拥有女王的 ~交换物品~">
     <Cheatline>
       <Offset>181FCCF</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>66-44-8B-BC-88-D0-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapon Durability">
+  <Cheat Text="Weapon Durability｜武器耐久度">
     <Cheatline>
       <Offset>181FCE8</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>C4-C1-7A-11-86-34-2E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Novelty Masks On Zombies (10) ">
+  <Cheat Text="Novelty Masks On Zombies (10) ｜僵尸佩戴的创意面具（10）">
     <Cheatline>
       <Offset>181FD01</Offset>
       <Section>0</Section>
@@ -155,7 +163,7 @@
       <ValueOff>FF-83-98-64-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Shots Taken (1000) ">
+  <Cheat Text="Shots Taken (1000) ｜投篮次数（1000）">
     <Cheatline>
       <Offset>181FD10</Offset>
       <Section>0</Section>
@@ -169,7 +177,7 @@
       <ValueOff>01-B1-A8-64-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Barehanded Kills (1000)">
+  <Cheat Text="Barehanded Kills (1000)｜徒手击杀 (1000)">
     <Cheatline>
       <Offset>181FD20</Offset>
       <Section>0</Section>
@@ -183,7 +191,7 @@
       <ValueOff>89-B3-8C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item Smasher (1000)">
+  <Cheat Text="物品 Smasher (1000)">
     <Cheatline>
       <Offset>181FD30</Offset>
       <Section>0</Section>
@@ -197,7 +205,7 @@
       <ValueOff>74-6B-01-71-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Photo PP Score">
+  <Cheat Text="最大 照片 招式点数 比分">
     <Cheatline>
       <Offset>181FD56</Offset>
       <Section>0</Section>
@@ -211,7 +219,7 @@
       <ValueOff>44-89-84-33-B4-28-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Modes &amp; Unlock All Unlockables ~Select Start Game~">
+  <Cheat Text="解锁 All Modes &amp; 解锁 All Unlockables ~Select Start Game~">
     <Cheatline>
       <Offset>181FD69</Offset>
       <Section>0</Section>

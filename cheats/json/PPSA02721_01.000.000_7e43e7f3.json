@@ -1,0 +1,65 @@
+{
+  "name": "Neptunia ReVerse",
+  "id": "PPSA02721",
+  "version": "01.000.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "enabled": true,
+      "memory": [
+        {
+          "comment": "引擎 Master 大门: forces master 弹道扩散 flag to 0 at init",
+          "off": "66C787F80D00000100",
+          "offset": "0x3F35E8",
+          "on": "66C787F80D00000000"
+        },
+        {
+          "comment": "Script/Title Setter: prevents sub_7AF60 from enabling bit 0",
+          "off": "83C901",
+          "offset": "0x7AF6F",
+          "on": "83E1FE"
+        },
+        {
+          "comment": "Parameter Setter: ensures sub_7CE70 clears bit 0",
+          "off": "8088D400000001C3",
+          "offset": "0x7CE9F",
+          "on": "80A0D4000000FEC3"
+        }
+      ],
+      "name": "Disable 弹道扩散"
+    },
+    {
+      "comment": "KEEP DISABLED. This NOPs the sceKernelUsleep in FrameLimiter_Update (sub_401B20). That limiter IS the 引擎's 每秒六十帧 cap: game logic advances on a fixed 60 Hz timestep (see FrameLimiter_Update interval and the per-frame tick in GameFrameLoop), so removing it lets the loop run as fast as the 机械生命体 allows and game 速度 scales with FPS (e.g. 120 FPS = 2倍速度). Disabled so the 每秒六十帧 cap stays in 原力; the 3D present is decoupled separately by the 'Uncap 3D Frame Present' mod.",
+      "enabled": true,
+      "memory": [
+        {
+          "comment": "Disable Frame Limiter: NOPs the sceKernelUsleep in FrameLimiter_Update (sub_401B20). The 引擎 stops 睡眠 toward the 每秒六十帧 deadline; frame delta-time becomes the real elapsed time (uncapped).",
+          "off": "E8BCA81700",
+          "offset": "0x401BAF",
+          "on": "9090909090"
+        }
+      ],
+      "name": "Uncap framerate (Use with 60FPS patch, increases gamespeed!)"
+    },
+    {
+      "enabled": true,
+      "memory": [
+        {
+          "comment": "Decouple 3D present from vblank: NOPs the sceKernelWaitEqueue in GraphicsDevice_SubmitFlipAndWait (sub_224960). The 引擎 submits a sceVideoOutSubmitFlip every frame and then BLOCKS one vblank waiting for that flip's completion event. In 重装兵 3D (地牢/combat) render+submit just exceeds one 60Hz interval, so the 格挡 lands two vblanks later -> a 困难 30 FPS lock, while light 2D menus stay 60. Removing the 待机 lets the flip queue (bounded by flipPendingNum<3 spin) 速度 frames instead of the vblank event.",
+          "off": "E83C7C3500",
+          "offset": "0x2249EF",
+          "on": "9090909090"
+        }
+      ],
+      "name": "Uncap framerate (60FPS patch)"
+    }
+  ],
+  "credits": [
+    "Unknown"
+  ]
+}

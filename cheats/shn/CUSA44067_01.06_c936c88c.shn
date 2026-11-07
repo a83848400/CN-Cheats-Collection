@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sniper Elite: Resistance" Moder="Ali-mk" Cusa="CUSA44067" Version="01.06" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E9-7B-82-02-01</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Ammo-Never-Reload">
+    <Cheat Text="无限子弹-无需装弹">
     <Cheatline>
       <Offset>E964DD</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-89-77-40</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Invincible-(MC)">
+    <Cheat Text="无敌-(MC)">
     <Cheatline>
       <Offset>C6D774</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E8-97-CF-20-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-All-items-AMMO-Medkit">
+    <Cheat Text="最大-所有商品-但是-医疗包">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-47-2C-74-0B</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Rapid-Fire-(MC)">
+    <Cheat Text="Rapid-火-(MC)">
     <Cheatline>
       <Offset>C75CF7</Offset>
       <Section>0</Section>

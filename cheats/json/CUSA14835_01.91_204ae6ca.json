@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Ball Z: Kakarot",
+  "name": "龙珠 Z: Kakarot",
   "id": "CUSA14835",
   "version": "01.91",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Caution : i would advise not using XP gain cheat unless you need to (creat a backup save) cz if you level up too high the game becames boring",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "警戒 : i would advise not using XP gain cheat unless you need to (creat a backup 保存) cz if you 升级 too high the game becames boring",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E237FE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inf HP",
-      "type": "checkbox",
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F5944F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "inf ki",
-      "type": "checkbox",
+      "name": "无限气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F594AF",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "inf medals/items",
-      "type": "checkbox",
+      "name": "无限奖牌/道具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E23800",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max money",
-      "type": "checkbox",
+      "name": "Max money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E23816",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "max ORBs",
-      "type": "checkbox",
+      "name": "最大 ORBs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E23829",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "XP gain x 2",
-      "type": "checkbox",
+      "name": "XP gain 艾克斯 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2383B",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "XP gain x 4",
-      "type": "checkbox",
+      "name": "XP gain 艾克斯 4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2383B",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "XP gain x 8",
-      "type": "checkbox",
+      "name": "XP gain 艾克斯 8",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2383B",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "XP gain x 32",
-      "type": "checkbox",
+      "name": "XP gain 艾克斯 32",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2383B",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "XP gain x 256",
-      "type": "checkbox",
+      "name": "XP gain 艾克斯 256",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2383B",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "player lvl 250 (after 2 battles) = one hit kills = boring and permenent",
-      "type": "checkbox",
+      "name": "player lvl 250 (after 2 battles) = one hit kills = boring and permenent｜玩家等级250级（经过2场战斗）= 一击必杀 = 乏味且永久存在",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E23862",

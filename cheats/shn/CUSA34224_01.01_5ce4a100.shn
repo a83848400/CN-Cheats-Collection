@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="RWBY: Arrowfell" Moder="Ali-mk" Cusa="CUSA34224" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(mc)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E9-23-E3-EA-03</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Health-One-Hit-Kill-(mc)">
+    <Cheat Text="Infinite-生命-一击必杀-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E9-3E-E3-EA-03</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>8329AFF5</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>E8-86-64-98-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Energy-Weapon">
+    <Cheat Text="Infinite-能量-Weapon">
     <Cheatline>
       <Offset>82C21511</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Points-Remaining">
+    <Cheat Text="Infinite-得分-Remaining">
     <Cheatline>
       <Offset>82DF0844</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>89-88-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Points-money">
+    <Cheat Text="Infinite-得分-金钱">
     <Cheatline>
       <Offset>82FCE124</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-48-10</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Items">
+    <Cheat Text="Infinite-Items｜无限项">
     <Cheatline>
       <Offset>82FCF6FF</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>89-C1</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="one-Hit-Kill">
+    <Cheat Text="one-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>82C214BB</Offset>
       <Section>0</Section>

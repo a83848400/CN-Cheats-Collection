@@ -1,12 +1,17 @@
 {
-  "name": "Homefront: The Revolution",
+  "name": "Homefront: The Revolution｜《家园：革命》",
   "id": "CUSA00938",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15ae17",
@@ -16,19 +21,19 @@
       ]
     },
     {
-      "name": "Infinite Item and Ammo",
-      "type": "checkbox",
+      "name": "Infinite 物品 and 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18329e8",
-          "on": "4E",
-          "off": "4F"
+          "on": "4E｜第四",
+          "off": "4F｜四个“F”"
         }
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8b400e",
@@ -38,19 +43,19 @@
       ]
     },
     {
-      "name": "Infinite Hack Time",
-      "type": "checkbox",
+      "name": "Infinite Hack Time｜无限黑客时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7fed74",
           "on": "93",
-          "off": "8B"
+          "off": "8B｜八B班"
         }
       ]
     },
     {
-      "name": "Player High Speed",
-      "type": "button",
+      "name": "Player High 速度",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "252c780",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Player Normal Speed",
-      "type": "button",
+      "name": "Player 普通 速度",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "252c780",

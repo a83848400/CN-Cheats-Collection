@@ -1,12 +1,17 @@
 {
-  "name": "Valkyria Chronicles 4",
+  "name": "战场女武神 4",
   "id": "CUSA10633",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite CP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite CP｜无限CP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7012F6",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32215D",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "infinite exp",
-      "type": "checkbox",
+      "name": "infinite exp｜无限经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9F74EE",

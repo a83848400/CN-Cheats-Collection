@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Revelations",
+  "name": "生化危机: Revelations",
   "id": "CUSA06212",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F8384F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2168AB",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21BAE5",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21BB1A",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite BP",
-      "type": "checkbox",
+      "name": "Infinite 战斗点数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F83800",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "212715",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Instant Max Level",
-      "type": "checkbox",
+      "name": "Instant 等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F83832",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max BP on Gain",
-      "type": "checkbox",
+      "name": "最大 战斗点数 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F83840",

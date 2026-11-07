@@ -1,12 +1,17 @@
 {
-  "name": "Hitman 3",
+  "name": "《杀手》 3",
   "id": "CUSA18210",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33F477",

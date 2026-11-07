@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA18880",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "PlayerNoDead (Need a Loading)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "PlayerNoDead (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A78E9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "PlayerHorseNoDead (Need a Loading)",
-      "type": "checkbox",
+      "name": "PlayerHorseNoDead (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A798B",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "PlayerExterminate (Need a Loading)",
-      "type": "checkbox",
+      "name": "PlayerExterminate (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A7A2D",

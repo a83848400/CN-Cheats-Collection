@@ -1,12 +1,17 @@
 {
-  "name": "Afterimage",
+  "name": "Afterimage｜残像",
   "id": "CUSA41097",
   "version": "01.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + Invincible (Turn OFF when enter to the first boss, die is needed to continue the gameplay)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 无敌 (回合 OFF when enter to the first boss, die is needed to 继续游戏 the gameplay)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56DB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Magic / Mana (You obtain magic when collect the Book of Hydro)",
-      "type": "checkbox",
+      "name": "Infinite 魔法 / 法力 (You obtain 魔法 when collect the Book of Hydro)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56DB821",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Money (Dew) x999999",
-      "type": "checkbox",
+      "name": "金钱无限 (Dew) x999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "56DB845",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Ghosts" Moder="GamerX2" Cusa="CUSA00018" Version="01.20" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Ammo And Grenades| Story Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药 And 手榴弹| 剧情模式">
     <Cheatline>
       <Offset>3E7D33</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>44-29-7C-81-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible|Story Mode">
+  <Cheat Text="无敌|剧情模式">
     <Cheatline>
       <Offset>8BB800</Offset>
       <Section>0</Section>

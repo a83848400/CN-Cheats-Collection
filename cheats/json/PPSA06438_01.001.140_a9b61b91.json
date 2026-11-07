@@ -1,13 +1,18 @@
 {
-  "name": "Let's Build a Zoo",
+  "name": "Let's 构筑 a Zoo",
   "id": "PPSA06438",
   "version": "01.001.140",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Money",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱无限",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "816C7000",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "Inf Research Points",
+      "name": "Infinite 研究点",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "816C7034",

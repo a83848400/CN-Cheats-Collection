@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mad Max" Moder="Celogamez" Cusa="CUSA02703" Version="01.06" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5CC7F9</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-57-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>1353800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C4-C1-7A-11-95-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fury">
+  <Cheat Text="Infinite Fury｜无尽之怒">
     <Cheatline>
       <Offset>1353930</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>41-89-44-0D-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>44B83A</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Griffa Tokens On Gain**">
+  <Cheat Text="最大 Griffa Tokens On Gain**">
     <Cheatline>
       <Offset>1353060</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>41-FF-87-28-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time Death Run**">
+  <Cheat Text="停止 Time 死亡 Run**">
     <Cheatline>
       <Offset>1352A60</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-FA-10-45-B0-C5-FA-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Damage To The Car**">
+  <Cheat Text="不受伤害 To The Car**">
     <Cheatline>
       <Offset>1353080</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C4-C1-7A-10-04-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Nitro Turbo">
+  <Cheat Text="无限氮气 涡轮">
     <Cheatline>
       <Offset>1353870</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>C4-C1-7A-11-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Scraps">
+  <Cheat Text="最大/Infinite Scraps">
     <Cheatline>
       <Offset>1352FC0</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>C4-C1-7A-10-44-F0-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Canteen/Fuel (MASTERCODE/MUST BE ON)">
+  <Cheat Text="Infinite 食堂/Fuel (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>1353040</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>C4-C1-7A-11-4C-CA-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Canteen">
+  <Cheat Text="Infinite 食堂">
     <Cheatline>
       <Offset>1353046</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>C4-C1-7A-11-4C-CA-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fuel">
+  <Cheat Text="Infinite Fuel｜燃料无限">
     <Cheatline>
       <Offset>1353066</Offset>
       <Section>0</Section>

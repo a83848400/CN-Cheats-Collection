@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Odyssey",
+  "name": "刺客信条 Odyssey",
   "id": "CUSA12042",
   "version": "01.56",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D463A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D464B0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "64D759A",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Adrenaline",
-      "type": "checkbox",
+      "name": "Infinite 肾上腺素",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "36487BA",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Abilities (No Cooldown)",
-      "type": "checkbox",
+      "name": "Abilities (无冷却)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46AA0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max Ability Points (9999)",
-      "type": "checkbox",
+      "name": "最大 特性 得分 (9999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46470",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Max Resorce / Drachma / Arrows (On Get)",
-      "type": "checkbox",
+      "name": "最大 Resorce / Drachma / Arrows (On Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46400",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Infinite Ship Health / 1 Hit (Master Code)",
-      "type": "checkbox",
+      "name": "Infinite Ship 生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46510",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "1 Hit kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46518",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Infinite Ship Adrenaline+Ram Speed",
-      "type": "checkbox",
+      "name": "Infinite Ship 肾上腺素+Ram 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D464E0",

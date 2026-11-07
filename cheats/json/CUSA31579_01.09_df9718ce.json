@@ -1,12 +1,17 @@
 {
-  "name": "Sea of Stars",
+  "name": "Sea of Stars｜星海",
   "id": "CUSA31579",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "806C484D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Mp",
-      "type": "checkbox",
+      "name": "无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80B328BF",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Money (Dont decrease)",
-      "type": "checkbox",
+      "name": "金钱无限 (Dont decrease)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80CE49CD",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Inf Items (At least 2)",
-      "type": "checkbox",
+      "name": "道具无限 (至少2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80772AD6",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Inf Combo",
-      "type": "checkbox",
+      "name": "无限连击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C2FCF8",

@@ -1,12 +1,17 @@
 {
-  "name": "Greak: Memories of Azur",
+  "name": "Greak: Memories of Azur｜《Greak：阿祖尔的回忆》",
   "id": "CUSA31337",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Arrows",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7940",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7970",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Magic",
-      "type": "checkbox",
+      "name": "Infinite 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7A20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Crystals(on buy only activate in the shops)",
-      "type": "checkbox",
+      "name": "水晶最大(on buy only activate in the shops)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7930",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Items (on use)",
-      "type": "checkbox",
+      "name": "道具无限 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B7F30",

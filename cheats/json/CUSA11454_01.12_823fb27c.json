@@ -1,12 +1,17 @@
 {
-  "name": "Control",
+  "name": "Control｜控制",
   "id": "CUSA11454",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo ｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66ADB7",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F1B4A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "999999 Materials on Use",
-      "type": "checkbox",
+      "name": "999999 Materials on Use｜999999 种材料正在使用中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F800",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Freeze Source Credit",
-      "type": "checkbox",
+      "name": "Freeze Source Credit｜冻结来源说明",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6371F6",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "999999 Source Credit on Use",
-      "type": "checkbox",
+      "name": "999999 Source Credit on Use｜999999 使用时请注明出处",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F814",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Freeze Abilities Points",
-      "type": "checkbox",
+      "name": "Freeze Abilities 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35370B",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "999 Abilities Points on Use",
-      "type": "checkbox",
+      "name": "999 Abilities 得分 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F827",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Shared Health!!!",
-      "type": "checkbox",
+      "name": "Shared 生命!!!",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "522C41",

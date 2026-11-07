@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Family" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>7FC5D100</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>8B-4C-24-F4-89-48-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Frutas Infinita">
+  <Cheat Text="Frutas Infinita｜无限水果">
     <Cheatline>
       <Offset>1987DD0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8B-4C-24-F4-89-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Penas Infinita">
+  <Cheat Text="Penas Infinita｜无尽之羽">
     <Cheatline>
       <Offset>1987940</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-88-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tiquetes Infinito">
+  <Cheat Text="Tiquetes Infinito｜无限票">
     <Cheatline>
       <Offset>1987610</Offset>
       <Section>0</Section>

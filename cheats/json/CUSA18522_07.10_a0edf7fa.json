@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Valhalla",
+  "name": "刺客信条 Valhalla",
   "id": "CUSA18522",
   "version": "07.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62ABD00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Endurance Instant Refill",
-      "type": "checkbox",
+      "name": "耐力 Instant Refill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F5D0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Air",
-      "type": "checkbox",
+      "name": "Infinite Air｜无限之空",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D3B0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Resources/Consumables//Arrows/Money(On Use/Buy)",
-      "type": "checkbox",
+      "name": "最大/资源无限/Consumables//Arrows/金钱(On Use/Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F350",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Instant Max/Infinite Adrenaline On Use/Gain",
-      "type": "checkbox",
+      "name": "Instant 最大/Infinite 肾上腺素 On Use/Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F630",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points On Gain",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DE10",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Mastery Points On Gain",
-      "type": "checkbox",
+      "name": "最大/Infinite Mastery 得分 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F8C0",

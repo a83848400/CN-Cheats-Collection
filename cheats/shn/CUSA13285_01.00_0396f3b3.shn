@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hollow Knight" Moder="Super Death" Cusa="CUSA13285" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <PS5Offset>104FDB2-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>35824E</Offset>
@@ -11,7 +19,7 @@
       <ValueOff>41-89-46-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <PS5Offset>2C6-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>13A7D3A</Offset>
@@ -41,7 +49,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Soul">
+  <Cheat Text="Infinite Soul｜无限之魂">
     <Cheatline>
       <PS5Offset>2AC-Il2CppUserAssemblies.prx[0]-5</PS5Offset>
       <Offset>13A7D54</Offset>

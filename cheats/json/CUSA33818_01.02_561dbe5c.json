@@ -1,13 +1,18 @@
 {
-  "name": "FINAL FANTASY",
+  "name": "FINAL FANTASY｜最终幻想",
   "id": "CUSA33818",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf MP",
+      "name": "无限魔力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81B20E59",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "description": "At least 2",
-      "type": "checkbox",
+      "name": "道具无限",
+      "description": "At least 2｜至少2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F033",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "description": "Inf Money Shop",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "description": "金钱无限 Shop",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F062",

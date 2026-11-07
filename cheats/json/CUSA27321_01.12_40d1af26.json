@@ -1,12 +1,17 @@
 {
-  "name": "Jurassic World Evolution 2",
+  "name": "Jurassic World 进化 2",
   "id": "CUSA27321",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Unlimited Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Unlimited 金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1FE50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Unlimited Fuel Generator",
-      "type": "checkbox",
+      "name": "无限燃料 Generator",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1082B82",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Full Fuel / Food Supply",
-      "type": "checkbox",
+      "name": "最大 Full Fuel / Food 供给",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1FEB0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "No Vehicle Damage",
-      "type": "checkbox",
+      "name": "No Vehicle Damage｜载具不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1FE90",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Immediate Order Completion",
-      "type": "checkbox",
+      "name": "Immediate Order Completion｜即时订单完成",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "166D230",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "No Stress Level Employees",
-      "type": "checkbox",
+      "name": "No Stress 等级 Employees",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B1743",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Mastercode Dinosaurus: Infinite Water / Food ( must be activated )",
-      "type": "checkbox",
+      "name": "主代码 Dinosaurus: 水无限 / Food ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1F800",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Dinosaurus: Food [ MC ]",
-      "type": "checkbox",
+      "name": "Dinosaurus: Food [ MC ]｜恐龙：食物 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1F806",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Dinosaurus: Infinite Water [ MC ]",
-      "type": "checkbox",
+      "name": "Dinosaurus: 水无限 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1F817",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Dinosaurus: Max Health",
-      "type": "checkbox",
+      "name": "Dinosaurus: 生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "151F7EC",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Dinosaurus: Max Comfort",
-      "type": "checkbox",
+      "name": "Dinosaurus: 最大 Comfort",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1FE70",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "Dinosaurus: Unlimited Anesthetic Time",
-      "type": "checkbox",
+      "name": "Dinosaurus: Unlimited Anesthetic Time｜《恐龙：无限麻醉时间》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152EE23",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "Speed ( x 10 )",
-      "type": "checkbox",
+      "name": "速度 ( 艾克斯 10 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1FEE1",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "Speed ( x 50 )",
-      "type": "checkbox",
+      "name": "速度 ( 艾克斯 50 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1FED0",

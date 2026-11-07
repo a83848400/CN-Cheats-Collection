@@ -1,12 +1,17 @@
 {
-  "name": "Days Gone",
+  "name": "Days Gone｜《Days Gone》",
   "id": "CUSA08966",
   "version": "01.81",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "MASTER CODE For Infinite Life and 1 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "MASTER 密码 For 无限生命 and 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5725000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Life. MUST enable Master Code first",
-      "type": "checkbox",
+      "name": "无限生命. MUST enable Master 密码 first",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5725008",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill. MUST enable Master Code first. Must disable on chases",
-      "type": "checkbox",
+      "name": "一击必杀. MUST enable Master 密码 first. Must disable on chases",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5725016",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1271BA3",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2422F48",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite fuel",
-      "type": "checkbox",
+      "name": "Infinite fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14F2A0D",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite motorbike durability",
-      "type": "checkbox",
+      "name": "Infinite motorbike durability｜摩托车耐久度无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14EFD61",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Nitrous",
-      "type": "checkbox",
+      "name": "Infinite Nitrous｜无限氮气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15264E8",
@@ -103,8 +108,8 @@
       ]
     },
     {
-      "name": "Infinite Motorbike Durability excluding enemies",
-      "type": "checkbox",
+      "name": "Infinite Motorbike Durability excluding enemies｜摩托车耐久度无限（不包括敌人）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5725031",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Dont subtract items when selling",
-      "type": "checkbox",
+      "name": "Dont subtract items when selling｜销售时请勿从数量中扣除",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1275C05",
@@ -130,8 +135,8 @@
       ]
     },
     {
-      "name": "No skill points reduction",
-      "type": "checkbox",
+      "name": "No skill 得分 reduction",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E76C29",
@@ -141,8 +146,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E475E",

@@ -1,12 +1,17 @@
 {
-  "name": "theHunter: Call of the Wild",
+  "name": "theHunter: Call of the Wild｜theHunter：荒野的召唤",
   "id": "CUSA08661",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money (On Spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1928F59",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Skill Points (On Spend)",
-      "type": "checkbox",
+      "name": "Skill 得分 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "197E987",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Perk Points (On Spend)",
-      "type": "checkbox",
+      "name": "技能 得分 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "197E95D",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "144DF4B",

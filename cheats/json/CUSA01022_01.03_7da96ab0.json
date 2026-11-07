@@ -1,12 +1,17 @@
 {
-  "name": "DmC: Devil May Cry: Definitive Edition",
+  "name": "DmC: 鬼泣: Definitive Edition",
   "id": "CUSA01022",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F7B00A",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Earn more Red Orbs",
-      "type": "checkbox",
+      "name": "Earn more Red Orbs｜赚取更多红魔珠",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90B84D",

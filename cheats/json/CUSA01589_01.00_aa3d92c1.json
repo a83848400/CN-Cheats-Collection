@@ -1,12 +1,17 @@
 {
-  "name": "Dark Souls II: Scholar of the First Sin",
+  "name": "黑暗之魂 II: Scholar of the First Sin",
   "id": "CUSA01589",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Souls",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Souls｜灵魂最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "403B9E",

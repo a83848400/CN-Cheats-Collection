@@ -1,12 +1,17 @@
 {
-  "name": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
+  "name": "暗黑破坏神 III: 死神 of 结界突破: 必杀技 Evil Edition",
   "id": "CUSA00433",
   "version": "01.40",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Mana",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "753A59",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max gold on buy",
-      "type": "checkbox",
+      "name": "金币最大 on buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1352070",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Item / Kill Multiplier",
-      "type": "checkbox",
+      "name": "物品 / Kill Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "916C58",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dark Souls II: Scholar of the First Sin" Moder="Skal" Cusa="CUSA01760" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Godmode + 1 hit kill">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="上帝模式 + 一击必杀">
     <Cheatline>
       <Offset>2077800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>0F-4E-C8-89-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max souls on gain">
+  <Cheat Text="灵魂最大 on gain">
     <Cheatline>
       <Offset>403DCE</Offset>
       <Section>0</Section>

@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80B43A40",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Healer",
-      "type": "checkbox",
+      "name": "Infinite 治疗者",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80B4C895",

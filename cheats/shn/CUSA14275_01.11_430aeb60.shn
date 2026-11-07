@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Back 4 Blood" Moder="Reddevil82 - FW 9.00" Cusa="CUSA14275" Version="01.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>946BE99</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8D-B5-18-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health ( Player / Team )">
+  <Cheat Text="无限生命 ( Player / Team )">
     <Cheatline>
       <Offset>946BE41</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-10-89-E0-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina ( Battle Mode )">
+  <Cheat Text="无限耐力 ( 战斗 Mode )">
     <Cheatline>
       <Offset>946BE82</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7A-11-86-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina ( Run Mode )">
+  <Cheat Text="无限耐力 ( Run Mode )">
     <Cheatline>
       <Offset>946BE15</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C4-C1-7A-11-86-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo">
+  <Cheat Text="Max Ammo｜弹药最大化">
     <Cheatline>
       <Offset>946BDB0</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>8B-84-06-68-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload ( Ammo )">
+  <Cheat Text="无需换弹 ( 但是 )">
     <Cheatline>
       <Offset>946BDDB</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>41-89-86-AC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Items">
+  <Cheat Text="弹药最大化 Items">
     <Cheatline>
       <Offset>946BE03</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>8B-81-AC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Copper ( on gain / use )">
+  <Cheat Text="Infinite Copper ( on gain / use )｜无限铜（激活/使用时）">
     <Cheatline>
       <Offset>946BDEE</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>8B-9F-9C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Card Draws">
+  <Cheat Text="Infinite 卡牌 Draws">
     <Cheatline>
       <Offset>946BE39</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>4C-89-F7-FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Supply Lines ( on gain / use )">
+  <Cheat Text="Infinite 补给线 ( on gain / use )">
     <Cheatline>
       <Offset>946BE58</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>74-14-8B-48-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skull Totems ( on gain / use )">
+  <Cheat Text="Infinite Skull Totems ( on gain / use )｜无限骷髅图腾（获得/使用时）">
     <Cheatline>
       <Offset>946BEA5</Offset>
       <Section>0</Section>

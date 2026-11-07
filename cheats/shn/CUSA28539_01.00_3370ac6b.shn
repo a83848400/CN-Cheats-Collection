@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Within the Blade" Moder="Saso_9.00" Cusa="CUSA28539" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Master Code (Enable First)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Master 密码 (Enable First)">
     <Cheatline>
       <Offset>FC3B800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FB-11-03-EB-1B</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health">
+  <Cheat Text="Health｜生命">
     <Cheatline>
       <Offset>FC3B814</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>74-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold (On Spend)">
+  <Cheat Text="金币最大 (On Spend)">
     <Cheatline>
       <Offset>FC3B822</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>74-12</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Throwables">
+  <Cheat Text="Throwables｜可投掷物品">
     <Cheatline>
       <Offset>FC3B834</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>74-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapons Durability">
+  <Cheat Text="武器 耐用性">
     <Cheatline>
       <Offset>FC3B81B</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>74-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Skill Points">
+  <Cheat Text="Skill 得分">
     <Cheatline>
       <Offset>FC3B82B</Offset>
       <Section>0</Section>

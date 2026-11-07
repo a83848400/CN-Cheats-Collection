@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="YAKUZA 3" Moder="IMnoob" Cusa="CUSA15360" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max money on Buy">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱最大 on Buy">
     <Cheatline>
       <Offset>1837800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-84-87-28-7D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Experience ">
+  <Cheat Text="Infinite Experience ｜无限体验">
     <Cheatline>
       <Offset>8760BE</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>41-89-46-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>65A4F</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>0F-B7-44-01-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Heats">
+  <Cheat Text="Infinite Heats｜无尽的热浪">
     <Cheatline>
       <Offset>5CC42</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-FA-10-40-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 HIT KILL">
+  <Cheat Text="1 HIT KILL｜一击必杀">
     <Cheatline>
       <Offset>2C9D57</Offset>
       <Section>0</Section>

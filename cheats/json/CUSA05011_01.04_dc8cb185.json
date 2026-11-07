@@ -1,12 +1,17 @@
 {
-  "name": "Monster Boy and the Cursed Kingdom",
+  "name": "妖兽 Boy and the 诅咒 Kingdom",
   "id": "CUSA05011",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kills Boss",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "一击必杀 Boss",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608E90",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills Enemy",
-      "type": "checkbox",
+      "name": "一击必杀 Enemy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608ED0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinte Health",
-      "type": "checkbox",
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608A20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21CBD0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Flying Dragon Form Auto Charge",
-      "type": "checkbox",
+      "name": "Flying 小龙 状态 Auto 冲锋",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20DCA0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Dash Human",
-      "type": "checkbox",
+      "name": "无限冲刺 人类",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608D90",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Infinite Dash Lion",
-      "type": "checkbox",
+      "name": "无限冲刺 Lion",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608F10",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Jump ( Use Double Jump Boots )",
-      "type": "checkbox",
+      "name": "无限跳跃 ( Use Double Jump 靴子 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D7B29",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Max Coin",
-      "type": "checkbox",
+      "name": "最大 Coin",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608A90",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Change Size Character To Big",
-      "type": "checkbox",
+      "name": "Change Size Character To Big｜将字符大小改为大号",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608B20",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Change Size Character To Normal",
-      "type": "checkbox",
+      "name": "Change Size Character To 普通",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608AE0",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "Character Movement Fast",
-      "type": "checkbox",
+      "name": "Character Movement Fast｜角色移动速度快",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608DF0",
@@ -182,8 +187,8 @@
       ]
     },
     {
-      "name": "Character Movement Normal",
-      "type": "checkbox",
+      "name": "Character Movement 普通",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608E50",
@@ -198,8 +203,8 @@
       ]
     },
     {
-      "name": "Have All Characters",
-      "type": "checkbox",
+      "name": "Have All Characters｜包含所有角色",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608C50",
@@ -214,8 +219,8 @@
       ]
     },
     {
-      "name": "Have All Weapons, Shields, Armor,Bracelets, Boots",
-      "type": "checkbox",
+      "name": "Have All 武器, Shields, Armor,Bracelets, 靴子",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608CE0",
@@ -230,8 +235,8 @@
       ]
     },
     {
-      "name": "Have All Talisman",
-      "type": "checkbox",
+      "name": "Have All 符箓",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "608D30",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "Multi Jump",
-      "type": "checkbox",
+      "name": "Multi Jump｜多跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D889A",
@@ -257,8 +262,8 @@
       ]
     },
     {
-      "name": "Moon Jump",
-      "type": "checkbox",
+      "name": "Moon Jump｜月球超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D8886",
@@ -268,8 +273,8 @@
       ]
     },
     {
-      "name": "Infinite Magic Cast",
-      "type": "checkbox",
+      "name": "Infinite 魔法 施法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E360",
@@ -284,8 +289,8 @@
       ]
     },
     {
-      "name": "Potions x99(on buy)",
-      "type": "checkbox",
+      "name": "Potions x99(on buy)｜药水 x99（购买时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",
@@ -300,8 +305,8 @@
       ]
     },
     {
-      "name": "Potion x147( on use)",
-      "type": "checkbox",
+      "name": "药水 x147( on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE40",
@@ -316,8 +321,8 @@
       ]
     },
     {
-      "name": "Legendary gems x50 (on spent have 2 units)",
-      "type": "checkbox",
+      "name": "传说宝可梦 gems 乘以五十 (已用 have 2 units)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EC80",
@@ -332,8 +337,8 @@
       ]
     },
     {
-      "name": "Rain Drops x99 (on gain/buy)",
-      "type": "checkbox",
+      "name": "Rain Drops x99 (on gain/buy)｜雨滴 x99（增益/购买）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7DD0",
@@ -348,8 +353,8 @@
       ]
     },
     {
-      "name": "Rain Drops x99 (on spent for gold)",
-      "type": "checkbox",
+      "name": "Rain Drops x99 (已用 for 金币)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7E30",
@@ -364,8 +369,8 @@
       ]
     },
     {
-      "name": "Rain Drops x99 (on spent for treasure maps)",
-      "type": "checkbox",
+      "name": "Rain Drops x99 (已用 for 宝藏 maps)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7EE0",
@@ -380,8 +385,8 @@
       ]
     },
     {
-      "name": "Power Gems x99 (on gain have 2 units)",
-      "type": "checkbox",
+      "name": "电力 Gems x99 (on gain have 2 units)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA5EC0",
@@ -396,8 +401,8 @@
       ]
     },
     {
-      "name": "Golden Gems x99 (on gain have 2 units)",
-      "type": "checkbox",
+      "name": "金色 Gems x99 (on gain have 2 units)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEA7E10",

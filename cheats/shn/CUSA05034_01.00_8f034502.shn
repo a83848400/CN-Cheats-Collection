@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Atelier Sophie: The Alchemist of the Mysterious Book" Moder="Molly" Cusa="CUSA05034" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Alchemy Quick Level Up">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="炼丹 Quick 升级">
     <Cheatline>
       <Offset>BBF800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>FF-C1-89-08-8B-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money ~After Buy~">
+  <Cheat Text="金钱最大 ~After Buy~">
     <Cheatline>
       <Offset>BBF810</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>41-89-74-9D-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up ~Go Into To 2-3 Fights~">
+  <Cheat Text="Quick 升级 ~Go Into To 2-3 Fights~">
     <Cheatline>
       <Offset>BBF82E</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>49-89-FE-41-01-76-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stock In Store ~Buy One Item To Have Max~">
+  <Cheat Text="最大 命数 In Store ~Buy One 物品 To Have 最大~">
     <Cheatline>
       <Offset>BBF93A</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>29-54-08-04-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Memory">
+  <Cheat Text="Quickly Gain Memory｜快速提升记忆力">
     <Cheatline>
       <Offset>BBF948</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>48-03-0D-63-0D-8E-00-89-14-81</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Leon ~Swap Characters~">
+  <Cheat Text="Have 里昂 ~Swap Characters~">
     <Cheatline>
       <Offset>BBF948</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>89-3C-81-89-14-B1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Harol ~Swap Characters~">
+  <Cheat Text="Have Harol ~Swap Characters~｜哈罗尔 ~角色互换~">
     <Cheatline>
       <Offset>BBF958</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>89-3C-81-89-14-B1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Corneria ~Swap Characters~">
+  <Cheat Text="Have Corneria ~Swap Characters~｜拥有科内利亚 ~角色互换~">
     <Cheatline>
       <Offset>BBF968</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>89-3C-81-89-14-B1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Fritz ~Swap Characters~">
+  <Cheat Text="Have Fritz ~Swap Characters~｜让弗里茨 ~交换角色~">
     <Cheatline>
       <Offset>BBF978</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>89-3C-81-89-14-B1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have Julio ~Swap Characters~">
+  <Cheat Text="Have Julio ~Swap Characters~｜让胡里奥 ~交换角色~">
     <Cheatline>
       <Offset>BBF988</Offset>
       <Section>0</Section>
@@ -154,7 +162,7 @@
       <ValueOff>89-3C-81-89-14-B1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Chainlink">
+  <Cheat Text="Quickly Gain Chainlink｜快速获取 Chainlink">
     <Cheatline>
       <Offset>BBF998</Offset>
       <Section>0</Section>

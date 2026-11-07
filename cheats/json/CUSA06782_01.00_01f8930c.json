@@ -1,12 +1,17 @@
 {
-  "name": "Ark: Survival Evolved",
+  "name": "Ark: 生存模式 Evolved",
   "id": "CUSA06782",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Status Values ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Status Values ｜无限状态值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FA294",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Multiply Status Value x10 On Upgrade",
-      "type": "checkbox",
+      "name": "Multiply Status Value x10 On Upgrade｜升级时将状态值乘以10",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FF1F4",

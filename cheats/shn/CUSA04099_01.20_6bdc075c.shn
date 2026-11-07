@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Max/Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命">
     <Cheatline>
       <Offset>C5BC90</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-11-46-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>C5BEA0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C4-C1-7A-11-57-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Offset>C5BCE0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C4-C1-7A-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ammo/Items">
+  <Cheat Text="最大/无限弹药/Items">
     <Cheatline>
       <Offset>C5BBF0</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>44-89-AD-74-FF-FF-FF-44-89-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>C5BC10</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>FF-CE-89-74-9F-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Game Time">
+  <Cheat Text="Infinite Game Time｜无限游戏时间">
     <Cheatline>
       <Offset>C5BDB0</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>41-89-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP On Gain">
+  <Cheat Text="最大 XP On Gain">
     <Cheatline>
       <Offset>C5BF00</Offset>
       <Section>0</Section>

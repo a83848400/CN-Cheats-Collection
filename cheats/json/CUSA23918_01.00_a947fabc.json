@@ -1,12 +1,17 @@
 {
-  "name": "Ride 4",
+  "name": "Ride 4｜第4段",
   "id": "CUSA23918",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD15710",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite-Lives",
-      "type": "checkbox",
+      "name": "Infinite-Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FD5C3FC",

@@ -1,12 +1,17 @@
 {
-  "name": "Sky Force Reloaded",
+  "name": "光·遇 原力 Reloaded",
   "id": "CUSA09421",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "802E1DD2",
@@ -17,7 +22,7 @@
     },
     {
       "name": "Infinity Resources",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8038D89C",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Laser",
-      "type": "checkbox",
+      "name": "Infinite 激光瞄准器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80378FC5",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Shield",
-      "type": "checkbox",
+      "name": "Infinite Shield｜无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8038DFDC",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Mega Bome",
-      "type": "checkbox",
+      "name": "Infinite Mega Bome｜无限巨树",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8038DF2C",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Press R3 to Refill Energy Shield Timer",
-      "type": "checkbox",
+      "name": "Press R3 to Refill 能量 盾牌 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B800",

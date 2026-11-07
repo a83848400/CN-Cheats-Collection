@@ -1,12 +1,17 @@
 {
-  "name": "The Binding of Isaac: Afterbirth+",
+  "name": "The Binding of Isaac: Afterbirth+｜《以撒的结合：Afterbirth+》",
   "id": "CUSA10195",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Coins (On Spend, On Get Crashes)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限金币 (On Spend, On Get Crashes)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Bombs(On Use)",
-      "type": "checkbox",
+      "name": "无限炸弹(On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19479B",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Red Hearts",
-      "type": "checkbox",
+      "name": "Infinite Red 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527800",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Inf Keys(On Get)",
-      "type": "checkbox",
+      "name": "钥匙无限(On Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527810",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Pedestal Items Dont Disappear (Pedestal item will go invis but its there)",
-      "type": "checkbox",
+      "name": "Pedestal Items Dont Disappear (Pedestal 物品 意志 go invis but its there)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157DB0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Inf Active Item",
-      "type": "checkbox",
+      "name": "Infinite Active 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16D38E",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Inf Blue Hearts",
-      "type": "checkbox",
+      "name": "Infinite Blue 心",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "527800",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Inf Cards(On Use)",
-      "type": "checkbox",
+      "name": "Infinite Cards(On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19AEDC",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Prince of Persia: The Lost Crown" Moder="Wander FW9.00" Cusa="CUSA36582" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Turn off before fighting Varham for first time">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Turn off before fighting Varham for first time">
     <Cheatline>
       <Section>0</Section>
       <Offset>847179D0</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>45-29-77-28-48-83-C4-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Athra surge charge " Description="will take effect when attacking">
+  <Cheat Text="Instant Athra surge 冲锋 " Description="will take effect when attacking">
     <Cheatline>
       <Offset>847173B0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-80-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Currencies (on get)" Description="Have 2 at least/turn off after you max out your currencies">
+  <Cheat Text="最大 Currencies (on get)" Description="Have 2 at least/turn off after you max out your currencies">
     <Cheatline>
       <Offset>84717850</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-8B-44-C1-30-44-01-68-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Athra surge Cooldown">
+  <Cheat Text="No Athra surge Cooldown｜无“阿特拉”爆发冷却时间">
     <Cheatline>
       <Offset>84717220</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C4-C1-7A-11-86-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Arrows/Potions(on Shoot/Consume)">
+  <Cheat Text="箭矢无限/Potions(on Shoot/Consume)">
     <Cheatline>
       <Offset>84716FD0</Offset>
       <Section>0</Section>

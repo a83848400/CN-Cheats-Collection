@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 5",
+  "name": "孤岛惊魂 5",
   "id": "CUSA05904",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26157F7",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3602297",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Recoil",
-      "type": "checkbox",
+      "name": "No Recoil｜消除后坐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3224B59",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Get Perk Points For Spending Them",
-      "type": "checkbox",
+      "name": "Get 技能 得分 For Spending Them",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "31CAB9C",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Money / Items On Pickup",
-      "type": "button",
+      "name": "金钱最大 / Items On Pickup",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1115B20",

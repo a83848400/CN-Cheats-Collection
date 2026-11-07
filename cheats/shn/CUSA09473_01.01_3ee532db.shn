@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 7: Biohazard: Gold Edition" Moder="SHaRKi" Cusa="CUSA09473" Version="01.01" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>4781CC2</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-50-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF.Ammo No Reload">
+  <Cheat Text="Infinite.但是 无需换弹">
     <Cheatline>
       <Offset>B4C1C9</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>45-89-7D-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INF.Items Spawn">
+  <Cheat Text="无限物品生成">
     <Cheatline>
       <Offset>31DF9D8</Offset>
       <Section>0</Section>

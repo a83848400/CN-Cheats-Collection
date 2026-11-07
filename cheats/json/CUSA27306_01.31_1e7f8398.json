@@ -1,12 +1,17 @@
 {
-  "name": "Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles",
+  "name": "妖魔 Slayer: Kimetsu no Yaiba: The Hinokami Chronicles",
   "id": "CUSA27306",
   "version": "01.31",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE4000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE4010",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Boost",
-      "type": "checkbox",
+      "name": "Infinite Boost｜无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE4100",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DE4200",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Kimetsu Pointes (999999)",
-      "type": "checkbox",
+      "name": "最大 Kimetsu Pointes (999999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "297CB79",

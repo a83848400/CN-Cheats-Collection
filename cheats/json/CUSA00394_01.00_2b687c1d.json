@@ -1,13 +1,18 @@
 {
-  "name": "The Amazing Spider-Man 2",
+  "name": "The Amazing 蜘蛛侠 2",
   "id": "CUSA00394",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A0458837",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "2x Skill Points After Use",
+      "name": "2x Skill 得分 After Use",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A04A38A5",

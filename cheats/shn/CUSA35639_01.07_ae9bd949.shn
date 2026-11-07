@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last Faith" Moder="Ali-mk" Cusa="CUSA35639" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health + Inf-Web">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命 + Infinite-Web">
     <Cheatline>
       <Section>14</Section>
       <Offset>2EDF800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>89-47-2C-74-1B</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-money">
+    <Cheat Text="最大-金钱">
     <Cheatline>
       <Section>14</Section>
       <Offset>2EDF818</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>41-89-46-30-49-8B-46-20</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Items">
+    <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>80FDC126</Offset>
       <Section>0</Section>

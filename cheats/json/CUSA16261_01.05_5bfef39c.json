@@ -1,12 +1,17 @@
 {
-  "name": "Blasphemous",
+  "name": "Blasphemous｜亵渎",
   "id": "CUSA16261",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health / Mana / Points",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 法力 / 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157D0B0",

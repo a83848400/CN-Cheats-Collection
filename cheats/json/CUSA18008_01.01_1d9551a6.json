@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil Village",
+  "name": "生化危机 Village",
   "id": "CUSA18008",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E8CD78",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Bombs/Mines/Lockpick",
-      "type": "checkbox",
+      "name": "无限炸弹/Mines/开锁器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E8CD56",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Usable/Craft Items",
-      "type": "checkbox",
+      "name": "Infinite Usable/Craft Items｜无限可用/可合成物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E8DCAD",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Craftable Items/Ammo On Use",
-      "type": "checkbox",
+      "name": "最大 Craftable Items/但是 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB011",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB025",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max Treasure",
-      "type": "checkbox",
+      "name": "最大 宝藏",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B1EB039",

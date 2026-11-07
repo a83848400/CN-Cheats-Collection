@@ -1,12 +1,17 @@
 {
-  "name": "Styx: Shards of Darkness",
+  "name": "Styx: Shards of Darkness｜《斯提克斯：黑暗碎片》",
   "id": "CUSA03877",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B01B4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Skillbar",
-      "type": "checkbox",
+      "name": "Infinite Skillbar｜无限技能栏",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B01D4",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E883B",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints/Quarz",
-      "type": "checkbox",
+      "name": "无限技能点/Quarz",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B1301",

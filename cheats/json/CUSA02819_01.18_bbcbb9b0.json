@@ -1,12 +1,17 @@
 {
-  "name": "Tom Clancy's Ghost Recon: Wildlands",
+  "name": "Tom Clancy's 幽灵行动: Wildlands",
   "id": "CUSA02819",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Bottomless Clip",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20ECAF",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7206D",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Grenades on Use",
-      "type": "checkbox",
+      "name": "最大 手榴弹 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "72064",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Mines",
-      "type": "checkbox",
+      "name": "Infinite Mines｜无限矿场",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152813",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Mines on Use",
-      "type": "checkbox",
+      "name": "最大 Mines on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15280C",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite C4",
-      "type": "checkbox",
+      "name": "Infinite C4炸药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15411F",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42E8CA",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "255 Skillpoints on Use",
-      "type": "checkbox",
+      "name": "255 技能点 on Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42E8C6",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Add 200.000.000 Resources after restart game",
-      "type": "checkbox",
+      "name": "Add 200.000.000 Resources after restart game｜重启游戏后增加 200,000,000 资源",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8B5D29",
@@ -109,8 +114,8 @@
       ]
     },
     {
-      "name": "Unlock Tier-One-Mode",
-      "type": "checkbox",
+      "name": "解锁 Tier-One-Mode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45C64D",

@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops III",
+  "name": "使命召唤: 黑色 Ops III",
   "id": "CUSA02290",
   "version": "01.26",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "144F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "144F815",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Ammo No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "144F824",

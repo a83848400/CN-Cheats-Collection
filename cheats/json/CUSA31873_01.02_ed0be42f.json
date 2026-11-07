@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max training Score (Attend the training drill)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 训练 比分 (Attend the 训练 drill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BA03A70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Budget (after buying players use once)",
-      "type": "checkbox",
+      "name": "最大 预算 (购买后 players use once)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BA03E10",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "100 Sharpness (Attend the training drill)",
-      "type": "checkbox",
+      "name": "100 斩味 (Attend the 训练 drill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BA03AB0",

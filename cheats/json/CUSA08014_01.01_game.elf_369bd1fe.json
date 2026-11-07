@@ -5,8 +5,13 @@
   "process": "game.elf",
   "mods": [
     {
-      "name": "Inf Health / Relic Energy (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 遗物 能量 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11FF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Relic Energy On Spend (MC)",
-      "type": "checkbox",
+      "name": "Infinite 遗物 能量 On Spend (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11FF816",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Super Crystal Gauge",
-      "type": "checkbox",
+      "name": "无限超级 水晶 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81441B",

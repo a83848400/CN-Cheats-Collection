@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops Cold War",
+  "name": "使命召唤: 黑色 Ops Cold War",
   "id": "CUSA15010",
   "version": "01.41",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125C6BE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12EBE97",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F0AF0E",
@@ -39,6 +44,6 @@
     }
   ],
   "credits": [
-    "StaffyModz\uD83D\uDC7D\uD83D\uDD95"
+    "StaffyModz👽🖕"
   ]
 }

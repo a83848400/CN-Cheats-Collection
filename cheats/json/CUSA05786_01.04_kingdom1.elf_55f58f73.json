@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Hearts: HD 1.5 + 2.5 ReMIX",
+  "name": "王国之心: HD 1.5 + 2.5 ReMIX",
   "id": "CUSA05786",
   "version": "01.04",
   "process": "kingdom1.elf",
   "mods": [
     {
-      "name": "Kingdom Hearts 1 HD CUSA05786 ver 1.04 (undub)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "王国之心 1 HD CUSA05786 ver 1.04 (undub)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A48",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A50",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A70",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "All Keyblades only",
-      "type": "checkbox",
+      "name": "All Keyblades only｜仅限所有键刃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B198B",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "All Items / Keyblade / Accessories",
-      "type": "checkbox",
+      "name": "所有商品 / 键刃 / Accessories",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9A90",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "99 Discard Items",
-      "type": "checkbox",
+      "name": "99 弃牌 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9AE0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "186744",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max Munny / Buy",
-      "type": "checkbox",
+      "name": "最大 Munny / Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3C9B00",

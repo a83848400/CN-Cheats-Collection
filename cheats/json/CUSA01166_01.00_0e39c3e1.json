@@ -1,12 +1,17 @@
 {
-  "name": "Akiba's Trip: Undead & Undressed",
+  "name": "Akiba's Trip: 亡灵 & Undressed",
   "id": "CUSA01166",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C6A40",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Exp",
-      "type": "checkbox",
+      "name": "Infinite Exp｜无限经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C687A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Unison Strip Gauge",
-      "type": "checkbox",
+      "name": "Infinite Unison Strip Gauge｜Infinite Unison 条形量规",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FFF00",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Strip Skill Exp",
-      "type": "checkbox",
+      "name": "Infinite Strip Skill 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CED99",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Enhancement",
-      "type": "checkbox",
+      "name": "Infinite Weapon Enhancement｜无限武器强化",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FFF20",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Gear Enhancement",
-      "type": "checkbox",
+      "name": "Infinite 挡位 Enhancement",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FFF30",

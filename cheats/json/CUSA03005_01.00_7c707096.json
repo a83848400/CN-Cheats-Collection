@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops III",
+  "name": "使命召唤: 黑色 Ops III",
   "id": "CUSA03005",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "no reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "no reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110F01D",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Modern Warfare II" Moder="JustGotenks" Cusa="CUSA34029" Version="01.08" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>2ED3080</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>4C-89-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bullets/Grenades">
+  <Cheat Text="无限子弹/手榴弹">
     <Cheatline>
       <Offset>2ED3000</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>0F-49-DF-89-5C-88-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One-hit Kill">
+  <Cheat Text="One-命中击杀">
     <Cheatline>
       <Offset>2ED3190</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>80-BF-0C-AC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Better Accuracy">
+  <Cheat Text="Better Accuracy｜更高的准确性">
     <Cheatline>
       <Offset>220BD5D</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-83-28-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magazine">
+  <Cheat Text="Infinite Magazine｜弹匣无限">
     <Cheatline>
       <Offset>25E49EB</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>44-29-F9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode for all">
+  <Cheat Text="上帝模式 for all">
     <Cheatline>
       <Offset>2ED3150</Offset>
       <Section>0</Section>

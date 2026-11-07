@@ -1,12 +1,17 @@
 {
-  "name": "BloodRayne Betrayal: Fresh Bites",
+  "name": "BloodRayne Betrayal: Fresh Bites｜《血腥雷恩：背叛》：新鲜咬痕",
   "id": "CUSA26608",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/2 Hits Kills (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/2次命中即击杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EBDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "2 Hits Kills",
-      "type": "checkbox",
+      "name": "2 Hits Kills｜2次命中即击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EBDBA",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EBE50",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Score",
-      "type": "checkbox",
+      "name": "最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EBE10",

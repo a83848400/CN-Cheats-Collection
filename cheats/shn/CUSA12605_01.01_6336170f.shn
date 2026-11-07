@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Death Stranding" Moder="wild31" Cusa="CUSA12605" Version="01.01" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>1A92211</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>39-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo (sticky gun)">
+  <Cheat Text="无限弹药 (sticky gun)">
     <Cheatline>
       <Offset>1845743</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite health">
+  <Cheat Text="Infinite health｜无限生命">
     <Cheatline>
       <Offset>179786E</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="run with  (max cargo)">
+  <Cheat Text="run with  (最大 cargo)">
     <Cheatline>
       <Offset>1EF2D72</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>C5-FA-11-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Metals Never Decrease">
+  <Cheat Text="Metals Never Decrease｜金属永不减少">
     <Cheatline>
       <Offset>2C693C8</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>48-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Resins Never Decrease">
+  <Cheat Text="Resins Never Decrease｜树脂量永不减少">
     <Cheatline>
       <Offset>2C693AA</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>48-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="crystals Never Decrease">
+  <Cheat Text="crystals Never Decrease｜晶体永不减少">
     <Cheatline>
       <Offset>2C6938D</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>48-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ceramics Never Decrease">
+  <Cheat Text="Ceramics Never Decrease｜陶瓷永不贬值">
     <Cheatline>
       <Offset>2C693E6</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>48-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Special alloys Never Decrease">
+  <Cheat Text="Special alloys Never Decrease｜特殊合金 永不减损">
     <Cheatline>
       <Offset>2C69427</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>48-89-48-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Chemicals Never Decrease">
+  <Cheat Text="Chemicals Never Decrease｜化学品永远不会减少">
     <Cheatline>
       <Offset>2C69404</Offset>
       <Section>0</Section>

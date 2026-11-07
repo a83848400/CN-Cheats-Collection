@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Octopath Traveler II" Moder="@ran" Cusa="CUSA36274" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="INFINTE  HP turns off INF SP AND BP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="INFINTE  手机 turns off Infinite 精神值 AND 战斗点数">
     <Cheatline>
       <Offset>5C4EC00</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-16-89-17-5D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="INFINTE  MONEY BUY/SELL TURN OFF AFTER USE">
+  <Cheat Text="INFINTE  金钱 BUY/SELL 回合 OFF AFTER USE">
     <Cheatline>
       <Offset>AA0901</Offset>
       <Section>0</Section>

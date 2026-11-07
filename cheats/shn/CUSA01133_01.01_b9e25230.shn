@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil: Revelations 2" Moder="Ali-mk" Cusa="CUSA01133" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>3FD4FB</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>89-83-38-1F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-All-Weapon-Never-Reload">
+  <Cheat Text="无限全武器-无需重新加载">
     <Cheatline>
       <Offset>3F46A8</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-4D-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-All-Items">
+  <Cheat Text="Infinite-所有商品">
     <Cheatline>
       <Offset>7B6378</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>41-89-4D-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX-BP+Inf-money">
+  <Cheat Text="最大-战斗点数+Infinite-金钱">
     <Cheatline>
       <Offset>18DB822</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-87-B0-18-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Raid-Mode-MAX-GOLD">
+  <Cheat Text="团本-Mode-最大-金币">
     <Cheatline>
       <Offset>18DB834</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>4C-89-A3-C8-C4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Raid-Mode-Max-Skill-Points-(SP)">
+  <Cheat Text="团本-Mode-最大-Skill-得分-(精神值)">
     <Cheatline>
       <Offset>18DB849</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>44-89-B8-EC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Raid-Mode-Inf-All-Items">
+  <Cheat Text="团本-Mode-Infinite-所有商品">
     <Cheatline>
       <Offset>3CF2BC</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>89-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Raid-Mode-Inf-Keys">
+  <Cheat Text="团本-Mode-无限密钥">
     <Cheatline>
       <Offset>5747A2</Offset>
       <Section>0</Section>

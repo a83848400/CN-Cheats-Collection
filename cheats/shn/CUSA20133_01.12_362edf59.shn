@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mortal Shell" Moder="Saso_9.00" Cusa="CUSA20133" Version="01.12" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Master Code">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Master 密码">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-89-03-49-83-C3-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf  Health">
+  <Cheat Text="Infinite  生命">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>74-3E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>74-37</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina">
+  <Cheat Text="无限耐力">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>74-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Consumable">
+  <Cheat Text="Consumable｜耗材">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

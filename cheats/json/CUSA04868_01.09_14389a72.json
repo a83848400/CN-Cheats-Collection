@@ -1,12 +1,17 @@
 {
-  "name": "Sniper: Ghost Warrior 3",
+  "name": "Sniper: 幽灵 战士 3",
   "id": "CUSA04868",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E5C0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Breath",
-      "type": "checkbox",
+      "name": "无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E560",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Silencer",
-      "type": "checkbox",
+      "name": "无限消音器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E580",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Ammo / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E700",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Throwables",
-      "type": "checkbox",
+      "name": "投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E6E0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E6A0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Max Explosive Parts",
-      "type": "checkbox",
+      "name": "最大 Explosive Parts",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E640",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Electronics Parts",
-      "type": "checkbox",
+      "name": "电子元件最大 Parts",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E620",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max Mechanical Parts",
-      "type": "checkbox",
+      "name": "最大 Mechanical Parts",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E660",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Max Bullet Heads",
-      "type": "checkbox",
+      "name": "最大 Bullet Heads",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E680",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Max Canisters",
-      "type": "checkbox",
+      "name": "最大 Canisters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "299E6C0",

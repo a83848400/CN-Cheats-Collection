@@ -1,12 +1,17 @@
 {
-  "name": "Star Ocean: The Second Story R",
+  "name": "星之海洋: The Second Story R",
   "id": "CUSA40652",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/一击必杀 (主代码/MUST BE ON)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7FDB9",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7FDB7",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7F890",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max BP On Gain",
-      "type": "checkbox",
+      "name": "最大 战斗点数 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7F930",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite SP On Use",
-      "type": "checkbox",
+      "name": "Infinite 精神值 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7F8F0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Infinite Items/Craft/Baits",
-      "type": "checkbox",
+      "name": "道具无限/Craft/Baits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7FC00",
@@ -108,7 +113,7 @@
     },
     {
       "name": "Infinite Fol",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7FA20",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Max XP (Win Battle)",
-      "type": "checkbox",
+      "name": "最大 XP (Win 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01A7F890",

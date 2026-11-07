@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="V1| Infinite Ammo No Reload">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="V1| 无限弹药 无需换弹">
     <Cheatline>
       <Offset>89C636</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>89-87-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V1| Max+ Inf Clip Ammo On Reload">
+  <Cheat Text="V1| 最大+ 弹夹子弹无限 On Reload">
     <Cheatline>
       <Offset>89FB49</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V1| Inf Equipped Items/Crossbow/Grenades">
+  <Cheat Text="V1| Infinite Equipped Items/弩/手榴弹">
     <Cheatline>
       <Offset>89C774</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V1| Infinite Box Items">
+  <Cheat Text="V1| Infinite Box Items｜V1| 无限宝箱道具">
     <Cheatline>
       <Offset>B4208B</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V1| Max Box Items on Move">
+  <Cheat Text="V1| 最大 Box Items on 招式">
     <Cheatline>
       <Offset>1653800</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>0F-46-CA-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V2| Infinite Ammo No Reload.">
+  <Cheat Text="V2| 无限弹药 无需换弹.">
     <Cheatline>
       <Offset>89C636</Offset>
       <Section>2</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-87-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V2| Max+ Inf Clip Ammo On Realod.">
+  <Cheat Text="V2| 最大+ 弹夹子弹无限 On Realod.">
     <Cheatline>
       <Offset>89FB49</Offset>
       <Section>2</Section>
@@ -66,7 +74,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V2| Inf Equipped Items/Crossbow/Grenades.">
+  <Cheat Text="V2| Infinite Equipped Items/弩/手榴弹.">
     <Cheatline>
       <Offset>89C774</Offset>
       <Section>2</Section>
@@ -74,7 +82,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V2| Infinite Box Items.">
+  <Cheat Text="V2| Infinite Box Items.｜V2| 无限宝箱道具。">
     <Cheatline>
       <Offset>B4208B</Offset>
       <Section>2</Section>
@@ -82,7 +90,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V2| Max Box Items on Move.">
+  <Cheat Text="V2| 最大 Box Items on 招式.">
     <Cheatline>
       <Offset>1653800</Offset>
       <Section>2</Section>
@@ -96,7 +104,7 @@
       <ValueOff>0F-46-CA-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V3| Infinite Ammo No Reload!">
+  <Cheat Text="V3| 无限弹药 无需换弹!">
     <Cheatline>
       <Offset>89C636</Offset>
       <Section>4</Section>
@@ -104,7 +112,7 @@
       <ValueOff>89-87-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V3| Max+ Inf Clip Ammo On Realod!">
+  <Cheat Text="V3| 最大+ 弹夹子弹无限 On Realod!">
     <Cheatline>
       <Offset>89FB49</Offset>
       <Section>4</Section>
@@ -112,7 +120,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V3| Inf Equipped Items/Crossbow/Grenades!">
+  <Cheat Text="V3| Infinite Equipped Items/弩/手榴弹!">
     <Cheatline>
       <Offset>89C774</Offset>
       <Section>4</Section>
@@ -120,7 +128,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V3| Infinite Box Items!">
+  <Cheat Text="V3| Infinite Box Items!｜V3| 无限宝箱道具！">
     <Cheatline>
       <Offset>B4208B</Offset>
       <Section>4</Section>
@@ -128,7 +136,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="V3| Max Box Items on Move!">
+  <Cheat Text="V3| 最大 Box Items on 招式!">
     <Cheatline>
       <Offset>1653800</Offset>
       <Section>4</Section>

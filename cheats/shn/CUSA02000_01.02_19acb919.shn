@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Batman: Return to Arkham" Moder="Cosmaty" Cusa="CUSA02000" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Code">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Code｜密码">
     <Cheatline>
       <Offset>48B3800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-07-41-89-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode">
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>48B381E</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Kill">
+  <Cheat Text="Easy Kill｜轻松击杀">
     <Cheatline>
       <Offset>48B382B</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>90-90-90-90-90-90-90-90-90-90-90-90-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add 2000 XP">
+  <Cheat Text="Add 2000 XP｜增加 2000 XP">
     <Cheatline>
       <Offset>48B3847</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-58-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Skill Points">
+  <Cheat Text="Infinite Skill 得分">
     <Cheatline>
       <Offset>48B3882</Offset>
       <Section>0</Section>

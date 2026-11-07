@@ -1,12 +1,17 @@
 {
-  "name": "Ganryu 2 : Hakuma Kojiro",
+  "name": "Ganryu 2 : Hakuma Kojiro｜《甘流2：白马小次郎》",
   "id": "CUSA32759",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infiniti Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infiniti 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8045E893",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "805EEA01",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Jumps",
-      "type": "checkbox",
+      "name": "Infinite Jumps｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16F15E4",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Score Multiplier",
-      "type": "checkbox",
+      "name": "比分 Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16F15D0",

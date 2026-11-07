@@ -1,12 +1,17 @@
 {
-  "name": "Shining Resonance Refrain",
+  "name": "Shining Resonance Refrain｜《闪耀共鸣：重奏》",
   "id": "CUSA10882",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP + 1 Hit Kill | All Characters",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 + 一击必杀 | All Characters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E613E",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Action Gauge",
-      "type": "checkbox",
+      "name": "Infinite Action Gauge｜无限行动槽",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "40EBEB",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite MP | All Characters",
-      "type": "checkbox",
+      "name": "无限魔力 | All Characters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "40E67A",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite MP | Shining Dragon",
-      "type": "checkbox",
+      "name": "无限魔力 | Shining 小龙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4E4B39",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Instant Full  B.A.N.D Meter | On Strike",
-      "type": "checkbox",
+      "name": "Instant Full  B.A.N.D Meter | On Strike｜即时全功能 B.A.N.D 测量仪 | 处于罢工状态",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E62E6",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Gold",
-      "type": "checkbox",
+      "name": "Infinite Gold｜无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28A8BE",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Gold On Buy",
-      "type": "checkbox",
+      "name": "金币最大 On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E4F00",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Infinite Items on Use/Sell",
-      "type": "checkbox",
+      "name": "道具无限 on Use/Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2068BE",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Max Items On Buy",
-      "type": "checkbox",
+      "name": "最大 Items On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E7800",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Unlock All Items/Food/Tools/Medicine| Max",
-      "type": "checkbox",
+      "name": "解锁全部物品/Food/Tools/医学| 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E6111",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "Infinite Materials",
-      "type": "checkbox",
+      "name": "Infinite Materials｜无限材料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "206C1E",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "Unlock All Materials | Max",
-      "type": "checkbox",
+      "name": "解锁全部材料 | 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E6226",
@@ -167,8 +172,8 @@
       ]
     },
     {
-      "name": "Infinite Aspects",
-      "type": "checkbox",
+      "name": "Infinite Aspects｜无限的层面",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20762E",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "Unlock All Aspects | Max",
-      "type": "checkbox",
+      "name": "解锁 All Aspects | 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E6242",
@@ -194,8 +199,8 @@
       ]
     },
     {
-      "name": "Freeze GamePlay Timer",
-      "type": "checkbox",
+      "name": "Freeze GamePlay 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3FCB6E",
@@ -205,8 +210,8 @@
       ]
     },
     {
-      "name": "Rest GamePlay Timer",
-      "type": "checkbox",
+      "name": "休息 GamePlay 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E612C",
@@ -221,8 +226,8 @@
       ]
     },
     {
-      "name": "Boost EXP | x500 Per Battle",
-      "type": "checkbox",
+      "name": "Boost 经验 | x500 Per 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E6179",
@@ -237,8 +242,8 @@
       ]
     },
     {
-      "name": "Extra EXP | x2000 Per Battle",
-      "type": "checkbox",
+      "name": "Extra 经验 | x2000 Per 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E618D",
@@ -253,8 +258,8 @@
       ]
     },
     {
-      "name": "Even More EXP| x6000 Per Battle",
-      "type": "checkbox",
+      "name": "Even More 经验| x6000 Per 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E61A1",
@@ -269,8 +274,8 @@
       ]
     },
     {
-      "name": "Lots Of EXP | x15.000 Per Battle",
-      "type": "checkbox",
+      "name": "Lots Of 经验 | x15.000 Per 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E61B5",
@@ -285,8 +290,8 @@
       ]
     },
     {
-      "name": "Hella EXP | x50.000 Per Battle",
-      "type": "checkbox",
+      "name": "Hella 经验 | 乘以五十.000 Per 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E61C9",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "EXP OVERLORD |Max Level After Battle",
-      "type": "checkbox",
+      "name": "经验 OVERLORD |等级最大 After 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E6166",
@@ -317,8 +322,8 @@
       ]
     },
     {
-      "name": "Tunings| Boost Rank",
-      "type": "checkbox",
+      "name": "Tunings| Boost 阶级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E61DD",
@@ -333,8 +338,8 @@
       ]
     },
     {
-      "name": "Tunings| Fast Ranking Up",
-      "type": "checkbox",
+      "name": "Tunings| Fast Ranking Up｜调校| 快速提升排名",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E61ED",
@@ -349,8 +354,8 @@
       ]
     },
     {
-      "name": "Tunings| Hyper Ranking Up",
-      "type": "checkbox",
+      "name": "Tunings| Hyper Ranking Up｜调校 | 快速提升排名",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E6200",
@@ -365,8 +370,8 @@
       ]
     },
     {
-      "name": "Tunings| Max Rank After Battle",
-      "type": "checkbox",
+      "name": "Tunings| 最大 阶级 After 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E6213",

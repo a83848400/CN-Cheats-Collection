@@ -1,13 +1,18 @@
 {
-  "name": "Death's Door",
+  "name": "死亡's Door",
   "id": "CUSA30424",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Life",
+      "name": "无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8060A16C",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Orbs",
+      "name": "无限之球",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F02F",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Plants",
+      "name": "无限植物",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F065",

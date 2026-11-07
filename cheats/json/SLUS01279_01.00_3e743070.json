@@ -1,39 +1,44 @@
 {
-  "name": "Dino Crisis 2",
+  "name": "恐龙危机 2",
   "id": "SLUS01279",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "124831",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "18"
         },
         {
           "offset": "1249D9",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "18"
         }
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13D791",
-          "on": "FF",
+          "on": "FF｜前言",
           "off": "18"
         }
       ]
     },
     {
-      "name": "Max-Points",
-      "type": "checkbox",
+      "name": "最大-得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B4142",

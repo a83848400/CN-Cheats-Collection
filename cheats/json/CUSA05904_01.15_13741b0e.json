@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 5",
+  "name": "孤岛惊魂 5",
   "id": "CUSA05904",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Ammo/items (on use/spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Ammo/items (on use/spend)｜弹药/物品（使用/消耗）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE75D10",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Gun clip/No reload",
-      "type": "checkbox",
+      "name": "Infinite Gun clip/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3871A27",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Alot of money (on sell can effect items on gain)",
-      "type": "checkbox",
+      "name": "Alot of 金钱 (on sell can 效果 items on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AC00",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Rockets usage (planes/helicopters)",
-      "type": "checkbox",
+      "name": "Infinite Rockets usage (planes/helicopters)｜无限火箭的使用（飞机/直升机）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "37C3982",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Infinite Perks Points (Enable Only In Perks Screen)",
-      "type": "checkbox",
+      "name": "最大 Infinite Perks 得分 (Enable Only In Perks Screen)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE771A0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite potions bar",
-      "type": "checkbox",
+      "name": "药水无限 bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16C1788",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite potions duration time (activate with potion bar)",
-      "type": "checkbox",
+      "name": "药水无限 duration time (activate with 药水 bar)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1173E57",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "No cool down Hires and specials (turn on and off to take effect)",
-      "type": "checkbox",
+      "name": "No cool down Hires and specials (回合 on and off to take 效果)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE76420",

@@ -3,7 +3,15 @@
   <Genres Name="Horror" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>17A863C</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>E8-54-05-AE-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>7153B80</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>48-8B-81-88-01-00-00-8B-5A-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>1F02BB3</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>89-51-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload/Infinite Granades">
+  <Cheat Text="无需换弹/无限手榴弹">
     <Cheatline>
       <Offset>1E9599A</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>89-51-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on move from Storage">
+  <Cheat Text="最大 Items on 招式 from 存储">
     <Cheatline>
       <Offset>1E96211</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>44-0F-4E-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="20 Inventory Slot">
+  <Cheat Text="20 背包 Slot">
     <Cheatline>
       <Offset>7153B00</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>44-8B-A0-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Always At 0">
+  <Cheat Text="保存 Always At 0">
     <Cheatline>
       <Offset>7153AE0</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>0F-84-8A-00-00-00-89-41-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Reset Time (Enable/Disable)">
+  <Cheat Text="重置时间 (Enable/Disable)">
     <Cheatline>
       <Offset>7153BD0</Offset>
       <Section>0</Section>

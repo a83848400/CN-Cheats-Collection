@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Black Ops III" Moder="Rizla" Cusa="CUSA02624" Version="01.26" Process="eboot.bin">
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>144F843</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-83-C8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>117165C</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload/Inf Throwables">
+  <Cheat Text="无需换弹/投掷物无限">
     <Cheatline>
       <Offset>11719DA</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>44-89-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Spread" Description="Bullets Won't Spread/Crosshair Doesn't Change">
+  <Cheat Text="No Spread｜消除弹道散布" Description="Bullets Won't Spread/Crosshair Doesn't Change">
     <Cheatline>
       <Offset>1105AB6</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>41-C7-87-78-0B-00-00-00-00-7F-43</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapid Fire" Description="Does what the title says">
+  <Cheat Text="Rapid Fire｜快速射击" Description="Does what the title says">
     <Cheatline>
       <Offset>1164439</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>41-88-8C-07-A4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Auto Semi Pistols/Rifles" Description="Does what it says">
+  <Cheat Text="Full Auto Semi Pistols/Rifles｜全自动、半自动手枪/步枪" Description="Does what it says">
     <Cheatline>
       <Offset>1165D81</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>41-89-4C-16-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Full Auto Semi Shotguns" Description="Tap shoot button to make shotguns full auto">
+  <Cheat Text="Full Auto Semi Shotguns｜全自动、半自动霰弹枪" Description="Tap shoot button to make shotguns full auto">
     <Cheatline>
       <Offset>1165D1D</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>FF-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jetpack (Must Have)">
+  <Cheat Text="Infinite 喷气背包 (Must Have)">
     <Cheatline>
       <Offset>144F924</Offset>
       <Section>0</Section>
@@ -120,7 +128,7 @@
       <ValueOff>C5-FA-11-83-84-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Specialist (Get 1st)">
+  <Cheat Text="Infinite 专家 (Get 1st)">
     <Cheatline>
       <Offset>117191C</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C5-FA-11-43-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>144F821</Offset>
       <Section>0</Section>
@@ -148,7 +156,7 @@
       <ValueOff>8B-86-C8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Points on Gain/Spend">
+  <Cheat Text="最大 得分 on Gain/Spend">
     <Cheatline>
       <Offset>144F800</Offset>
       <Section>0</Section>
@@ -162,7 +170,7 @@
       <ValueOff>89-83-A4-6E-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Earn Extra Points on Kills/Spend">
+  <Cheat Text="Earn Extra 得分 on Kills/Spend">
     <Cheatline>
       <Offset>979142</Offset>
       <Section>0</Section>
@@ -170,7 +178,7 @@
       <ValueOff>89-83-A4-6E-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Kills In-Game">
+  <Cheat Text="最大 Kills In-Game">
     <Cheatline>
       <Offset>144F831</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>44-89-B3-A8-6E-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always 1 Down In-Game">
+  <Cheat Text="Always 1 Down In-Game｜游戏中总是落后1分">
     <Cheatline>
       <Offset>144F86F</Offset>
       <Section>0</Section>
@@ -198,7 +206,7 @@
       <ValueOff>41-89-9E-D8-6E-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Revives In-Game">
+  <Cheat Text="最大 Revives In-Game">
     <Cheatline>
       <Offset>144F880</Offset>
       <Section>0</Section>
@@ -212,7 +220,7 @@
       <ValueOff>41-89-9E-DC-6E-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Headshots In-Game">
+  <Cheat Text="最大 Headshots In-Game">
     <Cheatline>
       <Offset>144F85E</Offset>
       <Section>0</Section>

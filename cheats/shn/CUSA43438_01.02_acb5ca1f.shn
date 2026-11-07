@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Have a Nice Death" Moder="Ali-mk" Cusa="CUSA43438" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>8409B800</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-43-30</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-Souls+Max-GOLD+PRISMIUM">
+    <Cheat Text="最大-结界突破+最大-金币+PRISMIUM">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>8409B81C</Offset>

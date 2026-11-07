@@ -1,13 +1,18 @@
 {
-  "name": "BioShock: The Collection",
+  "name": "BioShock: The Collection｜《生化奇兵：合集》",
   "id": "CUSA03979",
   "version": "01.00",
   "process": "LaunchOrbis.elf",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B0FAD",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Eve",
+      "name": "Infinite 伊芙",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C3CB8",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "584200",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "130D1D6",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "2x Money After Spend",
+      "name": "2x 金钱 After Spend",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C408A",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "2x Adam After Spend",
+      "name": "2x Adam After Spend｜2x 亚当 消费后",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4C4442",

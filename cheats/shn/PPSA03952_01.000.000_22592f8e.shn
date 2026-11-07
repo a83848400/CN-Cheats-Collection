@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 3" Moder="Q8Despair" Cusa="PPSA03952" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Ammo" Description="Inifite Mag">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Ammo｜但是" Description="Inifite Mag">
     <Cheatline>
       <Section>0</Section>
       <Offset>7157800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>89-51-20-44-89-E3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max shop points" Description="99999">
+  <Cheat Text="最大 shop 得分" Description="99999">
     <Cheatline>
       <Section>0</Section>
       <Offset>7157811</Offset>

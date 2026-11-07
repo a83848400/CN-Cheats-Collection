@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Forbidden West",
+  "name": "地平线 Forbidden West",
   "id": "CUSA28561",
   "version": "01.17",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FC70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "OneHit Kills",
-      "type": "checkbox",
+      "name": "OneHit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FB00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "TwoHit Kills",
-      "type": "checkbox",
+      "name": "TwoHit Kills｜两击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FB00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Damage x2",
-      "type": "checkbox",
+      "name": "输出 x2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FB00",

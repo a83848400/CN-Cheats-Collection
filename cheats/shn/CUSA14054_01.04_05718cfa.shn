@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="One Piece: World Seeker" Moder="NELUxP MoDz" Cusa="CUSA14054" Version="01.04" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Unlimited Skill Points">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Unlimited Skill Points｜技能点无限">
     <Cheatline>
       <Offset>1522A7</Offset>
       <Section>0</Section>

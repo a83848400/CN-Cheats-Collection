@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dungeons &amp; Dragons: Dark Alliance" Moder="EvilGoku" Cusa="CUSA25234" Version="01.08" Process="eboot.bin">
   <Genres Name="Action" />
-  <Cheat Text="Inf HP and 1 Hit Kill">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 and 一击必杀">
     <Cheatline>
       <Section>1</Section>
       <Offset>8267800</Offset>
@@ -15,7 +23,7 @@
       <ValueOff>C5-FA-11-63-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999999 Money _crystal _inf item use (buy or sell or pickup or upgrade)  ">
+  <Cheat Text="999999 金钱 _crystal _inf 物品 use (buy or sell or pickup or upgrade)  ">
     <Cheatline>
       <Section>1</Section>
       <Offset>82678AD</Offset>
@@ -29,7 +37,7 @@
       <ValueOff>45-89-AC-24-6C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Decrease Attribute Points">
+  <Cheat Text="Never Decrease 属性 得分">
     <Cheatline>
       <Section>1</Section>
       <Offset>FFA11D</Offset>
@@ -37,7 +45,7 @@
       <ValueOff>89-4E-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Decrease Points  for Upgrade">
+  <Cheat Text="Never Decrease 得分  for Upgrade">
     <Cheatline>
       <Section>1</Section>
       <Offset>FFA13A</Offset>

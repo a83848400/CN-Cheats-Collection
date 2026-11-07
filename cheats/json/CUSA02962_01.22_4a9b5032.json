@@ -1,12 +1,17 @@
 {
-  "name": "Fallout 4",
+  "name": "Fallout 4｜辐射4",
   "id": "CUSA02962",
   "version": "01.22",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 weight",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "1 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AB7D41",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Experiences",
-      "type": "checkbox",
+      "name": "最大 Experiences",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDC0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Caps / All Items Multiplier",
-      "type": "checkbox",
+      "name": "瓶盖 / All 物品倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "109491",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "All Items / Caps (do not decrease)",
-      "type": "checkbox",
+      "name": "所有商品 / 瓶盖 (do not decrease)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BFB0",

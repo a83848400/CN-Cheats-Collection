@@ -1,12 +1,17 @@
 {
-  "name": "Eldest Souls",
+  "name": "Eldest 结界突破",
   "id": "CUSA28529",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Infinite Special Attack bar ",
-      "type": "checkbox",
+      "name": "《无限特辑》 攻击 bar ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D900",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Max Skill points (on use)",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D8D0",

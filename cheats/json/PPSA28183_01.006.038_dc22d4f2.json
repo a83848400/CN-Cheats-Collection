@@ -1,0 +1,372 @@
+{
+  "name": "刺客信条 黑色 Flag Resynced",
+  "id": "PPSA28183",
+  "version": "01.006.038",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "神模式 / 无敌 - Edward",
+      "type": "checkbox｜复选框",
+      "hint": "God Mode｜神模式",
+      "memory": [
+        {
+          "offset": "041B4CD6",
+          "on": "514885F6741D488B8EA80000004885C97411483BB1C00D00007508488B4C241080090159585EC3",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0187AF41",
+          "on": "56E8E9A0DDFE504C89F6E9869D9302",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "01881321",
+          "on": "56E8093DDDFE504889DEE9A6399302",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "018779BA",
+          "on": "E882350000",
+          "off": "E871D6DDFE"
+        },
+        {
+          "offset": "01CA7DDF",
+          "on": "E85D31BDFF",
+          "off": "E84CD29AFE"
+        },
+        {
+          "offset": "00E4898D",
+          "on": "E88F89A300",
+          "off": "E89EC680FF"
+        },
+        {
+          "offset": "01CA7199",
+          "on": "E883A1BDFF",
+          "off": "E892DE9AFE"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill｜一击必杀",
+      "hint": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "041BA656",
+          "on": "5152488B87F80100004885C00F848982A9FE488B80880100004885C00F844992A8FEE9E3D60000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02C528F1",
+          "on": "488D8780010000E963545701",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041C7D60",
+          "on": "0F2E40180F8A57BBA7FE0F8351BBA7FE0F57C9E9262A0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041CA79E",
+          "on": "0F2E48180F8A1991A7FE0F831391A7FE488B87880100004885C0E9D4AF95FE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B25791",
+          "on": "0F842AE11100E9D5AD0700",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BA0571",
+          "on": "488B90500200004885D2E9B13F0300",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BD4531",
+          "on": "0F848AF30600E9B54C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BD91F1",
+          "on": "488B82A80000004885C0E9018C0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BE1E01",
+          "on": "0F84BA1A0600E9250E0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02BE2C31",
+          "on": "488B80C00D0000E9A43FF8FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B66BE1",
+          "on": "4885C00F84D7CC0D00E9621FFCFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B28B51",
+          "on": "4839D0E908D60000",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B36161",
+          "on": "0F845AD71000E9355D0100",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B4BEA1",
+          "on": "B8000080BFE926E6FDFF",
+          "off": "CCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B2A4D1",
+          "on": "660F6EC8E96719FEFF",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B0BE41",
+          "on": "F30F10C1E9777A1300",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02C438C1",
+          "on": "5A59554889E55350E938E4F1FF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B61D00",
+          "on": "E95189650190",
+          "off": "554889E55350"
+        }
+      ]
+    },
+    {
+      "name": "潜行 - Local Player Perception Immunity",
+      "hint": "Never Wanted｜从未想要过",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "016BE8F0",
+          "on": "4885FF7459488B87A80000004885C07409483BB8C00D0000743E4883EC08E85D6875014883C4084885C074320FB70D13F2360A488B90CC00000089CEC1EE058B14B20FA3CA0F92C1F78038030000FF3F00000F95C020C8C3B801000000C331C0C39090909090909090",
+          "off": "4885FF74600FB68764010000483DFF0000007451488B8F38010000488B04C14885C07441488B40384885C07438488B80980100004885C0742C0FB70D06F2360A488B90CC00000089CEC1EE058B14B20FA3CA0F92C1F78038030000FF3F00000F95C020C8C331C0EBFB"
+        },
+        {
+          "offset": "002D8235",
+          "on": "56574C89FFE8B1663E015F5E84C00F85F01A0000E94A0000009090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "410FB68764010000483DFF0000007453498B8F38010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70DC558750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F85A11A0000"
+        },
+        {
+          "offset": "002D8845",
+          "on": "56574889CFE8A1603E015F5E84C00F85D6140000E94900000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "0FB68164010000483DFF0000007453488B8938010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70DB652750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F8588140000"
+        },
+        {
+          "offset": "002D9285",
+          "on": "56574889CFE861563E015F5E84C00F858C0A0000E94900000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "0FB68164010000483DFF0000007453488B8938010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70D7648750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F853E0A0000"
+        },
+        {
+          "offset": "002D98A5",
+          "on": "56574889CFE841503E015F5E84C00F8562040000E94900000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "0FB68164010000483DFF0000007453488B8938010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70D5642750B488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F8514040000"
+        },
+        {
+          "offset": "0516224E",
+          "on": "56574C89E7E898C655FC5F5E84C00F8552010000E94C00000090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "410FB6842464010000483DFF0000007454498B8C2438010000488B04C14885C07443488B40384885C0743A488B80980100004885C0742E0FB70DAAB88C06488B90CC00000089CEC1EE058B14B20FA3CA73138B8038030000B9FF3F000021C80F8501010000"
+        },
+        {
+          "offset": "008872C0",
+          "on": "4883EC08E82776E3004883C4083401C390909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "B0014885FF74600FB68F640100004881F9FF0000007450488B9738010000488B0CCA4885C97440488B49384885C97437488B89980100004885C9742B0FB70533681A0B488B91CC00000089C6C1EE058B14B20FA3C20F93C2F78138030000FF3F00000F94C008D0C3"
+        },
+        {
+          "offset": "00653225",
+          "on": "505256574150514C89EFE8BCB606018804245941585F5E5A58E912000000909090909090909090909090909090909090",
+          "off": "0FB7350AA93D0B488BB9CC0000004189F041C1E805428B3C870FA3F7400F92C6F78138030000FF3F00000F95C14020F1"
+        }
+      ]
+    },
+    {
+      "name": "无限氧气 - P1 native oxygen reserve",
+      "type": "checkbox｜复选框",
+      "hint": "Infinite Oxygen｜无限氧气",
+      "memory": [
+        {
+          "offset": "04193EE3",
+          "on": "505152488D05532EF5064839030F85D8E50100E9E8BE0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0419FDE3",
+          "on": "488B43384885C00F84DE260100488B48584885C9E9AFB1FEFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0418AFAB",
+          "on": "0F841D750200488B91A80000004885D2E9D2509DFE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "02B60092",
+          "on": "0F8436246501E92EE16401",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041AE1CB",
+          "on": "483B8AC00D00000F85F6420000E96EAD0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041B8F4B",
+          "on": "C5FA1083AC000000C5FA1183B8000000E96D660000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041BF5CD",
+          "on": "5A5958E9081180FE",
+          "off": "CCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "041B24CE",
+          "on": "5A5958C5FA1083B8000000E930E180FE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "029C0606",
+          "on": "E9D8387D01909090",
+          "off": "C5FA1083B8000000"
+        }
+      ]
+    },
+    {
+      "name": "最大/Infinite Reales/items/Ressources after buy/use/Spend",
+      "hint": "最大/infinite/resouce.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "041EE1C1",
+          "on": "41C7441E103F420F00E919F405FE",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "0224D5E3",
+          "on": "E9D90BFA01",
+          "off": "4189541E10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jackdaw Ship 手机 P1",
+      "type": "checkbox｜复选框",
+      "hint": "Infinite Jackdaw Ship 手机 P1",
+      "memory": [
+        {
+          "offset": "033D18B1",
+          "on": "488B87F8010000E984000000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D1941",
+          "on": "4885C0480F44C7E985E6FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033CFFD2",
+          "on": "4881380051810B75DEE9820D0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033CFFB9",
+          "on": "E963180000",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "033D0D62",
+          "on": "0F2E8798010000730AE952E9FFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D0D75",
+          "on": "E9A70A0000",
+          "off": "CCCCCCCCCC"
+        },
+        {
+          "offset": "033CF6C2",
+          "on": "C5FA108798010000E952210000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D1821",
+          "on": "554889E54157E9CAEDFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D05F0",
+          "on": "E9BC12000090",
+          "off": "554889E54157"
+        }
+      ]
+    },
+    {
+      "name": "一击必杀 Ships",
+      "type": "checkbox｜复选框",
+      "hint": "一击必杀 Ships.",
+      "memory": [
+        {
+          "offset": "033D1AB1",
+          "on": "C5F82EC70F8AB6000000E913030000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D1DD3",
+          "on": "0F8398FDFFFFE9F4ADFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033CCBD2",
+          "on": "488138804B810B74C8E9914F0000",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033CCBA3",
+          "on": "C5F857C0E9C54F0000",
+          "off": "CCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D1B71",
+          "on": "C5FA118798010000E9A7EAFFFF",
+          "off": "CCCCCCCCCCCCCCCCCCCCCCCCCC"
+        },
+        {
+          "offset": "033D061D",
+          "on": "E98F140000909090",
+          "off": "C5FA118798010000"
+        }
+      ]
+    },
+    {
+      "name": "Fidelity 每秒六十帧 Target",
+      "type": "checkbox｜复选框",
+      "hint": "patch 每秒六十帧",
+      "memory": [
+        {
+          "offset": "0304000A",
+          "on": "C5FA5F05F24A9707",
+          "off": "C5FA5F05EEDFA007"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "zer0day"
+  ]
+}

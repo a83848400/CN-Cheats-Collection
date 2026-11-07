@@ -1,12 +1,17 @@
 {
-  "name": "Alex Kidd in Miracle World DX",
+  "name": "亚历克斯 Kidd in Miracle World DX",
   "id": "CUSA20239",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible Mode 1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 Mode 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18DBDEA",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincible Mode 2",
-      "type": "checkbox",
+      "name": "无敌 Mode 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18DBDF5",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Live ( on gain / lose )",
-      "type": "checkbox",
+      "name": "最大 Live ( on gain / lose )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18DBDD4",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Money ( on gain )",
-      "type": "checkbox",
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18DBDB0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "One Hit Kill ( Boss )",
-      "type": "checkbox",
+      "name": "一击必杀 ( Boss )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18DBE2E",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Score in Retro Game ( on gain )",
-      "type": "checkbox",
+      "name": "最大 比分 in Retro Game ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18DBE3B",

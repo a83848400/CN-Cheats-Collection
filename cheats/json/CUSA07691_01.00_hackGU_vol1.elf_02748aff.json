@@ -5,9 +5,14 @@
   "process": "hackGU_vol1.elf",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "74E498",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite FP",
+      "name": "Infinite 专注值",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "757EE6",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite GS/Money",
+      "name": "Infinite GS/金钱",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "912C05",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Chims",
+      "name": "Infinite Chims｜无限钟声",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "911EE0",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Items not decrease ",
-      "hint": "You need at least 2 items then activate.",
-      "type": "checkbox",
+      "name": "Items not decrease ｜项目数量未减少",
+      "hint": "You need 至少2 items then activate.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90E126",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Fast EXP/leveling ",
-      "hint": "Vol.1 is Max lvl 50.",
-      "type": "checkbox",
+      "name": "Fast 经验/leveling ",
+      "hint": "Vol.1 is 最大 lvl 50.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D7C8F",
@@ -77,9 +82,9 @@
       ]
     },
     {
-      "name": "Set Arena SP to 1090",
+      "name": "Set 竞技场 精神值 to 1090",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "27BEA58C4",

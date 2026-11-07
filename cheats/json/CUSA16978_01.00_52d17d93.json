@@ -1,12 +1,17 @@
 {
-  "name": "Trials of Mana",
+  "name": "Trials of Mana｜圣剑传说3",
   "id": "CUSA16978",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Exp (Finish Training Character)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "经验值最大 (Finish 训练 Character)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59C0026",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Training Points (Turn Off After)",
-      "type": "checkbox",
+      "name": "训练点 (回合 Off After)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59C0034",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite HP/Mana/CT",
-      "type": "checkbox",
+      "name": "无限血量/法力/反恐",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59C0043",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Unlimited Item (Lucre, Loots disabled)",
-      "type": "checkbox",
+      "name": "Unlimited 物品 (Lucre, Loots disabled)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1593E24",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "All Gears (use item) (raw codes not fully tested)",
-      "type": "checkbox",
+      "name": "All 战争机器 (使用物品) (raw codes not fully tested)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59C0060",

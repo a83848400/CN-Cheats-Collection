@@ -1,0 +1,288 @@
+{
+  "name": "Elden Ring｜艾尔登法环",
+  "id": "PPSA04609",
+  "version": "01.018.001",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 铭文 - 999999999 (获得还是花掉) - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "PS5 PPSA04609 v01.018.001 only. 读取 your character, enable, then gain a rune or make an affordable purchase. Disabling restores 普通 rune changes; it does not reset your current balance. Re-enable after launching the game, or use CheatRunner Autoload.",
+      "memory": [
+        {
+          "offset": "E87FF",
+          "on": "4889C290",
+          "off": "480F4FD0",
+          "expected": "480F4FD0",
+          "absolute": false
+        }
+      ],
+      "description": "PS5 PPSA04609 v01.018.001 only. 读取 your character, enable, then gain a rune or make an affordable purchase. Disabling restores 普通 rune changes; it does not reset your current balance. Re-enable after launching the game, or use CheatRunner Autoload."
+    },
+    {
+      "name": "最大 锻造石 [1] + 金色 种子 - gain or use - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Only regular 锻造石 [1] (40002774) and 金色 种子 (4000271A). Gain, spend or 转会 either 物品 to set its quantity to the limit calculated by the game. Applies to these items in 背包/存储. Disabling restores 普通 quantity changes but keeps existing quantities. Re-enable after 挑空 or 保存 CheatRunner Autoload.",
+      "memory": [
+        {
+          "offset": "3243400",
+          "on": "41817C240474270040740B41817C24041A27004075034189C64439F0440F42F0E9E6BCE8FC",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "CF104",
+          "on": "E9F74217039090",
+          "off": "4439F0440F42F0",
+          "expected": "4439F0440F42F0",
+          "absolute": false
+        }
+      ],
+      "description": "Only regular 锻造石 [1] (40002774) and 金色 种子 (4000271A). Gain, spend or 转会 either 物品 to set its quantity to the limit calculated by the game. Applies to these items in 背包/存储. Disabling restores 普通 quantity changes but keeps existing quantities. Re-enable after 挑空 or 保存 CheatRunner Autoload."
+    },
+    {
+      "name": "无限血量 - Player - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Restores this stat to its current maximum when the 普通 stat update runs. Uses the player check verified against live player and 非玩家角色 records for this 构筑. Does not change 基地 属性 or levels.",
+      "memory": [
+        {
+          "offset": "3243500",
+          "on": "9C837F180075068B874C0100009D898748010000E911EF11FD",
+          "off": "00000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "362424",
+          "on": "E9D710EE0290",
+          "off": "898748010000",
+          "expected": "898748010000",
+          "absolute": false
+        }
+      ],
+      "description": "Restores this stat to its current maximum when the 普通 stat update runs. Uses the player check verified against live player and 非玩家角色 records for this 构筑. Does not change 基地 属性 or levels."
+    },
+    {
+      "name": "Infinite 专注值 - Player - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Restores this stat to its current maximum when the 普通 stat update runs. Uses the player check verified against live player and 非玩家角色 records for this 构筑. Does not change 基地 属性 or levels.",
+      "memory": [
+        {
+          "offset": "3243580",
+          "on": "9C41837E18007507418B865C0100009D41898658010000E991F611FD",
+          "off": "00000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "362C26",
+          "on": "E95509EE029090",
+          "off": "41898658010000",
+          "expected": "41898658010000",
+          "absolute": false
+        }
+      ],
+      "description": "Restores this stat to its current maximum when the 普通 stat update runs. Uses the player check verified against live player and 非玩家角色 records for this 构筑. Does not change 基地 属性 or levels."
+    },
+    {
+      "name": "无限耐力 - Player - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Restores this stat to its current maximum when the 普通 stat update runs. Uses the player check verified against live player and 非玩家角色 records for this 构筑. Does not change 基地 属性 or levels.",
+      "memory": [
+        {
+          "offset": "3243600",
+          "on": "9C41837E18007507418B86680100009D41898664010000E9D2F711FD",
+          "off": "00000000000000000000000000000000000000000000000000000000",
+          "expected": "00000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "362DE7",
+          "on": "E91408EE029090",
+          "off": "41898664010000",
+          "expected": "41898664010000",
+          "absolute": false
+        }
+      ],
+      "description": "Restores this stat to its current maximum when the 普通 stat update runs. Uses the player check verified against live player and 非玩家角色 records for this 构筑. Does not change 基地 属性 or levels."
+    },
+    {
+      "name": "输出 x10 - Non-player 手机 loss - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Choose only ONE 输出 mode. 回合 the current 输出 mode OFF before enabling another. Affects 手机 decreases of non-player characters, including 输出 from 他 sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit 数值 may differ from actual 手机 loss.",
+      "memory": [
+        {
+          "offset": "3243700",
+          "on": "480F49C18B009C837F1800741A4439E07D15524489E229C2486BD20A4489E04829D0790231C05A9DE9F7EC11FD909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "36241E",
+          "on": "E9DD12EE0290",
+          "off": "480F49C18B00",
+          "expected": "480F49C18B00",
+          "absolute": false
+        }
+      ],
+      "description": "Choose only ONE 输出 mode. 回合 the current 输出 mode OFF before enabling another. Affects 手机 decreases of non-player characters, including 输出 from 他 sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit 数值 may differ from actual 手机 loss."
+    },
+    {
+      "name": "输出 十倍 - Non-player 手机 loss - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Choose only ONE 输出 mode. 回合 the current 输出 mode OFF before enabling another. Affects 手机 decreases of non-player characters, including 输出 from 他 sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit 数值 may differ from actual 手机 loss.",
+      "memory": [
+        {
+          "offset": "3243780",
+          "on": "480F49C18B009C837F1800741A4439E07D15524489E229C2486BD2644489E04829D0790231C05A9DE977EC11FD909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "36241E",
+          "on": "E95D13EE0290",
+          "off": "480F49C18B00",
+          "expected": "480F49C18B00",
+          "absolute": false
+        }
+      ],
+      "description": "Choose only ONE 输出 mode. 回合 the current 输出 mode OFF before enabling another. Affects 手机 decreases of non-player characters, including 输出 from 他 sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit 数值 may differ from actual 手机 loss."
+    },
+    {
+      "name": "一击必杀 - Non-player 手机 loss - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Choose only ONE 输出 mode. 回合 the current 输出 mode OFF before enabling another. Affects 手机 decreases of non-player characters, including 输出 from 他 sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit 数值 may differ from actual 手机 loss.",
+      "memory": [
+        {
+          "offset": "3243800",
+          "on": "480F49C18B009C837F180074074439E07D0231C09DE90AEC11FD90909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "36241E",
+          "on": "E9DD13EE0290",
+          "off": "480F49C18B00",
+          "expected": "480F49C18B00",
+          "absolute": false
+        }
+      ],
+      "description": "Choose only ONE 输出 mode. 回合 the current 输出 mode OFF before enabling another. Affects 手机 decreases of non-player characters, including 输出 from 他 sources and friendly NPCs; healing is unchanged. Local player is excluded. The displayed hit 数值 may differ from actual 手机 loss."
+    },
+    {
+      "name": "最大 Stackable Items - game limit up to 999 - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Gain, use or 转会 an 物品 to fill its 堆叠 to the limit calculated by the game, capped at 999. Limits of 0 or 1 retain 普通 quantity changes. Does not create unowned items. Covers 背包 and 存储. Alternative to the 锻造石/金色 种子-only option: enable only one 物品 mode. Disable this option before deliberately consuming/removing all of a 堆叠.",
+      "memory": [
+        {
+          "offset": "3243900",
+          "on": "83F801760641BEE70300004439F0440F42F0E9F4B7E8FC",
+          "off": "0000000000000000000000000000000000000000000000",
+          "expected": "0000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "CF104",
+          "on": "E9F74717039090",
+          "off": "4439F0440F42F0",
+          "expected": "4439F0440F42F0",
+          "absolute": false
+        }
+      ],
+      "description": "Gain, use or 转会 an 物品 to fill its 堆叠 to the limit calculated by the game, capped at 999. Limits of 0 or 1 retain 普通 quantity changes. Does not create unowned items. Covers 背包 and 存储. Alternative to the 锻造石/金色 种子-only option: enable only one 物品 mode. Disable this option before deliberately consuming/removing all of a 堆叠."
+    },
+    {
+      "name": "潜行 - Enemy detection - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Suppresses the 普通 enemy detection update. Enable before approaching an unaware enemy. Attacking can reveal you; does not 大保底 removal of existing aggression. Separate from 没有敌方攻击.",
+      "memory": [
+        {
+          "offset": "213D43",
+          "on": "80BFBA00000001",
+          "off": "80BFBA00000000",
+          "expected": "80BFBA00000000",
+          "absolute": false
+        }
+      ],
+      "description": "Suppresses the 普通 enemy detection update. Enable before approaching an unaware enemy. Attacking can reveal you; does not 大保底 removal of existing aggression. Separate from 没有敌方攻击."
+    },
+    {
+      "name": "没有敌方攻击 - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Disables the 普通 enemy 攻击 decision gates. Does not freeze walking or cancel attacks/projectiles already in progress. Independent of 潜行. Scripted/environmental 输出 may still occur.",
+      "memory": [
+        {
+          "offset": "181B7D",
+          "on": "740F",
+          "off": "750F",
+          "expected": "750F",
+          "absolute": false
+        },
+        {
+          "offset": "2DA99C",
+          "on": "7432",
+          "off": "7532",
+          "expected": "7532",
+          "absolute": false
+        }
+      ],
+      "description": "Disables the 普通 enemy 攻击 decision gates. Does not freeze walking or cancel attacks/projectiles already in progress. Independent of 潜行. Scripted/environmental 输出 may still occur."
+    },
+    {
+      "name": "玩家速度×2 - Movement and animation - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Choose ONE 速度 mode. 回合 the current 速度 mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or 非玩家角色 time step. Turning it OFF restores 普通 速度 immediately; mounted/灵马托雷特 behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 构筑 only.",
+      "memory": [
+        {
+          "offset": "3243A00",
+          "on": "C5FA5983F81500009C5052488B43084885C07410488D15DDFCDC004839107504C5FA58C05A589DE9436F0FFD90909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "33A967",
+          "on": "E99490F002909090",
+          "off": "C5FA5983F8150000",
+          "expected": "C5FA5983F8150000",
+          "absolute": false
+        }
+      ],
+      "description": "Choose ONE 速度 mode. 回合 the current 速度 mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or 非玩家角色 time step. Turning it OFF restores 普通 速度 immediately; mounted/灵马托雷特 behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 构筑 only."
+    },
+    {
+      "name": "玩家速度×4 - Movement and animation - created by RomaniEs",
+      "type": "checkbox｜复选框",
+      "hint": "Choose ONE 速度 mode. 回合 the current 速度 mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or 非玩家角色 time step. Turning it OFF restores 普通 速度 immediately; mounted/灵马托雷特 behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 构筑 only.",
+      "memory": [
+        {
+          "offset": "3243B00",
+          "on": "C5FA5983F81500009C5052488B43084885C07414488D15DDFBDC004839107508C5FA58C0C5FA58C05A589DE93F6E0FFD909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "expected": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "absolute": false
+        },
+        {
+          "offset": "33A967",
+          "on": "E99491F002909090",
+          "off": "C5FA5983F8150000",
+          "expected": "C5FA5983F8150000",
+          "absolute": false
+        }
+      ],
+      "description": "Choose ONE 速度 mode. 回合 the current 速度 mode OFF before selecting another. Multiplies the local player animation time step, accelerating movement and actions such as attacks and rolls. Does not multiply the world or 非玩家角色 time step. Turning it OFF restores 普通 速度 immediately; mounted/灵马托雷特 behavior is not guaranteed. Exact PS5 PPSA04609 v01.018.001 构筑 only."
+    }
+  ],
+  "credits": [
+    "RomaniEs"
+  ]
+}

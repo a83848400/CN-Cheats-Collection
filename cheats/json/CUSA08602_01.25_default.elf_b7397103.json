@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: WWII",
+  "name": "使命召唤: WWII",
   "id": "CUSA08602",
   "version": "01.25",
-  "process": "default.elf",
+  "process": "默认.elf",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "106F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Ammo / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D34DE7",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Throwables",
-      "type": "checkbox",
+      "name": "投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D0E04E",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Sherman Tank (Inf HP)",
-      "type": "checkbox",
+      "name": "Sherman 坦克 (无限血量)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "106F81F",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Tank MG (No Overheating)",
-      "type": "checkbox",
+      "name": "坦克 MG (不会过热)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "106F89D",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "P-47 (Inf HP)",
-      "type": "checkbox",
+      "name": "P-47 (无限血量)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B3EA8E",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "P-47  MG (No Overheating) ",
-      "type": "checkbox",
+      "name": "P-47  MG (不会过热) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "106F83A",

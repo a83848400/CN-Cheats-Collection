@@ -1,12 +1,17 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34384",
   "version": "04.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode (Untouchable+No Effects)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "神模式 (刀枪不入+无效果)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17779EB",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "No Damage Taken",
-      "type": "checkbox",
+      "name": "No Damage Taken｜不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777800",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "No XP,HS, Resources subtracted",
-      "type": "checkbox",
+      "name": "No XP,HS, Resources subtracted｜不扣除经验值、HS和资源",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777820",
@@ -73,8 +78,8 @@
       ]
     },
     {
-      "name": "No Crafting And Upgrade Limits",
-      "type": "checkbox",
+      "name": "No Crafting And Upgrade Limits｜无制作和升级限制",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C364F6",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows & Throwables",
-      "type": "checkbox",
+      "name": "箭矢无限 & 可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777874",
@@ -110,8 +115,8 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
+      "name": "Infinite Rage｜怒气无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17778A8",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Damage Multiplier(Master Code)",
-      "type": "checkbox",
+      "name": "输出 Multiplier(Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17778F9",
@@ -142,8 +147,8 @@
       ]
     },
     {
-      "name": "5x damage",
-      "type": "checkbox",
+      "name": "5x damage｜5倍伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "10x damage",
-      "type": "checkbox",
+      "name": "10x damage｜10倍伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "20x damage",
-      "type": "checkbox",
+      "name": "20x damage｜20倍伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -175,8 +180,8 @@
       ]
     },
     {
-      "name": "30x damage",
-      "type": "checkbox",
+      "name": "30x damage｜30倍伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -186,8 +191,8 @@
       ]
     },
     {
-      "name": "40x damage",
-      "type": "checkbox",
+      "name": "40x damage｜40倍伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "50x damage",
-      "type": "checkbox",
+      "name": "50x damage｜50倍伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01777913",
@@ -208,8 +213,8 @@
       ]
     },
     {
-      "name": "One Hit Stun",
-      "type": "checkbox",
+      "name": "One Hit Stun｜一击眩晕",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777950",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "No Talisman and Relic Cooldown",
-      "type": "checkbox",
+      "name": "No 符箓 and 遗物 Cooldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777B40",
@@ -240,8 +245,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Charge (L1+Triangle)",
-      "type": "checkbox",
+      "name": "Infinite Weapon 冲锋 (L1+Triangle)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1777AEB",

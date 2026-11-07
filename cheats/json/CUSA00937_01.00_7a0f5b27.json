@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy Type-0 HD",
+  "name": "最终幻想 属性-0 HD",
   "id": "CUSA00937",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77B813",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite AP",
-      "type": "checkbox",
+      "name": "Infinite AP｜无限能力点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77B824",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Money/ Gil/ VP",
-      "type": "checkbox",
+      "name": "金钱无限/ 基尔/ VP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77B834",

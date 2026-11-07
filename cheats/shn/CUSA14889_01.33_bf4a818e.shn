@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Captain Tsubasa: Rise of New Champions" Moder="Reddevil82 - FW 9.00" Cusa="CUSA14889" Version="01.33" Process="eboot.bin">
   <Genres Name="Sports" />
   <Items />
-  <Cheat Text="Max Money Points ( on gain )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱最大 得分 ( on gain )">
     <Cheatline>
       <Offset>42DE8A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>0F-42-C8-85-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Player Skill Points">
+  <Cheat Text="最大 Player Skill 得分">
     <Cheatline>
       <Offset>40FC37</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-B8-48-AE-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode Player: V - Zone ( must be activated )">
+  <Cheat Text="主代码 Player: V - 毒圈 ( must be activated )">
     <Cheatline>
       <Offset>1BEF800</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-11-84-11-64-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite V-Zone Player 1 [MC]">
+  <Cheat Text="Infinite V-毒圈 Player 1 [MC]">
     <Cheatline>
       <Offset>1BEF806</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-FA-11-84-11-64-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite V-Zone Player 2 [MC]">
+  <Cheat Text="Infinite V-毒圈 Player 2 [MC]">
     <Cheatline>
       <Offset>1BEF81D</Offset>
       <Section>0</Section>

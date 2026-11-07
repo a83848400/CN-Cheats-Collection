@@ -1,12 +1,17 @@
 {
-  "name": "Guns, Gore & Cannoli",
+  "name": "Guns, Gore & Cannoli｜《枪、血腥与坎诺利》",
   "id": "CUSA03818",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / 1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E59C00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E59C08",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Ammo No Reload / Throwables",
-      "type": "checkbox",
+      "name": "但是 无需换弹 / 可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E7B82C",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light: The Following: Enhanced Edition" Moder="M3hdi PS" Cusa="CUSA03991" Version="01.33" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite HP｜无限血量">
     <Cheatline>
       <Offset>C55D9F</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-83-34-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>75F888</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>45-89-37</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bolt &amp; Arrows">
+  <Cheat Text="无限之雷 &amp; Arrows">
     <Cheatline>
       <Offset>D72866</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>44-89-39</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Item">
+  <Cheat Text="Infinite 物品">
     <Cheatline>
       <Offset>75F888</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>45-89-37</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="ADD Item">
+  <Cheat Text="ADD 物品">
     <Cheatline>
       <Offset>75F888</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>45-89-37</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="ADD Cash">
+  <Cheat Text="ADD Cash｜添加现金">
     <Cheatline>
       <Offset>D71BFE</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-57-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Durability/No Buggy Damage">
+  <Cheat Text="装备耐久无限/No Buggy 输出">
     <Cheatline>
       <Offset>75FCAB</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>C5-FA-11-4B-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina ">
+  <Cheat Text="Infinite Stamina ｜无限耐力">
     <Cheatline>
       <Offset>D9192F</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C5-FA-11-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="STOP Timer : Main Game">
+  <Cheat Text="停止 计时器 : Main Game">
     <Cheatline>
       <Offset>D46D29</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C5-FA-11-83-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="STOP Timer : Bozak DLC">
+  <Cheat Text="停止 计时器 : Bozak DLC">
     <Cheatline>
       <Offset>4B4467</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>C5-FA-11-40-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fuel">
+  <Cheat Text="Infinite Fuel｜燃料无限">
     <Cheatline>
       <Offset>114E671</Offset>
       <Section>0</Section>

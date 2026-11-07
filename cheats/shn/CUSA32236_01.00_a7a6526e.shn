@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Aeterna Noctis" Moder="TLH" Cusa="CUSA32236" Version="01.00" Process="eboot.bin">
-  <Cheat Text="Player Pointer" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Player 指针" Description="">
     <Cheatline>
       <Offset>01B17500</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>75-56</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invulnerable" Description="">
+  <Cheat Text="Invulnerable｜无敌" Description="">
     <Cheatline>
       <Offset>01B17500</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Money" Description="">
+  <Cheat Text="Money｜金钱" Description="">
     <Cheatline>
       <Offset>8088D465</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>8B-8B-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy LevelUp" Description="">
+  <Cheat Text="简单 LevelUp" Description="">
     <Cheatline>
       <Offset>8088E3B9</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>41-8B-8E-90-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinte Skillpoints" Description="">
+  <Cheat Text="Infinte 技能点" Description="">
     <Cheatline>
       <Offset>807F7758</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-8D-45-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumping" Description="">
+  <Cheat Text="Infinite Jumping｜无限跳跃" Description="">
     <Cheatline>
       <Offset>80D3BB17</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>75-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dashing: No Cooldown" Description="">
+  <Cheat Text="Dashing: 无冷却" Description="">
     <Cheatline>
       <Offset>80D30F16</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-FA-10-80-10-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Air Dashing" Description="">
+  <Cheat Text="无限之空 Dashing" Description="">
     <Cheatline>
       <Offset>80D30B62</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>74-2A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ignore Bloodcosts" Description="">
+  <Cheat Text="Ignore Bloodcosts｜忽略“血费”" Description="">
     <Cheatline>
       <Offset>807F7548</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-58-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hard Attack: Always available" Description="">
+  <Cheat Text="困难 攻击: Always available" Description="">
     <Cheatline>
       <Offset>80C25A74</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>0F-84-D9-F7-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hard Attack: No Incantation" Description="">
+  <Cheat Text="困难 攻击: No Incantation" Description="">
     <Cheatline>
       <Offset>80C2F4D9</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>0F-83-D1-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hard Attack: No Blood Cost" Description="">
+  <Cheat Text="困难 攻击: No Blood Cost" Description="">
     <Cheatline>
       <Offset>80C2EE45</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>C4-C1-7A-10-84-24-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Hard Attack: No Cooldown" Description="">
+  <Cheat Text="困难 攻击: 无冷却" Description="">
     <Cheatline>
       <Offset>80C2EE27</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C4-C1-7A-10-84-24-B4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Scythe: Always available" Description="">
+  <Cheat Text="Scythe: Always available｜镰刀：随时可用" Description="">
     <Cheatline>
       <Offset>80C2525B</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>0F-84-7C-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Scythe: No Blood Cost" Description="">
+  <Cheat Text="Scythe: No Blood Cost｜镰刀：无需消耗生命值" Description="">
     <Cheatline>
       <Offset>80C32BC4</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>C4-C1-7A-10-84-24-1C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dark Shield: Always available" Description="">
+  <Cheat Text="Dark 盾牌: Always available" Description="">
     <Cheatline>
       <Offset>80C26002</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>0F-84-9F-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dark Shield: No cooldown" Description="">
+  <Cheat Text="Dark 盾牌: 无冷却" Description="">
     <Cheatline>
       <Offset>80C2EAB5</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>C4-C1-7A-10-85-F0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Shuriken: Always available" Description="">
+  <Cheat Text="手里剑: Always available" Description="">
     <Cheatline>
       <Offset>80C26215</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>0F-84-F0-F9-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Shuriken: No Cooldown" Description="">
+  <Cheat Text="手里剑: 无冷却" Description="">
     <Cheatline>
       <Offset>80C36C3D</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>C5-FA-10-83-64-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Shuriken: No Blood Cost" Description="">
+  <Cheat Text="手里剑: No Blood Cost" Description="">
     <Cheatline>
       <Offset>80C36C5B</Offset>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>C5-FA-10-83-68-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Katana Slash: Always available" Description="">
+  <Cheat Text="武士刀 Slash: Always available" Description="">
     <Cheatline>
       <Offset>80C264FA</Offset>
       <Section>0</Section>
@@ -198,7 +206,7 @@
       <ValueOff>0F-84-84-F7-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Katana Feint: Always available" Description="">
+  <Cheat Text="武士刀 Feint: Always available" Description="">
     <Cheatline>
       <Offset>80C267AC</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>0F-84-00-F5-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Katana: No Cooldown" Description="">
+  <Cheat Text="武士刀: 无冷却" Description="">
     <Cheatline>
       <Offset>80C31680</Offset>
       <Section>0</Section>
@@ -214,7 +222,7 @@
       <ValueOff>C4-C1-7A-10-84-24-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Katana: No Blood Cost" Description="">
+  <Cheat Text="武士刀: No Blood Cost" Description="">
     <Cheatline>
       <Offset>80C31730</Offset>
       <Section>0</Section>
@@ -222,7 +230,7 @@
       <ValueOff>C4-C1-7A-10-84-24-D8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spear: Always available" Description="">
+  <Cheat Text="长矛: Always available" Description="">
     <Cheatline>
       <Offset>80C26A5E</Offset>
       <Section>0</Section>
@@ -230,7 +238,7 @@
       <ValueOff>0F-84-F2-F1-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spear: No Cooldown" Description="">
+  <Cheat Text="长矛: 无冷却" Description="">
     <Cheatline>
       <Offset>80C3501D</Offset>
       <Section>0</Section>
@@ -238,7 +246,7 @@
       <ValueOff>C4-C1-7A-10-87-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spear: No Blood Cost" Description="">
+  <Cheat Text="长矛: No Blood Cost" Description="">
     <Cheatline>
       <Offset>80C23CF6</Offset>
       <Section>0</Section>
@@ -246,7 +254,7 @@
       <ValueOff>C4-C1-7A-10-86-64-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bow: No Cooldown" Description="">
+  <Cheat Text="弓: 无冷却" Description="">
     <Cheatline>
       <Offset>8076E612</Offset>
       <Section>0</Section>
@@ -254,7 +262,7 @@
       <ValueOff>C5-FA-58-45-D4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bow: Light Arrow always available" Description="">
+  <Cheat Text="弓: Light Arrow always available" Description="">
     <Cheatline>
       <Offset>80769247</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>74-1A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bow: Crystal Arrow always available" Description="">
+  <Cheat Text="弓: 水晶 Arrow always available" Description="">
     <Cheatline>
       <Offset>80767318</Offset>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>75-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bow: Dark Arrow always available" Description="">
+  <Cheat Text="弓: Dark Arrow always available" Description="">
     <Cheatline>
       <Offset>807693DF</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Ghosts 'n Goblins Resurrection",
+  "name": "Ghosts 'n Goblins 复活",
   "id": "CUSA24159",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60EA570",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60EA574",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Freeze Time",
-      "type": "checkbox",
+      "name": "Freeze Time｜冻结时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60EA6A0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Score (99999999)",
-      "type": "checkbox",
+      "name": "最大 比分 (99999999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1098C43",

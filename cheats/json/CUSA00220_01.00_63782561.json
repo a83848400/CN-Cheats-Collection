@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Age: Inquisition",
+  "name": "龙腾世纪: 审判庭",
   "id": "CUSA00220",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite (HP,Stamina,Stats,Skill Points) (unbind)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite (手机,体力,属性,Skill 得分) (unbind)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "31ED07F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Item Max (use/sell/discard x2)",
-      "type": "checkbox",
+      "name": "物品 最大 (use/sell/弃牌 x2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D2653",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Gold on Sell (Craft Mats and Valuables only)",
-      "type": "checkbox",
+      "name": "金币最大 on Sell (Craft Mats and Valuables only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "31ED09C",

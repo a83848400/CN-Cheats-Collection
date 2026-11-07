@@ -1,13 +1,18 @@
 {
-  "name": "Horizon Forbidden West",
+  "name": "地平线 Forbidden West",
   "id": "CUSA24705",
   "version": "01.18",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "This is a selection of the best of the best cheats made for this incredible game, by Dioniso, Fullcode, Rizla and me (Pharaoh2k).\r\nThe trainer is cross-region compatible (CUSA24705, CUSA28561, CUSA28563, CUSA30023).\r\nI have improved a few of the cheats made by others, but left the original credit. Also excluded some cheats which were redundant or unnecassry, in my opinion. Enjoy! :-)\r\nPharaoh2k",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "This is a selection of the best of the best cheats made for this incredible game, by Dioniso, Fullcode, Rizla and me (Pharaoh2k).\r\nThe trainer is 传中-region compatible (CUSA24705, CUSA28561, CUSA28563, CUSA30023).\r\nI have improved a few of the cheats made by others, but left the original credit. Also excluded some cheats which were redundant or unnecassry, in my opinion. Enjoy! :-)\r\nPharaoh2k",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDAFFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Master Code (Must be enabled first + all the time)",
-      "description": "Cheats with -- prefix depend on the Master Code",
-      "type": "checkbox",
+      "name": "Master 密码 (Must be enabled first + all the time)",
+      "description": "Cheats with -- prefix depend on the Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB000",
@@ -154,9 +159,9 @@
       ]
     },
     {
-      "name": "--One Hit Kill",
+      "name": "--一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF10",
@@ -166,9 +171,9 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "God Mode｜神模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB0AD",
@@ -193,9 +198,9 @@
       ]
     },
     {
-      "name": "Infinite Jump and Glide",
+      "name": "Infinite Jump and Glide｜无限跳跃与滑翔",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "223ECEF",
@@ -205,9 +210,9 @@
       ]
     },
     {
-      "name": "--Toggle_Mount_Invincible",
-      "description": "If using one hit your mount will also go down in one hit only for the first hit then it will be invincible after you revive it OR you can simply disable one hit then hit your mount once to get it invincible and enable one hit again to stop it from going down.\r\n\r\nCredit: Original version made by Rizla. I made my own improved version for cross console compatibility.",
-      "type": "checkbox",
+      "name": "--切换坐骑无敌",
+      "description": "If using one hit your mount 意志 also go down in one hit only for the first hit then it 意志 be 无敌 after you revive it OR you can simply disable one hit then hit your mount once to get it 无敌 and enable one hit again to 停止 it from going down.\r\n\r\nCredit: Original version made by Rizla. I made my own improved version for 传中 console compatibility.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF20",
@@ -217,9 +222,9 @@
       ]
     },
     {
-      "name": "Stealth Mode",
+      "name": "Stealth Mode｜隐身模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1416E10",
@@ -229,9 +234,9 @@
       ]
     },
     {
-      "name": "Infinite Heavy Weapons Ammo",
+      "name": "Infinite 重装兵 武器 但是",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB156",
@@ -246,9 +251,9 @@
       ]
     },
     {
-      "name": "Infinite Max Items and Arrows",
-      "description": "Some will be 9999 after geting them, some after spendingusing 1.",
-      "type": "checkbox",
+      "name": "Infinite 最大 Items and Arrows",
+      "description": "Some 意志 be 9999 after geting them, some after spendingusing 1.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB19C",
@@ -283,9 +288,9 @@
       ]
     },
     {
-      "name": "No Craft, Purchase, Upgrade Requirements",
+      "name": "No Craft, Purchase, Upgrade Requirements｜无需制作、购买或升级要求",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F09820",
@@ -295,9 +300,9 @@
       ]
     },
     {
-      "name": "[Weapon] Instant Reload Speed",
-      "description": "This is the animation when Aloy takes an arrow.",
-      "type": "checkbox",
+      "name": "[Weapon] Instant 换弹速度",
+      "description": "This is the animation when 埃洛伊 takes an arrow.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB23F",
@@ -312,9 +317,9 @@
       ]
     },
     {
-      "name": "[Weapon] Straight Shot With Little Tautness",
+      "name": "[Weapon] Straight Shot With Little Tautness｜[武器] 弹道笔直，后坐力较小",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB272",
@@ -329,9 +334,9 @@
       ]
     },
     {
-      "name": "--Hour: 0",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--小时:0",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF24",
@@ -341,9 +346,9 @@
       ]
     },
     {
-      "name": "--Hour: 6",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--小时:6",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF24",
@@ -353,9 +358,9 @@
       ]
     },
     {
-      "name": "--Hour: 12",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--小时:12",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF24",
@@ -365,9 +370,9 @@
       ]
     },
     {
-      "name": "--Hour: 18",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--小时:18",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF24",
@@ -377,9 +382,9 @@
       ]
     },
     {
-      "name": "Max Med Use Amount on Gain",
+      "name": "最大 Med Use Amount on Gain",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C25055",
@@ -389,9 +394,9 @@
       ]
     },
     {
-      "name": "No Stash Items Increase",
+      "name": "No Stash Items Increase｜背包内物品数量不会增加",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F06957",
@@ -401,9 +406,9 @@
       ]
     },
     {
-      "name": "Max Infinite Shards (Open Inventory)",
+      "name": "最大 Infinite Shards (Open 背包)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB2DE",
@@ -418,9 +423,9 @@
       ]
     },
     {
-      "name": "Inf+Max Valor Surge",
+      "name": "Infinite+最大 Valor Surge",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB30E",
@@ -435,9 +440,9 @@
       ]
     },
     {
-      "name": "Instant End Valor Surge",
+      "name": "Instant 末地 Valor Surge",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B1F186",
@@ -447,9 +452,9 @@
       ]
     },
     {
-      "name": "Infinite Oxygen+Stamina",
+      "name": "无限氧气+体力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DDB554",
@@ -459,9 +464,9 @@
       ]
     },
     {
-      "name": "Inf+Max Skill Points (Open Inventory)",
-      "description": "Skill points will be set as soon as you open the menu but you won't see the change until you open it a 2nd time.",
-      "type": "checkbox",
+      "name": "Infinite+最大 Skill 得分 (Open 背包)",
+      "description": "Skill 得分 意志 be set as soon as you open the 菜单 but you won'恐怖分子 see the change until you open it a 2nd time.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB340",
@@ -476,9 +481,9 @@
       ]
     },
     {
-      "name": "--XP Multiplier x5",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--经验倍率×5",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF28",
@@ -488,9 +493,9 @@
       ]
     },
     {
-      "name": "--XP Multiplier x10",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--经验倍率×10",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF28",
@@ -500,9 +505,9 @@
       ]
     },
     {
-      "name": "--XP Multiplier x20",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--经验倍率×20",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF28",
@@ -512,9 +517,9 @@
       ]
     },
     {
-      "name": "--XP Multiplier x50",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--经验倍率×50",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF28",
@@ -524,9 +529,9 @@
       ]
     },
     {
-      "name": "--XP Multiplier x100",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--经验倍率×100",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF28",
@@ -536,9 +541,9 @@
       ]
     },
     {
-      "name": "Instant Remove Effects",
+      "name": "Instant Remove Effects｜即时移除效果",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB3A8",
@@ -553,9 +558,9 @@
       ]
     },
     {
-      "name": "Instant Mount Override Recovery",
+      "name": "Instant Mount Override 后摇",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB3D8",
@@ -570,9 +575,9 @@
       ]
     },
     {
-      "name": "Mount Never Gets Scared (Read Info)",
-      "description": "After some time of shooting your own mount you will notice the bar around will start decreasing and this cheat is what will stop it the bar from decreasing so your mount never runs away from you no matter how many times you shoot it.",
-      "type": "checkbox",
+      "name": "Mount Never Gets Scared (Read Info)｜《永不畏惧的山》（阅读信息）",
+      "description": "After some time of 射门 your own mount you 意志 notice the bar around 意志 start decreasing and this cheat is what 意志 停止 it the bar from decreasing so your mount never runs away from you no matter how many times you shoot it.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C133BD",
@@ -582,9 +587,9 @@
       ]
     },
     {
-      "name": "Infinite Food Health Boost on Use",
+      "name": "食物无限 生命 Boost on Use",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB406",
@@ -599,9 +604,9 @@
       ]
     },
     {
-      "name": "--Aloy Speed x1",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--埃洛伊速度×1",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF40",
@@ -611,9 +616,9 @@
       ]
     },
     {
-      "name": "--Aloy Speed x2",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--埃洛伊速度×2",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF40",
@@ -623,9 +628,9 @@
       ]
     },
     {
-      "name": "--Aloy Speed x3",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--埃洛伊速度×3",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF40",
@@ -635,9 +640,9 @@
       ]
     },
     {
-      "name": "--Others Speed x0.2",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--其他对象速度×0.2",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF44",
@@ -647,9 +652,9 @@
       ]
     },
     {
-      "name": "--Others Speed x0.5",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--其他对象速度×0.5",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF44",
@@ -659,9 +664,9 @@
       ]
     },
     {
-      "name": "--Others Speed x1",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--其他对象速度×1",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF44",
@@ -671,9 +676,9 @@
       ]
     },
     {
-      "name": "--Others Speed x2",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--其他对象速度×2",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF44",
@@ -683,9 +688,9 @@
       ]
     },
     {
-      "name": "--Others Speed x3",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--其他对象速度×3",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF44",
@@ -695,9 +700,9 @@
       ]
     },
     {
-      "name": "--Game Speed x1",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--游戏速度×1",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF48",
@@ -707,9 +712,9 @@
       ]
     },
     {
-      "name": "--Game Speed x2",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--游戏速度×2",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF48",
@@ -719,9 +724,9 @@
       ]
     },
     {
-      "name": "--Game Speed x3",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--游戏速度×3",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF48",
@@ -731,9 +736,9 @@
       ]
     },
     {
-      "name": "--Camera Zoom x0",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--相机 缩放 x0",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF4C",
@@ -743,9 +748,9 @@
       ]
     },
     {
-      "name": "--Camera Zoom x1",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--相机 缩放 x1",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF4C",
@@ -755,9 +760,9 @@
       ]
     },
     {
-      "name": "--Camera Zoom x2",
-      "description": "Choose only one option",
-      "type": "checkbox",
+      "name": "--相机 缩放 x2",
+      "description": "Choose only one option｜请仅选择一项",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "674FF4C",
@@ -767,9 +772,9 @@
       ]
     },
     {
-      "name": "[Teleport] To Base (L1+L2+R1+R2)",
-      "description": "Since you have to come back to The Base many times during the game, you can use this cheat after having discovered it.",
-      "type": "checkbox",
+      "name": "[传送] To 基地 (L1+L2+R1+R2)",
+      "description": "Since you have to come back to The 基地 many times during the game, you can use this cheat after having discovered it.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB52A",
@@ -804,9 +809,9 @@
       ]
     },
     {
-      "name": "[Teleport] To map waypoint",
-      "description": "Press L2 while placing the Marker. If the Marker is on a reference place (building, fire, etc.) it will not work. Place it next to the reference place.",
-      "type": "checkbox",
+      "name": "[传送] To 地图 航点",
+      "description": "Press L2 while placing the Marker. If the Marker is on a reference place (建造, 火, etc.) it 意志 not work. Place it next to the reference place.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BDB5EF",

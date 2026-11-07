@@ -2,7 +2,15 @@
 <Trainer Game="Elden Ring Nightreign" Moder="Pharaoh2k" Cusa="CUSA50617" Version="01.02" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="For the complete trainer, visit our discord server (Team Reaper). Invite: https://discord.gg/yrxdxSPZmH ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="For the complete trainer, visit our discord server (Team 死神). Invite: https://discord.gg/yrxdxSPZmH ">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAEFFF</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="">
+  <Cheat Text="God Mode｜神模式" Description="">
     <Cheatline>
       <Section>0</Section>
       <Offset>3AAF000</Offset>

@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders: Warmastered Edition",
+  "name": "Darksiders: Warmastered Edition｜《暗黑血统：战争大师版》",
   "id": "CUSA05347",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6B7B38",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "1 Hit Max Wrath",
-      "type": "checkbox",
+      "name": "1 Hit 最大 Wrath",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F9473",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Wrath Usage",
-      "type": "checkbox",
+      "name": "无尽之怒 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F9478",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Instant Chaos Form after Usage",
-      "type": "checkbox",
+      "name": "Instant 混沌 状态 after Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F96C6",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "1 Hit Refill Chaos Form",
-      "type": "checkbox",
+      "name": "1 Hit Refill 混沌 状态",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F9AFE",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Gain Souls after Shop",
-      "type": "checkbox",
+      "name": "Gain 结界突破 after Shop",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D8817",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Inf Horse Bursts",
-      "type": "checkbox",
+      "name": "无限马群爆发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "33F0A9",

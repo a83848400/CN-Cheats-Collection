@@ -19,7 +19,15 @@
       <ValueOff>C4-C1-7A-11-44-24-1C</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>3BE7800</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2 Hit Kills" Description="">
+  <Cheat Text="2 Hit Kills｜两击必杀" Description="">
     <Cheatline>
       <Offset>3BE7801</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield" Description="">
+  <Cheat Text="Infinite Shield｜无限护盾" Description="">
     <Cheatline>
       <Offset>3BE788E</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>C5-F2-5F-CA-C5-FA-5D-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Life Conservation" Description="">
+  <Cheat Text="无限生命 Conservation" Description="">
     <Cheatline>
       <Offset>3BE785A</Offset>
       <Section>0</Section>
@@ -63,7 +71,7 @@
       <ValueOff>C4-C1-7A-10-44-24-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>12247D1</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>FF-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>12324F8</Offset>
       <Section>0</Section>
@@ -79,7 +87,7 @@
       <ValueOff>45-29-EC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energycells" Description="">
+  <Cheat Text="Infinite Energycells｜无限能源电池" Description="">
     <Cheatline>
       <Offset>10231DD</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>29-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown" Description="">
+  <Cheat Text="No Cooldown｜无冷却" Description="">
     <Cheatline>
       <Offset>100090A</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>C5-E2-5F-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skillpoints" Description="">
+  <Cheat Text="Infinite Skillpoints｜无限技能点" Description="">
     <Cheatline>
       <Offset>1006E41</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>2B-14-B9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints" Description="">
+  <Cheat Text="最大 技能点" Description="">
     <Cheatline>
       <Offset>3BE787D</Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>8B-30-BA-10-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Credits" Description="">
+  <Cheat Text="Infinite Credits｜无限积分" Description="">
     <Cheatline>
       <Offset>E9F8CC</Offset>
       <Section>0</Section>
@@ -125,7 +133,7 @@
       <ValueOff>29-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Credits/Resources/Research Points" Description="">
+  <Cheat Text="最大 Credits/Resources/研究点" Description="">
     <Cheatline>
       <Offset>3BE78A0</Offset>
       <Section>0</Section>
@@ -139,7 +147,7 @@
       <ValueOff>48-8B-44-24-70-41-8B-57-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Max Level" Description="">
+  <Cheat Text="Instant 等级最大" Description="">
     <Cheatline>
       <Offset>3BE78B3</Offset>
       <Section>0</Section>
@@ -153,7 +161,7 @@
       <ValueOff>45-01-A6-FC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Monolith Scanning" Description="">
+  <Cheat Text="简单 Monolith Scanning" Description="">
     <Cheatline>
       <Offset>3BE78D5</Offset>
       <Section>0</Section>

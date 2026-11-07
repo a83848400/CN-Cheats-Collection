@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="BloodRayne: ReVamped" Moder="Ali-mk" Cusa="CUSA27833" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible-for-attack">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无敌-for-攻击">
     <Cheatline>
       <Offset>823A26F7</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF-90-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>822C9E4F</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C4-C1-7A-11-8E-18-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Rage-Power">
+    <Cheat Text="Infinite-怒气-电力">
     <Cheatline>
       <Offset>822C79FE</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C4-C1-7A-11-86-90-61-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Weapon">
+    <Cheat Text="Infinite-All-Weapon｜无限全武器">
     <Cheatline>
       <Offset>8229C901</Offset>
       <Section>0</Section>

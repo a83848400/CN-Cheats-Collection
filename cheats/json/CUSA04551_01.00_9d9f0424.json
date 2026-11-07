@@ -1,13 +1,18 @@
 {
-  "name": "Nier: Automata",
+  "name": "Nier: Automata｜尼尔：机械纪元",
   "id": "CUSA04551",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DA35E",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Max Level",
+      "name": "Max Level｜等级最大",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "A96B16",

@@ -1,13 +1,18 @@
 {
-  "name": "Ghost Song",
+  "name": "幽灵 Song",
   "id": "CUSA33533",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Dash",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限冲刺",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8054BB7A",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Life",
+      "name": "无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8053517D",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Inf Modules Use",
+      "name": "无限模块的应用",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81997D8F",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8055FF5D",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "No Increment the Suit Level",
+      "name": "No Increment the 战衣 等级",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "805CD1E9",
@@ -82,9 +87,9 @@
       ]
     },
     {
-      "name": "No Overheating",
+      "name": "No Overheating｜不会过热",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80DDB51F",
@@ -94,9 +99,9 @@
       ]
     },
     {
-      "name": "No Requires Level Up",
+      "name": "No Requires 升级",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "805CD29A",

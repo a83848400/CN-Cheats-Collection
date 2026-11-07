@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Granblue Fantasy: Relink" Moder="d01v" Cusa="CUSA34766" Version="01.05" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite health｜无限生命">
     <Cheatline>
       <Offset>4395F91</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>4C-8D-B3-10-02-00-00-C5-F8-2E-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite skills">
+  <Cheat Text="Infinite skills｜无限技能">
     <Cheatline>
       <Offset>80304E</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-EA-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SBA">
+  <Cheat Text="Infinite SBA｜无限SBA">
     <Cheatline>
       <Offset>4395FE1</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>C5-FA-10-4B-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Replenish items at 1" Description="Sets all items to be 1pc">
+  <Cheat Text="Replenish items at 1｜在1处补给物品" Description="Sets all items to be 1pc">
     <Cheatline>
       <Offset>4396011</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>44-8B-70-04-44-8B-29</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max link level" Description="You may use blue potion">
+  <Cheat Text="最大 林克 等级" Description="You may use blue potion">
     <Cheatline>
       <Offset>4396041</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>C4-C1-7A-11-87-A4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze link attack timer">
+  <Cheat Text="Freeze 林克 攻击 计时器">
     <Cheatline>
       <Offset>4396081</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-FA-10-98-64-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All treasure and key items" Description="Open item inventory. Your current treasure, key items pcs/quantity will be untouched">
+  <Cheat Text="All 宝藏 and 钥匙 items" Description="Open item inventory. Your current treasure, key items pcs/quantity will be untouched">
     <Cheatline>
       <Offset>43960B1</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>83-7B-04-00-75-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant +50 treasures" Description="Open item inventory">
+  <Cheat Text="Instant +50 treasures｜立即获得+50件宝物" Description="Open item inventory">
     <Cheatline>
       <Offset>43960E1</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>41-8B-6D-48-49-8B-7D-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sell item x90">
+  <Cheat Text="Sell 物品 x90">
     <Cheatline>
       <Offset>4396111</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>4D-8D-67-04-41-01-47-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Event timer" Description="Any events like special chest (Shrouded treasure, Tombstone battle etc)">
+  <Cheat Text="Event 计时器" Description="Any events like special chest (Shrouded treasure, Tombstone battle etc)">
     <Cheatline>
       <Offset>4396141</Offset>
       <Section>0</Section>
@@ -136,7 +144,7 @@
       <ValueOff>C4-C1-7A-11-85-D8-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase all level" Description="Press menu and then you need to reload checkpoint or go back to town">
+  <Cheat Text="Increase all 等级" Description="Press menu and then you need to reload checkpoint or go back to town">
     <Cheatline>
       <Offset>4396181</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>41-8B-86-10-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max all party exp" Description="press menu and then you need to reload checkpoint or go back to town">
+  <Cheat Text="最大 all 队伍 经验" Description="press menu and then you need to reload checkpoint or go back to town">
     <Cheatline>
       <Offset>43961B1</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>41-8B-86-F8-2F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max base hp all members" Description="press menu and then you need to reload checkpoint or go back to town. it will reset upon level up">
+  <Cheat Text="最大 基地 手机 all members" Description="press menu and then you need to reload checkpoint or go back to town. it will reset upon level up">
     <Cheatline>
       <Offset>43961E1</Offset>
       <Section>0</Section>
@@ -178,7 +186,7 @@
       <ValueOff>41-8B-86-14-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max all member base atk" Description="Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
+  <Cheat Text="最大 all member 基地 攻击力" Description="Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
     <Cheatline>
       <Offset>4396211</Offset>
       <Section>0</Section>
@@ -192,7 +200,7 @@
       <ValueOff>41-8B-86-18-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max stun power all members" Description="Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
+  <Cheat Text="最大 stun 电力 all members" Description="Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
     <Cheatline>
       <Offset>4396241</Offset>
       <Section>0</Section>
@@ -206,7 +214,7 @@
       <ValueOff>C4-C1-7A-10-86-20-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max crit all members" Description="Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
+  <Cheat Text="最大 crit all members" Description="Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up">
     <Cheatline>
       <Offset>4396271</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>41-8B-86-24-30-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max rupies" Description="open item inventory">
+  <Cheat Text="最大 rupies" Description="open item inventory">
     <Cheatline>
       <Offset>43962A1</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>48-8D-74-24-15</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max MSP" Description="Open item inventory">
+  <Cheat Text="最大 MSP" Description="Open item inventory">
     <Cheatline>
       <Offset>43962D1</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Borderlands: The Handsome Collection" Moder="hejran7" Cusa="CUSA02980" Version="01.00" Process="eboot.bin">
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Instant lvl 72 - Inf Ammo - Inf HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Instant lvl 72 - 无限弹药 - 无限血量">
     <Cheatline>
       <Offset>7429CA</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-93-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skill Points - Badass Tokens">
+  <Cheat Text="最大 Skill 得分 - Badass Tokens">
     <Cheatline>
       <Offset>1EB7800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>2B-45-C8-41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Eridium Points on Use">
+  <Cheat Text="最大 镒矿 得分 on Use">
     <Cheatline>
       <Offset>1EB7810</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>89-B4-83-78-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money On Gain">
+  <Cheat Text="金钱最大 On Gain">
     <Cheatline>
       <Offset>1EB7821</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>42-89-94-B3-78-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo - Grenades">
+  <Cheat Text="无限弹药 - 手榴弹">
     <Cheatline>
       <Offset>742992</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-F2-5C-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload- Inf Ammo must be On">
+  <Cheat Text="无需换弹- 无限弹药 must be On">
     <Cheatline>
       <Offset>5BA5E</Offset>
       <Section>0</Section>

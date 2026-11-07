@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Gal Guardians: Servants of the Dark" Moder="Ali-mk" Cusa="CUSA52187" Version="01.50" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>24C9501</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-4A-95-44-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health-[100]">
+    <Cheat Text="Infinite-生命-[100]">
     <Cheatline>
       <Offset>18F495F</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E8-42-7E-DB</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Weapon">
+    <Cheat Text="Infinite-Weapon｜无限武器">
     <Cheatline>
       <Offset>18F6F3D</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>45-29-E7</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="one-Hit-Kill">
+    <Cheat Text="one-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>234DF18</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-10</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-Coins-999999">
+    <Cheat Text="最大-角落-999999">
     <Cheatline>
       <Offset>124AA1E</Offset>
       <Section>0</Section>

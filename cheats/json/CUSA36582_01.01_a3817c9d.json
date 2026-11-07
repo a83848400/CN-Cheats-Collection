@@ -1,12 +1,17 @@
 {
-  "name": "Prince of Persia: The Lost Crown",
+  "name": "波斯王子: The Lost 王冠",
   "id": "CUSA36582",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "847179D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Instant Athra surge charge ",
-      "type": "checkbox",
+      "name": "Instant Athra surge 冲锋 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "847173B0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Currencies (on get)",
-      "type": "checkbox",
+      "name": "最大 Currencies (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84717850",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Athra surge Cooldown",
-      "type": "checkbox",
+      "name": "No Athra surge Cooldown｜无“阿特拉”爆发冷却时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84717220",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows/Potions(on Shoot/Consume)",
-      "type": "checkbox",
+      "name": "箭矢无限/Potions(on Shoot/Consume)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84716FD0",

@@ -1,12 +1,17 @@
 {
-  "name": "DOOM Eternal",
+  "name": "毁灭战士 Eternal",
   "id": "CUSA13275",
   "version": "01.23",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Shield/Keys",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/盾牌/Keys",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FFB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Lives On Gain/Lose",
-      "type": "checkbox",
+      "name": "最大/无限生命 On Gain/Lose",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FAE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Fuel",
-      "type": "checkbox",
+      "name": "无限弹药/Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FFD0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Jumping Dash",
-      "type": "checkbox",
+      "name": "Infinite Jumping Dash｜无限跳跃冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E750",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Radiation/Dive Suit",
-      "type": "checkbox",
+      "name": "最大/Infinite Radiation/潜水 战衣",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FBE0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max/Inf Weapons/Praetorian Points/Mastery Tokens/Sentinel Batteries",
-      "type": "checkbox",
+      "name": "最大/Infinite 武器/Praetorian 得分/Mastery Tokens/Sentinel 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F770",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF90",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Infinite Flame Belch",
-      "type": "checkbox",
+      "name": "Infinite Flame Belch｜无尽火焰喷涌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FB90",

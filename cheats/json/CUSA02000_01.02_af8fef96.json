@@ -1,10 +1,10 @@
 {
-  "name": "Batman: Return to Arkham",
+  "name": "Batman: Return to Arkham｜《蝙蝠侠：重返阿卡姆》",
   "id": "CUSA02000",
   "version": "01.02",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "48B3800",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48B381E",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48B382B",
@@ -40,8 +45,8 @@
       ]
     },
     {
-      "name": "Add 2000 XP",
-      "type": "checkbox",
+      "name": "Add 2000 XP｜增加 2000 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48B3847",
@@ -56,8 +61,8 @@
       ]
     },
     {
-      "name": "Inf Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48B3882",

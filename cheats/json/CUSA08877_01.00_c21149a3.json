@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy IX",
+  "name": "最终幻想 IX",
   "id": "CUSA08877",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Items \"After Buy/Use\" ",
-      "type": "checkbox",
+      "name": "最大 Items \"After Buy/Use\" ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B80D",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Quick Level Up",
-      "type": "checkbox",
+      "name": "Quick 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B817",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Inf. Magic Stones \"After Use\"",
-      "type": "checkbox",
+      "name": "Infinite. 灵石 \"After Use\"",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B825",
@@ -89,8 +94,8 @@
       ]
     },
     {
-      "name": "Quickly Gain Abilities",
-      "type": "checkbox",
+      "name": "Quickly Gain Abilities｜快速掌握技能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B83F",
@@ -105,8 +110,8 @@
       ]
     },
     {
-      "name": "Max Stats \"After Level Up\"",
-      "type": "checkbox",
+      "name": "最大 属性 \"After 升级\"",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B84A",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Max Trace \"After 1 Battle\"",
-      "type": "checkbox",
+      "name": "最大 Trace \"After 1 战斗\"",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B88C",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Godmode",
-      "type": "checkbox",
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129B89C",

@@ -1,12 +1,17 @@
 {
-  "name": "Darksiders II: Deathinitive Edition",
+  "name": "Darksiders II: Deathinitive Edition｜《暗黑血统2：死亡终极版》",
   "id": "CUSA02420",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health/Wrath Bottles Potion",
-      "type": "checkbox",
+      "name": "无限生命/Wrath 玻璃瓶 药水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71D0A9",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Wrath",
-      "type": "checkbox",
+      "name": "Infinite Wrath｜无尽之怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDE0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Horse Stamina",
-      "type": "checkbox",
+      "name": "Infinite Horse Stamina｜马匹耐力无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF20",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Reaper Power",
-      "type": "checkbox",
+      "name": "Infinite 死神 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF70",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Bullets",
-      "type": "checkbox",
+      "name": "Infinite Bullets｜无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BE30",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF40",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BF90",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Lot Of Money On Gain (Disable After Use)",
-      "type": "checkbox",
+      "name": "用地 Of 金钱 On Gain (使用后禁用)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "551CB0",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Lot Of Boatman Coins (Disable After Use)",
-      "type": "checkbox",
+      "name": "用地 Of Boatman 角落 (使用后禁用)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BDA0",

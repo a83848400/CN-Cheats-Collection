@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Assassin's Creed Mirage" Moder="Saso" Cusa="CUSA33151" Version="01.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Absolute>True</Absolute>
       <Offset>2DD8204</Offset>
@@ -11,7 +19,7 @@
       <ValueOff>89-97-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Absolute>True</Absolute>
       <Offset>3266B90</Offset>
@@ -20,7 +28,7 @@
       <ValueOff>C5-FA-59-53-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mount Stamina">
+  <Cheat Text="Infinite Mount 体力">
     <Cheatline>
       <Absolute>True</Absolute>
       <Offset>3267A67</Offset>
@@ -29,7 +37,7 @@
       <ValueOff>C4-C1-7A-11-55-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Focus">
+  <Cheat Text="Infinite Focus｜无限专注值">
     <Cheatline>
       <Absolute>True</Absolute>
       <Offset>6B4F80F</Offset>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-11-83-78-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Absolute>True</Absolute>
       <Offset>6B4F83C</Offset>
@@ -61,7 +69,7 @@
       <ValueOff>89-B7-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(99) Skill Points / Level (On Spend)">
+  <Cheat Text="(99) Skill 得分 / 等级 (On Spend)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Offset>6B4F820</Offset>
@@ -77,7 +85,7 @@
       <ValueOff>48-8B-87-B8-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(9999) Resources (On Use)">
+  <Cheat Text="(9999) Resources (On Use)｜(9999) 资源(使用时生效)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Offset>6B4F800</Offset>

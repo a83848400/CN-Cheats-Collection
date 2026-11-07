@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Everspace 2 Stellar Edition" Moder="Master Studios" Cusa="PPSA14033" Version="01.000.000" Process="eboot.bin">
   <Genres Name="PS5" />
   <Items />
-  <Cheat Text="God-Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God-Mode｜神模式">
     <Cheatline>
       <Offset>7EC003E8</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-8F-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Waffenenergie Unendlich">
+  <Cheat Text="Waffenenergie Unendlich｜武器能量无限">
     <Cheatline>
       <Offset>102A8F2</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-E2-5D-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Raketen Unendlich">
+  <Cheat Text="Raketen Unendlich｜无限火箭">
     <Cheatline>
       <Offset>F95ABD</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-89-84-24-08-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Nachbrenner Unendlich">
+  <Cheat Text="Nachbrenner Unendlich｜后燃器 无限">
     <Cheatline>
       <Offset>F85421</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C4-C1-6A-59-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items 9999">
+  <Cheat Text="Items 9999｜商品编号 9999">
     <Cheatline>
       <Offset>BF-0F-27-00-00</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>41-29-C6-29-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Geld x2 Bei Reparatur">
+  <Cheat Text="Geld x2 Bei Reparatur｜维修时退款双倍">
     <Cheatline>
       <Offset>109984A</Offset>
       <Section>0</Section>

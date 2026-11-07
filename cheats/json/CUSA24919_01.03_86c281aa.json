@@ -1,12 +1,17 @@
 {
-  "name": "Shin Megami Tensei III: Nocturne: HD Remaster",
+  "name": "真女神转生 III: Nocturne: HD Remaster",
   "id": "CUSA24919",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Items x99 (on use)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Items x99 (on use)｜物品 x99（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Money x999999 (on gain)",
-      "type": "checkbox",
+      "name": "金钱 x999999 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDE0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE20",

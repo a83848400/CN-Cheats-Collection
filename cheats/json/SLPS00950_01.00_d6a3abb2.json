@@ -1,28 +1,33 @@
 {
-  "name": "Metal Slug: Super Vehicle-001",
+  "name": "金属 Slug: Super Vehicle-001",
   "id": "SLPS00950",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible-P1",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌-P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14E304",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "14E305",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-lives-P1",
-      "type": "checkbox",
+      "name": "无限生命-P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1568E6",
@@ -32,34 +37,34 @@
       ]
     },
     {
-      "name": "Infinite-All-Weapon-P1",
-      "type": "checkbox",
+      "name": "无限全武器-P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "175D04",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "175D05",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "175728",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "175729",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Infinite-Bomb-P1",
-      "type": "checkbox",
+      "name": "无限炸弹-P1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BF456",

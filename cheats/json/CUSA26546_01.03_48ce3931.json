@@ -1,12 +1,17 @@
 {
-  "name": "Green Hell",
+  "name": "Green Hell｜绿色地狱",
   "id": "CUSA26546",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "inf small building resources and resource stands and charcoal (build long sticks stands first)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite small 建造 resources and resource stands and 木炭 (构筑 long sticks stands first)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C958A8",
@@ -46,8 +51,8 @@
       ]
     },
     {
-      "name": "freeze stamina",
-      "type": "checkbox",
+      "name": "freeze 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81329211",
@@ -62,8 +67,8 @@
       ]
     },
     {
-      "name": "never gets tired",
-      "type": "checkbox",
+      "name": "never gets tired｜永远不会累",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "811B8FBF",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "infinite fire fuel",
-      "type": "checkbox",
+      "name": "infinite 火 fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80CBA3A3",
@@ -94,8 +99,8 @@
       ]
     },
     {
-      "name": "infinite torch fuel",
-      "type": "checkbox",
+      "name": "infinite 火把 fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8108A1E2",
@@ -110,8 +115,8 @@
       ]
     },
     {
-      "name": "full durability",
-      "type": "checkbox",
+      "name": "full durability｜完全耐用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82DB7D9E",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "set trust to 1000 (gain any)",
-      "type": "checkbox",
+      "name": "set 亲信 to 1000 (gain any)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82DB7DDB",
@@ -172,8 +177,8 @@
       ]
     },
     {
-      "name": "inf carrying weight (press L1 to update your weight)",
-      "type": "checkbox",
+      "name": "Infinite carrying 重量 (press L1 to update your 重量)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82DB7DE9",

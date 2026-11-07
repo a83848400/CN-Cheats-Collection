@@ -1,0 +1,38 @@
+{
+  "name": "RollerCoaster Tycoon Adventures: Deluxe",
+  "id": "PPSA17330",
+  "version": "01.002.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (99,999,999 on spend)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "807B1695",
+          "on": "B8FFE0F5054863DB85C0",
+          "off": "498B46184863DB4839D8"
+        }
+      ]
+    },
+    {
+      "name": "金钱无限 (spending does not subtract)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "807B16CF",
+          "on": "909090",
+          "off": "4829D8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "k4k0gh0st"
+  ]
+}

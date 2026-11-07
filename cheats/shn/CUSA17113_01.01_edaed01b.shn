@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="End of Eternity 4K/HD Edition" Moder="Molly" Cusa="CUSA17113" Version="01.01" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>C03800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-8B-8F-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Items">
+  <Cheat Text="Unlock All Items｜解锁全部物品">
     <Cheatline>
       <Offset>C03816</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>0F-B7-84-48-58-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Hp">
+  <Cheat Text="Max Hp｜生命值最大">
     <Cheatline>
       <Offset>C0382D</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>47-8B-64-37-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>C03840</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>45-89-6C-84-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Equipment Weight">
+  <Cheat Text="No 装备 重量">
     <Cheatline>
       <Offset>C03850</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>0F-BF-44-01-32</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Star Amount">
+  <Cheat Text="High Star Amount｜高星级">
     <Cheatline>
       <Offset>C03858</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>49-8B-87-A8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Clear All Difficulties ~Load Save~">
+  <Cheat Text="Clear All Difficulties ~读取 保存~">
     <Cheatline>
       <Offset>C0386F</Offset>
       <Section>0</Section>

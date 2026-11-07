@@ -1,12 +1,17 @@
 {
-  "name": "Undertale",
+  "name": "Undertale｜《Undertale》",
   "id": "CUSA09415",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Health｜生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204E2B4F6",
@@ -21,19 +26,19 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204E2B416",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     },
     {
-      "name": "Max GOLD",
-      "type": "checkbox",
+      "name": "Max GOLD｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "204E2B426",

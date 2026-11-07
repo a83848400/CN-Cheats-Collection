@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Pocky &amp; Rocky Reshrined" Moder="fbin" Cusa="CUSA28937" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Vida Infinita">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Vida Infinita｜无限生命">
     <Cheatline>
       <Offset>3CFC73</Offset>
       <Section>14</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-46-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="999 Vidas">
+  <Cheat Text="999 Vidas｜999条命">
     <Cheatline>
       <Offset>198BF30</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>83-F9-0A-41-89-4E-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dinheiro Infinito">
+  <Cheat Text="Dinheiro Infinito｜无限金钱">
     <Cheatline>
       <Offset>198BFC0</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>41-03-5E-40-41-89-5E-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Tempo Infinito">
+  <Cheat Text="Tempo Infinito｜无限时光">
     <Cheatline>
       <Offset>E7152C</Offset>
       <Section>14</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-11-80-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Poder Especial Infinito">
+  <Cheat Text="Poder Especial Infinito｜无限的特殊力量">
     <Cheatline>
       <Offset>B4AB39</Offset>
       <Section>14</Section>

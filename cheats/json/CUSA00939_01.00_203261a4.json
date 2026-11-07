@@ -1,12 +1,17 @@
 {
-  "name": "Saints Row: Gat out of Hell",
+  "name": "《圣徒行传》: Gat out of Hell",
   "id": "CUSA00939",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "HEALTH",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "HEALTH｜生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "177FC1D",
@@ -22,7 +27,7 @@
     },
     {
       "name": "CASH",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "177FC5B",
@@ -38,7 +43,7 @@
     },
     {
       "name": "ORBS",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "177FC3B",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "XP LEVEL",
-      "type": "checkbox",
+      "name": "XP 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "177FC01",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fullblast" Moder="Ali-mk" Cusa="CUSA12344" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>7FFB5EBD</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>E8-77-B0-D8-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-lives">
+    <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>808B37C4</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>41-FF-4E-70</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Bomb">
+    <Cheat Text="Infinite-Bomb｜无限炸弹">
     <Cheatline>
       <Offset>808B2264</Offset>
       <Section>0</Section>

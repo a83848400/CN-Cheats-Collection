@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Guns, Gore &amp; Cannoli 2" Moder="Ali-mk" Cusa="CUSA08413" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(mc)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(mc)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E9-D5-1A-55-01</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-All-Weapon-(MC)">
+    <Cheat Text="无限全武器-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>41-89-47-1C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="One-Hit-Kill">
+    <Cheat Text="One-Hit-Kill｜一击必杀">
 	<Cheatline>
       <Offset>8039DD1D</Offset>
       <Section>0</Section>

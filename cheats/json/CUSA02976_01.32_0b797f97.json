@@ -1,12 +1,17 @@
 {
-  "name": "Hitman",
+  "name": "Hitman｜《杀手》",
   "id": "CUSA02976",
   "version": "01.32",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C1781C",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Stealth",
-      "type": "checkbox",
+      "name": "Stealth｜潜行",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C17800",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C17845",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9C7AA5",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Enemys dont Attack",
-      "type": "checkbox",
+      "name": "Enemys dont 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59AFB5",

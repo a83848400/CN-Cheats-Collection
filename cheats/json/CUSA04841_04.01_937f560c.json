@@ -1,12 +1,17 @@
 {
-  "name": "No Man's Sky",
+  "name": "No Man's 光·遇",
   "id": "CUSA04841",
   "version": "04.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Sprint",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Sprint｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Jetpack",
-      "type": "checkbox",
+      "name": "Infinite 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB70",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Pet Sprint",
-      "type": "checkbox",
+      "name": "Infinite Pet Sprint｜无限宠物冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Gun Ammo",
-      "type": "checkbox",
+      "name": "Infinite Gun Ammo｜无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13DD1FD",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Minotaur Infinite Jetpack",
-      "type": "checkbox",
+      "name": "Minotaur Infinite 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16C4F59",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Quicksilver (on spend)",
-      "type": "checkbox",
+      "name": "最大 时之砂 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAB0",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Nanite Clusters (on gain)",
-      "type": "checkbox",
+      "name": "最大 Nanite Clusters (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAD0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Unites (on spend)",
-      "type": "checkbox",
+      "name": "最大 Unites (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB10",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "999 Salvaged Data (on spend)",
-      "type": "checkbox",
+      "name": "999 Salvaged Data (on spend)｜999 恢复数据（按支出计算）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EB30",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "999 Minerals (on gain)",
-      "type": "checkbox",
+      "name": "999 晶体矿 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DCB0",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "999 Minerals (on use)",
-      "type": "checkbox",
+      "name": "999 晶体矿 (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DCE0",

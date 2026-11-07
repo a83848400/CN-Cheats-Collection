@@ -1,12 +1,17 @@
 {
-  "name": "Enter the Gungeon",
+  "name": "Enter the Gungeon｜《进入枪炮地牢》",
   "id": "CUSA01608",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80346CBD",

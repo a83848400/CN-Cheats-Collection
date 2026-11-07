@@ -1,13 +1,18 @@
 {
-  "name": "Metal Gear Solid V: The Definitive Experience",
+  "name": "合金装备/潜龙谍影 V: The Definitive Experience",
   "id": "CUSA05597",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14F305F",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC0D66",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Suppressor",
+      "name": "Infinite 消音器",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2DC0A17",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Max Money",
+      "name": "Max Money｜金钱最大",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2B3A660",

@@ -1,12 +1,17 @@
 {
-  "name": "SnowRunner",
+  "name": "SnowRunner｜《雪地跑车》",
   "id": "CUSA17425",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Fuel",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1EC5500",

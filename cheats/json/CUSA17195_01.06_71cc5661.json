@@ -1,13 +1,18 @@
 {
-  "name": "Tales of Arise",
+  "name": "传说系列 Arise",
   "id": "CUSA17195",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "679F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "679F040",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Easy Exp",
+      "name": "Infinite 简单 经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "679F07F",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Inf Sp",
+      "name": "Infinite 精神值",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "679F0AF",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "679F0DE",
@@ -90,9 +95,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "679F10E",

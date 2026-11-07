@@ -3,6 +3,14 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
   <Cheat Text="MasterCode1">
     <Cheatline>
       <Offset>439387F</Offset>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-10-81-C4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Zeni on Buy/Sell">
+  <Cheat Text="最大 Zeni on Buy/Sell">
     <Cheatline>
       <Offset>4393800</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>89-4F-20-29-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Points on Spend">
+  <Cheat Text="最大 得分 on Spend">
     <Cheatline>
       <Offset>439380F</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>89-77-0C-89-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max LVL/EXP on Gain">
+  <Cheat Text="最大 LVL/经验 on Gain">
     <Cheatline>
       <Offset>439381E</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>89-77-08-89-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Buy When Refreshed">
+  <Cheat Text="最大 Items on Buy When Refreshed">
     <Cheatline>
       <Offset>4393870</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>8B-46-18-85-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>43938A3</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>C5-FA-10-81-C4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite KI">
+  <Cheat Text="Infinite KI｜无限气">
     <Cheatline>
       <Offset>4393891</Offset>
       <Section>0</Section>
@@ -115,7 +123,7 @@
       <ValueOff>C5-FA-10-81-D0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>439387F</Offset>
       <Section>0</Section>
@@ -129,7 +137,7 @@
       <ValueOff>C5-FA-10-81-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer">
+  <Cheat Text="Freeze 计时器">
     <Cheatline>
       <Offset>21B1BE</Offset>
       <Section>0</Section>

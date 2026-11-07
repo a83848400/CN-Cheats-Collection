@@ -1,12 +1,17 @@
 {
-  "name": "God Eater 2: Rage Burst",
+  "name": "上帝 Eater 2: 怒气 Burst",
   "id": "CUSA03370",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8051DF02",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8051E672",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite OP",
-      "type": "checkbox",
+      "name": "Infinite OP｜无限OP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8051E302",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "button",
+      "name": "Max Money｜金钱最大",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8050636E",

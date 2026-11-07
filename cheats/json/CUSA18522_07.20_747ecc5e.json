@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Valhalla",
+  "name": "刺客信条 Valhalla",
   "id": "CUSA18522",
   "version": "07.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BBE60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BBAF0",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Horse Stamina",
-      "type": "checkbox",
+      "name": "Horse 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BBB90",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Infinite Breath (Underwater)",
-      "type": "checkbox",
+      "name": "无限呼吸 (Underwater)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BBC40",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Resources/Consumables//Arrows/Money(On Use/Buy)",
-      "type": "checkbox",
+      "name": "最大/资源无限/Consumables//Arrows/金钱(On Use/Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BBDB0",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Instant Max/Infinite Adrenaline On Use/Gain",
-      "type": "checkbox",
+      "name": "Instant 最大/Infinite 肾上腺素 On Use/Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BBDE0",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points On Gain",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BBF00",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Mastery Points On Gain",
-      "type": "checkbox",
+      "name": "最大/Infinite Mastery 得分 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "62BB900",

@@ -1,12 +1,17 @@
 {
-  "name": "Truck Driver",
+  "name": "Truck 御刃者",
   "id": "CUSA12209",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B33800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B33813",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Tiredness",
-      "type": "checkbox",
+      "name": "No Tiredness｜不感到疲劳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B33826",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B3383E",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Damage",
-      "type": "checkbox",
+      "name": "No Damage｜不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B33851",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Passive Level",
-      "type": "checkbox",
+      "name": "最大 Passive 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B3385F",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Unlock all Passive Level",
-      "type": "checkbox",
+      "name": "解锁 all Passive 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82B33876",
