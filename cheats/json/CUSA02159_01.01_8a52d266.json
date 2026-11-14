@@ -1,12 +1,17 @@
 {
-  "name": "Onechanbara Z2: Chaos",
+  "name": "Onechanbara Z2: 混沌",
   "id": "CUSA02159",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money and Skill points",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 and Skill 得分",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "545F9988",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Cure Gem",
-      "type": "button",
+      "name": "最大 Cure Gem",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "545F92E8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Goddess Statue Shard",
-      "type": "button",
+      "name": "最大 Goddess 雕像 碎片",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "545F92FC",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Power Gem",
-      "type": "button",
+      "name": "最大 电力 Gem",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "545F92EC",

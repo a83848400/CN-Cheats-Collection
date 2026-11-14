@@ -1,12 +1,17 @@
 {
-  "name": "Tales of Arise",
+  "name": "传说系列 Arise",
   "id": "CUSA17195",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "inf Items Use",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限 Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B670B2",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Attack",
-      "type": "checkbox",
+      "name": "Infinite 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "670F800",

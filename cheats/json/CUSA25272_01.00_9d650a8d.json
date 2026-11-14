@@ -1,12 +1,17 @@
 {
-  "name": "The King of Fighters XV",
+  "name": "The 金 of Fighters XV",
   "id": "CUSA25272",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Refill HP (1P/2P Left Side) Press Evade button / L1 (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Refill 手机 (1P/2P Left Side) Press Evade 按钮 / L1 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61317D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Refill HP (1P/2P Right Side) Press Evade button / L1 (Need MC)",
-      "type": "checkbox",
+      "name": "Refill 手机 (1P/2P Right Side) Press Evade 按钮 / L1 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61317D0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Power Gauge (1P/2P Left Side) Master Code 1",
-      "type": "checkbox",
+      "name": "最大 电力 Gauge (1P/2P Left Side) Master 密码 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6131830",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Power Gauge (1P/2P Right Side) Need MC 1",
-      "type": "checkbox",
+      "name": "最大 电力 Gauge (1P/2P Right Side) 这些MC 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6131830",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Max Guard Gauge (1P/2P Left Side) Master Code 2",
-      "type": "checkbox",
+      "name": "最大 防御 Gauge (1P/2P Left Side) Master 密码 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6131880",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Guard Gauge (1P/2P Right Side) Need MC 2",
-      "type": "checkbox",
+      "name": "最大 防御 Gauge (1P/2P Right Side) 这些MC 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6131880",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Easy Stun Enemy (1P/2P Left Side) Master Code 3",
-      "type": "checkbox",
+      "name": "简单 Stun Enemy (1P/2P Left Side) Master 密码 3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61318C0",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Easy Stun Enemy (1P/2P Right Side) Need MC 3",
-      "type": "checkbox",
+      "name": "简单 Stun Enemy (1P/2P Right Side) 这些MC 3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61318C0",

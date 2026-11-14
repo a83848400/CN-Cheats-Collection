@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="This War of Mine: The Little Ones" Moder="Vampirexx" Cusa="CUSA02646" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Inf Items Backpack">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="道具无限 背包">
     <Cheatline>
       <Offset>787C01</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>42-89-44-3B-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo and Items Consumables">
+  <Cheat Text="无限弹药 and Items Consumables">
     <Cheatline>
       <Offset>787FF0</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>29-C8-41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Day never increased (Use after Day1)">
+  <Cheat Text="Day never increased (Use after Day1)｜天数从未增加（第1天后使用）">
     <Cheatline>
       <Offset>2A4546</Offset>
       <Section>0</Section>

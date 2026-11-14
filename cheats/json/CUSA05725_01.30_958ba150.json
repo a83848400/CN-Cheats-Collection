@@ -1,12 +1,17 @@
 {
-  "name": "The Witcher 3: Wild Hunt: Complete Edition",
+  "name": "巫师3：狂猎: 狂猎: Complete Edition",
   "id": "CUSA05725",
   "version": "01.30",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "x2 Item On Pickup (ON & OFF)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "x2 物品 On Pickup (ON & OFF)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "666912",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health/Stamina/Roach Stamina/1 Hit/(ON & OFF)",
-      "type": "checkbox",
+      "name": "无限生命/体力/萝卜 体力/1 Hit/(ON & OFF)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "c294ed",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "2x Skill Points (ON & OFF)",
-      "type": "checkbox",
+      "name": "2x Skill 得分 (ON & OFF)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "daf082",

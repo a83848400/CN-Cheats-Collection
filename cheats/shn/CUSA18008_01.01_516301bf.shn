@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="FPS" />
   <Genres Name="Horror" />
-  <Cheat Text="[01] Infinite HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="[01] 无限血量">
     <Cheatline>
       <Offset>B1EAA40</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-10-41-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[02] 1 Hit Kill">
+  <Cheat Text="[02] 一击必杀">
     <Cheatline>
       <Offset>B1EAAC0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-11-48-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[03] Turbo Speed">
+  <Cheat Text="[03] 涡轮 速度">
     <Cheatline>
       <Offset>B1EACA0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-10-84-24-BC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[04] NMEs Don't Move (Exceptions Needed)">
+  <Cheat Text="[04] NMEs Don'恐怖分子 招式 (Exceptions Needed)">
     <Cheatline>
       <Offset>B1EAE40</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C4-C1-7A-11-84-24-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[05] No Reload">
+  <Cheat Text="[05] 无需换弹">
     <Cheatline>
       <Offset>B1EAC00</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C4-C1-7A-10-86-8C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[06] Infinite Ammo">
+  <Cheat Text="[06] 无限弹药">
     <Cheatline>
       <Offset>B1EAA20</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>8B-45-D4-29-43-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[07] Tamed NMEs">
+  <Cheat Text="[07] Tamed NMEs｜[07] 已驯服的新分子实体">
     <Cheatline>
       <Offset>B1EAF50</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>41-80-7F-70-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[08] No Baby + No Moreau In Water">
+  <Cheat Text="[08] No Baby + No Moreau In 水">
     <Cheatline>
       <Offset>B1EAD40</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>48-8B-49-48-48-85-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[09] Infinite Leis">
+  <Cheat Text="[09] Infinite Leis｜[09] 无限花环">
     <Cheatline>
       <Offset>B1EAA70</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>41-BD-24-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[10] Infinite Collectables">
+  <Cheat Text="[10] Infinite Collectables｜[10] 无限收藏品">
     <Cheatline>
       <Offset>B1EAB20</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>8B-8D-6C-FF-FF-FF-03-48-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[11] Torchlight ON">
+  <Cheat Text="[11] Torchlight ON｜[11] 《火炬之光》已开启">
     <Cheatline>
       <Offset>B1EAC90</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>0F-95-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[12] Torchlight OFF">
+  <Cheat Text="[12] Torchlight OFF｜[12] 手电筒关闭">
     <Cheatline>
       <Offset>B1EAC80</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>88-81-14-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[13] Cannon - Infinite Health">
+  <Cheat Text="[13] Cannon - 无限生命">
     <Cheatline>
       <Offset>B1EAA50</Offset>
       <Section>0</Section>
@@ -222,7 +230,7 @@
       <ValueOff>C5-FA-10-41-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[14] Cannon - Inmediate Reload">
+  <Cheat Text="[14] Cannon - Inmediate Reload｜[14] 加农炮——即时装填">
     <Cheatline>
       <Offset>B1EABB0</Offset>
       <Section>0</Section>
@@ -236,7 +244,7 @@
       <ValueOff>C5-FA-10-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[15] Target Locator - Instant Reload">
+  <Cheat Text="[15] Target Locator - Instant Reload｜[15] 目标定位器——即时重装">
     <Cheatline>
       <Offset>B1EAB40</Offset>
       <Section>0</Section>
@@ -250,7 +258,7 @@
       <ValueOff>C5-FA-10-46-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[16] Target Locator - Instant Fire">
+  <Cheat Text="[16] Target Locator - Instant 火">
     <Cheatline>
       <Offset>B1EABE0</Offset>
       <Section>0</Section>
@@ -264,7 +272,7 @@
       <ValueOff>C5-FA-5C-80-54-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[17] Infinite Completion Points">
+  <Cheat Text="[17] Infinite Completion 得分">
     <Cheatline>
       <Offset>B1EAA30</Offset>
       <Section>0</Section>
@@ -278,7 +286,7 @@
       <ValueOff>89-4A-18-84-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18a] Torchlight Intensity x1">
+  <Cheat Text="[18a] Torchlight Intensity x1｜[18a] 火把亮度 ×1">
     <Cheatline>
       <Offset>B1EAC20</Offset>
       <Section>0</Section>
@@ -298,7 +306,7 @@
       <ValueOff>C5-FA-59-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18b] Torchlight Intensity x4">
+  <Cheat Text="[18b] Torchlight Intensity x4｜[18b] 火把亮度 ×4">
     <Cheatline>
       <Offset>B1EAC20</Offset>
       <Section>0</Section>
@@ -318,7 +326,7 @@
       <ValueOff>C5-FA-59-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[18c] Torchlight Intensity x8">
+  <Cheat Text="[18c] Torchlight Intensity x8｜[18c] 火把亮度 ×8">
     <Cheatline>
       <Offset>B1EAC20</Offset>
       <Section>0</Section>
@@ -338,7 +346,7 @@
       <ValueOff>C5-FA-59-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19a] [Game Mode] Darker">
+  <Cheat Text="[19a] [Game Mode] Darker｜[19a] [游戏模式] 更暗">
     <Cheatline>
       <Offset>B1EB0D0</Offset>
       <Section>0</Section>
@@ -352,7 +360,7 @@
       <ValueOff>41-89-85-8C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[19b] [Game Mode] Ultrashine">
+  <Cheat Text="[19b] [Game Mode] Ultrashine｜[19b] [游戏模式] 超闪耀">
     <Cheatline>
       <Offset>B1EB0D0</Offset>
       <Section>0</Section>

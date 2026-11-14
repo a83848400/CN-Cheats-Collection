@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops III",
+  "name": "使命召唤: 黑色 Ops III",
   "id": "CUSA02624",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9A2F1F",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (no reload)",
-      "type": "checkbox",
+      "name": "无限弹药 (无需换弹)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1193E2A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Stack Ammo",
-      "type": "checkbox",
+      "name": "Infinite 堆叠 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1193AAC",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Grenade x99 + Ammo",
-      "type": "checkbox",
+      "name": "手榴弹 x99 + 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "151F800",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Score",
-      "type": "checkbox",
+      "name": "最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "151F820",

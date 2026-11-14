@@ -1,12 +1,17 @@
 {
-  "name": "Mickey Storm and the Cursed Mask",
+  "name": "米奇 风暴圈 and the 诅咒 面具",
   "id": "CUSA25924",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DF2",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Blue Lightning ( on gain )",
-      "type": "checkbox",
+      "name": "最大 Blue 闪电 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DCA",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Hearts - Battery ( on gain )",
-      "type": "checkbox",
+      "name": "最大 心 - 电池 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DE0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18D7DB0",

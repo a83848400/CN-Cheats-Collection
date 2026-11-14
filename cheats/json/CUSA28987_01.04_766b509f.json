@@ -1,12 +1,17 @@
 {
-  "name": "Fatal Frame: Maiden of Black Water",
+  "name": "Fatal Frame: Maiden of 黑色 水",
   "id": "CUSA28987",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Camera Shutter Cooldown",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "相机 Shutter Cooldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Camera Film Cooldown",
-      "type": "checkbox",
+      "name": "相机 Film Cooldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B7843",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "HP Refill When Damage",
-      "type": "checkbox",
+      "name": "手机 Refill When 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4E4E13",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "HP Refill when Grab by Hand",
-      "type": "checkbox",
+      "name": "手机 Refill when Grab by 手牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D26BF",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Reset Time",
-      "type": "checkbox",
+      "name": "Reset Time｜重置时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B7811",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Pause Time",
-      "type": "checkbox",
+      "name": "Pause Time｜暂停时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "579D04",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Score + Points x2 (dont touch soul)",
-      "type": "checkbox",
+      "name": "比分 + 得分 x2 (dont touch soul)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B781E",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Score + Points + 99m (dont touch soul)",
-      "type": "checkbox",
+      "name": "比分 + 得分 + 99m (dont touch soul)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12B782F",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "+1 Item",
-      "type": "checkbox",
+      "name": "+1 Item｜+1物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DE4DD",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "+1 Film",
-      "type": "checkbox",
+      "name": "+1 Film｜+1胶片",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DF54B",
@@ -145,8 +150,8 @@
       ]
     },
     {
-      "name": "Max item per use",
-      "type": "checkbox",
+      "name": "最大 物品 per use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DE4F0",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "Max Film per use",
-      "type": "checkbox",
+      "name": "最大 Film per use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3DF55C",

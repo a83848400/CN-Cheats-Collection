@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil: Origins Collection" Moder="Saso" Cusa="CUSA03178" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>58CC3E</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>29-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>58CBEA</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>29-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload">
+  <Cheat Text="无限弹药 / 无需换弹">
     <Cheatline>
       <Offset>74CAFD</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>2B-8B-2C-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Tape">
+  <Cheat Text="Infinite 磁带">
     <Cheatline>
       <Offset>4D1220</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>41-C7-07-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Keys Needed">
+  <Cheat Text="No Keys Needed｜无需钥匙">
     <Cheatline>
       <Offset>4D0E70</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>0F-84-3C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Items In Chest">
+  <Cheat Text="所有商品 In 宝箱">
     <Cheatline>
       <Offset>EA7800</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>43-89-4C-EF-7C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP / Easy Kill (Master Code)">
+  <Cheat Text="无限血量 / 轻松击杀 (Master 密码)">
     <Cheatline>
       <Offset>F03800</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>89-B7-50-13-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Kill (MC)">
+  <Cheat Text="轻松击杀 (MC)">
     <Cheatline>
       <Offset>F03837</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>EB-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo / No Reload">
+  <Cheat Text="无限弹药 / 无需换弹">
     <Cheatline>
       <Offset>511367</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>29-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Ink Needed">
+  <Cheat Text="No 墨水 Needed">
     <Cheatline>
       <Offset>510BE5</Offset>
       <Section>0</Section>

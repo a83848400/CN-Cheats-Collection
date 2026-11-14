@@ -1,12 +1,17 @@
 {
-  "name": "Dragon's Dogma: Dark Arisen",
+  "name": "龙之信条: Dark 觉醒者",
   "id": "CUSA07340",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AE90",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Coins (on buy)",
-      "type": "checkbox",
+      "name": "最大 角落 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5ABF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5AC90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Discipline (on gain)",
-      "type": "checkbox",
+      "name": "最大 Discipline (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BBB0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "All items x5 (on use/sell)",
-      "type": "checkbox",
+      "name": "所有商品 x5 (on use/sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BC00",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Rift Crystals (on gain)",
-      "type": "checkbox",
+      "name": "最大 裂隙 Crystals (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BCA0",

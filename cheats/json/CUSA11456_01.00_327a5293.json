@@ -1,12 +1,17 @@
 {
-  "name": "Ghost of Tsushima",
+  "name": "Ghost of Tsushima｜对马岛之魂",
   "id": "CUSA11456",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Full Ghost Stance",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Full 暗影架势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "624B41",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "8,888 Supplies and 888 Resources",
-      "type": "checkbox",
+      "name": "8,888 军粮 and 888 Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DF6E2",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Resolve",
-      "type": "checkbox",
+      "name": "Infinite 决意",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "735899",

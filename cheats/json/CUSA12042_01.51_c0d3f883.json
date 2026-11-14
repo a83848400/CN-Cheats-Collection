@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Odyssey",
+  "name": "刺客信条 Odyssey",
   "id": "CUSA12042",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A64242",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Adrenaline",
-      "type": "checkbox",
+      "name": "Infinite 肾上腺素",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87FB811",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Resources",
-      "type": "checkbox",
+      "name": "Infinite Resources｜资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87FB824",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Hunter High Damage",
-      "type": "checkbox",
+      "name": "猎人 High 输出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87FB833",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Ship Infinite Stamina Adrenaline",
-      "type": "checkbox",
+      "name": "Ship 无限耐力 肾上腺素",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87FB84F",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Ability Points",
-      "type": "checkbox",
+      "name": "Infinite 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "87FB85C",

@@ -1,13 +1,18 @@
 {
-  "name": "Astro Bot",
+  "name": "Astro Bot｜宇宙机器人",
   "id": "PPSA21564",
   "version": "01.018.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Coins",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限金币",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "74BF000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Jumps",
+      "name": "无限跳跃",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "61347EA",

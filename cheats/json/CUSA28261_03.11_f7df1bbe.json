@@ -1,12 +1,17 @@
 {
-  "name": "Grid Legends",
+  "name": "Grid Legends｜《Grid Legends》",
   "id": "CUSA28261",
   "version": "03.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Cash (After Winning the Race)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Cash (After Winning the Race)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2603B90",

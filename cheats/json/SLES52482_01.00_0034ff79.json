@@ -1,12 +1,17 @@
 {
-  "name": "Steel Dragon EX",
+  "name": "Steel 小龙 EX",
   "id": "SLES52482",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808003F63C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-bomb",
-      "type": "checkbox",
+      "name": "Infinite-bomb｜无限炸弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808003F640",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Invincible",
-      "type": "checkbox",
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808003F644",

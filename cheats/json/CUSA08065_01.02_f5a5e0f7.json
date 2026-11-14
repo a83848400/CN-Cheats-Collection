@@ -1,12 +1,17 @@
 {
-  "name": "Bloons TD 5",
+  "name": "Bloons TD 5｜《Bloons TD 5》",
   "id": "CUSA08065",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "74f94d",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "797254",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Get Dollar For Spending",
-      "type": "checkbox",
+      "name": "Get Dollar For Spending｜消费即赚美元",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4884c4",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Get Coins For Spending",
-      "type": "checkbox",
+      "name": "Get Coins For Spending｜获取金币用于消费",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "69b50d",

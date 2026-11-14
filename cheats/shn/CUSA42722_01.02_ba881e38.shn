@@ -2,7 +2,15 @@
 <Trainer Game="The Walking Dead: Destinies" Moder="Reddevil82" Cusa="CUSA42722" Version="01.02" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Untouchable" Description="Untouchable">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Untouchable｜刀枪不入" Description="Untouchable">
     <Cheatline>
       <Section>0</Section>
       <Offset>81493130</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>80-BF-1B-02-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="God Mode With one click you can remove all opponents from you.">
+  <Cheat Text="God Mode｜神模式" Description="God Mode With one click you can remove all opponents from you.">
     <Cheatline>
       <Section>0</Section>
       <Offset>8102621C</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>80-78-39-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stealth Mode" Description="Stealth Mode Enemies cannot see you unless you engage them in combat.">
+  <Cheat Text="Stealth Mode｜隐身模式" Description="Stealth Mode Enemies cannot see you unless you engage them in combat.">
     <Cheatline>
       <Section>0</Section>
       <Offset>8299CA8C</Offset>
@@ -26,7 +34,7 @@
       <ValueOff>80-78-3B-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5F000</Offset>
@@ -40,7 +48,7 @@
       <ValueOff>C4-C1-7A-11-87-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="Infinite Stamina">
     <Cheatline>
       <Section>0</Section>
       <Offset>833F566D</Offset>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-11-43-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Adrenaline" Description="Infinite Adrenaline">
+  <Cheat Text="Infinite 肾上腺素" Description="Infinite Adrenaline">
     <Cheatline>
       <Section>14</Section>
       <Offset>4213812</Offset>
@@ -62,7 +70,7 @@
       <ValueOff>C5-FA-11-53-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="One Hit Kill">
     <Cheatline>
       <Section>0</Section>
       <Offset>831CE096</Offset>
@@ -70,7 +78,7 @@
       <ValueOff>80-78-38-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="No Reload">
+  <Cheat Text="No Reload｜无需换弹" Description="No Reload">
     <Cheatline>
       <Section>0</Section>
       <Offset>817F6354</Offset>
@@ -78,7 +86,7 @@
       <ValueOff>41-0F-4C-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Clip Ammo" Description="Max Clip Ammo x 999">
+  <Cheat Text="最大 Clip 但是" Description="Max Clip Ammo x 999">
     <Cheatline>
       <Section>14</Section>
       <Offset>4213800</Offset>
@@ -92,7 +100,7 @@
       <ValueOff>03-58-20-EB-E3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Vision Mode" Description="Infinite Vision Mode">
+  <Cheat Text="Infinite 视野 Mode" Description="Infinite Vision Mode">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5F098</Offset>
@@ -106,7 +114,7 @@
       <ValueOff>41-88-5E-64-0F-B6-F3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints" Description="Max Skillpoints">
+  <Cheat Text="最大 技能点" Description="Max Skillpoints">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5F0C5</Offset>
@@ -126,7 +134,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game Speed Mastercode [ Mastercode must be enabled for MC Cheats ]" Description="Game Speed Mastercode [ Mastercode must be enabled for MC Cheats ]">
+  <Cheat Text="Game 速度 主代码 [ 主代码 must be enabled for MC Cheats ]" Description="Game Speed Mastercode [ Mastercode must be enabled for MC Cheats ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5F0FB</Offset>
@@ -140,7 +148,7 @@
       <ValueOff>C5-FA-10-43-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game Speed x 1 [ MC ]" Description="To activate the cheat, briefly go to the skills menu.">
+  <Cheat Text="Game 速度 艾克斯 1 [ MC ]" Description="To activate the cheat, briefly go to the skills menu.">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5F10D</Offset>
@@ -148,7 +156,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game Speed x 2 [ MC ]" Description="To activate the cheat, briefly go to the skills menu.">
+  <Cheat Text="Game 速度 艾克斯 2 [ MC ]" Description="To activate the cheat, briefly go to the skills menu.">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5F10D</Offset>
@@ -156,7 +164,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game Speed x 3 [ MC ]" Description="To activate the cheat, briefly go to the skills menu.">
+  <Cheat Text="Game 速度 艾克斯 3 [ MC ]" Description="To activate the cheat, briefly go to the skills menu.">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5F10D</Offset>

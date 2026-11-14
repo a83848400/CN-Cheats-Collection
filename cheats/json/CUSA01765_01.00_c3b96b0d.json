@@ -1,12 +1,17 @@
 {
-  "name": "Prototype 2",
+  "name": "Prototype 2｜原型 2",
   "id": "CUSA01765",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 1 Hit (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E4C00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E4C06",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Xp",
-      "type": "checkbox",
+      "name": "最大 Xp",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E4E00",

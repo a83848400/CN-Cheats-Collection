@@ -1,0 +1,74 @@
+{
+  "name": "Serious 山姆: Siberian 混乱模式",
+  "id": "PPSA07020",
+  "version": "01.000.002",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "56BCA9",
+          "on": "9090909090",
+          "off": "E822F9D9FF"
+        }
+      ]
+    },
+    {
+      "name": "无限弹药",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "173768C",
+          "on": "8945E4E997F0DCFE",
+          "off": "0000000000000000"
+        },
+        {
+          "offset": "506725",
+          "on": "E9620F230190",
+          "off": "4429F08945E4"
+        }
+      ]
+    },
+    {
+      "name": "No Reload｜无需换弹",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "D72FA9",
+          "on": "909090",
+          "off": "014328"
+        }
+      ]
+    },
+    {
+      "name": "无限技能 得分",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "17376B4",
+          "on": "BA63000000418917498B4F10E9F08CDEFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5203AE",
+          "on": "E9017321019090",
+          "off": "418917498B4F10"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}

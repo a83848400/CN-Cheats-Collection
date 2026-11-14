@@ -4,7 +4,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Inf Health 1P" Description="Inf Health 1P">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 1P" Description="Inf Health 1P">
     <Cheatline>
       <Offset>A2B818</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>49-8D-9F-7C-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Power Bar on Hit 1P" Description="Max Inf Power Bar on Hit 1P">
+  <Cheat Text="最大 Infinite 电力 Bar on Hit 1P" Description="Max Inf Power Bar on Hit 1P">
     <Cheatline>
       <Offset>A2B800</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-C1-E6-10-4C-89-E7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf SuperMode 1P (Press R3 to deplete)" Description="Inf SuperMode 1P (Press R3 to deplete)">
+  <Cheat Text="Infinite SuperMode 1P (Press R3 to deplete)" Description="Inf SuperMode 1P (Press R3 to deplete)">
     <Cheatline>
       <Offset>A2B82F</Offset>
       <Section>0</Section>

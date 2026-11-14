@@ -1,12 +1,17 @@
 {
-  "name": "Dragon's Crown Pro",
+  "name": "小龙's 王冠 Pro",
   "id": "CUSA10454",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "High Score",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "High 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "47B229",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Double Money",
-      "type": "checkbox",
+      "name": "Double 金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52E0B3",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52E0B3",

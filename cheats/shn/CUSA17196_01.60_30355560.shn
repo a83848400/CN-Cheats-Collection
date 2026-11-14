@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="One Piece: Pirate Warriors 4" Moder="DJFlameDat" Cusa="CUSA17196" Version="01.60" Process="eboot.bin">
   <Items />
-  <Cheat Text="Inf HP" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB800</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>C4-C1-7A-10-4D-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Combos" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="无限连招" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB81F</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>8B-81-58-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="无限耐力" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB830</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>C4-C1-7A-10-5D-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Everyone Armor Gauge 0" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Everyone Armor Gauge 0｜所有人护甲值 0" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB851</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>C5-FA-10-80-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Special Moves" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="《无限特辑》 Moves" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB870</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>C5-FA-10-4E-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf K.O" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="无尽的K.O." Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB887</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>8B-B4-08-4C-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Berries (Turn On and Off)" Description="For Berries cheat once activated make sure to save before quit game or else items and money will revert back to original amount">
+  <Cheat Text="Infinite Berries (回合 On and Off)" Description="For Berries cheat once activated make sure to save before quit game or else items and money will revert back to original amount">
     <Cheatline>
       <Offset>016BB899</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>48-8B-40-10-8B-70-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Materials [Growth Map] (Turn On and Off)" Description="For Growth Map cheat once activated make sure to save before quit game or else items and money will revert back to original amount">
+  <Cheat Text="无限材料 [Growth 地图] (回合 On and Off)" Description="For Growth Map cheat once activated make sure to save before quit game or else items and money will revert back to original amount">
     <Cheatline>
       <Offset>016BB8AB</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>44-8B-64-08-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Materials [Soul Map] (Turn On and Off)" Description="For Soul Map cheat once activated make sure to save before quit game or else items and money will revert back to original amount">
+  <Cheat Text="无限材料 [Soul 地图] (回合 On and Off)" Description="For Soul Map cheat once activated make sure to save before quit game or else items and money will revert back to original amount">
     <Cheatline>
       <Offset>016BB8BA</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>44-8B-7C-08-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Paused Timer" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Paused 计时器" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB8C9</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>C5-FA-10-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Timer Countdown (To Complete Mission)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="计时器 Countdown (To Complete Mission)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB8D7</Offset>
       <Section>0</Section>
@@ -155,7 +163,7 @@
       <ValueOff>C5-FA-10-40-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Adventure Mission Points (Max Score)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="冒险模式 Mission 得分 (最大 比分)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Offset>016BB8E5</Offset>
       <Section>0</Section>

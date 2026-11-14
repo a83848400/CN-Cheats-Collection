@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Streets of Rage 4" Moder="Ali-mk" Cusa="CUSA16221" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health-(Master-Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命-(Master-密码)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E9-70-D9-F6-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-lives">
+  <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>2AFD38</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>FF-4C-03-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-stars-Power">
+  <Cheat Text="Infinite-stars-电力">
     <Cheatline>
       <Offset>281331</Offset>
       <Section>0</Section>

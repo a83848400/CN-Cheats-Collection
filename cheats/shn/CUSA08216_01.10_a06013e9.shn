@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Devil May Cry 5" Moder="Celogamez and DreamRunner" Cusa="CUSA08216" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="(Virgil) Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="(Virgil) Infinite Health/1 Hit Kill (Master Code)｜(维吉尔)无限生命/一击必杀(主代码)">
     <Cheatline>
       <Offset>8A47E70</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Virgil) Infinite Health (Enable MC)">
+  <Cheat Text="(Virgil) Infinite Health (Enable MC)｜(维吉尔)无限生命(开启主代码)">
     <Cheatline>
       <Offset>8A47E78</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Virgil) 1 Hit Kill (Enable MC)">
+  <Cheat Text="(Virgil) 1 Hit Kill (Enable MC)｜(维吉尔)一击必杀(开启主代码)">
     <Cheatline>
       <Offset>8A47E76</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Virgil) Max/Infinite Devil Triger">
+  <Cheat Text="(Virgil) Max/Infinite Devil Triger｜(维吉尔)最大/无限魔人槽">
     <Cheatline>
       <Offset>7FC5E8C0</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C4-C1-7A-11-86-20-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Virgil) Max/Infinite Virgils Concentration">
+  <Cheat Text="(Virgil) Max/Infinite Virgils Concentration｜(维吉尔)最大/无限维吉尔专注槽">
     <Cheatline>
       <Offset>7FC5E0E0</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C5-FA-10-A0-50-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="(Nero) Infinite Health/1 Hit Kill (Master Code)｜(尼禄)无限生命/一击必杀(主代码)">
     <Cheatline>
       <Offset>8A47E70</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) Infinite Health (Enable MC)">
+  <Cheat Text="(Nero) Infinite Health (Enable MC)｜(尼禄)无限生命(开启主代码)">
     <Cheatline>
       <Offset>8A47E78</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) 1 Hit Kill (Enable MC)">
+  <Cheat Text="(Nero) 1 Hit Kill (Enable MC)｜(尼禄)一击必杀(开启主代码)">
     <Cheatline>
       <Offset>8A47E76</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>75-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) Devil Breakers Equipment x999 (Buy In Shop)">
+  <Cheat Text="(Nero) Devil Breakers Equipment x999 (Buy In Shop)｜(尼禄)义手装备×999(商店购买生效)">
     <Cheatline>
       <Offset>7FC5DB90</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>0F-4F-CE-89-4C-90-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) Infinite Devil Breakers">
+  <Cheat Text="(Nero) Infinite Devil Breakers｜(尼禄)无限义手">
     <Cheatline>
       <Offset>7FC5CB80</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>44-89-B3-CC-17-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) Infinite Exceed">
+  <Cheat Text="(Nero) Infinite Exceed｜(尼禄)蓄力无限">
     <Cheatline>
       <Offset>7FC5FAA0</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>FF-CA-89-50-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) Instant Fill Exceed">
+  <Cheat Text="(Nero) Instant Fill Exceed｜(尼禄)蓄力瞬间蓄满">
     <Cheatline>
       <Offset>7FC5DB90</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>FF-C1-41-89-4E-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Nero) Infinite Bullets">
+  <Cheat Text="(Nero) Infinite Bullets｜(尼禄)无限子弹">
     <Cheatline>
       <Offset>7FC5EDB0</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>41-89-87-20-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(V) Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="(V) Infinite Health/1 Hit Kill (Master Code)｜(V)无限生命/一击必杀(主代码)">
     <Cheatline>
       <Offset>8A47BA0</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(V) Infinite Health (Enable MC)">
+  <Cheat Text="(V) Infinite Health (Enable MC)｜(V)无限生命(开启主代码)">
     <Cheatline>
       <Offset>8A47BA8</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(V) 1 Hit Kill (Enable MC)">
+  <Cheat Text="(V) 1 Hit Kill (Enable MC)｜(V)一击必杀(开启主代码)">
     <Cheatline>
       <Offset>8A47BA6</Offset>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>75-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dante) Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="(Dante) Infinite Health/1 Hit Kill (Master Code)｜(但丁)无限生命/一击必杀(主代码)">
     <Cheatline>
       <Offset>8A47F40</Offset>
       <Section>0</Section>
@@ -204,7 +212,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dante) Infinite Health (Enable MC)">
+  <Cheat Text="(Dante) Infinite Health (Enable MC)｜(但丁)无限生命(开启主代码)">
     <Cheatline>
       <Offset>8A47F48</Offset>
       <Section>0</Section>
@@ -212,7 +220,7 @@
       <ValueOff>C4-C1-7A-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dante) 1 Hit Kill (Enable MC)">
+  <Cheat Text="(Dante) 1 Hit Kill (Enable MC)｜(但丁)一击必杀(开启主代码)">
     <Cheatline>
       <Offset>8A47F46</Offset>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>75-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dante) Infinite Royal Revenge">
+  <Cheat Text="(Dante) Infinite Royal Revenge｜(但丁)无限皇家复仇">
     <Cheatline>
       <Offset>7FC5DE10</Offset>
       <Section>0</Section>
@@ -234,7 +242,7 @@
       <ValueOff>C5-FA-11-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dante) Instant Fill Royal Guard">
+  <Cheat Text="(Dante) Instant Fill Royal Guard｜(但丁)皇家守卫瞬间蓄满">
     <Cheatline>
       <Offset>7FC5D5D0</Offset>
       <Section>0</Section>
@@ -248,7 +256,7 @@
       <ValueOff>C5-FA-11-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dante) Infinite Royal Release">
+  <Cheat Text="(Dante) Infinite Royal Release｜(但丁)无限皇家释放">
     <Cheatline>
       <Offset>7FC5DB70</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>C7-40-28-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dante) Max/Infinite Devil Triger">
+  <Cheat Text="(Dante) Max/Infinite Devil Triger｜(但丁)最大/无限魔人槽">
     <Cheatline>
       <Offset>7FC5E7B0</Offset>
       <Section>0</Section>
@@ -276,7 +284,7 @@
       <ValueOff>C5-FA-11-83-14-1A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Devil Triger Bar">
+  <Cheat Text="最大/Infinite Devil Triger Bar">
     <Cheatline>
       <Offset>7FC5DE20</Offset>
       <Section>0</Section>
@@ -290,7 +298,7 @@
       <ValueOff>C5-FA-11-83-10-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Red Orbs On Gain/Buy/Use">
+  <Cheat Text="最大/无限红球 On Gain/Buy/Use">
     <Cheatline>
       <Offset>7FC5C180</Offset>
       <Section>0</Section>
@@ -328,7 +336,7 @@
       <ValueOff>41-89-44-24-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Gold Orbs On Gain Or Buy">
+  <Cheat Text="最大/无限金币 Orbs On Gain Or Buy">
     <Cheatline>
       <Offset>7FC5FB00</Offset>
       <Section>0</Section>
@@ -342,7 +350,7 @@
       <ValueOff>41-01-84-24-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time In The Bloody Palace">
+  <Cheat Text="停止 Time In The Bloody 殿堂">
     <Cheatline>
       <Offset>7FC5DEA0</Offset>
       <Section>0</Section>
@@ -356,7 +364,7 @@
       <ValueOff>C5-FA-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed (Master Code)">
+  <Cheat Text="速度 (Master 密码)">
     <Cheatline>
       <Offset>8A45500</Offset>
       <Section>0</Section>
@@ -370,7 +378,7 @@
       <ValueOff>C4-C1-7A-10-86-28-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed [x2.0]">
+  <Cheat Text="速度 [x2.0]">
     <Cheatline>
       <Offset>8A45520</Offset>
       <Section>0</Section>
@@ -384,7 +392,7 @@
       <ValueOff>41-C7-86-28-11-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed [x3.0]">
+  <Cheat Text="速度 [x3.0]">
     <Cheatline>
       <Offset>8A45520</Offset>
       <Section>0</Section>
@@ -398,7 +406,7 @@
       <ValueOff>41-C7-86-28-11-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump">
+  <Cheat Text="Super Jump｜超级跳跃">
     <Cheatline>
       <Offset>2137EEB</Offset>
       <Section>0</Section>
@@ -406,7 +414,7 @@
       <ValueOff>45-89-4F-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="SSS Style Rank">
+  <Cheat Text="SSS评价 风格等级">
     <Cheatline>
       <Offset>8A45560</Offset>
       <Section>0</Section>
@@ -420,7 +428,7 @@
       <ValueOff>48-63-86-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Inf Vergil Demon Form (Doppelgange)">
+  <Cheat Text="最大/Infinite 维吉尔 妖魔 状态 (Doppelgange)">
     <Cheatline>
       <Offset>8A45590</Offset>
       <Section>0</Section>
@@ -434,7 +442,7 @@
       <ValueOff>C5-FA-10-80-10-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Inf Vergil Concentration (by DreamRunner)">
+  <Cheat Text="最大/Infinite 维吉尔 专注 (by DreamRunner)">
     <Cheatline>
       <Offset>8A47930</Offset>
       <Section>0</Section>
@@ -448,7 +456,7 @@
       <ValueOff>C5-FA-10-A0-50-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Nero] Max Fuel v1 (by DreamRunner)">
+  <Cheat Text="[Nero] 最大 Fuel v1 (by DreamRunner)">
     <Cheatline>
       <Offset>8A45400</Offset>
       <Section>0</Section>
@@ -462,7 +470,7 @@
       <ValueOff>8D-4C-3A-FC-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="[Nero] Max Fuel v2 (by DreamRunner)">
+  <Cheat Text="[Nero] 最大 Fuel v2 (by DreamRunner)">
     <Cheatline>
       <Offset>8A45420</Offset>
       <Section>0</Section>
@@ -476,7 +484,7 @@
       <ValueOff>FF-CA-89-50-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Vergil Devil Trigger (by DreamRunner)">
+  <Cheat Text="最大 维吉尔 Devil Trigger (by DreamRunner)">
     <Cheatline>
       <Offset>8A455D0</Offset>
       <Section>0</Section>

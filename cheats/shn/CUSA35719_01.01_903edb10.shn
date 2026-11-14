@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bramble: The Mountain King" Moder="d01v" Cusa="CUSA35719" Version="01.01" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Super Jump">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Super Jump｜超级跳跃">
     <Cheatline>
       <Offset>5B2CEB1</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-83-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Drone View">
+  <Cheat Text="无人机 View">
     <Cheatline>
       <Offset>5B2CEF1</Offset>
       <Section>0</Section>

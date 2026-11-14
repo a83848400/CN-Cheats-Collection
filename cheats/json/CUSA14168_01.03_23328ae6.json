@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 3",
+  "name": "生化危机 3",
   "id": "CUSA14168",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Player Pointer",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Player 指针",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E240",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Health / 1 Hit Mastercode(May not be needed)",
-      "type": "checkbox",
+      "name": "生命 / 1 Hit 主代码(May not be needed)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E253",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E253",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712E254",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E31F5E",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max Clip Ammo",
-      "type": "checkbox",
+      "name": "最大 Clip 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E31F66",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E99A03",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Max Ammo on Reload",
-      "type": "checkbox",
+      "name": "弹药最大化 on Reload",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E99A10",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Short Animationtime for Aiming",
-      "type": "checkbox",
+      "name": "Short Animationtime for Aiming｜瞄准时的短动画时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DEA8BB",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Instant Gun-Focus",
-      "type": "checkbox",
+      "name": "Instant Gun-棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D34444",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "Freeze SaveCounter",
-      "type": "checkbox",
+      "name": "Freeze SaveCounter｜冻结 SaveCounter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15D3882",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "Max Items on Combine",
-      "type": "checkbox",
+      "name": "最大 Items on 组合",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E98F51",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "Dupe Items into Storage",
-      "type": "checkbox",
+      "name": "Dupe Items into 存储",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60D11B",
@@ -173,8 +178,8 @@
       ]
     },
     {
-      "name": "Max Items on move from Storage",
-      "type": "checkbox",
+      "name": "最大 Items on 招式 from 存储",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E328B1",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "Max Itemslots on Get",
-      "type": "checkbox",
+      "name": "最大 Itemslots on Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60B95E",
@@ -195,8 +200,8 @@
       ]
     },
     {
-      "name": "Nemesis stays down",
-      "type": "checkbox",
+      "name": "追踪者 stays down",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "236EA01",
@@ -206,8 +211,8 @@
       ]
     },
     {
-      "name": "Nemesis instant recover",
-      "type": "checkbox",
+      "name": "追踪者 instant recover",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "236EA01",
@@ -217,8 +222,8 @@
       ]
     },
     {
-      "name": "Always Open Code-Locks",
-      "type": "checkbox",
+      "name": "Always Open 密码-Locks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15CA801",

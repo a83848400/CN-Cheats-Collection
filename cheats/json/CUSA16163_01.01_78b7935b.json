@@ -1,10 +1,10 @@
 {
-  "name": "Bayonetta",
+  "name": "Bayonetta｜《贝优妮塔》",
   "id": "CUSA16163",
   "version": "01.01",
   "process": "eboot.bin",
   "master": {
-    "challenged": "yes",
+    "challenged": "yes｜是的",
     "memory": [
       {
         "offset": "DE0597",
@@ -18,8 +18,13 @@
   },
   "mods": [
     {
-      "name": "Max Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE0541",
@@ -34,8 +39,8 @@
       ]
     },
     {
-      "name": "Inf NPC HP",
-      "type": "checkbox",
+      "name": "Infinite 非玩家角色 手机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "752C2B",
@@ -45,8 +50,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "056C0F",
@@ -56,8 +61,8 @@
       ]
     },
     {
-      "name": "Inf 1st Jump",
-      "type": "checkbox",
+      "name": "无限第一次跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "72462B",
@@ -67,8 +72,8 @@
       ]
     },
     {
-      "name": "Inf 2nd Jump",
-      "type": "checkbox",
+      "name": "无限二次跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "724417",
@@ -78,8 +83,8 @@
       ]
     },
     {
-      "name": "Max Inf Halos",
-      "type": "checkbox",
+      "name": "最大 Infinite Halos",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE052C",
@@ -94,8 +99,8 @@
       ]
     },
     {
-      "name": "Arcade Inf Bullets",
-      "type": "checkbox",
+      "name": "街机厅 无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A7D49D",
@@ -105,8 +110,8 @@
       ]
     },
     {
-      "name": "Arcade Max Score",
-      "type": "checkbox",
+      "name": "街机厅 最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE04F7",
@@ -121,8 +126,8 @@
       ]
     },
     {
-      "name": "Always Max Magic",
-      "type": "checkbox",
+      "name": "Always 最大 魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE0554",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "Inf Witch Time Always On",
-      "type": "checkbox",
+      "name": "Infinite 女巫 Time Always On",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "70F44E",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "Inf Witch Time when Get",
-      "type": "checkbox",
+      "name": "Infinite 女巫 Time when Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE0508",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "Witch Time L3 On R3 Off",
-      "type": "checkbox",
+      "name": "女巫 Time L3 On R3 Off",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE05CE",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Inf Weapon Durability",
-      "type": "checkbox",
+      "name": "武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE051F",
@@ -196,8 +201,8 @@
       ]
     },
     {
-      "name": "Freeze Countdown Timer",
-      "type": "checkbox",
+      "name": "Freeze Countdown 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "16CDC5",
@@ -212,8 +217,8 @@
       ]
     },
     {
-      "name": "Death Counter Always 0",
-      "type": "checkbox",
+      "name": "死亡 计数器 Always 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE05F1",
@@ -248,8 +253,8 @@
       ]
     },
     {
-      "name": "Craft Items WO Material",
-      "type": "checkbox",
+      "name": "Craft Items WO Material｜工艺品 所需材料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE048D",
@@ -264,8 +269,8 @@
       ]
     },
     {
-      "name": "Enemies Inf HP For Training",
-      "type": "checkbox",
+      "name": "Enemies 无限血量 For 训练",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "056C11",
@@ -275,8 +280,8 @@
       ]
     },
     {
-      "name": "Result No Damage Taken",
-      "type": "checkbox",
+      "name": "Result 不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A7AAED",
@@ -286,8 +291,8 @@
       ]
     },
     {
-      "name": "Chapter No Damages Taken",
-      "type": "checkbox",
+      "name": "Chapter No Damages Taken｜第“未受损”章",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6F654",
@@ -297,8 +302,8 @@
       ]
     },
     {
-      "name": "Result 0:00.00 Time Cleared",
-      "type": "checkbox",
+      "name": "Result 0:00.00 Time Cleared｜成绩 0:00.00 通过时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A7A9BF",
@@ -308,8 +313,8 @@
       ]
     },
     {
-      "name": "Chapter 0:00.00 Time Cleared ",
-      "type": "checkbox",
+      "name": "Chapter 0:00.00 Time Cleared ｜第 0:00.00 章 时间已清零",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A6F600",
@@ -319,8 +324,8 @@
       ]
     },
     {
-      "name": "Combos Multiplier x99",
-      "type": "checkbox",
+      "name": "Combos Multiplier x99｜连击倍率 x99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE04D2",
@@ -335,8 +340,8 @@
       ]
     },
     {
-      "name": "Result Max 999,999 Combos",
-      "type": "checkbox",
+      "name": "Result 最大 999,999 Combos",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE04D2",
@@ -351,8 +356,8 @@
       ]
     },
     {
-      "name": "Chapter Max 9,999,999 Combos",
-      "type": "checkbox",
+      "name": "Chapter 最大 9,999,999 Combos",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE04E2",
@@ -367,8 +372,8 @@
       ]
     },
     {
-      "name": "Megatons Gigatons Easy Max",
-      "type": "checkbox",
+      "name": "Megatons Gigatons 简单 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0CB66F",
@@ -388,8 +393,8 @@
       ]
     },
     {
-      "name": "Megatons Gigatons Extra Time",
-      "type": "checkbox",
+      "name": "Megatons Gigatons 加时",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0CB318",
@@ -399,8 +404,8 @@
       ]
     },
     {
-      "name": "Alfheim 0 Damage Taken",
-      "type": "checkbox",
+      "name": "Alfheim 0 输出 Taken",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A7AAE5",
@@ -410,8 +415,8 @@
       ]
     },
     {
-      "name": "Alfheim Always Full HP",
-      "type": "checkbox",
+      "name": "Alfheim 永远满血",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "70D504",
@@ -421,8 +426,8 @@
       ]
     },
     {
-      "name": "Unlock Sai Fung for Completing 100 Chapters",
-      "type": "checkbox",
+      "name": "解锁 Sai Fung for Completing 100 Chapters",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE0576",
@@ -437,8 +442,8 @@
       ]
     },
     {
-      "name": "Megatons Gigatons Easy Max",
-      "type": "checkbox",
+      "name": "Megatons Gigatons 简单 最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0CB679",
@@ -448,8 +453,8 @@
       ]
     },
     {
-      "name": "Max Halos Earned Max Halos Must Be On",
-      "type": "checkbox",
+      "name": "最大 Halos Earned 最大 Halos Must Be On",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "147E8B",
@@ -459,8 +464,8 @@
       ]
     },
     {
-      "name": "Character Scaling 0.75",
-      "type": "checkbox",
+      "name": "Character Scaling 0.75｜角色缩放比例 0.75",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE061D",
@@ -475,8 +480,8 @@
       ]
     },
     {
-      "name": "Character Scaling 1.25",
-      "type": "checkbox",
+      "name": "Character Scaling 1.25｜字符缩放比例 1.25",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE061D",
@@ -491,8 +496,8 @@
       ]
     },
     {
-      "name": "Character Scaling 1.50",
-      "type": "checkbox",
+      "name": "Character Scaling 1.50｜角色缩放 1.50",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE061D",
@@ -507,8 +512,8 @@
       ]
     },
     {
-      "name": "Character Scaling 2.00",
-      "type": "checkbox",
+      "name": "Character Scaling 2.00｜角色缩放 2.00",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DE061D",

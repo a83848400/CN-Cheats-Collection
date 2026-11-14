@@ -1,13 +1,18 @@
 {
-  "name": "Sand Land",
+  "name": "沙子 领土",
   "id": "CUSA34697",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F9ECCD",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Life Car",
+      "name": "无限生命 Car",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "20B0769",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "description": "Works for drop items",
-      "type": "checkbox",
+      "name": "道具无限",
+      "description": "Works for 丢弃 items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F033",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F05F",

@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 5",
+  "name": "孤岛惊魂 5",
   "id": "CUSA05847",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Bottomless Clip",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3602297",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Resources/Medkits/Throwables/Ammo(reloadable)",
-      "type": "checkbox",
+      "name": "资源无限/Medkits/可投掷物品/但是(reloadable)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1115B97",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Earn Skill Points On Spend",
-      "type": "checkbox",
+      "name": "Earn Skill 得分 On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "31CAB9C",

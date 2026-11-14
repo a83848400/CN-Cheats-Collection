@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="MASTER CODE for god mode and honor always max">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="MASTER 密码 for 神模式 and 荣誉值 always 最大">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>4C-8B-52-10-B9-04-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode (player and horse)">
+  <Cheat Text="神模式 (player and horse)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite dead eye">
+  <Cheat Text="infinite dead eye｜死亡之眼无限">
     <Cheatline>
       <Section>0</Section>
       <Offset>144E525</Offset>
@@ -36,7 +44,7 @@
       <ValueOff>FF-50-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite stamina (horse/player)">
+  <Cheat Text="infinite stamina (horse/player)｜无限耐力(玩家/坐骑)">
     <Cheatline>
       <Section>0</Section>
       <Offset>100F487</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>FF-50-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="never wanted and zero bounty">
+  <Cheat Text="从未想要过 and 杰洛 悬赏">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>89-83-EC-3D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite items and consumables(disable during unique mission items like bounty posters...)">
+  <Cheat Text="道具无限 and consumables(disable during unique mission items like 悬赏 posters...)">
     <Cheatline>
       <Section>0</Section>
       <Offset>C8C303</Offset>
@@ -75,7 +83,7 @@
       <ValueOff>4D-89-7E-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="HONOR always maxed">
+  <Cheat Text="荣誉值 always maxed">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX Honor updated(set honor to max one time, do an honor related task to see the difference)">
+  <Cheat Text="最大 荣誉值 updated(set 荣誉值 to 最大 one time, do an 荣誉值 related task to see the difference)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -93,7 +101,7 @@
       <ValueOff>A0-86-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="add 30 pelts(enable after skinning pelt disable after putting on horse!)">
+  <Cheat Text="add 30 pelts(enable after skinning pelt disable after putting on horse!)｜添加 30 张兽皮（剥皮后生效，上马后失效！）">
     <Cheatline>
       <Section>0</Section>
       <Offset>C8C2FF</Offset>
@@ -101,7 +109,7 @@
       <ValueOff>4C-0F-44-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite ammo (in game cheat)">
+  <Cheat Text="无限弹药 (in game cheat)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>32-8F-18-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="no reload">
+  <Cheat Text="no reload｜无需换弹">
     <Cheatline>
       <Section>0</Section>
       <Offset>2C11E3B</Offset>
@@ -125,7 +133,7 @@
       <ValueOff>E8-80-65-F9-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="fast shooting (no bullet loading , skips the animation of loading bullets)">
+  <Cheat Text="fast 射门 (no bullet 加载中 , skips the animation of 加载中 项目符号)">
     <Cheatline>
       <Section>0</Section>
       <Offset>48D52CD</Offset>
@@ -133,7 +141,7 @@
       <ValueOff>41-80-8D-3B-06-00-00-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="weapons always clean">
+  <Cheat Text="武器 always clean">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -149,7 +157,7 @@
       <ValueOff>C5-FA-11-80-D0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite ammo ,throwables ,arrows ,no reload ,weapons stay clean">
+  <Cheat Text="无限弹药 ,可投掷物品 ,arrows ,无需换弹 ,武器 stay clean">
     <Cheatline>
       <Section>0</Section>
       <Offset>2B95803</Offset>
@@ -163,7 +171,7 @@
       <ValueOff>E8-AF-46-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="freeze all(ammo,throwables,money,items,trapper and pearson stock)disable during unique mission items like bounty posters...">
+  <Cheat Text="freeze all(但是,可投掷物品,金钱,items,捕兽人 and pearson 命数)disable during unique mission items like 悬赏 posters...">
     <Cheatline>
       <Section>0</Section>
       <Offset>C8637F</Offset>

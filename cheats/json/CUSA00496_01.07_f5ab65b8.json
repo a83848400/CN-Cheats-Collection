@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 4",
+  "name": "孤岛惊魂 4",
   "id": "CUSA00496",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Faster Movement MasterCode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Faster Movement MasterCode｜“移动更快”MasterCode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F911",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Run/Swim Faster MasterCode",
-      "type": "checkbox",
+      "name": "Run/Swim Faster MasterCode｜跑得更快/游得更快 MasterCode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F956",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Gravity MasterCode",
-      "type": "checkbox",
+      "name": "Gravity MasterCode｜《重力大师代码》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F99B",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Reduce Slipp. MasterCode",
-      "type": "checkbox",
+      "name": "Reduce Slipp. MasterCode｜减少打滑。MasterCode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F9D6",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Super Jump MasterCode",
-      "type": "checkbox",
+      "name": "超级跳跃 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303FA0F",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Forward Day Time MasterCode",
-      "type": "checkbox",
+      "name": "Forward 白天 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303FA6F",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Oxygen Mask MasterCode",
-      "type": "checkbox",
+      "name": "Oxygen 面具 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303FAA5",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player",
-      "type": "checkbox",
+      "name": "无限生命 Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1246298",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F800",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1457607",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F80F",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Extra XP On Gain",
-      "type": "checkbox",
+      "name": "Extra XP On Gain｜获得额外经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F83E",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Extra Karma Pts. On Gain",
-      "type": "checkbox",
+      "name": "Extra 评价分 Pts. On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F84F",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F8DD",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "Extra Carry On Loot Bag",
-      "type": "checkbox",
+      "name": "Extra 核心 On 战利品 Bag",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F8E8",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Stealth",
-      "type": "checkbox",
+      "name": "Stealth｜潜行",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1245E60",
@@ -246,8 +251,8 @@
       ]
     },
     {
-      "name": "Movement Faster",
-      "type": "checkbox",
+      "name": "Movement Faster｜动作更快",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F915",
@@ -257,8 +262,8 @@
       ]
     },
     {
-      "name": "Run/Swim Faster (Press L3)",
-      "type": "checkbox",
+      "name": "Run/Swim Faster (Press L3)｜更快地奔跑/游泳（按L3键）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F95A",
@@ -268,8 +273,8 @@
       ]
     },
     {
-      "name": "Low Gravity",
-      "type": "checkbox",
+      "name": "Low Gravity｜低重力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F99F",
@@ -279,8 +284,8 @@
       ]
     },
     {
-      "name": "Easy Climb (Reduce Slipp.)",
-      "type": "checkbox",
+      "name": "简单 Climb (Reduce Slipp.)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303F9DD",
@@ -290,8 +295,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303FA16",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "Forward Day Time",
-      "type": "checkbox",
+      "name": "Forward 白天",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303FA73",
@@ -312,8 +317,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen Mask",
-      "type": "checkbox",
+      "name": "无限氧气 面具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303FAAC",
@@ -323,8 +328,8 @@
       ]
     },
     {
-      "name": "Floating/Fly [Multi Tap X (Jump)]",
-      "type": "checkbox",
+      "name": "Floating/飞行 [Multi Tap 艾克斯 (Jump)]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "303FAC8",

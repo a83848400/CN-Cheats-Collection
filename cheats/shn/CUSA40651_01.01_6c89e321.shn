@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Star Ocean: The Second Story R" Moder="Celogamez" Cusa="CUSA40651" Version="01.01" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀 (Master 密码)">
     <Cheatline>
       <Offset>1A7FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>0F-4C-C2-89-47-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Enable Master Code))">
+  <Cheat Text="一击必杀 (Enable Master 密码))">
     <Cheatline>
       <Offset>1A7FDB7</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>74-0D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP">
+  <Cheat Text="Infinite MP｜无限魔力">
     <Cheatline>
       <Offset>1A7F610</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>0F-49-D0-89-57-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max BP On Gain">
+  <Cheat Text="最大 战斗点数 On Gain">
     <Cheatline>
       <Offset>1A7FC20</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>41-89-9E-40-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite SP On Use">
+  <Cheat Text="Infinite 精神值 On Use">
     <Cheatline>
       <Section>0</Section>
       <Offset>1A7F860</Offset>
@@ -66,7 +74,7 @@
       <ValueOff>C4-E2-70-F2-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items">
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>A2FA7E</Offset>
       <Section>14</Section>

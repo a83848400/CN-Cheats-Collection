@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Superlative Night Dreams: Cotton Fantasy" Moder="Ali-mk" Cusa="CUSA31513" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>2DAD78</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF-90-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-lives">
+  <Cheat Text="Infinite-lives｜无限生命">
     <Cheatline>
       <Offset>1DC261</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-44-8F-5C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Bomb">
+  <Cheat Text="Infinite-Bomb｜无限炸弹">
     <Cheatline>
       <Offset>199875</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>89-87-80-89-6A-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX-SCORE">
+  <Cheat Text="最大-比分">
     <Cheatline>
       <Offset>AD3800</Offset>
       <Section>0</Section>

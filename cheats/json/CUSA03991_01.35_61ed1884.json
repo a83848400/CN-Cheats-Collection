@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light: The Following: Enhanced Edition",
+  "name": "Dying Light: The Following: Enhanced Edition｜《消逝的光芒：追随者：增强版》",
   "id": "CUSA03991",
   "version": "01.35",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C790",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance (For Fight)",
-      "type": "checkbox",
+      "name": "Infinite 耐力 (For Fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C7C0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Breathe (For Run)",
-      "type": "checkbox",
+      "name": "Infinite Breathe (For Run)｜无限呼吸（跑步专用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C7F0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite/Dupe Items (Need 2/Disable after you have enough)",
-      "type": "checkbox",
+      "name": "Infinite/Dupe Items (Need 2/Disable after you have enough)｜无限/可复制道具（需2个/数量足够后禁用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "760058",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Infinite Items (Disable B4 Buy/Create Weapons)",
-      "type": "checkbox",
+      "name": "最大 道具无限 (Disable B4 Buy/Create 武器)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "760058",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload/Arrows/Throwables",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹/Arrows/可投掷物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C8E0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Melee Durability",
-      "type": "checkbox",
+      "name": "Infinite Melee Durability｜近战武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C840",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Infinite UV Flashlight",
-      "type": "checkbox",
+      "name": "Infinite UV 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C920",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Infinite Grappling Hook Stamina",
-      "type": "checkbox",
+      "name": "Infinite 抓钩 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C900",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Infinite Camouflage",
-      "type": "checkbox",
+      "name": "Infinite Camouflage｜无限伪装",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C8A0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Max Level All Skill Points On Gain",
-      "type": "checkbox",
+      "name": "等级最大 All Skill 得分 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C820",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "Max Infinite Money On Gain Or Buy",
-      "type": "checkbox",
+      "name": "最大 金钱无限 On Gain Or Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C860",

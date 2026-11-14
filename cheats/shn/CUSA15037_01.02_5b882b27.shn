@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Door Kickers: Action Squad" Moder="Ali-mk" Cusa="CUSA15037" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>9B860</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C4-C1-7A-11-87-30-34-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Unlock-All-stages">
+    <Cheat Text="解锁-All-stages">
     <Cheatline>
       <Offset>CBBF1</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>74-18</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Game-Speed">
+    <Cheat Text="Game-速度">
     <Cheatline>
       <Offset>1BF6E3</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-47-0C</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Ammo">
+    <Cheat Text="Infinite-Ammo｜无限弹药">
     <Cheatline>
       <Offset>BFBEF</Offset>
       <Section>0</Section>

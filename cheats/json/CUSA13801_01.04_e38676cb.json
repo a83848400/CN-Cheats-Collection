@@ -1,12 +1,17 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA13801",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38A7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Multipler Skill Point(EXP) After Get",
-      "type": "checkbox",
+      "name": "Multipler Skill Point(经验) After Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19A0481",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "199F964",

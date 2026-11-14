@@ -1,12 +1,17 @@
 {
-  "name": "Soldner-X 2: Final Prototype Definitive Edition",
+  "name": "Soldner-艾克斯 2: Final Prototype Definitive Edition",
   "id": "CUSA14451",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125DE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite LIMIT",
-      "type": "checkbox",
+      "name": "Infinite LIMIT｜无限极限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "764A5",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Shock Wave",
-      "type": "checkbox",
+      "name": "无限冲击 兵线",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "76426",

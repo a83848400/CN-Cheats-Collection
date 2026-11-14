@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Airport Simulator: Day &amp; Night" Moder="Reddevil82 - FW 9.00" Cusa="CUSA29671" Version="01.01" Process="eboot.bin">
   <Genres Name="Simulation" />
   <Items />
-  <Cheat Text="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>183BE80</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FB-10-41-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Buy Task">
+  <Cheat Text="Infinite Buy Task｜无限购买任务">
     <Cheatline>
       <Offset>183BE9A</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>74-3E-FF-48-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Player Upgrades ( after 1st successful task )">
+  <Cheat Text="Unlimited Player Upgrades ( after 1st successful task )｜无限玩家升级（完成首个任务后）">
     <Cheatline>
       <Offset>1B52A1</Offset>
       <Section>14</Section>
@@ -38,7 +46,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited XP Points ( after 1st successful task )">
+  <Cheat Text="无限经验 得分 ( after 1st successful task )">
     <Cheatline>
       <Offset>183BEAC</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>45-01-74-24-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level ( after 1st successful task )">
+  <Cheat Text="等级最大 ( after 1st successful task )">
     <Cheatline>
       <Offset>183BEC7</Offset>
       <Section>0</Section>

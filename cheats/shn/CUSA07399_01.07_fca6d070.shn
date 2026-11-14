@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Crash Bandicoot: N. Sane Trilogy" Moder="Saso-^-hejran7" Cusa="CUSA07399" Version="01.07" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Hauptkennziffer">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Hauptkennziffer｜主要指标">
     <Cheatline>
       <Offset>1FFF800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-F8-11-03-EB-75</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unbesiegbar">
+  <Cheat Text="Unbesiegbar｜所向披靡">
     <Cheatline>
       <Offset>1FFF806</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>74-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Boxen">
+  <Cheat Text="最大 Boxen">
     <Cheatline>
       <Offset>1FFF80E</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>74-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Äpfel">
+  <Cheat Text="最大 Äpfel">
     <Cheatline>
       <Offset>1FFF816</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>74-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Leben">
+  <Cheat Text="最大 Leben">
     <Cheatline>
       <Offset>1FFF845</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>49-89-FE-41-89-76-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Diamanten">
+  <Cheat Text="最大 Diamanten">
     <Cheatline>
       <Offset>1FFF858</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>49-89-FE-41-89-76-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumps">
+  <Cheat Text="Infinite Jumps｜无限跳跃">
     <Cheatline>
       <Offset>3DEF8B</Offset>
       <Section>0</Section>

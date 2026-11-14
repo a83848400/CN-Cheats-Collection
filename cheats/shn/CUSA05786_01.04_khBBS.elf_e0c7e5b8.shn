@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Kingdom Hearts: HD 1.5 + 2.5 ReMIX" Moder="2pt" Cusa="CUSA05786" Version="01.04" Process="khBBS.elf">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Health" Description="The health bar still fluctuates a bit and poison can still kill you but it mostly works fine. I'm too lazy to go back and fix those issues.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命" Description="The health bar still fluctuates a bit and poison can still kill you but it mostly works fine. I'm too lazy to go back and fix those issues.">
     <Cheatline>
       <Section>0</Section>
       <Offset>153572</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>66-41-89-8E-C0-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Section>0</Section>
       <Offset>69F800</Offset>
@@ -24,7 +32,7 @@
       <ValueOff>66-41-89-84-24-38-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Munny Doesn't Decrease On Spend" Description="Also money doesn't increase on sell while this is on. Turn off before you sell, turn on before you buy.">
+  <Cheat Text="Munny Doesn'恐怖分子 Decrease On Spend" Description="Also money doesn't increase on sell while this is on. Turn off before you sell, turn on before you buy.">
     <Cheatline>
       <Section>0</Section>
       <Offset>32FDFB</Offset>
@@ -32,7 +40,7 @@
       <ValueOff>89-88-3C-25-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Focus" Description="The timer for aiming your focus powers is still there but the actual focus amount won't decrease.">
+  <Cheat Text="无限专注值" Description="The timer for aiming your focus powers is still there but the actual focus amount won't decrease.">
     <Cheatline>
       <Section>0</Section>
       <Offset>121010</Offset>
@@ -52,7 +60,7 @@
       <ValueOff>C5-FA-11-43-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Ability Cooldown">
+  <Cheat Text="No 技能冷却">
     <Cheatline>
       <Section>0</Section>
       <Offset>11C5B0</Offset>
@@ -60,7 +68,7 @@
       <ValueOff>73-5E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf D-Link Bar">
+  <Cheat Text="Infinite D-林克 Bar">
     <Cheatline>
       <Section>0</Section>
       <Offset>11FDE4</Offset>
@@ -68,7 +76,7 @@
       <ValueOff>C4-C1-7A-11-44-24-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Medals Don't Decrease">
+  <Cheat Text="Medals Don'恐怖分子 Decrease">
     <Cheatline>
       <Section>0</Section>
       <Offset>32FE2B</Offset>

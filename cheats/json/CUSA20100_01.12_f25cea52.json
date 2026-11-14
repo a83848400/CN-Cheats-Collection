@@ -1,12 +1,17 @@
 {
-  "name": "Project Cars 3",
+  "name": "Project Cars 3｜《Project Cars 3》",
   "id": "CUSA20100",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money ( on gain )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23D3DB0",

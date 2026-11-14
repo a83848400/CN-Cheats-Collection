@@ -1,12 +1,17 @@
 {
-  "name": "Control",
+  "name": "Control｜控制",
   "id": "CUSA11454",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "inf ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66ADB7",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "inf energy",
-      "type": "checkbox",
+      "name": "无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F1B4A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "999 abilities points on use",
-      "type": "checkbox",
+      "name": "999 abilities 得分 on use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F827",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "999999 source credit on use",
-      "type": "checkbox",
+      "name": "999999 source credit on use｜999999 使用时请注明出处",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F814",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "999999 materials on use",
-      "type": "checkbox",
+      "name": "999999 materials on use｜999999 种材料正在使用中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C7F800",

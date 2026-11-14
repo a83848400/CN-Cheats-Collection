@@ -1,12 +1,17 @@
 {
-  "name": "Battlefield V",
+  "name": "Battlefield V｜战地5",
   "id": "CUSA08670",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infi ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27FE2F2",

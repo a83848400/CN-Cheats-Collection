@@ -1,12 +1,17 @@
 {
-  "name": "Zombieland: Double Tap: Roadtrip",
+  "name": "Zombieland: Double Tap: Roadtrip｜《僵尸之地：双重打击：公路之旅》",
   "id": "CUSA15438",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo/No reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FEA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Melee Durability/Throwables x99",
-      "type": "checkbox",
+      "name": "近战 耐用性/可投掷物品 x99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FED0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Instant Super Ready(turn off at the end of mission)",
-      "type": "checkbox",
+      "name": "Instant Super Ready(回合 off at the 末地 of mission)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023FED0",

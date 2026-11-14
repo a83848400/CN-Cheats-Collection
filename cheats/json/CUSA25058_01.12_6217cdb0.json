@@ -1,12 +1,17 @@
 {
-  "name": "Habroxia 2",
+  "name": "Habroxia 2｜哈布罗克西亚 2",
   "id": "CUSA25058",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "HP / Credits (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "手机 / Credits (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf HP + (MC)",
-      "type": "checkbox",
+      "name": "无限血量 + (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DB80B",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Credits (99999) + (MC)",
-      "type": "checkbox",
+      "name": "最大 Credits (99999) + (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DB80D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Inf Boost",
-      "type": "checkbox",
+      "name": "无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7DB83C",

@@ -1,13 +1,18 @@
 {
-  "name": "Dragon's Dogma 2",
+  "name": "龙之信条 2",
   "id": "PPSA09663",
   "version": "01.000.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Easy Exp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "简单 经验",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9A7000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9A7030",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C9A705F",

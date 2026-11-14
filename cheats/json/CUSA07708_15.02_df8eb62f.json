@@ -1,12 +1,17 @@
 {
-  "name": "Monster Hunter: World",
+  "name": "怪物猎人: World",
   "id": "CUSA07708",
   "version": "15.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Item",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A223C1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Item Box 1 sell become x2 Item",
-      "type": "checkbox",
+      "name": "道具箱 1 sell become x2 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A223CE",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Item Pouch",
-      "type": "checkbox",
+      "name": "物品 皮袋",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A22521",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Hp",
-      "type": "checkbox",
+      "name": "Infinite Hp｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CDE4AA",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E4874E",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "100 Mil Fuel",
-      "type": "checkbox",
+      "name": "100 Mil Fuel｜10万燃料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C28266",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C2826C",
@@ -83,7 +88,7 @@
     },
     {
       "name": "EP x2",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED706C",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Infinite EP",
-      "type": "checkbox",
+      "name": "Infinite EP｜《Infinite》EP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2ED706C",

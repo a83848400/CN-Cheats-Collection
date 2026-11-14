@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops III",
+  "name": "使命召唤: 黑色 Ops III",
   "id": "CUSA02624",
   "version": "01.26",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11719DA",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "99D06F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Give Points (Player 1)",
-      "type": "button",
+      "name": "Give 得分 (Player 1)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8050A94",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Give Points (Player 2)",
-      "type": "button",
+      "name": "Give 得分 (Player 2)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "8067CA4",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Give Points (Player 3)",
-      "type": "button",
+      "name": "Give 得分 (Player 3)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "807EEB4",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Give Points (Player 4)",
-      "type": "button",
+      "name": "Give 得分 (Player 4)",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "80960C4",

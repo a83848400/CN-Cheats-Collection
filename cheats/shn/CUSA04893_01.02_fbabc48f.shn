@@ -6,7 +6,15 @@
   <Genres Name="Educational" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>18AF47F</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>0F-4F-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money/Items">
+  <Cheat Text="金钱无限/Items">
     <Cheatline>
       <Offset>1BD2EA2</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>44-29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>2FF7800</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>41-89-84-24-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money/Items">
+  <Cheat Text="金钱无限/Items">
     <Cheatline>
       <Offset>2FF783A</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>89-43-10-45-0F-B6-C4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>B8F947</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>41-0F-4E-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Items on Get">
+  <Cheat Text="金钱最大/Items on Get">
     <Cheatline>
       <Offset>DC8BC7</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>0F-47-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money/Items">
+  <Cheat Text="金钱无限/Items">
     <Cheatline>
       <Offset>DC8BF3</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Borderlands 3",
+  "name": "无主之地 3",
   "id": "CUSA08025",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "money never decrease",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "money never decrease｜金钱不减少",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4EE8B4D",

@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry 4",
+  "name": "孤岛惊魂 4",
   "id": "CUSA00462",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13E8635",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows/Grenade Launchers",
-      "type": "checkbox",
+      "name": "箭矢无限/手榴弹 Launchers",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "129E465",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FE2B1F",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Cash",
-      "type": "checkbox",
+      "name": "Infinite Cash｜无限现金",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BE895",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Health Syringes",
-      "type": "checkbox",
+      "name": "无限生命 Syringes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1309565",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite XP",
-      "type": "checkbox",
+      "name": "Infinite XP｜无限经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C8D182",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infinite Syringes",
-      "type": "checkbox",
+      "name": "Infinite Syringes｜无限注射器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1306FFD",

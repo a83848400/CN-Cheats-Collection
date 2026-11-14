@@ -1,12 +1,17 @@
 {
-  "name": "Dragon Quest XI: Echoes of an Elusive Age",
+  "name": "勇者斗恶龙11: Echoes of an Elusive 年龄",
   "id": "CUSA08518",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money Gain After Battle Is Always +500(Disable Exp Cheat)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱 Gain After 战斗 Is Always +500(Disable 经验 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Money Gain After Battle Is Always +1K(Disable Exp Cheat)",
-      "type": "checkbox",
+      "name": "金钱 Gain After 战斗 Is Always +1K(Disable 经验 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Money Gain After Battle Is Always +10K(Disable Exp Cheat)",
-      "type": "checkbox",
+      "name": "金钱 Gain After 战斗 Is Always +10K(Disable 经验 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Money Gain After Battle Is Always +100K(Disable Exp Cheat)",
-      "type": "checkbox",
+      "name": "金钱 Gain After 战斗 Is Always +100K(Disable 经验 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Item Increase Upon Use/Sell(Dont Use In Battle)",
-      "type": "checkbox",
+      "name": "物品 Increase Upon Use/Sell(Dont Use In 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125A5D8",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Quick Exp Gain(+1K)(Disable Money Cheat)",
-      "type": "checkbox",
+      "name": "Quick 经验 Gain(+1K)(Disable 金钱 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Quick Exp Gain After Battle(+5K)(Disable Money Cheat)",
-      "type": "checkbox",
+      "name": "Quick 经验 Gain After 战斗(+5K)(Disable 金钱 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Quick Exp Gain After Battle(+10K)(Disable Money Cheat)",
-      "type": "checkbox",
+      "name": "Quick 经验 Gain After 战斗(+10K)(Disable 金钱 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Quick Exp Gain After Battle(+100K)(Disable Money Cheat)",
-      "type": "checkbox",
+      "name": "Quick 经验 Gain After 战斗(+100K)(Disable 金钱 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Infinite Focus Point",
-      "type": "checkbox",
+      "name": "无限专注值 Point",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E8874E",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Perfectionist Pearl Gain Extra 10",
-      "type": "checkbox",
+      "name": "Perfectionist Pearl Gain Extra 10｜完美主义者珍珠 额外获得10点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Perfectionist Pearl Gain Extra 50",
-      "type": "checkbox",
+      "name": "Perfectionist Pearl Gain Extra 50｜完美主义者珍珠 额外获得50点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Perfectionist Pearl Gain Extra 100",
-      "type": "checkbox",
+      "name": "Perfectionist Pearl Gain Extra 100｜完美主义者珍珠 额外获得100",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Perfectionist Pearl Gain Extra 500",
-      "type": "checkbox",
+      "name": "Perfectionist Pearl Gain Extra 500｜完美主义者珍珠 额外获得500",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71BF800",

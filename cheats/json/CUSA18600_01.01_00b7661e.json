@@ -1,12 +1,17 @@
 {
-  "name": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
+  "name": "勇者斗恶龙11 S: Echoes of an Elusive 年龄 - Definitive Edition",
   "id": "CUSA18600",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9F9A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite MP",
-      "type": "checkbox",
+      "name": "Infinite MP｜无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9FAB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Gold",
-      "type": "checkbox",
+      "name": "Infinite Gold｜无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9FA60",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite skill points",
-      "type": "checkbox",
+      "name": "Infinite skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9FA10",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max level (after 2nd fight)",
-      "type": "checkbox",
+      "name": "等级最大 (after 2nd fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9F9D0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "999 items in bag (On use/discard)",
-      "type": "checkbox",
+      "name": "999 件商品 in bag (On use/弃牌)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9FB10",

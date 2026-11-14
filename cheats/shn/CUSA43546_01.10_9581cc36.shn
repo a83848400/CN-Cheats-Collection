@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Monster Hunter Stories 2: Wings of Ruin" Moder="Super Death" Cusa="CUSA43546" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Lvl" Description="Clear 2 battles for Max level">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Lvl" Description="Clear 2 battles for Max level">
     <Cheatline>
       <PS5Offset>7FC-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="Buy/sell an item">
+  <Cheat Text="Infinite Money｜金钱无限" Description="Buy/sell an item">
     <Cheatline>
       <PS5Offset>7E6-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Add x99 Items" Description="Buying or obtaining an item will add 99 of it. ">
+  <Cheat Text="Add x99 件商品" Description="Buying or obtaining an item will add 99 of it. ">
     <Cheatline>
       <PS5Offset>7C8-executable[0]-5</PS5Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Until Dawn: Rush of Blood",
+  "name": "Until Dawn: 快攻 of Blood",
   "id": "CUSA02350",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo/No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BC9CD2",

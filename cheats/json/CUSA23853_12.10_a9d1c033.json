@@ -1,12 +1,17 @@
 {
-  "name": "Anno: Mutationem",
+  "name": "纪元: Mutationem",
   "id": "CUSA23853",
   "version": "12.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Money And Skill Points",
-      "type": "checkbox",
+      "name": "金钱无限 And Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F037",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0A7",

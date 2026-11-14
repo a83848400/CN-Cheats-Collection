@@ -1,12 +1,17 @@
 {
-  "name": "Road Redemption",
+  "name": "Road Redemption｜《公路救赎》",
   "id": "CUSA13020",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Infinite Nitro",
-      "type": "checkbox",
+      "name": "Infinite Nitro｜无限氮气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -29,8 +34,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Grenades/Bombs",
-      "type": "checkbox",
+      "name": "无限弹药/手榴弹/Bombs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Money Freeze (Only use in Shop)",
-      "type": "checkbox",
+      "name": "金钱 Freeze (Only use in Shop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "XP Freeze (Only use in XP-Shop)",
-      "type": "checkbox",
+      "name": "XP Freeze (Only use in XP-Shop)｜XP 死机（仅限在 XP-Shop 中使用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

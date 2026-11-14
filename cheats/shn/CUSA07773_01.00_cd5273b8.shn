@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Inf HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>3DF800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-F9-2E-4D-F0-C5-FB-11-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lives">
+  <Cheat Text="Infinite Lives｜无限生命">
     <Cheatline>
       <Offset>3DF823</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>41-89-06-83-FB-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score on Gain">
+  <Cheat Text="最大 比分 on Gain">
     <Cheatline>
       <Offset>3DF833</Offset>
       <Section>0</Section>

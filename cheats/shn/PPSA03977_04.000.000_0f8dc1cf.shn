@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Witcher 3: Wild Hunt: Complete Edition" Moder="Super Death" Cusa="PPSA03977" Version="04.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="God Mode + OHK + Stamina">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="神模式 + OHK + 体力">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode + Stamina" Description="Do not use with One Hit Kill">
+  <Cheat Text="神模式 + 体力" Description="Do not use with One Hit Kill">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="Do not use with God Mode">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="Do not use with God Mode">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money" Description="Do not use this with x99 items // BUY an item then immediately turn off the cheat">
+  <Cheat Text="Infinite Money｜金钱无限" Description="Do not use this with x99 items // BUY an item then immediately turn off the cheat">
     <Cheatline>
       <PS5Offset>7E2-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x99 Items" Description="Do not use this with Infinite Money. Buy or obtain an item">
+  <Cheat Text="x99 Items｜x99 件商品" Description="Do not use this with Infinite Money. Buy or obtain an item">
     <Cheatline>
       <PS5Offset>7CB-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="X99 Skill Points" Description="Go to the Character screen and enable the cheat, spend one point. The game will freeze. Turn off the cheat and the game will resume. ">
+  <Cheat Text="X99 Skill 得分" Description="Go to the Character screen and enable the cheat, spend one point. The game will freeze. Turn off the cheat and the game will resume. ">
     <Cheatline>
       <PS5Offset>7B4-executable[0]-5</PS5Offset>
       <Section>0</Section>

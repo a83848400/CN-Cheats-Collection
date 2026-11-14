@@ -1,12 +1,17 @@
 {
-  "name": "Bastion",
+  "name": "Bastion｜堡垒",
   "id": "CUSA02057",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10EEBED",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Special",
-      "type": "checkbox",
+      "name": "Infinite Special｜《无限特辑》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F31EF5",

@@ -1,12 +1,17 @@
 {
-  "name": "Oddworld: Stranger's Wrath HD",
+  "name": "Oddworld: Stranger's Wrath HD｜《奇异世界：陌生人的愤怒 HD》",
   "id": "CUSA26454",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Health ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 生命 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBDF4",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Godmode",
-      "type": "checkbox",
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "205AA3",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Health [MC]",
-      "type": "checkbox",
+      "name": "无限生命 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBDFA",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [MC] ( Disable Anesthetize )",
-      "type": "checkbox",
+      "name": "一击必杀 [MC] ( Disable Anesthetize )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBE09",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Enemies only Anesthetize [MC] ( Disable One Hit Kill )",
-      "type": "checkbox",
+      "name": "Enemies only Anesthetize [MC] ( Disable 一击必杀 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBE09",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBDB0",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6CBDE2",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "No Reload ( Weapon )",
-      "type": "checkbox",
+      "name": "无需换弹 ( Weapon )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BA337",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Freeze Enemies",
-      "type": "checkbox",
+      "name": "Freeze Enemies｜冻结敌人",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8433D",

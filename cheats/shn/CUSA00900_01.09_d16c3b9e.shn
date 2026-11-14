@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Bloodborne" Moder="hejran7" Cusa="CUSA00900" Version="01.09" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinity HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinity 手机" Description="">
     <Cheatline>
       <Offset>1A0D474</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>85-F6-78-0A-8B-47-0C-39-F0-0F-4E-F0-EB-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>1A0D474</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>85-F6-78-0A-8B-47-0C-39-F0-0F-4E-F0-EB-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP + OHK" Description="">
+  <Cheat Text="无限血量 + OHK" Description="">
     <Cheatline>
       <Offset>1A0D474</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>85-F6-78-0A-8B-47-0C-39-F0-0F-4E-F0-EB-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Poison Resistance" Description="">
+  <Cheat Text="Poison Resistance｜抗毒" Description="">
     <Cheatline>
       <Offset>50DB800</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>89-93-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Stamina" Description="">
+  <Cheat Text="无限耐力" Description="">
     <Cheatline>
       <Offset>18CA5FE</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>41-89-87-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Blood Echoes On Spend" Description="">
+  <Cheat Text="无尽之血 Echoes On Spend" Description="">
     <Cheatline>
       <Offset>1B63C16</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>0F-4E-D6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Lose Blood Echoes" Description="">
+  <Cheat Text="Never Lose 血之回响" Description="">
     <Cheatline>
       <Offset>13D2BD6</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>89-81-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Insight On Spend" Description="">
+  <Cheat Text="Infinite 灵视 On Spend" Description="">
     <Cheatline>
       <Offset>1B63C34</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>48-85-C9-74-06-29-81-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items On Use" Description="">
+  <Cheat Text="道具无限 On Use" Description="">
     <Cheatline>
       <Offset>14D9559</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>44-89-63-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Dupe Anything In Storage Box" Description="">
+  <Cheat Text="Dupe Anything In 存储 Box" Description="">
     <Cheatline>
       <Offset>14D954E</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>76-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Weapon Durability" Description="">
+  <Cheat Text="武器耐久无限" Description="">
     <Cheatline>
       <Offset>1A94C50</Offset>
       <Section>0</Section>

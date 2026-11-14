@@ -1,0 +1,74 @@
+{
+  "name": "Resogun",
+  "id": "CUSA00038",
+  "version": "01.10",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (made by Weysincha)",
+      "hint": null,
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "675A6D",
+          "on": "B863000000",
+          "off": "FFC80F48C1"
+        }
+      ]
+    },
+    {
+      "name": "无限炸弹 (made by Weysincha)",
+      "hint": null,
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "67607E",
+          "on": "B863000000909090",
+          "off": "B9000000000F48C1"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Boost (涡轮) (made by Web Xx)",
+      "hint": "Boost meter stays full and never drains",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "244D78",
+          "on": "9090",
+          "off": "7408"
+        }
+      ]
+    },
+    {
+      "name": "Unlimited 超必杀技 + 上帝模式 (made by Web Xx)",
+      "hint": "超必杀技 starts automatically, restarts when it ends, and never runs out",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "24988A",
+          "on": "EB25",
+          "off": "7525"
+        },
+        {
+          "offset": "24A7F5",
+          "on": "9090",
+          "off": "7404"
+        },
+        {
+          "offset": "24A867",
+          "on": "4183CC01",
+          "off": "4183E401"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Weysincha & Web Xx"
+  ]
+}

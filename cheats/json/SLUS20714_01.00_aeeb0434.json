@@ -1,12 +1,17 @@
 {
-  "name": "Red Ninja: End of Honor",
+  "name": "Red Ninja: 末地 of 荣誉值",
   "id": "SLUS20714",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808067B514",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Kurengi-Health",
-      "type": "checkbox",
+      "name": "Kurengi-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808067B514",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf-shurikens",
-      "type": "checkbox",
+      "name": "无限手里剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "808059540C",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Power-ful",
-      "type": "checkbox",
+      "name": "电力-ful",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80805953CC",

@@ -1,12 +1,17 @@
 {
-  "name": "DOOM 64",
+  "name": "毁灭战士 64",
   "id": "CUSA16296",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "837020",
@@ -36,8 +41,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill",
-      "type": "checkbox",
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "837060",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "Infinite Armor",
-      "type": "checkbox",
+      "name": "Infinite Armor｜护甲无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "837120",
@@ -68,8 +73,8 @@
       ]
     },
     {
-      "name": "All Weapons",
-      "type": "checkbox",
+      "name": "All 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8371D0",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "837210",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "837140",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "3 Keycards",
-      "type": "checkbox",
+      "name": "3 Keycards｜3 张门卡",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "837170",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "3 Skull Keys",
-      "type": "checkbox",
+      "name": "3 Skull Keys｜3 骷髅钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8371A0",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "3 Demon Keys",
-      "type": "checkbox",
+      "name": "3 妖魔 Keys",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8370A0",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "Enemies Don't Move (-MAP 28)",
-      "type": "checkbox",
+      "name": "Enemies Don'恐怖分子 招式 (-地图 28)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "837230",
@@ -180,8 +185,8 @@
       ]
     },
     {
-      "name": "Turbo Speed",
-      "type": "checkbox",
+      "name": "涡轮 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8370E0",

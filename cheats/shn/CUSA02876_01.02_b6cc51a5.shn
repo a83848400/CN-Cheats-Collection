@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="AeternoBlade" Moder="Rizla" Cusa="CUSA02876" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>463800</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>C5-FA-11-80-88-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite MP">
+  <Cheat Text="Infinite MP｜无限魔力">
     <Cheatline>
       <Offset>4638BF</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>C5-FA-11-80-90-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite UP on Gain">
+  <Cheat Text="Infinite UP on Gain｜增益无限向上">
     <Cheatline>
       <Offset>463895</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>C5-FA-11-80-98-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>46387E</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FA-10-88-88-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Orbs on Spend">
+  <Cheat Text="最大 Orbs on Spend">
     <Cheatline>
       <Offset>463912</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>8B-74-24-F4-89-77-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Relics on Pickup/Sell/Use">
+  <Cheat Text="最大 遗器 on Pickup/Sell/Use">
     <Cheatline>
       <Offset>463923</Offset>
       <Section>0</Section>

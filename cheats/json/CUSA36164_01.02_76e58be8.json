@@ -1,12 +1,17 @@
 {
-  "name": "Destroy All Humans! 2 - Reprobed",
+  "name": "拆除 All Humans! 2 - Reprobed",
   "id": "CUSA36164",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77A3410",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Sauce Health (M)",
-      "type": "checkbox",
+      "name": "Infinite Sauce 生命 (M)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77A3417",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Jetpack",
-      "type": "checkbox",
+      "name": "Infinite 喷气背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77A3730",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Zip oh matic/deathray/free love Ammo",
-      "type": "checkbox",
+      "name": "Infinite Zip oh matic/deathray/free 爱 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77A3810",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Dislocator Ammo/other guns with clips",
-      "type": "checkbox",
+      "name": "Infinite Dislocator 但是/他 guns with clips",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "77A32C0",

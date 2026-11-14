@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="TimeSplitters" Moder="Ali-mk" Cusa="CUSA49387" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="max-ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大-但是">
     <Cheatline>
       <Offset>808078C000</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>15-15</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>8080769878</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>FF-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-AMMO-2">
+    <Cheat Text="最大-但是-2">
     <Cheatline>
       <Offset>808078C0F8</Offset>
       <Section>0</Section>

@@ -5,7 +5,15 @@
   <Genres Name="Fighting" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>18E3800</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>C5-DA-58-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath">
+  <Cheat Text="Infinite Breath｜无限呼吸">
     <Cheatline>
       <Offset>EDA44A</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C5-F8-28-85-F0-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo/Items">
+  <Cheat Text="弹药最大化/Items">
     <Cheatline>
       <Offset>D6DAD1</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>66-41-0F-43-DF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip/Infinite Skillpoints">
+  <Cheat Text="无底夹/无限技能点">
     <Cheatline>
       <Offset>DCB999</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>44-29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy XP">
+  <Cheat Text="简单 XP">
     <Cheatline>
       <Offset>125E868</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>45-8B-7E-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health Pointer">
+  <Cheat Text="生命 指针">
     <Cheatline>
       <Offset>183bd00</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>48-8B-B6-A8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health / 1 Hit Kill">
+  <Cheat Text="生命 / 一击必杀">
     <Cheatline>
       <Offset>183bd13</Offset>
       <Section>0</Section>
@@ -79,7 +87,7 @@
       <ValueOff>C5-DA-58-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>183BD13</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>183BD14</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo/Items">
+  <Cheat Text="弹药最大化/Items">
     <Cheatline>
       <Offset>CDED1D</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>66-0F-43-DD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip">
+  <Cheat Text="Bottomless Clip｜无底夹">
     <Cheatline>
       <Offset>D3FDEB</Offset>
       <Section>0</Section>
@@ -111,7 +119,7 @@
       <ValueOff>44-29-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy XP">
+  <Cheat Text="简单 XP">
     <Cheatline>
       <Offset>11F75C5</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>45-01-6E-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Challenge">
+  <Cheat Text="简单 Challenge">
     <Cheatline>
       <Offset>12A88C3</Offset>
       <Section>0</Section>

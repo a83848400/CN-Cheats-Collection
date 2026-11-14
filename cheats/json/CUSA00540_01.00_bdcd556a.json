@@ -1,12 +1,17 @@
 {
-  "name": "Tiny Troopers: Joint Ops",
+  "name": "Tiny Troopers: Joint Ops｜《微型战士：联合行动》",
   "id": "CUSA00540",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Get Money For Buying",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Get 金钱 For Buying",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A085E8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Get Medals For Buying",
-      "type": "checkbox",
+      "name": "Get Medals For Buying｜购买即可获得奖章",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "993D76",

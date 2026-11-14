@@ -1,12 +1,17 @@
 {
-  "name": "Dolmen",
+  "name": "Dolmen｜石棺墓",
   "id": "CUSA27520",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "HP / All  (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "手机 / All  (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "802A7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "802A7863",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Stamina / Energy (MC)",
-      "type": "checkbox",
+      "name": "体力 / 能量 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "802A7837",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Nanites ( Enable Stamina Cheat)",
-      "type": "checkbox",
+      "name": "最大 Nanites ( Enable 体力 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "802A788F",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Freez Enemy (Enable Stamina Cheat)",
-      "type": "checkbox",
+      "name": "Freez Enemy (Enable 体力 Cheat)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "802A78A3",

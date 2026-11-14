@@ -1,12 +1,17 @@
 {
-  "name": "Prince of Persia: Warrior Within",
+  "name": "波斯王子: 战士 Within",
   "id": "SLUS21022",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080F65814",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max+Infinite-Sands",
-      "type": "checkbox",
+      "name": "最大+Infinite-Sands",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080F660B4",

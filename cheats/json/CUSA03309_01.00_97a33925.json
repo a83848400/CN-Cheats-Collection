@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry Primal",
+  "name": "孤岛惊魂 Primal",
   "id": "CUSA03309",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Arrows/Clubs/spears",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "箭矢无限/Clubs/spears",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14C2EE0",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables (use after crafting throwables)",
-      "type": "checkbox",
+      "name": "投掷物无限 (use after crafting 可投掷物品)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "241C9BE",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Earn Skills On Spend",
-      "type": "checkbox",
+      "name": "Earn Skills On Spend｜消费即获技能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DA4E9A",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Skill Points (999)",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 (999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "352F800",

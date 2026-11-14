@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invulnerable",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invulnerable｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1983DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Ignore me ( Enemies won´t attack you )",
-      "type": "checkbox",
+      "name": "Ignore me ( Enemies won´恐怖分子 攻击 you )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1983DD0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health ( after hit )",
-      "type": "checkbox",
+      "name": "无限生命 ( after hit )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1983DDC",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Armor ( after hit )",
-      "type": "checkbox",
+      "name": "护甲无限 ( after hit )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1983DF2",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19B83F9",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1983E08",

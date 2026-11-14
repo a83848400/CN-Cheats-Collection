@@ -1,23 +1,28 @@
 {
-  "name": "Sol Divide",
+  "name": "Sol Divide｜《太阳分裂》",
   "id": "SLES53873",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDBE2CC",
           "on": "00",
-          "off": "E8"
+          "off": "E8｜八"
         }
       ]
     },
     {
-      "name": "Infinite-MAGIC",
-      "type": "checkbox",
+      "name": "Infinite-魔法",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FDCDA38",

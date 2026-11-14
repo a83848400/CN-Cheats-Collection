@@ -1,12 +1,17 @@
 {
-  "name": "Red Dead Redemption II",
+  "name": "荒野大镖客 II",
   "id": "CUSA08519",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health, Stamina. Inf Horse Health, Stamina.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命, 体力. Infinite Horse 生命, 体力.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8B6C1D",

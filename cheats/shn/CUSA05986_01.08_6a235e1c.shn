@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Need for Speed Payback" Moder="hejran7" Cusa="CUSA05986" Version="01.08" Process="eboot.bin">
   <Genres Name="Racing" />
   <Items />
-  <Cheat Text="Infinite Cash" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Cash｜无限现金" Description="">
     <Cheatline>
       <Offset>03EAB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>48-85-C9-41-89-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tokens" Description="">
+  <Cheat Text="Infinite Tokens｜无限代币" Description="">
     <Cheatline>
       <Offset>03EAB810</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>41-89-4C-24-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Nitrous" Description="">
+  <Cheat Text="Infinite Nitrous｜无限氮气" Description="">
     <Cheatline>
       <Offset>03EAB81F</Offset>
       <Section>0</Section>

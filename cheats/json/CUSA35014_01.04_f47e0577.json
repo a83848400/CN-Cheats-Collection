@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / 1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C510",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C540",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Inf Points",
-      "type": "checkbox",
+      "name": "Infinite 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C550",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "X2 Speed",
-      "type": "checkbox",
+      "name": "X2 Speed｜速度×2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C570",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Rabbit Speed",
-      "type": "checkbox",
+      "name": "Rabbit 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C570",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Ghost Speed",
-      "type": "checkbox",
+      "name": "幽灵 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C570",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Normal Speed",
-      "type": "checkbox",
+      "name": "普通 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C570",

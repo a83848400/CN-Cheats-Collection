@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil HD Remaster",
+  "name": "生化危机 HD Remaster",
   "id": "CUSA01067",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A9F3",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A97A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "349FA6",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Tapes",
-      "type": "checkbox",
+      "name": "Infinite Tapes｜无限磁带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF0B0",

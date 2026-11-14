@@ -1,12 +1,17 @@
 {
-  "name": "God of War (2018)",
+  "name": "战神 (2018)",
   "id": "CUSA07408",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E07852",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Rage",
-      "type": "checkbox",
+      "name": "Infinite Rage｜怒气无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E07841",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5614DA",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max XP/Hacksilver/Resources",
-      "type": "checkbox",
+      "name": "最大 XP/Hacksilver/Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0781B",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Stats/Rank on Item Change",
-      "type": "checkbox",
+      "name": "最大 属性/阶级 on 物品 Change",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E07800",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Freeze Items Usage Timer",
-      "type": "checkbox",
+      "name": "Freeze Items Usage 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8F1466",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Instant Kill Enemies",
-      "type": "checkbox",
+      "name": "Instant Kill Enemies｜瞬间击杀敌人",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E0782E",

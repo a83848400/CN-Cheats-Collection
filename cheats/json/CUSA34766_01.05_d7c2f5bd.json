@@ -1,13 +1,18 @@
 {
-  "name": "Granblue Fantasy: Relink",
+  "name": "Granblue Fantasy: Relink｜《碧蓝幻想：重联》",
   "id": "CUSA34766",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite health",
-      "description": "none",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite health｜无限生命",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4395F91",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite skills",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite skills｜无限技能",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80304E",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite SBA",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite SBA｜无限SBA",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4395FE1",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Replenish items at 1",
-      "description": "Sets all items to be 1pc",
-      "type": "checkbox",
+      "name": "Replenish items at 1｜在1处补给物品",
+      "description": "Sets 所有商品 to be 1pc",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396011",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Max link level",
-      "description": "You may use blue potion",
-      "type": "checkbox",
+      "name": "最大 林克 等级",
+      "description": "You may use blue 药水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396041",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Freeze link attack timer",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Freeze 林克 攻击 计时器",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396081",
@@ -102,9 +107,9 @@
       ]
     },
     {
-      "name": "All treasure and key items",
-      "description": "Open item inventory. Your current treasure, key items pcs/quantity will be untouched",
-      "type": "checkbox",
+      "name": "All 宝藏 and 钥匙 items",
+      "description": "Open 物品 背包. Your current 宝藏, 钥匙 items pcs/quantity 意志 be untouched",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43960B1",
@@ -119,9 +124,9 @@
       ]
     },
     {
-      "name": "Instant +50 treasures",
-      "description": "Open item inventory",
-      "type": "checkbox",
+      "name": "Instant +50 treasures｜立即获得+50件宝物",
+      "description": "Open 物品 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43960E1",
@@ -136,9 +141,9 @@
       ]
     },
     {
-      "name": "Sell item x90",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Sell 物品 x90",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396111",
@@ -153,9 +158,9 @@
       ]
     },
     {
-      "name": "Event timer",
-      "description": "Any events like special chest (Shrouded treasure, Tombstone battle etc)",
-      "type": "checkbox",
+      "name": "Event 计时器",
+      "description": "Any events like special 宝箱 (Shrouded 宝藏, Tombstone 战斗 etc)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396141",
@@ -170,9 +175,9 @@
       ]
     },
     {
-      "name": "Increase all level",
-      "description": "Press menu and then you need to reload checkpoint or go back to town",
-      "type": "checkbox",
+      "name": "Increase all 等级",
+      "description": "Press 菜单 and then you need to reload 检查点 or go back to town",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396181",
@@ -187,9 +192,9 @@
       ]
     },
     {
-      "name": "Max all party exp",
-      "description": "press menu and then you need to reload checkpoint or go back to town",
-      "type": "checkbox",
+      "name": "最大 all 队伍 经验",
+      "description": "press 菜单 and then you need to reload 检查点 or go back to town",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43961B1",
@@ -204,9 +209,9 @@
       ]
     },
     {
-      "name": "Max base hp all members",
-      "description": "press menu and then you need to reload checkpoint or go back to town. it will reset upon level up",
-      "type": "checkbox",
+      "name": "最大 基地 手机 all members",
+      "description": "press 菜单 and then you need to reload 检查点 or go back to town. it 意志 reset upon 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43961E1",
@@ -221,9 +226,9 @@
       ]
     },
     {
-      "name": "Max all member base atk",
-      "description": "Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up",
-      "type": "checkbox",
+      "name": "最大 all member 基地 攻击力",
+      "description": "Press 菜单 and then you need to reload 检查点 or go back to town. It 意志 reset upon 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396211",
@@ -238,9 +243,9 @@
       ]
     },
     {
-      "name": "Max stun power all members",
-      "description": "Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up",
-      "type": "checkbox",
+      "name": "最大 stun 电力 all members",
+      "description": "Press 菜单 and then you need to reload 检查点 or go back to town. It 意志 reset upon 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396241",
@@ -255,9 +260,9 @@
       ]
     },
     {
-      "name": "Max crit all members",
-      "description": "Press menu and then you need to reload checkpoint or go back to town. It will reset upon level up",
-      "type": "checkbox",
+      "name": "最大 crit all members",
+      "description": "Press 菜单 and then you need to reload 检查点 or go back to town. It 意志 reset upon 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4396271",
@@ -272,9 +277,9 @@
       ]
     },
     {
-      "name": "Max rupies",
-      "description": "open item inventory",
-      "type": "checkbox",
+      "name": "最大 rupies",
+      "description": "open 物品 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43962A1",
@@ -289,9 +294,9 @@
       ]
     },
     {
-      "name": "Max MSP",
-      "description": "Open item inventory",
-      "type": "checkbox",
+      "name": "最大 MSP",
+      "description": "Open 物品 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43962D1",

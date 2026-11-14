@@ -1,12 +1,17 @@
 {
-  "name": "The Surge 2",
+  "name": "《The Surge》 2",
   "id": "CUSA12567",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Don't Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Don'恐怖分子 Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EC3FA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1 Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EC3FA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EC40C0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Energy",
-      "type": "checkbox",
+      "name": "无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EC4100",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Res / Drone Ammo",
-      "type": "checkbox",
+      "name": "无穷之物 / 无人机 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EC4050",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Inf Tech Scrap",
-      "type": "checkbox",
+      "name": "Infinite 科技 Scrap",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2EC4150",

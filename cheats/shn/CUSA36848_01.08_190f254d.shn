@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health/1 Hit Kill/Stamina/Fable/Legion (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/一击必杀/体力/Fable/Legion (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>6BAFDB0</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>43-89-4C-FD-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Hold L1 To Max)">
+  <Cheat Text="无限生命 (领地 L1 To 最大)">
     <Cheatline>
       <Offset>6BAFDB9</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>6BAFDD3</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>EB-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>6BAFDE3</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fables">
+  <Cheat Text="Infinite Fables｜《无尽寓言》">
     <Cheatline>
       <Offset>6BAFDF8</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>EB-0F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Legion">
+  <Cheat Text="Infinite Legion｜无限军团">
     <Cheatline>
       <Offset>6BAFE0D</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>EB-B1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Pick Up (x2 To Work)">
+  <Cheat Text="最大 Items On 拾取 (x2 To Work)">
     <Cheatline>
       <Offset>6BAEE20</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>49-8B-3F-8B-77-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Use">
+  <Cheat Text="最大 Items On Use">
     <Cheatline>
       <Offset>6BAEF40</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>41-89-76-40-4C-89-F7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Sharpness Durability">
+  <Cheat Text="Infinite Weapon 斩味 耐用性">
     <Cheatline>
       <Offset>6BAF880</Offset>
       <Section>0</Section>
@@ -99,7 +107,7 @@
       <ValueOff>41-89-8D-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Carry Weight">
+  <Cheat Text="No 核心 重量">
     <Cheatline>
       <Offset>6BAFA00</Offset>
       <Section>0</Section>
@@ -113,7 +121,7 @@
       <ValueOff>44-89-F0-45-89-6F-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ergo">
+  <Cheat Text="最大 Ergo">
     <Cheatline>
       <Offset>6BAF2A0</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>89-88-A4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>18DE198</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>E8-0A-FE-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>6BAE5F0</Offset>
       <Section>0</Section>
@@ -155,7 +163,7 @@
       <ValueOff>43-89-4C-FD-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>16BFFD5</Offset>
       <Section>0</Section>
@@ -169,7 +177,7 @@
       <ValueOff>E8-D5-7D-EE-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Fable">
+  <Cheat Text="Infinite Fable｜《无限传说》">
     <Cheatline>
       <Offset>15C3A57</Offset>
       <Section>0</Section>
@@ -177,7 +185,7 @@
       <ValueOff>E8-A4-F4-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Legion">
+  <Cheat Text="Infinite Legion｜无限军团">
     <Cheatline>
       <Offset>18E5902</Offset>
       <Section>0</Section>

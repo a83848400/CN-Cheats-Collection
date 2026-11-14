@@ -1,13 +1,18 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34388",
   "version": "05.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "Please  be sure to read the comment on each individual cheat, if a comment is available. For my most advanced Ragnarok trainer I recommend using my ShnExt trainer with MultiTrainer2. Enjoy! :-)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "Please  be sure to read the comment on each individual cheat, if a comment is available. For my most advanced 诸神黄昏 trainer I recommend using my ShnExt trainer with MultiTrainer2. Enjoy! :-)",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -18,9 +23,9 @@
       ]
     },
     {
-      "name": "God Mode (Untouchable+No Effects) [DO NOT USE IN VALHALLA]",
-      "description": "May cause progression issues with some bosses. Disable and restart from checkpoint if and when it does. Use No Damage Taken instead.",
-      "type": "checkbox",
+      "name": "神模式 (刀枪不入+无效果) [请勿在VALHALLA中使用]",
+      "description": "May cause progression issues with some bosses. Disable and restart from 检查点 if and when it does. Use 不受伤害 instead.",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "No Damage Taken",
-      "description": "none",
-      "type": "checkbox",
+      "name": "No Damage Taken｜不受伤害",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -74,9 +79,9 @@
       ]
     },
     {
-      "name": "No XP,HS, Resources subtracted when used",
-      "description": "none",
-      "type": "checkbox",
+      "name": "No XP,HS, Resources subtracted when used｜使用时不会扣除XP、HS和资源",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -92,9 +97,9 @@
       ]
     },
     {
-      "name": "No Crafting And Upgrade Limits",
-      "description": "none",
-      "type": "checkbox",
+      "name": "No Crafting And Upgrade Limits｜无制作和升级限制",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -105,9 +110,9 @@
       ]
     },
     {
-      "name": "Infinite Arrows & Throwables [DO NOT USE IN VALHALLA]",
-      "description": "none",
-      "type": "checkbox",
+      "name": "箭矢无限 & 可投掷物品 [请勿在VALHALLA中使用]",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -133,9 +138,9 @@
       ]
     },
     {
-      "name": "Infinite Rage (incl. Kratos and Atreus)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "怒气无限 (incl. 奎托斯 and 阿特柔斯)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -151,9 +156,9 @@
       ]
     },
     {
-      "name": "Damage Multiplier(Master Code) [DO NOT USE IN VALHALLA]",
-      "description": "Enable this first and then only one of the damage levels. May not affect some travelers (mini bosses)",
-      "type": "checkbox",
+      "name": "输出 Multiplier(Master 密码) [请勿在VALHALLA中使用]",
+      "description": "Enable this first and then only one of the 输出 levels. May not affect some travelers (mini bosses)",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -169,9 +174,9 @@
       ]
     },
     {
-      "name": "--5x damage",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--5倍伤害",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -182,9 +187,9 @@
       ]
     },
     {
-      "name": "--10x damage",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--10倍伤害",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -195,9 +200,9 @@
       ]
     },
     {
-      "name": "--20x damage",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--20倍伤害",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -208,9 +213,9 @@
       ]
     },
     {
-      "name": "--30x damage",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--30倍伤害",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -221,9 +226,9 @@
       ]
     },
     {
-      "name": "--40x damage",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--40倍伤害",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -234,9 +239,9 @@
       ]
     },
     {
-      "name": "--50x damage",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--50倍伤害",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -247,9 +252,9 @@
       ]
     },
     {
-      "name": "--100x damage (one hit kill)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "--100x 输出 (一击必杀)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -260,9 +265,9 @@
       ]
     },
     {
-      "name": "One Hit Stun [DO NOT USE IN VALHALLA]",
-      "description": "This cheat may cause progression issues with some enemies (especially bosses).If and when it does, be sure to disable it and reload the checkpoint.",
-      "type": "checkbox",
+      "name": "One Hit Stun [DO NOT USE IN VALHALLA]｜一击眩晕 [请勿在瓦尔哈拉使用]",
+      "description": "This cheat may cause progression issues with some enemies (especially bosses).If and when it does, be sure to disable it and reload the 检查点.",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -278,9 +283,9 @@
       ]
     },
     {
-      "name": "Infinite Max Shield Charge",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite 最大 盾牌 冲锋",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -296,9 +301,9 @@
       ]
     },
     {
-      "name": "No Talisman and Relic Cooldown",
-      "description": "none",
-      "type": "checkbox",
+      "name": "No 符箓 and 遗物 Cooldown",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {
@@ -314,9 +319,9 @@
       ]
     },
     {
-      "name": "Infinite Weapon Charge (L1+Triangle)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite Weapon 冲锋 (L1+Triangle)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "hint": null,
       "memory": [
         {

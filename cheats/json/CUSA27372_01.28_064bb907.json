@@ -1,0 +1,58 @@
+{
+  "name": "The Callisto Protocol｜《卡利斯托协议》",
+  "id": "CUSA27372",
+  "version": "01.28",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "description": "Restores 生命值最大 ([rbx+0x11C]) into current 手机 ([rbx+0x118]) inside SetHealth. The stub is EFLAGS-保险箱 (pushfq/popfq): the instruction right after the hook site is a 'jbe' that consumes flags set before the store, so a plain 'cmp' in the stub crashes the game. Tested on firmware 14.00.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "62388F0",
+          "on": "9C80BBB8000000067508C5FA10931C0100009DC5FA119318010000E9E7777FFB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A300EF",
+          "on": "E9FC878004909090",
+          "off": "C5FA119318010000"
+        }
+      ]
+    },
+    {
+      "name": "无限积分 (nothing is ever spent)",
+      "description": "Neuters the 背包 remover: 'sub r12d,edx' -> 'test r12d,r12d', so a slot quantity is written back unchanged while the following 'jle' still gets correct flags. Credits are an 背包物品, so this also stops weapon-upgrade costs. Consumables are not used up either. 笔记: your balance never rises, it only stops falling - you still cannot buy what you cannot already afford. Tested on firmware 14.00.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "185FF95",
+          "on": "4585E4",
+          "off": "4129D4"
+        }
+      ]
+    },
+    {
+      "name": "停止 Time Puzzles (Final 变速箱)",
+      "description": "NOPs the write to the 谜题 time-鳞片 field ([rdi+0x20C]). Direct port of the 01.26 cheat; the instruction is unique in the image. NOT verified in game yet - no Final 变速箱 谜题 was reached during testing.",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "3DC1C91",
+          "on": "9090909090909090",
+          "off": "C5FA118F0C020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Celogamez (original 01.26 trainer)",
+    "vv198x (port to 01.28)"
+  ]
+}

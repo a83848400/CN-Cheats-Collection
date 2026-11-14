@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="infinte ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="infinte ammo｜无限弹药">
     <Cheatline>
       <Offset>BDE01E</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>41-89-57-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf energe bullets">
+  <Cheat Text="无限能量子弹">
     <Cheatline>
       <Offset>BDE07D</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>89-43-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf special attack">
+  <Cheat Text="《无限特辑》 攻击">
     <Cheatline>
       <Offset>CD322C</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>77-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max sniper coldown">
+  <Cheat Text="最大 sniper coldown">
     <Cheatline>
       <Offset>B93CC1</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>72-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max combo">
+  <Cheat Text="最大 combo">
     <Cheatline>
       <Offset>C8F6A8</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>C5-E2-C2-C9-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf finesh">
+  <Cheat Text="无限精细">
     <Cheatline>
       <Offset>B838F1</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>41-0F-B6-86-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max mark skill">
+  <Cheat Text="最大 mark skill">
     <Cheatline>
       <Offset>B93C7D</Offset>
       <Section>0</Section>

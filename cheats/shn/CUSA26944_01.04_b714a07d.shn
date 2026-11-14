@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Forgotten City" Moder="Reddevil82 - FW 9.00" Cusa="CUSA26944" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Mastercode ( must be activated for [ MC ] Cheats )" Description="Mastercode ( must be activated for [ MC ] Cheats )">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Mastercode ( must be activated for [ MC ] Cheats )｜主代码（必须激活才能使用 [MC] 作弊码）" Description="Mastercode ( must be activated for [ MC ] Cheats )">
     <Cheatline>
       <Offset>56FFD00</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C5-F9-10-80-D0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health [ MC ]" Description="Infinite Health [ MC ]">
+  <Cheat Text="无限生命 [ MC ]" Description="Infinite Health [ MC ]">
     <Cheatline>
       <Offset>6000050</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Health [ MC ]" Description="Max Health [ MC ]">
+  <Cheat Text="生命最大 [ MC ]" Description="Max Health [ MC ]">
     <Cheatline>
       <Offset>6000051</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Denar [ MC ]" Description="Max Denar [ MC ]">
+  <Cheat Text="最大 Denar [ MC ]" Description="Max Denar [ MC ]">
     <Cheatline>
       <Offset>6000052</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items [ MC ]" Description="Max Items [ MC ]">
+  <Cheat Text="最大 Items [ MC ]" Description="Max Items [ MC ]">
     <Cheatline>
       <Offset>6000053</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen [ MC ]" Description="Infinite Oxygen [ MC ]">
+  <Cheat Text="无限氧气 [ MC ]" Description="Infinite Oxygen [ MC ]">
     <Cheatline>
       <Offset>6000054</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Oxygen [ MC ]" Description="Max Oxygen [ MC ]">
+  <Cheat Text="最大 Oxygen [ MC ]" Description="Max Oxygen [ MC ]">
     <Cheatline>
       <Offset>6000055</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Location [ MC ]" Description="Save Location [ MC ]">
+  <Cheat Text="保存 Location [ MC ]" Description="Save Location [ MC ]">
     <Cheatline>
       <Offset>6000056</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Load Location [ MC ]" Description="Load Location [ MC ]">
+  <Cheat Text="读取 Location [ MC ]" Description="Load Location [ MC ]">
     <Cheatline>
       <Offset>6000057</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Speed [ x 2 ]" Description="Player Speed [ x 2 ]">
+  <Cheat Text="Player 速度 [ 艾克斯 2 ]" Description="Player Speed [ x 2 ]">
     <Cheatline>
       <Offset>56FFDBC</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>C5-FA-10-83-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Speed [ x 3 ]" Description="Player Speed [ x 3 ]">
+  <Cheat Text="Player 速度 [ 艾克斯 3 ]" Description="Player Speed [ x 3 ]">
     <Cheatline>
       <Offset>56FFDCC</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>C5-FA-10-83-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Speed [ x 4 ]" Description="Player Speed [ x 4 ]">
+  <Cheat Text="Player 速度 [ 艾克斯 4 ]" Description="Player Speed [ x 4 ]">
     <Cheatline>
       <Offset>56FFDDC</Offset>
       <Section>0</Section>

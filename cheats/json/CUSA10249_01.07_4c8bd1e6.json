@@ -1,12 +1,17 @@
 {
-  "name": "The Last of Us: Part II",
+  "name": "最后生还者: Part II",
   "id": "CUSA10249",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enable Dev Menu",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Enable Dev 菜单",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "252B90",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Silencer Ammo",
-      "type": "checkbox",
+      "name": "无限消音器 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15DF257",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D473DC",

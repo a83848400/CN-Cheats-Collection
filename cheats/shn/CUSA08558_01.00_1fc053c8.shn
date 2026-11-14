@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>2AFB800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>74-04-44-8B-70-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>2AFB80D</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-10-40-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables">
+  <Cheat Text="Infinite Throwables｜投掷物无限">
     <Cheatline>
       <Offset>2AFB81E</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C4-C1-7A-10-4D-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max EXP/PP on Gain">
+  <Cheat Text="经验值最大/招式点数 on Gain">
     <Cheatline>
       <Offset>2AFB831</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>41-C6-86-60-03-00-00-01-01-5A-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Vehicle Health">
+  <Cheat Text="Infinite Vehicle Health｜载具无限耐久">
     <Cheatline>
       <Offset>2AFB846</Offset>
       <Section>0</Section>

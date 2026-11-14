@@ -1,12 +1,17 @@
 {
-  "name": "Mega Man Battle Network Legacy Collection",
+  "name": "洛克人 战斗 Network Legacy Collection",
   "id": "CUSA31429",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (battle network 4 Red Sun)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (战斗 network 4 Red 阳光)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E97720",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health (battle network 4 Blue moon)",
-      "type": "checkbox",
+      "name": "无限生命 (战斗 network 4 Blue moon)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E97920",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Battle Network 5 Team Protoman)",
-      "type": "checkbox",
+      "name": "无限生命 (战斗 Network 5 Team Protoman)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E97820",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health (battle network 5 Team Colonel)",
-      "type": "checkbox",
+      "name": "无限生命 (战斗 network 5 Team Colonel)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E978D0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Health (battle Network 6 Cybeast falzar)",
-      "type": "checkbox",
+      "name": "无限生命 (战斗 Network 6 Cybeast falzar)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E979E0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Health (battle Network 6 Cybeast Gregar)",
-      "type": "checkbox",
+      "name": "无限生命 (战斗 Network 6 Cybeast Gregar)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E97A60",

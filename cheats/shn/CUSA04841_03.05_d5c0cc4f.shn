@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="No Man's Sky" Moder="M3hdi PS" Cusa="CUSA04841" Version="03.05" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Units For BUY ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限单位 For BUY ">
     <Cheatline>
       <Offset>63C69C</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>45-89-BE-94-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite Item Inventory ">
+    <Cheat Text="Infinite 物品 背包 ">
     <Cheatline>
       <Offset>35662E</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-29-5F-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items For Sell">
+  <Cheat Text="道具无限 For Sell">
     <Cheatline>
       <Offset>3570F8</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>45-29-7E-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Nanites For BUY">
+  <Cheat Text="Infinite Nanites For BUY｜无限纳米机器人 购买">
     <Cheatline>
       <Offset>63C795</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>45-89-BE-9C-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite HP">
+  <Cheat Text="Infinite HP｜无限血量">
     <Cheatline>
       <Offset>F6E12D</Offset>
       <Section>0</Section>

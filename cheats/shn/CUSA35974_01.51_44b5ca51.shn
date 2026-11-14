@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Jagged Alliance 3" Moder="Evil Goku" Cusa="CUSA35974" Version="01.51" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf AP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限能力点">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>800-executable[0]-5</PS5Offset>
@@ -20,7 +28,7 @@
       <ValueOff>0F-B6-48-08-4C-8B-6D-B8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Money">
+  <Cheat Text="金钱无限">
     <Cheatline>
       <Absolute>True</Absolute>
       <PS5Offset>796-executable[0]-5</PS5Offset>

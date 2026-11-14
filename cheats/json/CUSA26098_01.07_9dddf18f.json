@@ -1,12 +1,17 @@
 {
-  "name": "King's Bounty II",
+  "name": "金's 悬赏 II",
   "id": "CUSA26098",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Gold (when buying recruits)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金币最大 (when buying recruits)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DAF7D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Gold Coins (when buying Items)",
-      "type": "checkbox",
+      "name": "金币最大 角落 (when buying Items)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DAF860",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Mana (on get)",
-      "type": "checkbox",
+      "name": "最大 法力 (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DAF8F0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Hero Max Level (after battle)",
-      "type": "checkbox",
+      "name": "英雄 等级最大 (after 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DAF970",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Talent Points (on spending)",
-      "type": "checkbox",
+      "name": "天赋点最大 (on spending)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DAF9D0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Recruits Max Rank (After winning battle)",
-      "type": "checkbox",
+      "name": "Recruits 最大 阶级 (After winning 战斗)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DAF280",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Reserve (when taking Have 2)",
-      "type": "checkbox",
+      "name": "Infinite Reserve (when taking Have 2)｜无限储备（选择“拥有2”时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DAF010",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Power Anarchy Order Finesse Max Level ",
-      "type": "checkbox",
+      "name": "电力 Anarchy Order Finesse 等级最大 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6DADDD0",

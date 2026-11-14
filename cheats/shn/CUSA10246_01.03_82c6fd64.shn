@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Code Vein" Moder="DanteClaus" Cusa="CUSA10246" Version="01.03" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Items">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Items｜道具无限">
     <Cheatline>
       <Offset>113DFA7</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite Haze">
+  <Cheat Text="infinite Haze｜无尽迷雾">
     <Cheatline>
       <Offset>11207B4</Offset>
       <Section>0</Section>

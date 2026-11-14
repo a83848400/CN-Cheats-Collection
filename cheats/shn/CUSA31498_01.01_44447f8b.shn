@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Street Fighter 6" Moder="Master_s9" Cusa="CUSA31498" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-    <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+    <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5331B39</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>89-81-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite money">
+  <Cheat Text="Infinite money｜金钱无限">
     <Cheatline>
       <Offset>2435DE8</Offset>
       <Section>0</Section>

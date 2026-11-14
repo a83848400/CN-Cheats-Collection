@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Tina's Toy Factory" Moder="2B" Cusa="CUSA01658" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf Moves">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限招式">
     <Cheatline>
       <Section>0</Section>
       <Offset>1BEF800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>66-89-48-2A-E9-37-11-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max Score">
+  <Cheat Text="最大 比分">
     <Cheatline>
       <Section>0</Section>
       <Offset>1BEF80D</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>89-08-E9-9C-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Time (time Challenge)">
+  <Cheat Text="无限时间 (time Challenge)">
     <Cheatline>
       <Section>0</Section>
       <Offset>1BEF81A</Offset>

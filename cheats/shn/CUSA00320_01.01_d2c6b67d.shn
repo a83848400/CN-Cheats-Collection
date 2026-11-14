@@ -5,7 +5,15 @@
   <Genres Name="Fighting" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>83650B</Offset>
       <Section>0</Section>
@@ -13,7 +21,7 @@
       <ValueOff>C5-F2-5C-C2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health OverCharge" Description="">
+  <Cheat Text="无限生命 OverCharge" Description="">
     <Cheatline>
       <Offset>8363FC</Offset>
       <Section>0</Section>
@@ -21,7 +29,7 @@
       <ValueOff>C5-EA-5C-D3</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Instant Health Regeneration" Description="">
+  <Cheat Text="Instant 生命 Regeneration" Description="">
     <Cheatline>
       <Offset>8363E1</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>C5-EA-5D-D4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Vehicle Health" Description="">
+  <Cheat Text="Infinite Vehicle Health｜载具无限耐久" Description="">
     <Cheatline>
       <Offset>105607F</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>C5-F2-5C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>C64075</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>29-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>C60C0E</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>41-29-5C-24-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Armor" Description="">
+  <Cheat Text="Infinite Armor｜护甲无限" Description="">
     <Cheatline>
       <Offset>8364C5</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>C5-EA-5C-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Perks" Description="">
+  <Cheat Text="简单 Perks" Description="">
     <Cheatline>
       <Offset>BCFDCA</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>0F-4F-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Perk Conditions to Max" Description="">
+  <Cheat Text="Set 技能 Conditions to 最大" Description="">
     <Cheatline>
       <Offset>170B800</Offset>
       <Section>0</Section>

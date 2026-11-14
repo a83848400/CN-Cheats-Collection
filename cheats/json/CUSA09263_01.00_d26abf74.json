@@ -1,12 +1,17 @@
 {
-  "name": "Devil May Cry: HD Collection",
+  "name": "鬼泣: HD Collection",
   "id": "CUSA09263",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite red Orb (Increase It First)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite red Orb (Increase It First)｜无限红球（优先提升）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1904A4",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "391A3",

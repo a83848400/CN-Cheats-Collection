@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops 4",
+  "name": "使命召唤: 黑色 Ops 4",
   "id": "CUSA11100",
   "version": "01.25",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17b015c",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "b9f994",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Points",
-      "type": "checkbox",
+      "name": "Infinite 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ee874d",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Specialist / Grenades",
-      "type": "checkbox",
+      "name": "Infinite 专家 / 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "70d78a",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Shield Durability",
-      "type": "checkbox",
+      "name": "无限护盾 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1844852",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "1-Hit Kill",
-      "type": "checkbox",
+      "name": "1-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1692a6e",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Draw Lobby Debug",
-      "type": "checkbox",
+      "name": "抽牌 Lobby Debug",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12b27b7",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Remove Dvar Protections",
-      "type": "checkbox",
+      "name": "Remove Dvar Protections｜移除Dvar保护",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15b65fe",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Spoof Lobby ZM",
-      "type": "button",
+      "name": "Spoof Lobby ZM｜ZM 恶搞大厅",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "49dab28",
@@ -120,7 +125,7 @@
     },
     {
       "name": "Spoof Lobby WZ",
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "49dab28",
@@ -130,8 +135,8 @@
       ]
     },
     {
-      "name": "exec wz default settings.cfg",
-      "type": "button",
+      "name": "exec wz 默认 设置.cfg",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "adc22a0",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "map wz open skyscrapers",
-      "type": "button",
+      "name": "地图 wz open skyscrapers",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "adc22a0",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "map wz escape",
-      "type": "button",
+      "name": "地图 wz escape",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "adc22a0",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "sv mapname wz open skyscrapers",
-      "type": "button",
+      "name": "sv mapname wz open skyscrapers｜sv 地图名 wz 开放式摩天大楼",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "adc22a0",
@@ -194,8 +199,8 @@
       ]
     },
     {
-      "name": "disconnect",
-      "type": "button",
+      "name": "disconnect｜断开连接",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "adc22a0",
@@ -204,14 +209,14 @@
         },
         {
           "offset": "ae3f2ac",
-          "on": "0A",
-          "off": "0A"
+          "on": "0A｜零A",
+          "off": "0A｜零A"
         }
       ]
     },
     {
-      "name": "Blackout Step 1",
-      "type": "button",
+      "name": "Blackout Step 1｜停电 第一步",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "15b2580",
@@ -221,8 +226,8 @@
       ]
     },
     {
-      "name": "Blackout Step 2",
-      "type": "button",
+      "name": "Blackout Step 2｜停电第二步",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "b5a830",
@@ -232,8 +237,8 @@
       ]
     },
     {
-      "name": "Blackout Step 3",
-      "type": "button",
+      "name": "Blackout Step 3｜停电第三步",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "15b2580",
@@ -243,8 +248,8 @@
       ]
     },
     {
-      "name": "Patch FindXAssetHeader",
-      "type": "button",
+      "name": "Patch FindXAssetHeader｜FindXAssetHeader 补丁",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "db7358",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Battlefield Hardline" Moder="Ali-mk" Cusa="CUSA00633" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>6FAF4D</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF-90-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Health">
+    <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>6FA510</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E8-3B-EC-14-01</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Inf-Ammo-NO-Reload">
+    <Cheat Text="无限弹药-无需装弹">
     <Cheatline>
       <Offset>1095F07</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-83-A8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Ammo">
+    <Cheat Text="Infinite-Ammo｜无限弹药">
     <Cheatline>
       <Offset>1094E1C</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>44-89-8B-AC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX + In-Ammo-999">
+    <Cheat Text="最大 + In-但是-999">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

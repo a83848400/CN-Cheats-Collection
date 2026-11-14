@@ -1,12 +1,17 @@
 {
-  "name": "Just Cause 3",
+  "name": "正当防卫 3",
   "id": "CUSA01493",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4E710",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4E980",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4E9B0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Time Challenges",
-      "type": "checkbox",
+      "name": "无限时间 Challenges",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4F040",

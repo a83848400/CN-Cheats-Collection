@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Inf lightning water ninjutsu power">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 闪电 水 忍术 电力">
     <Cheatline>
       <Offset>194F0B</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>C5-FA-11-43-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="sup">
+  <Cheat Text="sup｜汤">
     <Cheatline>
       <Offset>13F7800</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>49-8B-46-20-89-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode">
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>13F7800</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>49-8B-46-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinit stamina">
+  <Cheat Text="Infinit 体力">
     <Cheatline>
       <Offset>13F781B</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>C5-FA-58-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2 hit kill">
+  <Cheat Text="2 命中击杀">
     <Cheatline>
       <Offset>13F782E</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>48-89-4B-10-48-39-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinit Amirta">
+  <Cheat Text="Infinit Amirta｜无限阿米尔塔">
     <Cheatline>
       <Offset>13F785D</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>4C-8B-78-08-4C-8B-63-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinit Gold">
+  <Cheat Text="infinit 金币">
     <Cheatline>
       <Offset>13F7871</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Fist of the North Star: Lost Paradise",
+  "name": "Fist of the North Star: Lost Paradise｜《北斗神拳：失落的天堂》",
   "id": "CUSA12781",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22911A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Destiny Orbs (99) On Gain/Spend",
-      "type": "checkbox",
+      "name": "Destiny Orbs (99) On Gain/Spend｜命运之球（99）获得/消耗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2291200",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "9999999 Money",
-      "type": "checkbox",
+      "name": "9999999 金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2293800",

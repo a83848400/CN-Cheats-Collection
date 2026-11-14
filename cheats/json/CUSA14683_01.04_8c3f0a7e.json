@@ -1,12 +1,17 @@
 {
-  "name": "The Ascent",
+  "name": "The Ascent｜《攀登》",
   "id": "CUSA14683",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Component (nop)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Component (nop)｜无限组件 (nop)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1100545",

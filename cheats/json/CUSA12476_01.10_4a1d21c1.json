@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "infi skill points",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F3EF7",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "max skill points",
-      "type": "checkbox",
+      "name": "最大 skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3F3EF7",

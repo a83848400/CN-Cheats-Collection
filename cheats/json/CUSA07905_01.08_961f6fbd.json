@@ -1,12 +1,17 @@
 {
-  "name": "Strange Brigade",
+  "name": "Strange Brigade｜《奇异旅团》",
   "id": "CUSA07905",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / 1 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (No Reload)",
-      "type": "checkbox",
+      "name": "无限弹药 (无需换弹)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE6DA0",
@@ -39,8 +44,8 @@
       ]
     },
     {
-      "name": "4,700,000 Gold on Gain",
-      "type": "checkbox",
+      "name": "4,700,000 金币 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE7A00",
@@ -55,8 +60,8 @@
       ]
     },
     {
-      "name": "No cooldown on equipment",
-      "type": "checkbox",
+      "name": "无冷却 on 装备",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -73,8 +78,8 @@
       ]
     },
     {
-      "name": "Infinite Ability",
-      "type": "checkbox",
+      "name": "Infinite 特性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",

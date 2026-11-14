@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Final Fantasy X | X-2: HD Remaster" Moder="Molly " Cusa="CUSA01244" Version="01.00" Process="ffx2_phyreApp.elf">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Unlock All Summons ~After Gaining New Character~">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="解锁 All Summons ~After Gaining New Character~">
     <Cheatline>
       <Offset>9E3800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>40-88-B4-10-F8-55-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>9E385C</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-B1-48-3D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items">
+  <Cheat Text="最大 Items">
     <Cheatline>
       <Offset>9E386C</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>48-8B-4D-D0-88-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Key Items ~After Gaining An Key Item~ ">
+  <Cheat Text="Have All 钥匙 Items ~After Gaining An 钥匙 物品~ ">
     <Cheatline>
       <Offset>9E38FB</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>09-83-10-3D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain Overdrive">
+  <Cheat Text="Quickly Gain 超必杀技">
     <Cheatline>
       <Offset>9E3969</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>41-8A-87-C8-05-00-00-88-43-FC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlock All Overdrives ~After Battle~">
+  <Cheat Text="解锁 All Overdrives ~After 战斗~">
     <Cheatline>
       <Offset>9E3995</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>66-41-8B-84-24-6C-3D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Game Timer To 0">
+  <Cheat Text="Set Game 计时器 To 0">
     <Cheatline>
       <Offset>9E3B14</Offset>
       <Section>0</Section>
@@ -112,7 +120,7 @@
       <ValueOff>89-83-BC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quickly Gain AP">
+  <Cheat Text="Quickly Gain 行动点">
     <Cheatline>
       <Offset>9E3B34</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>8B-84-01-E4-55-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Abilities ~After Battle~ ">
+  <Cheat Text="Have All Abilities ~After 战斗~ ">
     <Cheatline>
       <Offset>9E3B5F</Offset>
       <Section>0</Section>
@@ -140,7 +148,7 @@
       <ValueOff>66-41-8B-8C-04-0A-56-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats ~Use Sphere Grid~">
+  <Cheat Text="最大 属性 ~Use Sphere Grid~">
     <Cheatline>
       <Offset>9E3D19</Offset>
       <Section>0</Section>

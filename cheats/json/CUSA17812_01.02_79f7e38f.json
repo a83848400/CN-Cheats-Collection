@@ -1,12 +1,17 @@
 {
-  "name": "Terminator: Resistance",
+  "name": "Terminator: Resistance｜《终结者：抵抗》",
   "id": "CUSA17812",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D6B0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5CC30",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/No Reload (Use Infinite Items)",
-      "type": "checkbox",
+      "name": "无限弹药/无需换弹 (Use 道具无限)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5CBF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max XP On 2° Kill",
-      "type": "checkbox",
+      "name": "最大 XP On 2° Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0D0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E140",

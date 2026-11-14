@@ -18,7 +18,15 @@
       <ValueOff>C4-C1-7A-5C-0F</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1C57800</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic" Description="">
+  <Cheat Text="Infinite 魔法" Description="">
     <Cheatline>
       <Offset>1C57801</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>1C57802</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Infinite Health" Description="">
+  <Cheat Text="Enemy Infinite Health｜敌人无限生命" Description="">
     <Cheatline>
       <Offset>1C57803</Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>1C57803</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Enemy Magic" Description="">
+  <Cheat Text="No Enemy 魔法" Description="">
     <Cheatline>
       <Offset>1C57804</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Enemy Stamina" Description="">
+  <Cheat Text="No Enemy 体力" Description="">
     <Cheatline>
       <Offset>1C57805</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats" Description="">
+  <Cheat Text="最大 属性" Description="">
     <Cheatline>
       <Offset>1C578B1</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C5-FA-10-04-8E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Talentpoints" Description="">
+  <Cheat Text="最大 Talentpoints" Description="">
     <Cheatline>
       <Offset>1C578C2</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>0F-B6-98-11-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Legendary" Description="">
+  <Cheat Text="最大 传说宝可梦" Description="">
     <Cheatline>
       <Offset>1C578D5</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>8B-84-B0-E0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level" Description="">
+  <Cheat Text="Max Level｜等级最大" Description="">
     <Cheatline>
       <Offset>1C578B1</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>0F-B7-47-10-F6-47-08-80</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items" Description="">
+  <Cheat Text="最大 Items" Description="">
     <Cheatline>
       <Offset>1C578EA</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>41-8B-46-10-44-29-E8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>13CFBF</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>41-29-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Move" Description="">
+  <Cheat Text="最大 Items on 招式" Description="">
     <Cheatline>
       <Offset>1C578FB</Offset>
       <Section>0</Section>

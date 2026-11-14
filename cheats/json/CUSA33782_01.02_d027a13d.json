@@ -1,12 +1,17 @@
 {
-  "name": "Potion Permit",
+  "name": "药水 Permit",
   "id": "CUSA33782",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194B880",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194B840",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Rocks (on gather)",
-      "type": "checkbox",
+      "name": "最大 Rocks (on gather)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194B710",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Woods (on gather)",
-      "type": "checkbox",
+      "name": "最大 Woods (on gather)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194B750",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Materials/food/potions (on gather turn off when buying)",
-      "type": "checkbox",
+      "name": "材料最大/food/potions (on gather 回合 off when buying)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194B7B0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Coins (on buy)",
-      "type": "checkbox",
+      "name": "最大 角落 (on buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194B800",

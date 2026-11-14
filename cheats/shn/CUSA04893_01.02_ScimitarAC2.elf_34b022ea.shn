@@ -4,7 +4,15 @@
   <Genres Name="Adventure" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>B8F947</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>41-0F-4E-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money/Items on Get" Description="">
+  <Cheat Text="金钱最大/Items on Get" Description="">
     <Cheatline>
       <Offset>DC8BC7</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>0F-47-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money/Items" Description="">
+  <Cheat Text="金钱无限/Items" Description="">
     <Cheatline>
       <Offset>DC8BF3</Offset>
       <Section>0</Section>

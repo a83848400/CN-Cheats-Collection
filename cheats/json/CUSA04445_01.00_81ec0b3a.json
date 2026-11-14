@@ -1,12 +1,17 @@
 {
-  "name": "Sky Force Anniversary",
+  "name": "光·遇 原力 Anniversary",
   "id": "CUSA04445",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "15",
@@ -17,8 +22,8 @@
       ]
     },
     {
-      "name": "Infinite Ressource",
-      "type": "checkbox",
+      "name": "Infinite Ressource｜无限资源",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125B800",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "Infinite Energy Shield ",
-      "type": "checkbox",
+      "name": "无限能量 盾牌 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125B810",

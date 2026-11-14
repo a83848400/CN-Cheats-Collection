@@ -1,12 +1,17 @@
 {
-  "name": "Legend of Mana",
+  "name": "Legend of Mana｜圣剑传说：玛娜传奇",
   "id": "CUSA24519",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Lucre",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Lucre",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Items ( after buy )",
-      "type": "checkbox",
+      "name": "最大 Items ( after buy )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41FDD6",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Character Level",
-      "type": "checkbox",
+      "name": "最大 Character 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41FDE3",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max HP",
-      "type": "checkbox",
+      "name": "Max HP｜生命值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41FDF8",

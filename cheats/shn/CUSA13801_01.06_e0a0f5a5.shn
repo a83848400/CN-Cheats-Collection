@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Sekiro: Shadows Die Twice" Moder="hejran7 and Pharaoh2k" Cusa="CUSA13801" Version="01.06" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Speed MC (Must Be On)" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="速度 MC (Must Be On)" Description="">
     <Cheatline>
       <Offset>03AAF067</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super HP Bar On Reload" Description="(permanent hp bar works on save file as well)">
+  <Cheat Text="Super 手机 Bar On Reload" Description="(permanent hp bar works on save file as well)">
     <Cheatline>
       <Offset>03AAF15E</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>8B-88-34-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>03AAF0B4</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>8B-88-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>01762316</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>8A-05-BD-39-80-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Untouchable" Description="cant be hit">
+  <Cheat Text="Untouchable｜刀枪不入" Description="cant be hit">
     <Cheatline>
       <Offset>03AAF136</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>4C-89-FE-4C-89-EA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Auto Block Target" Description="">
+  <Cheat Text="自动格挡 Target" Description="">
     <Cheatline>
       <Offset>03AD3800</Offset>
       <Section>0</Section>
@@ -92,7 +100,7 @@
       <ValueOff>48-8B-36-48-8B-7E-70</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Parry Always On Time" Description="Parry when holdeing L1">
+  <Cheat Text="振刀 Always On Time" Description="Parry when holdeing L1">
     <Cheatline>
       <Offset>014C710F</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>80-3D-D7-EB-A9-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Infinite Posture" Description="">
+  <Cheat Text="Player Infinite Posture｜玩家：无限姿态" Description="">
     <Cheatline>
       <Offset>01769A25</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>80-3D-C3-C2-7F-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Deathblow" Description="">
+  <Cheat Text="快速 忍杀" Description="">
     <Cheatline>
       <Offset>03AAF08E</Offset>
       <Section>0</Section>
@@ -122,7 +130,7 @@
       <ValueOff>45-89-A5-48-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Infinite posture" Description="for practice">
+  <Cheat Text="Enemy Infinite posture｜敌人“无限”架势" Description="for practice">
     <Cheatline>
       <Offset>0182F7AF</Offset>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>80-3D-39-65-73-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="100% Drop Rate" Description="">
+  <Cheat Text="100% Drop Rate｜百分百掉宝率" Description="">
     <Cheatline>
       <Offset>03AAF170</Offset>
       <Section>0</Section>
@@ -150,7 +158,7 @@
       <ValueOff>F6-41-21-70-C5-F0-57-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money" Description="">
+  <Cheat Text="Max Money｜金钱最大" Description="">
     <Cheatline>
       <Offset>014C448A</Offset>
       <Section>0</Section>
@@ -158,7 +166,7 @@
       <ValueOff>0F-4C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items On Use" Description="max items on use or when items get transfer to Storage, must have 1 at least">
+  <Cheat Text="最大 Items On Use" Description="max items on use or when items get transfer to Storage, must have 1 at least">
     <Cheatline>
       <Offset>011AE809</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>75-13</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Quick Items" Description="">
+  <Cheat Text="Infinite Quick Items｜无限快捷道具" Description="">
     <Cheatline>
       <Offset>014904AF</Offset>
       <Section>0</Section>
@@ -174,7 +182,7 @@
       <ValueOff>80-3D-25-58-AD-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Merchant Items" Description="turn off after use or when traveling, does not apply to (Prosthetic) upgrade materials">
+  <Cheat Text="Infinite 商人 Items" Description="turn off after use or when traveling, does not apply to (Prosthetic) upgrade materials">
     <Cheatline>
       <Offset>0107FFD8</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>BA-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Auto Pick Enemy Drops" Description="">
+  <Cheat Text="Auto Pick Enemy Drops｜自动拾取敌人掉落物" Description="">
     <Cheatline>
       <Offset>01378334</Offset>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>B0-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Exp Quick lvl Up" Description="">
+  <Cheat Text="经验 Quick lvl Up" Description="">
     <Cheatline>
       <Offset>03AAF10C</Offset>
       <Section>0</Section>
@@ -204,7 +212,7 @@
       <ValueOff>41-8B-8D-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="High Jump" Description="">
+  <Cheat Text="High Jump｜跳高" Description="">
     <Cheatline>
       <Offset>03AAF0C5</Offset>
       <Section>0</Section>
@@ -218,7 +226,7 @@
       <ValueOff>C4-C1-79-10-86-C0-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="turn off when traveling">
+  <Cheat Text="Super Jump｜超级跳跃" Description="turn off when traveling">
     <Cheatline>
       <Offset>03AAF0C5</Offset>
       <Section>0</Section>
@@ -232,7 +240,7 @@
       <ValueOff>C4-C1-79-10-86-C0-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Undetected" Description="">
+  <Cheat Text="Undetected｜未被检测到" Description="">
     <Cheatline>
       <Offset>0182DFE1</Offset>
       <Section>0</Section>
@@ -246,7 +254,7 @@
       <ValueOff>80-3D-C2-84-0C-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Location" Description="">
+  <Cheat Text="Enemy Location｜敌人位置" Description="">
     <Cheatline>
       <Offset>F579BC</Offset>
       <Section>0</Section>
@@ -254,7 +262,7 @@
       <ValueOff>41-89-87-68-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Don't Move" Description="">
+  <Cheat Text="Enemy Don'恐怖分子 招式" Description="">
     <Cheatline>
       <Offset>011FEC4B</Offset>
       <Section>0</Section>
@@ -262,7 +270,7 @@
       <ValueOff>80-3D-96-70-D6-02-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Don't Attack" Description="">
+  <Cheat Text="Enemy Don'恐怖分子 攻击" Description="">
     <Cheatline>
       <Offset>E84E9E</Offset>
       <Section>0</Section>
@@ -270,7 +278,7 @@
       <ValueOff>80-3D-41-0E-0E-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Fall Damage" Description="">
+  <Cheat Text="No Fall Damage｜无坠落伤害" Description="">
     <Cheatline>
       <Offset>017C7FD3</Offset>
       <Section>0</Section>
@@ -278,7 +286,7 @@
       <ValueOff>44-29-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Status Effects" Description="Poison\Terror\Burn\Enfeeblement\Shock\Stepping into the fire">
+  <Cheat Text="No Status Effects｜无状态效果" Description="Poison\Terror\Burn\Enfeeblement\Shock\Stepping into the fire">
     <Cheatline>
       <Offset>0145EB43</Offset>
       <Section>0</Section>
@@ -316,7 +324,7 @@
       <ValueOff>44-0F-4E-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Money\Exp loss Upon Death" Description="">
+  <Cheat Text="No 金钱\经验 loss Upon 死亡" Description="">
     <Cheatline>
       <Offset>01FC8949</Offset>
       <Section>0</Section>
@@ -330,7 +338,7 @@
       <ValueOff>0F-4F-F9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Practice Mode (No One Dies)" Description="">
+  <Cheat Text="练习模式 (No One Dies)" Description="">
     <Cheatline>
       <Offset>01768B15</Offset>
       <Section>0</Section>
@@ -338,7 +346,7 @@
       <ValueOff>41-89-86-30-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Resurrection Charge No Cooldown" Description="">
+  <Cheat Text="复活 冲锋 无冷却" Description="">
     <Cheatline>
       <Offset>03AAF180</Offset>
       <Section>0</Section>
@@ -352,7 +360,7 @@
       <ValueOff>C5-FA-10-88-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Resurrection" Description="you need one resurrection charge at least">
+  <Cheat Text="Infinite 复活" Description="you need one resurrection charge at least">
     <Cheatline>
       <Offset>014BD532</Offset>
       <Section>0</Section>
@@ -360,7 +368,7 @@
       <ValueOff>80-3D-A4-87-AA-02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Speed 1.50" Description="">
+  <Cheat Text="Player 速度 1.50" Description="">
     <Cheatline>
       <Offset>03AAF070</Offset>
       <Section>0</Section>
@@ -368,7 +376,7 @@
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player Speed 2.00" Description="">
+  <Cheat Text="Player 速度 2.00" Description="">
     <Cheatline>
       <Offset>03AAF070</Offset>
       <Section>0</Section>
@@ -376,7 +384,7 @@
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enemy Speed 0.00" Description="">
+  <Cheat Text="Enemy 速度 0.00" Description="">
     <Cheatline>
       <Offset>03AAF07F</Offset>
       <Section>0</Section>
@@ -384,7 +392,7 @@
       <ValueOff>C7-87-70-09-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Untouchable v2" Description="cant be hit">
+  <Cheat Text="刀枪不入 v2" Description="cant be hit">
     <Cheatline>
       <Offset>03AD3830</Offset>
       <Section>0</Section>
@@ -398,7 +406,7 @@
       <ValueOff>0F-8F-FA-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mikiri Counter Always On Time Test" Description="">
+  <Cheat Text="Mikiri 计数器 Always On Time Test" Description="">
     <Cheatline>
       <Offset>03AD3842</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Dead or Alive 6",
+  "name": "死或生 6",
   "id": "CUSA12153",
   "version": "01.30",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Super Bar Both Player",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限超级 Bar Both Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5F6B0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health Player 1",
-      "type": "checkbox",
+      "name": "无限生命 Player 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1440B38",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Super Bar Player 2, Turn off player 1",
-      "type": "checkbox",
+      "name": "无限超级 Bar Player 2, 回合 off player 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5F6B0",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Super Bar Player 1, Turn off player 2",
-      "type": "checkbox",
+      "name": "无限超级 Bar Player 1, 回合 off player 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5F6B0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Radirgy Precious" Moder="Ali-mk" Cusa="SLPM66405" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Energy">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-能量">
     <Cheatline>
       <Offset>807FEE8DD0</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>03-03</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-credits">
+    <Cheat Text="Infinite-credits｜无限积分">
     <Cheatline>
       <Offset>807FD79BC8</Offset>
       <Section>0</Section>

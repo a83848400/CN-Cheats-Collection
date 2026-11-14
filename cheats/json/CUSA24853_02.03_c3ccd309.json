@@ -1,12 +1,17 @@
 {
-  "name": "Kena: Bridge of Spirits",
+  "name": "Kena: Bridge of Spirits｜《凯娜：灵桥》",
   "id": "CUSA24853",
   "version": "02.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2288D87",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "OneHitKill",
-      "type": "checkbox",
+      "name": "OneHitKill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807F000",
@@ -33,7 +38,7 @@
     },
     {
       "name": "InfRotPower",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2281FA1",
@@ -44,7 +49,7 @@
     },
     {
       "name": "InfShield",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23BA0A0",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "InfRotShape",
-      "type": "checkbox",
+      "name": "InfRotShape｜InfRougeShape",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2217FD0",
@@ -71,7 +76,7 @@
     },
     {
       "name": "InfCrystal",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25F6A60",
@@ -82,7 +87,7 @@
     },
     {
       "name": "InfArrow",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2171FD1",

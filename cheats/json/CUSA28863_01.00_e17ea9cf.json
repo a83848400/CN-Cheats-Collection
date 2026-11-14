@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA28863",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Items (Need 2 stock atleast)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限 (Need 2 命数 atleast)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38F3AB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (FP:500)",
-      "type": "checkbox",
+      "name": "无限法力 (专注值:500)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38F3AD0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (FP=100)",
-      "type": "checkbox",
+      "name": "无限法力 (专注值=100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38F3AD0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Health (HP=500 fix)",
-      "type": "checkbox",
+      "name": "无限生命 (手机=500 fix)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38F3B00",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Health (HP=1000)",
-      "type": "checkbox",
+      "name": "无限生命 (手机=1000)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38F3B00",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Health (HP=2000)",
-      "type": "checkbox",
+      "name": "无限生命 (手机=2000)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38F3B00",

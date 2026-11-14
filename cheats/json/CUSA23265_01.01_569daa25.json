@@ -1,12 +1,17 @@
 {
-  "name": "Need for Speed: Hot Pursuit Remastered",
+  "name": "极品飞车: 持续治疗 追捕 Remastered",
   "id": "CUSA23265",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Nitrous",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Nitrous｜无限氮气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DFB5D",

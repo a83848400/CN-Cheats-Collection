@@ -1,12 +1,17 @@
 {
-  "name": "Jump Force",
+  "name": "Jump 原力",
   "id": "CUSA11638",
   "version": "03.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode ( must be activated ) ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Mastercode ( must be activated ) ｜主代码（必须激活）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FDEC",
@@ -51,8 +56,8 @@
       ]
     },
     {
-      "name": "Infinite Health [MC]",
-      "type": "checkbox",
+      "name": "无限生命 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FDF2",
@@ -62,8 +67,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [MC]",
-      "type": "checkbox",
+      "name": "一击必杀 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FE01",
@@ -73,8 +78,8 @@
       ]
     },
     {
-      "name": "Infinite Charge [MC]",
-      "type": "checkbox",
+      "name": "Infinite 冲锋 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FE17",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "No Charge Enemies [MC]",
-      "type": "checkbox",
+      "name": "No 冲锋 Enemies [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FE28",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Awakening [MC]",
-      "type": "checkbox",
+      "name": "Infinite Awakening [MC]｜《无限觉醒》[MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FE40",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "No Awakening Enemies [MC]",
-      "type": "checkbox",
+      "name": "No Awakening Enemies [MC]｜没有觉醒的敌人 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FE51",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina [MC]",
-      "type": "checkbox",
+      "name": "无限耐力 [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FE6A",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "No Stamina Enemies [MC]",
-      "type": "checkbox",
+      "name": "No 体力 Enemies [MC]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FE7D",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Max Money ( on gain )",
-      "type": "checkbox",
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FDB0",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Max Items ( on buy )",
-      "type": "checkbox",
+      "name": "最大 Items ( on buy )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494FDC7",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35BA345",

@@ -33,7 +33,15 @@
       <ValueOff>C5-FA-10-4B-20-C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>37D3812</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>37D3813</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mana" Description="">
+  <Cheat Text="Infinite Mana｜无限法力" Description="">
     <Cheatline>
       <Offset>1E9C186</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath" Description="">
+  <Cheat Text="Infinite Breath｜无限呼吸" Description="">
     <Cheatline>
       <Offset>21FF7C3</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>1B2DC19</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>FF-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo/Items" Description="">
+  <Cheat Text="无限弹药/Items" Description="">
     <Cheatline>
       <Offset>1AE538A</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>0F-4E-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo/Items on Get" Description="">
+  <Cheat Text="弹药最大化/Items on Get" Description="">
     <Cheatline>
       <Offset>1AE5139</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>44-0F-4F-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Get" Description="">
+  <Cheat Text="金钱最大 on Get" Description="">
     <Cheatline>
       <Offset>37D3850</Offset>
       <Section>0</Section>

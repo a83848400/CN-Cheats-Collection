@@ -1,13 +1,18 @@
 {
-  "name": "Alone in the Dark",
+  "name": "Alone in the Dark｜《暗夜孤魂》",
   "id": "PPSA08135",
   "version": "01.000.008",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Ammo INF (No reload)",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "但是 Infinite (无需换弹)",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "661B000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Items (even Keys)",
+      "name": "道具无限 (even Keys)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1970C1E",

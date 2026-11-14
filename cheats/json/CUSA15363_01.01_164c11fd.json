@@ -1,12 +1,17 @@
 {
-  "name": "Yakuza 5 Remastered",
+  "name": "如龙 5 Remastered",
   "id": "CUSA15363",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Yen (on spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 如果 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAF0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Abilities Points Multiplier(on use)",
-      "type": "checkbox",
+      "name": "Abilities 得分 Multiplier(on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "707B7F",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Heat/dragon spirit use (after the first fill)",
-      "type": "checkbox",
+      "name": "无限热血槽/小龙 精魄 use (after the first fill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E950",

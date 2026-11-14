@@ -31,7 +31,15 @@
       <ValueOff>C5-FA-59-83-08-11-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Max Inf HP\Shield" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 无限血量\盾牌" Description="">
     <Cheatline>
       <Offset>930005C</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-10-97-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Ammo" Description="">
+  <Cheat Text="最大 无限弹药" Description="">
     <Cheatline>
       <Offset>930002F</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo No Reload" Description="">
+  <Cheat Text="无限弹药 无需换弹" Description="">
     <Cheatline>
       <Offset>52574C0</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Ammo Insta Refil" Description="">
+  <Cheat Text="最大 无限弹药 Insta Refil" Description="">
     <Cheatline>
       <Offset>4BF79B0</Offset>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>C5-FA-11-9B-E8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Recoil" Description="">
+  <Cheat Text="No Recoil｜消除后坐力" Description="">
     <Cheatline>
       <Offset>9300044</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>C4-C1-7A-10-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>525750D</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>41-89-87-B0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Jump" Description="">
+  <Cheat Text="Super Jump｜超级跳跃" Description="">
     <Cheatline>
       <Offset>93000CC</Offset>
       <Section>0</Section>
@@ -111,7 +119,7 @@
       <ValueOff>C5-F2-58-83-84-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Speed" Description="">
+  <Cheat Text="Super Speed｜超级移速" Description="">
     <Cheatline>
       <Offset>9300123</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>C7-83-08-11-00-00-00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Accuracy" Description="">
+  <Cheat Text="Super Accuracy｜超级精准度" Description="">
     <Cheatline>
       <Offset>DFEA54</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>75-37</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapid Fire 30%" Description="">
+  <Cheat Text="快速射击 30%" Description="">
     <Cheatline>
       <Offset>52670BD</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>0F-86-87-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapid Fire 50%" Description="">
+  <Cheat Text="快速射击 50%" Description="">
     <Cheatline>
       <Offset>52670BD</Offset>
       <Section>0</Section>
@@ -155,7 +163,7 @@
       <ValueOff>0F-86-87-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Rapid Fire 100%" Description="">
+  <Cheat Text="快速射击 100%" Description="">
     <Cheatline>
       <Offset>52670BD</Offset>
       <Section>0</Section>
@@ -169,7 +177,7 @@
       <ValueOff>0F-86-87-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Money" Description="">
+  <Cheat Text="最大 金钱无限" Description="">
     <Cheatline>
       <Offset>9300081</Offset>
       <Section>0</Section>
@@ -177,7 +185,7 @@
       <ValueOff>74-09</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Eridium" Description="">
+  <Cheat Text="最大 Infinite 镒矿" Description="">
     <Cheatline>
       <Offset>930008A</Offset>
       <Section>0</Section>
@@ -185,7 +193,7 @@
       <ValueOff>74-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Insta lvl Up" Description="">
+  <Cheat Text="最大 Insta lvl Up" Description="">
     <Cheatline>
       <Offset>9300100</Offset>
       <Section>0</Section>
@@ -199,7 +207,7 @@
       <ValueOff>C4-C1-7A-2A-C5</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Inf Golden keys" Description="">
+  <Cheat Text="最大 Infinite 金色 keys" Description="">
     <Cheatline>
       <Offset>9300000</Offset>
       <Section>0</Section>
@@ -213,7 +221,7 @@
       <ValueOff>74-03-8B-41-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Open Chest W\O key" Description="when read-when writ">
+  <Cheat Text="Open 宝箱 W\O 钥匙" Description="when read-when writ">
     <Cheatline>
       <Offset>9300015</Offset>
       <Section>0</Section>
@@ -233,7 +241,7 @@
       <ValueOff>44-01-72-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Guardian Tokens" Description="">
+  <Cheat Text="Infinite 守护者 Tokens" Description="">
     <Cheatline>
       <Offset>93000A8</Offset>
       <Section>0</Section>
@@ -253,7 +261,7 @@
       <ValueOff>41-FF-8E-6C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Weapons No Overheat" Description="">
+  <Cheat Text="武器 不会过热" Description="">
     <Cheatline>
       <Offset>528245E</Offset>
       <Section>0</Section>
@@ -261,7 +269,7 @@
       <ValueOff>75-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Buy Skills W\O Skill Points" Description="">
+  <Cheat Text="Buy Skills W\O Skill 得分" Description="">
     <Cheatline>
       <Offset>93000BB</Offset>
       <Section>0</Section>
@@ -275,7 +283,7 @@
       <ValueOff>41-8B-86-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Everyone Super Acoursay" Description="">
+  <Cheat Text="Freeze Everyone Super Acoursay｜“冻结所有人”超级法术" Description="">
     <Cheatline>
       <Offset>4BF799C</Offset>
       <Section>0</Section>

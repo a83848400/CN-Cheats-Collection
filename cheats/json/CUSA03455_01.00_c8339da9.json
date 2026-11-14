@@ -1,12 +1,17 @@
 {
-  "name": "7 Days to Die",
+  "name": "7 Days to Die｜《7天求生》",
   "id": "CUSA03455",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "804901BB",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Get Skillpoints For Spending Them",
-      "type": "checkbox",
+      "name": "Get Skillpoints For Spending Them｜花技能点，赚技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8075ACA9",

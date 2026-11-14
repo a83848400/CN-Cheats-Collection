@@ -1,12 +1,17 @@
 {
-  "name": "Monster Hunter Rise",
+  "name": "怪物猎人 Rise",
   "id": "CUSA34119",
   "version": "16.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Item 10x On Use",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "物品 十倍 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "848B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "848B811",

@@ -1,12 +1,17 @@
 {
-  "name": "Dead Rising 2: Off the Record",
+  "name": "丧尸围城 2: Off the Record",
   "id": "CUSA04273",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3800",
@@ -41,8 +46,8 @@
       ]
     },
     {
-      "name": "Godmode",
-      "type": "checkbox",
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD383F",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "Quick Level Up",
-      "type": "checkbox",
+      "name": "Quick 升级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3854",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3874",
@@ -99,8 +104,8 @@
       ]
     },
     {
-      "name": "Fast Zombie Kills",
-      "type": "checkbox",
+      "name": "Fast 僵尸 Kills",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3886",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "1 Hit Attack And 3x Throw &quot;After Level Up&quot;",
-      "type": "checkbox",
+      "name": "1 Hit 攻击 And 3x 投技 &quot;After 升级&quot;",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1BD3894",

@@ -1,12 +1,17 @@
 {
-  "name": "Captain Tsubasa: Rise of New Champions",
+  "name": "Captain Tsubasa: Rise of New Champions｜《足球小将：新冠军的崛起》",
   "id": "CUSA14896",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38E659",

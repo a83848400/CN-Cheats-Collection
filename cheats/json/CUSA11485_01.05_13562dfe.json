@@ -1,12 +1,17 @@
 {
-  "name": "Fade to Silence",
+  "name": "Fade to Silence｜渐入寂静",
   "id": "CUSA11485",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "764CE80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (rolling)",
-      "type": "checkbox",
+      "name": "无限耐力 (rolling)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7553780",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (light attack)",
-      "type": "checkbox",
+      "name": "无限耐力 (轻攻击)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75537C0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (strong attack)",
-      "type": "checkbox",
+      "name": "无限耐力 (强力攻击)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75537F0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina (Sprinting)",
-      "type": "checkbox",
+      "name": "无限耐力 (Sprinting)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "764FC50",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "No Freezing",
-      "type": "checkbox",
+      "name": "No Freezing｜不结冰",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "759B820",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "No Hunger",
-      "type": "checkbox",
+      "name": "No Hunger｜不会饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "759B7F0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Instant Building",
-      "type": "checkbox",
+      "name": "Instant 建造",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "759B7B0",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Infinite items (while stacking have 2 items and Stack one)",
-      "type": "checkbox",
+      "name": "道具无限 (while stacking have 2 items and 堆叠 one)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75B7500",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Items (on consume buggy in shortcut for healing and torches)",
-      "type": "checkbox",
+      "name": "Items (关于“consume” buggy in shortcut for healing and torches)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "75B7520",

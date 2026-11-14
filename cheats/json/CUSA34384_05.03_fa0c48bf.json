@@ -1,12 +1,17 @@
 {
-  "name": "God of War: Ragnarok",
+  "name": "战神: 诸神黄昏",
   "id": "CUSA34384",
   "version": "05.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1786840",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "God Mode (Untouchable+No Effects) [DO NOT USE IN VALHALLA]",
-      "type": "checkbox",
+      "name": "神模式 (刀枪不入+无效果) [请勿在VALHALLA中使用]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1786850",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "No Damage Taken",
-      "type": "checkbox",
+      "name": "No Damage Taken｜不受伤害",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1786950",
@@ -68,8 +73,8 @@
       ]
     },
     {
-      "name": "No XP,HS, Resources subtracted when used",
-      "type": "checkbox",
+      "name": "No XP,HS, Resources subtracted when used｜使用时不会扣除XP、HS和资源",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1786960",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "No Crafting And Upgrade Limits",
-      "type": "checkbox",
+      "name": "No Crafting And Upgrade Limits｜无制作和升级限制",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C3EB86",

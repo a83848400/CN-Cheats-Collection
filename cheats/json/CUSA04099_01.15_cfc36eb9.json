@@ -1,12 +1,17 @@
 {
-  "name": "Sniper Elite 4",
+  "name": "Sniper 精英 4",
   "id": "CUSA04099",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18C027",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9A5960",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9A5622",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Throwables/Medkits",
-      "type": "checkbox",
+      "name": "无限弹药/可投掷物品/Medkits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "871C31",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "89AC8E",

@@ -1,12 +1,17 @@
 {
-  "name": "Axiom Verge 2",
+  "name": "Axiom Verge 2｜《Axiom Verge 2》",
   "id": "CUSA29346",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Freeze AI + Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Freeze AI + 无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E01DC",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Health Drone",
-      "type": "checkbox",
+      "name": "无限生命 无人机",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F82D",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Mushhus",
-      "type": "checkbox",
+      "name": "Infinite Mushhus｜无限穆什",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F844",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "35C0F2",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max Health Node",
-      "type": "checkbox",
+      "name": "生命最大 Node",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F863",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Health Node Fragment",
-      "type": "checkbox",
+      "name": "生命 Node Fragment",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F87A",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Max Apocalypse Flask",
-      "type": "checkbox",
+      "name": "最大 Apocalypse 圣杯瓶",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F892",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Super Jump [ Land ]",
-      "type": "checkbox",
+      "name": "超级跳跃 [ 领土 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F8AB",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Super Jump [ Water ]",
-      "type": "checkbox",
+      "name": "超级跳跃 [ 水 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F8C5",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Super Jump Drone [ Land ]",
-      "type": "checkbox",
+      "name": "超级跳跃 无人机 [ 领土 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F8DF",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Super Jump Drone [ Water ]",
-      "type": "checkbox",
+      "name": "超级跳跃 无人机 [ 水 ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D0F8F9",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Zero Death Stats",
-      "type": "checkbox",
+      "name": "杰洛 死亡 属性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431AA1",

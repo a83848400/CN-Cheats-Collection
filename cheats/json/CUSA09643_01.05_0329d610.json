@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 7: Biohazard: Gold Edition",
+  "name": "生化危机 7: Biohazard: 金币 Edition",
   "id": "CUSA09643",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "493EC52",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "170B213",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1199F",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables (Not A Hero)",
-      "type": "checkbox",
+      "name": "投掷物无限 (Not A 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E0734A",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite Oxigen (Not A Hero)",
-      "type": "checkbox",
+      "name": "Infinite Oxigen (Not A 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "51CC92A",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Scrap On Use (Nightmare)",
-      "type": "checkbox",
+      "name": "最大/废料无限 On Use (Nightmare)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A893E00",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Stop Time (BedRoom)",
-      "type": "checkbox",
+      "name": "停止 Time (BedRoom)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A893980",

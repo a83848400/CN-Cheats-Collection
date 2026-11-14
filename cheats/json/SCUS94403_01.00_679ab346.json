@@ -1,12 +1,17 @@
 {
   "name": "Philosoma",
-  "id": "SCUS94403",
+  "id": "SCUS94403｜打扰一下，先生。",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11BBFE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Health",
-      "type": "checkbox",
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11B912",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Buster Grenades",
-      "type": "checkbox",
+      "name": "Infinite Buster Grenades｜无限爆破手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11BFD6",

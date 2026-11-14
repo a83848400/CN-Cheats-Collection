@@ -1,12 +1,17 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA12047",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FA20",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Health (Need MC)",
-      "type": "checkbox",
+      "name": "最大/无限生命 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Need MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "3",
@@ -45,8 +50,8 @@
       ]
     },
     {
-      "name": "Max/Infinite All Items (Need 2 To Work)",
-      "type": "checkbox",
+      "name": "最大/Infinite 所有商品 (Need 2 To Work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C1D0",
@@ -61,8 +66,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money On Start",
-      "type": "checkbox",
+      "name": "最大/金钱无限 On Start",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C270",
@@ -77,8 +82,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points (Kill N Turn Off)",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分 (Kill N 回合 Off)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AD3800",

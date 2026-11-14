@@ -1,12 +1,17 @@
 {
-  "name": "Maneater",
+  "name": "Maneater｜食人兽",
   "id": "CUSA14519",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "9,999,999 Protein on Gain",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "9,999,999 Protein on Gain｜9,999,999 增肌蛋白",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5941550",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "9,999,999 Fats on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 Fats on Gain｜9,999,999 个《Fats on Gain》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59415A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "9,999,999 Minerals on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 晶体矿 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59415F0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "9,999,999 Mutagens on Gain",
-      "type": "checkbox",
+      "name": "9,999,999 Mutagens on Gain｜9,999,999 种致突变剂上架",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59416D0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Disable HUD (Pause, then unpause to fix when disabled)",
-      "type": "checkbox",
+      "name": "Disable HUD (暂停, then unpause to fix when disabled)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13CC4CA",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Sky effects (weird screen during Sonar)",
-      "type": "checkbox",
+      "name": "光·遇 effects (weird screen during Sonar)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E28643",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max XP/Level on Gain",
-      "type": "checkbox",
+      "name": "最大 XP/等级 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59417F0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5941900",

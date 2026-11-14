@@ -1,12 +1,17 @@
 {
-  "name": "Terminator: Resistance",
+  "name": "Terminator: Resistance｜《终结者：抵抗》",
   "id": "CUSA15306",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B9E9E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5800000",

@@ -1,12 +1,17 @@
 {
-  "name": "Sword & Fairy: Together Forever",
+  "name": "剑 & 妖精: Together Forever",
   "id": "CUSA29794",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46BB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46C00",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items (on use)",
-      "type": "checkbox",
+      "name": "最大 Items (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46C70",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max coins",
-      "type": "checkbox",
+      "name": "最大 角落",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46CF0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Gift points (on spend)",
-      "type": "checkbox",
+      "name": "最大 Gift 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7D46AA0",

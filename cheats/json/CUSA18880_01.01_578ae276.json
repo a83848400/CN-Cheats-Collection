@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA18880",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "PlayerNoDead (Need a Loading)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "PlayerNoDead (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A78E9",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "PlayerHorseNoDead (Need a Loading)",
-      "type": "checkbox",
+      "name": "PlayerHorseNoDead (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A798B",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "PlayerExterminate (Need a Loading)",
-      "type": "checkbox",
+      "name": "PlayerExterminate (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A7A2D",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "AllNoStaminaConsume (Need a Loading)",
-      "type": "checkbox",
+      "name": "AllNoStaminaConsume (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A7ACF",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "IsNoArtsPointConsume (Need a Loading)",
-      "type": "checkbox",
+      "name": "IsNoArtsPointConsume (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11A7C28",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Unlock More Debug Var (Needed for everything bellow this point)",
-      "type": "checkbox",
+      "name": "解锁 More Debug 视频助理裁判 (Needed for everything bellow this point)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "185043D",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoMpConsume (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoMpConsume (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850C09",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoArrowConsume (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoArrowConsume (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850CC9",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoGoodsConsume (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoGoodsConsume (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850E49",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoHit (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoHit (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850849",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoDamage (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoDamage (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850789",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoDead (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoDead (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850909",
@@ -137,8 +142,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoAttack (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoAttack (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18509C9",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "GameData.AllNoMove (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.AllNoMove (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850A89",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "GameData.EnablePlayerReload (Need a Loading)",
-      "type": "checkbox",
+      "name": "GameData.EnablePlayerReload (Need a 加载中)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1850FC9",

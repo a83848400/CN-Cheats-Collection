@@ -1,12 +1,17 @@
 {
-  "name": "Matterfall",
+  "name": "Matterfall｜物质坠落",
   "id": "CUSA02475",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "45C6B00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Over Charge (On Use)",
-      "type": "checkbox",
+      "name": "Infinite Over 冲锋 (On Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ADB7A",

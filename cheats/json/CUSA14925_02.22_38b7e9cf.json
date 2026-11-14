@@ -1,12 +1,17 @@
 {
-  "name": "Bus Simulator 21",
+  "name": "Bus Simulator 21｜《巴士模拟器21》",
   "id": "CUSA14925",
   "version": "02.22",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "623BDB0",

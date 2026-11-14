@@ -1,12 +1,17 @@
 {
-  "name": "House Flipper",
+  "name": "House Flipper｜房屋翻新专家",
   "id": "CUSA23090",
   "version": "03.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money Balance (on spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 Balance (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FA60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Skill points Multiplier (on spend)",
-      "type": "checkbox",
+      "name": "Skill 得分 Multiplier (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "189FBC0",
