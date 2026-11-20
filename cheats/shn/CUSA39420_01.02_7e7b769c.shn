@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Hollow Knight: Silksong" Moder="2pt - Contact on ps4 reaper discord if you have issues" Cusa="CUSA39420" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Shell Shards - On Pick Up">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 贝壳 Shards - On 拾取">
     <Cheatline>
       <Section>14</Section>
       <Offset>477F800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>01-B7-38-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health">
+  <Cheat Text="无限生命">
     <Cheatline>
       <Section>14</Section>
       <Offset>477F811</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>89-43-60-48-83-C4-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Rosary Beads - On Pickup">
+  <Cheat Text="最大 Rosary Beads - On Pickup">
     <Cheatline>
       <Section>14</Section>
       <Offset>477F828</Offset>
@@ -44,7 +52,7 @@
       <ValueOff>01-B7-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fly - Press DPAD UP" Description="Use with caution, you might be able to skip sequences or get stuck in ceiling tiles that are usually out of reach.">
+  <Cheat Text="飞行 - Press DPAD UP" Description="Use with caution, you might be able to skip sequences or get stuck in ceiling tiles that are usually out of reach.">
     <Cheatline>
       <Section>0</Section>
       <Offset>1E07800</Offset>

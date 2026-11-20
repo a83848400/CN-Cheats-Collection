@@ -1,12 +1,17 @@
 {
-  "name": "Slime Rancher",
+  "name": "史莱姆 Rancher",
   "id": "CUSA11650",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Coins (on gain)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 角落 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E850",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E870",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E890",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "All items x30 (on spend)",
-      "type": "checkbox",
+      "name": "所有商品 x30 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18B2A00",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Keys x99 (on use)",
-      "type": "checkbox",
+      "name": "Keys x99 (on use)｜密钥 x99（使用中）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E470",

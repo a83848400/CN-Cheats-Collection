@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rayman Legends" Moder="d01v" Cusa="CUSA00031" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Invisible (Run Disable / Turn off before entering Room)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="不可见 (Run Disable / 回合 off before entering Room)">
     <Cheatline>
       <Offset>466389</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-42-CA-19-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invulnerable (enemy only, not on traps)">
+  <Cheat Text="无敌 (enemy only, not on 陷阱)">
     <Cheatline>
       <Offset>4826D3</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E8-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>BE3489</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>75-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always Start with Heart">
+  <Cheat Text="Always Start with Heart｜永远从内心出发">
     <Cheatline>
       <Offset>F3D50</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>0F-93-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Teensy Unlock All">
+  <Cheat Text="Instant Teensy 解锁 All">
     <Cheatline>
       <Offset>140B221</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>44-03-A0-60-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Walk Speed x2 (MC)">
+  <Cheat Text="Increase Walk 速度 x2 (MC)">
     <Cheatline>
       <Offset>140B241</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>C4-C1-7A-11-87-B8-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Walk Speed x3 (MC)">
+  <Cheat Text="Increase Walk 速度 x3 (MC)">
     <Cheatline>
       <Offset>140B241</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>41-C7-87-B8-05-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Lucky Ticket">
+  <Cheat Text="Instant Lucky Ticket｜即开型幸运彩票">
     <Cheatline>
       <Offset>140B2A1</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>44-8B-B0-64-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant 1m Lums">
+  <Cheat Text="Instant 1m Lums｜即时 1m 流明">
     <Cheatline>
       <Offset>140B2D1</Offset>
       <Section>0</Section>

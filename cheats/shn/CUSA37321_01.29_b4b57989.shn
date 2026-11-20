@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Atomic Heart" Moder="Celogamez" Cusa="CUSA37321" Version="01.29" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health/Energy/Polymeric Ability/Shock/Dash (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命/能量/Polymeric 特性/Shock/Dash (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>7FC5FDB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5FDB9</Offset>
       <Section>3</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>5FDD1</Offset>
       <Section>3</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Polymeric Ability">
+  <Cheat Text="Infinite Polymeric 特性">
     <Cheatline>
       <Offset>5FDE6</Offset>
       <Section>3</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shock">
+  <Cheat Text="Infinite Shock｜无限冲击">
     <Cheatline>
       <Offset>5FE0C</Offset>
       <Section>3</Section>
@@ -54,7 +62,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dash">
+  <Cheat Text="Infinite Dash｜无限冲刺">
     <Cheatline>
       <Offset>5FE1F</Offset>
       <Section>3</Section>
@@ -62,7 +70,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>4A274C7</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>FF-8B-40-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Neuropolymer/Resources (On Pick Up)">
+  <Cheat Text="Infinite Neuropolymer/Resources (On 拾取)">
     <Cheatline>
       <Offset>7FC5FE70</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Neuropolymer/Resources (On use)">
+  <Cheat Text="Infinite Neuropolymer/Resources (On use)｜无限神经聚合物/资源（使用中）">
     <Cheatline>
       <Offset>7FC5FE30</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>75-6D-8B-4B-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(DLC Limbo) - Infinite Health/Polymeric Ability/Dash (MASTERCODE/MUST BE ON)">
+  <Cheat Text="(DLC Limbo) - Infinite Health/Polymeric Ability/Dash (MASTERCODE/MUST BE ON)｜(DLC地狱边境)-无限生命/聚合能力/冲刺(主代码必须开启)">
     <Cheatline>
       <Offset>7FC5EAC0</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5EAC9</Offset>
       <Section>3</Section>
@@ -126,7 +134,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Polymeric Ability">
+  <Cheat Text="Polymeric 特性">
     <Cheatline>
       <Offset>5EAE1</Offset>
       <Section>3</Section>
@@ -134,7 +142,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Dash">
+  <Cheat Text="Infinite Dash｜无限冲刺">
     <Cheatline>
       <Offset>5EAF4</Offset>
       <Section>3</Section>
@@ -142,7 +150,7 @@
       <ValueOff>C5-FA-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dlc Limbo) Max/Infinite Apples/Gold Coins ">
+  <Cheat Text="(Dlc Limbo) Max/Infinite Apples/Gold Coins ｜(DLC地狱边境)苹果/金币最大无限">
     <Cheatline>
       <Offset>7FC5F040</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>0F-4C-D1-41-89-16</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Dlc Limbo/Goose Run) Add Lives To The Goose When Picking Up Apples ">
+  <Cheat Text="(Dlc Limbo/Goose Run) Add Lives To The Goose When Picking Up Apples ｜(DLC地狱边境/鹅跑)拾取苹果给鹅增加生命">
     <Cheatline>
       <Offset>7FC5F110</Offset>
       <Section>0</Section>

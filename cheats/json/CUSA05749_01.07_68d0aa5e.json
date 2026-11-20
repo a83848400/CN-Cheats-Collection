@@ -1,13 +1,18 @@
 {
-  "name": "Star Wars Battlefront II",
+  "name": "Star Wars Battlefront II｜《星球大战：前线2》",
   "id": "CUSA05749",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2584D35",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No overheat",
+      "name": "无限弹药 / 不会过热",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27BEAA5",

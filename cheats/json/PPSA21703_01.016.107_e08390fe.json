@@ -1,0 +1,125 @@
+{
+  "name": "吸血鬼 Survivors",
+  "id": "PPSA21703",
+  "version": "01.016.107",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "No Damage｜不受伤害",
+      "description": "The player takes 不受伤害. Healing still works, and a shorter 生命 bar after a +生命值最大 upgrade is 普通 game behaviour.",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "74B97C2",
+          "on": "C5FA108340020000",
+          "off": "488BBBA800000031",
+          "expected": "488BBBA800000031",
+          "absolute": false
+        },
+        {
+          "offset": "74B97CA",
+          "on": "C5FA5C45CC",
+          "off": "F6E8F0AC01",
+          "expected": "F6E8F0AC01",
+          "absolute": false
+        },
+        {
+          "offset": "74B97CF",
+          "on": "C5FA5F8340020000",
+          "off": "FBC5FA1083400200",
+          "expected": "FBC5FA1083400200",
+          "absolute": false
+        },
+        {
+          "offset": "74B97D7",
+          "on": "C5FA118340020000",
+          "off": "0084C0740DC5FA5C",
+          "expected": "0084C0740DC5FA5C",
+          "absolute": false
+        },
+        {
+          "offset": "74B97DF",
+          "on": "90909090909090909090",
+          "off": "45CCC5FA118340020000",
+          "expected": "45CCC5FA118340020000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill｜一击必杀",
+      "description": "Enemies die from a single hit. Standalone mod: use it independently of 不受伤害.",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "75A1BC8",
+          "on": "C5F857C0",
+          "off": "C5F25CC0",
+          "expected": "C5F25CC0",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "金币最大 9,999,999",
+      "description": "Picking up any 金币 sets your coin total to 9,999,999, the highest amount the game can display. Use it once and 回合 it off; the 金币 stays in your 保存 like normally earned 金币. Do not enable together with Reset 金币.",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "6EDABFF",
+          "on": "C5FA580D250A2802",
+          "off": "C5FA588B94000000",
+          "expected": "C5FA588B94000000",
+          "absolute": false
+        },
+        {
+          "offset": "6EDEAD8",
+          "on": "C5FA58054CCB2702",
+          "off": "C5FA588194000000",
+          "expected": "C5FA588194000000",
+          "absolute": false
+        },
+        {
+          "offset": "6EDEB79",
+          "on": "C5FA5805ABCA2702",
+          "off": "C5FA588198000000",
+          "expected": "C5FA588198000000",
+          "absolute": false
+        }
+      ]
+    },
+    {
+      "name": "Reset 金币",
+      "description": "Sets your coin balance back to almost 杰洛 the next time you collect 金币. Enable it, 拾取 one coin, then 回合 it off. Do not enable together with 金币最大 9,999,999.",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "6EDABFF",
+          "on": "C5FA580D2D002802",
+          "off": "C5FA588B94000000",
+          "expected": "C5FA588B94000000",
+          "absolute": false
+        },
+        {
+          "offset": "6EDEAD8",
+          "on": "C5FA580554C12702",
+          "off": "C5FA588194000000",
+          "expected": "C5FA588194000000",
+          "absolute": false
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "prey33"
+  ]
+}

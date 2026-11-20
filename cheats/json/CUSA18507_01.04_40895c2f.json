@@ -1,12 +1,17 @@
 {
-  "name": "Freedom Finger",
+  "name": "Freedom Finger｜自由之指",
   "id": "CUSA18507",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17502F0",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Shield",
-      "type": "checkbox",
+      "name": "Infinite Shield｜无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "16",

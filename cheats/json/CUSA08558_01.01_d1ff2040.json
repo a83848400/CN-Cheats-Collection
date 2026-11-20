@@ -1,13 +1,18 @@
 {
-  "name": "Dead Rising 4: Frank's Big Package",
+  "name": "丧尸围城 4: 弗兰克's Big Package",
   "id": "CUSA08558",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F1700A",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "211FB2B",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Set Money to 8.999.999",
+      "name": "Set 金钱 to 8.999.999",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "20047962C",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Set Skillpoints to 999",
+      "name": "Set Skillpoints to 999｜将技能点设为999",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "21A1EE8A8",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Max Level",
+      "name": "Max Level｜等级最大",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "21A1ECD48",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "Set Kill series to 9.999.999",
+      "name": "Set Kill series to 9.999.999｜将“Kill”系列设置为 9.999.999",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "21A1E9D44",

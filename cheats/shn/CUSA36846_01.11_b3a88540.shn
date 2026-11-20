@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Wo Long: Fallen Dynasty" Moder="Pharaoh2k" Cusa="CUSA36846" Version="01.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Master Code (Must always be enabled)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Master 密码 (Must always be enabled)">
     <Cheatline>
       <Section>0</Section>
       <Offset>3623800</Offset>
@@ -28,7 +36,7 @@
       <ValueOff>48-C1-E9-20-C5-F9-6E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ghost Mode" Description="Enemies will be able to see you if you enable the cheat after they already detected you.">
+  <Cheat Text="Ghost Mode｜幽灵模式" Description="Enemies will be able to see you if you enable the cheat after they already detected you.">
     <Cheatline>
       <Section>0</Section>
       <Offset>402B0</Offset>
@@ -36,7 +44,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="God Mode｜神模式" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>362383E</Offset>
@@ -50,7 +58,7 @@
       <ValueOff>E9-DA-62-25-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite Health｜无限生命" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>3623860</Offset>
@@ -64,7 +72,7 @@
       <ValueOff>C4-C1-7C-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Morale" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="最大 Morale" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>3623882</Offset>
@@ -90,7 +98,7 @@
       <ValueOff>8B-48-14-89-8D-5C-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>36238AE</Offset>
@@ -104,7 +112,7 @@
       <ValueOff>C4-E2-70-F2-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Spirit" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="最大 精魄" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>36238DD</Offset>
@@ -118,7 +126,7 @@
       <ValueOff>C5-FC-11-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Genuine Qi" Description="In level upgrade screen">
+  <Cheat Text="最大 Genuine Qi" Description="In level upgrade screen">
     <Cheatline>
       <Section>0</Section>
       <Offset>36238FC</Offset>
@@ -132,7 +140,7 @@
       <ValueOff>B9-B4-C0-59-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Buff Duration" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite 增益 Duration" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>36239D0</Offset>
@@ -146,7 +154,7 @@
       <ValueOff>C4-C1-7A-11-87-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="World Speed (Master-Code)" Description="Pick only 1 of the speed multipliers below">
+  <Cheat Text="World 速度 (Master-密码)" Description="Pick only 1 of the speed multipliers below">
     <Cheatline>
       <Section>0</Section>
       <Offset>3623922</Offset>
@@ -166,7 +174,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x0.5 Speed" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="---速度×0.5" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>03A0004D</Offset>
@@ -174,7 +182,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x2 Speed" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="---速度×2" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>03A0004D</Offset>
@@ -182,7 +190,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x3 Speed" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="---速度×3" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>03A0004D</Offset>
@@ -190,7 +198,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="---x4 Speed" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="---速度×4" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>03A0004D</Offset>
@@ -198,7 +206,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Accolades (On Buy)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="最大 Accolades (On Buy)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>3623938</Offset>
@@ -212,7 +220,7 @@
       <ValueOff>0F-42-CF-89-48-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Dragon Cure Potions (On use)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="99 小龙 Cure Potions (On use)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>362394C</Offset>
@@ -226,7 +234,7 @@
       <ValueOff>88-88-E5-A9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Copper" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite Copper｜无限铜" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>362395E</Offset>
@@ -240,7 +248,7 @@
       <ValueOff>42-8B-44-A0-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Wizardry Spells (On use)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite 仙术 Spells (On use)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>3623971</Offset>
@@ -254,7 +262,7 @@
       <ValueOff>89-B4-81-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables (On use)" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="投掷物无限 (On use)" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>362398A</Offset>
@@ -268,7 +276,7 @@
       <ValueOff>29-77-08-89-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Beast Power Charge" Description="Charges on first enemy hit">
+  <Cheat Text="Instant 野兽 电力 冲锋" Description="Charges on first enemy hit">
     <Cheatline>
       <Section>0</Section>
       <Offset>3623997</Offset>
@@ -282,7 +290,7 @@
       <ValueOff>C4-C1-78-11-44-24-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Tiger Beast Duration" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="Infinite Tiger 野兽 Duration" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>36239AE</Offset>

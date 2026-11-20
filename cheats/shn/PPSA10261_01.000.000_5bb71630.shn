@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Lies of P" Moder="Super Death" Cusa="PPSA10261" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <PS5Offset>27834B8-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>E8-43-FB-ED-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <PS5Offset>4C73D10-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>89-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ergo" Description="Use this cheat by itself/ Buy or sell something ">
+  <Cheat Text="Infinite Ergo｜因此，无限地" Description="Use this cheat by itself/ Buy or sell something ">
     <Cheatline>
       <PS5Offset>800-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>EB-FE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/ Storage" Description="Store or withdraw any items into/out of storage">
+  <Cheat Text="道具无限/ 存储" Description="Store or withdraw any items into/out of storage">
     <Cheatline>
       <PS5Offset>7EA-executable[0]-5</PS5Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>EB-FE-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Legion use">
+  <Cheat Text="Infinite Legion use｜无限军团的使用">
     <Cheatline>
       <PS5Offset>4C73DD3-executable[0]-5</PS5Offset>
       <Section>0</Section>

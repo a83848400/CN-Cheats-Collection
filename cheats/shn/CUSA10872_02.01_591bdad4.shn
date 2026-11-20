@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Shadow of the Tomb Raider" Moder="Celogamez" Cusa="CUSA10872" Version="02.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>183BDE0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-DA-58-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health+1 Hit Kill">
+  <Cheat Text="无限生命+一击必杀">
     <Cheatline>
       <Offset>183BE4E</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-DA-58-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Breath">
+  <Cheat Text="Infinite Breath｜无限呼吸">
     <Cheatline>
       <Offset>183BF10</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7A-11-9F-98-1B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>D3FDF8</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ammo/Arrows/Items/Gold">
+  <Cheat Text="最大/无限弹药/Arrows/Items/金币">
     <Cheatline>
       <Offset>CDED62</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>66-89-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP On Gain">
+  <Cheat Text="最大 XP On Gain">
     <Cheatline>
       <Offset>183BFC0</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>89-44-24-10-45-01-6E-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points">
+  <Cheat Text="Infinite Skill 得分">
     <Cheatline>
       <Offset>183BE70</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>29-D1-89-48-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score challenge Tombs">
+  <Cheat Text="最大 比分 challenge Tombs">
     <Cheatline>
       <Offset>183BEB0</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>48-8B-88-A8-07-00-00-8B-51-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
+  <Cheat Text="无限生命/一击必杀 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>183BDB0</Offset>
       <Section>0</Section>
@@ -116,7 +124,7 @@
       <ValueOff>C5-DA-58-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>183BDB4</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>EB-0D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>183BDC7</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "BloodRayne Betrayal: Fresh Bites",
+  "name": "BloodRayne Betrayal: Fresh Bites｜《血腥雷恩：背叛》：新鲜咬痕",
   "id": "CUSA26608",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F1446",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-Weapon｜无限武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E9F29",

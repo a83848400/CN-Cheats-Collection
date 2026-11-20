@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dino Crisis" Moder="W" Cusa="SLUS00922" Version="01.00" Process="eboot.bin">
   <Genres Name="" />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1A4814</Offset>
       <Section>11</Section>
@@ -9,7 +17,7 @@
       <ValueOff>B0-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Maps">
+  <Cheat Text="Have All Maps｜拥有所有地图">
     <Cheatline>
       <Offset>1AC870</Offset>
       <Section>11</Section>
@@ -47,7 +55,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Weapons (Regina)">
+  <Cheat Text="All 武器 (蕾吉娜)">
     <Cheatline>
       <Offset>1AC848</Offset>
       <Section>11</Section>
@@ -55,7 +63,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Items (Regina)">
+  <Cheat Text="Have 所有商品 (蕾吉娜)">
     <Cheatline>
       <Offset>1AC844</Offset>
       <Section>11</Section>
@@ -123,7 +131,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 1">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 1">
     <Cheatline>
       <Offset>1ACB6D</Offset>
       <Section>11</Section>
@@ -131,7 +139,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 2">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 2">
     <Cheatline>
       <Offset>1ACB71</Offset>
       <Section>11</Section>
@@ -139,7 +147,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 3">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 3">
     <Cheatline>
       <Offset>1ACB75</Offset>
       <Section>11</Section>
@@ -147,7 +155,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 4">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 4">
     <Cheatline>
       <Offset>1ACB79</Offset>
       <Section>11</Section>
@@ -155,7 +163,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 5">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 5">
     <Cheatline>
       <Offset>1ACB7D</Offset>
       <Section>11</Section>
@@ -163,7 +171,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 6">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 6">
     <Cheatline>
       <Offset>1ACB81</Offset>
       <Section>11</Section>
@@ -171,7 +179,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 7">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 7">
     <Cheatline>
       <Offset>1ACB85</Offset>
       <Section>11</Section>
@@ -179,7 +187,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 8">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 8">
     <Cheatline>
       <Offset>1ACB89</Offset>
       <Section>11</Section>
@@ -187,7 +195,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 9">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 9">
     <Cheatline>
       <Offset>1ACB8D</Offset>
       <Section>11</Section>
@@ -195,7 +203,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Supplies Codes (Regina)\Slot 10">
+  <Cheat Text="最大 军粮 Codes (蕾吉娜)\Slot 10">
     <Cheatline>
       <Offset>1ACB91</Offset>
       <Section>11</Section>
@@ -203,7 +211,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="View First Ending (Press Select With these codes, do not press button to see ending during a FMV scene)">
+  <Cheat Text="View First Ending (Press Select With these codes, do not press 按钮 to see ending during a FMV scene)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>
@@ -229,7 +237,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="View Second Ending (Press Select With these codes, do not press button to see ending during a FMV scene)">
+  <Cheat Text="View Second Ending (Press Select With these codes, do not press 按钮 to see ending during a FMV scene)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>
@@ -255,7 +263,7 @@
       <ValueOff>01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="View Third Ending (Press Select With these codes, do not press button to see ending during a FMV scene)">
+  <Cheat Text="View Third Ending (Press Select With these codes, do not press 按钮 to see ending during a FMV scene)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>
@@ -281,7 +289,7 @@
       <ValueOff>02-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Turbo Boost (Press X)">
+  <Cheat Text="涡轮 Boost (Press 艾克斯)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>
@@ -295,7 +303,7 @@
       <ValueOff>00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Anywhere (.Press L1 &amp; L2)">
+  <Cheat Text="任意地点存档 (.Press L1 &amp; L2)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>
@@ -309,7 +317,7 @@
       <ValueOff>07-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mini Me (Regina)">
+  <Cheat Text="Mini Me (蕾吉娜)">
     <Cheatline>
       <Offset>1A47A0</Offset>
       <Section>11</Section>
@@ -329,7 +337,7 @@
       <ValueOff>00-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Giant (Regina)">
+  <Cheat Text="Giant (蕾吉娜)">
     <Cheatline>
       <Offset>1A47A0</Offset>
       <Section>11</Section>
@@ -349,7 +357,7 @@
       <ValueOff>00-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo &amp; Items">
+  <Cheat Text="无限弹药 &amp; Items">
     <Cheatline>
       <Offset>155EA6</Offset>
       <Section>11</Section>
@@ -357,7 +365,7 @@
       <ValueOff>00-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Costume Change">
+  <Cheat Text="Enable 服装 Change">
     <Cheatline>
       <Offset>1ACF94</Offset>
       <Section>11</Section>
@@ -383,7 +391,7 @@
       <ValueOff>03-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Extra Missions">
+  <Cheat Text="Enable Extra Missions｜启用额外任务">
     <Cheatline>
       <Offset>1B2EE2</Offset>
       <Section>11</Section>
@@ -391,7 +399,7 @@
       <ValueOff>03-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Extra Missions (Press R1+R2 At Main Menu)">
+  <Cheat Text="启用额外任务 (Press R1+R2 At 主菜单)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>
@@ -405,7 +413,7 @@
       <ValueOff>03-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Time-Wipeout Missions">
+  <Cheat Text="无限时间-Wipeout Missions">
     <Cheatline>
       <Offset>1ACFA4</Offset>
       <Section>11</Section>
@@ -425,7 +433,7 @@
       <ValueOff>D1-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Clear Time Is 0:00:00">
+  <Cheat Text="Clear Time Is 0:00:00｜清除时间是 0:00:00">
     <Cheatline>
       <Offset>1AC764</Offset>
       <Section>11</Section>
@@ -439,7 +447,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Used 0 Continues">
+  <Cheat Text="Used 0 Continues｜已用 0 继续">
     <Cheatline>
       <Offset>1AC76A</Offset>
       <Section>11</Section>
@@ -447,7 +455,7 @@
       <ValueOff>05-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Haven't Saved">
+  <Cheat Text="港口'恐怖分子 Saved">
     <Cheatline>
       <Offset>1AC763</Offset>
       <Section>11</Section>
@@ -455,7 +463,7 @@
       <ValueOff>00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have A Lot Of Plugs On Pickup">
+  <Cheat Text="Have A 用地 Of Plugs On Pickup">
     <Cheatline>
       <Offset>1ACDA0</Offset>
       <Section>11</Section>
@@ -463,7 +471,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 1">
+  <Cheat Text="最大 道具箱 Codes\Slot 1">
     <Cheatline>
       <Offset>1AC9E5</Offset>
       <Section>11</Section>
@@ -471,7 +479,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 2">
+  <Cheat Text="最大 道具箱 Codes\Slot 2">
     <Cheatline>
       <Offset>1AC9E9</Offset>
       <Section>11</Section>
@@ -479,7 +487,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 3">
+  <Cheat Text="最大 道具箱 Codes\Slot 3">
     <Cheatline>
       <Offset>1AC9ED</Offset>
       <Section>11</Section>
@@ -487,7 +495,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 4">
+  <Cheat Text="最大 道具箱 Codes\Slot 4">
     <Cheatline>
       <Offset>1AC9F1</Offset>
       <Section>11</Section>
@@ -495,7 +503,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 5">
+  <Cheat Text="最大 道具箱 Codes\Slot 5">
     <Cheatline>
       <Offset>1AC9F5</Offset>
       <Section>11</Section>
@@ -503,7 +511,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 6">
+  <Cheat Text="最大 道具箱 Codes\Slot 6">
     <Cheatline>
       <Offset>1AC9F9</Offset>
       <Section>11</Section>
@@ -511,7 +519,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 7">
+  <Cheat Text="最大 道具箱 Codes\Slot 7">
     <Cheatline>
       <Offset>1AC9FD</Offset>
       <Section>11</Section>
@@ -519,7 +527,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 8">
+  <Cheat Text="最大 道具箱 Codes\Slot 8">
     <Cheatline>
       <Offset>1ACA01</Offset>
       <Section>11</Section>
@@ -527,7 +535,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 9">
+  <Cheat Text="最大 道具箱 Codes\Slot 9">
     <Cheatline>
       <Offset>1ACA05</Offset>
       <Section>11</Section>
@@ -535,7 +543,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Item Box Codes\Slot 10">
+  <Cheat Text="最大 道具箱 Codes\Slot 10">
     <Cheatline>
       <Offset>1ACA09</Offset>
       <Section>11</Section>
@@ -543,7 +551,7 @@
       <ValueOff>FF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invisible Regina">
+  <Cheat Text="不可见 蕾吉娜">
     <Cheatline>
       <Offset>1A4712</Offset>
       <Section>11</Section>
@@ -551,7 +559,7 @@
       <ValueOff>FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Turbo Shooting &amp; No Reload">
+  <Cheat Text="涡轮 射门 &amp; 无需换弹">
     <Cheatline>
       <Offset>1A473A</Offset>
       <Section>11</Section>
@@ -583,7 +591,7 @@
       <ValueOff>63-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Change Size Regina Anywhere (Press L1 For Smaller &amp; R2 For Bigger)">
+  <Cheat Text="Change Size 蕾吉娜 Anywhere (Press L1 For Smaller &amp; R2 For Bigger)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>
@@ -693,7 +701,7 @@
       <ValueOff>10-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Walk Thru Walls">
+  <Cheat Text="Walk Thru Walls｜穿墙而过">
     <Cheatline>
       <Offset>16BBB6</Offset>
       <Section>11</Section>
@@ -707,7 +715,7 @@
       <ValueOff>00-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Slow Motion">
+  <Cheat Text="Slow Motion｜慢动作">
     <Cheatline>
       <Offset>1971C8</Offset>
       <Section>11</Section>
@@ -715,7 +723,7 @@
       <ValueOff>03-A8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Transform Size Of Dinosaur's Anytime (Press L2 For Smaller &amp; L1 For Bigger)">
+  <Cheat Text="Transform Size Of 恐龙's Anytime (Press L2 For Smaller &amp; L1 For Bigger)">
     <Cheatline>
       <Offset>19C6B8</Offset>
       <Section>11</Section>

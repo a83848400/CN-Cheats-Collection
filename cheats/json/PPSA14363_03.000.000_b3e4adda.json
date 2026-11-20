@@ -1,0 +1,743 @@
+{
+  "name": "合金装备/潜龙谍影 - Master Collection Version",
+  "id": "PPSA14363",
+  "version": "03.000.000",
+  "process": "eboot.bin",
+  "credits": [
+    "k4k0gh0st",
+    "port of CUSA41300 01.02 trainer"
+  ],
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "type": "checkbox｜复选框",
+      "description": "Required: enable first. Does nothing on its own. 默认 version: US English.",
+      "memory": [
+        {
+          "offset": "80C480",
+          "on": "41FFC74183C604488B8B402100004885C90F84850200004889CA4881C1301700004883E910EB0781125E03006300EB0781265E03006300EB0781145E03006300EB0781285E03006300EB0781165E03006300EB07812A5E03006300EB0781185E03006300EB07812C5E03006300EB07811A5E03006300EB07812E5E03006300EB07811C5E03006300EB0781305E03006300EB07811E5E03006300EB0781325E03006300EB0781205E03006300EB0781345E03006300EB0781225E03006300EB0781365E03006300EB0781245E03006300EB0781385E03006300EB053B5E030000EB053D5E030000EB053F5E030000EB05415E030000EB05435E030000EB05455E030000EB05475E030000EB05495E030000EB054B5E030000EB054D5E030000EB054F5E030000EB05515E030000EB05535E030000EB0781545E03006300EB07816A5E03006300EB0781565E03006300EB07816C5E03006300EB0781585E03006300EB07816E5E03006300EB055B5E030000EB07815C5E0300FF00EB07815E5E0300FF00EB05615E030000EB05635E030000EB05655E030000EB05675E030000EB0781685E03000000EB08065E030000060006EB07818CCA02000004EB0781725E03000000EB0781725E03000100EB0781725E03000200EB07822A7503000000EB078288E102000000EB07828AE102000000EB05AC75030000EB05AE75030000EB05BC75030000EB05BE75030000EB05C075030000EB05C675030000EB0782C875030000000FB7B2582D030083FE080F8568000000EB0782F68E03000000488BBB482100004885FF0F844F000000EB07879CB505000000EB0787B44A05000000EB078778FE06000000EB0787087405000000EB07877C9907000000EB0787A87C06000000488BBB502100004885FF0F8409000000EB0787B68C03000000E9F71A89FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9E211",
+          "on": "E96AE276009090",
+          "off": "41FFC74183C604"
+        }
+      ]
+    },
+    {
+      "name": "Version: Europe English (UK)",
+      "type": "checkbox｜复选框",
+      "description": "Use only if you play the Europe English (UK) version. Enable only one; 无 = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "10000000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: French (FRA)",
+      "type": "checkbox｜复选框",
+      "description": "Use only if you play the French (FRA) version. Enable only one; 无 = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "A0050000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: German (DEU)",
+      "type": "checkbox｜复选框",
+      "description": "Use only if you play the German (DEU) version. Enable only one; 无 = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "E8040000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: Italian (ITA)",
+      "type": "checkbox｜复选框",
+      "description": "Use only if you play the Italian (ITA) version. Enable only one; 无 = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "78000000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: Spanish (ESP)",
+      "type": "checkbox｜复选框",
+      "description": "Use only if you play the Spanish (ESP) version. Enable only one; 无 = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "48010000",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Version: Japanese (职业点)",
+      "type": "checkbox｜复选框",
+      "description": "Use only if you play the Japanese (职业点) version. Enable only one; 无 = US English.",
+      "memory": [
+        {
+          "offset": "80C49D",
+          "on": "A0F9FFFF",
+          "off": "30170000"
+        }
+      ]
+    },
+    {
+      "name": "Life｜生活",
+      "type": "checkbox｜复选框",
+      "description": "生活 and 最大 生活 locked at 0x600.",
+      "memory": [
+        {
+          "offset": "80C628",
+          "on": "C781",
+          "off": "EB08"
+        }
+      ]
+    },
+    {
+      "name": "O2｜氧气",
+      "type": "checkbox｜复选框",
+      "description": "氧气 (air) locked at full (0x400).",
+      "memory": [
+        {
+          "offset": "80C632",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Weapons｜武器",
+      "type": "checkbox｜复选框",
+      "description": "All 武器 with 99 但是.",
+      "memory": [
+        {
+          "offset": "80C4A5",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4AE",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4B7",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4C0",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4C9",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4D2",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4DB",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4E4",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4ED",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4F6",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C4FF",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C508",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C511",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C51A",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C523",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C52C",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C535",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C53E",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C547",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C550",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Cigs｜香烟",
+      "type": "checkbox｜复选框",
+      "description": "Have 香烟.",
+      "memory": [
+        {
+          "offset": "80C559",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Scope｜瞄准镜",
+      "type": "checkbox｜复选框",
+      "description": "Have 瞄准镜.",
+      "memory": [
+        {
+          "offset": "80C560",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Cbox A",
+      "type": "checkbox｜复选框",
+      "description": "Have Cbox A.",
+      "memory": [
+        {
+          "offset": "80C567",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Cbox B",
+      "type": "checkbox｜复选框",
+      "description": "Have Cbox B.",
+      "memory": [
+        {
+          "offset": "80C56E",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Cbox C",
+      "type": "checkbox｜复选框",
+      "description": "Have Cbox C.",
+      "memory": [
+        {
+          "offset": "80C575",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "NVG",
+      "type": "checkbox｜复选框",
+      "description": "Have NVG.",
+      "memory": [
+        {
+          "offset": "80C57C",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Therm G",
+      "type": "checkbox｜复选框",
+      "description": "Have Therm G.",
+      "memory": [
+        {
+          "offset": "80C583",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "GasMask｜防毒面具",
+      "type": "checkbox｜复选框",
+      "description": "Have 防毒面具.",
+      "memory": [
+        {
+          "offset": "80C58A",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Body Armor｜身体护甲",
+      "type": "checkbox｜复选框",
+      "description": "Have 身体护甲.",
+      "memory": [
+        {
+          "offset": "80C591",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Ketchup｜番茄酱",
+      "type": "checkbox｜复选框",
+      "description": "Have 番茄酱.",
+      "memory": [
+        {
+          "offset": "80C598",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Stealth｜潜行",
+      "type": "checkbox｜复选框",
+      "description": "Have 潜行.",
+      "memory": [
+        {
+          "offset": "80C59F",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Bandana｜头带",
+      "type": "checkbox｜复选框",
+      "description": "Have 头带.",
+      "memory": [
+        {
+          "offset": "80C5A6",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Camera｜相机",
+      "type": "checkbox｜复选框",
+      "description": "Have 相机.",
+      "memory": [
+        {
+          "offset": "80C5AD",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Ration｜口粮",
+      "type": "checkbox｜复选框",
+      "description": "口粮 x99.",
+      "memory": [
+        {
+          "offset": "80C5B4",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C5BD",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Medicine｜医学",
+      "type": "checkbox｜复选框",
+      "description": "医学 x99.",
+      "memory": [
+        {
+          "offset": "80C5C6",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C5CF",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Diazepam｜地西泮",
+      "type": "checkbox｜复选框",
+      "description": "地西泮 x99.",
+      "memory": [
+        {
+          "offset": "80C5D8",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C5E1",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Enable Pal 钥匙",
+      "type": "checkbox｜复选框",
+      "description": "Have the PAL 钥匙. Pick a color below (one at a time).",
+      "memory": [
+        {
+          "offset": "80C5EA",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Pal 钥匙 Yellow",
+      "type": "checkbox｜复选框",
+      "description": "PAL 钥匙 set to Yellow. Enable only one color (set it once, ideally before gameplay).",
+      "memory": [
+        {
+          "offset": "80C63B",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Pal 钥匙 Red",
+      "type": "checkbox｜复选框",
+      "description": "PAL 钥匙 set to Red. Enable only one color (set it once, ideally before gameplay).",
+      "memory": [
+        {
+          "offset": "80C644",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Pal 钥匙 Cyan",
+      "type": "checkbox｜复选框",
+      "description": "PAL 钥匙 set to Cyan. Enable only one color (set it once, ideally before gameplay).",
+      "memory": [
+        {
+          "offset": "80C64D",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "卡牌 LV.255",
+      "type": "checkbox｜复选框",
+      "description": "钥匙 卡牌 等级 255.",
+      "memory": [
+        {
+          "offset": "80C5F1",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "计时器 Bomb",
+      "type": "checkbox｜复选框",
+      "description": "计时器 Bomb 物品 (value 255).",
+      "memory": [
+        {
+          "offset": "80C5FA",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Mine D｜前往 D",
+      "type": "checkbox｜复选框",
+      "description": "Have 前往 D.",
+      "memory": [
+        {
+          "offset": "80C603",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Disc｜光盘",
+      "type": "checkbox｜复选框",
+      "description": "Have 光盘.",
+      "memory": [
+        {
+          "offset": "80C60A",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Rope｜绳子",
+      "type": "checkbox｜复选框",
+      "description": "Have 绳子.",
+      "memory": [
+        {
+          "offset": "80C611",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "Handker",
+      "type": "checkbox｜复选框",
+      "description": "Have Handker.",
+      "memory": [
+        {
+          "offset": "80C618",
+          "on": "C681",
+          "off": "EB05"
+        }
+      ]
+    },
+    {
+      "name": "消音器 Socom",
+      "type": "checkbox｜复选框",
+      "description": "Have the SOCOM 消音器.",
+      "memory": [
+        {
+          "offset": "80C61F",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "幽灵模式 (experimental, US)",
+      "type": "checkbox｜复选框",
+      "description": "GameShark 幽灵模式 密码 (800AE188/800AE18A = 0). 效果 is not documented; test it. US version only.",
+      "memory": [
+        {
+          "offset": "80C65F",
+          "on": "66C7",
+          "off": "EB07"
+        },
+        {
+          "offset": "80C668",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "大首领 阶级 属性 (US)",
+      "type": "checkbox｜复选框",
+      "description": "Keeps the 末地-game 阶级 属性 at 0 (alerts, kills, continues, saves, 口粮...). US version only.",
+      "memory": [
+        {
+          "offset": "80C671",
+          "on": "C682",
+          "off": "EB05"
+        },
+        {
+          "offset": "80C678",
+          "on": "C682",
+          "off": "EB05"
+        },
+        {
+          "offset": "80C67F",
+          "on": "C682",
+          "off": "EB05"
+        },
+        {
+          "offset": "80C686",
+          "on": "C682",
+          "off": "EB05"
+        },
+        {
+          "offset": "80C68D",
+          "on": "C682",
+          "off": "EB05"
+        },
+        {
+          "offset": "80C694",
+          "on": "C682",
+          "off": "EB05"
+        },
+        {
+          "offset": "80C69B",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Never Catch a Cold (US)",
+      "type": "checkbox｜复选框",
+      "description": "不冷/sneezing. US version only.",
+      "memory": [
+        {
+          "offset": "80C656",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Ninja (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the Ninja fight, 领地 only R1 to 丢弃 its 生命 to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C6CD",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: 心理螳螂 (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the 心理螳螂 fight, 领地 only R1 to 丢弃 its 生命 to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C713",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Hind D (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the Hind D fight, 领地 only R1 to 丢弃 its 生命 to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C6D6",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Sniper 狼 (雪地) (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the Sniper 狼 (雪地) fight, 领地 only R1 to 丢弃 its 生命 to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C6DF",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Vulcan Raven (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the Vulcan Raven fight, 领地 only R1 to 丢弃 its 生命 to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C6E8",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: 合金装备 莱克斯 (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the 合金装备 莱克斯 fight, 领地 only R1 to 丢弃 its 生命 to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C6B4",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Boss Kill: Liquid (final fight) (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the Liquid (final fight) fight, 领地 only R1 to 丢弃 its 生命 to 0. US version only.",
+      "memory": [
+        {
+          "offset": "80C6F1",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Ocelot 0 项目符号 (领地 R1)",
+      "type": "checkbox｜复选框",
+      "description": "During the Ocelot fight, 领地 only R1: he runs out of 项目符号. US version only.",
+      "memory": [
+        {
+          "offset": "80C6FA",
+          "on": "66C7",
+          "off": "EB07"
+        }
+      ]
+    }
+  ]
+}

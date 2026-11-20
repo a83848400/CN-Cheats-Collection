@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Uncharted: The Nathan Drake Collection" Moder="hejran7" Cusa="CUSA02320" Version="01.00" Process="big2-ps4_Shipping.elf">
   <Genres Name="Action" />
   <Genres Name="Adventure" />
-  <Cheat Text="Dev Menu L3+Upper L or R Touch Pad" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Dev 菜单 L3+Upper L or R Touch Pad" Description="">
     <Cheatline>
       <Offset>DFB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>80-B8-8C-48-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable FPS View - Hold L3" Description="">
+  <Cheat Text="Enable FPS View - 领地 L3" Description="">
     <Cheatline>
       <Offset>14C504</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>0F-85-C1-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Task View - Hold L3" Description="">
+  <Cheat Text="Enable Task View - 领地 L3" Description="">
     <Cheatline>
       <Offset>DFB836</Offset>
       <Section>0</Section>

@@ -5,7 +5,15 @@
   <Genres Name="Horror" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Inf HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>140F812</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>C5-FA-11-4B-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>8349C0</Offset>
       <Section>0</Section>

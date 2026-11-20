@@ -1,12 +1,17 @@
 {
-  "name": "Jurassic World Evolution 2",
+  "name": "Jurassic World 进化 2",
   "id": "CUSA27319",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money (Buy 2 Roads)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (Buy 2 道路)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1782D6E",

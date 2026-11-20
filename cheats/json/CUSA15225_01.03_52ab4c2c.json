@@ -1,12 +1,17 @@
 {
-  "name": "The Incredible Adventures of Van Helsing III",
+  "name": "The Incredible Adventures of Van Helsing III｜《范·赫尔辛的不可思议冒险3》",
   "id": "CUSA15225",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2523870",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Mana",
-      "type": "checkbox",
+      "name": "Infinite Mana｜无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2523E40",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Katarina/Player skill  points",
-      "type": "checkbox",
+      "name": "Infinite Katarina/Player skill  得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -55,8 +60,8 @@
       ]
     },
     {
-      "name": "Infinite Katarina/Player Ability points",
-      "type": "checkbox",
+      "name": "Infinite Katarina/Player 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2523D50",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Max Coins (on get/buy/sell)",
-      "type": "checkbox",
+      "name": "最大 角落 (on get/buy/sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25238F0",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2523D90",

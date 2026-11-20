@@ -1,12 +1,17 @@
 {
-  "name": "Trials of Mana",
+  "name": "Trials of Mana｜圣剑传说3",
   "id": "CUSA17050",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Mana/CT",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/法力/反恐",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "599FC70",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "599FBC0",

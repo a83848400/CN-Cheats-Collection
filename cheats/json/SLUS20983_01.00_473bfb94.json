@@ -1,12 +1,17 @@
 {
-  "name": "Musashi: Samurai Legend",
+  "name": "Musashi: 武士 传奇",
   "id": "SLUS20983",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80802C6BA8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max Focus",
-      "type": "checkbox",
+      "name": "最大 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80802C6BA0",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Luck",
-      "type": "checkbox",
+      "name": "Max Luck｜幸运最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80802C6BA4",

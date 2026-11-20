@@ -1,12 +1,17 @@
 {
-  "name": "The Long Dark",
+  "name": "The Long Dark｜《漫漫长夜》",
   "id": "CUSA08624",
   "version": "02.16",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "0-GO to  t.ly/Q9ogg  for the full tutorial on how to use",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "0-GO to  恐怖分子.ly/Q9ogg  for the full tutorial on how to use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43799",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "1-ENABLE ALL A/C OPIONS (recommended) OR",
-      "type": "checkbox",
+      "name": "1-ENABLE ALL A/C OPIONS (recommended) OR｜1-启用所有空调选项（推荐）或",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43813",
@@ -202,8 +207,8 @@
       ]
     },
     {
-      "name": "2-ENABLE ALL B/C OPIONS (too easy=Boring)",
-      "type": "checkbox",
+      "name": "2-ENABLE ALL B/C OPIONS (too 简单=Boring)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43800",
@@ -518,8 +523,8 @@
       ]
     },
     {
-      "name": "3-INF Health W B",
-      "type": "checkbox",
+      "name": "3-无限生命 W B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43800",
@@ -534,8 +539,8 @@
       ]
     },
     {
-      "name": "4-INF Weight W C",
-      "type": "checkbox",
+      "name": "4-Infinite 重量 W C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43813",
@@ -560,8 +565,8 @@
       ]
     },
     {
-      "name": "5-INF Stamina N C",
-      "type": "checkbox",
+      "name": "5-无限耐力 N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C5C460",
@@ -576,8 +581,8 @@
       ]
     },
     {
-      "name": "6-Durablity never decreases N A OR",
-      "type": "checkbox",
+      "name": "6-Durablity never decreases N A OR｜6-耐久度永不降低 N A 或",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82E2E3E2",
@@ -597,8 +602,8 @@
       ]
     },
     {
-      "name": "7-Durablity is always MAX  W R B",
-      "type": "checkbox",
+      "name": "7-Durablity is always 最大  W R B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43828",
@@ -633,8 +638,8 @@
       ]
     },
     {
-      "name": "8-INF Crafting  N C",
-      "type": "checkbox",
+      "name": "8-无限制作  N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81DD70B3",
@@ -644,8 +649,8 @@
       ]
     },
     {
-      "name": "9-INF Fire time N C",
-      "type": "checkbox",
+      "name": "9-Infinite 火 time N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81B08898",
@@ -660,8 +665,8 @@
       ]
     },
     {
-      "name": "10-INF torch fire N C",
-      "type": "checkbox",
+      "name": "10-Infinite 火把 火 N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81A3BB63",
@@ -671,8 +676,8 @@
       ]
     },
     {
-      "name": "11-Fire Temp always Max W B",
-      "type": "checkbox",
+      "name": "11-火 Temp always 最大 W B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C438B1",
@@ -687,8 +692,8 @@
       ]
     },
     {
-      "name": "12-FIRE pit immune to wind N C",
-      "type": "checkbox",
+      "name": "12-火 pit immune to wind N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81B09056",
@@ -698,8 +703,8 @@
       ]
     },
     {
-      "name": "13-water never decreases N C",
-      "type": "checkbox",
+      "name": "13-水 never decreases N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C7A1E3",
@@ -714,8 +719,8 @@
       ]
     },
     {
-      "name": "14-Charcoal never decreases N C",
-      "type": "checkbox",
+      "name": "14-木炭 never decreases N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8210D912",
@@ -725,8 +730,8 @@
       ]
     },
     {
-      "name": "15-Firewood never decreases N C",
-      "type": "checkbox",
+      "name": "15-Firewood never decreases N C｜15-柴火的数量永远不会减少 N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C9C163",
@@ -736,8 +741,8 @@
       ]
     },
     {
-      "name": "16-Spray paint never decreases N C",
-      "type": "checkbox",
+      "name": "16-喷漆 喷漆 never decreases N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81A37F32",
@@ -752,8 +757,8 @@
       ]
     },
     {
-      "name": "17-Medications never decreases N C",
-      "type": "checkbox",
+      "name": "17-Medications never decreases N C｜17-药物绝不会降低N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81DD6E70",
@@ -763,8 +768,8 @@
       ]
     },
     {
-      "name": "18-Oil/Antiseptic never decreases  N C",
-      "type": "checkbox",
+      "name": "18-油/Antiseptic never decreases  N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C7C3FA",
@@ -774,8 +779,8 @@
       ]
     },
     {
-      "name": "19-Lantern Oil never decreases N A OR",
-      "type": "checkbox",
+      "name": "19-灯笼 油 never decreases N A OR",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81619940",
@@ -785,8 +790,8 @@
       ]
     },
     {
-      "name": "20-Lantern Oil always full on ignition W B",
-      "type": "checkbox",
+      "name": "20-灯笼 油 always full on ignition W B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43886",
@@ -801,8 +806,8 @@
       ]
     },
     {
-      "name": "21-INF Climbing N C",
-      "type": "checkbox",
+      "name": "21-无限攀登 N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C4A43C",
@@ -817,8 +822,8 @@
       ]
     },
     {
-      "name": "22-NO Reload N B",
-      "type": "checkbox",
+      "name": "22-无需换弹 N B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "84873D17",
@@ -828,8 +833,8 @@
       ]
     },
     {
-      "name": "23-INF Aim Time N C",
-      "type": "checkbox",
+      "name": "23-无限瞄准时间 N C简体中文（大陆）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82106D49",
@@ -839,8 +844,8 @@
       ]
     },
     {
-      "name": "24-Ammo never decreases N C",
-      "type": "checkbox",
+      "name": "24-但是 never decreases N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81DD7A92",
@@ -850,8 +855,8 @@
       ]
     },
     {
-      "name": "25-Arrows never decrease N C",
-      "type": "checkbox",
+      "name": "25-Arrows never decrease N C｜25-箭头数量永不减少 N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8210A620",
@@ -861,8 +866,8 @@
       ]
     },
     {
-      "name": "26-Rocks never decreases N C",
-      "type": "checkbox",
+      "name": "26-Rocks never decreases N C｜26-Rocks 的 N C 值从未降低",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C6346C",
@@ -872,8 +877,8 @@
       ]
     },
     {
-      "name": "27-cat tail never decreases N A",
-      "type": "checkbox",
+      "name": "27-cat tail never decreases N A｜27-猫尾永远不会减少 N A（简体中文（大陆））",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C7D4DE",
@@ -883,8 +888,8 @@
       ]
     },
     {
-      "name": "28-ALL FOODs/DRINKs never decreases N B",
-      "type": "checkbox",
+      "name": "28-ALL FOODs/DRINKs never decreases N B｜28-所有食物/饮料绝不会减少 N B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "826DFB4D",
@@ -894,8 +899,8 @@
       ]
     },
     {
-      "name": "29-99 items on get W B",
-      "type": "checkbox",
+      "name": "29-99 件商品 on get W B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43914",
@@ -910,8 +915,8 @@
       ]
     },
     {
-      "name": "30-NO More Thirst N B",
-      "type": "checkbox",
+      "name": "30-NO More 口渴 N B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "826E3A57",
@@ -921,8 +926,8 @@
       ]
     },
     {
-      "name": "31-NO More Hunger N B",
-      "type": "checkbox",
+      "name": "31-NO More 饥饿 N B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "826E13F1",
@@ -932,8 +937,8 @@
       ]
     },
     {
-      "name": "32-Never get tired or sleepy N B",
-      "type": "checkbox",
+      "name": "32-Never get tired or sleepy N B｜32-永远不要感到疲倦或困倦 N B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "826D0FD7",
@@ -944,7 +949,7 @@
     },
     {
       "name": "33-NO More Frostbites W B",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C438FF",
@@ -959,8 +964,8 @@
       ]
     },
     {
-      "name": "34-NO More wet clothes R B",
-      "type": "checkbox",
+      "name": "34-NO More wet clothes R B｜34-再也不用穿湿衣服了 R B简体中文（大陆）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C438D9",
@@ -975,8 +980,8 @@
       ]
     },
     {
-      "name": "35-NO More frozen clothes R B",
-      "type": "checkbox",
+      "name": "35-NO More 冰冻 clothes R B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C438EC",
@@ -991,8 +996,8 @@
       ]
     },
     {
-      "name": "36-NO More Hypothermia RISK N B",
-      "type": "checkbox",
+      "name": "36-NO More Hypothermia RISK N B｜36-不再有低体温风险 N B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81CA30F5",
@@ -1012,8 +1017,8 @@
       ]
     },
     {
-      "name": "37-NO More Cold/Hypothermia Risk W B",
-      "type": "checkbox",
+      "name": "37-NO More Cold/Hypothermia Risk W B｜37-不再有受寒/体温过低风险 W B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C438C4",
@@ -1028,8 +1033,8 @@
       ]
     },
     {
-      "name": "38-Duplicate any Item !!! (read guide on how to use) N",
-      "type": "checkbox",
+      "name": "38-Duplicate any 物品 !!! (read guide on how to use) N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81DD04A9",
@@ -1039,8 +1044,8 @@
       ]
     },
     {
-      "name": "39-Droped items do not decreases (require 2 or more) N A",
-      "type": "checkbox",
+      "name": "39-Droped items do not decreases (require 2 or more) N A｜39-掉落的物品数量不会减少（需2个或以上） N A",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81E720AC",
@@ -1050,8 +1055,8 @@
       ]
     },
     {
-      "name": "40-Make the selected item in inventory X16 (require 1 item or more)W",
-      "type": "checkbox",
+      "name": "40-Make the selected 物品 in 背包 X16 (require 1 物品 or more)W",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C43899",
@@ -1066,8 +1071,8 @@
       ]
     },
     {
-      "name": "41-INF well fed effect (from eating anything) N C",
-      "type": "checkbox",
+      "name": "41-Infinite well fed 效果 (from eating anything) N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81A4B1BC",
@@ -1087,8 +1092,8 @@
       ]
     },
     {
-      "name": "42-INF Warm effect (from HOT FOODs/DRINKs) N",
-      "type": "checkbox",
+      "name": "42-Infinite Warm 效果 (from 持续治疗 FOODs/DRINKs) N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C4D4ED",
@@ -1098,8 +1103,8 @@
       ]
     },
     {
-      "name": "43-INF Improved rest effect (from HERBAL TEA) N",
-      "type": "checkbox",
+      "name": "43-Infinite Improved 休息 效果 (from HERBAL TEA) N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C4DD2B",
@@ -1109,8 +1114,8 @@
       ]
     },
     {
-      "name": "44-INF Restore condition effect (from BIRCH BARK TEA) N",
-      "type": "checkbox",
+      "name": "44-Infinite Restore 状态 效果 (from BIRCH BARK TEA) N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C4D59D",
@@ -1120,8 +1125,8 @@
       ]
     },
     {
-      "name": "45-INF Fatigue reduced effect  ( from CUPS OF CUFFEE )  N C",
-      "type": "checkbox",
+      "name": "45-Infinite 疲劳 reduced 效果  ( from CUPS OF CUFFEE )  N C",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80C4D4A9",
@@ -1131,8 +1136,8 @@
       ]
     },
     {
-      "name": "46-FOODs/Drinks stay hot (after cooking or heating) N C OR",
-      "type": "checkbox",
+      "name": "46-FOODs/Drinks stay 持续治疗 (after cooking or heating) N C OR",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81E6D728",
@@ -1142,8 +1147,8 @@
       ]
     },
     {
-      "name": "47-FOODs/Drinks always hot (no need for heating cans or drinks) W B",
-      "type": "checkbox",
+      "name": "47-FOODs/Drinks always 持续治疗 (no need for heating cans or drinks) W B",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "85C4394E",
@@ -1158,8 +1163,8 @@
       ]
     },
     {
-      "name": "48-Rest/Sleep Start at 24 HRs (use with caution cz hunger will kill you) (read guide on how to use) N",
-      "type": "checkbox",
+      "name": "48-休息/睡眠 Start at 24 HRs (use with 警戒 cz 饥饿 意志 kill you) (read guide on how to use) N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81D907E9",
@@ -1169,8 +1174,8 @@
       ]
     },
     {
-      "name": "49-Rest/Sleep Start at 48 HRs (use with caution cz hunger will kill you) (read guide on how to use)  N",
-      "type": "checkbox",
+      "name": "49-休息/睡眠 Start at 48 HRs (use with 警戒 cz 饥饿 意志 kill you) (read guide on how to use)  N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81D907E9",
@@ -1180,8 +1185,8 @@
       ]
     },
     {
-      "name": "50-Rest/Sleep Start at 7 Days (use with caution cz hunger will kill you) (read guide on how to use)  N",
-      "type": "checkbox",
+      "name": "50-休息/睡眠 Start at 7 Days (use with 警戒 cz 饥饿 意志 kill you) (read guide on how to use)  N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81D907E9",
@@ -1191,8 +1196,8 @@
       ]
     },
     {
-      "name": "51-Rest/Sleep Start at 100 Days (use with caution cz hunger will kill you/Max sleep time is 7 days) (read guide on how to use)  N",
-      "type": "checkbox",
+      "name": "51-休息/睡眠 Start at 100 Days (use with 警戒 cz 饥饿 意志 kill you/最大 睡眠 time is 7 days) (read guide on how to use)  N",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81D907E9",

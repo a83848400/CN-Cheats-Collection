@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Double Dragon Gaiden: Rise of the Dragons" Moder="Ali-mk" Cusa="CUSA42936" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-    <Cheat Text="Infinite-Health-(MC)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+    <Cheat Text="Infinite-生命-(MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E9-7A-9C-11-05</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="MAX-cash">
+    <Cheat Text="最大-cash">
     <Cheatline>
       <Section>0</Section>
       <Offset>82BC6047</Offset>

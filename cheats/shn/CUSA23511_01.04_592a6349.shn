@@ -15,7 +15,15 @@
       <ValueOff>C5-FA-10-84-83-8C-01-00-00</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Inf Hp" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量" Description="">
     <Cheatline>
       <Offset>04F37203</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>80-BB-70-01-00-00-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="0 Death" Description="">
+  <Cheat Text="0 死亡" Description="">
     <Cheatline>
       <Offset>04F371E3</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>01-B7-A8-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Jump" Description="">
+  <Cheat Text="无限跳跃" Description="">
     <Cheatline>
       <Offset>19A7C0</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>41-FF-86-38-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump High" Description="">
+  <Cheat Text="Jump High｜跳得更高" Description="">
     <Cheatline>
       <Offset>02C8B765</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C4-C1-4A-58-8E-CC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible" Description="">
+  <Cheat Text="Invincible｜无敌" Description="">
     <Cheatline>
       <Offset>4DE9F27</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>80-BB-70-01-00-00-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack x2" Description="">
+  <Cheat Text="速度 Hack x2" Description="">
     <Cheatline>
       <Offset>04F3721F</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>F3-0F-59-05-FD-A1-CC-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack x3" Description="">
+  <Cheat Text="速度 Hack x3" Description="">
     <Cheatline>
       <Offset>04F3721F</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>F3-0F-59-05-FD-A1-CC-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x10 Boxes When Get" Description="">
+  <Cheat Text="x10 Boxes When Get｜x10 盒 获取时" Description="">
     <Cheatline>
       <Offset>04F371D2</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>01-B7-38-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Boxes When Get" Description="">
+  <Cheat Text="最大 Boxes When Get" Description="">
     <Cheatline>
       <Offset>04F371D2</Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>01-B7-38-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x10 Wumpa When Get" Description="">
+  <Cheat Text="x10 Wumpa When Get｜x10 温帕 获取时" Description="">
     <Cheatline>
       <Offset>04F371BF</Offset>
       <Section>0</Section>
@@ -131,7 +139,7 @@
       <ValueOff>45-01-8D-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Wumpa When Get" Description="">
+  <Cheat Text="最大 Wumpa When Get" Description="">
     <Cheatline>
       <Offset>04F371BF</Offset>
       <Section>0</Section>
@@ -145,7 +153,7 @@
       <ValueOff>45-01-8D-00-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Time Trial Extra 5 sec for each box" Description="">
+  <Cheat Text="计时赛 Extra 5 sec for each box" Description="">
     <Cheatline>
       <Offset>04F371F3</Offset>
       <Section>0</Section>
@@ -159,7 +167,7 @@
       <ValueOff>C4-C1-7A-2A-C4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Time Trial Extra 10 sec for each box" Description="">
+  <Cheat Text="计时赛 Extra 10 sec for each box" Description="">
     <Cheatline>
       <Offset>04F371F3</Offset>
       <Section>0</Section>

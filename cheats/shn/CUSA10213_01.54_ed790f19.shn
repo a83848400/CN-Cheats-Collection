@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Horizon Zero Dawn: Complete Edition" Moder="Pharaoh2k, FBML" Cusa="CUSA10213" Version="01.54" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="TRAINER INFO (read only)" Description="Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. Should also work on the PS5. Enjoy! :)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="TRAINER INFO (read only)｜训练师信息（只读）" Description="Important! Please be sure to read the cheats comments where available! Fully tested, but let me know if there is any issue. Should also work on the PS5. Enjoy! :)">
     <Cheatline>
       <Offset>1F26FFF</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code (Must be enabled first + all the time)">
+  <Cheat Text="Master 密码 (Must be enabled first + all the time)">
     <Cheatline>
       <Offset>54F7F08</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>45-31-E4-C5-FA-5E-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="Untouchable and No effects">
+  <Cheat Text="God Mode｜神模式" Description="Untouchable and No effects">
     <Cheatline>
       <Offset>1F27000</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>31-C9-4C-89-EE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Toggle_Stealth_Mode" Description="Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden machine is detectable).">
+  <Cheat Text="--切换潜行模式" Description="Be sure to enable it before getting detected. Works all the time, except when mounted (the overriden machine is detectable).">
     <Cheatline>
       <Offset>54F7F08</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Infinite_Health">
+  <Cheat Text="--无限生命">
     <Cheatline>
       <Offset>54F7F24</Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--One_Hit_Kill">
+  <Cheat Text="--一击必杀">
     <Cheatline>
       <Offset>54F7F20</Offset>
       <Section>0</Section>
@@ -176,7 +184,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>10DE939</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>45-85-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Arrows Per Shot (5)">
+  <Cheat Text="最大 Arrows Per Shot (5)">
     <Cheatline>
       <Offset>10DE830</Offset>
       <Section>0</Section>
@@ -192,7 +200,7 @@
       <ValueOff>41-0F-4F-DE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Hour:12">
+  <Cheat Text="--Hour:12｜--小时：12">
     <Cheatline>
       <Offset>54F7F28</Offset>
       <Section>0</Section>
@@ -200,7 +208,7 @@
       <ValueOff>00-00-40-41</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jump and Glide">
+  <Cheat Text="Infinite Jump and Glide｜无限跳跃与滑翔">
     <Cheatline>
       <Offset>1F2715F</Offset>
       <Section>0</Section>
@@ -214,7 +222,7 @@
       <ValueOff>66-41-8B-8E-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--XP x5">
+  <Cheat Text="--经验×5">
     <Cheatline>
       <Offset>54F7F2C</Offset>
       <Section>0</Section>
@@ -222,7 +230,7 @@
       <ValueOff>01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="--Walking Speed x1">
+  <Cheat Text="--行走速度×1">
     <Cheatline>
       <Offset>54F7F30</Offset>
       <Section>0</Section>
@@ -230,7 +238,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Crafting Limits">
+  <Cheat Text="No Crafting Limits｜无制作限制">
     <Cheatline>
       <Offset>146C975</Offset>
       <Section>0</Section>
@@ -250,7 +258,7 @@
       <ValueOff>41-39-C6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Purchase Requirements">
+  <Cheat Text="No Purchase Requirements｜无购买要求">
     <Cheatline>
       <Offset>149451E</Offset>
       <Section>0</Section>
@@ -258,7 +266,7 @@
       <ValueOff>44-8B-70-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Concentration">
+  <Cheat Text="Infinite 专注">
     <Cheatline>
       <Offset>16A1623</Offset>
       <Section>0</Section>
@@ -266,7 +274,7 @@
       <ValueOff>C5-FA-58-43-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Inventory">
+  <Cheat Text="Infinite 背包">
     <Cheatline>
       <Offset>E273A0</Offset>
       <Section>0</Section>
@@ -292,7 +300,7 @@
       <ValueOff>FF-50-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Potions (On Use)">
+  <Cheat Text="药水无限 (On Use)">
     <Cheatline>
       <Offset>1F271FD</Offset>
       <Section>0</Section>
@@ -306,7 +314,7 @@
       <ValueOff>48-0F-44-F1-31-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Rope Durability">
+  <Cheat Text="Infinite 绳子 耐用性">
     <Cheatline>
       <Offset>14A1C2C</Offset>
       <Section>0</Section>
@@ -320,7 +328,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weaver Armour">
+  <Cheat Text="Infinite Weaver Armour｜无限织者铠甲">
     <Cheatline>
       <Offset>1F27228</Offset>
       <Section>0</Section>
@@ -334,7 +342,7 @@
       <ValueOff>C4-C1-7A-11-47-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite Oxygen">
+  <Cheat Text="最大 无限氧气">
     <Cheatline>
       <Offset>14A7EB5</Offset>
       <Section>0</Section>
@@ -342,7 +350,7 @@
       <ValueOff>C5-FA-5D-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite Skill Points (3)">
+  <Cheat Text="最大 Infinite Skill 得分 (3)">
     <Cheatline>
       <Offset>15D9379</Offset>
       <Section>0</Section>
@@ -350,7 +358,7 @@
       <ValueOff>8B-43-30-31-D2-4C-89-E7-48-89-DE-41-29-44-24-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Metal Shards (On Repair)">
+  <Cheat Text="Infinite 金属 Shards (On Repair)">
     <Cheatline>
       <Offset>1478716</Offset>
       <Section>0</Section>
@@ -358,7 +366,7 @@
       <ValueOff>FF-50-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Metal Shards and Bluegleams (On Buy)">
+  <Cheat Text="Infinite 金属 Shards and Bluegleams (On Buy)">
     <Cheatline>
       <Offset>1494CE5</Offset>
       <Section>0</Section>
@@ -366,7 +374,7 @@
       <ValueOff>41-FF-D7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Shards - On Buy">
+  <Cheat Text="碎片最大 - On Buy">
     <Cheatline>
       <Offset>1F2725B</Offset>
       <Section>0</Section>
@@ -380,7 +388,7 @@
       <ValueOff>41-89-45-54-49-8B-75-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Modifications (On Use)">
+  <Cheat Text="Infinite Modifications (On Use)｜无限修改（使用时）">
     <Cheatline>
       <Offset>168B944</Offset>
       <Section>0</Section>
@@ -388,7 +396,7 @@
       <ValueOff>48-85-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Hunting Ground Trials Timer">
+  <Cheat Text="Infinite Hunting Ground Trials 计时器">
     <Cheatline>
       <Offset>11BD86B</Offset>
       <Section>0</Section>
@@ -396,7 +404,7 @@
       <ValueOff>84-D2</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Spear and Lance - No Cooldown">
+  <Cheat Text="长矛 and 骑枪 - 无冷却">
     <Cheatline>
       <Offset>A8763D</Offset>
       <Section>0</Section>

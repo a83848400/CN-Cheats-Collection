@@ -1,13 +1,18 @@
 {
-  "name": "Sonic Mania",
+  "name": "索尼克 Mania",
   "id": "CUSA07023",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Rings",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite 金环",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "450759",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Lives",
+      "name": "Infinite Lives｜无限生命",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4AA374",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Enable Super Sonic",
+      "name": "Enable 超级索尼克",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A4415C",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Disable Super Sonic",
+      "name": "Disable 超级索尼克",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "A4415C",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Super Speed",
+      "name": "Super Speed｜超级移速",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "A44180",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "All Silver Medals",
+      "name": "All Silver Medals｜所有银牌",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "200036604",

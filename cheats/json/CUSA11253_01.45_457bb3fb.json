@@ -1,12 +1,17 @@
 {
-  "name": "Dead Cells",
+  "name": "Dead Cells｜《Dead Cells》",
   "id": "CUSA11253",
   "version": "01.45",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health/1 Hit Kill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命/一击必杀 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9B740",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Health (Need MC)",
-      "type": "checkbox",
+      "name": "最大/无限生命 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9B748",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Need MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (这些MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9B746",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "41292C",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money",
-      "type": "checkbox",
+      "name": "最大/金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9B910",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Cells",
-      "type": "checkbox",
+      "name": "最大/无限细胞",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9BB20",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "No Cooldown Ability",
-      "type": "checkbox",
+      "name": "无冷却 特性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9B7B0",
@@ -122,8 +127,8 @@
       ]
     },
     {
-      "name": "Infinite Jumps",
-      "type": "checkbox",
+      "name": "Infinite Jumps｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A9AC30",

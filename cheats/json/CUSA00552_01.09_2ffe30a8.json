@@ -1,12 +1,17 @@
 {
-  "name": "The Last of Us: Remastered",
+  "name": "最后生还者: Remastered",
   "id": "CUSA00552",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "L3 + Upper L or Upper R Touch Pad",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "L3 + Upper L or Upper R Touch Pad｜L3 + 上方左侧或上方右侧触控板",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "01473800",

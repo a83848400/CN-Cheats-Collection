@@ -1,12 +1,17 @@
 {
-  "name": "IMMORTAL: UNCHAINED",
+  "name": "不死: UNCHAINED",
   "id": "CUSA10161",
   "version": "01.17",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / All (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / All (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D77800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Ammo / Stamina / Energy / Consumable (MC)",
-      "type": "checkbox",
+      "name": "但是 / 体力 / 能量 / 耗材 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D77804",

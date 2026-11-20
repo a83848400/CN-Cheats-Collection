@@ -1,12 +1,17 @@
 {
-  "name": "Doraemon: Story of Seasons",
+  "name": "Doraemon: Story of Seasons｜哆啦A梦：四季物语",
   "id": "CUSA18501",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FDF0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FDD1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Water",
-      "type": "checkbox",
+      "name": "Infinite Water｜水无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "157FE10",

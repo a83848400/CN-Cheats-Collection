@@ -1,13 +1,18 @@
 {
-  "name": "SnowRunner",
+  "name": "SnowRunner｜《雪地跑车》",
   "id": "PPSA04930",
   "version": "01.048.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Fuel",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "燃料无限",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10E55A2",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "No Damage",
+      "name": "No Damage｜不受伤害",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F61093",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Rage 2" Moder="ahmad" Cusa="CUSA10300" Version="01.09" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="infi ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>1D3F0E0</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>45-89-75-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inif items">
+  <Cheat Text="inif items｜无限数量的物品">
     <Cheatline>
       <Offset>1D30E17</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>44-89-79-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infi Throwables">
+  <Cheat Text="投掷物无限">
     <Cheatline>
       <Offset>1D3AEB4</Offset>
       <Section>0</Section>

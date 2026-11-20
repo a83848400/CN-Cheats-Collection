@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194B4F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Dust (on gain)",
-      "type": "checkbox",
+      "name": "最大 尘 (on gain)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BA70",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BBD0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Glands (on spend)",
-      "type": "checkbox",
+      "name": "最大 Glands (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "194BC20",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Instant/Max MP fill (turn off when entering the mirror to get max bar)",
-      "type": "checkbox",
+      "name": "Instant/最大 MP fill (回合 off when entering the mirror to get 最大 bar)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

@@ -1,12 +1,17 @@
 {
-  "name": "Control",
+  "name": "Control｜控制",
   "id": "CUSA11454",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D2560",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "99 Material On Gain",
-      "type": "checkbox",
+      "name": "99 Material On Gain｜99 关于收益的材料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B0D99B",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player",
-      "type": "checkbox",
+      "name": "无限生命 Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B0D958",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite TeleKinesis Power",
-      "type": "checkbox",
+      "name": "Infinite TeleKinesis 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B0D96D",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Extra Source Points",
-      "type": "checkbox",
+      "name": "Extra Source 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B0D97E",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Ability Points On Use",
-      "type": "checkbox",
+      "name": "Infinite 特性 得分 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B0D9AE",

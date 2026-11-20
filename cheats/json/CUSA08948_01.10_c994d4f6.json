@@ -1,12 +1,17 @@
 {
-  "name": "A.O.T. 2",
+  "name": "A.O.恐怖分子. 2",
   "id": "CUSA08948",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money Increase On Purchase",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Money Increase On Purchase｜购物返现",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "70D478",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Materials Increase On use or sale",
-      "type": "checkbox",
+      "name": "Materials Increase On use or sale｜材料在使用或销售时的增加量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FC51F",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Wings Increase in use",
-      "type": "checkbox",
+      "name": "Wings Increase in use｜机翼的使用日益增多",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6EF34C",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Max Infinity Items",
-      "type": "checkbox",
+      "name": "最大 Infinity Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17F3800",
@@ -55,7 +60,7 @@
     },
     {
       "name": "Infinity Gifts",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6FC955",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Kills",
-      "type": "checkbox",
+      "name": "最大 Kills",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17F3810",

@@ -1,12 +1,17 @@
 {
-  "name": "Minecraft Dungeons",
+  "name": "我的世界 Dungeons",
   "id": "CUSA18779",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Arrows",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "abea5c",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "958322",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Emeralds",
-      "type": "checkbox",
+      "name": "最大 Emeralds",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8d7b6d",

@@ -1,12 +1,17 @@
 {
-  "name": "Trine: Enchanted Edition",
+  "name": "Trine: Enchanted Edition｜《Trine：奇幻版》",
   "id": "CUSA01135",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21C3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Mana",
-      "type": "checkbox",
+      "name": "无限法力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE9D2E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Easy Level Up (activate pick a potion then deactivate)",
-      "type": "checkbox",
+      "name": "简单 升级 (activate pick a 药水 then deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21C385A",

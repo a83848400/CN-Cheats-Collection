@@ -1,13 +1,18 @@
 {
-  "name": "A.O.T. 2",
+  "name": "A.O.恐怖分子. 2",
   "id": "CUSA08948",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Gas",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Gas｜无限气体",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110B800",
@@ -32,9 +37,9 @@
       ]
     },
     {
-      "name": "Infinite Blade Bar",
+      "name": "Infinite 异刃 Bar",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110B82E",
@@ -49,9 +54,9 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Money｜金钱无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110B843",
@@ -96,9 +101,9 @@
       ]
     },
     {
-      "name": "Infinite Usage Items",
+      "name": "Infinite Usage Items｜无限使用道具",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110B884",
@@ -113,9 +118,9 @@
       ]
     },
     {
-      "name": "Always 99 Titan Kills",
+      "name": "Always 99 泰坦 Kills",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110B896",

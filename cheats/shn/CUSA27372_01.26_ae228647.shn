@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Callisto Protocol" Moder="Celogamez" Cusa="CUSA27372" Version="01.26" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7523DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>E8-28-90-31-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>7523A80</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-10-8D-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>267219F</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>C4-C1-7A-11-9F-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Callisto Credits">
+  <Cheat Text="最大 Callisto Credits">
     <Cheatline>
       <Offset>7523BC0</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>7F-D1-89-71-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health (Rebelion Mode)">
+  <Cheat Text="无限生命 (Rebelion Mode)">
     <Cheatline>
       <Offset>7523A60</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>C5-FA-11-93-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (Rebelion Mode)">
+  <Cheat Text="一击必杀 (Rebelion Mode)">
     <Cheatline>
       <Offset>7523870</Offset>
       <Section>0</Section>
@@ -94,7 +102,7 @@
       <ValueOff>C4-C1-7A-10-8D-18-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Fury (By Earning Points)">
+  <Cheat Text="狂怒值最大 (By Earning 得分)">
     <Cheatline>
       <Offset>7523420</Offset>
       <Section>0</Section>
@@ -108,7 +116,7 @@
       <ValueOff>41-01-9F-58-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time Puzzles (Final Transmission)">
+  <Cheat Text="停止 Time Puzzles (Final 变速箱)">
     <Cheatline>
       <Offset>290F1B0</Offset>
       <Section>0</Section>

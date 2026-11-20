@@ -1,12 +1,17 @@
 {
-  "name": "Shinobi",
+  "name": "Shinobi｜忍者",
   "id": "SLUS20459",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FE4E1E8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-shurikens",
-      "type": "checkbox",
+      "name": "Infinite-shurikens｜无限手里剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEB2E1C",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Unlock-Almost-Everything",
-      "type": "checkbox",
+      "name": "解锁-Almost-Everything",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080432280",

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mafia: Definitive Edition" Moder="TLH, Rizla" Cusa="CUSA18100" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
-  <Cheat Text="Infinite Health" Description="Dmg/Regen">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Dmg/Regen">
     <Cheatline>
       <Offset>01F896A4</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>C5-FA-11-4E-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill" Description="">
+  <Cheat Text="One Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>04BECD03</Offset>
       <Section>0</Section>
@@ -29,7 +37,7 @@
       <ValueOff>C4-C1-7A-11-85-E0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>	
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>1E92B81</Offset>
       <Section>0</Section>
@@ -37,7 +45,7 @@
       <ValueOff>41-FF-CD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>19865CD</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>89-71-04</ValueOff>
     </Cheatline>
   </Cheat>	
-  <Cheat Text="Infinite Time" Description="">
+  <Cheat Text="Infinite Time｜无限时间" Description="">
     <Cheatline>
       <Offset>23003B0</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>C5-F2-5C-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Never Wanted" Description="">
+  <Cheat Text="Never Wanted｜从未想要过" Description="">
     <Cheatline>
       <Offset>02164F8E</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>C4-C1-7A-58-85-B8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Can't Sprint" Description="">
+  <Cheat Text="Can'恐怖分子 Sprint" Description="">
     <Cheatline>
       <Offset>0205CE4B</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>40-88-B3-D4-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>	
-  <Cheat Text="Always Sprint" Description="">
+  <Cheat Text="Always Sprint｜永远全力冲刺" Description="">
     <Cheatline>
       <Offset>04BECD30</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C4-C1-7A-11-84-24-D0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>	
-  <Cheat Text="Freeze Race Timer" Description="">
+  <Cheat Text="Freeze Race 计时器" Description="">
     <Cheatline>
       <Offset>023B27DB</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>C5-FA-11-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Always 1st in Race" Description="">
+  <Cheat Text="永远第一名 in Race" Description="">
     <Cheatline>
       <Offset>02246D32</Offset>
       <Section>0</Section>

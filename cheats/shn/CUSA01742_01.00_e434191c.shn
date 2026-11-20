@@ -32,7 +32,15 @@
       <ValueOff>41-8B-BC-24-38-06-00-00-29-D7</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>75F828</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kills" Description="">
+  <Cheat Text="1 Hit Kills｜一击必杀" Description="">
     <Cheatline>
       <Offset>75F829</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gauge" Description="">
+  <Cheat Text="Infinite Gauge｜无限量规" Description="">
     <Cheatline>
       <Offset>75F800</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>0F-BF-83-3E-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Berry" Description="">
+  <Cheat Text="Infinite 浆果" Description="">
     <Cheatline>
       <Offset>1B0B15</Offset>
       <Section>0</Section>
@@ -76,7 +84,7 @@
       <ValueOff>29-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Berry on Get" Description="">
+  <Cheat Text="最大 浆果 on Get" Description="">
     <Cheatline>
       <Offset>265577</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>0F-46-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Stats" Description="">
+  <Cheat Text="最大 属性" Description="">
     <Cheatline>
       <Offset>75F815</Offset>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>0F-B7-47-68-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Crew Gauge" Description="">
+  <Cheat Text="最大 Crew Gauge" Description="">
     <Cheatline>
       <Offset>75F896</Offset>
       <Section>0</Section>

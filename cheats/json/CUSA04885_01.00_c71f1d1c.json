@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 4",
+  "name": "生化危机 4",
   "id": "CUSA04885",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health: Leon/Ada",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命: 里昂/艾达",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "208A0C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health: Ashley/Louis",
-      "type": "checkbox",
+      "name": "无限生命: Ashley/路易斯",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "208A74",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E208E",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E0DEC",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Infinite PTAS",
-      "type": "checkbox",
+      "name": "Infinite PTAS｜无限PTAS",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F9D0D",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "999.999 PTAS on Pick",
-      "type": "checkbox",
+      "name": "999.999 PTAS on Pick｜999.999 PTAS 选中",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "91F800",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Freeze Save-Counter",
-      "type": "checkbox",
+      "name": "Freeze 保存-计数器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2A4794",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Freeze Retry-Counter",
-      "type": "checkbox",
+      "name": "Freeze Retry-计数器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25DA93",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Easy Shooting Range",
-      "type": "checkbox",
+      "name": "简单 射门 射程",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44F987",

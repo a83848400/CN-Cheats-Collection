@@ -1,12 +1,17 @@
 {
-  "name": "Elden Ring",
+  "name": "Elden Ring｜艾尔登法环",
   "id": "CUSA18880",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Soul Point",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Soul Point｜无限灵魂点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13554E8",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Item",
-      "type": "checkbox",
+      "name": "Infinite 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DDF530",

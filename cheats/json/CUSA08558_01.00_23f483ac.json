@@ -1,13 +1,18 @@
 {
-  "name": "Dead Rising 4: Frank's Big Package",
+  "name": "丧尸围城 4: 弗兰克's Big Package",
   "id": "CUSA08558",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God-Mode/Weapon Damage Meter",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "神模式/Weapon 输出 Meter",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "215F792",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Unlimited Skill Points",
+      "name": "Unlimited Skill Points｜技能点无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B5B4BE",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Unlimited Ammo/All Weapons",
+      "name": "Unlimited Ammo/All Weapons｜无限弹药/所有武器",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "211FB2B",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Max XP",
+      "name": "最大 XP",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "117EE05",

@@ -1,12 +1,17 @@
 {
-  "name": "Contra: Shattered Soldier",
+  "name": "魂斗罗: Shattered 士兵",
   "id": "SLUS20306",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080512584",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80805128C0",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Credits",
-      "type": "checkbox",
+      "name": "Infinite Credits｜无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080512534",

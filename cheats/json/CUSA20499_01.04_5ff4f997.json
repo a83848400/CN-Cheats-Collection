@@ -1,12 +1,17 @@
 {
-  "name": "Cuphead",
+  "name": "Cuphead｜《Cuphead》",
   "id": "CUSA20499",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Extra Special (On Use)",
-      "type": "checkbox",
+      "name": "Infinite Extra Special (On Use)｜无限特级（使用时生效）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FEB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Plane Extra Special (On Use)",
-      "type": "checkbox",
+      "name": "Infinite Plane Extra Special (On Use)｜无限平面·特级（使用型）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF50",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Coins",
-      "type": "checkbox",
+      "name": "最大 角落",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF10",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "invisible",
-      "type": "checkbox",
+      "name": "invisible｜不可见",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",

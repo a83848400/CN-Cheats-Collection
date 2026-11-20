@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Black Ops 4",
+  "name": "使命召唤: 黑色 Ops 4",
   "id": "CUSA12443",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Armour",
-      "type": "checkbox",
+      "name": "Infinite Armour｜无限护甲",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B8F6",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B84C",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Spectral Shield Health",
-      "type": "checkbox",
+      "name": "Infinite Spectral 盾牌 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B90B",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B82A",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Grenades/Specialist",
-      "type": "checkbox",
+      "name": "最大/手雷无限/专家",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B85C",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Max Points on Gain/Spend",
-      "type": "checkbox",
+      "name": "最大 得分 on Gain/Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B83B",
@@ -127,8 +132,8 @@
       ]
     },
     {
-      "name": "No Spread",
-      "type": "checkbox",
+      "name": "No Spread｜消除弹道散布",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B91F",
@@ -163,8 +168,8 @@
       ]
     },
     {
-      "name": "Rapid Fire",
-      "type": "checkbox",
+      "name": "Rapid Fire｜快速射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "178FA19",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "Full Auto Semis",
-      "type": "checkbox",
+      "name": "Full Auto Semis｜全自动、半自动",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17902A9",
@@ -190,8 +195,8 @@
       ]
     },
     {
-      "name": "Max Kills on 2nd Kill",
-      "type": "checkbox",
+      "name": "最大 Kills on 2nd Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B6B8CD",

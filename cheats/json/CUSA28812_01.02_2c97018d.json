@@ -1,12 +1,17 @@
 {
-  "name": "Neptunia x Senran Kagura: Ninja Wars",
+  "name": "Neptunia 艾克斯 Senran Kagura: Ninja Wars",
   "id": "CUSA28812",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1017800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max XP",
-      "type": "checkbox",
+      "name": "最大 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "101781F",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "InF Coins",
-      "type": "checkbox",
+      "name": "无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1017800",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf throwables",
-      "type": "checkbox",
+      "name": "投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1017838",

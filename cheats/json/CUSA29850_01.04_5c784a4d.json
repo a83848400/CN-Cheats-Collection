@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Health (MC)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命最大 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3B73",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Two Hit Kill (Enable MC)",
-      "description": "Disable it for Duna Boss fight",
-      "type": "checkbox",
+      "name": "Two 命中击杀 (Enable MC)",
+      "description": "Disable it for Duna Boss fight｜在与杜纳首领的战斗中将其禁用",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3B79",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Stamina",
-      "type": "checkbox",
+      "name": "Max Stamina｜体力最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3BE7",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Items x10 On Get",
-      "type": "checkbox",
+      "name": "Items x10 On Get｜获取时获得物品×10",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3BFF",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Items x99 On Use",
-      "description": "Disable it to discard items",
-      "type": "checkbox",
+      "name": "物品 x99 On Use",
+      "description": "Disable it to 弃牌 items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3C13",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "No Thirst",
-      "type": "checkbox",
+      "name": "No Thirst｜不会口渴",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3C27",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "No Hungry",
-      "type": "checkbox",
+      "name": "No Hungry｜不再饥饿",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3C40",
@@ -134,9 +139,9 @@
       ]
     },
     {
-      "name": "Max Money",
-      "description": "Sell item or earn $ to trigger it",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "description": "Sell 物品 or earn $ to trigger it",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3C59",
@@ -151,9 +156,9 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "description": "Triggered when gaining skill points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "description": "Triggered when gaining skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3C69",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "Max Fuel",
-      "type": "checkbox",
+      "name": "最大 Fuel",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63F3C79",

@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed IV: Black Flag",
+  "name": "刺客信条 个体值: 黑色 Flag",
   "id": "CUSA00009",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Ship Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Ship 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3D63800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Reals/Ammo/Smoke bombs/Darts/heavy shot/Mortars",
-      "type": "checkbox",
+      "name": "Infinite Reals/但是/诡计之雾 bombs/Darts/重装兵 shot/Mortars",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27605DB",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Infinite Reals/Ammo/Smoke bombs/Darts/heavy shot/Mortars",
-      "type": "checkbox",
+      "name": "最大 Infinite Reals/但是/诡计之雾 bombs/Darts/重装兵 shot/Mortars",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3D63825",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FC4D7C",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Swivel Ammo",
-      "type": "checkbox",
+      "name": "Infinite Swivel Ammo｜无限旋转弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3D6370A",

@@ -1,12 +1,17 @@
 {
-  "name": "Titanfall 2",
+  "name": "泰坦陨落 2",
   "id": "CUSA04027",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "No Reload and Infinite Grenade",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无需换弹 and Infinite 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",
@@ -23,8 +28,8 @@
       ]
     },
     {
-      "name": "Infinite AMMO",
-      "type": "checkbox",
+      "name": "Infinite AMMO｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",
@@ -35,8 +40,8 @@
       ]
     },
     {
-      "name": "Skill No Cooldown",
-      "type": "checkbox",
+      "name": "Skill 无冷却",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Jump",
-      "type": "checkbox",
+      "name": "Infinite Jump｜无限跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Infintie Titan Thrust",
-      "type": "checkbox",
+      "name": "Infintie 泰坦 Thrust",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "Enemy 1 Hit Kill //Unlock Before Boss Battle",
-      "type": "checkbox",
+      "name": "Enemy 一击必杀 //解锁 Before Boss 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "61",

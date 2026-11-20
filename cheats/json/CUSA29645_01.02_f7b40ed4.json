@@ -1,12 +1,17 @@
 {
-  "name": "Wildcat Gun Machine",
+  "name": "Wildcat Gun 机械生命体",
   "id": "CUSA29645",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE40",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Infinite Granades",
-      "type": "checkbox",
+      "name": "Infinite Granades｜无限手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FBD0",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Armor",
-      "type": "checkbox",
+      "name": "最大/护甲无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FC70",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Instant Max/Infinite Super",
-      "type": "checkbox",
+      "name": "Instant 最大/无限超级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE00",
@@ -95,8 +100,8 @@
       ]
     },
     {
-      "name": "Infinite Dash",
-      "type": "checkbox",
+      "name": "Infinite Dash｜无限冲刺",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F850",
@@ -111,8 +116,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Bones",
-      "type": "checkbox",
+      "name": "最大/Infinite Bones",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FB10",

@@ -1,12 +1,17 @@
 {
-  "name": "Tales of Berseria",
+  "name": "传说系列 Berseria",
   "id": "CUSA05258",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "GOLD",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "GOLD｜金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152B1D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Max HP (!DONT COMBINE STATUS CHEAT / MAX LVL!)",
-      "type": "checkbox",
+      "name": "生命值最大 (!DONT 组合 STATUS CHEAT / 最大 LVL!)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E7D5",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Cats Spirit",
-      "type": "checkbox",
+      "name": "最大 Cats 精魄",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "154D8F",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Increase item use",
-      "type": "checkbox",
+      "name": "Increase 物品 use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1499CE",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Skip Battle + 9999 HP (Bind)",
-      "type": "checkbox",
+      "name": "跳过战斗 + 9999 手机 (Bind)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E826",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Skip Battle + Max Base ATK (Bind)",
-      "type": "checkbox",
+      "name": "跳过战斗 + 最大 基地 攻击力 (Bind)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E826",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Skip Battle + Max Base Def (Bind)",
-      "type": "checkbox",
+      "name": "跳过战斗 + 最大 基地 守备力 (Bind)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E826",
@@ -82,8 +87,8 @@
       ]
     },
     {
-      "name": "Skip Battle + Max Base Arte ATK (Bind)",
-      "type": "checkbox",
+      "name": "跳过战斗 + 最大 基地 Arte 攻击力 (Bind)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E826",
@@ -93,8 +98,8 @@
       ]
     },
     {
-      "name": "Skip Battle + Max Base Arte Def (Bind)",
-      "type": "checkbox",
+      "name": "跳过战斗 + 最大 基地 Arte 守备力 (Bind)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E826",
@@ -104,8 +109,8 @@
       ]
     },
     {
-      "name": "Skip Battle + Max Base Focus (Bind)",
-      "type": "checkbox",
+      "name": "跳过战斗 + 最大 基地 棍势 (Bind)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E826",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Skip Battle only",
-      "type": "checkbox",
+      "name": "跳过战斗 only",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E826",
@@ -126,8 +131,8 @@
       ]
     },
     {
-      "name": "Max Lvl",
-      "type": "checkbox",
+      "name": "最大 Lvl",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13C7800",
@@ -142,8 +147,8 @@
       ]
     },
     {
-      "name": "Unlimited Tales coins (get / spend)",
-      "type": "checkbox",
+      "name": "Unlimited Tales coins (get / spend)｜无限《Tales》金币（获取/消费）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15518E",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "Blast Gauge (Open any Battle menu)",
-      "type": "checkbox",
+      "name": "Blast Gauge (Open any 战斗 菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15E64B",

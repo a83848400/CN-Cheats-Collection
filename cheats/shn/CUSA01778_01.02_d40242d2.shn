@@ -16,7 +16,15 @@
       <ValueOff>66-41-89-46-2C</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Player 1: Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Player 1: 无限生命" Description="">
     <Cheatline>
       <Offset>144B800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player 2: Infinite Health" Description="">
+  <Cheat Text="Player 2: 无限生命" Description="">
     <Cheatline>
       <Offset>144B800</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player 1: 1-Hit K.O." Description="">
+  <Cheat Text="Player 1: 1-Hit K.O.｜玩家1：一击必杀" Description="">
     <Cheatline>
       <Offset>144B801</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player 2: 1-Hit K.O." Description="">
+  <Cheat Text="Player 2: 1-Hit K.O.｜玩家2：一击必杀" Description="">
     <Cheatline>
       <Offset>144B801</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score" Description="">
+  <Cheat Text="最大 比分" Description="">
     <Cheatline>
       <Offset>363484</Offset>
       <Section>0</Section>

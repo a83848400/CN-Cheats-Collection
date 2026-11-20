@@ -1,12 +1,17 @@
 {
-  "name": "Grand Theft Auto V",
+  "name": "侠盗猎车手 V",
   "id": "CUSA00419",
   "version": "01.49",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health | 无限生命",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 | 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F07E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo | 无限弹药",
-      "type": "checkbox",
+      "name": "无限弹药 | 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F08F0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload | 无需装弹",
-      "type": "checkbox",
+      "name": "无需换弹 | 无需装弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "149FD50",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina | 无限耐力",
-      "type": "checkbox",
+      "name": "无限耐力 | 无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F08D0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen | 无限氧气",
-      "type": "checkbox",
+      "name": "无限氧气 | 无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F08B0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Special Ability | 无限特殊能力",
-      "type": "checkbox",
+      "name": "《无限特辑》 特性 | 无限特殊能力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F08A0",
@@ -97,7 +102,7 @@
     },
     {
       "name": "Infinite Vehicle Durable | 无限载具耐久度",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0800",
@@ -122,8 +127,8 @@
       ]
     },
     {
-      "name": "Super Jump | 超级跳",
-      "type": "checkbox",
+      "name": "超级跳跃 | 超级跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0990",
@@ -138,8 +143,8 @@
       ]
     },
     {
-      "name": "Invincible Mode (On) | 无敌模式 (开)",
-      "type": "checkbox",
+      "name": "无敌 Mode (On) | 无敌模式 (开)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0880",
@@ -154,8 +159,8 @@
       ]
     },
     {
-      "name": "Invincible Mode (Off) | 无敌模式 (关)",
-      "type": "checkbox",
+      "name": "无敌 Mode (Off) | 无敌模式 (关)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0880",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "Reset Wanted Star Level | 重置通缉星级",
-      "type": "checkbox",
+      "name": "重置通缉星级 | 重置通缉星级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0950",
@@ -186,8 +191,8 @@
       ]
     },
     {
-      "name": "Remove Noise On Wanted | 消除通缉噪音",
-      "type": "checkbox",
+      "name": "消除通缉提示噪音 | 消除通缉噪音",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4EDFC0",
@@ -197,8 +202,8 @@
       ]
     },
     {
-      "name": "Swim Speed Multiply 2 | 游泳速度 2 倍",
-      "type": "checkbox",
+      "name": "Swim 速度 Multiply 2 | 游泳速度 2 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0930",
@@ -213,8 +218,8 @@
       ]
     },
     {
-      "name": "Swim Speed Multiply 3 | 游泳速度 3 倍",
-      "type": "checkbox",
+      "name": "Swim 速度 Multiply 3 | 游泳速度 3 倍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0930",
@@ -229,8 +234,8 @@
       ]
     },
     {
-      "name": "Money 999999999 | 金钱 999999999",
-      "type": "checkbox",
+      "name": "金钱 999999999 | 金钱 999999999",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "26F0840",

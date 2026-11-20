@@ -1,12 +1,17 @@
 {
-  "name": "Dead Island 2",
+  "name": "Dead 岛屿 2",
   "id": "CUSA27043",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo No Reload",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BC8EEA",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90081FF",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
-      "type": "checkbox",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2D69402",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Medkit/Parts | Drop Items/Weapons For Duplicates",
-      "type": "checkbox",
+      "name": "Infinite 医疗包/Parts | 丢弃 Items/武器 For Duplicates",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6BA9264",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Parts On Gain",
-      "type": "checkbox",
+      "name": "零件最大 On Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9008000",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "50x Medkits/Items/Parts/Ammo in Inventory",
-      "type": "checkbox",
+      "name": "50x Medkits/Items/Parts/但是 in 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9008180",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Max Money ON Sell| Turn off After Use",
-      "type": "checkbox",
+      "name": "金钱最大 ON Sell| 回合 off After Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90080DA",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "+200 EXP Per Kill",
-      "type": "checkbox",
+      "name": "+200 EXP Per Kill｜每击杀+200经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9008048",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "+500 EXP Per Kill",
-      "type": "checkbox",
+      "name": "+500 EXP Per Kill｜每击杀+500经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9008061",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "+1500 EXP Per Kill",
-      "type": "checkbox",
+      "name": "+1500 EXP Per Kill｜每击杀+1500经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9008078",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "+3500 EXP Per Kill",
-      "type": "checkbox",
+      "name": "+3500 EXP Per Kill｜每击杀+3500经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9008091",
@@ -166,8 +171,8 @@
       ]
     },
     {
-      "name": "+9999 exp Per Kill",
-      "type": "checkbox",
+      "name": "+9999 exp Per Kill｜每击杀+9999经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90080A8",
@@ -182,8 +187,8 @@
       ]
     },
     {
-      "name": "+99999 EXP Per Kill",
-      "type": "checkbox",
+      "name": "+99999 EXP Per Kill｜每击杀+99999经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90080C1",

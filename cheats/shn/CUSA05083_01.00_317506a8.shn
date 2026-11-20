@@ -5,7 +5,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Inf Phozons">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限光子">
     <Cheatline>
       <Offset>97F800</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>41-89-97-44-21-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Money">
+  <Cheat Text="金钱无限">
     <Cheatline>
       <Offset>97F821</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>89-88-AC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level">
+  <Cheat Text="Max Level｜等级最大">
     <Cheatline>
       <Offset>97F841</Offset>
       <Section>0</Section>

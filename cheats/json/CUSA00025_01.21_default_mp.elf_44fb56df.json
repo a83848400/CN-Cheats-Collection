@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Ghosts",
+  "name": "使命召唤: Ghosts",
   "id": "CUSA00025",
   "version": "01.21",
   "process": "default_mp.elf",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "126396",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "All Client Godmode",
-      "type": "checkbox",
+      "name": "All Client 上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2d6705",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "All Client ESP",
-      "type": "checkbox",
+      "name": "All Client ESP｜所有客户端 ESP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1c0c590",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "type": "checkbox",
+      "name": "Super Jump｜超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "829088",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "AFK Aliens",
-      "type": "checkbox",
+      "name": "AFK Aliens｜AFK 外星人",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2b6ac0",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Free Teeth Upgrades",
-      "type": "button",
+      "name": "Free Teeth Upgrades｜免费牙齿升级",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "15",

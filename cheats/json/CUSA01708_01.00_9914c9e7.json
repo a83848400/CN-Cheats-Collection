@@ -1,12 +1,17 @@
 {
-  "name": "Devil May Cry 4: Special Edition",
+  "name": "鬼泣 4: Special Edition",
   "id": "CUSA01708",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible cant be hit ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌 无法被击中 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EE7846",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health",
-      "type": "checkbox",
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EE77E0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Hp Alt",
-      "type": "checkbox",
+      "name": "无限血量 Alt",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EE7232",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf HP + Easy Kill",
-      "type": "checkbox",
+      "name": "无限血量 + 轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EE77E0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf HP Hell and Hell",
-      "type": "checkbox",
+      "name": "无限血量 Hell and Hell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "295D56",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Inf HP Player + Enemy for Practice",
-      "type": "checkbox",
+      "name": "无限血量 Player + Enemy 用于练习",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "295CEC",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Nero Inf Max Act",
-      "type": "checkbox",
+      "name": "Nero Infinite 最大 Act",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5E050A",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Nero Instant Charge Shot",
-      "type": "checkbox",
+      "name": "Nero Instant 蓄力射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60C9B4",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Dante Inf Round Trip",
-      "type": "checkbox",
+      "name": "Dante Infinite 回合 Trip",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5AE92E",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Dante Inf Disaster Gauge",
-      "type": "checkbox",
+      "name": "但丁无限灾厄计量表",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C0909",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Dante Inf Royal Guard",
-      "type": "checkbox",
+      "name": "Dante Infinite Royal 防御",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C07BE",
@@ -146,8 +151,8 @@
       ]
     },
     {
-      "name": "Vergil Inf Concentration Gauge",
-      "type": "checkbox",
+      "name": "维吉尔 Infinite 专注 Gauge",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1140F3",
@@ -157,8 +162,8 @@
       ]
     },
     {
-      "name": "Vergil Inf Round Trip",
-      "type": "checkbox",
+      "name": "维吉尔 Infinite 回合 Trip",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11FCA4",
@@ -168,8 +173,8 @@
       ]
     },
     {
-      "name": "Vergil Instant Charge Round Trip",
-      "type": "checkbox",
+      "name": "维吉尔 Instant 冲锋 回合 Trip",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EE7817",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "Vergil Inf Trick Up",
-      "type": "checkbox",
+      "name": "维吉尔 Infinite Trick Up",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F4B0E",
@@ -195,8 +200,8 @@
       ]
     },
     {
-      "name": "Lady Instant Charge Shot",
-      "type": "checkbox",
+      "name": "蕾蒂 Instant 蓄力射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60C9AF",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "Trish Inf Round Trip",
-      "type": "checkbox",
+      "name": "翠西 Infinite 回合 Trip",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "106B90",
@@ -222,8 +227,8 @@
       ]
     },
     {
-      "name": "Int Air Hike",
-      "type": "checkbox",
+      "name": "Int Air Hike｜国际航空票价上涨",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "59CB8F",
@@ -233,8 +238,8 @@
       ]
     },
     {
-      "name": "Easy SSS Style",
-      "type": "checkbox",
+      "name": "简单 SSS评价 Style",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22428A",
@@ -244,8 +249,8 @@
       ]
     },
     {
-      "name": "Fast SSS Style",
-      "type": "checkbox",
+      "name": "Fast SSS评价 Style",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22428A",
@@ -275,8 +280,8 @@
       ]
     },
     {
-      "name": "Freeze Mission Time",
-      "type": "checkbox",
+      "name": "Freeze Mission Time｜冻结任务时间",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AC83D",
@@ -286,8 +291,8 @@
       ]
     },
     {
-      "name": "Max Inf Devil Trigger",
-      "type": "checkbox",
+      "name": "最大 无限恶魔触发",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5976DD",
@@ -322,8 +327,8 @@
       ]
     },
     {
-      "name": "Max Inf Red Orbs",
-      "type": "checkbox",
+      "name": "最大 无限红球",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "203BE4",
@@ -333,8 +338,8 @@
       ]
     },
     {
-      "name": "Max Inf Proud Souls",
-      "type": "checkbox",
+      "name": "最大 Infinite Proud 结界突破",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "22004C",
@@ -364,8 +369,8 @@
       ]
     },
     {
-      "name": "Inf Gold Orbs Hell and Hell",
-      "type": "checkbox",
+      "name": "无限金币 Orbs Hell and Hell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "167B76",
@@ -375,8 +380,8 @@
       ]
     },
     {
-      "name": "Inf Gold Orbs in Inventory",
-      "type": "checkbox",
+      "name": "无限金币 Orbs in 背包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21F98B",
@@ -386,8 +391,8 @@
       ]
     },
     {
-      "name": "100% Mission Bonus Red Orbs",
-      "type": "checkbox",
+      "name": "100% Mission Bonus Red Orbs｜100% 任务奖励 红色魔珠",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EE7823",

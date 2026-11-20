@@ -5,9 +5,14 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Master Code",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 密码",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E17F00",
@@ -47,9 +52,9 @@
       ]
     },
     {
-      "name": "--Inf_Hp",
+      "name": "--无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E17F00",
@@ -59,9 +64,9 @@
       ]
     },
     {
-      "name": "--Inf_Potions",
+      "name": "--无限药剂",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E17F02",
@@ -71,9 +76,9 @@
       ]
     },
     {
-      "name": "--Inf_Souls",
+      "name": "--无限灵魂",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E17F03",
@@ -83,9 +88,9 @@
       ]
     },
     {
-      "name": "--Inf_Stamina",
+      "name": "--无限体力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E17F01",
@@ -95,9 +100,9 @@
       ]
     },
     {
-      "name": "--Inf_Throwables",
+      "name": "--无限投掷物",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E17F04",

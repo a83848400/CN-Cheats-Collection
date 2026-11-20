@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1E9F867</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-F8-2E-83-AC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>1E9F8E9</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-10-87-B4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Energy">
+  <Cheat Text="Infinite Energy｜无限能量">
     <Cheatline>
       <Offset>1E9F87E</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-10-87-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Scrap on Gain/Use">
+  <Cheat Text="废料无限 on Gain/Use">
     <Cheatline>
       <Offset>1E9F850</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-11-83-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Vital Injections">
+  <Cheat Text="最大 Vital Injections">
     <Cheatline>
       <Offset>1E9F82C</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>8B-47-4C-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Consumables on Gain/Use">
+  <Cheat Text="最大 Consumables on Gain/Use">
     <Cheatline>
       <Offset>1E9F895</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>89-47-4C-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Gain/Use">
+  <Cheat Text="最大 Items on Gain/Use">
     <Cheatline>
       <Offset>1E9F8BF</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>89-77-4C-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Proficiency LVL on Gain">
+  <Cheat Text="最大 熟练 LVL on Gain">
     <Cheatline>
       <Offset>1E9F8CE</Offset>
       <Section>0</Section>

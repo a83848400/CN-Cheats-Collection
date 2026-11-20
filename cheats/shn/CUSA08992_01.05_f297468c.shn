@@ -4,7 +4,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Max Zeni on Use" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Zeni on Use" Description="">
     <Cheatline>
       <Offset>295C4D</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>41-0F-4E-C4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Zeni" Description="">
+  <Cheat Text="Infinite Zeni｜无限泽尼" Description="">
     <Cheatline>
       <Offset>295C56</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>0F-49-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Premium-Z Coins on Use" Description="">
+  <Cheat Text="最大 Premium-Z 角落 on Use" Description="">
     <Cheatline>
       <Offset>295CD9</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>0F-4E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Premium-Z Coins" Description="">
+  <Cheat Text="Infinite Premium-Z 角落" Description="">
     <Cheatline>
       <Offset>295CCA</Offset>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>48-01-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Max Level" Description="">
+  <Cheat Text="简单 等级最大" Description="">
     <Cheatline>
       <Offset>4E67800</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Diablo III: Reaper of Souls: Ultimate Evil Edition",
+  "name": "暗黑破坏神 III: 死神 of 结界突破: 必杀技 Evil Edition",
   "id": "CUSA00433",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DAB5B",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Fury",
-      "type": "checkbox",
+      "name": "Infinite Fury｜无尽之怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DAB93",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Wrath",
-      "type": "checkbox",
+      "name": "Infinite Wrath｜无尽之怒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DAB93",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (Wizard)",
-      "type": "checkbox",
+      "name": "无限法力 (Wizard)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DAB93",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (Necro Mancer)",
-      "type": "checkbox",
+      "name": "无限法力 (Necro Mancer)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DAB93",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Hatred and Discipline",
-      "type": "checkbox",
+      "name": "Infinite Hatred and Discipline｜无尽的仇恨与纪律",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DABEA",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Spirit",
-      "type": "checkbox",
+      "name": "Infinite Spirit｜无限灵力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DAB93",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Magic Find (equip any item / single cheat turn off after)",
-      "type": "checkbox",
+      "name": "魔法 Find (equip any 物品 / single cheat 回合 off after)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10DABBF",

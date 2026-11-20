@@ -1,13 +1,18 @@
 {
-  "name": "Doraemon Story of Seasons: Friends of the Great Kingdom",
+  "name": "Doraemon Story of Seasons: Friends of the Great Kingdom｜哆啦A梦：四季物语——大王国的朋友们",
   "id": "PPSA02494",
   "version": "01.003.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8089899A",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Seeds",
+      "name": "无限种子",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80B9EC7C",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Inf Water",
+      "name": "水无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "809EB569",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Inf Materials",
+      "name": "无限材料",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCF000",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Inf Gold",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCF031",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Master Code Timer",
+      "name": "Master 密码 计时器",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF00",
@@ -107,9 +112,9 @@
       ]
     },
     {
-      "name": "--Fast_Timer",
+      "name": "--时间加速",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF01",
@@ -119,9 +124,9 @@
       ]
     },
     {
-      "name": "--Faster_Timer",
+      "name": "--时间更快加速",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF02",
@@ -131,9 +136,9 @@
       ]
     },
     {
-      "name": "--Stop_Time",
+      "name": "--时间停止",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD1BF00",

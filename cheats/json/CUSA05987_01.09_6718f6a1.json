@@ -1,13 +1,18 @@
 {
-  "name": "Death's Gambit",
+  "name": "死亡's Gambit",
   "id": "CUSA05987",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
-      "description": "Use it After contract.",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "description": "Use it After 合同.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6D3000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E6D3037",

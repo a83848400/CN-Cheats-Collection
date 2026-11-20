@@ -5,7 +5,15 @@
   <Genres Name="Fighting" />
   <Genres Name="Racing" />
   <Items />
-  <Cheat Text="God Mode" Description="God Mode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="God Mode｜神模式" Description="God Mode">
     <Cheatline>
       <Offset>1E37DB2</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>0F-4F-F9-39-D7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 hit Max Aura" Description="1 hit Max Aura">
+  <Cheat Text="1 hit 最大 Aura" Description="1 hit Max Aura">
     <Cheatline>
       <Offset>1E37DA4</Offset>
       <Section>0</Section>
@@ -33,7 +41,7 @@
       <ValueOff>C5-FA-5D-45-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Aura" Description="Inf Aura">
+  <Cheat Text="无限光环" Description="Inf Aura">
     <Cheatline>
       <Offset>39BA82</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>C5-FA-11-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Hokuto Mode" Description="Inf Hokuto Mode">
+  <Cheat Text="无限北斗模式" Description="Inf Hokuto Mode">
     <Cheatline>
       <Offset>440724</Offset>
       <Section>0</Section>
@@ -49,7 +57,7 @@
       <ValueOff>C5-FA-11-8B-0C-39-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skills Points after spent" Description="Max Skills Points after spent">
+  <Cheat Text="最大 Skills 得分 after spent" Description="Max Skills Points after spent">
     <Cheatline>
       <Offset>995183</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>81-F9-E7-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Fiches and Money after spent" Description="Max Fiches and Money after spent">
+  <Cheat Text="最大 Fiches and 金钱 after spent" Description="Max Fiches and Money after spent">
     <Cheatline>
       <Offset>999C7B</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>48-39-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf items" Description="Inf items">
+  <Cheat Text="道具无限" Description="Inf items">
     <Cheatline>
       <Offset>995F80</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>66-89-77-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Car Boost" Description="Inf Car Boost">
+  <Cheat Text="无限车辆强化" Description="Inf Car Boost">
     <Cheatline>
       <Offset>C453EE</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>C5-FA-11-83-0C-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Car Durability" Description="Inf Car Durability">
+  <Cheat Text="Infinite Car 耐用性" Description="Inf Car Durability">
     <Cheatline>
       <Offset>C4A5FE</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>C4-C1-7A-11-87-0C-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Car Fuel" Description="Inf Car Fuel">
+  <Cheat Text="无限汽车燃料" Description="Inf Car Fuel">
     <Cheatline>
       <Offset>99C620</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>C5-FA-11-87-A4-D3-01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Talismans Time" Description="Inf Talismans Time">
+  <Cheat Text="《无限护符：时间》" Description="Inf Talismans Time">
     <Cheatline>
       <Offset>99CA41</Offset>
       <Section>0</Section>

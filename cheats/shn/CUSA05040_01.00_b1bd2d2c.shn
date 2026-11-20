@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="NBA 2K17" Moder="Weysincha" Cusa="CUSA05040" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Max Attributes">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Attributes">
     <Cheatline>
       <Offset>3C739542</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>19-19-19-19-19-19-19-19-19-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money">
+  <Cheat Text="Max Money｜金钱最大">
     <Cheatline>
       <Offset>3C4F0274</Offset>
       <Section>0</Section>

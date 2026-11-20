@@ -1,13 +1,18 @@
 {
-  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "name": "The 上古卷轴 V: 天际 Special Edition",
   "id": "CUSA05486",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Stamina/Magic",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/体力/魔法",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7988D5",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Money",
+      "name": "Infinite Money｜金钱无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13CFBF",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Duplicate Money When Used",
+      "name": "Duplicate 金钱 When Used",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "13CFBF",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Buy To Earn Money",
+      "name": "Buy To Earn Money｜买来赚钱",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B86DC9",

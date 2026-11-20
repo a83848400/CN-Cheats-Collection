@@ -1,12 +1,17 @@
 {
-  "name": "theHunter: Call of the Wild",
+  "name": "theHunter: Call of the Wild｜theHunter：荒野的召唤",
   "id": "CUSA08661",
   "version": "01.65",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "142A60D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "XP multiplier",
-      "type": "checkbox",
+      "name": "XP multiplier｜经验值倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A2214",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Skill Points Multiplier",
-      "type": "checkbox",
+      "name": "Skill 得分 Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A156A3",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Perk Points Multiplier",
-      "type": "checkbox",
+      "name": "技能 得分 Multiplier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1567D",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Money Multiplier (On Buy)",
-      "type": "checkbox",
+      "name": "金钱倍率 (On Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "19B0B85",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Infinite Consumables",
-      "type": "checkbox",
+      "name": "Infinite Consumables｜无限消耗品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E4FFB",

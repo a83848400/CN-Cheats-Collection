@@ -1,12 +1,17 @@
 {
-  "name": "Rogue Stormers",
+  "name": "潜行者 Stormers",
   "id": "CUSA06052",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Disable At The End of The Stage) ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Disable At The 末地 of The Stage) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BFDB0",
@@ -26,8 +31,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Coins",
-      "type": "checkbox",
+      "name": "最大/无限金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BFDD0",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Special Hability",
-      "type": "checkbox",
+      "name": "最大/《无限特辑》 Hability",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BFDBE",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Infinite Secondary Weapons",
-      "type": "checkbox",
+      "name": "Infinite Secondary 武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BEEC0",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Infinite Weapons Durability",
-      "type": "checkbox",
+      "name": "Infinite 武器 耐用性",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12BF440",
@@ -90,8 +95,8 @@
       ]
     },
     {
-      "name": "Level Up On gain XP",
-      "type": "checkbox",
+      "name": "升级 On gain XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4EB109",

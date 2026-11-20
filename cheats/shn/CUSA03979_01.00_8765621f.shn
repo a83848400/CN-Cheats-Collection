@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="BioShock: The Collection" Moder="Talixme" Cusa="CUSA03979" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>B0FAD</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Eve">
+  <Cheat Text="Infinite 伊芙">
     <Cheatline>
       <Offset>C3CB8</Offset>
       <Section>0</Section>
@@ -23,7 +31,7 @@
       <ValueOff>C5-FA-11-8B-68-0D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>184200</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>89-B0-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>F0D1D6</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2x Money After Spend">
+  <Cheat Text="2x 金钱 After Spend">
     <Cheatline>
       <Offset>C408A</Offset>
       <Section>0</Section>
@@ -47,7 +55,7 @@
       <ValueOff>89</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2x Adam After Spend">
+  <Cheat Text="2x Adam After Spend｜2x 亚当 消费后">
     <Cheatline>
       <Offset>C4442</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>41-89</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Godmode">
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>424D61</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Eve">
+  <Cheat Text="Infinite 伊芙">
     <Cheatline>
       <Offset>43E4B3</Offset>
       <Section>0</Section>
@@ -77,7 +85,7 @@
       <ValueOff>C5-FA-11-8B-90-0F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>49E7B0</Offset>
       <Section>0</Section>
@@ -85,7 +93,7 @@
       <ValueOff>89-B0-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>7543A6</Offset>
       <Section>0</Section>
@@ -93,7 +101,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2x Money After Spend">
+  <Cheat Text="2x 金钱 After Spend">
     <Cheatline>
       <Offset>43E97A</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>89</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="2x Adam After Spend">
+  <Cheat Text="2x Adam After Spend｜2x 亚当 消费后">
     <Cheatline>
       <Offset>43ED32</Offset>
       <Section>0</Section>

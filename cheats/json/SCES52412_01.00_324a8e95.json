@@ -1,17 +1,22 @@
 {
-  "name": "Jackie Chan Adventures",
-  "id": "SCES52412",
+  "name": "杰克 Chan Adventures",
+  "id": "SCES52412｜教育、传播与艺术学院",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Energy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFDD232",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         },
         {
           "offset": "807FFDD233",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite-Magic-Power",
-      "type": "checkbox",
+      "name": "Infinite-魔法-电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFDD22B",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite-money",
-      "type": "checkbox",
+      "name": "Infinite-金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FFDD234",

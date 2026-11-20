@@ -1,12 +1,17 @@
 {
-  "name": "SHINOBI: Art of Vengeance",
+  "name": "忍者: Art of Vengeance",
   "id": "CUSA45905",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincible｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81684A38",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Infinite-Health-(mc)",
-      "type": "checkbox",
+      "name": "Infinite-生命-(mc)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83BC3800",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Infinite-Health-2",
-      "type": "checkbox",
+      "name": "Infinite-生命-2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81684A50",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Inf-shurikens",
-      "type": "checkbox",
+      "name": "无限手里剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8172B2DC",
@@ -79,8 +84,8 @@
       ]
     },
     {
-      "name": "Rapid + inf shurikens",
-      "type": "checkbox",
+      "name": "快速 + 无限手里剑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8172B2CA",
@@ -90,8 +95,8 @@
       ]
     },
     {
-      "name": "MAX-Coins",
-      "type": "checkbox",
+      "name": "最大-角落",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83BC38A8",
@@ -106,8 +111,8 @@
       ]
     },
     {
-      "name": "one-Hit-Kill",
-      "type": "checkbox",
+      "name": "one-Hit-Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "817287B6",

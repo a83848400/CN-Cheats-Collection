@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="God of War: Ragnarok" Moder="Celogamez" Cusa="CUSA34384" Version="04.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="(Kratos)Infinite Health/Rage (Disable Health Atreus)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="(Kratos)Infinite Health/Rage (Disable Health Atreus)｜(奎托斯)无限生命/怒气(关闭阿特柔斯生命修改)">
     <Cheatline>
       <Offset>1777DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="(Atreus) Infinite Health/Arrows/Rage (Disable Health Kratos)">
+  <Cheat Text="(Atreus) Infinite Health/Arrows/Rage (Disable Health Kratos)｜(阿特柔斯)无限生命/箭矢/怒气(关闭奎托斯生命修改)">
     <Cheatline>
       <Offset>17777D0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Infinite Rage On First Hit Kratos/Atreus (Disable Health Both)">
+  <Cheat Text="Instant 怒气无限 On First Hit 奎托斯/阿特柔斯 (Disable 生命 Both)">
     <Cheatline>
       <Offset>1777980</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C4-C1-7A-11-4C-24-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite XP/HS/Resources On Pick Up/Buy/Sell">
+  <Cheat Text="最大/无限经验值/HS/Resources On 拾取/Buy/Sell">
     <Cheatline>
       <Offset>1777A90</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-8D-40-FF-FF-FF-89-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Crystalline Fragment (100/Use Only For It)">
+  <Cheat Text="Crystalline Fragment (100/Use Only For It)｜晶体碎片（100/仅限此用途）">
     <Cheatline>
       <Offset>1777AC0</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-8D-40-FF-FF-FF-89-0E</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Cooldown">
+  <Cheat Text="No Cooldown｜无冷却">
     <Cheatline>
       <Offset>1777BB0</Offset>
       <Section>0</Section>

@@ -1,0 +1,104 @@
+{
+  "name": "Plants vs. Zombies: Replanted",
+  "id": "PPSA29802",
+  "version": "01.510.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限阳光 (planting adds 阳光)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "801502FE",
+          "on": "44016810",
+          "off": "44296810"
+        }
+      ]
+    },
+    {
+      "name": "No Recharge (种子 packets ready instantly)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "801E0579",
+          "on": "48C7477010270000",
+          "off": "48C7477000000000"
+        }
+      ]
+    },
+    {
+      "name": "免费植物 (埋包 without enough 阳光)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "8015039D",
+          "on": "4539FF",
+          "off": "4539EF"
+        }
+      ]
+    },
+    {
+      "name": "无敌 Plants",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "801F7274",
+          "on": "83838C00000000",
+          "off": "83838C000000FC"
+        }
+      ]
+    },
+    {
+      "name": "One-命中击杀 (zombies)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "801FDC6B",
+          "on": "29C990",
+          "off": "2B4DD0"
+        }
+      ]
+    },
+    {
+      "name": "One-Hit 盾牌 破防 (cone/bucket/盾牌)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "801FD363",
+          "on": "29C090",
+          "off": "4429E0"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Fertilizer (Zen Garden)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "801E7995",
+          "on": "0F1820",
+          "off": "FF4858"
+        }
+      ]
+    },
+    {
+      "name": "Infinite 昆虫 喷漆 (Zen Garden)",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "801E7963",
+          "on": "0F1820",
+          "off": "FF485C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "k4k0gh0st"
+  ]
+}

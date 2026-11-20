@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Disney Classic Games: Aladdin and the Lion King" Moder="Saso_9.00" Cusa="CUSA16968" Version="01.04" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="(Aladdin) - (The Jungle Book)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="(Aladdin) - (The Jungle Book)｜(阿拉丁) - (森林王子)">
     <Cheatline>
       <Offset>00000000</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="HP/ Lives / Fruit / ">
+  <Cheat Text="手机/ Lives / 水果 / ">
     <Cheatline>
       <Offset>487800</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>88-94-37-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="HP / Lives / Roar ">
+  <Cheat Text="手机 / Lives / Roar ">
     <Cheatline>
       <Offset>487880</Offset>
       <Section>0</Section>

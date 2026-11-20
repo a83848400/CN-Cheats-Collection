@@ -1,12 +1,17 @@
 {
-  "name": "The Surge 2",
+  "name": "《The Surge》 2",
   "id": "CUSA12567",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health (Don't Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Don'恐怖分子 Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CEF100",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1 Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CEF100",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CEF200",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Energy",
-      "type": "checkbox",
+      "name": "无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CEF300",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Inf Res / Ammo",
-      "type": "checkbox",
+      "name": "无穷之物 / 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CEF400",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="The Last of Us: Remastered" Moder="illusion" Cusa="CUSA00557" Version="01.10" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Parts, Pills" Description="Pickup any amount for high value.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="零件无限, 药丸" Description="Pickup any amount for high value.">
     <Cheatline>
       <Offset>89022</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>66-45-89-B4-5F-F4-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Flashlight Never Dies">
+  <Cheat Text="手电筒 Never Dies">
     <Cheatline>
       <Offset>697B88</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>c4-c1-7a-11-95-d4-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Tools Pickup Level 5">
+  <Cheat Text="All Tools Pickup 等级 5">
     <Cheatline>
       <Offset>68462</Offset>
       <Section>0</Section>

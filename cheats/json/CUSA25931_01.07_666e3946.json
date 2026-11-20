@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Lives",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "198FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Invincibility ( Spikes )",
-      "type": "checkbox",
+      "name": "无敌 ( Spikes )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "198FDD3",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Money ( on gain )",
-      "type": "checkbox",
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "198FDE1",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Air under Water",
-      "type": "checkbox",
+      "name": "无限之空 under 水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "198FE00",

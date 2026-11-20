@@ -4,7 +4,15 @@
   <Genres Name="Fighting" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>4B832D0</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-93-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Venom (after 1st charge activate only after defeating Rhino)">
+  <Cheat Text="Infinite 毒液 (after 1st 冲锋 activate only after defeating Rhino)">
     <Cheatline>
       <Offset>4B831B0</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C4-C1-7A-11-A4-C5-0C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gadget use">
+  <Cheat Text="Infinite 小道具 use">
     <Cheatline>
       <Offset>4B83090</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>29-D8-41-89-47-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Experience (activate once)">
+  <Cheat Text="最大 Experience (activate once)">
     <Cheatline>
       <Offset>4B82F90</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>41-89-9E-F0-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max skill points (on spend have 2)">
+  <Cheat Text="最大 skill 得分 (on spend have 2)">
     <Cheatline>
       <Offset>4B82EE0</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>29-81-F8-B9-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max infinite Resources (on spend on gadget and suits activate after the toturial)">
+  <Cheat Text="最大 资源无限 (on spend on 小道具 and suits activate after the toturial)">
     <Cheatline>
       <Offset>4B82DA0</Offset>
       <Section>0</Section>

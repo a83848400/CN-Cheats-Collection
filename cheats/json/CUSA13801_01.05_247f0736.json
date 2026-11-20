@@ -1,12 +1,17 @@
 {
-  "name": "Sekiro: Shadows Die Twice",
+  "name": "只狼: Shadows Die Twice",
   "id": "CUSA13801",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAE901",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Infinite All Items (Need 2 To Work)",
-      "type": "checkbox",
+      "name": "最大 Infinite 所有商品 (Need 2 To Work)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5D850",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Infinite Money On Start",
-      "type": "checkbox",
+      "name": "最大 金钱无限 On Start",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Infinite Skill Points (Kill N Turn Off)",
-      "type": "checkbox",
+      "name": "最大 Infinite Skill 得分 (Kill N 回合 Off)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DDB0",

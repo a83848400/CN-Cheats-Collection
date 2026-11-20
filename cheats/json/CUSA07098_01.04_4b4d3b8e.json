@@ -1,12 +1,17 @@
 {
-  "name": "Guacamelee! 2",
+  "name": "Guacamelee! 2｜《Guacamelee! 2》",
   "id": "CUSA07098",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5B000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Life + Easy Kill",
-      "type": "checkbox",
+      "name": "无限生命 + 轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5B03D",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Inf Stamina",
-      "type": "checkbox",
+      "name": "无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B86FA",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Easy Money at Kill",
-      "type": "checkbox",
+      "name": "简单 金钱 at Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "453E4B",

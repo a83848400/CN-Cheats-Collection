@@ -1,12 +1,17 @@
 {
-  "name": "Surviving the Aftermath",
+  "name": "Surviving the Aftermath｜从灾后中走出来",
   "id": "CUSA15495",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Resources never decrease (build general storage to request more)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "资源永不减少 (构筑 将军 存储 to request more)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80E9F199",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "infinite travel distance on the map",
-      "type": "checkbox",
+      "name": "infinite 旅行 distance on the 地图",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83303800",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "MAX money on get or use",
-      "type": "checkbox",
+      "name": "金钱最大 on get or use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8330383D",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "MAX science Points on get or use",
-      "type": "checkbox",
+      "name": "最大 科学点 on get or use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8330382D",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "happy population ( effect production rate positively)",
-      "type": "checkbox",
+      "name": "happy 人口 ( 效果 production rate positively)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83303850",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "infinite stored energy",
-      "type": "checkbox",
+      "name": "infinite stored 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8330386D",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "infinite stored water",
-      "type": "checkbox",
+      "name": "infinite stored 水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8330385F",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "infinite stored tower water (use with caution)",
-      "type": "checkbox",
+      "name": "infinite stored 防御塔 水 (use with 警戒)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "833038D5",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "infinite battery storage capacity(build or destroy a battery)(need save reloading to be disabled)",
-      "type": "checkbox",
+      "name": "infinite 电池 存储 capacity(构筑 or 拆除 a 电池)(need 保存 reloading to be disabled)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83303897",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "infinite water storage capacity(build or destroy a water storage)(need save reloading to be disabled)",
-      "type": "checkbox",
+      "name": "水无限 存储 capacity(构筑 or 拆除 a 水 存储)(need 保存 reloading to be disabled)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8330387B",
@@ -185,8 +190,8 @@
       ]
     },
     {
-      "name": "infinite water tower storage capacity(build or destroy a tower)(need save reloading to be disabled)(use with caution)",
-      "type": "checkbox",
+      "name": "水无限 防御塔 存储 capacity(构筑 or 拆除 a 防御塔)(need 保存 reloading to be disabled)(use with 警戒)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "833038B3",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "infinite energy production (need save reloading to be disabled)",
-      "type": "checkbox",
+      "name": "infinite 电力生产 (need 保存 reloading to be disabled)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "83303811",
@@ -227,8 +232,8 @@
       ]
     },
     {
-      "name": "infinite water production (build or destroy a water source)(need save reloading to be disabled)",
-      "type": "checkbox",
+      "name": "水无限 production (构筑 or 拆除 a 水 source)(need 保存 reloading to be disabled)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8330381F",

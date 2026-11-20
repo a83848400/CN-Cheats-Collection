@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Terminator 2D: NO FATE" Moder="Ali-mk" Cusa="CUSA51101" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>809FC299</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>FF-90-F8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>80A17ACE</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>89-83-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="one-Hit-Kill">
+  <Cheat Text="one-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>809E6433</Offset>
       <Section>0</Section>
@@ -80,7 +88,7 @@
       <ValueOff>8B-83-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Grenades">
+  <Cheat Text="Infinite-Grenades｜无限手榴弹">
     <Cheatline>
       <Offset>80A18A42</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>89-83-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-All-Weapon">
+  <Cheat Text="Infinite-All-Weapon｜无限全武器">
     <Cheatline>
       <Offset>80A10265</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>89-83-88-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Time">
+  <Cheat Text="Infinite-Time｜无限时间">
     <Cheatline>
       <Offset>80B176B6</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>C5-FB-11-41-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Untouchables">
+  <Cheat Text="Untouchables｜《不可触碰》">
     <Cheatline>
       <Offset>819CB800</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>0F-94-83-2A-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health">
+  <Cheat Text="无限生命">
     <Cheatline>
       <Offset>80E17ACE</Offset>
       <Section>0</Section>
@@ -126,7 +134,7 @@
       <ValueOff>FF-8B-94-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Grenades">
+  <Cheat Text="手雷无限">
     <Cheatline>
       <Offset>80E18A40</Offset>
       <Section>0</Section>
@@ -134,7 +142,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>80DE6433</Offset>
       <Section>0</Section>
@@ -148,7 +156,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Special Weapons">
+  <Cheat Text="《无限特辑》 武器">
     <Cheatline>
       <Offset>80E10263</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Continues">
+  <Cheat Text="《无限续篇》">
     <Cheatline>
       <Offset>80FD5B7D</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>FF-88-A0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf  Mission Time">
+  <Cheat Text="无限任务时间">
     <Cheatline>
       <Offset>80F1764C</Offset>
       <Section>0</Section>
@@ -172,7 +180,7 @@
       <ValueOff>C5-FB-10-49-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Vehicle HP">
+  <Cheat Text="Infinite Vehicle 手机">
     <Cheatline>
       <Offset>80E296EC</Offset>
       <Section>0</Section>

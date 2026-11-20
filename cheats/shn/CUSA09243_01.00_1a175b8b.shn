@@ -19,7 +19,15 @@
       <ValueOff>41-8B-84-17-80-03-00-00-29-D9</ValueOff>
     </Cheatline>
   </StartUP>
-  <Cheat Text="Infinite Health" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="">
     <Cheatline>
       <Offset>1213800</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill" Description="">
+  <Cheat Text="1 Hit Kill｜一击必杀" Description="">
     <Cheatline>
       <Offset>1213801</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>97EB08</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>29-F1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Get" Description="">
+  <Cheat Text="金钱最大 on Get" Description="">
     <Cheatline>
       <Offset>D9434B</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy VII Remake",
+  "name": "最终幻想 VII Remake",
   "id": "CUSA07211",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max+ Inf HP | All Party",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大+ 无限血量 | All 队伍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max+ Inf MP | All Party",
-      "type": "checkbox",
+      "name": "最大+ 无限魔力 | All 队伍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C12",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Instant Full+ Inf ATB | All Party",
-      "type": "checkbox",
+      "name": "Instant Full+ Infinite 主动时间战斗 | All 队伍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C24",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Instant Limit Break | Upon Getting Hit",
-      "type": "checkbox",
+      "name": "Instant 极限技 | Upon Getting Hit",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6323049",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Instant Action Button",
-      "type": "checkbox",
+      "name": "Instant Action 按钮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6323014",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max SP On Gain/Spend",
-      "type": "checkbox",
+      "name": "最大 精神值 On Gain/Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321D05",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Infinite Gil",
-      "type": "checkbox",
+      "name": "Infinite Gil｜无限金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90CEA",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Max Gil On Buy",
-      "type": "checkbox",
+      "name": "金钱最大 On Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90CEA",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Infinite Items On Sell",
-      "type": "checkbox",
+      "name": "道具无限 On Sell",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F88",
@@ -134,8 +139,8 @@
       ]
     },
     {
-      "name": "Gain Items on Sell | Gain Key Items On Use",
-      "type": "checkbox",
+      "name": "Gain Items on Sell | Gain 钥匙 Items On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F7B",
@@ -145,8 +150,8 @@
       ]
     },
     {
-      "name": "Infinite Items | Use",
-      "type": "checkbox",
+      "name": "道具无限 | Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E884B0",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "Gain Items On Use",
-      "type": "checkbox",
+      "name": "Gain Items On Use｜使用时获得道具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E884B0",
@@ -167,8 +172,8 @@
       ]
     },
     {
-      "name": "Unlock All Items",
-      "type": "checkbox",
+      "name": "Unlock All Items｜解锁全部物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C39",
@@ -183,8 +188,8 @@
       ]
     },
     {
-      "name": "Materia Max LvL After Battle",
-      "type": "checkbox",
+      "name": "魔晶石 最大 LvL After 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6323031",
@@ -199,8 +204,8 @@
       ]
     },
     {
-      "name": "Freeze Playtime Timer",
-      "type": "checkbox",
+      "name": "暂停“PlayTime” 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EA65DA",
@@ -210,8 +215,8 @@
       ]
     },
     {
-      "name": "Rest Playtime Timer",
-      "type": "checkbox",
+      "name": "休息 Playtime 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321CF1",
@@ -226,8 +231,8 @@
       ]
     },
     {
-      "name": "Infinite Moogle Medals",
-      "type": "checkbox",
+      "name": "Infinite 莫古力 Medals",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E90F88",
@@ -237,8 +242,8 @@
       ]
     },
     {
-      "name": "Max Moogle Medals On Spend",
-      "type": "checkbox",
+      "name": "最大 莫古力 Medals On Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6323060",
@@ -253,8 +258,8 @@
       ]
     },
     {
-      "name": "Boost EXP",
-      "type": "checkbox",
+      "name": "Boost 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C64",
@@ -269,8 +274,8 @@
       ]
     },
     {
-      "name": "Extra EXP",
-      "type": "checkbox",
+      "name": "Extra 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C75",
@@ -285,8 +290,8 @@
       ]
     },
     {
-      "name": "Even More EXP",
-      "type": "checkbox",
+      "name": "Even More 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C87",
@@ -301,8 +306,8 @@
       ]
     },
     {
-      "name": "Lots Of EXP",
-      "type": "checkbox",
+      "name": "Lots Of 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321C99",
@@ -317,8 +322,8 @@
       ]
     },
     {
-      "name": "Hella EXP",
-      "type": "checkbox",
+      "name": "Hella 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6323000",
@@ -333,8 +338,8 @@
       ]
     },
     {
-      "name": "EXP OVERLORD | MAX LEVEL",
-      "type": "checkbox",
+      "name": "经验 OVERLORD | 等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321CE0",
@@ -349,8 +354,8 @@
       ]
     },
     {
-      "name": "Rest Level Back To 1",
-      "type": "checkbox",
+      "name": "休息 等级 Back To 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321CCF",
@@ -365,8 +370,8 @@
       ]
     },
     {
-      "name": "Infinite Spinning Splash | Bike Special Attack",
-      "type": "checkbox",
+      "name": "Infinite Spinning Splash | Bike Special 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1CDC7DD",
@@ -376,8 +381,8 @@
       ]
     },
     {
-      "name": "Easy Squat | x99 per Squat",
-      "type": "checkbox",
+      "name": "简单 Squat | x99 per Squat",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6321D19",
@@ -392,8 +397,8 @@
       ]
     },
     {
-      "name": "Whack-a-Box | Third Place Reward",
-      "type": "checkbox",
+      "name": "即死咒文-a-Box | Third Place 报酬",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6323076",
@@ -408,8 +413,8 @@
       ]
     },
     {
-      "name": "Whack-a-Box | Second Place Reward",
-      "type": "checkbox",
+      "name": "即死咒文-a-Box | Second Place 报酬",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "632308C",
@@ -424,8 +429,8 @@
       ]
     },
     {
-      "name": "Whack-a-Box | First Place Reward",
-      "type": "checkbox",
+      "name": "即死咒文-a-Box | 第一名 报酬",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63230A2",
@@ -440,8 +445,8 @@
       ]
     },
     {
-      "name": "Whack-a-Box | Max Score",
-      "type": "checkbox",
+      "name": "即死咒文-a-Box | 最大 比分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63230B8",
@@ -456,8 +461,8 @@
       ]
     },
     {
-      "name": "Whack-a-Box | +50000 Each Box",
-      "type": "checkbox",
+      "name": "即死咒文-a-Box | +50000 Each Box",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63230CE",

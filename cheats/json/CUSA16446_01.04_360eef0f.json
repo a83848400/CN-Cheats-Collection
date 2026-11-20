@@ -1,12 +1,17 @@
 {
-  "name": "Gunvolt Chronicles: Luminous Avenger iX",
+  "name": "Gunvolt Chronicles: Luminous Avenger iX｜《Gunvolt编年史：光之复仇者 iX》",
   "id": "CUSA16446",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "867F1",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite EX Weapon Bar",
-      "type": "checkbox",
+      "name": "Infinite EX Weapon Bar｜无限EX武器栏",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "392101",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Bullets",
-      "type": "checkbox",
+      "name": "Infinite Bullets｜无限子弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81E3C",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Exp",
-      "type": "checkbox",
+      "name": "Max Exp｜经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8367D",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Gold",
-      "type": "checkbox",
+      "name": "Max Gold｜金币最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28DE9",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8622C",

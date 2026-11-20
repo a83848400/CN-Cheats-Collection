@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dead Island: Definitive Collection" Moder="AhmadCH" Cusa="CUSA03291" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Genres Name="Shooter" />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>760519</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-10-45-B8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>751BF8</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-5C-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite  Flash Light">
+  <Cheat Text="Infinite  闪现 Light">
     <Cheatline>
       <Offset>8272EB</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>C5-FA-11-43-60</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cash">
+  <Cheat Text="最大 Cash">
     <Cheatline>
       <Offset>73B8AD</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>44-01-BB-B8-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Xp">
+  <Cheat Text="最大 Xp">
     <Cheatline>
       <Offset>7C5E27</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>48-8B-87-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items">
+  <Cheat Text="最大 Items">
     <Cheatline>
       <Offset>76C27A</Offset>
       <Section>0</Section>

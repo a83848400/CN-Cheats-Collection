@@ -1,12 +1,17 @@
 {
-  "name": "Souldiers",
+  "name": "Souldiers｜士兵们",
   "id": "CUSA31798",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A3B6C",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "804004C5",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8052B9C2",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Energy (Caster)",
-      "type": "checkbox",
+      "name": "无限能量 (Caster)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A3C6C",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "One-hit Kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A3BBC",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Max ammo/potions (on use)",
-      "type": "checkbox",
+      "name": "弹药最大化/potions (on use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A3BFC",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Infinite Gold (on get)",
-      "type": "checkbox",
+      "name": "无限金币 (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A3C3C",

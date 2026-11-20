@@ -1,12 +1,17 @@
 {
-  "name": "Maneater",
+  "name": "Maneater｜食人兽",
   "id": "CUSA14538",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Fat (On Consume)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Fat (On Consume)｜脂肪（摄入量）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3D33",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Mineral (On consume)",
-      "type": "checkbox",
+      "name": "Mineral (On consume)｜矿物质（摄入量）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3E0A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Protein (On Consume)",
-      "type": "checkbox",
+      "name": "Protein (On Consume)｜蛋白质（摄入量）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3C6A",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Mutagen (On Consume)",
-      "type": "checkbox",
+      "name": "突变诱发物 (关于“consume”)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3EE1",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "XP Multiplier",
-      "type": "checkbox",
+      "name": "XP Multiplier｜经验值倍率",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF3C80",

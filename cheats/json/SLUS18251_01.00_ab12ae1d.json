@@ -1,12 +1,17 @@
 {
-  "name": "Sonic Chapolin",
+  "name": "索尼克 Chapolin",
   "id": "SLUS18251",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "In-lives-99",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "In-lives-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080849952",
@@ -16,13 +21,13 @@
       ]
     },
     {
-      "name": "RINGS-255",
-      "type": "checkbox",
+      "name": "金环-255",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8080849961",
-          "on": "FF",
-          "off": "FF"
+          "on": "FF｜前言",
+          "off": "FF｜前言"
         }
       ]
     }

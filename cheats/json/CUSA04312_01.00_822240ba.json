@@ -1,13 +1,18 @@
 {
-  "name": "Ghostbusters",
+  "name": "Ghostbusters｜《捉鬼敢死队》",
   "id": "CUSA04312",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BD7C01",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Need for Speed: Rivals" Moder="TLH" Cusa="CUSA00168" Version="01.04" Process="eboot.bin">
   <Genres Name="Racing" />
   <Items />
-  <Cheat Text="Infinite SP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 精神值" Description="">
     <Cheatline>
       <Offset>D5DB7F</Offset>
       <Section>0</Section>

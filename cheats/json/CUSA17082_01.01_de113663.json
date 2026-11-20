@@ -1,12 +1,17 @@
 {
-  "name": "Daymare: 1998",
+  "name": "Daymare: 1998｜《Daymare：1998》",
   "id": "CUSA17082",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / Stamina / Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 体力 / 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4927800",

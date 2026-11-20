@@ -1,12 +1,17 @@
 {
-  "name": "Kamen Rider: Memory of Heroez",
+  "name": "Kamen Rider: Memory of Heroez｜《假面骑士：英雄的记忆》",
   "id": "CUSA17374",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "1 Hit Kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "1 Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15816F0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Armor Easy Break",
-      "type": "checkbox",
+      "name": "Armor 简单 破防",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1581850",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinte Health",
-      "type": "checkbox",
+      "name": "Infinte 生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1581690",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinte RP",
-      "type": "checkbox",
+      "name": "Infinte RP｜无限RP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1581620",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinte EX",
-      "type": "checkbox",
+      "name": "Infinte EX｜Infinite X",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1581640",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max Level",
-      "type": "checkbox",
+      "name": "Max Level｜等级最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15817F0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Enemy Codes Max When Get",
-      "type": "checkbox",
+      "name": "Enemy Codes 最大 When Get",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1581770",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Infite Enemy Codes on Develop Accelerators",
-      "type": "checkbox",
+      "name": "Infite Enemy Codes on Develop Accelerators｜《Infite Enemy》在Develop Accelerators上的游戏秘籍",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1581740",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "No Gravity",
-      "type": "checkbox",
+      "name": "No Gravity｜无重力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15815E0",
@@ -149,8 +154,8 @@
       ]
     },
     {
-      "name": "Speed 1",
-      "type": "checkbox",
+      "name": "速度 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15815A0",
@@ -165,8 +170,8 @@
       ]
     },
     {
-      "name": "Speed 2",
-      "type": "checkbox",
+      "name": "速度 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15815C0",

@@ -1,12 +1,17 @@
 {
-  "name": "Divinity: Original Sin II: Definitive Edition",
+  "name": "神兽: Original Sin II: Definitive Edition",
   "id": "CUSA11898",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP SP AP 1 hit kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 精神值 行动点 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A7800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Exp (Max 35 Level ) Get by kill 1 enemy",
-      "type": "checkbox",
+      "name": "经验值最大 (最大 35 等级 ) Get by kill 1 enemy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A786F",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Money(buy or Sell)",
-      "type": "checkbox",
+      "name": "金钱最大(buy or Sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A7882",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "99 Attribute Points (after using 1 point)",
-      "type": "checkbox",
+      "name": "99 属性 得分 (after using 1 point)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A7894",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "99 Combat Ability Points (after using 1 point)",
-      "type": "checkbox",
+      "name": "99 Combat 特性 得分 (after using 1 point)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A78B8",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "99 civil Ability Points (after using 1 point)",
-      "type": "checkbox",
+      "name": "99 civil 特性 得分 (after using 1 point)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A78C9",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "99 Talents Ability Points (after using 1 point)",
-      "type": "checkbox",
+      "name": "99 Talents 特性 得分 (after using 1 point)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A78DA",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Game Speed x3",
-      "type": "checkbox",
+      "name": "Game Speed x3｜游戏速度×3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24A78EC",
@@ -133,8 +138,8 @@
       ]
     },
     {
-      "name": "Ignore weight and Never Decrease Movement speed",
-      "type": "checkbox",
+      "name": "无视负重 and Never Decrease 移动速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88B32",

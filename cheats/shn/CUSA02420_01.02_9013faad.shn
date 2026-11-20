@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7FC5BF00</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-5C-44-24-20-C5-FA-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health/Wrath Bottles Potion">
+  <Cheat Text="无限生命/Wrath 玻璃瓶 药水">
     <Cheatline>
       <Offset>71D0A9</Offset>
       <Section>0</Section>
@@ -25,7 +33,7 @@
       <ValueOff>FF-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Wrath">
+  <Cheat Text="Infinite Wrath｜无尽之怒">
     <Cheatline>
       <Offset>7FC5BDE0</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>C5-FA-10-40-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Horse Stamina">
+  <Cheat Text="Infinite Horse Stamina｜马匹耐力无限">
     <Cheatline>
       <Offset>7FC5BF20</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>89-87-2C-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Reaper Power">
+  <Cheat Text="Infinite 死神 电力">
     <Cheatline>
       <Offset>7FC5BF70</Offset>
       <Section>0</Section>
@@ -67,7 +75,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bullets">
+  <Cheat Text="Infinite Bullets｜无限子弹">
     <Cheatline>
       <Offset>7FC5BE30</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>41-FF-8C-24-CC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP">
+  <Cheat Text="最大 XP">
     <Cheatline>
       <Offset>7FC5BF40</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>89-45-C4-01-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Skill Points">
+  <Cheat Text="最大/Infinite Skill 得分">
     <Cheatline>
       <Offset>7FC5BF90</Offset>
       <Section>0</Section>
@@ -109,7 +117,7 @@
       <ValueOff>74-04-44-89-73-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lot Of Money On Gain (Disable After Use)">
+  <Cheat Text="用地 Of 金钱 On Gain (使用后禁用)">
     <Cheatline>
       <Offset>551CB0</Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>44-01-63-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Lot Of Boatman Coins (Disable After Use)">
+  <Cheat Text="用地 Of Boatman 角落 (使用后禁用)">
     <Cheatline>
       <Offset>7FC5BDA0</Offset>
       <Section>0</Section>

@@ -5,7 +5,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Inf Horse Bursts" Description="Inf Horse Bursts">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限马群爆发" Description="Inf Horse Bursts">
     <Cheatline>
       <Offset>39D52C</Offset>
       <Section>0</Section>
@@ -13,7 +21,7 @@
       <ValueOff>89-87-2C-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Pickup" Description="Max Money on Pickup">
+  <Cheat Text="金钱最大 on Pickup" Description="Max Money on Pickup">
     <Cheatline>
       <Offset>18AB800</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>49-C1-FC-25-41-01-C4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="God Mode">
+  <Cheat Text="God Mode｜神模式" Description="God Mode">
     <Cheatline>
       <Offset>2AAB58</Offset>
       <Section>0</Section>
@@ -35,7 +43,7 @@
       <ValueOff>C5-FA-5C-41-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Upgrade Points" Description="Inf Upgrade Points">
+  <Cheat Text="Infinite Upgrade 得分" Description="Inf Upgrade Points">
     <Cheatline>
       <Offset>2BACB3</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>44-89-73-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="Inf Ammo">
+  <Cheat Text="无限弹药" Description="Inf Ammo">
     <Cheatline>
       <Offset>3D768E</Offset>
       <Section>0</Section>
@@ -51,7 +59,7 @@
       <ValueOff>41-FF-8D-CC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level UP after one Kill" Description="Max Level UP after one Kill">
+  <Cheat Text="等级最大 UP after one Kill" Description="Max Level UP after one Kill">
     <Cheatline>
       <Offset>18AB80F</Offset>
       <Section>0</Section>
@@ -65,7 +73,7 @@
       <ValueOff>01-C8-89-45-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Wrath" Description="Inf Wrath">
+  <Cheat Text="无尽之怒" Description="Inf Wrath">
     <Cheatline>
       <Offset>24D597</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>C5-FA-11-43-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Death Morph" Description="Inf Death Morph">
+  <Cheat Text="Infinite 死亡 Morph" Description="Inf Death Morph">
     <Cheatline>
       <Offset>2474B6</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>C5-FA-11-50-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gain Vulgrim Coins after Shop" Description="Gain Vulgrim Coins after Shop">
+  <Cheat Text="Gain Vulgrim 角落 after Shop" Description="Gain Vulgrim Coins after Shop">
     <Cheatline>
       <Offset>2D93D7</Offset>
       <Section>0</Section>
@@ -89,7 +97,7 @@
       <ValueOff>29-70-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Horse Bursts" Description="Inf Horse Bursts">
+  <Cheat Text="无限马群爆发" Description="Inf Horse Bursts">
     <Cheatline>
       <Offset>6F7FCC</Offset>
       <Section>0</Section>
@@ -97,7 +105,7 @@
       <ValueOff>89-87-2C-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Money on Pickup" Description="Max Money on Pickup">
+  <Cheat Text="金钱最大 on Pickup" Description="Max Money on Pickup">
     <Cheatline>
       <Offset>1683800</Offset>
       <Section>0</Section>
@@ -111,7 +119,7 @@
       <ValueOff>48-C1-E8-3F-41-01-C4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level UP after one Kill" Description="Max Level UP after one Kill">
+  <Cheat Text="等级最大 UP after one Kill" Description="Max Level UP after one Kill">
     <Cheatline>
       <Offset>168380B</Offset>
       <Section>0</Section>
@@ -125,7 +133,7 @@
       <ValueOff>48-C1-E9-3F-01-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Upgrade Points" Description="Inf Upgrade Points">
+  <Cheat Text="Infinite Upgrade 得分" Description="Inf Upgrade Points">
     <Cheatline>
       <Offset>556F5B</Offset>
       <Section>0</Section>
@@ -133,7 +141,7 @@
       <ValueOff>44-89-73-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode" Description="God Mode">
+  <Cheat Text="God Mode｜神模式" Description="God Mode">
     <Cheatline>
       <Offset>547A2B</Offset>
       <Section>0</Section>
@@ -141,7 +149,7 @@
       <ValueOff>C4-C1-7A-5C-44-24-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Wrath" Description="Inf Wrath">
+  <Cheat Text="无尽之怒" Description="Inf Wrath">
     <Cheatline>
       <Offset>466271</Offset>
       <Section>0</Section>
@@ -149,7 +157,7 @@
       <ValueOff>C5-FA-11-43-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gain Vulgrim Coins after Shop" Description="Gain Vulgrim Coins after Shop">
+  <Cheat Text="Gain Vulgrim 角落 after Shop" Description="Gain Vulgrim Coins after Shop">
     <Cheatline>
       <Offset>5A26D7</Offset>
       <Section>0</Section>
@@ -157,7 +165,7 @@
       <ValueOff>29-70-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Death Morph" Description="Inf Death Morph">
+  <Cheat Text="Infinite 死亡 Morph" Description="Inf Death Morph">
     <Cheatline>
       <Offset>45F31A</Offset>
       <Section>0</Section>
@@ -165,7 +173,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="Inf Ammo">
+  <Cheat Text="无限弹药" Description="Inf Ammo">
     <Cheatline>
       <Offset>76D5C5</Offset>
       <Section>0</Section>

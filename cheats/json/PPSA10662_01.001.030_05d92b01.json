@@ -1,12 +1,17 @@
 {
-  "name": "The Last of Us: Part II Remastered",
+  "name": "最后生还者: Part II Remastered",
   "id": "PPSA10662",
   "version": "01.001.030",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6AABC6",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Invincible Mode",
-      "type": "checkbox",
+      "name": "无敌 Mode",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "25470A2",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Ammo and Items",
-      "type": "checkbox",
+      "name": "无限弹药 and Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2547070",
@@ -58,8 +63,8 @@
       ]
     },
     {
-      "name": "Inf Weapon Durability",
-      "type": "checkbox",
+      "name": "武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D62EB6",

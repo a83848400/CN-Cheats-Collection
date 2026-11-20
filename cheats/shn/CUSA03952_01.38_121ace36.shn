@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="No Man's Sky" Moder="DreamRunner" Cusa="CUSA03952" Version="01.38" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="set 99999 resources (craft)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="set 99999 resources (craft)｜设置 99999 个资源（合成）">
     <Cheatline>
       <Offset>1603800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>85-DB-89-48-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="set 99999 res (tools) ">
+  <Cheat Text="set 99999 res (tools) ｜设置 99999 分辨率（工具）">
     <Cheatline>
       <Offset>160380E</Offset>
       <Section>0</Section>

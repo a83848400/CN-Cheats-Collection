@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Avengers",
+  "name": "Marvel's Avengers｜漫威复仇者联盟",
   "id": "CUSA14026",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Skills Instant Cooldown",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Skills 技能冷却清零",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "15BB2EF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Power focus",
-      "type": "checkbox",
+      "name": "Infinite 电力 棍势",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "155D44C",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "max itmes and Resources",
-      "type": "checkbox",
+      "name": "最大 itmes and Resources",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10BB3D2",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite skills",
-      "type": "checkbox",
+      "name": "Infinite skills｜无限技能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "167C5B9",

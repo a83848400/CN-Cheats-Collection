@@ -1,28 +1,33 @@
 {
-  "name": "Resident Evil Director's Cut",
+  "name": "生化危机 Director's 居合斩",
   "id": "SLUS00551",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F4EAC",
           "on": "72",
-          "off": "AC"
+          "off": "AC｜而且"
         },
         {
           "offset": "1F4EAD",
-          "on": "A0",
+          "on": "A0｜零",
           "off": "51"
         }
       ]
     },
     {
-      "name": "Infinite-All-Weapon",
-      "type": "checkbox",
+      "name": "Infinite-All-Weapon｜无限全武器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "12A812",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Unlock-Weapon=Shotgun+Magnum",
-      "type": "checkbox",
+      "name": "解锁-Weapon=霰弹枪+Magnum",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B3A24",

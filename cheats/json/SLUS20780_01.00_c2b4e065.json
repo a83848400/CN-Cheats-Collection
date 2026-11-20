@@ -1,12 +1,17 @@
 {
-  "name": "R-Type Final",
+  "name": "R-属性 Final",
   "id": "SLUS20780",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincibility",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invincibility｜无敌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FF0746C",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-lives-99",
-      "type": "checkbox",
+      "name": "无限生命-99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEE6758",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-Credits",
-      "type": "checkbox",
+      "name": "Infinite-Credits｜无限积分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807FEE6754",

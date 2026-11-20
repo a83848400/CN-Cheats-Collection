@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="NeverAwake" Moder="Ali-mk" Cusa="CUSA34734" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>83FF07A9</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>E8-52-A0-C5-FC</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Shield-Ring">
+    <Cheat Text="Infinite-盾牌-戒指">
     <Cheatline>
       <Offset>84B93681</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-80-F4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Max-money">
+    <Cheat Text="最大-金钱">
     <Cheatline>
 	  <Absolute>True</Absolute>
       <Offset>8715B800</Offset>

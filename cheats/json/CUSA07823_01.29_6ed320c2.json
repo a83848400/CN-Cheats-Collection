@@ -1,12 +1,17 @@
 {
-  "name": "Borderlands 3",
+  "name": "无主之地 3",
   "id": "CUSA07823",
   "version": "01.29",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health+Shield+Action Skill (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命+盾牌+Action Skill (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A3A3DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (Enable MC)",
-      "type": "checkbox",
+      "name": "一击必杀 (Enable MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A3A3DB4",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55B85B6",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "55B852D",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Skill Points",
-      "type": "checkbox",
+      "name": "最大/Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A3A38D0",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money On Pick Up",
-      "type": "checkbox",
+      "name": "最大/金钱无限 On 拾取",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A3A3B70",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A3A3910",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max XP On Kill",
-      "type": "checkbox",
+      "name": "最大 XP On Kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "139B2E0",

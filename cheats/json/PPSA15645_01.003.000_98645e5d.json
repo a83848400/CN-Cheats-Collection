@@ -1,13 +1,18 @@
 {
-  "name": "Castlevania Dominus Collection",
+  "name": "恶魔城 多米纳斯 Collection",
   "id": "PPSA15645",
   "version": "01.003.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp Order of Ecclesia",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 Order of Ecclesia",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FEF1C8C",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Mp  Order of Ecclesia",
+      "name": "无限魔力  Order of Ecclesia",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FECF7C4",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Inf Gold  Order of Ecclesia",
+      "name": "无限金币  Order of Ecclesia",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB000",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Inf Exp  Order of Ecclesia",
+      "name": "无限经验  Order of Ecclesia",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB030",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Inf Hp Portrait Of  Ruin",
+      "name": "无限血量 Portrait Of  Ruin",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE12C40",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Inf Mp Portrait Of  Ruin",
+      "name": "无限魔力 Portrait Of  Ruin",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FE3652A",
@@ -87,9 +92,9 @@
       ]
     },
     {
-      "name": "Inf Money Portrait Of  Ruin",
+      "name": "金钱无限 Portrait Of  Ruin",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB061",
@@ -104,9 +109,9 @@
       ]
     },
     {
-      "name": "Inf Exp Portrait Of  Ruin",
+      "name": "无限经验 Portrait Of  Ruin",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB094",
@@ -121,9 +126,9 @@
       ]
     },
     {
-      "name": "Inf Hp Dawn Of Sorrow",
+      "name": "无限血量 Dawn Of Sorrow",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8017BE4B",
@@ -138,9 +143,9 @@
       ]
     },
     {
-      "name": "Inf Mp Dawn Of Sorrow",
+      "name": "无限魔力 Dawn Of Sorrow",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8016EC1A",
@@ -160,9 +165,9 @@
       ]
     },
     {
-      "name": "Inf Money Dawn Of Sorrow",
+      "name": "金钱无限 Dawn Of Sorrow",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB0C4",
@@ -177,9 +182,9 @@
       ]
     },
     {
-      "name": "Inf Exp Dawn Of Sorrow",
+      "name": "无限经验 Dawn Of Sorrow",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB0F6",

@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Valhalla",
+  "name": "刺客信条 Valhalla",
   "id": "CUSA18534",
   "version": "05.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6625700",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Stamina Instant Refill",
-      "type": "checkbox",
+      "name": "体力 Instant Refill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2BE12FB",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Skill Points (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6625800",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Resources/ Arrows (On Spend)",
-      "type": "checkbox",
+      "name": "最大 Resources/ Arrows (On Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66258A0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Abilites Bar (Enable only after unlock Ablities)",
-      "type": "checkbox",
+      "name": "Infinite Abilites Bar (Enable only after 解锁 Ablities)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6625910",

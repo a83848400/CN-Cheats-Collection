@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Gravity Rush Remastered" Moder="Skal" Cusa="CUSA01130" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Charge Gauge Never Drains" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="冲锋 Gauge Never Drains" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>C5-FA-11-83-78-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Precious Gem On Pickup" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="最大 Precious Gem On Pickup" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>E9-F7-30-4E-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Health Never Decreases" Description="What/how/when is this Cheat: Change me!">
+  <Cheat Text="生命 Never Decreases" Description="What/how/when is this Cheat: Change me!">
     <Cheatline>
       <Section>0</Section>
       <Offset>2D2F44</Offset>

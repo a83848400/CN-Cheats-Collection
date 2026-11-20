@@ -1,13 +1,18 @@
 {
-  "name": "Monster Hunter Stories",
+  "name": "怪物猎人 Stories",
   "id": "CUSA43544",
   "version": "01.10",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Player Stats",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Player Stats｜球员数据",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "310FF00",
@@ -37,9 +42,9 @@
       ]
     },
     {
-      "name": "--Level_Number",
-      "description": "Max 99",
-      "type": "checkbox",
+      "name": "--等级数值",
+      "description": "最大 99",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "310FF00",
@@ -49,9 +54,9 @@
       ]
     },
     {
-      "name": "--MAX_HP",
+      "name": "--生命上限最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "310FF08",
@@ -61,9 +66,9 @@
       ]
     },
     {
-      "name": "--MAX_Stats",
+      "name": "--全属性最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "310FF10",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B47064",
@@ -110,9 +115,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2B470F8",

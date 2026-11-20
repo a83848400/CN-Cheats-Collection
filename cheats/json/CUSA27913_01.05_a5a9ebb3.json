@@ -1,12 +1,17 @@
 {
-  "name": "Gungrave G.O.R.E",
+  "name": "Gungrave G.O.R.E｜《Gungrave G.O.R.E》",
   "id": "CUSA27913",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D53CD0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Shield",
-      "type": "checkbox",
+      "name": "Infinite Shield｜无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D53C80",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Special Attack Bar",
-      "type": "checkbox",
+      "name": "《无限特辑》 攻击 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D53D10",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Growth Points",
-      "type": "checkbox",
+      "name": "最大 Growth 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D53D50",

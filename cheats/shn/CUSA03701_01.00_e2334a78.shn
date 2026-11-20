@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Fallout 4" Moder="cjwine" Cusa="CUSA03701" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="skill inf">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="技能 无限">
     <Cheatline>
       <Offset>21F7800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>40-88-B7-49-0B-00-00-40-88-75-E0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max level(god mode)when u get xp">
+  <Cheat Text="等级最大(神模式)when u get xp">
     <Cheatline>
       <Offset>21F7813</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-41-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf ammo">
+  <Cheat Text="无限弹药">
     <Cheatline>
       <Offset>8B32C9</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>89-D3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x999999 item each use and deactivate">
+  <Cheat Text="x999999 物品 each use and deactivate">
     <Cheatline>
       <Offset>21F7827</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>8B-42-20-8B-4F-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Item Each use (Use and deactivate)">
+  <Cheat Text="x2 物品 Each use (Use and deactivate)">
     <Cheatline>
       <Offset>E73B1</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>89-4A-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="no height">
+  <Cheat Text="no height｜无高度">
     <Cheatline>
       <Offset>21F7834</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C5-FA-10-47-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="speed run x3">
+  <Cheat Text="速度 run x3">
     <Cheatline>
       <Offset>21F7845</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C5-FA-10-04-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="all item money 99999">
+  <Cheat Text="all 物品 金钱 99999">
     <Cheatline>
       <Offset>21F7868</Offset>
       <Section>0</Section>

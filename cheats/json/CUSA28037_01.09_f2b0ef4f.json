@@ -1,12 +1,17 @@
 {
-  "name": "Chernobylite",
+  "name": "Chernobylite｜切尔诺贝利人",
   "id": "CUSA28037",
   "version": "01.09",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FDD2",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health ( Zero Radiation )",
-      "type": "checkbox",
+      "name": "无限生命 ( 杰洛 Radiation )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FE50",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Psyche",
-      "type": "checkbox",
+      "name": "Infinite Psyche｜无限心灵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FDE9",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Shield",
-      "type": "checkbox",
+      "name": "Infinite Shield｜无限护盾",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FDFC",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Flashlight",
-      "type": "checkbox",
+      "name": "Infinite 手电筒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BBCF79",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FE13",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FE67",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "No Reload ( Weapon )",
-      "type": "checkbox",
+      "name": "无需换弹 ( Weapon )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FDB0",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Max Buildings Requirements Money ( on use )",
-      "type": "checkbox",
+      "name": "最大 Buildings Requirements 金钱 ( on use )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FE24",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Infinite Items ( don´t decrease )",
-      "type": "checkbox",
+      "name": "道具无限 ( don´恐怖分子 decrease )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C5B40C",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Duplicate Items",
-      "type": "checkbox",
+      "name": "Duplicate Items｜重复项目",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B2FE3D",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BB8128",

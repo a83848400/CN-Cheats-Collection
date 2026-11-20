@@ -1,13 +1,18 @@
 {
-  "name": "Elden Ring Nightreign",
+  "name": "艾尔登法环 Nightreign",
   "id": "CUSA50614",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "For the complete trainer, visit our discord server (Team Reaper). Invite: https://discord.gg/yrxdxSPZmH ",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "For the complete trainer, visit our discord server (Team 死神). Invite: https://discord.gg/yrxdxSPZmH ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAEFFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "God Mode｜神模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF000",

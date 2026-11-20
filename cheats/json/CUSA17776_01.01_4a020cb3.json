@@ -1,12 +1,17 @@
 {
-  "name": "Marvel's Spider-Man: Miles Morales",
+  "name": "Marvel's 蜘蛛侠: 迈尔斯·莫拉莱斯",
   "id": "CUSA17776",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max XP (use only once than turn off)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 XP (use only once than 回合 off)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48170",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48030",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Venom Power",
-      "type": "checkbox",
+      "name": "Infinite 毒液 电力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B481F0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Web-shooters",
-      "type": "checkbox",
+      "name": "Infinite Web-shooters｜无限蛛丝发射器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B480B0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points (on spend)",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B480E0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Resources (on spend buy 1 suit)",
-      "type": "checkbox",
+      "name": "资源无限 (on spend buy 1 战衣)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48160",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Freeze Challenges Time (only use in Challenges)",
-      "type": "checkbox",
+      "name": "Freeze Challenges Time (only use in Challenges)｜“冻结”挑战时间（仅限在挑战中使用）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B481B0",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Explosive Timer Freeze (only use when there is a timer)",
-      "type": "checkbox",
+      "name": "Explosive 计时器 Freeze (only use when there is a 计时器)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B48120",

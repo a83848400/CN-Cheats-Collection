@@ -1,12 +1,17 @@
 {
-  "name": "Octopath Traveler II",
+  "name": "八方旅人 II",
   "id": "CUSA36274",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "type": "checkbox",
+      "name": "道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CA20A9",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf money after Buy",
-      "type": "checkbox",
+      "name": "金钱无限 after Buy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AA4771",

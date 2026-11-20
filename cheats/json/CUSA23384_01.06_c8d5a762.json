@@ -1,12 +1,17 @@
 {
-  "name": "Haven",
+  "name": "Haven｜港口",
   "id": "CUSA23384",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (1 player)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (1 player)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82D4BF50",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "99 Items (on get)",
-      "type": "checkbox",
+      "name": "99 Items (on get)｜99 件商品（获取时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82D4BF10",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience",
-      "type": "checkbox",
+      "name": "最大 Experience",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82D4BFB0",

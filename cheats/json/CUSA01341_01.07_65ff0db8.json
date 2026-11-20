@@ -1,13 +1,18 @@
 {
-  "name": "Dragon Ball: Xenoverse",
+  "name": "龙珠: Xenoverse",
   "id": "CUSA01341",
   "version": "01.07",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Zeni on Buy/Sell",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Zeni on Buy/Sell",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393800",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Max Points on Spend",
+      "name": "最大 得分 on Spend",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "439380F",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Max LVL/EXP on Gain",
+      "name": "最大 LVL/经验 on Gain",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "439381E",
@@ -56,9 +61,9 @@
       ]
     },
     {
-      "name": "Max Items on Buy When Refreshed",
+      "name": "最大 Items on Buy When Refreshed",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393870",
@@ -73,9 +78,9 @@
       ]
     },
     {
-      "name": "Infinite Health",
+      "name": "Infinite Health｜无限生命",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "439387F",
@@ -100,9 +105,9 @@
       ]
     },
     {
-      "name": "Infinite Ki",
+      "name": "Infinite Ki｜无限气",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393842",
@@ -127,9 +132,9 @@
       ]
     },
     {
-      "name": "Max Stamina When Gained",
+      "name": "体力最大 When Gained",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4393894",
@@ -144,9 +149,9 @@
       ]
     },
     {
-      "name": "Freeze Timer",
+      "name": "Freeze 计时器",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "21B1BE",

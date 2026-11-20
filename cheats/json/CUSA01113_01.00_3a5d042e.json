@@ -1,12 +1,17 @@
 {
-  "name": "Gravity Rush Remastered",
+  "name": "Gravity 快攻 Remastered",
   "id": "CUSA01113",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8169A",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Gravity",
-      "type": "checkbox",
+      "name": "Infinite Gravity｜无限重力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8169A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Gems",
-      "type": "checkbox",
+      "name": "Infinite Gems｜宝石无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "104777",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Always Have Super Attack",
-      "type": "checkbox",
+      "name": "Always Have Super 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E2030",

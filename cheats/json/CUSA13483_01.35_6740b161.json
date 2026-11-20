@@ -1,12 +1,17 @@
 {
-  "name": "Farm Together",
+  "name": "刷 Together",
   "id": "CUSA13483",
   "version": "01.35",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money ( on gain )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152FDB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Diamonds, Medails, Tickets ( on gain )",
-      "type": "checkbox",
+      "name": "钻石最大, Medails, Tickets ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152FDC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max XP ( on first Level Up )",
-      "type": "checkbox",
+      "name": "最大 XP ( on first 升级 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max collected Harvest",
-      "type": "checkbox",
+      "name": "最大 collected Harvest",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152FE00",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Fuel",
-      "type": "checkbox",
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "152FDF0",

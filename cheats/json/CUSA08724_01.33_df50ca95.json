@@ -1,12 +1,17 @@
 {
-  "name": "Battlefield V",
+  "name": "Battlefield V｜战地5",
   "id": "CUSA08724",
   "version": "01.33",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42B7A10",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Grenades",
-      "type": "checkbox",
+      "name": "无限弹药/手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "42B7970",

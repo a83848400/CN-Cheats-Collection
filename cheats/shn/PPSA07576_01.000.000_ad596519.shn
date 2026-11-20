@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="No More Heroes 3" Moder="Weysincha" Cusa="PPSA07576" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP + OHK" Description="Do not use Inf HP at same time">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量 + OHK" Description="Do not use Inf HP at same time">
     <Cheatline>
       <Section>0</Section>
       <Offset>602F800</Offset>
@@ -16,7 +24,7 @@
       <ValueOff>89-B7-64-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Inf HP" Description="Do not use Inf HP + OHK at same time">
+  <Cheat Text="无限血量" Description="Do not use Inf HP + OHK at same time">
     <Cheatline>
       <Section>0</Section>
       <Offset>602F800</Offset>
@@ -30,7 +38,7 @@
       <ValueOff>89-B7-64-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Battery">
+  <Cheat Text="Infinite 电池">
     <Cheatline>
       <Section>0</Section>
       <Offset>12DC084</Offset>
@@ -38,7 +46,7 @@
       <ValueOff>89-87-34-1D-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf WESN" Description="On using">
+  <Cheat Text="无限WESN" Description="On using">
     <Cheatline>
       <Section>0</Section>
       <Offset>1440AD4</Offset>
@@ -46,7 +54,7 @@
       <ValueOff>89-8F-30-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf UtopiCoin" Description="On using">
+  <Cheat Text="无限乌托邦币" Description="On using">
     <Cheatline>
       <Section>0</Section>
       <Offset>1440A24</Offset>
@@ -54,7 +62,7 @@
       <ValueOff>89-8F-2C-03-00-00-85-F6-7E-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Sushi" Description="On using">
+  <Cheat Text="无限寿司" Description="On using">
     <Cheatline>
       <Section>0</Section>
       <Offset>14FAF75</Offset>
@@ -92,7 +100,7 @@
       <ValueOff>FE-C9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Bike Nitro" Description="On using">
+  <Cheat Text="Infinite Bike 氮气" Description="On using">
     <Cheatline>
       <Section>0</Section>
       <Offset>16F7E88</Offset>

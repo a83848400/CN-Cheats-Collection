@@ -1,12 +1,17 @@
 {
-  "name": "Borderlands 3",
+  "name": "无主之地 3",
   "id": "CUSA08025",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8feb000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49cef6a",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4ee8b4b",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "5000x XP",
-      "type": "checkbox",
+      "name": "5000x XP｜5000倍经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8feb018",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8feb029",

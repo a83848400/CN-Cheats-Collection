@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dishonored: Death of the Outsider" Moder="Celogamez" Cusa="CUSA08781" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max/Infinite Health/1 Hit Kill (MASTERCODE/MUST BE ON)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大/无限生命/一击必杀 (主代码/MUST BE ON)">
     <Cheatline>
       <Offset>37D3DB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>37D3DB4</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-15</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Oxygen">
+  <Cheat Text="Infinite Oxygen｜无限氧气">
     <Cheatline>
       <Offset>21FF7CF</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>C5-FA-11-40-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Mana">
+  <Cheat Text="Infinite Mana｜无限法力">
     <Cheatline>
       <Offset>1E9C186</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items/Ammo">
+  <Cheat Text="道具无限/但是">
     <Cheatline>
       <Offset>1AE5396</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>89-5C-31-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>37D3C30</Offset>
       <Section>0</Section>

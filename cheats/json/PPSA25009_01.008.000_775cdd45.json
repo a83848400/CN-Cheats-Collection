@@ -1,13 +1,18 @@
 {
-  "name": "Blue Prince",
+  "name": "Blue 王子级",
   "id": "PPSA25009",
   "version": "01.008.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Items",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Steps",
-      "description": "Disable After cross first door.",
-      "type": "checkbox",
+      "name": "无尽的脚步",
+      "description": "Disable After 传中 first door.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD17052",

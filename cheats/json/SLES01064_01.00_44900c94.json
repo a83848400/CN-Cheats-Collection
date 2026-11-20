@@ -1,12 +1,17 @@
 {
-  "name": "Mega Man 8",
-  "id": "SLES01064",
+  "name": "洛克人 8",
+  "id": "SLES01064｜小型、低功耗、自包含式、64位",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite-Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F29DC",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1EC612",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf-Weapon-mega-Ball",
-      "type": "checkbox",
+      "name": "无限武器-mega-Ball",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FB89D",

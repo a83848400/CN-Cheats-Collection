@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="WWE 2K18" Moder="DreamRunner" Cusa="CUSA08357" Version="01.08" Process="eboot.bin">
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Inf Finisher after use">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite 终结技 after use">
     <Cheatline>
       <Offset>2DD7800</Offset>
       <Section>0</Section>

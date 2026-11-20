@@ -1,12 +1,17 @@
 {
-  "name": "The Outer Worlds",
+  "name": "The Outer Worlds｜《外世界》",
   "id": "CUSA13689",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66FCBA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1890EF8",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Weapon Durability (%100)",
-      "type": "checkbox",
+      "name": "武器耐久度 (%100)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17BB251",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1F1BB7E",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Skill Points 99 (on Spend)",
-      "type": "checkbox",
+      "name": "Skill 得分 99 (on Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66FCBE0",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Perks Points 99 (on Spend)",
-      "type": "checkbox",
+      "name": "Perks 得分 99 (on Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66FCC20",
@@ -86,8 +91,8 @@
       ]
     },
     {
-      "name": "Fast Lvl Up / XP",
-      "type": "checkbox",
+      "name": "Fast Lvl Up / XP｜快速升级 / 经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66FCC00",
@@ -102,8 +107,8 @@
       ]
     },
     {
-      "name": "Max All (on Spend)",
-      "type": "checkbox",
+      "name": "最大 All (on Spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "66FCC50",
@@ -118,8 +123,8 @@
       ]
     },
     {
-      "name": "Weight 0 (on Pick)",
-      "type": "checkbox",
+      "name": "重量 0 (on Pick)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1792CB6",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Weight 0 (on Drop)",
-      "type": "checkbox",
+      "name": "重量 0 (on 丢弃)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1792D1B",

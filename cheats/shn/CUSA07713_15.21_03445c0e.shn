@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Monster Hunter: World" Moder="d01v" Cusa="CUSA07713" Version="15.21" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinte HP + Invisible (pick ancient potion)" Description="use ancient potion then ready your ancient potion from item bar, you will be invisible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinte 手机 + 不可见 (pick 远古秘药)" Description="use ancient potion then ready your ancient potion from item bar, you will be invisible">
     <Cheatline>
       <Offset>43858AA</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-5D-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>4386C60</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-5D-40-6C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Item ID modifier" Description="Master Code Item ID / go to item box then sell item tab and move any item into free space inventory slot">
+  <Cheat Text="物品 ID modifier" Description="Master Code Item ID / go to item box then sell item tab and move any item into free space inventory slot">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E751</Offset>
@@ -32,7 +40,7 @@
       <ValueOff>4C-8B-78-08-49-89-F6</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Increase Item ID" Description="need MC Item ID">
+  <Cheat Text="Increase 物品 ID" Description="need MC Item ID">
     <Cheatline>
       <Offset>7FC5E755</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>EB-23</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Decrease Item ID" Description="need MC Item ID">
+  <Cheat Text="Decrease 物品 ID" Description="need MC Item ID">
     <Cheatline>
       <Offset>7FC5E755</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>EB-23</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="99 Inventory items" Description="go to item box then sell tab and go to any free space inventory slot then move / rearranged (square button) the item from there, vice versa of item id modifier">
+  <Cheat Text="99 背包 items" Description="go to item box then sell tab and go to any free space inventory slot then move / rearranged (square button) the item from there, vice versa of item id modifier">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E791</Offset>
@@ -62,7 +70,7 @@
       <ValueOff>44-89-FE-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x5 Item in Pouch">
+  <Cheat Text="x5 物品 in 皮袋">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E7C1</Offset>
@@ -76,7 +84,7 @@
       <ValueOff>48-8D-9C-01-60-80-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sharpness">
+  <Cheat Text="Sharpness｜斩味">
     <Cheatline>
       <Offset>494B934</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>0F-4E-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Capture and Kill All instantly" Description="Master Code CapKILL">
+  <Cheat Text="简单 捕获 and 杀光所有 instantly" Description="Master Code CapKILL">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E7E1</Offset>
@@ -98,7 +106,7 @@
       <ValueOff>C5-FA-11-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Easy Capture" Description="need MC CapKILL">
+  <Cheat Text="简单 捕获" Description="need MC CapKILL">
     <Cheatline>
       <Offset>7FC5E7E6</Offset>
       <Section>0</Section>
@@ -106,7 +114,7 @@
       <ValueOff>EB-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kill All" Description="need MC CapKILL">
+  <Cheat Text="Kill All｜杀光所有" Description="need MC CapKILL">
     <Cheatline>
       <Offset>7FC5E7E6</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>EB-1F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E821</Offset>
@@ -128,7 +136,7 @@
       <ValueOff>C5-FA-10-40-64</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Spirit Blade Gauge (Longsword)">
+  <Cheat Text="最大 精魄 异刃 Gauge (长剑)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E841</Offset>
@@ -142,7 +150,7 @@
       <ValueOff>C4-C1-7A-10-8A-A8-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Level 3 Spirit Gauge (Longsword)">
+  <Cheat Text="等级 3 精魄 Gauge (长剑)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E861</Offset>
@@ -156,7 +164,7 @@
       <ValueOff>41-8B-82-B0-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Demon Gauge (Dual Blade)">
+  <Cheat Text="最大 妖魔 Gauge (Dual 异刃)">
     <Cheatline>
       <Offset>4957B0E</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>C5-F2-5D-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Demon Gauge Timer Disabled (Dual Blade)">
+  <Cheat Text="妖魔 Gauge 计时器 Disabled (Dual 异刃)">
     <Cheatline>
       <Offset>4957B30</Offset>
       <Section>0</Section>
@@ -172,7 +180,7 @@
       <ValueOff>41-C6-86-A9-23-00-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Charge (GreatSword)">
+  <Cheat Text="Fast 冲锋 (巨剑)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E881</Offset>
@@ -186,7 +194,7 @@
       <ValueOff>41-89-87-A0-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Switch Gauge (Switch Axe)">
+  <Cheat Text="开关 Gauge (斩击斧)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E8A1</Offset>
@@ -200,7 +208,7 @@
       <ValueOff>C4-C1-7A-10-8E-8C-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ampede State (Switch Axe)">
+  <Cheat Text="Ampede State (斩击斧)">
     <Cheatline>
       <Offset>496E7AD</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>80-BB-9A-23-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gunlance Shell (Gunlance)">
+  <Cheat Text="铳枪 贝壳 (铳枪)">
     <Cheatline>
       <Offset>4969F66</Offset>
       <Section>0</Section>
@@ -216,7 +224,7 @@
       <ValueOff>39-87-AC-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Gunlance Max Shell" Description="use a shell or shell reload then turn off this cheat after. max of 5 shell">
+  <Cheat Text="铳枪 最大 贝壳" Description="use a shell or shell reload then turn off this cheat after. max of 5 shell">
     <Cheatline>
       <Offset>496BCB5</Offset>
       <Section>0</Section>
@@ -224,7 +232,7 @@
       <ValueOff>41-8A-86-10-24-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Wyrmstake Cannon (Gunlance) ">
+  <Cheat Text="Infinite Wyrmstake Cannon (铳枪) ">
     <Cheatline>
       <Offset>392B498</Offset>
       <Section>0</Section>
@@ -232,7 +240,7 @@
       <ValueOff>41-FF-8E-B8-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Wyrmstake Blast (Gunlance)">
+  <Cheat Text="Instant Wyrmstake Blast (铳枪)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E8C1</Offset>
@@ -246,7 +254,7 @@
       <ValueOff>C5-FA-10-83-68-24-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Instant Wyrmstake shot (Gunlance)">
+  <Cheat Text="Instant Wyrmstake shot (铳枪)">
     <Cheatline>
       <Section>0</Section>
       <Offset>4968D96</Offset>
@@ -254,7 +262,7 @@
       <ValueOff>41-C7-87-C8-23-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Phial (Charge Blade)">
+  <Cheat Text="最大 Phial (盾斧)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E8E1</Offset>
@@ -268,7 +276,7 @@
       <ValueOff>41-8B-84-24-B4-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Sword Block Attacks Disabled (Charge Blade)" Description="this is effective when Charge Gauge is in full energy">
+  <Cheat Text="剑 格挡 Attacks Disabled (盾斧)" Description="this is effective when Charge Gauge is in full energy">
     <Cheatline>
       <Section>0</Section>
       <Offset>497356F</Offset>
@@ -276,7 +284,7 @@
       <ValueOff>41-C6-84-24-C1-23-00-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Charge Gauge Disabled (Charge Blade)">
+  <Cheat Text="冲锋 Gauge Disabled (盾斧)">
     <Cheatline>
       <Section>0</Section>
       <Offset>49721DF</Offset>
@@ -284,7 +292,7 @@
       <ValueOff>C4-C1-7A-58-8E-B0-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Charge Rising Slash (Charge Blade)" Description="sword attack: Rising Slash can be released for 0.5 sec does not effect if pressed too long">
+  <Cheat Text="Fast 冲锋 崛起 Slash (盾斧)" Description="sword attack: Rising Slash can be released for 0.5 sec does not effect if pressed too long">
     <Cheatline>
       <Section>0</Section>
       <Offset>396B03D</Offset>
@@ -292,7 +300,7 @@
       <ValueOff>C6-86-D0-23-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Power Axe Mode (Charge Blade)" Description="this needs 1 or more phial to work">
+  <Cheat Text="电力 斧 Mode (盾斧)" Description="this needs 1 or more phial to work">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E901</Offset>
@@ -306,7 +314,7 @@
       <ValueOff>C4-C1-7A-10-84-24-B0-24-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Element Boost (Charge Blade)">
+  <Cheat Text="Element Boost (盾斧)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E931</Offset>
@@ -320,7 +328,7 @@
       <ValueOff>C4-C1-7A-10-94-24-B8-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Element Slash (Charge Blade)">
+  <Cheat Text="Element Slash (盾斧)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E951</Offset>
@@ -334,7 +342,7 @@
       <ValueOff>C4-C1-7A-10-94-24-BC-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Kinsect Stamina (Insect Glaive)">
+  <Cheat Text="Kinsect 体力 (操虫棍)">
     <Cheatline>
       <Section>0</Section>
       <Offset>498241A</Offset>
@@ -342,7 +350,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Extract Effects (Insect Glaive)">
+  <Cheat Text="Extract Effects (操虫棍)">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E981</Offset>
@@ -356,7 +364,7 @@
       <ValueOff>C4-C1-7A-10-84-84-A8-23-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Affinity" Description="requires affinity buffs to work">
+  <Cheat Text="Affinity｜牵绊" Description="requires affinity buffs to work">
     <Cheatline>
       <Section>0</Section>
       <Offset>1A5C9D0</Offset>
@@ -364,7 +372,7 @@
       <ValueOff>0F-4C-D0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Affinity Buffs">
+  <Cheat Text="牵绊 增益效果">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E9A1</Offset>
@@ -378,7 +386,7 @@
       <ValueOff>C5-FA-10-8B-98-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Defence">
+  <Cheat Text="Defence｜国防">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E9C1</Offset>
@@ -392,7 +400,7 @@
       <ValueOff>C5-FA-58-87-74-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quest Timer">
+  <Cheat Text="Quest 计时器">
     <Cheatline>
       <Section>0</Section>
       <Offset>3E7C514</Offset>
@@ -400,7 +408,7 @@
       <ValueOff>FF-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Specialized Tools">
+  <Cheat Text="Infinite Specialized Tools｜无限专用工具">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5E9E1</Offset>
@@ -414,7 +422,7 @@
       <ValueOff>4B-8D-9C-AF-DC-0A-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Disable Poison">
+  <Cheat Text="Disable Poison｜禁用毒药">
     <Cheatline>
       <Section>0</Section>
       <Offset>2C58C97</Offset>
@@ -422,7 +430,7 @@
       <ValueOff>89-83-DC-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Status Buffs" Description="180 sec">
+  <Cheat Text="All Status Buffs｜所有状态增益" Description="180 sec">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5EA01</Offset>
@@ -436,7 +444,7 @@
       <ValueOff>C4-C1-7A-10-4C-8E-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Natural Fuel steamworks">
+  <Cheat Text="Natural Fuel steamworks｜天然燃料蒸汽厂">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5EA21</Offset>
@@ -450,7 +458,7 @@
       <ValueOff>8B-94-08-BC-2F-10-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stored Fuel steamworks">
+  <Cheat Text="Stored Fuel steamworks｜Stored Fuel 蒸汽厂">
     <Cheatline>
       <Section>0</Section>
       <Offset>7FC5EA41</Offset>

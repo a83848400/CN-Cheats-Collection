@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: WWII",
+  "name": "使命召唤: WWII",
   "id": "CUSA05969",
   "version": "01.25",
-  "process": "default.elf",
+  "process": "默认.elf",
   "mods": [
     {
-      "name": "Infinite Throwable",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Throwable｜无限可投掷物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "90E04E",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "934DE7",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite MedKit",
-      "type": "checkbox",
+      "name": "Infinite 医疗包",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7313C7",

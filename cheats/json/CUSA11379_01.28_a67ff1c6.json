@@ -1,12 +1,17 @@
 {
-  "name": "Mortal Kombat 11",
+  "name": "Mortal Kombat 11｜《真人快打11》",
   "id": "CUSA11379",
   "version": "01.28",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health / Easy Win (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / 简单 Win (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494DA00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1-Easy Win (MC) Opponent Health (15%)",
-      "type": "checkbox",
+      "name": "1-简单 Win (MC) Opponent 生命 (15%)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -33,8 +38,8 @@
       ]
     },
     {
-      "name": "2-Easy Win (MC) Opponent Health (1%)",
-      "type": "checkbox",
+      "name": "2-简单 Win (MC) Opponent 生命 (1%)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "1",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "Inf Super Meter",
-      "type": "checkbox",
+      "name": "无限超级 Meter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49C5000",
@@ -73,8 +78,8 @@
       ]
     },
     {
-      "name": "Opponent Super Meter (No Refill)",
-      "type": "checkbox",
+      "name": "Opponent Super Meter (No Refill)｜对手超级计量表（不可补充）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4994C00",

@@ -1,12 +1,17 @@
 {
-  "name": "Harvest Moon: One World",
+  "name": "Harvest Moon: One World｜《牧场物语：同一个世界》",
   "id": "CUSA18808",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Crops/Feeding/Farm Items x50 (on Use)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Crops/Feeding/刷 Items 乘以五十 (on Use)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F810",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Gold 999999 (on Buy)",
-      "type": "checkbox",
+      "name": "金币 999999 (on Buy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE10",

@@ -1,12 +1,17 @@
 {
-  "name": "Vanquish",
+  "name": "Vanquish｜《Vanquish》",
   "id": "CUSA16161",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1477800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1477830",
@@ -67,8 +72,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1477875",
@@ -83,8 +88,8 @@
       ]
     },
     {
-      "name": "Max Ammo ( Weapon right )",
-      "type": "checkbox",
+      "name": "弹药最大化 ( Weapon right )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14778DC",
@@ -99,8 +104,8 @@
       ]
     },
     {
-      "name": "Max Ammo ( Weapon up )",
-      "type": "checkbox",
+      "name": "弹药最大化 ( Weapon up )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14778F4",
@@ -115,8 +120,8 @@
       ]
     },
     {
-      "name": "Max Ammo ( Weapon down )",
-      "type": "checkbox",
+      "name": "弹药最大化 ( Weapon down )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "147790B",
@@ -131,8 +136,8 @@
       ]
     },
     {
-      "name": "Max Grenades",
-      "type": "checkbox",
+      "name": "最大 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14778AD",
@@ -147,8 +152,8 @@
       ]
     },
     {
-      "name": "Max EMP Grenades",
-      "type": "checkbox",
+      "name": "最大 EMP 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1477923",
@@ -163,8 +168,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1477884",
@@ -179,8 +184,8 @@
       ]
     },
     {
-      "name": "Max Total Score ( after Level finished )",
-      "type": "checkbox",
+      "name": "最大 Total 比分 ( after 等级 finished )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1477897",

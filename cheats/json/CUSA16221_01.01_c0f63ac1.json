@@ -1,12 +1,17 @@
 {
-  "name": "Streets of Rage 4",
+  "name": "Streets of 怒气 4",
   "id": "CUSA16221",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "P1 and P2 one hit to added one lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "P1 and P2 one hit to added one lives｜P1和P2各被击中一次，增加一条命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32539B",

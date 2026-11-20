@@ -1,13 +1,18 @@
 {
-  "name": "Fallout 4",
+  "name": "Fallout 4｜辐射4",
   "id": "CUSA02962",
   "version": "01.37",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb, ALWAYS enable cheats that are needed and disable when they are not. OTU = One time use cheat. Partially ported from TLH v01.22 PS4 trainer and FLiNG PC trainer. For an even more advanced Fallout-4 trainer, check out my MultiTrainer2 ShnExt trainer. Made and tested on PS4 Firmware 9.00. Enjoy! ;-)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "BE SURE TO READ ALL the comments where available. As a rule of thumb, ALWAYS enable cheats that are needed and disable when they are not. OTU = One time use cheat. Partially ported from TLH v01.22 PS4 trainer and FLiNG PC trainer. For an even more advanced 辐射-4 trainer, check out my MultiTrainer2 ShnExt trainer. Made and tested on PS4 Firmware 9.00. Enjoy! ;-)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228EFC0",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Master Switch (Must be enabled first)",
+      "name": "总开关 (Must be enabled first)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F000",
@@ -44,9 +49,9 @@
       ]
     },
     {
-      "name": "---God Mode  (Req. MS)",
-      "description": "Gives the player a complete invincibility to all types of damages (might still get temporary blurred vision rarely, but no damage). When enabling this option, no need to enable Inf_HP, Inf_AP, No_Radiation and Infinite Power Armor Core Power.",
-      "type": "checkbox",
+      "name": "---神模式  (Req. MS)",
+      "description": "Gives the player a complete 无敌 to all types of damages (might still get temporary blurred 视野 rarely, but 不受伤害). When enabling this option, no need to enable 无限生命, Inf_AP, 无辐射 and Infinite 动力装甲 核心 电力.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F10D",
@@ -56,8 +61,8 @@
       ]
     },
     {
-      "name": "---Infinite Health (Req. MS)",
-      "type": "checkbox",
+      "name": "---无限生命 (Req. MS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F111",
@@ -67,8 +72,8 @@
       ]
     },
     {
-      "name": "---Infinite AP-Stamina (Req. MS)",
-      "type": "checkbox",
+      "name": "---无限能力点-体力 (Req. MS)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F115",
@@ -78,8 +83,8 @@
       ]
     },
     {
-      "name": "---No Radiation (Req. MS)",
-      "type": "checkbox",
+      "name": "---No Radiation (Req. MS)｜---无辐射（需硕士学位）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F119",
@@ -89,9 +94,9 @@
       ]
     },
     {
-      "name": "---One Hit Kill (Req. MS)",
-      "description": "Note that you may get instantly killed by an explotion you initiated yourself etc., for example - if you shoot and explode a car while standing nearby and get hit by your own initiated blast - you will be instantly killed with this cheat enabled.",
-      "type": "checkbox",
+      "name": "---一击必杀 (Req. MS)",
+      "description": "笔记 that you may get instantly killed by an explotion you initiated yourself etc., for example - if you shoot and explode a car while standing nearby and get hit by your own initiated blast - you 意志 be instantly killed with this cheat enabled.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F11D",
@@ -101,9 +106,9 @@
       ]
     },
     {
-      "name": "Invincible",
-      "description": "Prevents getting hit and effects. Does not prevent fall damage. Use god mode if you want to prevent it.\r\nCheat has not been throughly tested so might cause progressions issues or other issues.",
-      "type": "checkbox",
+      "name": "Invincible｜无敌",
+      "description": "Prevents getting hit and effects. Does not prevent fall 输出. Use 神模式 if you want to prevent it.\r\nCheat has not been throughly tested so might cause progressions issues or 他 issues.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F400",
@@ -128,9 +133,9 @@
       ]
     },
     {
-      "name": "Infinite Power Armor Core Power",
-      "description": "If God Mode cheat is enabled, no need to enable this cheat.",
-      "type": "checkbox",
+      "name": "Infinite 动力装甲 核心 电力",
+      "description": "If 神模式 cheat is enabled, no need to enable this cheat.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F130",
@@ -145,9 +150,9 @@
       ]
     },
     {
-      "name": "No Weight Limit",
-      "description": "Takes effect when weight value changes (including when firing a weapon). You may probably want to keep this cheat enabled all the time.",
-      "type": "checkbox",
+      "name": "No 重量 Limit",
+      "description": "Takes 效果 when 重量 value changes (including when firing a weapon). You may probably want to keep this cheat enabled all the time.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "118106",
@@ -157,9 +162,9 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "description": "Takes effect only when enabled before enemies detect you",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "description": "Takes 效果 only when enabled before enemies detect you",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B43F37",
@@ -169,9 +174,9 @@
       ]
     },
     {
-      "name": "Instant Lock Picking",
+      "name": "Instant Lock Picking｜瞬间开锁",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D70115",
@@ -181,9 +186,9 @@
       ]
     },
     {
-      "name": "Easy Terminal Hacking (PWNed)",
+      "name": "简单 Terminal 破解 (PWNed)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88266A",
@@ -193,9 +198,9 @@
       ]
     },
     {
-      "name": "Infinite Hacking Attempts",
+      "name": "Infinite 破解 Attempts",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "88265C",
@@ -205,9 +210,9 @@
       ]
     },
     {
-      "name": "No Reload - Bottomless clip",
+      "name": "无需换弹 - 无底夹",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A2A554",
@@ -217,9 +222,9 @@
       ]
     },
     {
-      "name": "Max Accuracy",
+      "name": "Max Accuracy｜命中率最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F150",
@@ -234,9 +239,9 @@
       ]
     },
     {
-      "name": "No Recoil",
+      "name": "No Recoil｜消除后坐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F190",
@@ -251,9 +256,9 @@
       ]
     },
     {
-      "name": "No Weapon Spin-up",
-      "description": "This cheat disables the spin-up and cool-down delays of weapons like the mini-gun. They can be then used to fire instantly. The Small-Arms Fully-Automatic cheat already contains this functionality, so you may want to disable this cheat if you enabled the other one.",
-      "type": "checkbox",
+      "name": "No Weapon Spin-up｜无武器预热",
+      "description": "This cheat disables the spin-up and cool-down delays of 武器 like the mini-gun. They can be then used to 火 instantly. The Small-Arms Fully-自动挡 cheat already contains this functionality, so you may want to disable this cheat if you enabled the 他 one.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92203B",
@@ -268,9 +273,9 @@
       ]
     },
     {
-      "name": "Manual Weapon Rapid Fire",
-      "description": "The cheat eliminates the delay between manual shots. Mostly handy with weapons like the 10mm pistol. Using this cheat is pointless if you enabled the Small Arms Fully Automatic cheat.",
-      "type": "checkbox",
+      "name": "Manual Weapon 快速射击",
+      "description": "The cheat eliminates the delay between manual shots. Mostly handy with 武器 like the 10mm 手枪. Using this cheat is pointless if you enabled the Small Arms Fully 自动挡 cheat.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B32E48",
@@ -280,9 +285,9 @@
       ]
     },
     {
-      "name": "Small Arms Fully Automatic",
-      "description": "The cheat code modifies all semi-automatic small arms to behave as fully automatic weapons. Additionally, it eliminates the spin-up delay and cooldown period for weapons like the mini-gun.  If you want to disable this option after it took effect, you may need to restart/reload the game in order to restore the original weapon functionality.",
-      "type": "checkbox",
+      "name": "Small Arms Fully 自动挡",
+      "description": "The cheat 密码 modifies all semi-自动挡 small arms to behave as fully 自动挡 武器. Additionally, it eliminates the spin-up delay and cooldown period for 武器 like the mini-gun.  If you want to disable this option after it took 效果, you may need to restart/reload the game in order to restore the original weapon functionality.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F450",
@@ -302,9 +307,9 @@
       ]
     },
     {
-      "name": "Max Items and Ammo On Use or Gain",
-      "description": "This cheat has not been thoroughly tested but it is possible that it might cause some progression issues or even game crashes. Be sure to enable it only when absolutely necessary and disable it when not. To get the ammo quantity to update, you must disable the No reload cheat first. You can re-enable it after the ammo quantity of the weapon you are using is maximized.",
-      "type": "checkbox",
+      "name": "最大 Items and 但是 On Use or Gain",
+      "description": "This cheat has not been thoroughly tested but it is possible that it might cause some progression issues or even game crashes. Be sure to enable it only when absolutely necessary and disable it when not. To get the 但是 quantity to update, you must disable the No 重新加载作弊 first. You can re-enable it after the 但是 quantity of the weapon you are using is maximized.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "115A93",
@@ -314,8 +319,8 @@
       ]
     },
     {
-      "name": "Super Jump",
-      "description": "Pick one of jump multipliers below. Enable Infinite HP cheat to avoid dying or God Mode to avoid dying and also prevent fall damage.",
+      "name": "Super Jump｜超级跳跃",
+      "description": "Pick one of jump multipliers below. Enable 无限血量 cheat to avoid dying or 神模式 to avoid dying and also prevent fall 输出.",
       "memory": [
         {
           "offset": "228F290",
@@ -330,8 +335,8 @@
       ]
     },
     {
-      "name": "---x2.5 Jump Multiplier",
-      "type": "button",
+      "name": "---跳跃倍率×2.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F2AF",
@@ -341,8 +346,8 @@
       ]
     },
     {
-      "name": "---x5 Jump Multiplier",
-      "type": "button",
+      "name": "---跳跃倍率×5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F2AF",
@@ -352,8 +357,8 @@
       ]
     },
     {
-      "name": "---x10 Jump Multiplier",
-      "type": "button",
+      "name": "---跳跃倍率×10",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F2AF",
@@ -363,8 +368,8 @@
       ]
     },
     {
-      "name": "---x20 Jump Multiplier",
-      "type": "button",
+      "name": "---跳跃倍率×20",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F2AF",
@@ -374,9 +379,9 @@
       ]
     },
     {
-      "name": "Set Game Speed",
-      "description": "If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.",
-      "type": "checkbox",
+      "name": "Set Game 速度",
+      "description": "If you want to change the 速度, use ONLY ONE of the game 速度 cheats, not both at the same time.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228EFC4",
@@ -386,8 +391,8 @@
       ]
     },
     {
-      "name": "---x0.1 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×0.1",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1CBF540",
@@ -397,8 +402,8 @@
       ]
     },
     {
-      "name": "---x0.5 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×0.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1CBF540",
@@ -408,8 +413,8 @@
       ]
     },
     {
-      "name": "---x1.5 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×1.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1CBF540",
@@ -419,8 +424,8 @@
       ]
     },
     {
-      "name": "---x2 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×2",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1CBF540",
@@ -430,8 +435,8 @@
       ]
     },
     {
-      "name": "---x2.5 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×2.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1CBF540",
@@ -441,8 +446,8 @@
       ]
     },
     {
-      "name": "---x3 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×3",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "1CBF540",
@@ -452,9 +457,9 @@
       ]
     },
     {
-      "name": "Set Game Speed (Including Speech)",
-      "description": "If you want to change the speed, use ONLY ONE of the game speed cheats, not both at the same time.",
-      "type": "checkbox",
+      "name": "Set Game 速度 (Including 口才)",
+      "description": "If you want to change the 速度, use ONLY ONE of the game 速度 cheats, not both at the same time.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F500",
@@ -469,8 +474,8 @@
       ]
     },
     {
-      "name": "---x0.1 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×0.1",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F517",
@@ -480,8 +485,8 @@
       ]
     },
     {
-      "name": "---x0.5 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×0.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F517",
@@ -491,8 +496,8 @@
       ]
     },
     {
-      "name": "---x1.5 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×1.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F517",
@@ -502,8 +507,8 @@
       ]
     },
     {
-      "name": "---x2 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×2",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F517",
@@ -513,8 +518,8 @@
       ]
     },
     {
-      "name": "---x2.5 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×2.5",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F517",
@@ -524,8 +529,8 @@
       ]
     },
     {
-      "name": "---x3 Speed Multiplier",
-      "type": "button",
+      "name": "---速度倍率×3",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F517",
@@ -535,8 +540,8 @@
       ]
     },
     {
-      "name": "Set Time of Day",
-      "description": "Pick only 1 option below. Default hour is 10am",
+      "name": "Set Time of Day｜设置时间",
+      "description": "Pick only 1 option below. Default hour is 10am｜请从以下选项中仅选择1个。默认时间为上午10点",
       "memory": [
         {
           "offset": "228F350",
@@ -551,8 +556,8 @@
       ]
     },
     {
-      "name": "---12pm",
-      "type": "button",
+      "name": "---中午12点",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F362",
@@ -562,8 +567,8 @@
       ]
     },
     {
-      "name": "---6pm",
-      "type": "button",
+      "name": "---傍晚6点",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F362",
@@ -573,8 +578,8 @@
       ]
     },
     {
-      "name": "---12am",
-      "type": "button",
+      "name": "---午夜12点",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F362",
@@ -584,8 +589,8 @@
       ]
     },
     {
-      "name": "---6am",
-      "type": "button",
+      "name": "---早上6点",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "228F362",
@@ -595,9 +600,9 @@
       ]
     },
     {
-      "name": "Max Bottle Caps On Trade",
+      "name": "最大 瓶盖 On 交换",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F300",
@@ -612,9 +617,9 @@
       ]
     },
     {
-      "name": "70 Perk Points On Game Start (OTU)",
-      "description": "Enable this cheat at the game start while chatting with the salesman and reaching the Registration Form perks selection. After the cheat takes effect, disable it and dont use it anymore throughout the game.",
-      "type": "checkbox",
+      "name": "70 技能 得分 On Game Start (OTU)",
+      "description": "Enable this cheat at the game start while chatting with the salesman and reaching the Registration 状态 perks selection. After the cheat takes 效果, disable it and dont use it anymore throughout the game.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F1C0",
@@ -629,9 +634,9 @@
       ]
     },
     {
-      "name": "Ignore Perk Points Requirements",
+      "name": "Ignore 技能 得分 Requirements",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80F208",
@@ -646,9 +651,9 @@
       ]
     },
     {
-      "name": "Infinite Perk Points Upgrade Requirements",
+      "name": "Infinite 技能 得分 Upgrade Requirements",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ADF2E4",
@@ -658,9 +663,9 @@
       ]
     },
     {
-      "name": "Max XP and Level (OTU)",
-      "description": "Enable this cheat only once. After the cheat takes effect, disable it and dont use it anymore throughout the game.",
-      "type": "checkbox",
+      "name": "最大 XP and 等级 (OTU)",
+      "description": "Enable this cheat only once. After the cheat takes 效果, disable it and dont use it anymore throughout the game.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F200",
@@ -675,9 +680,9 @@
       ]
     },
     {
-      "name": "Max Crafting Stock",
-      "description": "This will set all your existing crafting items to 999,999 when you open crafting mode. Items must have at least 1 piece in stock for it to update their quantity. Make sure to enable the cheat before entering crafting mode and disable it when the quantities change take effect.",
-      "type": "checkbox",
+      "name": "最大 Crafting 命数",
+      "description": "This 意志 set all your existing crafting items to 999,999 when you open crafting mode. Items must have at least 1 piece in 命数 for it to update their quantity. Make sure to enable the cheat before entering crafting mode and disable it when the quantities change take 效果.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F250",
@@ -692,8 +697,8 @@
       ]
     },
     {
-      "name": "Minimum Building Requirement",
-      "description": "When activated, building material requirements will be set to 1. If you want to disable this option after it took effect, you will need to restart the game in order to restore building material requirements.",
+      "name": "Minimum 建造 Requirement",
+      "description": "When activated, 建造 material requirements 意志 be set to 1. If you want to disable this option after it took 效果, you 意志 need to restart the game in order to restore 建造 material requirements.",
       "memory": [
         {
           "offset": "228F270",
