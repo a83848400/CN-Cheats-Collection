@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Grid Legends" Moder="Reddevil82 - FW 9.00" Cusa="CUSA28260" Version="06.01" Process="eboot.bin">
   <Genres Name="Racing" />
   <Items />
-  <Cheat Text="Max Money" Description="Max Money">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money｜金钱最大" Description="Max Money">
     <Cheatline>
       <Offset>267FDB0</Offset>
       <Section>0</Section>

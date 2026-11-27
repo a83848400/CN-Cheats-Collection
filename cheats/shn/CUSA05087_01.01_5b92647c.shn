@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Earth's Dawn" Moder="Rizla" Cusa="CUSA05087" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1113815</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-83-28-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Exceed Gauge (Gain for Max)">
+  <Cheat Text="无限超越 Gauge (Gain for 最大)">
     <Cheatline>
       <Offset>111387C</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>C4-C1-7A-11-86-34-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>E0128</Offset>
       <Section>14</Section>
@@ -50,7 +58,7 @@
       <ValueOff>FF-CE</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Boost">
+  <Cheat Text="Infinite Boost｜无限加速">
     <Cheatline>
       <Offset>1113800</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>41-89-8C-24-14-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Lives">
+  <Cheat Text="Infinite Lives｜无限生命">
     <Cheatline>
       <Offset>2C6661</Offset>
       <Section>14</Section>
@@ -72,7 +80,7 @@
       <ValueOff>44-01-70-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One Hit Kill">
+  <Cheat Text="One Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>1113825</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>41-8B-85-28-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max EXP on Kill">
+  <Cheat Text="经验值最大 on Kill">
     <Cheatline>
       <Offset>1113836</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>01-48-30-01-48-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max LVL on LVL Up">
+  <Cheat Text="最大 LVL on LVL Up">
     <Cheatline>
       <Offset>111384B</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>FF-C3-41-89-5F-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max EN Points on Spend">
+  <Cheat Text="最大 EN 得分 on Spend">
     <Cheatline>
       <Offset>111385B</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>41-89-9E-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max All Current Materials">
+  <Cheat Text="最大 All Current Materials">
     <Cheatline>
       <Offset>111386C</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>8B-5C-81-20-89-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Materials on Buy">
+  <Cheat Text="x2 Materials on Buy｜x2 购买材料">
     <Cheatline>
       <Offset>24C97D</Offset>
       <Section>14</Section>
@@ -150,7 +158,7 @@
       <ValueOff>44-01-64-88-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Counteroffensive Timer">
+  <Cheat Text="Freeze Counteroffensive 计时器">
     <Cheatline>
       <Offset>A1BB0</Offset>
       <Section>14</Section>

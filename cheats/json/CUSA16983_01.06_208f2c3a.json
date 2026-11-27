@@ -1,12 +1,17 @@
 {
-  "name": "Asterix & Obelix XXL 3: The Crystal Menhir",
+  "name": "Asterix & Obelix XXL 3: The 水晶 Menhir",
   "id": "CUSA16983",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Health｜生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023D3D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Energy Bar",
-      "type": "checkbox",
+      "name": "最大 能量 Bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023D4A0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Magic Potion",
-      "type": "checkbox",
+      "name": "最大 魔法 药水",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "60BC2E",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Currency (On Pick) Disable To Collect More",
-      "type": "checkbox",
+      "name": "最大 Currency (On Pick) Disable To Collect More",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57DE87",

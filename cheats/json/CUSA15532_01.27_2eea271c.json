@@ -1,12 +1,17 @@
 {
-  "name": "Nioh 2",
+  "name": "Nioh 2｜仁王2",
   "id": "CUSA15532",
   "version": "01.27",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271FE10",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271FB70",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Amrita/Gold ",
-      "type": "checkbox",
+      "name": "最大 精华/金币 ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271FA80",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "99 Items (on use)",
-      "type": "checkbox",
+      "name": "99 Items (on use)｜99 件（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271F860",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Anima",
-      "type": "checkbox",
+      "name": "Infinite Anima｜无限之魂",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271F810",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Infinite Oni form bar",
-      "type": "checkbox",
+      "name": "Infinite 鬼 状态 bar",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271FE80",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "999 Samurai Skill points",
-      "type": "checkbox",
+      "name": "999 武士 Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "271F810",

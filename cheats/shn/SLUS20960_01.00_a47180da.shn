@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Mega Man X8" Moder="Ali-mk" Cusa="SLUS20960" Version="01.00" Process="eboot.bin">
   <Genres Name="Platformer" />
   <Items />
-  <Cheat Text="Characters-1-Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Characters-1-无敌">
     <Cheatline>
       <Offset>808024E373</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Characters-1-Inf-Health">
+    <Cheat Text="Characters-1-Infinite-生命">
     <Cheatline>
       <Offset>808024E35C</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Characters-2-Inf-Health">
+  <Cheat Text="Characters-2-Infinite-生命">
     <Cheatline>
       <Offset>808024E14C</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Characters-2-Invincible">
+  <Cheat Text="Characters-2-无敌">
     <Cheatline>
       <Offset>808024E104</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Bomb">
+  <Cheat Text="Infinite-Bomb｜无限炸弹">
     <Cheatline>
       <Offset>80804B114C</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>47-18-66-4</ValueOff>
     </Cheatline>
   </Cheat>
-      <Cheat Text="Shining-Ray">
+      <Cheat Text="Shining-Ray｜闪耀之光">
     <Cheatline>
       <Offset>80804B1148</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>47-18-66-4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Shadow-Runner">
+  <Cheat Text="暗影-跑者">
     <Cheatline>
       <Offset>80804B1150</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>47-18-66-4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Drift-Diamond">
+  <Cheat Text="漂移-Diamond">
     <Cheatline>
       <Offset>80804B1154</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>47-18-66-4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Crystal-Wall">
+  <Cheat Text="水晶-Wall">
     <Cheatline>
       <Offset>80804B1154</Offset>
       <Section>0</Section>

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Habroxia 2" Moder="Saso_9.00" Cusa="CUSA25058" Version="01.12" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="HP / Credits (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="手机 / Credits (Master 密码)">
     <Cheatline>
       <Offset>7DB800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>49-8B-04-24-48-89-03</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP + (MC)">
+  <Cheat Text="无限血量 + (MC)">
     <Cheatline>
       <Offset>7DB80B</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-19</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Credits (99999) + (MC)">
+  <Cheat Text="最大 Credits (99999) + (MC)">
     <Cheatline>
       <Offset>7DB80D</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>EB-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Boost">
+  <Cheat Text="无限加速">
     <Cheatline>
       <Offset>7DB83C</Offset>
       <Section>0</Section>

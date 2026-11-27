@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light: The Following: Enhanced Edition" Moder="Rizla+hejran7" Cusa="CUSA03946" Version="01.07" Process="eboot.bin">
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="Inf HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量" Description="">
     <Cheatline>
       <Offset>2073800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-10-87-04-12-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="">
+  <Cheat Text="无限弹药" Description="">
     <Cheatline>
       <Offset>BCF252</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>44-89-7C-08-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>616B06</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Inf Breath" Description="">
+  <Cheat Text="无限呼吸" Description="">
     <Cheatline>
       <Offset>207381F</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>C4-C1-7A-11-57-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Grappling Hook Stamina" Description="">
+  <Cheat Text="Infinite 抓钩 体力" Description="">
     <Cheatline>
       <Offset>2073830</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>C4-C1-7A-11-46-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf UV Light" Description="">
+  <Cheat Text="无限紫外线" Description="">
     <Cheatline>
       <Offset>2073843</Offset>
       <Section>0</Section>
@@ -74,7 +82,7 @@
       <ValueOff>C5-FA-11-07-C5-F8-2E-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Weapon Durability/No Buggy Damage" Description="">
+  <Cheat Text="武器耐久无限/No Buggy 输出" Description="">
     <Cheatline>
       <Offset>2073856</Offset>
       <Section>0</Section>
@@ -88,7 +96,7 @@
       <ValueOff>C5-FA-11-43-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Camoufladge When Used" Description="">
+  <Cheat Text="使用时可实现无限伪装" Description="">
     <Cheatline>
       <Offset>2073867</Offset>
       <Section>0</Section>
@@ -102,7 +110,7 @@
       <ValueOff>C5-FA-11-43-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf/Dupe Items" Description="">
+  <Cheat Text="无限/重复物品" Description="">
     <Cheatline>
       <Offset>616B0B</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>45-89-37</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Max Money on Spend" Description="">
+  <Cheat Text="金钱最大 on Spend" Description="">
     <Cheatline>
       <Offset>2073878</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>44-29-F8-41-89-46-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Survivor Rank on Gain" Description="">
+  <Cheat Text="最大 求生者 阶级 on Gain" Description="">
     <Cheatline>
       <Offset>2073889</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>8B-88-98-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Agility LVL on Gain" Description="">
+  <Cheat Text="敏捷最大 LVL on Gain" Description="">
     <Cheatline>
       <Offset>2073899</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>8B-48-38-41-89-4E-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Power LVL on Gain" Description="">
+  <Cheat Text="最大 电力 LVL on Gain" Description="">
     <Cheatline>
       <Offset>20738AA</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>8B-48-68-41-89-4E-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Legend LVL on Unlock" Description="">
+  <Cheat Text="最大 传奇 LVL on 解锁" Description="">
     <Cheatline>
       <Offset>20738BB</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>8B-88-F8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Nitro (DLC)" Description="">
+  <Cheat Text="无限氮气 (DLC)" Description="">
     <Cheatline>
       <Offset>20738CB</Offset>
       <Section>0</Section>
@@ -194,7 +202,7 @@
       <ValueOff>C5-FA-10-47-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Fuel (DLC)" Description="">
+  <Cheat Text="燃料无限 (DLC)" Description="">
     <Cheatline>
       <Offset>20738DC</Offset>
       <Section>0</Section>
@@ -208,7 +216,7 @@
       <ValueOff>C5-FA-11-83-20-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Buggy Equipment Usage (DLC)" Description="">
+  <Cheat Text="Infinite Buggy 装备 Usage (DLC)" Description="">
     <Cheatline>
       <Offset>F8BE44</Offset>
       <Section>0</Section>

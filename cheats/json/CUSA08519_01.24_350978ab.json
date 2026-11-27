@@ -1,12 +1,17 @@
 {
-  "name": "Red Dead Redemption II",
+  "name": "荒野大镖客 II",
   "id": "CUSA08519",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite items and consumables",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "道具无限 and consumables",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C6F3B3",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C70146",

@@ -1,13 +1,18 @@
 {
-  "name": "Dying Light: The Following: Enhanced Edition",
+  "name": "Dying Light: The Following: Enhanced Edition｜《消逝的光芒：追随者：增强版》",
   "id": "CUSA03991",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A659DE",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FCB31",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Grappling Stamina",
+      "name": "Infinite Grappling 体力",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C36FD8",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Buy To Earn Money",
+      "name": "Buy To Earn Money｜买来赚钱",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B86DC9",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Infinite Weapon Durability",
+      "name": "Infinite Weapon Durability｜武器耐久无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FCF76",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Infinite Items",
+      "name": "Infinite Items｜道具无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5FCB3B",
@@ -77,9 +82,9 @@
       ]
     },
     {
-      "name": "Weather Change",
+      "name": "Weather Change｜天气变化",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10EC12D",
@@ -89,9 +94,9 @@
       ]
     },
     {
-      "name": "Wall Hack",
+      "name": "Wall Hack｜穿墙作弊",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10EC12D",
@@ -101,9 +106,9 @@
       ]
     },
     {
-      "name": "Scramble Menu Text",
+      "name": "Scramble 菜单 Text",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FD769A3",

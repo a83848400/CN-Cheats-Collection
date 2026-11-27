@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Surviving the Aftermath" Moder="LMN" Cusa="CUSA15495" Version="01.07" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Resources never decrease (build general storage to request more)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="资源永不减少 (构筑 将军 存储 to request more)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>E8-45-28-29-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite travel distance on the map">
+  <Cheat Text="infinite 旅行 distance on the 地图">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>89-B0-88-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX money on get or use">
+  <Cheat Text="金钱最大 on get or use">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>89-B0-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX science Points on get or use">
+  <Cheat Text="最大 科学点 on get or use">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>89-70-60-5D-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="happy population ( effect production rate positively)">
+  <Cheat Text="happy 人口 ( 效果 production rate positively)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>C4-C1-7A-11-47-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite stored energy">
+  <Cheat Text="infinite stored 能量">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -98,7 +106,7 @@
       <ValueOff>C5-FA-11-43-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite stored water">
+  <Cheat Text="infinite stored 水">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>C5-FA-11-43-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite stored tower water (use with caution)">
+  <Cheat Text="infinite stored 防御塔 水 (use with 警戒)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -130,7 +138,7 @@
       <ValueOff>C5-FA-11-80-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite battery storage capacity(build or destroy a battery)(need save reloading to be disabled)">
+  <Cheat Text="infinite 电池 存储 capacity(构筑 or 拆除 a 电池)(need 保存 reloading to be disabled)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>C5-FA-11-40-4C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite water storage capacity(build or destroy a water storage)(need save reloading to be disabled)">
+  <Cheat Text="水无限 存储 capacity(构筑 or 拆除 a 水 存储)(need 保存 reloading to be disabled)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -190,7 +198,7 @@
       <ValueOff>C5-FA-11-40-38</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite water tower storage capacity(build or destroy a tower)(need save reloading to be disabled)(use with caution)">
+  <Cheat Text="水无限 防御塔 存储 capacity(构筑 or 拆除 a 防御塔)(need 保存 reloading to be disabled)(use with 警戒)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -220,7 +228,7 @@
       <ValueOff>C5-FA-11-80-AC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite energy production (need save reloading to be disabled)">
+  <Cheat Text="infinite 电力生产 (need 保存 reloading to be disabled)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -236,7 +244,7 @@
       <ValueOff>C5-FA-11-40-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="infinite water production (build or destroy a water source)(need save reloading to be disabled)">
+  <Cheat Text="水无限 production (构筑 or 拆除 a 水 source)(need 保存 reloading to be disabled)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

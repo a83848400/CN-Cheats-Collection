@@ -1,13 +1,18 @@
 {
-  "name": "Dead Rising",
+  "name": "Dead Rising｜丧尸围城",
   "id": "CUSA04513",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Pictures (Camera Battery)",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Pictures (相机 电池)",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4B0350",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Max PP Multiplier",
+      "name": "最大 招式点数 Multiplier",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "4B0350",

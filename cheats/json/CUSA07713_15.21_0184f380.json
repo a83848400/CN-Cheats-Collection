@@ -1,13 +1,18 @@
 {
-  "name": "Monster Hunter: World",
+  "name": "怪物猎人: World",
   "id": "CUSA07713",
   "version": "15.21",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinte HP + Invisible (pick ancient potion)",
-      "description": "use ancient potion then ready your ancient potion from item bar, you will be invisible",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinte 手机 + 不可见 (pick 远古秘药)",
+      "description": "use 远古秘药 then ready your 远古秘药 from 物品 bar, you 意志 be 不可见",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "43858AA",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4386C60",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Item ID modifier",
-      "description": "Master Code Item ID / go to item box then sell item tab and move any item into free space inventory slot",
-      "type": "checkbox",
+      "name": "物品 ID modifier",
+      "description": "Master 密码 物品 ID / go to 道具箱 then sell 物品 tab and 招式 any 物品 into free space 背包 slot",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E751",
@@ -46,9 +51,9 @@
       ]
     },
     {
-      "name": "Increase Item ID",
-      "description": "need MC Item ID",
-      "type": "checkbox",
+      "name": "Increase 物品 ID",
+      "description": "这些MC 物品 ID",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E755",
@@ -58,9 +63,9 @@
       ]
     },
     {
-      "name": "Decrease Item ID",
-      "description": "need MC Item ID",
-      "type": "checkbox",
+      "name": "Decrease 物品 ID",
+      "description": "这些MC 物品 ID",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E755",
@@ -70,9 +75,9 @@
       ]
     },
     {
-      "name": "99 Inventory items",
-      "description": "go to item box then sell tab and go to any free space inventory slot then move / rearranged (square button) the item from there, vice versa of item id modifier",
-      "type": "checkbox",
+      "name": "99 背包 items",
+      "description": "go to 道具箱 then sell tab and go to any free space 背包 slot then 招式 / rearranged (square 按钮) the 物品 from there, vice versa of 物品 id modifier",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E791",
@@ -87,9 +92,9 @@
       ]
     },
     {
-      "name": "x5 Item in Pouch",
-      "description": "none",
-      "type": "checkbox",
+      "name": "x5 物品 in 皮袋",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E7C1",
@@ -104,9 +109,9 @@
       ]
     },
     {
-      "name": "Sharpness",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Sharpness｜斩味",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "494B934",
@@ -116,9 +121,9 @@
       ]
     },
     {
-      "name": "Easy Capture and Kill All instantly",
-      "description": "Master Code CapKILL",
-      "type": "checkbox",
+      "name": "简单 捕获 and 杀光所有 instantly",
+      "description": "Master 密码 CapKILL",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E7E1",
@@ -133,9 +138,9 @@
       ]
     },
     {
-      "name": "Easy Capture",
-      "description": "need MC CapKILL",
-      "type": "checkbox",
+      "name": "简单 捕获",
+      "description": "need MC CapKILL｜需要 MC CapKILL",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E7E6",
@@ -145,9 +150,9 @@
       ]
     },
     {
-      "name": "Kill All",
-      "description": "need MC CapKILL",
-      "type": "checkbox",
+      "name": "Kill All｜杀光所有",
+      "description": "need MC CapKILL｜需要 MC CapKILL",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E7E6",
@@ -157,9 +162,9 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "description": "none",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E821",
@@ -174,9 +179,9 @@
       ]
     },
     {
-      "name": "Max Spirit Blade Gauge (Longsword)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 精魄 异刃 Gauge (长剑)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E841",
@@ -191,9 +196,9 @@
       ]
     },
     {
-      "name": "Level 3 Spirit Gauge (Longsword)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "等级 3 精魄 Gauge (长剑)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E861",
@@ -208,9 +213,9 @@
       ]
     },
     {
-      "name": "Max Demon Gauge (Dual Blade)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 妖魔 Gauge (Dual 异刃)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4957B0E",
@@ -220,9 +225,9 @@
       ]
     },
     {
-      "name": "Demon Gauge Timer Disabled (Dual Blade)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "妖魔 Gauge 计时器 Disabled (Dual 异刃)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4957B30",
@@ -232,9 +237,9 @@
       ]
     },
     {
-      "name": "Fast Charge (GreatSword)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Fast 冲锋 (巨剑)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E881",
@@ -249,9 +254,9 @@
       ]
     },
     {
-      "name": "Switch Gauge (Switch Axe)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "开关 Gauge (斩击斧)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8A1",
@@ -266,9 +271,9 @@
       ]
     },
     {
-      "name": "Ampede State (Switch Axe)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Ampede State (斩击斧)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "496E7AD",
@@ -278,9 +283,9 @@
       ]
     },
     {
-      "name": "Gunlance Shell (Gunlance)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "铳枪 贝壳 (铳枪)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4969F66",
@@ -290,9 +295,9 @@
       ]
     },
     {
-      "name": "Gunlance Max Shell",
-      "description": "use a shell or shell reload then turn off this cheat after. max of 5 shell",
-      "type": "checkbox",
+      "name": "铳枪 最大 贝壳",
+      "description": "use a 贝壳 or 贝壳 reload then 回合 off this cheat after. 最大 of 5 贝壳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "496BCB5",
@@ -302,9 +307,9 @@
       ]
     },
     {
-      "name": "Infinite Wyrmstake Cannon (Gunlance) ",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite Wyrmstake Cannon (铳枪) ",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "392B498",
@@ -314,9 +319,9 @@
       ]
     },
     {
-      "name": "Instant Wyrmstake Blast (Gunlance)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Instant Wyrmstake Blast (铳枪)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8C1",
@@ -331,9 +336,9 @@
       ]
     },
     {
-      "name": "Instant Wyrmstake shot (Gunlance)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Instant Wyrmstake shot (铳枪)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4968D96",
@@ -343,9 +348,9 @@
       ]
     },
     {
-      "name": "Max Phial (Charge Blade)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "最大 Phial (盾斧)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E8E1",
@@ -360,9 +365,9 @@
       ]
     },
     {
-      "name": "Sword Block Attacks Disabled (Charge Blade)",
-      "description": "this is effective when Charge Gauge is in full energy",
-      "type": "checkbox",
+      "name": "剑 格挡 Attacks Disabled (盾斧)",
+      "description": "this is effective when 冲锋 Gauge is in full 能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "497356F",
@@ -372,9 +377,9 @@
       ]
     },
     {
-      "name": "Charge Gauge Disabled (Charge Blade)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "冲锋 Gauge Disabled (盾斧)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49721DF",
@@ -384,9 +389,9 @@
       ]
     },
     {
-      "name": "Fast Charge Rising Slash (Charge Blade)",
-      "description": "sword attack: Rising Slash can be released for 0.5 sec does not effect if pressed too long",
-      "type": "checkbox",
+      "name": "Fast 冲锋 崛起 Slash (盾斧)",
+      "description": "剑 攻击: 崛起 Slash can be released for 0.5 sec does not 效果 if pressed too long",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "396B03D",
@@ -396,9 +401,9 @@
       ]
     },
     {
-      "name": "Power Axe Mode (Charge Blade)",
-      "description": "this needs 1 or more phial to work",
-      "type": "checkbox",
+      "name": "电力 斧 Mode (盾斧)",
+      "description": "this 需求 1 or more phial to work",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E901",
@@ -413,9 +418,9 @@
       ]
     },
     {
-      "name": "Element Boost (Charge Blade)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Element Boost (盾斧)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E931",
@@ -430,9 +435,9 @@
       ]
     },
     {
-      "name": "Element Slash (Charge Blade)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Element Slash (盾斧)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E951",
@@ -447,9 +452,9 @@
       ]
     },
     {
-      "name": "Kinsect Stamina (Insect Glaive)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Kinsect 体力 (操虫棍)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "498241A",
@@ -459,9 +464,9 @@
       ]
     },
     {
-      "name": "Extract Effects (Insect Glaive)",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Extract Effects (操虫棍)",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E981",
@@ -476,9 +481,9 @@
       ]
     },
     {
-      "name": "Affinity",
-      "description": "requires affinity buffs to work",
-      "type": "checkbox",
+      "name": "Affinity｜牵绊",
+      "description": "requires 牵绊 增益效果 to work",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A5C9D0",
@@ -488,9 +493,9 @@
       ]
     },
     {
-      "name": "Affinity Buffs",
-      "description": "none",
-      "type": "checkbox",
+      "name": "牵绊 增益效果",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E9A1",
@@ -505,9 +510,9 @@
       ]
     },
     {
-      "name": "Defence",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Defence｜国防",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E9C1",
@@ -522,9 +527,9 @@
       ]
     },
     {
-      "name": "Quest Timer",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Quest 计时器",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3E7C514",
@@ -534,9 +539,9 @@
       ]
     },
     {
-      "name": "Infinite Specialized Tools",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Infinite Specialized Tools｜无限专用工具",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E9E1",
@@ -551,9 +556,9 @@
       ]
     },
     {
-      "name": "Disable Poison",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Disable Poison｜禁用毒药",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2C58C97",
@@ -563,9 +568,9 @@
       ]
     },
     {
-      "name": "All Status Buffs",
-      "description": "180 sec",
-      "type": "checkbox",
+      "name": "All Status Buffs｜所有状态增益",
+      "description": "180 sec｜180秒",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EA01",
@@ -580,9 +585,9 @@
       ]
     },
     {
-      "name": "Natural Fuel steamworks",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Natural Fuel steamworks｜天然燃料蒸汽厂",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EA21",
@@ -597,9 +602,9 @@
       ]
     },
     {
-      "name": "Stored Fuel steamworks",
-      "description": "none",
-      "type": "checkbox",
+      "name": "Stored Fuel steamworks｜Stored Fuel 蒸汽厂",
+      "description": "none｜无",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EA41",

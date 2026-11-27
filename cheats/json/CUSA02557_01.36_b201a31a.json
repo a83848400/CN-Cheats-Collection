@@ -1,12 +1,17 @@
 {
-  "name": "Fallout 4",
+  "name": "Fallout 4｜辐射4",
   "id": "CUSA02557",
   "version": "01.36",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP+Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量+体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "228F800",

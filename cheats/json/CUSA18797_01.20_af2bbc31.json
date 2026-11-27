@@ -1,12 +1,17 @@
 {
-  "name": "Minecraft Dungeons",
+  "name": "我的世界 Dungeons",
   "id": "CUSA18797",
   "version": "01.20",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82EF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C7340",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Emeralds",
-      "type": "checkbox",
+      "name": "Infinite Emeralds｜无尽的翡翠",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C7640",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Level 183 on kill",
-      "type": "checkbox",
+      "name": "等级 183 on kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C76E0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Level 1,833 on kill",
-      "type": "checkbox",
+      "name": "等级 1,833 on kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C76E0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Level 0 on kill",
-      "type": "checkbox",
+      "name": "等级 0 on kill",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "81C76E0",

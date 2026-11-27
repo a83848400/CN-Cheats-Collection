@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Borderlands 3" Moder="hanakuso" Cusa="CUSA08025" Version="01.11" Process="eboot.bin">
   <Genres Name="Educational" />
   <Items />
-  <Cheat Text="Infinite Health + Grenades">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 + 手榴弹">
     <Cheatline>
       <Offset>92F0800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>4BF84EA</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>C5-FA-11-8B-A0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>525750D</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>41-89-87-B0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Money">
+  <Cheat Text="Infinite Money｜金钱无限">
     <Cheatline>
       <Offset>5144908</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>42-03-54-38-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points">
+  <Cheat Text="Infinite Skill 得分">
     <Cheatline>
       <Offset>9A321A</Offset>
       <Section>0</Section>
@@ -48,7 +56,7 @@
       <ValueOff>41-89-8E-60-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades (only use if not using Infinite Health)">
+  <Cheat Text="手雷无限 (only use if not using 无限生命)">
     <Cheatline>
       <Offset>92F0800</Offset>
       <Section>0</Section>

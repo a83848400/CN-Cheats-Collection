@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 2",
+  "name": "生化危机 2",
   "id": "CUSA09171",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Run-Shoot Speed Master Code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Run-Shoot 速度 Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B81F",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player",
-      "type": "checkbox",
+      "name": "无限生命 Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1D5E4F0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Zombie Can't Grab",
-      "type": "checkbox",
+      "name": "僵尸 Can'恐怖分子 Grab",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3151E90",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Easy Kill",
-      "type": "checkbox",
+      "name": "Easy Kill｜轻松击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
+      "name": "Infinite Clip Ammo｜弹夹子弹无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FBB459",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Item On Use",
-      "type": "checkbox",
+      "name": "Infinite 物品 On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FBB2AB",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "20 Inventory Slot",
-      "type": "checkbox",
+      "name": "20 背包 Slot",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B80D",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Inc Run Speed-Shoot Speed",
-      "type": "checkbox",
+      "name": "Inc Run 速度-Shoot 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B826",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Freez Countdown Timer",
-      "type": "checkbox",
+      "name": "Freez Countdown 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10A7D18",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Reset Timer [Don't Freez It]",
-      "type": "checkbox",
+      "name": "Reset 计时器 [Don'恐怖分子 Freez It]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B89A",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Dup Ammo When Store On Storage",
-      "type": "checkbox",
+      "name": "Dup 但是 When Store On 存储",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8AC",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "Main-Swap HandGun Ammo On Storage To:",
-      "type": "checkbox",
+      "name": "Main-Swap 手枪 但是 On 存储 To:",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BB",
@@ -167,8 +172,8 @@
       ]
     },
     {
-      "name": "Sub Gun - LE 5 (Infinite)",
-      "type": "checkbox",
+      "name": "Sub Gun - LE 5 (Infinite)｜冲锋枪 - LE 5（无限）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -178,8 +183,8 @@
       ]
     },
     {
-      "name": "MAG - Lightning Hawk",
-      "type": "checkbox",
+      "name": "弹匣 - 闪电 Hawk",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -189,8 +194,8 @@
       ]
     },
     {
-      "name": "Combat knife (Infinite)",
-      "type": "checkbox",
+      "name": "Combat 刀 (Infinite)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -200,8 +205,8 @@
       ]
     },
     {
-      "name": "Handgun - Samurai Edge (Infinite)",
-      "type": "checkbox",
+      "name": "手枪 - 武士 Edge (Infinite)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -211,8 +216,8 @@
       ]
     },
     {
-      "name": "ATM-4 (Infinite)",
-      "type": "checkbox",
+      "name": "ATM-4 (Infinite)｜ATM-4（无限）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -222,8 +227,8 @@
       ]
     },
     {
-      "name": "Anti-tank Rocket (Infinite)",
-      "type": "checkbox",
+      "name": "Anti-坦克 Rocket (Infinite)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -233,8 +238,8 @@
       ]
     },
     {
-      "name": "Minigun (Infinite)",
-      "type": "checkbox",
+      "name": "加特林机枪 (Infinite)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -244,8 +249,8 @@
       ]
     },
     {
-      "name": "Handgun - Matilda",
-      "type": "checkbox",
+      "name": "Handgun - Matilda｜手枪——玛蒂尔达",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -255,8 +260,8 @@
       ]
     },
     {
-      "name": "Handgun - M19",
-      "type": "checkbox",
+      "name": "Handgun - M19｜手枪 - M19",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -266,8 +271,8 @@
       ]
     },
     {
-      "name": "Handgun - JMB Hp3",
-      "type": "checkbox",
+      "name": "Handgun - JMB Hp3｜手枪 - JMB Hp3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -277,8 +282,8 @@
       ]
     },
     {
-      "name": "Handgun - Quickdraw Army Rev",
-      "type": "checkbox",
+      "name": "手枪 - Quickdraw 军队 Rev",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -288,8 +293,8 @@
       ]
     },
     {
-      "name": "Handgun - MUP",
-      "type": "checkbox",
+      "name": "Handgun - MUP｜手枪 - MUP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -299,8 +304,8 @@
       ]
     },
     {
-      "name": "Handgun - Broom Hc",
-      "type": "checkbox",
+      "name": "Handgun - Broom Hc｜手枪 - Broom Hc",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -310,8 +315,8 @@
       ]
     },
     {
-      "name": "Handgun - SLS 60",
-      "type": "checkbox",
+      "name": "Handgun - SLS 60｜手枪 - SLS 60",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -321,8 +326,8 @@
       ]
     },
     {
-      "name": "Shotgun - W-870",
-      "type": "checkbox",
+      "name": "霰弹枪 - W-870",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -332,8 +337,8 @@
       ]
     },
     {
-      "name": "EMF Visualizer",
-      "type": "checkbox",
+      "name": "EMF Visualizer｜EMF 可视化工具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -343,8 +348,8 @@
       ]
     },
     {
-      "name": "Grenade Launcher - GM 79",
-      "type": "checkbox",
+      "name": "榴弹发射器 - GM 79",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -354,8 +359,8 @@
       ]
     },
     {
-      "name": "Chemical Flamethrower",
-      "type": "checkbox",
+      "name": "Chemical 火焰喷射器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -365,8 +370,8 @@
       ]
     },
     {
-      "name": "Stun Gun - Spark Shot",
-      "type": "checkbox",
+      "name": "Stun Gun - Spark Shot｜电击枪 - 火花射击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -376,8 +381,8 @@
       ]
     },
     {
-      "name": "Lion Medallion",
-      "type": "checkbox",
+      "name": "Lion 徽章",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -387,8 +392,8 @@
       ]
     },
     {
-      "name": "Maiden Medallion",
-      "type": "checkbox",
+      "name": "Maiden 徽章",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -398,8 +403,8 @@
       ]
     },
     {
-      "name": "Unicorn Medallion",
-      "type": "checkbox",
+      "name": "Unicorn 徽章",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -409,8 +414,8 @@
       ]
     },
     {
-      "name": "Club Key",
-      "type": "checkbox",
+      "name": "Club 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -420,8 +425,8 @@
       ]
     },
     {
-      "name": "Heart Key",
-      "type": "checkbox",
+      "name": "Heart 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -431,8 +436,8 @@
       ]
     },
     {
-      "name": "Diamond Key",
-      "type": "checkbox",
+      "name": "Diamond 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -442,8 +447,8 @@
       ]
     },
     {
-      "name": "Boxed Electronic Part 1",
-      "type": "checkbox",
+      "name": "Boxed Electronic Part 1｜盒装电子元件 第1部分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -453,8 +458,8 @@
       ]
     },
     {
-      "name": "Boxed Electronic Part 2",
-      "type": "checkbox",
+      "name": "Boxed Electronic Part 2｜盒装电子产品（第二部分）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -464,8 +469,8 @@
       ]
     },
     {
-      "name": "Ink Ribbon",
-      "type": "checkbox",
+      "name": "Ink Ribbon｜色带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -475,8 +480,8 @@
       ]
     },
     {
-      "name": "Wooden Board",
-      "type": "checkbox",
+      "name": "Wooden Board｜木板",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -486,8 +491,8 @@
       ]
     },
     {
-      "name": "Storage Room Key",
-      "type": "checkbox",
+      "name": "存储 Room 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -497,8 +502,8 @@
       ]
     },
     {
-      "name": "Mechanic Jack Handle",
-      "type": "checkbox",
+      "name": "Mechanic Jack Handle｜机械式杰克手柄",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -508,8 +513,8 @@
       ]
     },
     {
-      "name": "Square Crank",
-      "type": "checkbox",
+      "name": "Square Crank｜方头曲柄",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -519,8 +524,8 @@
       ]
     },
     {
-      "name": "Spade Key",
-      "type": "checkbox",
+      "name": "Spade 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -530,8 +535,8 @@
       ]
     },
     {
-      "name": "Weapons Locker Key Card",
-      "type": "checkbox",
+      "name": "武器 Locker 钥匙 卡牌",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -541,8 +546,8 @@
       ]
     },
     {
-      "name": "Round Handle",
-      "type": "checkbox",
+      "name": "回合 Handle",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -552,8 +557,8 @@
       ]
     },
     {
-      "name": "S.T.A.R.S. Badge",
-      "type": "checkbox",
+      "name": "S.恐怖分子.A.R.S. 徽章",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -563,8 +568,8 @@
       ]
     },
     {
-      "name": "Fuse (Main Hall)",
-      "type": "checkbox",
+      "name": "Fuse (Main Hall)｜Fuse（主厅）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -574,8 +579,8 @@
       ]
     },
     {
-      "name": "Fuse (Break Room Hallway)",
-      "type": "checkbox",
+      "name": "Fuse (破防 Room Hallway)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -585,8 +590,8 @@
       ]
     },
     {
-      "name": "Bolt Cutter",
-      "type": "checkbox",
+      "name": "Bolt Cutter｜断线钳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -596,8 +601,8 @@
       ]
     },
     {
-      "name": "T-Bar Valve Handle",
-      "type": "checkbox",
+      "name": "恐怖分子-Bar 维尔福 Handle",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -607,8 +612,8 @@
       ]
     },
     {
-      "name": "Spare Key (key pad)",
-      "type": "checkbox",
+      "name": "Spare 钥匙 (钥匙 pad)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -618,8 +623,8 @@
       ]
     },
     {
-      "name": "Rook Plug",
-      "type": "checkbox",
+      "name": "Rook Plug｜烟塞",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -629,8 +634,8 @@
       ]
     },
     {
-      "name": "King Plug",
-      "type": "checkbox",
+      "name": "金 Plug",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -641,7 +646,7 @@
     },
     {
       "name": "Queen Plug",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -651,8 +656,8 @@
       ]
     },
     {
-      "name": "Signal Modulator",
-      "type": "checkbox",
+      "name": "Signal Modulator｜信号调制器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -662,8 +667,8 @@
       ]
     },
     {
-      "name": "Trophy 1",
-      "type": "checkbox",
+      "name": "Trophy 1｜奖杯 1",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -673,8 +678,8 @@
       ]
     },
     {
-      "name": "Trophy 2",
-      "type": "checkbox",
+      "name": "Trophy 2｜奖杯 2",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -684,8 +689,8 @@
       ]
     },
     {
-      "name": "Sewers Key",
-      "type": "checkbox",
+      "name": "Sewers 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -695,8 +700,8 @@
       ]
     },
     {
-      "name": "ID Wristband (Senior Staff)",
-      "type": "checkbox",
+      "name": "ID Wristband (前辈 法杖)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -706,8 +711,8 @@
       ]
     },
     {
-      "name": "Dispersal Cartridge (Solution)",
-      "type": "checkbox",
+      "name": "Dispersal Cartridge (Solution)｜扩散卡匣（溶液）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -717,8 +722,8 @@
       ]
     },
     {
-      "name": "Courtyard Key",
-      "type": "checkbox",
+      "name": "Courtyard 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -728,8 +733,8 @@
       ]
     },
     {
-      "name": "Orphanage Key",
-      "type": "checkbox",
+      "name": "Orphanage 钥匙",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BF",
@@ -739,8 +744,8 @@
       ]
     },
     {
-      "name": "Swap Caliber HandGun Ammo Claire ( Main-Swap HandGun Ammo Must Enable)",
-      "type": "checkbox",
+      "name": "Swap 口径 手枪 但是 克莱尔 ( Main-Swap 手枪 但是 Must Enable)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7E2B8BB",

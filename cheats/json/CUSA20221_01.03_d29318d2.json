@@ -1,12 +1,17 @@
 {
-  "name": "Chorus",
+  "name": "Chorus｜合唱",
   "id": "CUSA20221",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Mastercode Health / Shield ( must be activated )",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "主代码 生命 / 盾牌 ( must be activated )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907E0A",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Infinite Health [ MC ]",
-      "type": "checkbox",
+      "name": "无限生命 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907E43",
@@ -42,8 +47,8 @@
       ]
     },
     {
-      "name": "One Hit Kill [ MC ]",
-      "type": "checkbox",
+      "name": "一击必杀 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907E58",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Shield [ MC ]",
-      "type": "checkbox",
+      "name": "无限护盾 [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907E10",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "No Shield Enemy [ MC ]",
-      "type": "checkbox",
+      "name": "No 盾牌 Enemy [ MC ]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907E23",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "No Gatling Gun Overheat",
-      "type": "checkbox",
+      "name": "No Gatling Gun Overheat｜加特林机枪不会过热",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907DF0",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "No Laser Cooldown",
-      "type": "checkbox",
+      "name": "No 激光瞄准器 Cooldown",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907DD9",
@@ -117,8 +122,8 @@
       ]
     },
     {
-      "name": "Max Credits",
-      "type": "checkbox",
+      "name": "最大 Credits",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5907DB0",

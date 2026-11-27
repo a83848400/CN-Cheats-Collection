@@ -1,12 +1,17 @@
 {
-  "name": "Dead Cells",
+  "name": "Dead Cells｜《Dead Cells》",
   "id": "CUSA11253",
   "version": "01.17",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health(Dont Use With 1 Hit)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命(Dont Use With 1 Hit)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1371AA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Health / 1 Hit Kill",
-      "type": "checkbox",
+      "name": "无限生命 / 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1371AA0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Money (On Get)",
-      "type": "checkbox",
+      "name": "金钱最大 (On Get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1371C00",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Cells",
-      "type": "checkbox",
+      "name": "无限细胞",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1371B20",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Deployables / Grenades (No Cooldown)",
-      "type": "checkbox",
+      "name": "Deployables / 手榴弹 (无冷却)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1373800",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light 2: Stay Human" Moder="LMN" Cusa="CUSA12584" Version="01.33" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="GOD Mod">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="GOD Mod｜好心情">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>E8-14-5F-0E-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="freeze Stamina/Breath">
+  <Cheat Text="freeze 体力/Breath">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>C4-C1-7A-11-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)">
+  <Cheat Text="Items/Craftables/consumables/thrwoables never decrease (Need 2 or more)｜物品/可合成物品/消耗品/一次性物品的数量不会减少（需2个或以上）">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -50,7 +58,7 @@
       <ValueOff>E8-63-B8-D3-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf lock picks">
+  <Cheat Text="无限开锁工具">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>E8-5B-B5-D3-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max durability">
+  <Cheat Text="最大 耐用性">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>C5-FA-11-83-A8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max money">
+  <Cheat Text="max money｜金钱最大">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>89-47-34-E8-1E-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf immunity">
+  <Cheat Text="无限免疫力">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>C4-C1-7A-11-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze timer">
+  <Cheat Text="Freeze 计时器">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -109,7 +117,7 @@
       <ValueOff>C5-FA-11-83-48-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf UV Flashlight">
+  <Cheat Text="Infinite UV 手电筒">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>E8-0E-4E-FC-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload for Crossbow/Boomsticks">
+  <Cheat Text="无需换弹 for 弩/Boomsticks">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>E8-37-52-B1-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="MAX XP/legend/inhibitators on get">
+  <Cheat Text="最大 XP/传奇/inhibitators on get">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -143,7 +151,7 @@
       <ValueOff>49-89-46-18-0F-88-B7-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="bounty tokens never decrease (bounty vendor)">
+  <Cheat Text="悬赏 tokens never decrease (悬赏 商人)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>E8-E2-B2-D3-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="agent level 1000 / get 1000 token (complete a single bounty)">
+  <Cheat Text="特工 等级 1000 / get 1000 衍生物 (complete a single 悬赏)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

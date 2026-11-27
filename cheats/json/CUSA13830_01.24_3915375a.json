@@ -1,12 +1,17 @@
 {
-  "name": "Remnant: From the Ashes",
+  "name": "Remnant: From the Ashes｜《余烬：浴火重生》",
   "id": "CUSA13830",
   "version": "01.24",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F5E0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Endurance",
-      "type": "checkbox",
+      "name": "Infinite 耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FF80",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9639F6",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Items",
-      "type": "checkbox",
+      "name": "最大/道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FEA0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Consumables/Resources/Money",
-      "type": "checkbox",
+      "name": "最大/无限消耗品/Resources/金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F890",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "MAX XP (On Kill)",
-      "type": "checkbox",
+      "name": "最大 XP (On Kill)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F8F0",

@@ -1,12 +1,17 @@
 {
-  "name": "Days Gone",
+  "name": "Days Gone｜《Days Gone》",
   "id": "CUSA15027",
   "version": "01.51",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "inf fucus g stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite fucus g 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2410928",

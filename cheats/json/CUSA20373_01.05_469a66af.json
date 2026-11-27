@@ -1,12 +1,17 @@
 {
-  "name": "Sniper: Ghost Warrior Contracts 2",
+  "name": "Sniper: 幽灵 战士 Contracts 2",
   "id": "CUSA20373",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money (on spend)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱最大 (on spend)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB00",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Throwable(disable when swapping)",
-      "type": "checkbox",
+      "name": "无限可投掷物(disable when swapping)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5EAC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Thermal Vision Battery",
-      "type": "checkbox",
+      "name": "Infinite Thermal 视野 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FDB0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F020",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Healing/Boosters",
-      "type": "checkbox",
+      "name": "Infinite Healing/Boosters｜无限治疗/增益道具",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5FE00",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Skill points (do not decrease)",
-      "type": "checkbox",
+      "name": "Skill 得分 (do not decrease)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E080",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Intel points (do not decrease)",
-      "type": "checkbox",
+      "name": "Intel 得分 (do not decrease)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB20",

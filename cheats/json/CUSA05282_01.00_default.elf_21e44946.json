@@ -1,13 +1,18 @@
 {
-  "name": "Call of Duty: Infinite Warfare",
+  "name": "使命召唤: Infinite Warfare",
   "id": "CUSA05282",
   "version": "01.00",
-  "process": "default.elf",
+  "process": "默认.elf",
   "mods": [
     {
-      "name": "All Client Infinite Ammo",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "All Client 无限弹药",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C51DA3",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "All Client Godmode",
+      "name": "All Client 上帝模式",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "F4CA14",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Jetpack",
+      "name": "Infinite 喷气背包",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "702301",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 1)",
+      "name": "Enable Exo Movement (Player 1)｜启用外骨骼移动（玩家1）",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3D3E934",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 2)",
+      "name": "Enable Exo Movement (Player 2)｜启用外骨骼移动（玩家2）",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3D455FC",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 3)",
+      "name": "Enable Exo Movement (Player 3)｜启用外骨骼移动（玩家3）",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3D4C2C4",
@@ -77,9 +82,9 @@
       ]
     },
     {
-      "name": "Enable Exo Movement (Player 4)",
+      "name": "Enable Exo Movement (Player 4)｜启用外骨骼移动（玩家4）",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "3D52F8C",

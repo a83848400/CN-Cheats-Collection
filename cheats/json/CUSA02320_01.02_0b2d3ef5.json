@@ -1,12 +1,17 @@
 {
-  "name": "Uncharted: The Nathan Drake Collection",
+  "name": "神秘海域: The 内森·德雷克 Collection",
   "id": "CUSA02320",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "L3 + Upper L or Upper R Touch Pad",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "L3 + Upper L or Upper R Touch Pad｜L3 + 上方左侧或上方右侧触控板",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "923800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Enable FPS View - Hold L3",
-      "type": "checkbox",
+      "name": "Enable FPS View - 领地 L3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2CFEA8",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Enable Task View - Hold L3",
-      "type": "checkbox",
+      "name": "Enable Task View - 领地 L3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92382E",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "346469",

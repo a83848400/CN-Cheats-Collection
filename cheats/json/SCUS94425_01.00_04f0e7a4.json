@@ -1,12 +1,17 @@
 {
-  "name": "Spyro 2: Ripto's Rage!",
-  "id": "SCUS94425",
+  "name": "Spyro 2: Ripto's 怒气!",
+  "id": "SCUS94425｜打扰一下，对不起",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11E286",
@@ -16,18 +21,18 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1163B8",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         },
         {
           "offset": "1163B9",
           "on": "00",
-          "off": "FF"
+          "off": "FF｜前言"
         }
       ]
     }

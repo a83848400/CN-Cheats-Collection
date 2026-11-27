@@ -1,12 +1,17 @@
 {
-  "name": "Granblue Fantasy: Relink",
+  "name": "Granblue Fantasy: Relink｜《碧蓝幻想：重联》",
   "id": "CUSA34766",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C510",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite SKills",
-      "type": "checkbox",
+      "name": "Infinite SKills｜无限技能",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7F8C9E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite SBA",
-      "type": "checkbox",
+      "name": "Infinite SBA｜无限SBA",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C570",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Replenish items at 1",
-      "type": "checkbox",
+      "name": "Replenish items at 1｜在1处补给物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C5A0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max link level",
-      "type": "checkbox",
+      "name": "最大 林克 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C5D0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Freeze link attack timer",
-      "type": "checkbox",
+      "name": "Freeze 林克 攻击 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C600",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "All treasure and key items",
-      "type": "checkbox",
+      "name": "All 宝藏 and 钥匙 items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C640",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Instant +999 treasures",
-      "type": "checkbox",
+      "name": "Instant +999 treasures｜立即获得+999件宝物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C680",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Sell item x900",
-      "type": "checkbox",
+      "name": "Sell 物品 x900",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C6B0",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Event timer",
-      "type": "checkbox",
+      "name": "Event 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C6E0",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Increase all level",
-      "type": "checkbox",
+      "name": "Increase all 等级",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C720",
@@ -176,8 +181,8 @@
       ]
     },
     {
-      "name": "Max all party exp",
-      "type": "checkbox",
+      "name": "最大 all 队伍 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C750",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "Max base hp all members",
-      "type": "checkbox",
+      "name": "最大 基地 手机 all members",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C780",
@@ -208,8 +213,8 @@
       ]
     },
     {
-      "name": "Max all members base atk",
-      "type": "checkbox",
+      "name": "最大 all members 基地 攻击力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C7B0",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Max stun power all members",
-      "type": "checkbox",
+      "name": "最大 stun 电力 all members",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C7E0",
@@ -240,8 +245,8 @@
       ]
     },
     {
-      "name": "Max crit all members",
-      "type": "checkbox",
+      "name": "最大 crit all members",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C810",
@@ -256,8 +261,8 @@
       ]
     },
     {
-      "name": "Max rupies",
-      "type": "checkbox",
+      "name": "最大 rupies",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C840",
@@ -272,8 +277,8 @@
       ]
     },
     {
-      "name": "Max MSP",
-      "type": "checkbox",
+      "name": "最大 MSP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5C870",

@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>1A6F867</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C5-FA-10-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Pawn Health">
+  <Cheat Text="Infinite 随从 生命">
     <Cheatline>
       <Offset>1A6F876</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-FA-10-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力">
     <Cheatline>
       <Offset>1A6F84A</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-10-80-AC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Pawn Stamina">
+  <Cheat Text="Infinite 随从 体力">
     <Cheatline>
       <Offset>1A6F885</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>C5-FA-10-81-AC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player/Pawn Level Up on XP Gain">
+  <Cheat Text="Player/随从 升级 on XP Gain">
     <Cheatline>
       <Offset>1A6F835</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>41-01-B4-24-C8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One/Two Hit Kill">
+  <Cheat Text="One/Two 命中击杀">
     <Cheatline>
       <Offset>1A6F946</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>C5-FA-10-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player/Pawn 0 Weight">
+  <Cheat Text="Player/随从 0 重量">
     <Cheatline>
       <Offset>1A6F8B9</Offset>
       <Section>0</Section>
@@ -101,7 +109,7 @@
       <ValueOff>C4-C1-7A-11-86-AC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Use">
+  <Cheat Text="最大 Items on Use">
     <Cheatline>
       <Offset>1A6F938</Offset>
       <Section>0</Section>
@@ -115,7 +123,7 @@
       <ValueOff>66-41-89-5D-1A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Items on Use">
+  <Cheat Text="x2 Items on Use｜使用时获得2件物品">
     <Cheatline>
       <Offset>537A5F</Offset>
       <Section>0</Section>
@@ -123,7 +131,7 @@
       <ValueOff>44-29-FB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max RC on Spend">
+  <Cheat Text="最大 RC on Spend">
     <Cheatline>
       <Offset>1A6F957</Offset>
       <Section>0</Section>
@@ -137,7 +145,7 @@
       <ValueOff>89-87-50-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 RC on Spend">
+  <Cheat Text="x2 RC on Spend｜消费可获双倍返现">
     <Cheatline>
       <Offset>391CA8</Offset>
       <Section>0</Section>
@@ -145,7 +153,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Gold on Spend">
+  <Cheat Text="金币最大 on Spend">
     <Cheatline>
       <Offset>1A6F8F5</Offset>
       <Section>0</Section>
@@ -159,7 +167,7 @@
       <ValueOff>89-87-4C-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Gold on Spend">
+  <Cheat Text="x2 金币 on Spend">
     <Cheatline>
       <Offset>391CE8</Offset>
       <Section>0</Section>
@@ -167,7 +175,7 @@
       <ValueOff>29-F0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Player/Pawn Max Vocation Rank on Gain">
+  <Cheat Text="Player/随从 最大 职业 阶级 on Gain">
     <Cheatline>
       <Offset>1A6F8E3</Offset>
       <Section>0</Section>
@@ -181,7 +189,7 @@
       <ValueOff>43-89-84-BE-D0-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Discipline on Spend">
+  <Cheat Text="最大 Discipline on Spend">
     <Cheatline>
       <Offset>1A6F927</Offset>
       <Section>0</Section>
@@ -195,7 +203,7 @@
       <ValueOff>41-29-86-48-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="x2 Discipline on Spend">
+  <Cheat Text="x2 Discipline on Spend｜x2 支出管控">
     <Cheatline>
       <Offset>AF8D5B</Offset>
       <Section>0</Section>

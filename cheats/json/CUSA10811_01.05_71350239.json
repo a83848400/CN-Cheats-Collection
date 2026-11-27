@@ -1,12 +1,17 @@
 {
-  "name": "Graveyard Keeper",
+  "name": "墓地管理员",
   "id": "CUSA10811",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Technology points after spend Turn off before carrying a corpse",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 Technology 得分 after spend 回合 off before carrying a corpse",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82A0BBE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Coins after buying",
-      "type": "checkbox",
+      "name": "最大 角落 购买后",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82A0BC20",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "99 Items after use",
-      "type": "checkbox",
+      "name": "99 Items after use｜99 件使用后的物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82A0BC60",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina(turn off before Building)",
-      "type": "checkbox",
+      "name": "无限耐力(回合 off before 建造)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "section": "14",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Equipment Durability (turn off before Building)",
-      "type": "checkbox",
+      "name": "Infinite 装备 耐用性 (回合 off before 建造)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "82A0BCA0",

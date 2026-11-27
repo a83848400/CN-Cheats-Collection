@@ -1,12 +1,17 @@
 {
-  "name": "Assassin's Creed Origins",
+  "name": "刺客信条 Origins",
   "id": "CUSA05855",
   "version": "01.41",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3550C06",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite stamina",
-      "type": "checkbox",
+      "name": "Infinite stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "662BEE1",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3A3E529",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Fast Lvl Up / XP",
-      "type": "checkbox",
+      "name": "Fast Lvl Up / XP｜快速升级 / 经验值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "662BEF8",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Resources",
-      "type": "checkbox",
+      "name": "Infinite Resources｜资源无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "662BF50",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Oxygen",
-      "type": "checkbox",
+      "name": "Infinite Oxygen｜无限氧气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "662BF30",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Max Abilities Points (On Spend / need 2)",
-      "type": "checkbox",
+      "name": "最大 Abilities 得分 (On Spend / need 2)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "662BF6D",

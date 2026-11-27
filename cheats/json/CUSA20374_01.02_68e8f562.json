@@ -1,12 +1,17 @@
 {
-  "name": "One Piece Odyssey",
+  "name": "海贼王 Odyssey",
   "id": "CUSA20374",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Luffy)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (Luffy)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "745BEA0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite TP",
-      "type": "checkbox",
+      "name": "Infinite TP｜无限TP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "745BAC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Experience Given (on 1st or 2nd fight)",
-      "type": "checkbox",
+      "name": "最大 Experience Given (on 1st or 2nd fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "745BA80",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Beeries (after the Fight)",
-      "type": "checkbox",
+      "name": "最大 Beeries (after the Fight)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "745BB50",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "99 Items (on use)",
-      "type": "checkbox",
+      "name": "99 Items (on use)｜99 件（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "745B990",

@@ -1,12 +1,17 @@
 {
-  "name": "Wolfenstein: Youngblood",
+  "name": "Wolfenstein: Youngblood｜《狼穴：新血》",
   "id": "CUSA13094",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Enemy Armour Easy To Destroy",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Enemy Armour 简单 To 拆除",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E46EEF",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Easy Kill Enemy",
-      "type": "checkbox",
+      "name": "轻松击杀 Enemy",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E470C2",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "God Mode",
-      "type": "checkbox",
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EACCE0",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "011D76C7",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Skill Point",
-      "type": "checkbox",
+      "name": "最大 Skill Point",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614E10",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Silver Coins",
-      "type": "checkbox",
+      "name": "银币最大 角落",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614E23",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Undetected By Enemy",
-      "type": "checkbox",
+      "name": "Undetected By Enemy｜未被敌人发现",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FB39E",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Cloack",
-      "type": "checkbox",
+      "name": "Infinite Cloack｜无限斗篷",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614E33",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Infinite Share Lives",
-      "type": "checkbox",
+      "name": "Infinite Share Lives｜无限分享生活",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614F49",
@@ -124,8 +129,8 @@
       ]
     },
     {
-      "name": "Instant Level Up When Get XP",
-      "type": "checkbox",
+      "name": "瞬间升级 When Get XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614E54",
@@ -140,8 +145,8 @@
       ]
     },
     {
-      "name": "Level 30 [Don't Lock]",
-      "type": "checkbox",
+      "name": "等级30 [Don'恐怖分子 Lock]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614E72",
@@ -156,8 +161,8 @@
       ]
     },
     {
-      "name": "Multi Jump",
-      "type": "checkbox",
+      "name": "Multi Jump｜多跳",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "513B93",
@@ -167,8 +172,8 @@
       ]
     },
     {
-      "name": "Gravity ( ON )",
-      "type": "checkbox",
+      "name": "Gravity ( ON )｜重力（开启）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614F02",
@@ -183,8 +188,8 @@
       ]
     },
     {
-      "name": "Gravity ( OFF )",
-      "type": "checkbox",
+      "name": "Gravity ( OFF )｜重力（关闭）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "03614F32",

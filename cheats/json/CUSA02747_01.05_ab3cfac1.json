@@ -1,13 +1,18 @@
 {
-  "name": "Just Cause 3",
+  "name": "正当防卫 3",
   "id": "CUSA02747",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health/Stamina/Magic",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命/体力/魔法",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1082ADE",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D05482",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "No Reload",
+      "name": "No Reload｜无需换弹",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DDCC54",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "No Weapon Spread(Hip Fire)",
+      "name": "No Weapon Spread(腰射)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DC70F9",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "No One Can Shoot",
+      "name": "No One Can Shoot｜没人能投篮",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DC7192",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Wingsuit Infinite Boost (nop)",
+      "name": "翼装 无限加速 (nop)",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1487BFD",

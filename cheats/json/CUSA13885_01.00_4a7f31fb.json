@@ -1,12 +1,17 @@
 {
-  "name": "Far Cry: New Dawn",
+  "name": "孤岛惊魂: New Dawn",
   "id": "CUSA13885",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Ammo",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "38DDB62",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables,resources,medkits,ethanol",
-      "type": "checkbox",
+      "name": "投掷物无限,resources,medkits,ethanol",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11DC9C7",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Gives everything 16959 except perk points",
-      "type": "checkbox",
+      "name": "Gives everything 16959 except 技能 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9F800",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Perk Points",
-      "type": "checkbox",
+      "name": "Infinite 技能 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "34ABABD",

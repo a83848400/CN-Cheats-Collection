@@ -1,13 +1,18 @@
 {
-  "name": "Crymachina Digital Deluxe Edition",
+  "name": "Crymachina Digital Deluxe Edition｜《Crymachina》数字豪华版",
   "id": "PPSA14427",
   "version": "01.000.008",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B83000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Sta",
+      "name": "Infinite Sta",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B83044",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "102831F",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Exp",
+      "name": "无限经验",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8306E",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Inf Ego",
+      "name": "无限 I",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5B8309E",

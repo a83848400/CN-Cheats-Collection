@@ -1,13 +1,18 @@
 {
-  "name": "Ratchet & Clank: Rift Apart",
+  "name": "《瑞奇与叮当》: 裂隙 Apart",
   "id": "PPSA01474",
   "version": "01.005.003",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "252F000",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Inf Coins",
+      "name": "无限金币",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "252F02F",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "Inf HP",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "252F061",

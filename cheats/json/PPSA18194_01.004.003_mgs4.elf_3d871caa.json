@@ -1,0 +1,216 @@
+{
+  "name": "合金装备/潜龙谍影 4: Guns of the Patriots - Master Collection Version",
+  "id": "PPSA18194",
+  "version": "01.004.003",
+  "process": "mgs4/mgs4.elf",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Invulnerable｜无敌",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "100846C",
+          "on": "9090909090",
+          "off": "E8AF000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "1009156",
+          "on": "480F4FD1",
+          "off": "480F4CD1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Armor｜护甲无限",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "1008ADB",
+          "on": "480F4FD0",
+          "off": "480F4CD0"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Stress",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "100B357",
+          "on": "480F4CF1",
+          "off": "480F4FF1"
+        }
+      ]
+    },
+    {
+      "name": "All Items Unlock｜解锁全部物品",
+      "description": "意志 increase 所有商品 upon opening 背包 items / 道具无限 should be turned off",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "58ED8F",
+          "on": "66FF401490",
+          "off": "6683781400"
+        }
+      ]
+    },
+    {
+      "name": "解锁全部武器 (id lock)",
+      "description": "open 背包 武器 / 解锁 All Weapon ID should be turned off",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "584B5A",
+          "on": "C6402A0190",
+          "off": "6683782A00"
+        }
+      ]
+    },
+    {
+      "name": "解锁 All Weapon ID",
+      "description": "open 背包 武器 / 解锁全部武器 (id lock) should be turned off",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "584B5A",
+          "on": "C6402A0290",
+          "off": "6683782A00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items｜道具无限",
+      "description": "open 物品 背包 / 解锁全部物品 should be turned off",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "58ED8F",
+          "on": "C640146390",
+          "off": "6683781400"
+        }
+      ]
+    },
+    {
+      "name": "All Inifinity 但是",
+      "description": "open Weapon 背包 / Weapon 无限弹药 (Manual / Press R1 from weapon slot) should be turned off",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "1613000",
+          "on": "C74040030000008B584090E91F8800FF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "61B829",
+          "on": "E9D277FF0090",
+          "off": "8B584083E301"
+        }
+      ]
+    },
+    {
+      "name": "Weapon 无限弹药 (Manual / Press R1 from weapon slot)",
+      "description": "All 无限弹药 should be 回合 off",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "1613030",
+          "on": "488B8300010000C6404003E9F4FEFCFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "5E2F29",
+          "on": "E902010301909090909090",
+          "off": "488B8300010000F6404001"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Alert",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "13CA874",
+          "on": "9090909090",
+          "off": "E867470000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite 电池",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "10FAB13",
+          "on": "480F4ECA",
+          "off": "480F4DCA"
+        },
+        {
+          "offset": "1018C7A",
+          "on": "0FBF88540B0000",
+          "off": "0FBF88520B0000"
+        }
+      ]
+    },
+    {
+      "name": "Character 速度",
+      "description": "if 相机 doesnt 招式 upon 退出 or entering stage, 回合 off this cheat and re enter the stage",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "1613060",
+          "on": "41BE0A0000004589B72C010000458BB72C010000E933539FFF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10083A5",
+          "on": "E9B6AC60009090",
+          "off": "458BB72C010000"
+        }
+      ]
+    },
+    {
+      "name": "Game 速度",
+      "description": "if 相机 doesnt 招式 upon 退出 or entering stage, 回合 off this cheat and re enter the stage",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "C2D394",
+          "on": "C4E279180D639E1901",
+          "off": "C4E279180D5F9F1901"
+        }
+      ]
+    },
+    {
+      "name": "Random DP",
+      "description": "",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "573CE9",
+          "on": "C4E27D400562DA3A01",
+          "off": "C4E27D40054EDA3A01"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "d01v"
+  ]
+}

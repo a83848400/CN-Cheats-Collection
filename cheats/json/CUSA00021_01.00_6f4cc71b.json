@@ -1,12 +1,17 @@
 {
-  "name": "Watch Dogs",
+  "name": "Watch Dogs｜看门狗",
   "id": "CUSA00021",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "459B827",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo/Gadgets",
-      "type": "checkbox",
+      "name": "无限弹药/Gadgets",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "376732",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip/No Reload",
-      "type": "checkbox",
+      "name": "无底夹/无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3B3C06",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Infinite Ammo/Gadgets",
-      "type": "checkbox",
+      "name": "最大 无限弹药/Gadgets",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "459B800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points/Cash",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分/Cash",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858D00",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Earn Skill Points/Cash on Spend",
-      "type": "checkbox",
+      "name": "Earn Skill 得分/Cash on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "858D00",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Infinite Skill Points/Cash",
-      "type": "checkbox",
+      "name": "最大 Infinite Skill 得分/Cash",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "459B812",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Max Infinite Battery",
-      "type": "checkbox",
+      "name": "最大 Infinite 电池",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C0732",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Max Infinite Focus",
-      "type": "checkbox",
+      "name": "最大 无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "459B848",

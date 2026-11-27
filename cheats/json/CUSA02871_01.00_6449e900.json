@@ -1,12 +1,17 @@
 {
-  "name": "Shadow of the Beast",
+  "name": "暗影 of the 野兽",
   "id": "CUSA02871",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "ED183",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Blood",
-      "type": "checkbox",
+      "name": "无尽之血",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEB800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Inf Wrath of Aarbron",
-      "type": "checkbox",
+      "name": "《阿尔布隆的无尽之怒》",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E5E9D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Inf Mana (Enable only in Wisdom of Shadows)",
-      "type": "checkbox",
+      "name": "无限法力 (Enable only in Wisdom of Shadows)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEB800",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Inf Elixir",
-      "type": "checkbox",
+      "name": "Infinite 灵药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEB819",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Inf Shadow Stones",
-      "type": "checkbox",
+      "name": "Infinite 暗影 Stones",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3BEB819",

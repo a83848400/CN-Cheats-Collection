@@ -1,13 +1,18 @@
 {
-  "name": "Armored Core VI: Fires of Rubicon",
+  "name": "装甲核心 VI: Fires of Rubicon",
   "id": "PPSA06774",
   "version": "01.009.000",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Ammo",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限弹药",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "FCF84A",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Hp And Onehitkill",
+      "name": "无限血量 And 一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB022",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Hp",
+      "name": "无限血量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB05B",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Medkits",
+      "name": "无限医疗包",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB090",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB0C0",
@@ -85,9 +90,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FCCB0F2",

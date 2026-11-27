@@ -6,7 +6,15 @@
   <Genres Name="RPG" />
   <Genres Name="Shooter" />
   <Items />
-  <Cheat Text="Bottomless Clip" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Bottomless Clip｜无底夹" Description="">
     <Cheatline>
       <Offset>A4DF66</Offset>
       <Section>0</Section>
@@ -14,7 +22,7 @@
       <ValueOff>2B-95-38-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weight" Description="">
+  <Cheat Text="Infinite 重量" Description="">
     <Cheatline>
       <Offset>10BC26</Offset>
       <Section>0</Section>
@@ -22,7 +30,7 @@
       <ValueOff>41-8B-44-24-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Perkpoints" Description="">
+  <Cheat Text="Infinite Perkpoints｜无限奖励点数" Description="">
     <Cheatline>
       <Offset>B0B605</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>FE-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ignore Perkpoints" Description="">
+  <Cheat Text="Ignore Perkpoints｜忽略“Perkpoints”" Description="">
     <Cheatline>
       <Offset>824A4E</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>0F-B6-80-C1-0B-00-00</ValueOff>
     </Cheatline>
   </Cheat>    
-  <Cheat Text="Infinite Ammo/Items" Description="">
+  <Cheat Text="无限弹药/Items" Description="">
     <Cheatline>
       <Offset>21C7810</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-4A-20-C3-90</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items on Use" Description="">
+  <Cheat Text="最大 Items on Use" Description="">
     <Cheatline>
       <Offset>109483</Offset>
       <Section>0</Section>
@@ -66,7 +74,7 @@
       <ValueOff>8B-4F-0C-01-C1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite HP, Stamina_shared" Description="">
+  <Cheat Text="无限血量, Stamina_shared" Description="">
     <Cheatline>
       <Offset>A3D617</Offset>
       <Section>0</Section>

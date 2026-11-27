@@ -1,12 +1,17 @@
 {
-  "name": "Middle-Earth: Shadow of War",
+  "name": "Middle-土: 暗影 of War",
   "id": "CUSA04402",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E4700A",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
-      "type": "checkbox",
+      "name": "Infinite Arrows｜箭矢无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "106975F",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "E5EC2F",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "Infinite Skillpoints｜无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1712CAB",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Silver Money",
-      "type": "checkbox",
+      "name": "无限之银 金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "171116A",

@@ -1,13 +1,18 @@
 {
-  "name": "Forager",
+  "name": "Forager｜采集者",
   "id": "CUSA13967",
   "version": "04.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AA1C76",
@@ -52,9 +57,9 @@
       ]
     },
     {
-      "name": "Infinite Energy",
+      "name": "Infinite Energy｜无限能量",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "408376",
@@ -74,9 +79,9 @@
       ]
     },
     {
-      "name": "Infinite Coins",
-      "hint": "Pick up a coin to max it out.",
-      "type": "checkbox",
+      "name": "Infinite Coins｜无限金币",
+      "hint": "拾取 a coin to 最大 it out.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "229B089",
@@ -96,9 +101,9 @@
       ]
     },
     {
-      "name": "Infinite Inventory Items",
-      "hint": "Pick up a item to max out its amount.",
-      "type": "checkbox",
+      "name": "Infinite 背包 Items",
+      "hint": "拾取 a 物品 to 最大 out its amount.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1AB0DD5",
@@ -128,9 +133,9 @@
       ]
     },
     {
-      "name": "Instant Level Up",
-      "hint": "Earn any XP to level up to max instantly.",
-      "type": "checkbox",
+      "name": "Instant Level Up｜瞬间升级",
+      "hint": "Earn any XP to 升级 to 最大 instantly.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "229B089",

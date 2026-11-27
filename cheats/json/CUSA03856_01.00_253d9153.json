@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil 6",
+  "name": "生化危机 6",
   "id": "CUSA03856",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Health｜生命最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "712424",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B324D0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Inf Ammo Items",
-      "type": "checkbox",
+      "name": "最大 无限弹药 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B323ED",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Max Stamina - Air ????",
-      "type": "checkbox",
+      "name": "体力最大 - Air ????",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "79DAC3",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Skill Points on Spend",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6A771C",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Auto Escape from Grab",
-      "type": "checkbox",
+      "name": "Auto Escape from Grab｜从Grab自动退出",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DF9D1",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Freeze Countup Timer - Story",
-      "type": "checkbox",
+      "name": "Freeze Countup 计时器 - Story",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "B22EE3",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "Freeze Countdown Timer-Mercenaries",
-      "type": "checkbox",
+      "name": "Freeze Countdown 计时器-雇佣兵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14A568",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Combo Count Never Dec-Mercenaries",
-      "type": "checkbox",
+      "name": "Combo Count Never Dec-雇佣兵",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14AFBD",

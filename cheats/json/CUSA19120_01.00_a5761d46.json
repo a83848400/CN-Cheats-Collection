@@ -1,12 +1,17 @@
 {
-  "name": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
+  "name": "勇者斗恶龙11 S: Echoes of an Elusive 年龄 - Definitive Edition",
   "id": "CUSA19120",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Infinite Gold Coins",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大 无限金币 角落",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Item Usage",
-      "type": "checkbox",
+      "name": "Infinite 物品 Usage",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1019FE1",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Skill Points",
-      "type": "checkbox",
+      "name": "最大 Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5F9B815",

@@ -1,12 +1,17 @@
 {
-  "name": "Final Fantasy XII: The Zodiac Age",
+  "name": "最终幻想 XII: The 星座 年龄",
   "id": "CUSA05531",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "99999999 GIL",
-      "type": "button",
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "99999999 基尔",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "2902148",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "99999 HP For All Characters",
-      "type": "button",
+      "name": "99999 手机 For All Characters",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "29044D8",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Max Van XP",
-      "type": "button",
+      "name": "最大 Van XP",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "29044D4",

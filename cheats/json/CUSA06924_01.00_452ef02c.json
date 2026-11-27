@@ -1,13 +1,18 @@
 {
-  "name": "Alchemic Jousts",
+  "name": "Alchemic Jousts｜炼金术比武",
   "id": "CUSA06924",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Get Reagents For Spending Them",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Get Reagents For Spending Them｜获取试剂以便消耗它们",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "70D6A5",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Get Clues For Spending Them",
+      "name": "Get Clues For Spending Them｜获取消费提示",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "70F238",

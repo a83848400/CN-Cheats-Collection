@@ -1,12 +1,17 @@
 {
-  "name": "Saint Seiya: Soldiers' Soul",
+  "name": "Saint Seiya: 士兵' Soul",
   "id": "CUSA02437",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode 1P",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "神模式 1P",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "322F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Cosmo 1P",
-      "type": "checkbox",
+      "name": "Infinite Cosmo 1P",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "322F822",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Inf 7th Sense 1P",
-      "type": "checkbox",
+      "name": "最大 Infinite 7th Sense 1P",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "237E3",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "322F844",

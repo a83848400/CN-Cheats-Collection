@@ -1,13 +1,18 @@
 {
-  "name": "Wolfenstein: The New Order",
+  "name": "Wolfenstein: The New Order｜《德军总部：新秩序》",
   "id": "CUSA00320",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C66AFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
+      "name": "Infinite Ammo｜无限弹药",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10942A1",

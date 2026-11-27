@@ -1,13 +1,18 @@
 {
-  "name": "Valentino Rossi The Game",
+  "name": "Valentino Rossi The Game｜瓦伦蒂诺·罗西：游戏",
   "id": "CUSA05164",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Opponents don't move",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Opponents don'恐怖分子 招式",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "521D87",

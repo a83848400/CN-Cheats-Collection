@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Grand Kingdom" Moder="Molly" Cusa="CUSA04630" Version="01.00" Process="eboot.bin">
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Max Money ">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Max Money ｜金钱最大">
     <Cheatline>
       <Offset>707800</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>89-88-24-A0-05-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Action Points">
+  <Cheat Text="最大 行动点">
     <Cheatline>
       <Offset>707820</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>41-89-86-04-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Have All Items ~After Buy No Weapos Or Gear~">
+  <Cheat Text="Have 所有商品 ~After Buy No Weapos Or 挡位~">
     <Cheatline>
       <Offset>707831</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>43-89-44-3E-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Tp">
+  <Cheat Text="最大 轮胎气压">
     <Cheatline>
       <Offset>707840</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>41-89-8C-17-C8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Morale">
+  <Cheat Text="最大 Morale">
     <Cheatline>
       <Offset>707863</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>89-BC-31-64-FA-03-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Bonus Points">
+  <Cheat Text="Infinite Bonus 得分">
     <Cheatline>
       <Offset>707887</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>41-01-97-2C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Quick Level Up">
+  <Cheat Text="Quick 升级">
     <Cheatline>
       <Offset>707896</Offset>
       <Section>0</Section>

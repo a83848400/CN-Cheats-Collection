@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Wasteland 2: Director's Cut" Moder="wander fw9.00" Cusa="CUSA02431" Version="01.03" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Items x20 (on use)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Items x20 (on use)｜物品 x20（使用时）">
     <Cheatline>
       <Offset>831ABD80</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>41-89-44-24-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AP While Moving">
+  <Cheat Text="无限能力点 While Moving">
     <Cheatline>
       <Offset>831ABDD0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>89-88-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>831ABE20</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>89-48-30-4C-8B-34-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AP While Shooting">
+  <Cheat Text="无限能力点 While 射门">
     <Cheatline>
       <Offset>831ABE60</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>89-88-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AP While Loading">
+  <Cheat Text="无限能力点 While 加载中">
     <Cheatline>
       <Offset>831ABEA0</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>89-88-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AP while using items">
+  <Cheat Text="无限能力点 while using items">
     <Cheatline>
       <Offset>831ABF00</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>89-88-5C-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Water on the Map (turn off scrap cheat)">
+  <Cheat Text="水无限 on the 地图 (回合 off scrap cheat)">
     <Cheatline>
       <Offset>831ABF80</Offset>
       <Section>0</Section>
@@ -100,7 +108,7 @@
       <ValueOff>48-63-4C-24-08-89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Experience (at the end of battle)">
+  <Cheat Text="最大 Experience (at the 末地 of 战斗)">
     <Cheatline>
       <Offset>831ABB00</Offset>
       <Section>0</Section>
@@ -114,7 +122,7 @@
       <ValueOff>41-89-84-24-4C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill points after Commiting points">
+  <Cheat Text="Infinite Skill 得分 after Commiting 得分">
     <Cheatline>
       <Offset>831ABB60</Offset>
       <Section>0</Section>
@@ -128,7 +136,7 @@
       <ValueOff>45-89-BE-38-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Perk points">
+  <Cheat Text="Infinite 技能 得分">
     <Cheatline>
       <Offset>831ABBC0</Offset>
       <Section>0</Section>
@@ -142,7 +150,7 @@
       <ValueOff>45-89-BE-B4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Attribute points after Commiting points">
+  <Cheat Text="Infinite 属性 得分 after Commiting 得分">
     <Cheatline>
       <Offset>831ABC20</Offset>
       <Section>0</Section>
@@ -156,7 +164,7 @@
       <ValueOff>45-89-BE-DC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Scrap on buy (turn off water cheat)">
+  <Cheat Text="废料最大 on buy (回合 off 水 cheat)">
     <Cheatline>
       <Offset>831AB520</Offset>
       <Section>0</Section>

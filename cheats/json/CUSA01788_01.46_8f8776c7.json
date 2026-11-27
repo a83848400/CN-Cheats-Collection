@@ -1,12 +1,17 @@
 {
-  "name": "Tom Clancy's Rainbow Six Siege",
+  "name": "Tom Clancy's 彩虹六号：围攻",
   "id": "CUSA01788",
   "version": "01.46",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "523B800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "523B812",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades",
-      "type": "checkbox",
+      "name": "Infinite Grenades｜手雷无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "523B81F",

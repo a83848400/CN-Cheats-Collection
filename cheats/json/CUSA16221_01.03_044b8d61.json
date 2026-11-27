@@ -1,12 +1,17 @@
 {
-  "name": "Streets of Rage 4",
+  "name": "Streets of 怒气 4",
   "id": "CUSA16221",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP All  Players (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 All  Players (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32602A0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "1 Hit Kill (With Master Code) ",
-      "type": "checkbox",
+      "name": "一击必杀 (With Master 密码) ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32602C8",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Disable P1 Infinite HP (With Master Code)",
-      "type": "checkbox",
+      "name": "Disable P1 无限血量 (With Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32602A8",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Disable P2 Infinite HP (With Master Code)",
-      "type": "checkbox",
+      "name": "Disable P2 无限血量 (With Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32602B0",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Disable P3 Infinite HP (With Master Code)",
-      "type": "checkbox",
+      "name": "Disable P3 无限血量 (With Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32602B8",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Disable P4 Infinite HP (With Master Code)",
-      "type": "checkbox",
+      "name": "Disable P4 无限血量 (With Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "32602C0",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Stars",
-      "type": "checkbox",
+      "name": "Infinite Stars｜无限无敌星",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3260300",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Lives",
-      "type": "checkbox",
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3260330",

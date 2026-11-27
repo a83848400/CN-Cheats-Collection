@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Unlimited Items">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Unlimited Items｜物品数量无限">
     <Cheatline>
       <Offset>B36311</Offset>
       <Section>0</Section>
@@ -11,7 +19,7 @@
       <ValueOff>66-89-9C-16-74-5D-10-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Anima">
+  <Cheat Text="Unlimited Anima｜无限灵力">
     <Cheatline>
       <Offset>92C64C</Offset>
       <Section>0</Section>
@@ -19,7 +27,7 @@
       <ValueOff>C5-FA-11-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Yokai Shift Duration">
+  <Cheat Text="Unlimited 妖怪化 Duration">
     <Cheatline>
       <Offset>9D801D</Offset>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>C5-FA-5C-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Health">
+  <Cheat Text="Unlimited 生命">
     <Cheatline>
       <Offset>2289330</Offset>
       <Section>0</Section>
@@ -41,7 +49,7 @@
       <ValueOff>49-8B-47-20-48-85-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Ki">
+  <Cheat Text="Unlimited 气">
     <Cheatline>
       <Offset>2289348</Offset>
       <Section>0</Section>
@@ -55,7 +63,7 @@
       <ValueOff>C4-C1-7A-10-47-48</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Sentience">
+  <Cheat Text="Unlimited Sentience｜无限的感知力">
     <Cheatline>
       <Offset>89D485</Offset>
       <Section>0</Section>
@@ -63,7 +71,7 @@
       <ValueOff>C4-E3-69-4A-C0-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Weapon Proficiency">
+  <Cheat Text="最大 Weapon 熟练">
     <Cheatline>
       <Offset>B0DAB7</Offset>
       <Section>0</Section>
@@ -71,7 +79,7 @@
       <ValueOff>41-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text=" Max Weapon Familiarity">
+  <Cheat Text=" 最大 Weapon Familiarity">
     <Cheatline>
       <Offset>F23FE9</Offset>
       <Section>0</Section>
@@ -79,7 +87,7 @@
       <ValueOff>45-89-77-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max amrita">
+  <Cheat Text="最大 精华">
     <Cheatline>
       <Offset>B0CE17</Offset>
       <Section>0</Section>
@@ -87,7 +95,7 @@
       <ValueOff>49-89-07</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="friand never go">
+  <Cheat Text="friand never go｜friand 永远不会去">
     <Cheatline>
       <Offset>AEBFB4</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>03-B7-60-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Unlimited Shortcut Items">
+  <Cheat Text="Unlimited Shortcut Items｜无限快捷方式项目">
     <Cheatline>
       <Offset>BF74DE</Offset>
       <Section>0</Section>
@@ -103,7 +111,7 @@
       <ValueOff>41-29-CB</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="frind infinte hp">
+  <Cheat Text="frind infinte 手机">
     <Cheatline>
       <Offset>FBDA16</Offset>
       <Section>0</Section>
@@ -111,7 +119,7 @@
       <ValueOff>49-8B-44-24-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inc glory">
+  <Cheat Text="inc glory｜inc glory简体中文（大陆）">
     <Cheatline>
       <Offset>BE5F31</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>89-8B-BC-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Yokai Shift Duration no cooldown">
+  <Cheat Text="妖怪化 Duration 无冷却">
     <Cheatline>
       <Offset>924063</Offset>
       <Section>0</Section>
@@ -127,7 +135,7 @@
       <ValueOff>C5-EA-5C-E1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inc itme">
+  <Cheat Text="inc itme｜推入">
     <Cheatline>
       <Offset>B36311</Offset>
       <Section>0</Section>

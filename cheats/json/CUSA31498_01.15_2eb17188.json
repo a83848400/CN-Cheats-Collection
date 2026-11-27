@@ -1,13 +1,18 @@
 {
-  "name": "Street Fighter 6",
+  "name": "Street Fighter 6｜街头霸王6",
   "id": "CUSA31498",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "Activate Inf Life OR One Hit kill (After Tutorial)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "Activate 无限生命 OR 一击必杀 (After Tutorial)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CE92FFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Life",
+      "name": "无限生命",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CE93000",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Inf Money",
+      "name": "金钱无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CE93038",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Inf Items",
+      "name": "道具无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CE9306B",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "One Hit Kill｜一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CE9309C",

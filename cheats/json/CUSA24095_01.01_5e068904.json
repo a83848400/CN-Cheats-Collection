@@ -1,12 +1,17 @@
 {
-  "name": "Ninja Gaiden: Master Collection",
+  "name": "忍者龙剑传: Master Collection",
   "id": "CUSA24095",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "17ADFE0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Ki",
-      "type": "checkbox",
+      "name": "Ki｜气",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A13017",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Karma",
-      "type": "checkbox",
+      "name": "Karma｜评价分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A36EE0",

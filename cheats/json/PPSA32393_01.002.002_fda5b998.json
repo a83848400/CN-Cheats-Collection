@@ -1,13 +1,18 @@
 {
-  "name": "Total Chaos",
+  "name": "Total 混沌",
   "id": "PPSA32393",
   "version": "01.002.002",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Hp",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "803234B0",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Stamina",
+      "name": "无限耐力",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80322BBC",
@@ -39,9 +44,9 @@
       ]
     },
     {
-      "name": "No Weight",
+      "name": "No 重量",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "802BBD90",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "No Hunger",
+      "name": "No Hunger｜不会饥饿",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80325150",
@@ -63,9 +68,9 @@
       ]
     },
     {
-      "name": "Inf Durability",
+      "name": "装备耐久无限",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8045A330",
@@ -75,9 +80,9 @@
       ]
     },
     {
-      "name": "Inf Items At Use",
+      "name": "道具无限 At Use",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C37000",
@@ -92,9 +97,9 @@
       ]
     },
     {
-      "name": "Inf Items At Pick",
+      "name": "道具无限 At Pick",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C3702D",
@@ -109,9 +114,9 @@
       ]
     },
     {
-      "name": "Inf Ammo",
+      "name": "无限弹药",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8046021A",

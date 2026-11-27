@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dying Light 2: Stay Human" Moder="Ali-mk" Cusa="CUSA12555" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>30C1AC1</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>FF-91-A0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Stamina">
+  <Cheat Text="Infinite-体力">
     <Cheatline>
       <Offset>267866D</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible">
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>1869EA6</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>E8-F5-AE-F4-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-scrap-metal">
+  <Cheat Text="Infinite-scrap-金属">
     <Cheatline>
       <Offset>25F3F89</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>E8-C2-7B-D6-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf-gold-coin">
+  <Cheat Text="Infinite-金币-coin">
     <Cheatline>
       <Offset>25F40FF</Offset>
       <Section>0</Section>
@@ -42,7 +50,7 @@
       <ValueOff>E8-4C-7A-D6-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="max-gold-(mc)">
+  <Cheat Text="最大-金币-(mc)">
     <Cheatline>
       <Offset>57AB800</Offset>
       <Section>0</Section>
@@ -56,7 +64,7 @@
       <ValueOff>89-57-34-E8-FD-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="One-Hit-Kill">
+  <Cheat Text="One-Hit-Kill｜一击必杀">
     <Cheatline>
       <Offset>1931890</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-FA-10-47-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Immunity">
+  <Cheat Text="Infinite-Immunity｜无限免疫">
     <Cheatline>
       <Offset>2648851</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>C4-C1-7A-11-47-2C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze-Daytime">
+  <Cheat Text="Freeze-Daytime｜冻结-白天">
     <Cheatline>
       <Offset>2085D03</Offset>
       <Section>0</Section>

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Gravity Rush 2" Moder="Weysincha" Cusa="CUSA04943" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>12BB140</Offset>
       <Section>0</Section>
@@ -9,7 +17,7 @@
       <ValueOff>41-01-86-74-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gravity">
+  <Cheat Text="Infinite Gravity｜无限重力">
     <Cheatline>
       <Offset>52D7F2</Offset>
       <Section>0</Section>

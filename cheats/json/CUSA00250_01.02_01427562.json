@@ -1,12 +1,17 @@
 {
-  "name": "Thief",
+  "name": "Thief｜盗贼",
   "id": "CUSA00250",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23BF817",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Stealth Mode ( Dont touch Enemy )",
-      "type": "checkbox",
+      "name": "隐身模式 ( Dont touch Enemy )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "C65695",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Focus",
-      "type": "checkbox",
+      "name": "Infinite Focus｜无限专注值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23BF826",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Money ( on gain )",
-      "type": "checkbox",
+      "name": "金钱最大 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23BF800",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Items ( on gain )",
-      "type": "checkbox",
+      "name": "道具无限 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "23BF80C",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8124F2",

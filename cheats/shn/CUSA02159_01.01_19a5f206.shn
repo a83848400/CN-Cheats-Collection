@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Onechanbara Z2: Chaos" Moder="GamerX2" Cusa="CUSA02159" Version="01.01" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Max Money and Skill points">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="金钱最大 and Skill 得分">
     <Cheatline>
       <Offset>545F9988</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>99-91-94-66</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cure Gem">
+  <Cheat Text="最大 Cure Gem">
     <Cheatline>
       <Offset>545F92E8</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>99</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Goddess Statue Shard">
+  <Cheat Text="最大 Goddess 雕像 碎片">
     <Cheatline>
       <Offset>545F92FC</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>99</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Power Gem">
+  <Cheat Text="最大 电力 Gem">
     <Cheatline>
       <Offset>545F92EC</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>99</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Master Code Speed Hack and Super Sprints D-PAD activate first before any other cheat">
+  <Cheat Text="Master 密码 速度 Hack and Super Sprints D-PAD activate first before any 他 cheat">
     <Cheatline>
       <Offset>A3FC00</Offset>
       <Section>0</Section>
@@ -60,7 +68,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf HP">
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>4B40FD</Offset>
       <Section>0</Section>
@@ -68,7 +76,7 @@
       <ValueOff>C5-FA-11-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>A3FCFD</Offset>
       <Section>0</Section>
@@ -82,7 +90,7 @@
       <ValueOff>C5-FA-11-40-68</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Orbs">
+  <Cheat Text="无限之球">
     <Cheatline>
       <Offset>A3FD1B</Offset>
       <Section>0</Section>
@@ -96,7 +104,7 @@
       <ValueOff>89-98-F8-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Items">
+  <Cheat Text="道具无限">
     <Cheatline>
       <Offset>A3FD2D</Offset>
       <Section>0</Section>
@@ -110,7 +118,7 @@
       <ValueOff>89-94-81-54-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Energy">
+  <Cheat Text="无限能量">
     <Cheatline>
       <Offset>A3FD40</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>C5-FA-11-80-84-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Blood Bar Stop">
+  <Cheat Text="Blood Bar 停止">
     <Cheatline>
       <Offset>A3FD51</Offset>
       <Section>0</Section>
@@ -138,7 +146,7 @@
       <ValueOff>C5-FA-11-40-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Combo X200">
+  <Cheat Text="Combo 两百">
     <Cheatline>
       <Offset>A3FD5D</Offset>
       <Section>0</Section>
@@ -152,7 +160,7 @@
       <ValueOff>41-89-54-24-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Continuous Hit X300">
+  <Cheat Text="Continuous Hit X300｜连续命中 X300">
     <Cheatline>
       <Offset>A3FD6E</Offset>
       <Section>0</Section>
@@ -166,7 +174,7 @@
       <ValueOff>FF-C2-89-53-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Action Score point 99999999">
+  <Cheat Text="Action 比分 point 99999999">
     <Cheatline>
       <Offset>A3FD7D</Offset>
       <Section>0</Section>
@@ -180,7 +188,7 @@
       <ValueOff>41-8B-8F-C8-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Blood On Weapon">
+  <Cheat Text="No Blood On Weapon｜武器上没有血迹">
     <Cheatline>
       <Offset>4B3F22</Offset>
       <Section>0</Section>
@@ -188,7 +196,7 @@
       <ValueOff>C5-FA-11-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible">
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>4B447E</Offset>
       <Section>0</Section>
@@ -196,7 +204,7 @@
       <ValueOff>0F-95-C0</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Hack L2+D-PAD Left Dec/Right Inc">
+  <Cheat Text="速度 Hack L2+D-PAD Left Dec/Right Inc">
     <Cheatline>
       <Offset>A3FCCC</Offset>
       <Section>0</Section>
@@ -210,7 +218,7 @@
       <ValueOff>48-8D-05-B5-C4-58-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Super Sprints R1+D-PAD Left Dec/Right Inc">
+  <Cheat Text="Super Sprints R1+D-PAD Left Dec/Right Inc｜超级冲刺 R1+方向键 左减/右增">
     <Cheatline>
       <Offset>A3FCE4</Offset>
       <Section>0</Section>

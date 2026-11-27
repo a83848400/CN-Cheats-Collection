@@ -1,0 +1,122 @@
+{
+  "name": "Sea of Stars｜星海",
+  "id": "PPSA07587",
+  "version": "01.013.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量 (队伍 takes 不受伤害)",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "176A4E5",
+          "on": "0F1F4000",
+          "off": "412B4610"
+        }
+      ]
+    },
+    {
+      "name": "无限魔力 (skills cost no MP)",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "BA0038",
+          "on": "0F1F00",
+          "off": "4429FE"
+        }
+      ]
+    },
+    {
+      "name": "金钱无限 (spending 金币 does not decrease it)",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "56047D",
+          "on": "85D26690",
+          "off": "2B54242C"
+        }
+      ]
+    },
+    {
+      "name": "道具无限 (using items does not consume them)",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "101EA5B",
+          "on": "0F1F440000",
+          "off": "E860AC5BFF"
+        },
+        {
+          "offset": "12B6A7F",
+          "on": "0F1F440000",
+          "off": "E83C2C32FF"
+        }
+      ]
+    },
+    {
+      "name": "无限连击 得分",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "556FBE",
+          "on": "31C90F1F440000",
+          "off": "694DD418FCFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite 必杀技 (ult meter is not used up)",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "A3065A",
+          "on": "0F1F440000",
+          "off": "E81164B2FF"
+        }
+      ]
+    },
+    {
+      "name": "Cooking does not consume ingredients",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "55E641",
+          "on": "0F1F440000",
+          "off": "E87AB00700"
+        }
+      ]
+    },
+    {
+      "name": "Experience x3",
+      "type": "checkbox｜复选框",
+      "module_name": "Il2CppUserAssemblies.prx",
+      "memory": [
+        {
+          "offset": "373F000",
+          "on": "E8AB5118FD8D0440E91B7519FD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "8D6523",
+          "on": "E9D88AE602",
+          "off": "E888DCFEFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dang3rZone"
+  ]
+}

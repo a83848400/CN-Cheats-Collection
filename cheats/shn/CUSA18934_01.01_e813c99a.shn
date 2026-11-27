@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Everreach: Project Eden" Moder="Reddevil82" Cusa="CUSA18934" Version="01.01" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Offset>7FC5F000</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-4B-44</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Shield" Description="Infinite Shield">
+  <Cheat Text="Infinite Shield｜无限护盾" Description="Infinite Shield">
     <Cheatline>
       <Offset>7FC5F02F</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FA-11-5B-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="Infinite Stamina">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="Infinite Stamina">
     <Cheatline>
       <Offset>7FC5F05E</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>C5-FA-11-43-3C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Riffle" Description="Max Ammo Riffle">
+  <Cheat Text="弹药最大化 Riffle" Description="Max Ammo Riffle">
     <Cheatline>
       <Offset>7FC6FF00</Offset>
       <Section>0</Section>
@@ -64,7 +72,7 @@
       <ValueOff>C5-F2-2A-80-F4-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Clip Riffle" Description="Max Ammo Clip Riffle">
+  <Cheat Text="弹药最大化 Clip Riffle" Description="Max Ammo Clip Riffle">
     <Cheatline>
       <Offset>7FC6FF04</Offset>
       <Section>0</Section>
@@ -84,7 +92,7 @@
       <ValueOff>C5-FA-2A-80-EC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Pistol" Description="Max Ammo Pistol">
+  <Cheat Text="弹药最大化 手枪" Description="Max Ammo Pistol">
     <Cheatline>
       <Offset>7FC6FF08</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>C5-FA-2A-88-F0-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Ammo Pistol Clip" Description="Max Ammo Pistol Clip">
+  <Cheat Text="弹药最大化 手枪 Clip" Description="Max Ammo Pistol Clip">
     <Cheatline>
       <Offset>7FC6FF0C</Offset>
       <Section>0</Section>
@@ -124,7 +132,7 @@
       <ValueOff>C5-FA-2A-90-E8-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Liquid Nitrogen" Description="Max Liquid Nitrogen">
+  <Cheat Text="最大 Liquid Nitrogen" Description="Max Liquid Nitrogen">
     <Cheatline>
       <Offset>7FC6FF10</Offset>
       <Section>0</Section>
@@ -144,7 +152,7 @@
       <ValueOff>41-39-98-E8-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max EM Coil" Description="Max EM Coil">
+  <Cheat Text="最大 精通 Coil" Description="Max EM Coil">
     <Cheatline>
       <Offset>7FC6FF14</Offset>
       <Section>0</Section>
@@ -164,7 +172,7 @@
       <ValueOff>45-39-88-EC-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Energy Cell" Description="Max Energy Cell">
+  <Cheat Text="最大 能量 Cell" Description="Max Energy Cell">
     <Cheatline>
       <Offset>7FC6FF18</Offset>
       <Section>0</Section>
@@ -184,7 +192,7 @@
       <ValueOff>45-39-90-F0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Skillpoints" Description="Max Skillpoints">
+  <Cheat Text="最大 技能点" Description="Max Skillpoints">
     <Cheatline>
       <Offset>7FC6FF1C</Offset>
       <Section>0</Section>
@@ -204,7 +212,7 @@
       <ValueOff>41-8B-B7-54-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level" Description="Max Level">
+  <Cheat Text="Max Level｜等级最大" Description="Max Level">
     <Cheatline>
       <Offset>7FC6FF20</Offset>
       <Section>0</Section>
@@ -224,7 +232,7 @@
       <ValueOff>41-8B-B7-50-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Walk Speed Multiplier Mastercode" Description="Walk Speed Multiplier Mastercode">
+  <Cheat Text="Walk 速度 Multiplier 主代码" Description="Walk Speed Multiplier Mastercode">
     <Cheatline>
       <Offset>7FC5F29E</Offset>
       <Section>0</Section>
@@ -238,7 +246,7 @@
       <ValueOff>C5-FA-10-83-C4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Walk Multiplier x 1 [ MC ]" Description="Walk Multiplier x 1 [ MC ]">
+  <Cheat Text="Walk Multiplier 艾克斯 1 [ MC ]" Description="Walk Multiplier x 1 [ MC ]">
     <Cheatline>
       <Offset>7FC6FF24</Offset>
       <Section>0</Section>

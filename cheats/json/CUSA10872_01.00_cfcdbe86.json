@@ -1,12 +1,17 @@
 {
-  "name": "Shadow of the Tomb Raider",
+  "name": "暗影 of the 古墓丽影",
   "id": "CUSA10872",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18E3800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Breath",
-      "type": "checkbox",
+      "name": "Infinite Breath｜无限呼吸",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EDA44A",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Max Ammo/Items",
-      "type": "checkbox",
+      "name": "弹药最大化/Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "D6DAD1",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip/Infinite Skillpoints",
-      "type": "checkbox",
+      "name": "无底夹/无限技能点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "DCB999",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Easy XP",
-      "type": "checkbox",
+      "name": "简单 XP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "125E868",

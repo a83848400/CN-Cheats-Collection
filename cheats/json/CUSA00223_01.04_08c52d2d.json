@@ -1,13 +1,18 @@
 {
-  "name": "inFamous: Second Son",
+  "name": "inFamous: Second Son｜《inFamous：Second Son》",
   "id": "CUSA00223",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C5732",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Energy",
+      "name": "Infinite Energy｜无限能量",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5C49A2",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Infinite Skillpoints / Shards",
+      "name": "无限技能点 / Shards",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "598061",
@@ -41,9 +46,9 @@
       ]
     },
     {
-      "name": "Infinite Bombs / Rockets",
+      "name": "Infinite Bombs / Rockets｜无限炸弹/火箭",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "598F18",
@@ -53,9 +58,9 @@
       ]
     },
     {
-      "name": "Max Level True Hero",
+      "name": "等级最大 True 英雄",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "129BD08",
@@ -65,9 +70,9 @@
       ]
     },
     {
-      "name": "Max Level Infamous",
+      "name": "等级最大 Infamous",
       "hint": null,
-      "type": "button",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "129BD08",

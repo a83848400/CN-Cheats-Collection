@@ -1,12 +1,17 @@
 {
-  "name": "Atomic Heart",
+  "name": "Atomic Heart｜《原子之心》",
   "id": "CUSA37321",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "71533D0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Clip",
-      "type": "checkbox",
+      "name": "Infinite Clip｜无限剪辑",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7153B90",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "999 Neuropolymer (on use only when upgrading your skill and weapons)",
-      "type": "checkbox",
+      "name": "999 Neuropolymer (on use only when upgrading your skill and 武器)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7153B90",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "999 Materials when gaining",
-      "type": "checkbox",
+      "name": "999 Materials when gaining｜获得时获得999点材料",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7153BE0",

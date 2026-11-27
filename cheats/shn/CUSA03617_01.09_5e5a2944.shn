@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>522B800</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-10-46-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Armour on Gain">
+  <Cheat Text="无限护甲 on Gain">
     <Cheatline>
       <Offset>522B84B</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>C5-EA-58-56-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>271BFED</Offset>
       <Section>0</Section>
@@ -39,7 +47,7 @@
       <ValueOff>89-70-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>522B813</Offset>
       <Section>0</Section>
@@ -53,7 +61,7 @@
       <ValueOff>75-03-8B-42-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables">
+  <Cheat Text="Infinite Throwables｜投掷物无限">
     <Cheatline>
       <Offset>271C05B</Offset>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>C7-41-04-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Adrenaline">
+  <Cheat Text="Infinite 肾上腺素">
     <Cheatline>
       <Offset>271D386</Offset>
       <Section>0</Section>
@@ -69,7 +77,7 @@
       <ValueOff>89-47-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Wiretaps/MarkersOnUse">
+  <Cheat Text="最大 Wiretaps/MarkersOnUse">
     <Cheatline>
       <Offset>522B820</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C5-FA-11-47-14</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Earn Money on Spend">
+  <Cheat Text="Earn 金钱 on Spend">
     <Cheatline>
       <Offset>18D9BC9</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>89-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Current Money on Use">
+  <Cheat Text="最大 Current 金钱 on Use">
     <Cheatline>
       <Offset>522B831</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>75-03-8B-01-C3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Total Money on Use">
+  <Cheat Text="最大 Total 金钱 on Use">
     <Cheatline>
       <Offset>522B83E</Offset>
       <Section>0</Section>

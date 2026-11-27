@@ -1,12 +1,17 @@
 {
-  "name": "Dead Rising 4: Frank's Big Package",
+  "name": "丧尸围城 4: 弗兰克's Big Package",
   "id": "CUSA08558",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "God Mode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "God Mode｜神模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AFB800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AFB80D",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Throwables",
-      "type": "checkbox",
+      "name": "Infinite Throwables｜投掷物无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AFB81E",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max EXP/PP on Gain",
-      "type": "checkbox",
+      "name": "经验值最大/招式点数 on Gain",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AFB831",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Infinite Vehicle Health",
-      "type": "checkbox",
+      "name": "Infinite Vehicle Health｜载具无限耐久",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2AFB846",

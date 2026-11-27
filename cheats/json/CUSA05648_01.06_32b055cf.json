@@ -1,12 +1,17 @@
 {
-  "name": "Shadow Warrior 2",
+  "name": "暗影 战士 2",
   "id": "CUSA05648",
   "version": "01.06",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health / (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 / (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1063800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Mana (MC)",
-      "type": "checkbox",
+      "name": "无限法力 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1063896",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No Reload (MC)",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1063848",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Plasma (MC)",
-      "type": "checkbox",
+      "name": "Infinite 等离子 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "106381A",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Max Skill Points 99 (MC)",
-      "type": "checkbox",
+      "name": "最大 Skill 得分 99 (MC)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10638C1",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Max Money 1M (MC)/ Turn Off To Collect More",
-      "type": "checkbox",
+      "name": "金钱最大 1M (MC)/ 回合 Off To Collect More",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1063871",

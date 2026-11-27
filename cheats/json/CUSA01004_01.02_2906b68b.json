@@ -1,12 +1,17 @@
 {
-  "name": "Sleeping Dogs: Definitive Edition",
+  "name": "睡眠 Dogs: Definitive Edition",
   "id": "CUSA01004",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5584B2",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "One-hit kill",
-      "type": "checkbox",
+      "name": "One-命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "558491",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Cash (on get)",
-      "type": "checkbox",
+      "name": "最大 Cash (on get)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "49A6A5",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "No reload (full clip)",
-      "type": "checkbox",
+      "name": "无需换弹 (full clip)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "569721",
@@ -74,8 +79,8 @@
       ]
     },
     {
-      "name": "Full ammo",
-      "type": "checkbox",
+      "name": "Full 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "569E43",

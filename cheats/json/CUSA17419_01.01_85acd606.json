@@ -1,12 +1,17 @@
 {
-  "name": "Persona 5 Royal",
+  "name": "女神异闻录5 Royal",
   "id": "CUSA17419",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite HP｜无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A27800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinte HP + 1hit kill (no reward)",
-      "type": "checkbox",
+      "name": "Infinte 手机 + 一击必杀 (no 报酬)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A2780F",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Change Enemy Code +1 turn off after (Caution)",
-      "type": "checkbox",
+      "name": "Change Enemy 密码 +1 回合 off after (警戒)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EC1837",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Change Enemy Code -1 turn off after (Caution)",
-      "type": "checkbox",
+      "name": "Change Enemy 密码 -1 回合 off after (警戒)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EC1837",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Infinite SP",
-      "type": "checkbox",
+      "name": "Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "380F44",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "99 item",
-      "type": "checkbox",
+      "name": "99 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EBC37C",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Exp + Persona + 99 Stats (hit hero)",
-      "type": "checkbox",
+      "name": "经验值最大 + 人格面具 + 99 属性 (hit 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A27825",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Yen",
-      "type": "checkbox",
+      "name": "Yen｜如果",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "EC1B00",
@@ -108,8 +113,8 @@
       ]
     },
     {
-      "name": "Ammo",
-      "type": "checkbox",
+      "name": "Ammo｜但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "47D54C",
@@ -119,8 +124,8 @@
       ]
     },
     {
-      "name": "Change Persona code +1 (hit hero)",
-      "type": "checkbox",
+      "name": "Change 人格面具 密码 +1 (hit 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A2784F",
@@ -135,8 +140,8 @@
       ]
     },
     {
-      "name": "Change Persona Code -1 (hit hero)",
-      "type": "checkbox",
+      "name": "Change 人格面具 密码 -1 (hit 英雄)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A2785F",
@@ -151,8 +156,8 @@
       ]
     },
     {
-      "name": "Morning",
-      "type": "button",
+      "name": "Morning｜早上好",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "D08C0B",
@@ -162,8 +167,8 @@
       ]
     },
     {
-      "name": "Afternoon",
-      "type": "button",
+      "name": "Afternoon｜下午",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "D08C0B",
@@ -173,8 +178,8 @@
       ]
     },
     {
-      "name": "Evening",
-      "type": "button",
+      "name": "Evening｜傍晚",
+      "type": "button｜按钮",
       "memory": [
         {
           "offset": "D08C0B",
@@ -184,8 +189,8 @@
       ]
     },
     {
-      "name": "Max Social Stats",
-      "type": "checkbox",
+      "name": "最大 人格指数",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A2786F",

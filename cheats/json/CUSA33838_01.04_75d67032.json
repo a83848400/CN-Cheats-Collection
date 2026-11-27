@@ -1,12 +1,17 @@
 {
-  "name": "FINAL FANTASY VI",
+  "name": "最终幻想 VI",
   "id": "CUSA33838",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf HP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F000",
@@ -31,8 +36,8 @@
       ]
     },
     {
-      "name": "Inf MP",
-      "type": "checkbox",
+      "name": "无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F06E",
@@ -47,8 +52,8 @@
       ]
     },
     {
-      "name": "Inf Money",
-      "type": "checkbox",
+      "name": "金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F09E",
@@ -63,8 +68,8 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "type": "checkbox",
+      "name": "道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5F0D1",

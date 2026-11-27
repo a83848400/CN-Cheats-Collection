@@ -1,12 +1,17 @@
 {
-  "name": "SD GUNDAM G GENERATION CROSS RAYS PREMIUM G SOUND EDITION",
+  "name": "SD 高达 G GENERATION 传中 RAYS PREMIUM G SOUND EDITION",
   "id": "CUSA16319",
   "version": "01.65",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinie MP",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinie MP",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FFCC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Money",
-      "type": "checkbox",
+      "name": "Money｜金钱",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "11EB74",

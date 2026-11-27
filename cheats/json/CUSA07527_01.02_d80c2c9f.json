@@ -1,12 +1,17 @@
 {
-  "name": "Hellblade: Senua's Sacrifice",
+  "name": "Hellblade: Senua's 献祭",
   "id": "CUSA07527",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health and 1 hit kill",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 and 一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4E6FFFB",

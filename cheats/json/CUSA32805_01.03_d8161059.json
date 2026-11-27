@@ -1,12 +1,17 @@
 {
-  "name": "Samurai Bringer",
+  "name": "武士 Bringer",
   "id": "CUSA32805",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "[00] Master Code (MUST BE ON!!!)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "[00] Master 密码 (MUST BE ON!!!)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207830",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "[01] Infinite HP",
-      "type": "checkbox",
+      "name": "[01] 无限血量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207600",
@@ -57,8 +62,8 @@
       ]
     },
     {
-      "name": "[02] Infinite SP",
-      "type": "checkbox",
+      "name": "[02] Infinite 精神值",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52079A0",
@@ -68,8 +73,8 @@
       ]
     },
     {
-      "name": "[03] 1 Hit Kill (The Purple Death)",
-      "type": "checkbox",
+      "name": "[03] 一击必杀 (The Purple 死亡)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207650",
@@ -84,8 +89,8 @@
       ]
     },
     {
-      "name": "[04] Player`s Speed x3",
-      "type": "checkbox",
+      "name": "[04] Player`s 速度 x3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207B40",
@@ -100,8 +105,8 @@
       ]
     },
     {
-      "name": "[05] Player`s Megajump",
-      "type": "checkbox",
+      "name": "[05] Player`s Megajump｜[05] 玩家的超级跳跃",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207B00",
@@ -116,8 +121,8 @@
       ]
     },
     {
-      "name": "[06] Player`s Weapons SuperDAMAGE",
-      "type": "checkbox",
+      "name": "[06] Player`s 武器 SuperDAMAGE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207C40",
@@ -132,8 +137,8 @@
       ]
     },
     {
-      "name": "[07] Player`s Weapons SuperSIZE",
-      "type": "checkbox",
+      "name": "[07] Player`s 武器 SuperSIZE",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207C00",
@@ -148,8 +153,8 @@
       ]
     },
     {
-      "name": "[08] 5 Keys",
-      "type": "checkbox",
+      "name": "[08] 5 Keys｜[08] 5个关键点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207960",
@@ -159,8 +164,8 @@
       ]
     },
     {
-      "name": "[09] Infinite Coins (Starts At 66.666)",
-      "type": "checkbox",
+      "name": "[09] 无限金币 (Starts At 66.666)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207910",
@@ -170,8 +175,8 @@
       ]
     },
     {
-      "name": "[10a] Sets and Stops At 1st Day 00:00 AM (Night)",
-      "type": "checkbox",
+      "name": "[10a] Sets and Stops At 1st Day 00:00 AM (夜晚)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52079F0",
@@ -181,8 +186,8 @@
       ]
     },
     {
-      "name": "[10b] Sets and Stops At 1st Day 12:00 PM (Daylight)",
-      "type": "checkbox",
+      "name": "[10b] Sets and Stops At 1st Day 12:00 PM (Daylight)｜[10b] 于第1天中午12:00（夏令时）开始和结束",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52079F0",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "[11] NME Don`t Attack",
-      "type": "checkbox",
+      "name": "[11] NME Don`恐怖分子 攻击",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207A80",
@@ -208,8 +213,8 @@
       ]
     },
     {
-      "name": "[12] NME Don`t Walk/Run",
-      "type": "checkbox",
+      "name": "[12] NME Don`恐怖分子 Walk/Run",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207B80",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "[13] Press L3 To Zoom In/Out (12 Steps)",
-      "type": "checkbox",
+      "name": "[13] Press L3 To 缩放 In/Out (12 Steps)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "52076A0",
@@ -255,8 +260,8 @@
       ]
     },
     {
-      "name": "[14] Game Speed x2 (ON/OFF + Up Arrow Menu)",
-      "type": "checkbox",
+      "name": "[14] 游戏速度×2 (ON/OFF + Up Arrow 菜单)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5207AC0",

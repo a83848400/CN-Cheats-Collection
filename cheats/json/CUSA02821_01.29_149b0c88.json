@@ -1,12 +1,17 @@
 {
-  "name": "Tom Clancy's Ghost Recon: Wildlands",
+  "name": "Tom Clancy's 幽灵行动: Wildlands",
   "id": "CUSA02821",
   "version": "01.29",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Stealth Master Code",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "潜行 Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0577F800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health Player",
-      "type": "checkbox",
+      "name": "无限生命 Player",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "036C5AB0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Blood On Screen",
-      "type": "checkbox",
+      "name": "No Blood On Screen｜屏幕上没有血迹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "036C4E80",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Stealth (Player Only)",
-      "type": "checkbox",
+      "name": "潜行 (Player Only)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0577F800",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Clip Ammo",
-      "type": "checkbox",
+      "name": "Infinite Clip Ammo｜弹夹子弹无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2448B0",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Throwable",
-      "type": "checkbox",
+      "name": "Infinite Throwable｜无限可投掷物",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0577F80E",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0577F837",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Extra Suply [Suply Raid Mission]",
-      "type": "checkbox",
+      "name": "Extra Suply [Suply 团本 Mission]",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "0577F81E",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "Unlock Tier One (On 1st Gain XP)",
-      "type": "checkbox",
+      "name": "解锁 Tier One (On 1st Gain XP)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "495718",

@@ -1,13 +1,18 @@
 {
-  "name": "Like a Dragon: Infinite Wealth",
+  "name": "Like a 小龙: Infinite Wealth",
   "id": "CUSA32137",
   "version": "01.13",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "Please  be sure to read the comment on each individual cheat, if a comment is available. Enjoy! :-)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "Please  be sure to read the comment on each individual cheat, if a comment is available. Enjoy! :-)｜如果有评论，请务必阅读每条作弊码下的评论。祝您玩得开心！ :-)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258EFD0",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Infinite Max HP",
-      "description": "Takes effect when HP value changes during battle",
-      "type": "checkbox",
+      "name": "Infinite 生命值最大",
+      "description": "Takes 效果 when 手机 value changes during 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F020",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite Max MP",
-      "description": "Takes effect when MP value changes during battle",
-      "type": "checkbox",
+      "name": "Infinite 最大 MP",
+      "description": "Takes 效果 when MP value changes during 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F040",
@@ -51,9 +56,9 @@
       ]
     },
     {
-      "name": "Easy Kill",
+      "name": "Easy Kill｜轻松击杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F060",
@@ -68,9 +73,9 @@
       ]
     },
     {
-      "name": "One Hit Kill",
-      "description": "Note that when using this cheat, you may not gain XP and money upon winning the battle.",
-      "type": "checkbox",
+      "name": "One Hit Kill｜一击必杀",
+      "description": "笔记 that when using this cheat, you may not gain XP and 金钱 upon winning the 战斗.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F090",
@@ -95,9 +100,9 @@
       ]
     },
     {
-      "name": "God Mode (Untouchable)",
+      "name": "神模式 (刀枪不入)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F0E0",
@@ -122,9 +127,9 @@
       ]
     },
     {
-      "name": "Stealth Mode",
-      "description": "When activated, any already flagged enemy wont see you. All other NPCs wont get flagged as enemies. Compulsory battles will still be triggered. Disable this cheat if you are already in a battle, or you may not be able to complete the battle.",
-      "type": "checkbox",
+      "name": "Stealth Mode｜隐身模式",
+      "description": "When activated, any already flagged enemy wont see you. All 他 NPCs wont get flagged as enemies. Compulsory battles 意志 still be triggered. Disable this cheat if you are already in a 战斗, or you may not be able to complete the 战斗.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "14ADC60",
@@ -134,9 +139,9 @@
       ]
     },
     {
-      "name": "Max Cash",
-      "description": "This will update your money to 999,999,999 Yen instantly when opening the menu, then the cheat can be disabled and game saved with the amount.",
-      "type": "checkbox",
+      "name": "最大 Cash",
+      "description": "This 意志 update your 金钱 to 999,999,999 如果 instantly when opening the 菜单, then the cheat can be disabled and game saved with the amount.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F130",
@@ -151,9 +156,9 @@
       ]
     },
     {
-      "name": "Infinite Items Usage",
+      "name": "道具无限 Usage",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "503223",
@@ -168,9 +173,9 @@
       ]
     },
     {
-      "name": "Game Speed Multiplier (Movements) Master Code",
-      "description": "Must enable this MC first and then choose only one of the speeds below",
-      "type": "checkbox",
+      "name": "Game 速度 Multiplier (Movements) Master 密码",
+      "description": "Must enable this MC first and then choose only one of the speeds below｜必须先启用此 MC，然后从以下速度中仅选择一种",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C58FE",
@@ -180,9 +185,9 @@
       ]
     },
     {
-      "name": "--Speed x2 (Movements)",
+      "name": "--速度 x2 (Movements)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C5904",
@@ -192,9 +197,9 @@
       ]
     },
     {
-      "name": "--Speed x3 (Movements)",
+      "name": "--速度 x3 (Movements)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C5904",
@@ -204,9 +209,9 @@
       ]
     },
     {
-      "name": "--Speed x4 (Movements)",
+      "name": "--速度 x4 (Movements)",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1C5904",
@@ -216,9 +221,9 @@
       ]
     },
     {
-      "name": "Exp Multiplier (Master Code)",
-      "description": "Must enable this MC first and then choose only one of the multipliers below",
-      "type": "checkbox",
+      "name": "经验 Multiplier (Master 密码)",
+      "description": "Must enable this MC first and then choose only one of the multipliers below｜必须先启用此 MC，然后从以下乘数中仅选择一个",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F150",
@@ -233,9 +238,9 @@
       ]
     },
     {
-      "name": "--Multiplier x100",
+      "name": "--倍率×100",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F163",
@@ -245,9 +250,9 @@
       ]
     },
     {
-      "name": "--Multiplier x1,000",
+      "name": "--倍率×1000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F163",
@@ -257,9 +262,9 @@
       ]
     },
     {
-      "name": "--Multiplier x10,000",
+      "name": "--倍率×10000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F163",
@@ -269,9 +274,9 @@
       ]
     },
     {
-      "name": "--Multiplier x100,000",
+      "name": "--倍率×100000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F163",
@@ -281,9 +286,9 @@
       ]
     },
     {
-      "name": "--Multiplier x1,000,000",
+      "name": "--倍率×1000000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F163",
@@ -293,9 +298,9 @@
       ]
     },
     {
-      "name": "--Multiplier x10,000,000",
+      "name": "--倍率×10000000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F163",
@@ -305,9 +310,9 @@
       ]
     },
     {
-      "name": "Job Exp Multiplier (Master Code)",
-      "description": "Must enable this MC first and then choose only one of the multipliers below",
-      "type": "checkbox",
+      "name": "职业经验倍率 (Master 密码)",
+      "description": "Must enable this MC first and then choose only one of the multipliers below｜必须先启用此 MC，然后从以下乘数中仅选择一个",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F170",
@@ -322,9 +327,9 @@
       ]
     },
     {
-      "name": "--Multiplier x100",
+      "name": "--倍率×100",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F183",
@@ -334,9 +339,9 @@
       ]
     },
     {
-      "name": "--Multiplier x1,000",
+      "name": "--倍率×1000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F183",
@@ -346,9 +351,9 @@
       ]
     },
     {
-      "name": "--Multiplier x10,000",
+      "name": "--倍率×10000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F183",
@@ -358,9 +363,9 @@
       ]
     },
     {
-      "name": "--Multiplier x100,000",
+      "name": "--倍率×100000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F183",
@@ -370,9 +375,9 @@
       ]
     },
     {
-      "name": "--Multiplier x1,000,000",
+      "name": "--倍率×1000000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F183",
@@ -382,9 +387,9 @@
       ]
     },
     {
-      "name": "--Multiplier x10,000,000",
+      "name": "--倍率×10000000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F183",
@@ -394,9 +399,9 @@
       ]
     },
     {
-      "name": "Cash Multiplier (Master Code)",
-      "description": "Must enable this MC first and then choose only one of the multipliers below",
-      "type": "checkbox",
+      "name": "Cash Multiplier (Master 密码)",
+      "description": "Must enable this MC first and then choose only one of the multipliers below｜必须先启用此 MC，然后从以下乘数中仅选择一个",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F190",
@@ -411,9 +416,9 @@
       ]
     },
     {
-      "name": "--Multiplier x100",
+      "name": "--倍率×100",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F1A3",
@@ -423,9 +428,9 @@
       ]
     },
     {
-      "name": "--Multiplier x1,000",
+      "name": "--倍率×1000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F1A3",
@@ -435,9 +440,9 @@
       ]
     },
     {
-      "name": "--Multiplier x10,000",
+      "name": "--倍率×10000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F1A3",
@@ -447,9 +452,9 @@
       ]
     },
     {
-      "name": "--Multiplier x100,000",
+      "name": "--倍率×100000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F1A3",
@@ -459,9 +464,9 @@
       ]
     },
     {
-      "name": "--Multiplier x1,000,000",
+      "name": "--倍率×1000000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F1A3",
@@ -471,9 +476,9 @@
       ]
     },
     {
-      "name": "--Multiplier x10,000,000",
+      "name": "--倍率×10000000",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "258F1A3",

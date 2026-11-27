@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Days Gone" Moder="Celogamez" Cusa="CUSA09175" Version="01.84" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7FC5FEB0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C4-C1-7A-11-87-BC-1F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Endurance/Focus">
+  <Cheat Text="Infinite 耐力/棍势">
     <Cheatline>
       <Offset>7FC5FF00</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C5-FB-5A-C0-C5-FA-11-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items (Don't Use Max Items)">
+  <Cheat Text="道具无限 (Don'恐怖分子 Use 最大 Items)">
     <Cheatline>
       <Offset>1275BB0</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>55</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items (Get Items First/Reload Game)">
+  <Cheat Text="最大 Items (Get Items First/Reload Game)">
     <Cheatline>
       <Offset>7FC5FD70</Offset>
       <Section>0</Section>
@@ -52,7 +60,7 @@
       <ValueOff>85-C0-89-43-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>7FC5FE80</Offset>
       <Section>0</Section>
@@ -90,7 +98,7 @@
       <ValueOff>89-83-00-28-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Suppressor">
+  <Cheat Text="Infinite 消音器">
     <Cheatline>
       <Offset>7FC5FE30</Offset>
       <Section>0</Section>
@@ -104,7 +112,7 @@
       <ValueOff>89-8B-70-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Weapon Durability">
+  <Cheat Text="Infinite Weapon Durability｜武器耐久无限">
     <Cheatline>
       <Offset>7FC5FDE0</Offset>
       <Section>0</Section>
@@ -118,7 +126,7 @@
       <ValueOff>C4-C1-7A-11-80-AC-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bike Durability (Disable On Chase Bike Missions)">
+  <Cheat Text="Infinite Bike 耐用性 (Disable On 追击 Bike Missions)">
     <Cheatline>
       <Offset>7FC5D080</Offset>
       <Section>0</Section>
@@ -132,7 +140,7 @@
       <ValueOff>C4-C1-7A-11-85-D8-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Bike Fuel">
+  <Cheat Text="Infinite Bike Fuel｜无限自行车燃料">
     <Cheatline>
       <Offset>7FC5FDB0</Offset>
       <Section>0</Section>
@@ -146,7 +154,7 @@
       <ValueOff>C4-C1-7A-11-87-D4-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Nitro Turbo ">
+  <Cheat Text="无限氮气 涡轮 ">
     <Cheatline>
       <Offset>7FC5FE00</Offset>
       <Section>0</Section>
@@ -160,7 +168,7 @@
       <ValueOff>C4-C1-7A-11-87-14-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Skill Points">
+  <Cheat Text="Infinite Skill 得分">
     <Cheatline>
       <Offset>E76C29</Offset>
       <Section>0</Section>
@@ -168,7 +176,7 @@
       <ValueOff>2B-91-80-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Level Up/XP On Gain">
+  <Cheat Text="等级最大 Up/XP On Gain">
     <Cheatline>
       <Offset>7FC5F6C0</Offset>
       <Section>0</Section>
@@ -182,7 +190,7 @@
       <ValueOff>89-C2-01-53-50</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Infinite Money(Buy Or Sell) Turn Off Before New Camp">
+  <Cheat Text="最大 金钱无限(Buy Or Sell) 回合 Off Before New 扎营">
     <Cheatline>
       <Offset>7FC5FF90</Offset>
       <Section>0</Section>

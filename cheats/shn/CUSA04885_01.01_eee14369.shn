@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="Horror" />
   <Items />
-  <Cheat Text="God Mode (Can Be Grabbed)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="神模式 (Can Be Grabbed)">
     <Cheatline>
       <Offset>C634D</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>E8-98-EB-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>91FBD0</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>66-41-89-97-BA-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite First Aid Spray/Herbs/Chiken Eggs">
+  <Cheat Text="无限急救喷雾/Herbs/Chiken Eggs">
     <Cheatline>
       <Offset>2E0326</Offset>
       <Section>0</Section>
@@ -81,7 +89,7 @@
       <ValueOff>FF-CA</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Clip Ammo">
+  <Cheat Text="Infinite Clip Ammo｜弹夹子弹无限">
     <Cheatline>
       <Offset>7FC57F50</Offset>
       <Section>0</Section>
@@ -95,7 +103,7 @@
       <ValueOff>66-41-89-4F-02</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>7FC57F40</Offset>
       <Section>0</Section>
@@ -109,7 +117,7 @@
       <ValueOff>09-C8-89-43-06</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades On Use">
+  <Cheat Text="手雷无限 On Use">
     <Cheatline>
       <Offset>2E1FB2</Offset>
       <Section>0</Section>
@@ -117,7 +125,7 @@
       <ValueOff>66-FF-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Save Always 0">
+  <Cheat Text="保存 Always 0">
     <Cheatline>
       <Offset>7FC57E90</Offset>
       <Section>0</Section>
@@ -131,7 +139,7 @@
       <ValueOff>66-89-88-00-50-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stop Time Mercenaries">
+  <Cheat Text="停止 Time 雇佣兵">
     <Cheatline>
       <Offset>246E0</Offset>
       <Section>0</Section>
@@ -139,7 +147,7 @@
       <ValueOff>C4-C1-7A-11-47-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Score Mercenaries">
+  <Cheat Text="最大 比分 雇佣兵">
     <Cheatline>
       <Offset>91F1A0</Offset>
       <Section>0</Section>
@@ -153,7 +161,7 @@
       <ValueOff>41-89-70-4C-41-01-48-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Ptas On Pick">
+  <Cheat Text="最大/无限PTAS On Pick">
     <Cheatline>
       <Offset>91F930</Offset>
       <Section>0</Section>
@@ -167,7 +175,7 @@
       <ValueOff>01-81-0C-50-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Attache Case XL (Activate B4 Starting The Game)">
+  <Cheat Text="Attache 箱子 XL (Activate B4 Starting The Game)">
     <Cheatline>
       <Offset>740806</Offset>
       <Section>21</Section>
@@ -175,7 +183,7 @@
       <ValueOff>AD</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite R. Launcher (Put Handgun In The Center)">
+  <Cheat Text="Infinite R. 挑空技 (Put 手枪 In The Center)">
     <Cheatline>
       <Offset>7407CE</Offset>
       <Section>21</Section>
@@ -183,7 +191,7 @@
       <ValueOff>23-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Chicago Typewriter (Put Handgun In The Center)">
+  <Cheat Text="Infinite Chicago 打字机 (Put 手枪 In The Center)">
     <Cheatline>
       <Offset>7407CE</Offset>
       <Section>21</Section>

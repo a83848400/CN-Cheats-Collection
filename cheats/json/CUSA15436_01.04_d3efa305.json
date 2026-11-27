@@ -1,12 +1,17 @@
 {
-  "name": "Kingdom Come: Deliverance - Royal Edition",
+  "name": "Kingdom Come: Deliverance - Royal Edition｜《王国来临：救赎》——皇家版",
   "id": "CUSA15436",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Bleeding Kill You)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (流血 Kill You)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431B900",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431FDB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Nourishment",
-      "type": "checkbox",
+      "name": "Infinite Nourishment｜无尽的滋养",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431FEF0",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Energy",
-      "type": "checkbox",
+      "name": "Infinite Energy｜无限能量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "431FF60",

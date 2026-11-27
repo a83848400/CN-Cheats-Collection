@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Uncharted: The Nathan Drake Collection" Moder="hejran7" Cusa="CUSA02826" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Genres Name="Adventure" />
-  <Cheat Text="L3 + Upper L or Upper R Touch Pad" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="L3 + Upper L or Upper R Touch Pad｜L3 + 上方左侧或上方右侧触控板" Description="">
     <Cheatline>
       <Offset>923800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>80-BB-44-48-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable FPS View - Hold L3" Description="">
+  <Cheat Text="Enable FPS View - 领地 L3" Description="">
     <Cheatline>
       <Offset>2CFEA8</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>0F-85-AC-0E-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Enable Task View - Hold L3" Description="">
+  <Cheat Text="Enable Task View - 领地 L3" Description="">
     <Cheatline>
       <Offset>92382E</Offset>
       <Section>0</Section>
@@ -38,7 +46,7 @@
       <ValueOff>80-B8-B9-39-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>346469</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>41-FF-8C-06-40-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="">
+  <Cheat Text="无限弹药" Description="">
     <Cheatline>
       <Offset>345E98</Offset>
       <Section>0</Section>

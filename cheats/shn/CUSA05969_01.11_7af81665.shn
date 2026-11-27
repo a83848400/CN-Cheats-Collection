@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: WWII" Moder="DeathRGH" Cusa="CUSA05969" Version="01.11" Process="eboot.bin">
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="All Client Infinite Ammo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="All Client 无限弹药">
     <Cheatline>
       <Offset>72B698</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>29-54-88-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Client Godmode">
+  <Cheat Text="All Client 上帝模式">
     <Cheatline>
       <Offset>9553B9</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>41-01-87-DC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Specialist (Zombies)">
+  <Cheat Text="Infinite 专家 (Zombies)">
     <Cheatline>
       <Offset>488093</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="God Mode">
+  <Cheat Text="God Mode｜神模式">
     <Cheatline>
       <Offset>C73800</Offset>
       <Section>0</Section>
@@ -46,7 +54,7 @@
       <ValueOff>41-8B-81-2C-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>933902</Offset>
       <Section>0</Section>
@@ -54,7 +62,7 @@
       <ValueOff>41-89-44-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload">
+  <Cheat Text="No Reload｜无需换弹">
     <Cheatline>
       <Offset>9261D7</Offset>
       <Section>0</Section>
@@ -62,7 +70,7 @@
       <ValueOff>44-29-64-88-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Throwables">
+  <Cheat Text="Infinite Throwables｜投掷物无限">
     <Cheatline>
       <Offset>8FFFFC</Offset>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>FF-48-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Medkits">
+  <Cheat Text="Infinite Medkits｜无限医疗包">
     <Cheatline>
       <Offset>726D47</Offset>
       <Section>0</Section>
@@ -78,7 +86,7 @@
       <ValueOff>45-89-77-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AA Gun Health">
+  <Cheat Text="Infinite AA Gun 生命">
     <Cheatline>
       <Offset>C73800</Offset>
       <Section>0</Section>

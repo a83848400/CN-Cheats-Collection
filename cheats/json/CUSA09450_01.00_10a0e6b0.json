@@ -1,12 +1,17 @@
 {
-  "name": "MLB The Show 18",
+  "name": "MLB The Show 18｜《MLB The Show 18》",
   "id": "CUSA09450",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Hold R1 To Hit Homerun",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "领地 R1 To Hit Homerun",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1893800",

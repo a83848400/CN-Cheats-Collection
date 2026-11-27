@@ -1,0 +1,33 @@
+{
+  "name": "Assassin's Creed Shadows｜刺客信条：影",
+  "id": "PPSA20397",
+  "version": "01.019.076",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "品质 FPS",
+      "hint": "品质 FPS",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "03B883B0",
+          "on": "BC48C805",
+          "off": "D080C805"
+        },
+        {
+          "offset": "02A24805",
+          "on": "6784DE06",
+          "off": "7BBCDE06"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "zer0day"
+  ]
+}

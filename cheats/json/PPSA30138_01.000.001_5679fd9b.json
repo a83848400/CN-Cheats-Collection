@@ -1,13 +1,18 @@
 {
-  "name": "Fast & Furious: Arcade Edition",
+  "name": "Fast & Furious: 街机厅 Edition",
   "id": "PPSA30138",
   "version": "01.000.001",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Stop Timer",
-      "description": "",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "停止 计时器",
+      "description": "",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80303DDD",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Inf Nitro",
+      "name": "无限氮气",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "80682A9F",
@@ -29,9 +34,9 @@
       ]
     },
     {
-      "name": "Allways Win 1º Place",
+      "name": "Allways Win 1º Place｜永远夺得第一名",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "807E63D9",

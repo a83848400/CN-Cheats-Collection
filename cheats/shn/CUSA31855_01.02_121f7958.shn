@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Star Ocean: The Divine Force" Moder="Wander FW9.00" Cusa="CUSA31855" Version="01.02" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Infinite Health (Main Player)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (Main Player)">
     <Cheatline>
       <Offset>235BEC0</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>0F-49-D1-41-89-57-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite AP (5 bars)">
+  <Cheat Text="无限能力点 (5 bars)">
     <Cheatline>
       <Offset>235A4B0</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>C4-C1-7A-11-46-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Coins (on gain)">
+  <Cheat Text="最大 角落 (on gain)">
     <Cheatline>
       <Offset>235A4F0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>0F-82-A1-00-00-00-44-89-7A-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max skill Points (on level up)">
+  <Cheat Text="最大 skill 得分 (on 升级)">
     <Cheatline>
       <Offset>235A560</Offset>
       <Section>0</Section>
@@ -58,7 +66,7 @@
       <ValueOff>41-01-85-00-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items (on pick up)">
+  <Cheat Text="最大 Items (on 拾取)">
     <Cheatline>
       <Offset>235A5C0</Offset>
       <Section>0</Section>
@@ -72,7 +80,7 @@
       <ValueOff>44-03-77-30-44-89-77-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max DUMA points (on gain)">
+  <Cheat Text="最大 DUMA 得分 (on gain)">
     <Cheatline>
       <Offset>235A630</Offset>
       <Section>0</Section>
@@ -86,7 +94,7 @@
       <ValueOff>89-8B-F0-53-07-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite DUMA charge Bar (in Battle)">
+  <Cheat Text="Infinite DUMA 冲锋 Bar (in 战斗)">
     <Cheatline>
       <Offset>235A670</Offset>
       <Section>0</Section>

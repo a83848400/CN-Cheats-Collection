@@ -5,8 +5,13 @@
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Health｜生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023D440",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo (no Reload)",
-      "type": "checkbox",
+      "name": "无限弹药 (无需换弹)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023D3F0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "X3 Speed",
-      "type": "checkbox",
+      "name": "X3 Speed｜速度×3",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023D410",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "X4 Speed",
-      "type": "checkbox",
+      "name": "X4 Speed｜速度×4",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023D410",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "X6 Speed",
-      "type": "checkbox",
+      "name": "X6 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8023D410",

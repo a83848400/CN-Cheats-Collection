@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="Infinite Health (-Trolley Combat)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (-Trolley Combat)">
     <Cheatline>
       <Offset>E33B20</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>C4-C1-7A-11-86-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (-Bosses)">
+  <Cheat Text="一击必杀 (-Bosses)">
     <Cheatline>
       <Offset>E33B64</Offset>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>C5-FA-5C-4E-14-C5-FA-11-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Gold (Bullets)">
+  <Cheat Text="无限金币 (项目符号)">
     <Cheatline>
       <Offset>E33B40</Offset>
       <Section>0</Section>
@@ -57,7 +65,7 @@
       <ValueOff>8B-87-00-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo - *No Reload Needed">
+  <Cheat Text="无限弹药 - *无需换弹 Needed">
     <Cheatline>
       <Offset>1F2648</Offset>
       <Section>0</Section>
@@ -83,7 +91,7 @@
       <ValueOff>C7-83-70-05-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo (DShK 12.7mm Machinegun)">
+  <Cheat Text="无限弹药 (DShK 12.7mm Machinegun)">
     <Cheatline>
       <Offset>26DA83</Offset>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>FF-8B-18-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Low Temperature (DShK 12.7mm Machinegun)">
+  <Cheat Text="Low Temperature (DShK 12.7mm Machinegun)｜低温（DShK 12.7毫米机枪）">
     <Cheatline>
       <Offset>E33C50</Offset>
       <Section>0</Section>
@@ -105,7 +113,7 @@
       <ValueOff>C5-FA-11-8B-E0-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Pressure (Tikhar + Flamethrower + Helsing)">
+  <Cheat Text="Infinite Pressure (Tikhar + 火焰喷射器 + Helsing)">
     <Cheatline>
       <Offset>E33940</Offset>
       <Section>0</Section>
@@ -119,7 +127,7 @@
       <ValueOff>C5-FA-11-83-00-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Charge (Hellbreath)">
+  <Cheat Text="Infinite 冲锋 (Hellbreath)">
     <Cheatline>
       <Offset>E33C90</Offset>
       <Section>0</Section>
@@ -133,7 +141,7 @@
       <ValueOff>C5-FA-11-8B-0C-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Weapons Jam">
+  <Cheat Text="No 武器 Jam">
     <Cheatline>
       <Offset>E33A00</Offset>
       <Section>0</Section>
@@ -147,7 +155,7 @@
       <ValueOff>C4-C1-7A-11-9E-BC-0C-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mask: Unbreakable">
+  <Cheat Text="面具: Unbreakable">
     <Cheatline>
       <Offset>E33C20</Offset>
       <Section>0</Section>
@@ -161,7 +169,7 @@
       <ValueOff>C5-FA-10-80-10-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mask: Infinite Filter">
+  <Cheat Text="面具: Infinite Filter">
     <Cheatline>
       <Offset>E33AB0</Offset>
       <Section>0</Section>
@@ -175,7 +183,7 @@
       <ValueOff>C5-FA-10-80-5C-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mask: Infinite Filter Replacements">
+  <Cheat Text="面具: Infinite Filter Replacements">
     <Cheatline>
       <Offset>E33A90</Offset>
       <Section>0</Section>
@@ -189,7 +197,7 @@
       <ValueOff>C5-FA-10-87-54-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Grenades And Knives">
+  <Cheat Text="手雷无限 And Knives">
     <Cheatline>
       <Offset>E33AD0</Offset>
       <Section>0</Section>
@@ -203,7 +211,7 @@
       <ValueOff>8B-87-D8-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Claymore Mines (Last Light)">
+  <Cheat Text="Infinite 阔剑 Mines (Last Light)">
     <Cheatline>
       <Offset>E33BD0</Offset>
       <Section>0</Section>
@@ -217,7 +225,7 @@
       <ValueOff>8B-87-08-03-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Aim Cross Stays Small">
+  <Cheat Text="Aim 传中 Stays Small">
     <Cheatline>
       <Offset>E33A40</Offset>
       <Section>0</Section>
@@ -231,7 +239,7 @@
       <ValueOff>C5-FA-11-43-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Machine 'Crazy-Horse' Gun">
+  <Cheat Text="机械生命体 'Crazy-Horse' Gun">
     <Cheatline>
       <Offset>E33A60</Offset>
       <Section>0</Section>
@@ -245,7 +253,7 @@
       <ValueOff>C5-FA-11-83-70-05-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Batteries x1">
+  <Cheat Text="Infinite 电池 x1">
     <Cheatline>
       <Offset>E33845</Offset>
       <Section>0</Section>
@@ -259,7 +267,7 @@
       <ValueOff>C5-FA-11-83-90-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Batteries x4">
+  <Cheat Text="Infinite 电池 x4">
     <Cheatline>
       <Offset>E33845</Offset>
       <Section>0</Section>
@@ -273,7 +281,7 @@
       <ValueOff>C5-FA-11-83-90-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Batteries x8">
+  <Cheat Text="Infinite 电池 x8">
     <Cheatline>
       <Offset>E33845</Offset>
       <Section>0</Section>
@@ -287,7 +295,7 @@
       <ValueOff>C5-FA-11-83-90-04-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Batteries x20">
+  <Cheat Text="Infinite 电池 x20">
     <Cheatline>
       <Offset>E33845</Offset>
       <Section>0</Section>

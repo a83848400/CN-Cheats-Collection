@@ -1,12 +1,17 @@
 {
-  "name": "Blaster Master Zero III",
+  "name": "爆能枪 Master 杰洛 III",
   "id": "CUSA27578",
   "version": "01.12",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2FEC633",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Main Weapon SP (Gaia)",
-      "type": "checkbox",
+      "name": "Infinite Main Weapon 精神值 (Gaia)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C54E",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Sub Weapon SP (Gaia)",
-      "type": "checkbox",
+      "name": "无限副武器 精神值 (Gaia)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C77E",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Energy Guard (Pilot)",
-      "type": "checkbox",
+      "name": "无限能量 防御 (铁驭)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1CE4D",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Sub Weapon (Pilot)",
-      "type": "checkbox",
+      "name": "无限副武器 (铁驭)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1CD60",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Dash (Pilot)",
-      "type": "checkbox",
+      "name": "无限冲刺 (铁驭)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1194AC8",
@@ -76,8 +81,8 @@
       ]
     },
     {
-      "name": "Infinite Counter (Pilot)",
-      "type": "checkbox",
+      "name": "Infinite 计数器 (铁驭)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A207BD",
@@ -87,8 +92,8 @@
       ]
     },
     {
-      "name": "G Crusher Shot Plus (Main Wep Gaia)",
-      "type": "checkbox",
+      "name": "G Crusher Shot Plus (Main Wep Gaia)｜G 粉碎者射击增强版（盖亚主武器）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C320",
@@ -98,8 +103,8 @@
       ]
     },
     {
-      "name": "Anti SF Ammo (Main Wep Gaia)",
-      "type": "checkbox",
+      "name": "Anti SF 但是 (Main Wep Gaia)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C320",
@@ -109,8 +114,8 @@
       ]
     },
     {
-      "name": "Rain Cluster (Main Wep Gaia)",
-      "type": "checkbox",
+      "name": "Rain Cluster (Main Wep Gaia)｜雨之星团（主武器盖亚）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C320",
@@ -120,8 +125,8 @@
       ]
     },
     {
-      "name": "Homing Laser (Sub Wep Gaia)",
-      "type": "checkbox",
+      "name": "Homing 激光瞄准器 (Sub Wep Gaia)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C340",
@@ -131,8 +136,8 @@
       ]
     },
     {
-      "name": "Aqua Shift (Sub Wep Gaia)",
-      "type": "checkbox",
+      "name": "Aqua Shift (Sub Wep Gaia)｜“水之变迁”（盖亚潜艇武器）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C340",
@@ -142,8 +147,8 @@
       ]
     },
     {
-      "name": "Ignition Spark (Sub Wep Gaia)",
-      "type": "checkbox",
+      "name": "Ignition Spark (Sub Wep Gaia)｜点火火花（Sub Wep Gaia）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C340",
@@ -153,8 +158,8 @@
       ]
     },
     {
-      "name": "Phantom Solid (Sub Wep Gaia)",
-      "type": "checkbox",
+      "name": "灵体 Solid (Sub Wep Gaia)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C340",
@@ -164,8 +169,8 @@
       ]
     },
     {
-      "name": "Final Acceleration Blast (Sub Wep Gaia)",
-      "type": "checkbox",
+      "name": "Final 加速度 Blast (Sub Wep Gaia)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1A1C340",

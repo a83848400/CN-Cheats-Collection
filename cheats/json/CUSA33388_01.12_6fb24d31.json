@@ -1,0 +1,27 @@
+{
+  "name": "生化危机 4",
+  "id": "CUSA33388",
+  "version": "01.12",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "————翻译：B站谢锡榆————",
+      "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Master 背包 (道具无限, 但是 & 金钱) - By Bruschetta85",
+      "type": "checkbox｜复选框",
+      "memory": [
+        {
+          "offset": "52687EA",
+          "on": "909090",
+          "off": "894834"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander FW9.00"
+  ]
+}

@@ -1,12 +1,17 @@
 {
-  "name": "Seven: Enhanced Edition",
+  "name": "Seven: Enhanced Edition｜《Seven：增强版》",
   "id": "CUSA15019",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life And Stamina",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 And 体力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4897000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Items",
-      "type": "checkbox",
+      "name": "道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "259575",
@@ -52,8 +57,8 @@
       ]
     },
     {
-      "name": "0 Weight",
-      "type": "checkbox",
+      "name": "0 重量",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "48970B7",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Wolfenstein II: The New Colossus" Moder="Talixme" Cusa="CUSA07377" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Godmode">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Godmode｜上帝模式">
     <Cheatline>
       <Offset>E7BBD5</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-43-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo">
+  <Cheat Text="Infinite Ammo｜无限弹药">
     <Cheatline>
       <Offset>1192BA3</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>89-43-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload / Enemies Don't Shoot">
+  <Cheat Text="无需换弹 / Enemies Don'恐怖分子 Shoot">
     <Cheatline>
       <Offset>118B41B</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf reload">
+  <Cheat Text="无限重装">
     <Cheatline>
       <Offset>3043800</Offset>
       <Section>0</Section>

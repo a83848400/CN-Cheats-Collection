@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Superbeat: Xonic" Moder="Fullcodes" Cusa="CUSA06894" Version="01.00" Process="eboot.bin">
   <Items />
-  <Cheat Text="Auto play with Superbeat">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Auto play with Superbeat｜使用 Superbeat 自动播放">
     <Cheatline>
       <Offset>80216BA1</Offset>
       <Section>0</Section>

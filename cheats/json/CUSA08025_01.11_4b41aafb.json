@@ -1,12 +1,17 @@
 {
-  "name": "Borderlands 3",
+  "name": "无主之地 3",
   "id": "CUSA08025",
   "version": "01.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health + Grenades",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 + 手榴弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92F0800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4BF84EA",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "525750D",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Money",
-      "type": "checkbox",
+      "name": "Infinite Money｜金钱无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5144908",
@@ -54,8 +59,8 @@
       ]
     },
     {
-      "name": "Infinite Skill Points",
-      "type": "checkbox",
+      "name": "Infinite Skill 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "9A321A",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Grenades (only use if not using Infinite Health)",
-      "type": "checkbox",
+      "name": "手雷无限 (only use if not using 无限生命)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "92F0800",

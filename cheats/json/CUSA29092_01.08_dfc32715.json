@@ -1,12 +1,17 @@
 {
-  "name": "Call of Duty: Vanguard",
+  "name": "使命召唤: 先锋",
   "id": "CUSA29092",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (Campaign Mode)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (战役 Mode)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "10ADF3B",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health (Zombies Mode)",
-      "type": "checkbox",
+      "name": "无限生命 (丧尸模式)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AF240",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo / No Reload",
-      "type": "checkbox",
+      "name": "无限弹药 / 无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AF100",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Armor / Max Salvage (9999)",
-      "type": "checkbox",
+      "name": "护甲无限 / 最大 废料 (9999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AF2D0",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Max Money (99999)",
-      "type": "checkbox",
+      "name": "金钱最大 (99999)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "27AF1A0",

@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Neptunia x SENRAN KAGURA: Ninja Wars" Moder="2B" Cusa="CUSA29604" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Inf HP">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限血量">
     <Cheatline>
       <Offset>1017800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>C5-FA-11-43-08</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP">
+  <Cheat Text="最大 XP">
     <Cheatline>
       <Offset>101781F</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>44-89-B3-10-09-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="InF Coins">
+  <Cheat Text="无限金币">
     <Cheatline>
       <Offset>1017800</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>81-F9-40-42-0F-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf throwables">
+  <Cheat Text="投掷物无限">
     <Cheatline>
       <Offset>1017838</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Lumberjack's Dynasty",
+  "name": "Lumberjack's Dynasty｜伐木工王朝",
   "id": "CUSA32418",
   "version": "01.05",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max Money",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473DB0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Social Points",
-      "type": "checkbox",
+      "name": "最大 Social 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473DCE",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Items",
-      "type": "checkbox",
+      "name": "最大 Items",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473DFE",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "No Hunger / No Sleep",
-      "type": "checkbox",
+      "name": "不会饥饿 / 不睡觉",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473856",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Freeze Timer",
-      "type": "checkbox",
+      "name": "Freeze 计时器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "473E15",

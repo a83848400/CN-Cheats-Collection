@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil 4" Moder="LMN" Cusa="CUSA33388" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="infinite ammo item usage &amp; crafting">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限弹药 物品 usage &amp; crafting">
     <Cheatline>
       <Section>0</Section>
       <Offset>321F16A</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>89-48-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf cash usage">
+  <Cheat Text="无限现金的使用">
     <Cheatline>
       <Section>0</Section>
       <Offset>34E7171</Offset>
@@ -18,7 +26,7 @@
       <ValueOff>45-89-6C-24-10</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf spinel when trading">
+  <Cheat Text="无限尖晶石 when 交易">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>89-43-20-80-7D-CF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Relod">
+  <Cheat Text="No Relod｜非雷洛德">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -43,7 +51,7 @@
       <ValueOff>E8-47-47-2B-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf gems when combining">
+  <Cheat Text="宝石无限 when combining">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>89-48-34-E9-C4-F9-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf gems when remving">
+  <Cheat Text="宝石无限 when remving">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -75,7 +83,7 @@
       <ValueOff>89-48-34-80-7D-CF-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="save counter always 1">
+  <Cheat Text="保存 计数器 always 1">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -91,7 +99,7 @@
       <ValueOff>41-89-45-4C-E9-6A-FF-FF-FF</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="inf key usage (trainning area and looked drawers) disable after using">
+  <Cheat Text="Infinite 钥匙 usage (trainning area and looked drawers) disable after using">
     <Cheatline>
       <Section>0</Section>
       <Offset>50A31CA</Offset>

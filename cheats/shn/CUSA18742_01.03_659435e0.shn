@@ -3,7 +3,15 @@
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>7FC5CB90</Offset>
       <Section>0</Section>
@@ -17,7 +25,7 @@
       <ValueOff>48-8D-7C-87-4C-89-17</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill">
+  <Cheat Text="1 Hit Kill｜一击必杀">
     <Cheatline>
       <Offset>7FC5D0D0</Offset>
       <Section>0</Section>
@@ -31,7 +39,7 @@
       <ValueOff>44-89-B3-EC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Magic Power">
+  <Cheat Text="Infinite 魔法 电力">
     <Cheatline>
       <Offset>7FC5EAC0</Offset>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>C5-FA-11-44-87-58</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Gold On Buy">
+  <Cheat Text="最大/无限金币 On Buy">
     <Cheatline>
       <Offset>7FC5FFD0</Offset>
       <Section>0</Section>
@@ -59,7 +67,7 @@
       <ValueOff>89-8F-BC-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Recovery Items On Use">
+  <Cheat Text="最大/Infinite 后摇 Items On Use">
     <Cheatline>
       <Offset>7FC5FFA0</Offset>
       <Section>0</Section>
@@ -73,7 +81,7 @@
       <ValueOff>88-84-0F-C0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max XP On Kill">
+  <Cheat Text="最大 XP On Kill">
     <Cheatline>
       <Offset>7FC5FE50</Offset>
       <Section>0</Section>

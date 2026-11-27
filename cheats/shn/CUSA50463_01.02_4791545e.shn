@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="RetroRealms" Moder="Ali-mk" Cusa="CUSA50463" Version="01.02" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite-生命">
     <Cheatline>
       <Offset>8069282A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>C5-FA-11-47-40</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-Fire">
+  <Cheat Text="Infinite-火">
     <Cheatline>
       <Offset>806B6C6F</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>C5-FA-11-81-88-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite-GOLD">
+  <Cheat Text="Infinite-金币">
     <Cheatline>
       <Offset>8079914A</Offset>
       <Section>0</Section>

@@ -1,12 +1,17 @@
 {
-  "name": "Dying Light",
+  "name": "Dying Light｜《消逝的光芒》",
   "id": "CUSA00078",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8FECEE",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Inf Weapon Durability",
-      "type": "checkbox",
+      "name": "武器耐久无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "573626",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Inf Ammo",
-      "type": "checkbox",
+      "name": "无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A300E2",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "573151",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Freeze Part / Item Count",
-      "type": "checkbox",
+      "name": "Freeze Part / 物品 Count",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57315B",
@@ -60,8 +65,8 @@
       ]
     },
     {
-      "name": "Add Item",
-      "type": "checkbox",
+      "name": "Add 物品",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "57315B",
@@ -71,8 +76,8 @@
       ]
     },
     {
-      "name": "Max Money on Spend",
-      "type": "checkbox",
+      "name": "金钱最大 on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4BE50",

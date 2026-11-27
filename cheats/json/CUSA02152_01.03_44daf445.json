@@ -1,13 +1,18 @@
 {
-  "name": "Middle-Earth: Shadow of Mordor: Game of the Year Edition",
+  "name": "Middle-土: 暗影 of Mordor: Game of the Year Edition",
   "id": "CUSA02152",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
-      "hint": null,
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "hint": null,
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1FA7C01",
@@ -22,9 +27,9 @@
       ]
     },
     {
-      "name": "Infinite Arrows",
+      "name": "Infinite Arrows｜箭矢无限",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6D77D9",
@@ -34,9 +39,9 @@
       ]
     },
     {
-      "name": "Infinite Focus",
+      "name": "Infinite Focus｜无限专注值",
       "hint": null,
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6d7747",

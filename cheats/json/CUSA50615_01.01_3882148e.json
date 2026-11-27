@@ -1,13 +1,18 @@
 {
-  "name": "Elden Ring Nightreign",
+  "name": "艾尔登法环 Nightreign",
   "id": "CUSA50615",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "TRAINER INFO (read only)",
-      "description": "This trainer has been partially tested and seem to work fine. Please let me know if there is any issue. Be sure to read the comment on each individual cheat, if a comment is available. Trainer is compatible with CUSA50614, CUSA50615, CUSA50617, CUSA48853. Enjoy! :)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "TRAINER INFO (read only)｜训练师信息（只读）",
+      "description": "This trainer has been partially tested and seem to work fine. Please let me know if there is any issue. Be sure to read the comment on each individual cheat, if a comment is available. Trainer is compatible with CUSA50614, CUSA50615, CUSA50617, CUSA48853. Enjoy! :)｜该作弊工具已经过部分测试，似乎运行正常。如有任何问题，请告知我。如有相关说明，请务必阅读每个作弊项下的注释。该作弊工具兼容 CUSA50614、CUSA50615、CUSA50617 和 CUSA48853。 祝您玩得愉快！ :)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAEFFF",
@@ -17,9 +22,9 @@
       ]
     },
     {
-      "name": "Master Code (Must be enabled first and all the time)",
-      "description": "Cheats with -- prefix depend on the Master Code",
-      "type": "checkbox",
+      "name": "Master 密码 (Must be enabled first and all the time)",
+      "description": "Cheats with -- prefix depend on the Master 密码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF1D0",
@@ -54,9 +59,9 @@
       ]
     },
     {
-      "name": "God Mode",
+      "name": "God Mode｜神模式",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF000",
@@ -91,9 +96,9 @@
       ]
     },
     {
-      "name": "One Hit Kill",
+      "name": "One Hit Kill｜一击必杀",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B1D70B",
@@ -103,9 +108,9 @@
       ]
     },
     {
-      "name": "Inf+Max Health",
+      "name": "Infinite+生命最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF099",
@@ -130,9 +135,9 @@
       ]
     },
     {
-      "name": "Inf+Max FP",
+      "name": "Infinite+FP值最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF106",
@@ -147,9 +152,9 @@
       ]
     },
     {
-      "name": "Inf+Max Stamina",
+      "name": "Infinite+体力最大",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF137",
@@ -164,9 +169,9 @@
       ]
     },
     {
-      "name": "Inf+Max Consumables",
+      "name": "Infinite+最大 Consumables",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "187A611",
@@ -176,9 +181,9 @@
       ]
     },
     {
-      "name": "Inf+Max Runes",
+      "name": "Infinite+最大 铭文",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF168",
@@ -193,9 +198,9 @@
       ]
     },
     {
-      "name": "Runes Retained On Death",
+      "name": "铭文 Retained On 死亡",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1E92030",
@@ -205,9 +210,9 @@
       ]
     },
     {
-      "name": "Inf+Max Murks",
+      "name": "Infinite+最大 Murks",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "3AAF19B",
@@ -222,9 +227,9 @@
       ]
     },
     {
-      "name": "Player No Dead 1.01-1.02",
-      "description": "Player can take damage but never die.",
-      "type": "checkbox",
+      "name": "玩家编号：Dead 1.01-1.02",
+      "description": "Player can take 输出 but never die.",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1B1061B",
@@ -234,9 +239,9 @@
       ]
     },
     {
-      "name": "Infinite Ultimate Art",
+      "name": "Infinite 必杀技 Art",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1DAACC6",
@@ -246,9 +251,9 @@
       ]
     },
     {
-      "name": "--No Skill Cooldown",
+      "name": "--技能无冷却",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "44262D3",
@@ -258,9 +263,9 @@
       ]
     },
     {
-      "name": "--Enemy Speed x0",
-      "description": "Freezes enemies",
-      "type": "checkbox",
+      "name": "--敌人速度×0",
+      "description": "Freezes enemies｜使敌人冻结",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF1C",
@@ -270,9 +275,9 @@
       ]
     },
     {
-      "name": "--Enemy Speed x0.5",
+      "name": "--敌人速度×0.5",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF1C",
@@ -282,9 +287,9 @@
       ]
     },
     {
-      "name": "--Enemy Speed x1",
+      "name": "--敌人速度×1",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF1C",
@@ -294,9 +299,9 @@
       ]
     },
     {
-      "name": "--Enemy Speed x2",
+      "name": "--敌人速度×2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF1C",
@@ -306,9 +311,9 @@
       ]
     },
     {
-      "name": "--Player Speed x1",
+      "name": "--玩家速度×1",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF18",
@@ -318,9 +323,9 @@
       ]
     },
     {
-      "name": "--Player Speed x2",
+      "name": "--玩家速度×2",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF18",
@@ -330,9 +335,9 @@
       ]
     },
     {
-      "name": "--Player Speed x3",
+      "name": "--玩家速度×3",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF18",
@@ -342,9 +347,9 @@
       ]
     },
     {
-      "name": "--Player Speed x4",
+      "name": "--玩家速度×4",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF18",
@@ -354,9 +359,9 @@
       ]
     },
     {
-      "name": "--Player Speed x5",
+      "name": "--玩家速度×5",
       "description": "",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4D3FF18",

@@ -1,12 +1,17 @@
 {
-  "name": "Like a Dragon: Ishin!",
+  "name": "Like a 小龙: Ishin!",
   "id": "CUSA32174",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Godmode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Godmode｜上帝模式",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4725B96",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1BBB0",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "2 Hit Kill",
-      "type": "checkbox",
+      "name": "2 命中击杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1BBD8",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Max Heat",
-      "type": "checkbox",
+      "name": "Max Heat｜热血槽拉满",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B800",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Stamina",
-      "type": "checkbox",
+      "name": "Infinite Stamina｜无限耐力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1BC09",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Infinite Gauge ( Soldier Squad )",
-      "type": "checkbox",
+      "name": "无限量规 ( 士兵 小队 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1BC19",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Max Money",
-      "type": "checkbox",
+      "name": "Max Money｜金钱最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1BC2D",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Max Virtue",
-      "type": "checkbox",
+      "name": "最大 五行",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B817",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Max Brawler Orbs",
-      "type": "checkbox",
+      "name": "最大 Brawler Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B800",
@@ -144,8 +149,8 @@
       ]
     },
     {
-      "name": "Max Swordsman Orbs",
-      "type": "checkbox",
+      "name": "最大 剑士 Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B858",
@@ -160,8 +165,8 @@
       ]
     },
     {
-      "name": "Max Gunman Orbs",
-      "type": "checkbox",
+      "name": "最大 Gunman Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B82E",
@@ -176,8 +181,8 @@
       ]
     },
     {
-      "name": "Max Wild Dancer Orbs",
-      "type": "checkbox",
+      "name": "最大 Wild Dancer Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B843",
@@ -192,8 +197,8 @@
       ]
     },
     {
-      "name": "Max Training Orbs",
-      "type": "checkbox",
+      "name": "最大 训练 Orbs",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B82E",
@@ -208,8 +213,8 @@
       ]
     },
     {
-      "name": "Max XP ( on gain )",
-      "type": "checkbox",
+      "name": "最大 XP ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B843",
@@ -224,8 +229,8 @@
       ]
     },
     {
-      "name": "Max Enhanced Ammo",
-      "type": "checkbox",
+      "name": "最大 Enhanced 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B853",
@@ -240,8 +245,8 @@
       ]
     },
     {
-      "name": "Max Flame Ammo",
-      "type": "checkbox",
+      "name": "最大 Flame 但是",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B866",
@@ -256,8 +261,8 @@
       ]
     },
     {
-      "name": "Max Combo",
-      "type": "checkbox",
+      "name": "最大 Combo",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B87A",
@@ -272,8 +277,8 @@
       ]
     },
     {
-      "name": "Unlock all ( Produce - Seafood - Materials )",
-      "type": "checkbox",
+      "name": "解锁 all ( Produce - Seafood - Materials )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B800",
@@ -298,8 +303,8 @@
       ]
     },
     {
-      "name": "Max Items ( Produce - Seafood - Materials )",
-      "type": "checkbox",
+      "name": "最大 Items ( Produce - Seafood - Materials )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B800",
@@ -314,8 +319,8 @@
       ]
     },
     {
-      "name": "Max Items ( Warehouse )",
-      "type": "checkbox",
+      "name": "最大 Items ( 仓库 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B816",
@@ -330,8 +335,8 @@
       ]
     },
     {
-      "name": "Max Lottery Tickets",
-      "type": "checkbox",
+      "name": "最大 Lottery Tickets",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B82A",
@@ -346,8 +351,8 @@
       ]
     },
     {
-      "name": "Max Wodden Tags",
-      "type": "checkbox",
+      "name": "最大 Wodden Tags",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B842",
@@ -362,8 +367,8 @@
       ]
     },
     {
-      "name": "Max Shogi - Mahjong ",
-      "type": "checkbox",
+      "name": "最大 Shogi - Mahjong ",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B85A",
@@ -378,8 +383,8 @@
       ]
     },
     {
-      "name": "Infinite Third Eyes ( Rock - Paper - Scissors )",
-      "type": "checkbox",
+      "name": "Infinite Third Eyes ( Rock - 纸张 - Scissors )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B87C",
@@ -394,8 +399,8 @@
       ]
     },
     {
-      "name": "Max Score Wood Chooping",
-      "type": "checkbox",
+      "name": "最大 比分 木 Chooping",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B894",
@@ -410,8 +415,8 @@
       ]
     },
     {
-      "name": "Sensual Healing ( Godmode )",
-      "type": "checkbox",
+      "name": "Sensual Healing ( 上帝模式 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B8AF",
@@ -426,8 +431,8 @@
       ]
     },
     {
-      "name": "Dancing Max Score ( on gain )",
-      "type": "checkbox",
+      "name": "Dancing 最大 比分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B8CA",
@@ -442,8 +447,8 @@
       ]
     },
     {
-      "name": "Cannon Coaching Max Score ( on gain )",
-      "type": "checkbox",
+      "name": "Cannon Coaching 最大 比分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "6E1B8DB",

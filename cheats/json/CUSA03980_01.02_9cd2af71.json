@@ -1,12 +1,17 @@
 {
-  "name": "BioShock: The Collection",
+  "name": "BioShock: The Collection｜《生化奇兵：合集》",
   "id": "CUSA03980",
   "version": "01.02",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Max/Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "最大/无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BFC0",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Health+1 Hit Kill",
-      "type": "checkbox",
+      "name": "最大/无限生命+一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5BFC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "No Reload",
-      "type": "checkbox",
+      "name": "No Reload｜无需换弹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B340",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Infinite Salt",
-      "type": "checkbox",
+      "name": "Infinite 盐",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B9F0",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Money On Buy (Don't Take More Money)",
-      "type": "checkbox",
+      "name": "最大/金钱无限 On Buy (Don'恐怖分子 Take More 金钱)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B9D0",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "Max/Infinite Lockpicks On Use",
-      "type": "checkbox",
+      "name": "最大/Infinite Lockpicks On Use",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5B910",

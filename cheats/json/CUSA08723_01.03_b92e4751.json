@@ -1,12 +1,17 @@
 {
-  "name": "Rabi-Ribi",
+  "name": "Rabi-Ribi｜拉比-里比",
   "id": "CUSA08723",
   "version": "01.03",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Inf Life",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7CB000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Inf Mp",
-      "type": "checkbox",
+      "name": "无限魔力",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "63233",

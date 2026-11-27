@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil HD Remaster",
+  "name": "生化危机 HD Remaster",
   "id": "CUSA01067",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A9F3",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "18A97A",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "349FA6",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Infinite Tapes",
-      "type": "checkbox",
+      "name": "Infinite Tapes｜无限磁带",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "CF0B0",
@@ -49,8 +54,8 @@
       ]
     },
     {
-      "name": "Max Infinite Health",
-      "type": "checkbox",
+      "name": "最大 无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48710",
@@ -65,8 +70,8 @@
       ]
     },
     {
-      "name": "Infinite Ink Ribbons",
-      "type": "checkbox",
+      "name": "Infinite 墨水 Ribbons",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC4A450",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Max Infinite Dagger (Need 2 To Work/99)",
-      "type": "checkbox",
+      "name": "最大 Infinite 匕首 (Need 2 To Work/99)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48E00",
@@ -97,8 +102,8 @@
       ]
     },
     {
-      "name": "Save Aways 0",
-      "type": "checkbox",
+      "name": "保存 Aways 0",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48720",
@@ -113,8 +118,8 @@
       ]
     },
     {
-      "name": "All Weapons/Items In The Chest (Tranfer The Knife)",
-      "type": "checkbox",
+      "name": "All 武器/Items In The 宝箱 (Tranfer The 刀)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AA6038",
@@ -129,8 +134,8 @@
       ]
     },
     {
-      "name": "Max Infinite Ammo/Clip/Items (Do Not Use With Any Weapon Cheat Below)",
-      "type": "checkbox",
+      "name": "最大 无限弹药/Clip/Items (Do Not Use With Any Weapon Cheat Below)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC481C0",
@@ -155,8 +160,8 @@
       ]
     },
     {
-      "name": "Handgun (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "手枪 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC48D60",
@@ -171,8 +176,8 @@
       ]
     },
     {
-      "name": "Samurai Edge (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "武士 Edge (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -187,8 +192,8 @@
       ]
     },
     {
-      "name": "Shotgun (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "霰弹枪 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -203,8 +208,8 @@
       ]
     },
     {
-      "name": "Granade Launcher (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "Granade 挑空技 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -219,8 +224,8 @@
       ]
     },
     {
-      "name": "Magnum Revolver (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "Magnum 左轮手枪 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -235,8 +240,8 @@
       ]
     },
     {
-      "name": "Flamethrower (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "火焰喷射器 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -251,8 +256,8 @@
       ]
     },
     {
-      "name": "Assalt Shotgun (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "Assalt 霰弹枪 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -267,8 +272,8 @@
       ]
     },
     {
-      "name": "Infinite Rocket Launcher (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "无限火箭筒 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -283,8 +288,8 @@
       ]
     },
     {
-      "name": "Rocket Launcher (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "火箭发射器 (Activate/Enter/Deactivate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",
@@ -299,8 +304,8 @@
       ]
     },
     {
-      "name": "Barry's 44 Magnum (Activate/Enter/Deactivate)",
-      "type": "checkbox",
+      "name": "Barry's 44 Magnum (Activate/Enter/Deactivate)｜巴里的44马格南（激活/进入/取消激活）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC493B0",

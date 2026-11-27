@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Pac-Man World Re-Pac" Moder="Reddevil82 - FW 9.00" Cusa="CUSA32074" Version="01.02" Process="eboot.bin">
   <Genres Name="Arcade" />
   <Items />
-  <Cheat Text="Invincible">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Invincible｜无敌">
     <Cheatline>
       <Offset>197FDF8</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>4D-89-BE-A8-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>197FDEC</Offset>
       <Section>0</Section>
@@ -30,7 +38,7 @@
       <ValueOff>44-29-F8-31-F6-89-C7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Lives ( on gain / lose )">
+  <Cheat Text="最大 Lives ( on gain / lose )">
     <Cheatline>
       <Offset>197FDB0</Offset>
       <Section>0</Section>
@@ -44,7 +52,7 @@
       <ValueOff>89-81-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Items ( collect 2 )">
+  <Cheat Text="最大 Items ( collect 2 )">
     <Cheatline>
       <Offset>197FDDE</Offset>
       <Section>0</Section>

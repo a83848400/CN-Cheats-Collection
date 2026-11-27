@@ -1,12 +1,17 @@
 {
-  "name": "Blazing Chrome",
+  "name": "Blazing Chrome｜《烈焰铬》",
   "id": "CUSA14656",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Lives",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "267F49",

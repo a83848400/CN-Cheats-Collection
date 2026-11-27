@@ -1,12 +1,17 @@
 {
-  "name": "Timespinner",
+  "name": "Timespinner｜时光转轮",
   "id": "CUSA11926",
   "version": "01.04",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DB80",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Max Exp Hero",
-      "type": "checkbox",
+      "name": "经验值最大 英雄",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F0BDC0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Infinite Sand Use (fill up the glass then activate)",
-      "type": "checkbox",
+      "name": "Infinite 沙子 Use (fill up the glass then activate)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E610",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Max Weapons Exp",
-      "type": "checkbox",
+      "name": "最大 武器 经验",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E640",
@@ -69,8 +74,8 @@
       ]
     },
     {
-      "name": "Max Entropy(on sell)",
-      "type": "checkbox",
+      "name": "最大 Entropy(on sell)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DC80",
@@ -85,8 +90,8 @@
       ]
     },
     {
-      "name": "99 Items (on use)",
-      "type": "checkbox",
+      "name": "99 Items (on use)｜99 件（使用时）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DC60",
@@ -101,8 +106,8 @@
       ]
     },
     {
-      "name": "Familiar Max Exp",
-      "type": "checkbox",
+      "name": "Familiar 经验值最大",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5DC10",

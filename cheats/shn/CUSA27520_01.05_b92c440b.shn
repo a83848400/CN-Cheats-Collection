@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dolmen" Moder="Saso_900" Cusa="CUSA27520" Version="01.05" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="HP / All  (Master Code)">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="手机 / All  (Master 密码)">
     <Cheatline>
       <Offset>802A7800</Offset>
       <Section>0</Section>
@@ -16,7 +24,7 @@
       <ValueOff>8B-16-89-17-5D</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
+  <Cheat Text="一击必杀 (MC)">
     <Cheatline>
       <Offset>802A7863</Offset>
       <Section>0</Section>
@@ -24,7 +32,7 @@
       <ValueOff>75-04</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Stamina / Energy (MC)">
+  <Cheat Text="体力 / 能量 (MC)">
     <Cheatline>
       <Offset>802A7837</Offset>
       <Section>0</Section>
@@ -32,7 +40,7 @@
       <ValueOff>75-30</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Nanites ( Enable Stamina Cheat)">
+  <Cheat Text="最大 Nanites ( Enable 体力 Cheat)">
     <Cheatline>
       <Offset>802A788F</Offset>
       <Section>0</Section>
@@ -40,7 +48,7 @@
       <ValueOff>75-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freez Enemy (Enable Stamina Cheat)">
+  <Cheat Text="Freez Enemy (Enable 体力 Cheat)">
     <Cheatline>
       <Offset>802A78A3</Offset>
       <Section>0</Section>

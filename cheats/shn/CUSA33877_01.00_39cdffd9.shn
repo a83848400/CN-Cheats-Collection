@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Resident Evil Director's Cut" Moder="Saso_9.00" Cusa="CUSA33877" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Master Code">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Master 密码">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>66-89-0C-38-B8-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health (MC)">
+  <Cheat Text="无限生命 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -27,7 +35,7 @@
       <ValueOff>74-0A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="1 Hit Kill (MC)">
+  <Cheat Text="一击必杀 (MC)">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -36,7 +44,7 @@
       <ValueOff>74-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Start With Magnum (1st Slot)">
+  <Cheat Text="Start With Magnum (1st Slot)｜从Magnum开始（第1个插槽）">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -45,7 +53,7 @@
       <ValueOff>01-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo All Weapons">
+  <Cheat Text="Infinite Ammo All Weapons｜全部武器无限弹药">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -61,7 +69,7 @@
       <ValueOff>88-0C-38-B8-01-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="All Items in Chest">
+  <Cheat Text="所有商品 in 宝箱">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>
@@ -70,7 +78,7 @@
       <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Game Time at End 00’00’00">
+  <Cheat Text="Game Time at 末地 00’00’00">
     <Cheatline>
       <Absolute>True</Absolute>
       <Section>0</Section>

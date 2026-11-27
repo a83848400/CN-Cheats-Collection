@@ -1,12 +1,17 @@
 {
-  "name": "Divinity: Original Sin II: Definitive Edition",
+  "name": "神兽: Original Sin II: Definitive Edition",
   "id": "CUSA11898",
   "version": "01.15",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health (level Up and fight your first figh)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无限生命 (升级 and fight your first figh)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7F60",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite AP",
-      "type": "checkbox",
+      "name": "Infinite AP｜无限能力点",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7EB0",
@@ -37,8 +42,8 @@
       ]
     },
     {
-      "name": "Max Coins(on pick up)",
-      "type": "checkbox",
+      "name": "最大 角落(on 拾取)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7E20",
@@ -53,8 +58,8 @@
       ]
     },
     {
-      "name": "Items do not decrease Coins is included",
-      "type": "checkbox",
+      "name": "物品数量不会减少 角落 is included",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "8B42D7",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Talents points",
-      "type": "checkbox",
+      "name": "Talents 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7AD0",
@@ -80,8 +85,8 @@
       ]
     },
     {
-      "name": "Attributes points (Spend and confim and repeat for all points)",
-      "type": "checkbox",
+      "name": "Attributes 得分 (Spend and confim and repeat for all 得分)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7D10",
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Experience Multiplier",
-      "type": "checkbox",
+      "name": "Experience Multiplier｜经验值倍增器",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7E80",
@@ -112,8 +117,8 @@
       ]
     },
     {
-      "name": "Combats Ability points",
-      "type": "checkbox",
+      "name": "Combats 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7AD0",
@@ -128,8 +133,8 @@
       ]
     },
     {
-      "name": "Civil Ability points",
-      "type": "checkbox",
+      "name": "Civil 特性 得分",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "24C7B00",

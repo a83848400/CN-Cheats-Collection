@@ -1,12 +1,17 @@
 {
-  "name": "Resident Evil: Origins Collection",
+  "name": "生化危机: Origins Collection",
   "id": "CUSA02882",
   "version": "01.00",
   "process": "bh0hd.elf",
   "mods": [
     {
-      "name": "Health / 1 Hit Mastercode",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 1 Hit 主代码",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AFF800",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Health",
-      "type": "checkbox",
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AFF800",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "1 Hit Kills",
-      "type": "checkbox",
+      "name": "1 Hit Kills｜一击必杀",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "AFF801",
@@ -43,8 +48,8 @@
       ]
     },
     {
-      "name": "Infinite Tapes / Save w/o Tapes",
-      "type": "checkbox",
+      "name": "无限磁带 / 保存 w/o Tapes",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1109B7",
@@ -59,8 +64,8 @@
       ]
     },
     {
-      "name": "Bottomless Clip",
-      "type": "checkbox",
+      "name": "Bottomless Clip｜无底夹",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1112A7",
@@ -70,8 +75,8 @@
       ]
     },
     {
-      "name": "Infinite Ammo",
-      "type": "checkbox",
+      "name": "Infinite Ammo｜无限弹药",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "1115CF",
@@ -81,8 +86,8 @@
       ]
     },
     {
-      "name": "Freeze SaveCounter",
-      "type": "checkbox",
+      "name": "Freeze SaveCounter｜冻结 SaveCounter",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "28A350",
@@ -92,8 +97,8 @@
       ]
     },
     {
-      "name": "Infinite Items",
-      "type": "checkbox",
+      "name": "Infinite Items｜道具无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "110BD5",

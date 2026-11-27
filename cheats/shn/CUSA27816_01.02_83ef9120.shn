@@ -2,7 +2,15 @@
 <Trainer Game="Marsupilami: Hoobadventure" Moder="Reddevil82" Cusa="CUSA27816" Version="01.02" Process="eboot.bin">
   <Genres Name="Adventure" />
   <Items />
-  <Cheat Text="Trainer Info (read only)" Description="I intentionally didn't make any cheats for collecting fruits because you only get one life after collecting 100 fruits.">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Trainer Info (read only)｜训练师信息（只读）" Description="I intentionally didn't make any cheats for collecting fruits because you only get one life after collecting 100 fruits.">
     <Cheatline>
       <Section>3</Section>
       <Offset>5EFFF</Offset>
@@ -10,7 +18,7 @@
       <ValueOff>00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Mastercode [ must be enabled for MC Cheats ]" Description="Mastercode [ must be enabled for MC Cheats ]">
+  <Cheat Text="Mastercode [ must be enabled for MC Cheats ]｜主代码 [ 必须启用才能使用 MC 作弊码 ]" Description="Mastercode [ must be enabled for MC Cheats ]">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD78C3</Offset>
@@ -48,7 +56,7 @@
       <ValueOff>C5-FA-10-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Invincible" Description="Invincible">
+  <Cheat Text="Invincible｜无敌" Description="Invincible">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD7830</Offset>
@@ -58,7 +66,7 @@
     <Cheatline>
       <Section>14</Section>
       <Offset>85F4CA</Offset>      <ValueOn>E9-61-83-37-05-90</ValueOn>      <ValueOff>8A-48-2C-80-E1-01</ValueOff>    </Cheatline>  </Cheat>
-  <Cheat Text="Infinite Health" Description="Infinite Health">
+  <Cheat Text="Infinite Health｜无限生命" Description="Infinite Health">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD784A</Offset>
@@ -72,7 +80,7 @@
       <ValueOff>8B-4C-24-F4-89-48-1C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Lives" Description="Max Lives">
+  <Cheat Text="最大 Lives" Description="Max Lives">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD7866</Offset>
@@ -86,7 +94,7 @@
       <ValueOff>48-8B-44-24-F8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Jumps" Description="Infinite Jumps">
+  <Cheat Text="Infinite Jumps｜无限跳跃" Description="Infinite Jumps">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD7877</Offset>
@@ -100,7 +108,7 @@
       <ValueOff>89-88-B0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Timer [ Dojo Stage ]" Description="Max Timer [ Dojo Stage ]">
+  <Cheat Text="最大 计时器 [ Dojo Stage ]" Description="Max Timer [ Dojo Stage ]">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD7800</Offset>
@@ -114,7 +122,7 @@
       <ValueOff>C5-FA-11-40-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Freeze Timer [ Time Challenge ]" Description="Freeze Timer [ Time Challenge ]">
+  <Cheat Text="Freeze 计时器 [ Time Challenge ]" Description="Freeze Timer [ Time Challenge ]">
     <Cheatline>
       <Section>14</Section>
       <Offset>95EAB6</Offset>
@@ -122,7 +130,7 @@
       <ValueOff>C5-FA-11-40-18</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Set Timer to 0 [ Time Challenge ]" Description="Set Timer to 0 [ Time Challenge ]">
+  <Cheat Text="Set 计时器 to 0 [ Time Challenge ]" Description="Set Timer to 0 [ Time Challenge ]">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD7820</Offset>
@@ -136,7 +144,7 @@
       <ValueOff>C5-FA-10-44-24-F4</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Only one Dojo to finish Stage [ Dojo Stage ]" Description="You only have to collect 1 dojo in the special level to successfully complete it.">
+  <Cheat Text="Only one Dojo to finish Stage [ Dojo Stage ]｜只需完成一个道场即可通关本阶段 [ 道场关卡 ]" Description="You only have to collect 1 dojo in the special level to successfully complete it.">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD780E</Offset>
@@ -150,7 +158,7 @@
       <ValueOff>8B-4C-24-F4-89-48-24</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Feathers [ on Map ]" Description="Max Feathers [ on Map ] - Unlocks 3D Art Galerie too :-)">
+  <Cheat Text="最大 Feathers [ on 地图 ]" Description="Max Feathers [ on Map ] - Unlocks 3D Art Galerie too :-)">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD7888</Offset>
@@ -164,7 +172,7 @@
       <ValueOff>8B-80-F0-00-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Tickets [ on Map ]" Description="Max Tickets [ on Map ]">
+  <Cheat Text="最大 Tickets [ on 地图 ]" Description="Max Tickets [ on Map ]">
     <Cheatline>
       <Section>14</Section>
       <Offset>5BD78A6</Offset>
@@ -178,7 +186,7 @@
       <ValueOff>48-8B-44-24-F8</ValueOff> 
    </Cheatline>
   </Cheat>
-  <Cheat Text="Max Eggs [ Hidden World - on Map ]" Description="Max Eggs [ Hidden World - on Map ]">
+  <Cheat Text="最大 Eggs [ Hidden World - on 地图 ]" Description="Max Eggs [ Hidden World - on Map ]">
     <Cheatline>
       <Section>15</Section>
       <Offset>5BD7800</Offset>
@@ -192,7 +200,7 @@
       <ValueOff>8B-80-00-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump Multiplier x 1 [ MC ]" Description="Jump Multiplier x 1 [ MC ]">
+  <Cheat Text="跳跃倍率 艾克斯 1 [ MC ]" Description="Jump Multiplier x 1 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F80</Offset>
@@ -200,7 +208,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump Multiplier x 2 [ MC ]" Description="Jump Multiplier x 2 [ MC ]">
+  <Cheat Text="跳跃倍率 艾克斯 2 [ MC ]" Description="Jump Multiplier x 2 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F80</Offset>
@@ -208,7 +216,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump Multiplier x 3 [ MC ]" Description="Jump Multiplier x 3 [ MC ]">
+  <Cheat Text="跳跃倍率 艾克斯 3 [ MC ]" Description="Jump Multiplier x 3 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F80</Offset>
@@ -216,7 +224,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Jump Multiplier x 4 [ MC ]" Description="Jump Multiplier x 4 [ MC ]">
+  <Cheat Text="跳跃倍率 艾克斯 4 [ MC ]" Description="Jump Multiplier x 4 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F80</Offset>
@@ -224,7 +232,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Multiplier x 1 [ MC ]" Description="Speed Multiplier x 1 [ MC ]">
+  <Cheat Text="速度 Multiplier 艾克斯 1 [ MC ]" Description="Speed Multiplier x 1 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F88</Offset>
@@ -232,7 +240,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Multiplier x 2 [ MC ]" Description="Speed Multiplier x 2 [ MC ]">
+  <Cheat Text="速度 Multiplier 艾克斯 2 [ MC ]" Description="Speed Multiplier x 2 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F88</Offset>
@@ -240,7 +248,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Multiplier x 3 [ MC ]" Description="Speed Multiplier x 3 [ MC ]">
+  <Cheat Text="速度 Multiplier 艾克斯 3 [ MC ]" Description="Speed Multiplier x 3 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F88</Offset>
@@ -248,7 +256,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Speed Multiplier x 4 [ MC ]" Description="Speed Multiplier x 4 [ MC ]">
+  <Cheat Text="速度 Multiplier 艾克斯 4 [ MC ]" Description="Speed Multiplier x 4 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F88</Offset>
@@ -256,7 +264,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ascent Multiplier x 1 [ MC ]" Description="Ascent Multiplier x 1 [ MC ]">
+  <Cheat Text="Ascent Multiplier 艾克斯 1 [ MC ]" Description="Ascent Multiplier x 1 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F8C</Offset>
@@ -264,7 +272,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ascent Multiplier x 10 [ MC ]" Description="Ascent Multiplier x 10 [ MC ]">
+  <Cheat Text="Ascent Multiplier 艾克斯 10 [ MC ]" Description="Ascent Multiplier x 10 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F8C</Offset>
@@ -272,7 +280,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ascent Multiplier x 20 [ MC ]" Description="Ascent Multiplier x 20 [ MC ]">
+  <Cheat Text="Ascent Multiplier 艾克斯 20 [ MC ]" Description="Ascent Multiplier x 20 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F8C</Offset>
@@ -280,7 +288,7 @@
       <ValueOff>00-00-80-3F</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Ascent Multiplier x 30 [ MC ]" Description="Ascent Multiplier x 30 [ MC ]">
+  <Cheat Text="Ascent Multiplier 艾克斯 30 [ MC ]" Description="Ascent Multiplier x 30 [ MC ]">
     <Cheatline>
       <Section>0</Section>
       <Offset>1DD3F8C</Offset>

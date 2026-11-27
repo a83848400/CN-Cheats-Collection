@@ -1,12 +1,17 @@
 {
-  "name": "Bloodstained: Curse of the Moon",
+  "name": "Bloodstained: 紧箍咒 of the Moon",
   "id": "CUSA12562",
   "version": "01.01",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Invincible+power=no-Weapon",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "无敌+电力=no-Weapon",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F6822",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Infinite-Health",
-      "type": "checkbox",
+      "name": "Infinite-生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2F5DAD",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "Infinite-lives",
-      "type": "checkbox",
+      "name": "Infinite-lives｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "415B5D",

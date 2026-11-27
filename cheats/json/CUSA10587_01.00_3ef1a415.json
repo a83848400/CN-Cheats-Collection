@@ -1,12 +1,17 @@
 {
-  "name": "SUPER ROBOT WARS X",
+  "name": "超级机器人大战 艾克斯",
   "id": "CUSA10587",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Money Gain when enemy killed during battle",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "金钱 Gain when enemy killed during 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A2D6D",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "TacP Gain when enemy killed during battle",
-      "type": "checkbox",
+      "name": "TacP Gain when enemy killed during 战斗",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A2EBE",
@@ -27,8 +32,8 @@
       ]
     },
     {
-      "name": "TacP Gain on Spend",
-      "type": "checkbox",
+      "name": "TacP Gain on Spend｜TacP 投入产出比",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A2F4B",
@@ -38,8 +43,8 @@
       ]
     },
     {
-      "name": "Money Gain on Spend",
-      "type": "checkbox",
+      "name": "金钱 Gain on Spend",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "4A2E0A",

@@ -1,12 +1,17 @@
 {
-  "name": "Horizon Chase Turbo",
+  "name": "地平线 追击 涡轮",
   "id": "CUSA11275",
   "version": "02.11",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Fuel",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Fuel｜燃料无限",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E820",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "Infinite Nitro Turbo",
-      "type": "checkbox",
+      "name": "无限氮气 涡轮",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "7FC5E580",

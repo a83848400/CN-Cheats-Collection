@@ -4,7 +4,15 @@
   <Genres Name="Fighting" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite HP" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite HP｜无限血量" Description="">
     <Cheatline>
       <Offset>2603F64</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>C5-EA-5D-D1</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina" Description="">
+  <Cheat Text="Infinite Stamina｜无限耐力" Description="">
     <Cheatline>
       <Offset>27B4E5E</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>C5-F2-5D-C8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items" Description="">
+  <Cheat Text="Infinite Items｜道具无限" Description="">
     <Cheatline>
       <Offset>1CFFE3A</Offset>
       <Section>0</Section>
@@ -34,7 +42,7 @@
       <ValueOff>44-01-F3</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Ammo" Description="">
+  <Cheat Text="Infinite Ammo｜无限弹药" Description="">
     <Cheatline>
       <Offset>27DE28C</Offset>
       <Section>0</Section>

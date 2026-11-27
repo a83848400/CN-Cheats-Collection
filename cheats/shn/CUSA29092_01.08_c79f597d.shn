@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Call of Duty: Vanguard" Moder="hejran7" Cusa="CUSA29092" Version="01.08" Process="eboot.bin">
   <Genres Name="FPS" />
   <Items />
-  <Cheat Text="Inf Health (Zombie Mode)" Description="">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 (僵尸 Mode)" Description="">
     <Cheatline>
       <Offset>159A96A</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>45-29-84-24-C0-01-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Ammo" Description="">
+  <Cheat Text="无限弹药" Description="">
     <Cheatline>
       <Offset>11270CD</Offset>
       <Section>0</Section>
@@ -18,7 +26,7 @@
       <ValueOff>29-D9</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Reload" Description="">
+  <Cheat Text="No Reload｜无需换弹" Description="">
     <Cheatline>
       <Offset>1125167</Offset>
       <Section>0</Section>
@@ -26,7 +34,7 @@
       <ValueOff>89-5C-88-54</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Cash" Description="">
+  <Cheat Text="最大 Cash" Description="">
     <Cheatline>
       <Offset>232B690</Offset>
       <Section>0</Section>

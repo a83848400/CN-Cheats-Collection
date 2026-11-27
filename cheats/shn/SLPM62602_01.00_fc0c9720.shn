@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Yokushin: GigaWing Generations" Moder="Ali-mk" Cusa="SLPM62602" Version="01.00" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite-lives P1">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="无限生命 P1">
     <Cheatline>
       <Offset>80800F2400</Offset>
       <Section>0</Section>
@@ -10,7 +18,7 @@
       <ValueOff>02</ValueOff>
     </Cheatline>
   </Cheat>
-    <Cheat Text="Infinite-Bomb P1">
+    <Cheat Text="无限炸弹 P1">
     <Cheatline>
       <Offset>807FD75CA8</Offset>
       <Section>0</Section>

@@ -4,7 +4,15 @@
   <Genres Name="Arcade" />
   <Genres Name="Fighting" />
   <Items />
-  <Cheat Text="Max Combo" Description="Max Combo">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="最大 Combo" Description="Max Combo">
     <Cheatline>
       <Offset>1DF1F</Offset>
       <Section>0</Section>
@@ -12,7 +20,7 @@
       <ValueOff>89-83-78-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max SP on Pickup" Description="Max SP on Pickup">
+  <Cheat Text="最大 精神值 on Pickup" Description="Max SP on Pickup">
     <Cheatline>
       <Offset>1D1E9</Offset>
       <Section>0</Section>
@@ -20,7 +28,7 @@
       <ValueOff>01-B3-30-08-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Katana Meter" Description="Inf Katana Meter">
+  <Cheat Text="Infinite 武士刀 Meter" Description="Inf Katana Meter">
     <Cheatline>
       <Offset>13A7F</Offset>
       <Section>0</Section>
@@ -28,7 +36,7 @@
       <ValueOff>0F-4E-D8</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Inf Health" Description="Inf Health">
+  <Cheat Text="无限生命" Description="Inf Health">
     <Cheatline>
       <Offset>17ADE</Offset>
       <Section>0</Section>

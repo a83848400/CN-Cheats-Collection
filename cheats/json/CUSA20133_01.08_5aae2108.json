@@ -1,12 +1,17 @@
 {
-  "name": "Mortal Shell",
+  "name": "Mortal 贝壳",
   "id": "CUSA20133",
   "version": "01.08",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Health / Stamina / Resolve / Speed (Master Code)",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "生命 / 体力 / 决意 / 速度 (Master 密码)",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D13000",
@@ -21,8 +26,8 @@
       ]
     },
     {
-      "name": "X2 Sprint Speed",
-      "type": "checkbox",
+      "name": "X2 Sprint 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D1308B",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "X3 Sprint Speed",
-      "type": "checkbox",
+      "name": "X3 Sprint 速度",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D1308B",
@@ -44,7 +49,7 @@
     },
     {
       "name": "Tar (65535)",
-      "type": "checkbox",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "5D13100",

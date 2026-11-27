@@ -1,12 +1,17 @@
 {
-  "name": "Gundam Breaker 3: Break Edition",
+  "name": "高达 Breaker 3: 破防 Edition",
   "id": "CUSA07651",
   "version": "01.00",
   "process": "eboot.bin",
   "mods": [
     {
-      "name": "Infinite Health",
+      "name": "————翻译：B站谢锡榆————",
       "type": "checkbox",
+      "memory": []
+    },
+    {
+      "name": "Infinite Health｜无限生命",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A5F892",
@@ -16,8 +21,8 @@
       ]
     },
     {
-      "name": "Kill all Enemies in Stage ( Reboot Ally after use !!! )",
-      "type": "checkbox",
+      "name": "击杀全部敌人 in Stage ( Reboot Ally after use !!! )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E578E4",
@@ -32,8 +37,8 @@
       ]
     },
     {
-      "name": "Infinite Boost",
-      "type": "checkbox",
+      "name": "Infinite Boost｜无限加速",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E57870",
@@ -48,8 +53,8 @@
       ]
     },
     {
-      "name": "Infinite Repair Kits ( Armor )",
-      "type": "checkbox",
+      "name": "Infinite Repair Kits ( Armor )｜无限维修包（护甲）",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E5783F",
@@ -64,8 +69,8 @@
       ]
     },
     {
-      "name": "Infinite Special Attacks",
-      "type": "checkbox",
+      "name": "《无限特辑》 Attacks",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "A67526",
@@ -75,8 +80,8 @@
       ]
     },
     {
-      "name": "Infinite Energy ( Quick Menu )",
-      "type": "checkbox",
+      "name": "无限能量 ( Quick 菜单 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E5784E",
@@ -91,8 +96,8 @@
       ]
     },
     {
-      "name": "Infinite Energy ( Rocket Launcher )",
-      "type": "checkbox",
+      "name": "无限能量 ( 火箭发射器 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E578C0",
@@ -107,8 +112,8 @@
       ]
     },
     {
-      "name": "Infinite Burst ( Special Attack L3 + R3 )",
-      "type": "checkbox",
+      "name": "Infinite Burst ( Special 攻击 L3 + R3 )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E578A0",
@@ -123,8 +128,8 @@
       ]
     },
     {
-      "name": "Max GP",
-      "type": "checkbox",
+      "name": "最大 GP金币",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E57887",
@@ -139,8 +144,8 @@
       ]
     },
     {
-      "name": "Max Ace Points ( on gain )",
-      "type": "checkbox",
+      "name": "最大 团灭 得分 ( on gain )",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "BE755C",
@@ -150,8 +155,8 @@
       ]
     },
     {
-      "name": "Infinite Tickets",
-      "type": "checkbox",
+      "name": "Infinite Tickets｜无限门票",
+      "type": "checkbox｜复选框",
       "memory": [
         {
           "offset": "2E578D0",

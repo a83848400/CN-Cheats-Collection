@@ -2,7 +2,15 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Grand Theft Auto: San Andreas - The Definitive Edition" Moder="Wander FW9.00" Cusa="CUSA26619" Version="01.04" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infinite Health">
+  <Cheat Text="————翻译：B站谢锡榆————">
+  <Cheatline>
+    <Offset>000000</Offset>
+    <Section>0</Section>
+    <ValueOn>00</ValueOn>
+    <ValueOff>00</ValueOff>
+  </Cheatline>
+</Cheat>
+  <Cheat Text="Infinite Health｜无限生命">
     <Cheatline>
       <Offset>5B87220</Offset>
       <Section>0</Section>
@@ -15,7 +23,7 @@
       <ValueOff>C4-C1-7A-11-97-04-07-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Car Health (when driving it)">
+  <Cheat Text="Infinite Car 生命 (when driving it)">
     <Cheatline>
       <Section>0</Section>
       <Offset>5B87AB0</Offset>
@@ -28,7 +36,7 @@
       <ValueOff>C4-C1-7A-11-8A-C4-06-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Car driving skill level up">
+  <Cheat Text="Fast Car driving skill 升级">
     <Cheatline>
       <Section>0</Section>
       <Offset>11757CC</Offset>
@@ -36,7 +44,7 @@
       <ValueOff>89-05-7E-F1-47-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Weapons/Muscles/Stamina skill level">
+  <Cheat Text="最大 武器/Muscles/体力 skill 等级">
     <Cheatline>
       <Section>0</Section>
       <Offset>5B87890</Offset>
@@ -50,7 +58,7 @@
       <ValueOff>C4-81-7A-11-04-B7</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Fast Motorcycle driving skill level up">
+  <Cheat Text="Fast Motorcycle driving skill 升级">
     <Cheatline>
       <Section>0</Section>
       <Offset>1176B79</Offset>
@@ -58,7 +66,7 @@
       <ValueOff>89-05-E5-DE-47-05</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Service vehicules timer">
+  <Cheat Text="Infinite Service vehicules 计时器">
     <Cheatline>
       <Section>0</Section>
       <Offset>112E1EF</Offset>
